@@ -1,0 +1,25 @@
+name: Flat Data - Termoficare Bucuresti
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Fetch termoficare status
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.cmteb.ro/functionare_sistem_termoficare.php
+          downloaded_filename: data/termoficare.html
