@@ -96,8 +96,10 @@ while IFS= read -r filename; do
 
             # Only commit if there are staged changes
             if ! git diff --cached --quiet; then
+                GIT_AUTHOR_NAME="Archive Bot" GIT_AUTHOR_EMAIL="archive@localhost" \
+                GIT_COMMITTER_NAME="Archive Bot" GIT_COMMITTER_EMAIL="archive@localhost" \
                 GIT_AUTHOR_DATE="@$timestamp" GIT_COMMITTER_DATE="@$timestamp" \
-                    git commit -m "Archive: $commit_date" --quiet
+                    git commit --no-verify -m "Archive: $commit_date" --quiet
                 ((count++))
             else
                 ((unchanged++))
