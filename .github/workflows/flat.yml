@@ -17,9 +17,12 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Fetch termoficare status
         uses: githubocto/flat@v3
         with:
           http_url: https://www.cmteb.ro/functionare_sistem_termoficare.php
           downloaded_filename: data/termoficare.html
+          postprocess: postprocess.ts
