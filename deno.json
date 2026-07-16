@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "postprocess": "deno run -A postprocess.ts",
+    "test": "TZ=UTC deno test --allow-read src/"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
