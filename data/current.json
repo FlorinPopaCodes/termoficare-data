@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-16T22:37:27",
+  "scraped_at": "2026-07-17T00:42:58",
   "status": "ok",
   "outages": [
     {
@@ -271,7 +271,7 @@
       "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-07-16T23:30",
+      "estimated_restore": "2026-07-17T10:00",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
     },
     {
@@ -280,7 +280,7 @@
       "blocks": 8,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-07-16T23:30",
+      "estimated_restore": "2026-07-17T10:00",
       "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
     },
     {
@@ -289,7 +289,7 @@
       "blocks": 29,
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar",
-      "estimated_restore": "2026-07-16T23:00",
+      "estimated_restore": "2026-07-17T23:00",
       "zone_raw": "• Str Doamna Ghica - bl.62 • Str Deva - imob. Nr. 5, 7, 3 • Str Trei Scaune - imob. Nr. 4, 7, 9, 11, 13, 17, 19, 21, 12 • Str Oradea - imob. Nr.5, 16, 54, 52, 56, 66 • Str Odorhei - imob. Nr. 12, 16, 60, 62, 64, • Şos Colentina - bl.10, 9A,9B, 9C"
     },
     {
