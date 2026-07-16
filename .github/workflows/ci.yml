@@ -1,0 +1,46 @@
+name: CI
+
+# The scrape bot (flat.yml) pushes to main every 15 minutes and those commits only ever
+# touch data/ and images/; ignoring exactly those paths keeps CI off the ~96 daily scrape
+# commits. paths-ignore fails open, so any new code path is covered by default.
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'data/**'
+      - 'images/**'
+  pull_request:
+    paths-ignore:
+      - 'data/**'
+      - 'images/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+          cache: true
+
+      - name: Typecheck (and verify deno.lock is up to date)
+        run: deno check --frozen src/ postprocess.ts
+
+      # Must go through the task, not a bare `deno test`: the task sets TZ=UTC, and the
+      # heatmap golden buckets days by local date, so an unpinned zone fails the run.
+      # --allow-read is the whole permission budget; do not widen it.
+      - name: Test
+        run: deno task test
