@@ -35,5 +35,5 @@ This repository uses the [Flat GitHub Action](https://github.com/githubocto/flat
 Deno.test("generateReadme with no years still renders the static scaffold", () => {
   const out = generateReadme([]);
   assertEquals(out.includes("## Commit Activity"), true);
-  assertEquals(out.includes("![") , false);
+  assertEquals(out.includes("!["), false);
 });

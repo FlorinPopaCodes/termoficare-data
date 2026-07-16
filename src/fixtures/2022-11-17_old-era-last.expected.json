@@ -1,0 +1,1061 @@
+{
+  "schema_version": 1,
+  "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
+  "scraped_at": "2022-11-17T09:00:01",
+  "status": "ok",
+  "outages": [
+    {
+      "sector": 1,
+      "pt_name": "2 P-ta Victoriei",
+      "blocks": 4,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - Cal Buzesti",
+      "estimated_restore": "2022-11-18T23:30",
+      "zone_raw": "• Şos Nicolae Titulescu - bl. A7, A1 • Str Buzeşti - bl. A5, A6"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Atelier Vicarb",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - Cal Buzesti",
+      "estimated_restore": "2022-11-18T23:30",
+      "zone_raw": "• Str Dr. Iacob Felix - 92-94"
+    },
+    {
+      "sector": 1,
+      "pt_name": "2 Ilie Pintilie",
+      "blocks": 4,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - Cal Buzesti",
+      "estimated_restore": "2022-11-18T23:30",
+      "zone_raw": "• Str Grigore Alexandrescu - bl. H1 • Bld Iancu de Hunedoara - bl. H5, H6, H4"
+    },
+    {
+      "sector": 1,
+      "pt_name": "3 P-Ţa Victoriei",
+      "blocks": 5,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - Cal Buzesti",
+      "estimated_restore": "2022-11-18T23:30",
+      "zone_raw": "• Cal Victoriei - bl. D4, D1, D5, D6 • Str Grigore Alexandrescu - bl. D7"
+    },
+    {
+      "sector": 1,
+      "pt_name": "11 Dorobanti",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - Lucrari Modernizare Retea Termica Primara Executata de Compania Energetica Servici",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Cal Dorobanţilor - bl.11"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Casata",
+      "blocks": 4,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - Lucrari Modernizare Retea Termica Primara Executata de Compania Energetica Servici",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Bld G-ral Gheorghe Magheru - bl. 1, Casata"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Cosmonautilor",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - Lucrari Modernizare Retea Termica Primara Executata de Compania Energetica Servici",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str George Enescu - bl. 6"
+    },
+    {
+      "sector": 1,
+      "pt_name": "7 Dinicu Golescu",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T09:00",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 5, 6,7"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Casata",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T09:00",
+      "zone_raw": "• Bld G-ral Gheorghe Magheru - bl. 1, Casata"
+    },
+    {
+      "sector": 1,
+      "pt_name": "12 Gostat",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T09:00",
+      "zone_raw": "• Str Ştefan cel Mare - bl.13 • Cal Dorobanţilor - bl. 13 • Bld Iancu de Hunedoara - bl. 12A, 12B"
+    },
+    {
+      "sector": 1,
+      "pt_name": "9-1 Mai",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T09:00",
+      "zone_raw": "• Str Ion Neculce - imob.Nr.77 • Bld Ion Mihalache - bl. 15A, 15"
+    },
+    {
+      "sector": 1,
+      "pt_name": "61-63 Dorobanti",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T09:00",
+      "zone_raw": "• Cal Dorobanţilor - bl.53-57, 59, 61-63"
+    },
+    {
+      "sector": 1,
+      "pt_name": "5 Aviatiei",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T09:00",
+      "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. 17A, 17B, 18A, 19A, 19B, 19F, 19G • Str Siriului - bl. 17C, 17D, 18B, 19D, 19E"
+    },
+    {
+      "sector": 1,
+      "pt_name": "D3 Gara",
+      "blocks": 4,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari circuit primar in punctul termic",
+      "estimated_restore": "2022-11-18T23:30",
+      "zone_raw": "• Str Gării de Nord - bl. D3 • Cal Griviţei - bl. J1"
+    },
+    {
+      "sector": 1,
+      "pt_name": "12-1 Mai",
+      "blocks": 6,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire",
+      "estimated_restore": "2022-11-18T20:00",
+      "zone_raw": "• Str Dr. Iacob Felix - bl. 18, 17, 17A, 19 • Bld Banul Manta - bl.19A • Str Sava Henţia - imob.Nr.6"
+    },
+    {
+      "sector": 2,
+      "pt_name": "U1 Avrig",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță pentru schimbătoarele de căldură în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2022-11-17T14:00",
+      "zone_raw": "• Str Avrig - bl.U1"
+    },
+    {
+      "sector": 2,
+      "pt_name": "E2 Vatra Luminoasa",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță pentru schimbătoarele de căldură în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2022-11-17T14:00",
+      "zone_raw": "• Str Vatra Luminoasă - bl. 1 • Str Lt. Victor Manu - bl. C1, C2, E1 • Str Ciurea - bl. Y2, A1, A2, A3, Y1, E2"
+    },
+    {
+      "sector": 2,
+      "pt_name": "5 Socului",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță pentru schimbătoarele de căldură în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2022-11-17T14:00",
+      "zone_raw": "• Bld Chişinău - bl.A1, A5, A5Bis, A3Bis, A4, A2, A3 • Str Dimitrie Hârlescu - bl.A5A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "11 Pantelimon",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Str Logofătul Dan - • Ale Vergului - bl. 21, 19, 20, 18, 17, 16, 15 • Şos Pantelimon - bl.1, 2"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Cosmos Extindere",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Str Sold. Zambilă Ioniţă - bl. 33C, 7C, 7D • Şos Pantelimon - bl. A3, A2, A1, A4, 7A+7B, B1, B2 • Str Azotului - bl. 33D"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Vaselor",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Şos Mihai Bravu - bl.P3, P30A, 4, 4Bis, P14, P12, P15Bis, P15, P13 • Str Pictor Oscar Obedeanu - imob.Nr.18 • Ale Avrig - bl.P4, P5, P6, P18Bis, P30, P18, P19Bis, P19"
+    },
+    {
+      "sector": 2,
+      "pt_name": "6 Mosilor - Partial",
+      "blocks": 6,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire",
+      "estimated_restore": "2022-11-17T20:00",
+      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 )"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Fundeni - Partial",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2022-11-17T14:00",
+      "zone_raw": "• Str Radovanu - bl.37, 38, 39"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Teiul Doamnei - Partial",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2022-11-17T14:00",
+      "zone_raw": "• Str Nada Florilor - bl. 5 • Str Braşoveni - bl. 7, 4, 3 • Str Lăptari Tei - bl. 6"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Galvani Tei",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță pentru schimbătoarele de căldură în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2022-11-17T14:00",
+      "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Fundeni",
+      "blocks": 17,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire din cauza",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Str Maior Vasile Băcilă - bl.33, 33A, 34, 34A, 32, 32A, 31A • Str Pescarilor - bl.36, • Str Răscoala 1907 - bl.31 • Str Radovanu - bl.37, 38, 39, 41, 42, 43, 44, 45"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Petricani",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire din cauza",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
+    },
+    {
+      "sector": 2,
+      "pt_name": "P7 Foisor",
+      "blocks": 1,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Şos Mihai Bravu - bl. P7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Liceul Iulia Hasdeu",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Bld Ferdinand I -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "P8 Foisor",
+      "blocks": 1,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Şos Mihai Bravu - P8"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Cheile Zanoagei",
+      "blocks": 8,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Str Berechet - bl.T31A • Str Inginerilor Tei - bl.T31B, T30C, T30B, T30A • Bld Ghica Tei - bl.T32, T33, • Str Oteşani -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "6 Colentina",
+      "blocks": 27,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Str Doamna Ghica - bl.62 • Str Deva - imob. Nr. 5, 7, 3 • Str Trei Scaune - imob. Nr. 4, 7, 9, 11, 13, 17, 19, 21 • Str Oradea - imob. Nr.5, 16, 54, 52, 56, 66 • Str Odorhei - imob. Nr. 12, 16, 60, 62, 64, • Şos Colentina - bl.10, 9A,9B, 9C"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Cheile Zanoagei",
+      "blocks": 26,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Str Alexandru cel Bun - BL.T61; T50 sc.1 • Str Deleni - bl.T69, T65, T63; T66, T74, T64 • Str Grigore Ionescu - bl.T71, T75, T72, T59, T60, T73 • Str Maica Domnului - bl.T56, T57, T58, T54, T55, T52, T53, T51, T50 sc.2 • Str Oteşani - bl.T70, T68, T67, T62"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Galvani Tei",
+      "blocks": 9,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T23:00",
+      "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Matei Ambrozie - Partial",
+      "blocks": 2,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie retea secundara pe circuitul de incalzire/Str. Istriei",
+      "estimated_restore": "2022-11-17T19:00",
+      "zone_raw": "• Str Istriei - bl. 41, 42"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Mărășești",
+      "blocks": 16,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Str Vlad Dracul - bl. B1, B2 • Str Nerva Traian - bl. M70, M71, M66, M69, M68, M65 • Str Emil Gârleanu - bl. A8, A9 • Str Logofătul Tăutu - bl. C3, C4, C5 • Str Lt. col. Dumitru Papazoglu - bl. B5 • Str Alexandru Moruzzi Voievod - bl. B1, A10"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Labirint",
+      "blocks": 5,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Călăraşi",
+      "blocks": 18,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Str Matei Basarab - 72, 86, 73, 74, 85, L122, L120, L118 • Str Theodor D. Speranţia - 78, 83, 84 • Str Agricultori - 80, 81, 82,79, • Cal Călăraşi - 75,76,77"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Călăraşi",
+      "blocks": 13,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
+    },
+    {
+      "sector": 3,
+      "pt_name": "G3",
+      "blocks": 9,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Bld Unirii - bl. G2, H1, G3, G2A, G2B, G2C • Str Ion Pillat - bl. G1, G1A • Bld Decebal - bl. H2"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Theodor Speranţia",
+      "blocks": 5,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Str Theodor D. Speranţia - bl. S22 • Bld Decebal - bl. S16 • Cal Călăraşi - bl. S18, S20, S21"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Călăraşi",
+      "blocks": 8,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Cal Călăraşi - Cal. Călăraşi bl. 50, 70, 68, 65, 49, 71, 67, 66,"
+    },
+    {
+      "sector": 3,
+      "pt_name": "4 Theodor Speranţia",
+      "blocks": 32,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Str Voroneţ - bl. A15+A15bis, A22, D8, D7, D6, D5A, D4, D5, D2, D3, D1 • Str Meşterul Manole - bl. D17, D10, D9, D11, D15 • Str Negoiu - bl. D18, D16, D14, D12 • Str Ion Păunescu-Paltin - bl. D13 • Str Dristorului - bl. A21, B14, A23, B13, A20, B7, B14, B20 • Int Arenei - bl. B2, B3"
+    },
+    {
+      "sector": 3,
+      "pt_name": "4 Labirint",
+      "blocks": 5,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Str Matei Basarab - bl. L112, L112A, L113A, L113 • Str Traian - bl. L112B"
+    },
+    {
+      "sector": 3,
+      "pt_name": "5 Călăraşi",
+      "blocks": 5,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Str Matei Basarab - 64 • Cal Călăraşi - 59, 60, 61, 58"
+    },
+    {
+      "sector": 3,
+      "pt_name": "S6",
+      "blocks": 10,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Bld Decebal - bl. S11, S9, S10, S7, S4, H3, S6, S5, S7, S8"
+    },
+    {
+      "sector": 3,
+      "pt_name": "E6",
+      "blocks": 4,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Bld Unirii - bl. E4, E4A • Str Traian - bl. E5, E6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "4 Dudești",
+      "blocks": 2,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T10:00",
+      "zone_raw": "• Str Brăiliţa - bl. D9B, D9A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "STB-Autobaza TITAN",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea primara - Bd.Theodor Pallady",
+      "estimated_restore": "2022-11-18T23:30",
+      "zone_raw": "• Bld Theodor Pallady - 64 TITAN"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Nitu Vasile",
+      "blocks": 17,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Sg. Niţu Vasile - bl. 10, 11V, 25, 26 • Str Rezonanţei - bl. 7, 8, 12V, 13V, 14V, N26 • Bld Constantin Brâncoveanu - bl. 27, 28 • Ale Cricovul Sărat - bl. 11, 12, 13, 14, N27"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Livada Noua",
+      "blocks": 17,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Alunişului - bl. 1 • Şos Giurgiului - bl. 4L, 9, 9T, G, N, O • Str Ghimpaţi - bl. 3, 2, 1T, 2T, 3T, 8T • Int Târgu Frumos - bl. 5, 6, 7, 4T"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Oltenita Placare",
+      "blocks": 7,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "19 Dolhasca",
+      "blocks": 4,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Secuilor - bl. 18, 19, 20, B47"
+    },
+    {
+      "sector": 4,
+      "pt_name": "6 Zona II",
+      "blocks": 5,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
+    },
+    {
+      "sector": 4,
+      "pt_name": "9 Brâncoveanu",
+      "blocks": 4,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Secuilor - bl. B46 • Str Sg. Gheorghe Tache - bl. B41, B43, B44"
+    },
+    {
+      "sector": 4,
+      "pt_name": "5 Brâncoveanu",
+      "blocks": 8,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Împăratul Traian - bl. B8, B9, B10, B11 • Bld Constantin Brâncoveanu - bl. B3, B4, B5, B7"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenita Placare",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Oltenita Placare",
+      "blocks": 22,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Padeşu - bl.2E, 4E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Pieptanari",
+      "blocks": 14,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Constantin Mănescu - bl. 6, 7, 8, Comunitatea Musulmană • Bld Pieptănari - bl. 5 • Str Dârste - Imobil nr.3 • Şos Viilor - bl. 4AB • Str Dumitru P. Botez - bl. Plomba 12 • Cal Şerban Vodă - bl. 2, 3A, 3B, 11 • Str Pandele Roşca - Scoala Gimnaziala Princepesa Margareta • Str Nicolae Galea - bl. 10 • Str Scarlat Otulescu - bl. 9"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Nitu Vasile - Partial",
+      "blocks": 3,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire - ( Al. Urucu Adrian nr 4)",
+      "estimated_restore": "2022-11-29T23:30",
+      "zone_raw": "• Ale Cricovul Sărat - bl. 8, 9, 10"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Nitu Vasile - Partial",
+      "blocks": 7,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire - ( Al. Urucu Adrian nr 4)",
+      "estimated_restore": "2022-11-29T23:30",
+      "zone_raw": "• Ale Donea Diana Alexandra - bl.32, • Ale Cricovul Dulce - bl. 17, 18, N18, N19, Policlinica • Ale Adrian Dan Urucu - bl. 20,"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenitei",
+      "blocks": 12,
+      "service": "Deficienta ACC/INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Mărţişor - Scoala Gimnaziala Martisor • Şos Olteniţei - bl. 1, 2, 3, 7, 8, 9, G1, G2, G3, G4, G5"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Oltenita Placare",
+      "blocks": 4,
+      "service": "Deficienta ACC/INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Şos Olteniţei - bl. 4, 5, 6 • Str Păduroiu - B24 • Bld Constantin Brâncoveanu - U.M.0221"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC/INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Serban Voda",
+      "blocks": 4,
+      "service": "Deficienta ACC/INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Simion - Imobil nr. 42 • Cal Şerban Vodă - bl. 1, 2, 2B"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Stoian Militaru",
+      "blocks": 6,
+      "service": "Deficienta ACC/INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Prasilei",
+      "blocks": 25,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - str Minca Dumitru x Salini",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Sold. Dumitru Minca - bl. 23, 24, 25 • Str Sg. Avram Petcu - Imobil nr.8 • Str Melineşti - bl. 1, 2, 3, 4, 11, 12, 13, 14 • Str Giovanni Boccaccio - bl. 5, 6, 7, 8 • Str Frt. Niculaie Marinescu - bl. A1, A2, A3, A4 • Str Praşilei - bl. 21, 22 • Str Peroni - bl. 9, 10, Imobil nr.45"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Vacaresti",
+      "blocks": 21,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - str Minca Dumitru x Salini",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
+    },
+    {
+      "sector": 4,
+      "pt_name": "8 Brâncoveanu",
+      "blocks": 12,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar - str Minca Dumitru x Salini",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Secuilor - bl. B27, B29, B31 • Str Păduroiu - bl. B30 • Str Huşi - bl. B32, B36, B37,B35 • Str Băltiţa - bl. B26, B28, B33, B34, B35"
+    },
+    {
+      "sector": 5,
+      "pt_name": "6 Chirigiu",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Progresului - bl. 5A"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Rahova",
+      "blocks": 22,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Petre Ispirescu - bl 40, 41, 42A, 42B, 47 • Str Bârca - bl M184, M189, M190, M194 • Str Focşani - bl M178, M183, M193, M195, M196 • Str Iancu Jianu - bl M176, M177, M192 • Cal Rahovei - bl 31, 37, 43-43A, 43B, imobil Lungu Smaranda"
+    },
+    {
+      "sector": 5,
+      "pt_name": "6 Sebastian",
+      "blocks": 8,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Mihail Sebastian - bl. S30, S32, S33, S34 • Str Ileana Cosânzeana - bl. S31, S35, S36 • Str Făt Frumos - bl. S29"
+    },
+    {
+      "sector": 5,
+      "pt_name": "3 Ferentari",
+      "blocks": 19,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Vedea - bl. 86A, 86B, 91, 92, 93A, 114 • Str Tutunului - bl. 87A, 87B • Cal Ferentari - bl. 94 • Str Zamfir Olaru - bl. 78, 86E, 87C, 87D, 87E • Str Năsăud - bl. 84,130, 86D, 86C"
+    },
+    {
+      "sector": 5,
+      "pt_name": "4 Sălaj",
+      "blocks": 9,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Şos Sălaj - bl. 58A, 126A, 128B • Ale Tulcea - bl. 126B, 128 • Cal Ferentari - bl. 125, 123, 124, 124A, 126"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Scoala Gimnaziala Nr.126",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Lereşti - instituţie"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Scoala Gimnazială Nr.280",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Sg. Gheorghe Donici - instituţie"
+    },
+    {
+      "sector": 5,
+      "pt_name": "3 Sălaj",
+      "blocks": 7,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Petre Păun - bl. 69D, 69C • Şos Sălaj - bl. 68, 69A 69B • Str Sg. Turturică - bl. 70A, 70B"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Petre Ispirescu",
+      "blocks": 18,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Petre Ispirescu - bl. P1A, P6 • Str Cobadin - bl. P14, P19A, P19 • Str Ileana Cosânzeana - bl. P1, P2, P7, P8, P9, P10, P11 • Str Făt Frumos - bl. P6, P12, P11A, P13, P15, P16"
+    },
+    {
+      "sector": 5,
+      "pt_name": "5 Chirigiu",
+      "blocks": 7,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Cal Rahovei - bl. 12, 13 • Str Năsăud - bl. 20, 21, 23, 24, 25"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Sălaj",
+      "blocks": 14,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Pecineaga - bl. 46, 47A • Str Cartojani - bl. 53A, 55A • Ale Sălaj - bl. 47, 48, 49, 50, 55, 53 • Str Dunavăţ - bl. 49C, 49D, 49E, 51A"
+    },
+    {
+      "sector": 5,
+      "pt_name": "bloc 1, bloc 2 (cod PT: 50039)",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Mihail Sebastian - 116 – PT propriu"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Alexandria",
+      "blocks": 27,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Ale Lereşti - bl D1, D2, D3, A2, 37, 38, Sc.126, Cresa Sf. Stelian • Str Antiaeriană - bl A1, A1Prim • Şos Alexandria - bl L21, L22, L23, L24, L25, L26, L27, L28, L29, M1, M2, M3, M4, M5, OD1, PC9, PC10, PC11, PC12"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Alexandria",
+      "blocks": 10,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Şos Alexandria - bl L1, L2, L3,L4, L5, L6, PC1, PC2, PC7, PC6"
+    },
+    {
+      "sector": 5,
+      "pt_name": "4 Chirigiu",
+      "blocks": 2,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Năsăud - bl. 31, 32"
+    },
+    {
+      "sector": 5,
+      "pt_name": "7 Margeanului",
+      "blocks": 19,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M29, M30, M31, M32, M33, M34 • Str Sold. Ene Modoran - bl. M93A, M93B • Str Dumbrava Nouă - bl. M78 scara 1, M79 • Str Buzoeni - bl. M38, M39, M40, M41, M76, M77, M78 scara 2 • Str Mărgeanului - bl. M35, M36, M37"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Vicina",
+      "blocks": 30,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Ale Pricopan - bl. Z7, Z8, 11, 12, 13, 14, 16, 17, 18, 19, 20, 33, 34, 35, 36 • Ale Sălaj - bl. Z4, Z5, Z10, 15, 21, 37, 41 • Str Malcoci - bl. 38, 39, 40 • Ale Vicina - bl. 1, Z2, Z3, Z6, Z9"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Doina",
+      "blocks": 9,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Doina - bl. 12, 17, 18 • Str Spătaru Preda - bl. 11, 19 • Str Sg. Constantin Muşat - bl. 16 • Str Sg. maj. Florea Blejan - bl. 13, 14, 15"
+    },
+    {
+      "sector": 5,
+      "pt_name": "3 Rahova",
+      "blocks": 14,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Pribeagului - bl 25 • Str Sold. Ene Modoran - bl 10C • Ale Rădăşeni - bl 14, 17, 19, 22, 27, imobil Dan Alexandru • Cal Rahovei - bl 10A, 10B, 16, 20A, 20B"
+    },
+    {
+      "sector": 5,
+      "pt_name": "3 Petre Ispirescu",
+      "blocks": 16,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Petre Ispirescu - bl. P22B, P22C, P22 • Str Cobadin - bl. P21C1, P21C2, P24 • Str Dumbrava Nouă - bl. P22A,P21B, P25, P41 • Str Moţoc - bl. P21A2, P21A1 • Str Elev Nicolae Popovici - bl. P42 • Str Sg.maj. Vasile Topliceanu - bl. P42B, P42A • Str Sg. maj. Ion Nedeleanu - bl. P40"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Teiuş",
+      "blocks": 30,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Ale Posada - bl. 31, 32, 33, 35, 36, 34, Şcoala nr. 131 • Str Teiuş - bl. 10, Şcoala generală nr. 139 ,Policlinica Teius • Şos Alexandria - bl. C11, 4, 5bis, 21, 21bis, 22, 26, 27, 30, imobil nr 7B • Ale Ghimeş - bl. 23, 24, 25,28, 29 • Str Garoafei - bl. 5, 6, 7, 8, 9, Grădiniţa nr. 185"
+    },
+    {
+      "sector": 5,
+      "pt_name": "6 Petre Ispirescu",
+      "blocks": 10,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Sg.maj. Vasile Topliceanu - bl. P37, P31, P32, P38, P36, P38A • Str Sg. maj. Ion Nedeleanu - bl. P33, P34, P35, P39"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Secţia 19 poliţie",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Amurgului - instituţie"
+    },
+    {
+      "sector": 5,
+      "pt_name": "7 Petre Ispirescu",
+      "blocks": 6,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Petre Ispirescu - bl. P71A, P72B • Str Lacul Plopului - bl. P64 • Str Dorneasca - bl. P72 • Str Sg.maj. Vasile Topliceanu - bl. P66, P67"
+    },
+    {
+      "sector": 5,
+      "pt_name": "5 Margeanului",
+      "blocks": 22,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Sold. Ene Modoran - bl. M88, M89, M90 • Str Dumbrava Nouă - bl. M5, M16A, M83,M84, M85 • Str Cap. Petre Mişcă - bl. M9, M13, M14, M15, M16 • Str Bârca - bl. M6, M7, M8, M10, M86, M87 • Str Mărgeanului - bl. M11, M11A, M12"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Rahova",
+      "blocks": 15,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Petre Ispirescu - bl 49 • Ale Bărbăteşti - bl 58 • Str Sg. Gheorghe Donici - bl 65, 71 • Str Serg. maj. Gheorghe Iorga - bl 53, 53A, 55, 55A, 59A, 59B • Cal Rahovei - bl 57, 57A, 57B, 59, 67"
+    },
+    {
+      "sector": 5,
+      "pt_name": "9 Margeanului",
+      "blocks": 36,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
+    },
+    {
+      "sector": 5,
+      "pt_name": "6 Rahova",
+      "blocks": 26,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Constantin Lecca - bl 66E • Str Pictor Mihail Dan - bl 62, 67 • Şos Sălaj - bl 34, 62A, 62B • Str Malcoci - bl 36, 45, 46 • Str Vasile Dumitrescu - bl 66C • Str Dunavăţ - bl 63, 66D, 45A, 45B, 45C, 70A • Str Teliţa - bl 66A, 66B, 67A, 70 • Str Frecăţei - bl 35 • Cal Rahovei - bl 44, 44A, 52, 66"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Sălaj",
+      "blocks": 27,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Pricopan - bl. 51 • Şos Sălaj - bl. 50A, 122B • Str Dunavăţ - bl. 57, 58, 59, 60, 60A, 61, 61A, 65 • Str Teliţa - bl. 66A, 116, 119C,120, 121, 122A, 52A, 56, 66A • Cal Ferentari - bl. 70A, 70B, 70C, 117, 117A, 119 A, 119B, 119D"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Soldat Croitoru",
+      "blocks": 29,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Pecineaga - bl.17C, 23, 24 • Str Cap. Preda - bl. 3E, 19, 4 • Str Cap. Ilina - bl. 3B, 3C, 14, 21, 21A, 3D • Str Sold. Vasile Croitoru - bl. 3, 8, 9, 9A, 9B • Str Sold. Ion Cândea - bl. 22, 21B • Str Lt. Ilie Câmpeanu - bl. 2, 18, 18A, 18B, 15, 15A • Str Slt. Popa - bl. 17, 17A, 17B, 20, 23A REZILIAT 21 – Sc. 1, 2"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Petre Ispirescu",
+      "blocks": 12,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
+    },
+    {
+      "sector": 5,
+      "pt_name": "11 Margeanului",
+      "blocks": 31,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Petre Ispirescu - bl. M137, M138, M140, M198, M198A, M199, M217, M210, M211, M212, M214, M215, M216, M213 • Str Crăişorului - bl. M136, M143A, M143B • Str Cobadin - bl. M200, M201, M202, M209 • Str Dumbrava Nouă - bl. M207, M208A, M2M141, M142, M197, M206,08 • Str Iancu Jianu - bl. M204, M205, M203"
+    },
+    {
+      "sector": 5,
+      "pt_name": "6 Sălaj",
+      "blocks": 8,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Spătarul Preda - bl. 97A, 129,129A • Cal Ferentari - bl. 126B, 96, 97, 129B • Str Năsăud - bl. 95"
+    },
+    {
+      "sector": 5,
+      "pt_name": "8 Alexandria",
+      "blocks": 11,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Dobrun - bl. M65, M67 • Şos Alexandria - bl. L8, L9, L10, L11, PC8 • Str Mărgeanului - bl. M68, M69, M70, M71"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Ferentari",
+      "blocks": 22,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Vedea - bl. 82 • Str Tutunari - bl. 76A, 76B, 76C, 76, 90, 90AI, 90AII • Str Prof. Dr. Alexandru Locusteanu - bl. 77A, 77B, 77C, 77D, 80 • Cal Ferentari - bl. 75, 75A, 83, 83A • Str Zamfir Olaru - bl. 81C, 79 • Cal Rahovei - bl. 72, 72A, 73, 81A, 81B"
+    },
+    {
+      "sector": 5,
+      "pt_name": "10 Margeanului",
+      "blocks": 32,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Drumul Sarii",
+      "blocks": 14,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Garoafei",
+      "blocks": 14,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Ale Costineşti - bl. 1, 2, 3, 4, 5, 6, 7, 8, 9 • Str Pucheni - bl. 2, 3 • Şos Alexandria - bl. 1, 12, imobil"
+    },
+    {
+      "sector": 5,
+      "pt_name": "8 Margeanului",
+      "blocks": 19,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Topolniţa - bl. M44, M45, M54 • Str Dobrun - bl. M57, M58 • Str Buzoeni - bl. M43, M46, M47, M48, M72, M73, M74 • Str Mărgeanului - bl. M49, M50 • Str Glicinelor - bl. M51, M52, M53, M55, M56"
+    },
+    {
+      "sector": 5,
+      "pt_name": "6 Margeanului",
+      "blocks": 19,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M21, M25, M26, M27 • Str Sold. Ene Modoran - bl. M91, M92, M94 • Str Dumbrava Nouă - bl. M17, M28, M80, M81, M82 • Str Cap. Petre Mişcă - bl. M18, M19, M20, M22 • Str Mărgeanului - bl. M23, M23A, M24"
+    },
+    {
+      "sector": 5,
+      "pt_name": "4 Rahova",
+      "blocks": 35,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare a Magistralei de termoficare Ferentari,lucreaza Compania Municipala Energetica Servicii Bucuresti .",
+      "estimated_restore": "2022-11-18T23:00",
+      "zone_raw": "• Str Pecineaga - bl 23A, 23B, 25, 26, 28A, 28C, 29C • Str Cap. Ilina - bl 11B, 13A • Str Vicina - bl 29, 29A, 29B, 32, 33, 37, 38 • Str Oltina - bl 23, 27, 28, 28B • Str Slt. Popa - bl 13B, 13C, 15, 15A, 15B • Str Sg. Scarlat - bl 12 • Cal Rahovei - bl 11, 11A, 11C, 13, 28, 26, 30, 30A, imobil Ioniţă"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Modul Toporaşi",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie racord primar.",
+      "estimated_restore": "2022-11-25T23:00",
+      "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Depoul STB Bujoreni",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie rețea primară",
+      "estimated_restore": "2022-11-17T21:00",
+      "zone_raw": "• Bld Timişoara - Instituție"
+    },
+    {
+      "sector": 6,
+      "pt_name": "10 Liniei",
+      "blocks": 9,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Liniei - BL 15-16 • Str Apusului - CAMIN TELECONSTRUCTIA • Str Vistiernicul Stavrinos - bl. 55, 56 • Str Băbeşti - bl.57, 57A, CAMIN FIROS • Str Trenului - UNITATE MILITARA, Imobil"
+    },
+    {
+      "sector": 6,
+      "pt_name": "8 Virtuții",
+      "blocks": 6,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2022-11-17T23:30",
+      "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
+    },
+    {
+      "sector": 6,
+      "pt_name": "12 Maratonului",
+      "blocks": 20,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire -",
+      "estimated_restore": "2022-11-18T20:00",
+      "zone_raw": "• Int Maratonului - bl. N6 • Str Apusului - bl. 47, 48, 49, 69, 70, 71, 50 • Str Mărgelelor - bl. N2, N3 • Int Flotei - bl. N4 • Ale Ghirlandei - bl. N1, N5, N5A, 43, 44, 45, 46 • Str Castranova - Casa Ilie"
+    },
+    {
+      "sector": 6,
+      "pt_name": "11 Mărgelelor - Partial",
+      "blocks": 1,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire -",
+      "estimated_restore": "2022-11-18T20:00",
+      "zone_raw": "• Str Apusului - bl. N29"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Roșu - Partial",
+      "blocks": 3,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire -",
+      "estimated_restore": "2022-11-18T20:00",
+      "zone_raw": "• Bld Anul 1864 - bl. P5, P6 • Str Părăluţelor - bl. P4"
+    }
+  ]
+}

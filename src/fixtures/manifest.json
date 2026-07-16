@@ -1,0 +1,74 @@
+[
+  {
+    "file": "2021-12-19_first-scrape.html",
+    "sha": "2b7c3ae1606c849186fe89572845fb6606222c60",
+    "scraped_at": "2021-12-19T21:17:32",
+    "why": "Very first scrape; old-era baseline"
+  },
+  {
+    "file": "2022-02-15_nedefinit-estimate.html",
+    "sha": "eb87d333c5f2f0dc355cde108230c211d32470f6",
+    "scraped_at": "2022-02-15T12:00:01",
+    "why": "First literal `Nedefinit` estimate; old era"
+  },
+  {
+    "file": "2022-03-07_backend-error-no-route.html",
+    "sha": "af150f8cb07380e5eb3783ae8ef0bd73f48d6210",
+    "scraped_at": "2022-03-07T06:00:01",
+    "why": "Smallest file; avarii-api unreachable -> error"
+  },
+  {
+    "file": "2022-08-01_busy-day-mid-size.html",
+    "sha": "6ca5d0e5a9a962345cc7377ce365855325f3ce50",
+    "scraped_at": "2022-08-01T00:00:01",
+    "why": "All 7 tables, mid-size row count, old era"
+  },
+  {
+    "file": "2022-11-17_old-era-last.html",
+    "sha": "5ce1e7bd26a27a1f1958b20e79e4f37c5abcb20b",
+    "scraped_at": "2022-11-17T09:00:01",
+    "why": "Last old-markup snapshot"
+  },
+  {
+    "file": "2022-11-17_new-era-first.html",
+    "sha": "7de26516eab1ef367fca92f75097b91a544f4958",
+    "scraped_at": "2022-11-17T10:00:01",
+    "why": "Markup-rewrite transition commit"
+  },
+  {
+    "file": "2023-06-26_backend-error-dns.html",
+    "sha": "82c32eda0ccda89383437a4ba3923a14d9550826",
+    "scraped_at": "2023-06-26T07:00:01",
+    "why": "Same error class, different message/era"
+  },
+  {
+    "file": "2023-08-03_max-rows.html",
+    "sha": "20e267f80181f8438b0f8c17aa97b5a0400d60e0",
+    "scraped_at": "2023-08-03T19:00:01",
+    "why": "Largest snapshot; 90-PT cell"
+  },
+  {
+    "file": "2025-01-01_all-sectors-empty.html",
+    "sha": "1597cf670d7f3a6a61ee9d693b03cd65515024f1",
+    "scraped_at": "2025-01-01T00:00:01",
+    "why": "System-wide zero incidents -> empty, not error"
+  },
+  {
+    "file": "2026-02-06_negative-blocks.html",
+    "sha": "e1ef8331f9f905f8cc1f7935ffccfe4d5a62844c",
+    "scraped_at": "2026-02-06T09:32:38",
+    "why": "`-6 blocuri/imobile` data-entry bug"
+  },
+  {
+    "file": "2026-07-01_current-happy-path.html",
+    "sha": "09c484cfca826fcbd6aa7ebe7fffccea2e00ec04",
+    "scraped_at": "2026-07-01T07:06:36",
+    "why": "Recent full-spread 7-table page"
+  },
+  {
+    "file": "synthetic-parse-error.html",
+    "sha": null,
+    "scraped_at": "2026-07-01T12:00:00",
+    "why": "Hand-crafted: table.raport present, rows unparseable -> parse_error"
+  }
+]
