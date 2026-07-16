@@ -2,6 +2,11 @@
 
 export type CsvValue = string | number | null;
 
+// The live loop and the backfill must write the same files, or a regeneration silently
+// lands beside the dataset instead of replacing it.
+export const OBSERVATIONS_DIR = "data/observations";
+export const SNAPSHOTS_DIR = "data/snapshots";
+
 export const OBSERVATION_HEADER = [
   "snapshot_ts",
   "sector",

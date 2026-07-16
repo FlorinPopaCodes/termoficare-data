@@ -10,7 +10,9 @@ import {
   type CsvValue,
   monthFile,
   OBSERVATION_HEADER,
+  OBSERVATIONS_DIR,
   SNAPSHOT_LOG_HEADER,
+  SNAPSHOTS_DIR,
 } from "./src/csv.ts";
 import { buildArtifacts } from "./src/snapshot.ts";
 
@@ -78,8 +80,8 @@ async function writeStructuredArtifacts() {
   const ts = bucharestTimestamp(new Date());
   const artifacts = buildArtifacts(await Deno.readTextFile(SNAPSHOT_PATH), ts);
 
-  await appendCsv("data/observations", ts, OBSERVATION_HEADER, artifacts.observations);
-  await appendCsv("data/snapshots", ts, SNAPSHOT_LOG_HEADER, [artifacts.logRow]);
+  await appendCsv(OBSERVATIONS_DIR, ts, OBSERVATION_HEADER, artifacts.observations);
+  await appendCsv(SNAPSHOTS_DIR, ts, SNAPSHOT_LOG_HEADER, [artifacts.logRow]);
   await Deno.writeTextFile("data/current.json", artifacts.currentJson);
 
   console.log(`Status: ${artifacts.status}, observations: ${artifacts.observations.length}`);
