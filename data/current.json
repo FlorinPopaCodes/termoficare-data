@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-16T21:17:26",
+  "scraped_at": "2026-07-16T22:37:27",
   "status": "ok",
   "outages": [
     {
@@ -298,7 +298,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - Calea Moșilor x Strada Ion Maiorescu",
-      "estimated_restore": "2026-07-16T23:00",
+      "estimated_restore": "2026-07-17T23:00",
       "zone_raw": "• Str Venerei -"
     },
     {
