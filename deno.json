@@ -1,9 +1,21 @@
 {
   "tasks": {
     "postprocess": "deno run -A postprocess.ts",
-    "test": "TZ=UTC deno test --allow-read src/"
+    "test": "deno task test:pure && TZ=UTC deno test --allow-read src/",
+    "test:pure": "deno test --no-prompt src/parser_test.ts",
+    "bless": "deno run --allow-read --allow-write src/bless.ts",
+    "check": "deno check src/ postprocess.ts"
   },
   "imports": {
+    "deno-dom": "jsr:@b-fuze/deno-dom@0.1.49",
     "@std/assert": "jsr:@std/assert@1"
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "include": ["src/"],
+    "exclude": ["src/fixtures/", "src/testdata/"]
+  },
+  "lint": {
+    "include": ["src/"]
   }
 }

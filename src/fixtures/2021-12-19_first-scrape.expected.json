@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
+  "scraped_at": "2021-12-19T21:17:32",
+  "status": "ok",
+  "outages": [
+    {
+      "sector": 1,
+      "pt_name": "A Grant",
+      "blocks": 4,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Cal Griviţei - bl. A, B, C"
+    },
+    {
+      "sector": 1,
+      "pt_name": "D Chibrit",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Cal Griviţei - bl. C, B, A, H, N1 • Str Carpaţi - bl. 242 • Bld Ion Mihalache - bl. F, E1, E2, G, D • Str Puţul lui Crăciun - imob.Nr.5 • Str Soveja - Nr.73"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 IRTA",
+      "blocks": 11,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Maşina de Pâine - bl.5, 6 IRTA, 50, 9IRTA • Str Teiul Doamnei - bl.8 IRTA • Şos Colentina - bl.2, 1A, 1B, 3IRTA, 4IRTA, 7IRTA"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Teiul Doamnei",
+      "blocks": 27,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Nada Florilor - bl.14, 13, 5 • Str Petre Antonescu - bl.11, 12, 23, 24, 26 • Str Braşoveni - bl.15, 17, 19, 16, 18, 20, 7, 4, 3 • Str Lăptari Tei - bl. 6 • Str Teiul Doamnei - bl.8, 9, 10, 21, 22, 1, 2 • Str Rondul Bisericii - bl.25"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Colentina",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Maşina de Pâine - bl.OD23 • Str Ion Berindei - bl.S22, OD19, OD47 • Str Oteşani - bl.OD53A, OD52-54 • Str Teiul Doamnei - bl. 10 • Şos Colentina - bl.R49, OD42, R15, OD43, R48"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Mosilor",
+      "blocks": 18,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Ardeleni - bl. 39A • Cal Moşilor - bl. 47, 47Bis, 49-49A, 51Bis, 53, 55, 45, 45A, 43, 41, 39, 37, 33-35, imob.Nr.257 • Str Sfîntul Ion Moş - bl. 57A, 57B • Str Rovine - bl. 51"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Iancului",
+      "blocks": 17,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametrii pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Măgura Vulturului - bl.117B, 117A • Str Slt. Dima Cristescu - bl.105C • Şos Iancului - bl.106C, 106B, 106A, 105B, 105D, 108, 107, imob.Nr.25, 15 • Str Lt. Sachelarie Visarion - Visarion bl.118B, 119, 118A, 117C, imob.Nr.49-51"
+    },
+    {
+      "sector": 2,
+      "pt_name": "P10 Foisor",
+      "blocks": 1,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametrii pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Oborul Nou - P10"
+    },
+    {
+      "sector": 2,
+      "pt_name": "P8 Foisor",
+      "blocks": 1,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametrii pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Şos Mihai Bravu - P8"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Iancului",
+      "blocks": 15,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.208 • Şos Iancului - bl.103A,102C,102B,103B,102D,101A,101B,imob.Nr.43,45 • Şos Pantelimon - bl.102A,207,208A,101,208B,100"
+    },
+    {
+      "sector": 2,
+      "pt_name": "24 Delfinului",
+      "blocks": 23,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Delfinului - bl.D30, D21, D16, D20, D18, D19, D11, D17 • Ale Dobrina - bl. D10, D12 • Str Ciocârliei - bl.D25, D27, D26, D28, D13, D29, D15, D8, D14, D9, D24 • Şos Fundeni - bl.D22, D23"
+    },
+    {
+      "sector": 2,
+      "pt_name": "11 Pantelimon",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Logofătul Dan - Gimnazială Nr. 66 • Ale Vergului - bl. 21, 19, 20, 18, 17, 16, 15 • Şos Pantelimon - bl.1, 2"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Cosmos Extindere",
+      "blocks": 11,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Sold. Zambilă Ioniţă - bl. 33C, 7C, 7D • Şos Pantelimon - bl. A3, A2, A1, A4, 7A+7B, B1, B2 • Str Azotului - bl. 33D"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Dimitrov",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Bld Dimitrov Gheorghe - bl.O13,O12,O14 • Bld Ferdinand I - bl.O11,O10,imob.nr.118 • Str Avrig - bl.O18,O20,O15,O16,O19,O17"
+    },
+    {
+      "sector": 2,
+      "pt_name": "8 Pantelimon",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Biserica Mărcuţa - bl.34, 35B, 35A • Şos Fundeni - bl.11C, 11B, 11D • Şos Pantelimon - bl.11, 9, 10, 10A, 9A, 11A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Tineretului",
+      "blocks": 26,
+      "service": "Deficienta ACC/INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Bld Tineretului - bl. 19 sc.A,B; 37, 39 • Str Albinelor - bl. 32 • Str Pionierilor - bl. 18, 38, 39 • Str Piscului - bl. 47 sc.A,B; 42, 41, 40 • Str V. V. Stanciu - bl. 31 • Str Trestiana - bl. 17, 23, 20 • Str Vişana - bl. 45, 25, 44, 26, 43, 36 sc.2 • Str Constantin Rădulescu-Motru - bl. 36 sc.1; 35 sc.1,2; 34, 33 sc 1+2,3 • Str Cuza Vodă - bl. 22-24, 46"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Tineretului",
+      "blocks": 33,
+      "service": "Deficienta ACC/INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Bld Tineretului - bl. A3, Z4, A4, Z5, A5, Z6, A6, Z7, Z2, A2, Z3 • Str Mocăncuţei - imobil nr.1, imobil nr. 3 • Str Poenari - bl. 13,12 • Str Trestiana - bl. 16, 32, 14, 15, 8A, 9, 10, 11 • Str Tohani - bl. 29, 30, 33, 31 • Str Constantin Rădulescu-Motru - bl. 27A, 21, 34 • Str Cuza Vodă - bl. 27B, 28"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Tineretului",
+      "blocks": 19,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Bld Tineretului - bl. 50 sc.B; 52 sc.1,2 • Bld Pionierilor - bl. 51 • Str Piscului - bl. 78, 77 scA,B; 49 sc.A,B; 50 sc. A; 81, 80, 79 • Cal Văcăreşti - bl. 69B, 70B, 84, 83 • Str Cărămidarii de Jos - bl. 76 sc.A,B; 48, 75 • Str Cuza Vodă - bl. 69A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Plugarilor",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Bld Abatorului - bl. 95 • Str Plugarilor - bl. 94, 91 • Str V. V. Stanciu - bl. 88 sc1, 90B • Cal Văcăreşti - bl. 87, 86, 85B, 85A • Str Cuza Vodă - bl. 88 • Ale Bran - bl. 92, 93, 89"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Norilor",
+      "blocks": 4,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Str Maria Tănase - bl. 29, 28 • Bld Gheorghe Şincai - bl. 30A, 30"
+    },
+    {
+      "sector": 4,
+      "pt_name": "6 Zona I",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Ale Someşul Cald - bl. D10, PE4 • Str Lt. col. Dumitru Petrescu - bl. A17 • Ale Râul Sadului - bl. PE5 • Str Aliorului - bl. A9, A10, 18, A7, A7 • Str Turnu Măgurele - bl. S2 • Ale Ciceu - bl. A13, I 66"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Tineretului",
+      "blocks": 23,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Bld Tineretului - bl. 53, 54, 57, 58, 64 sc.A,B; 65, 66 sc.A,B • Str Baladei - bl. 55 sc.1,2; 56, 61, 61A, 73, 60, 59 • Cal Văcăreşti - bl. 71 sc. A,B,C; 72A, 72B sc.A,B; 62, 63, 68, 67 • Str Cărămidarii de Jos - bl. 74B sc.A,B; 74A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "7 Zona I",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Ale Someşul Cald - bl. O2 • Str Lt. col. Dumitru Petrescu - bl. A16 • Str Aliorului - bl. D13 • Bld Alexandru Obregia - bl. 35, 35A, O1 • Ale Ciceu - bl. D11, D12, E10"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Lânăriei",
+      "blocks": 13,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Str Maria Tănase - bl. 13 • Bld Gheorghe Şincai - bl. 11, 12 • Str Viorele - bl. 20A, 20B, 17, 15, 22, 37 • Cal Văcăreşti - bl. 23, 24 • Ale Borcea - bl. 14, 16"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Sincai",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Bld Tineretului - bl. 5, Z1 • Str Mocăncuţei - Imobil nr.12 • Bld Gheorghe Şincai - bl. 2 sc.1+2,3 ; 4 • Str Trestiana - bl. 3 • Str Constantin Rădulescu-Motru - bl. 1, 35 sc.A+C,B ,37A • Str Cuza Vodă - bl. 37A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "17 Dolhasca",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Functionare deficitara din cauza lucrarilor de inlocuire a conductelor retea primara .Zona Pod Vacaresti /Str.Raul Sadului.",
+      "estimated_restore": "2021-12-19T23:00",
+      "zone_raw": "• Str Sg. Gheorghe Tache - bl. 17 • Şos Olteniţei - bl. 3, 13, 2, 14, 1 • Str Huşi - bl. PA1, PA2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "8 Crivina",
+      "blocks": 29,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99,102, 116, 113, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
+    },
+    {
+      "sector": 6,
+      "pt_name": "4 Crivina",
+      "blocks": 31,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Olăneşti - bl. 76A, 83 • Str Pădureni - bl. 51, 52, 58D, 53A, 53B, 53C, 52 • Str Vintilă Mihăilescu - bl. 78, 54, 55, 56, 57, 58, 59, 77, 80, 79, 44 • Str Zboina Neagră - bl. 81, 74 • Str Ceahlăul - bl. 82, 75, 76 • Cal Crângaşi - bl. 46, 48, 49, 45, 50, 47"
+    },
+    {
+      "sector": 6,
+      "pt_name": "7 Giulești",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare încălzire",
+      "estimated_restore": "2021-12-19T23:30",
+      "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7,8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
+    }
+  ]
+}

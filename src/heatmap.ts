@@ -54,7 +54,7 @@ function calculatePercentiles(data: CommitData, year: number): number[] {
   const counts = Object.entries(data)
     .filter(([date]) => date.startsWith(year.toString()))
     .map(([, count]) => count)
-    .filter(c => c > 0)
+    .filter((c) => c > 0)
     .sort((a, b) => a - b);
 
   if (counts.length === 0) return [1, 5, 10, 20];
@@ -115,14 +115,16 @@ export function generateSVG(year: number, data: CommitData): string {
   }
   for (const [monthStr, week] of Object.entries(monthPositions)) {
     const x = leftPadding + week * (CELL_SIZE + CELL_GAP);
-    svg += `  <text x="${x}" y="${topPadding - 5}" class="month">${MONTHS[Number(monthStr)]}</text>\n`;
+    svg += `  <text x="${x}" y="${topPadding - 5}" class="month">${
+      MONTHS[Number(monthStr)]
+    }</text>\n`;
   }
 
   // Generate cells for each day
   const startDate = new Date(year, 0, 1);
   const endDate = new Date(year, 11, 31);
 
-  for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
+  for (const d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
     const dateStr = d.toISOString().substring(0, 10);
     const count = data[dateStr] || 0;
     const color = getColorForCount(count, percentiles);
@@ -133,20 +135,24 @@ export function generateSVG(year: number, data: CommitData): string {
     const x = leftPadding + week * (CELL_SIZE + CELL_GAP);
     const y = topPadding + dayOfWeek * (CELL_SIZE + CELL_GAP);
 
-    svg += `  <rect x="${x}" y="${y}" width="${CELL_SIZE}" height="${CELL_SIZE}" fill="${color}" rx="2">`;
+    svg +=
+      `  <rect x="${x}" y="${y}" width="${CELL_SIZE}" height="${CELL_SIZE}" fill="${color}" rx="2">`;
     svg += `<title>${dateStr}: ${count} commits</title></rect>\n`;
   }
 
   // Title at bottom left
   const bottomY = height - 15;
-  svg += `  <text x="${leftPadding}" y="${bottomY}" class="title">${year} - ${totalCommits.toLocaleString()} data updates</text>\n`;
+  svg +=
+    `  <text x="${leftPadding}" y="${bottomY}" class="title">${year} - ${totalCommits.toLocaleString()} data updates</text>\n`;
 
   // Legend at bottom right
   const legendX = width - 150;
   svg += `  <text x="${legendX}" y="${bottomY}" class="legend">Less</text>\n`;
   const legendColors = [COLORS.empty, COLORS.level1, COLORS.level2, COLORS.level3, COLORS.level4];
   for (let i = 0; i < legendColors.length; i++) {
-    svg += `  <rect x="${legendX + 30 + i * 14}" y="${bottomY - 10}" width="11" height="11" fill="${legendColors[i]}" rx="2"/>\n`;
+    svg += `  <rect x="${legendX + 30 + i * 14}" y="${bottomY - 10}" width="11" height="11" fill="${
+      legendColors[i]
+    }" rx="2"/>\n`;
   }
   svg += `  <text x="${legendX + 105}" y="${bottomY}" class="legend">More</text>\n`;
 
