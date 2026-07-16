@@ -17,6 +17,7 @@ const CATALOG: Catalog = {
   empty: 1,
   emptyTolerance: 0,
   minObservations: 1,
+  parseErrors: 0,
 };
 
 function observation(over: Partial<Observation> = {}): Observation {
@@ -223,6 +224,42 @@ Deno.test("validate catches an observation total below the catalog floor", async
   ]);
 
   assertStringIncludes(check(dataset, { captured: spotArtifacts() }).join("\n"), "observations");
+});
+
+// The observation floor clears reality by 4.6x, so it would not notice most of the
+// history rotting; this is the gate that actually catches a parser regression.
+Deno.test("validate catches a parser regression against history it used to read", async () => {
+  const dataset = await build([
+    ok(1, "2022-01-01T00:00:00", 2),
+    input(2, "2022-01-01T00:15:00", { status: "empty" }),
+    input(3, "2022-01-01T00:30:00", { status: "error" }),
+    input(4, "2022-01-01T00:45:00", { status: "parse_error", error: "markup drifted" }),
+  ]);
+
+  assertStringIncludes(check(dataset, { captured: spotArtifacts() }).join("\n"), "failed to parse");
+});
+
+// A page CMTEB mangles after the cutoff is a fact about their HTML, not a regression in
+// ours, and must not wedge every future regeneration.
+Deno.test("validate tolerates a parse_error past the catalog's cutoff", async () => {
+  const dataset = await build([
+    ok(1, "2022-01-01T00:00:00", 2),
+    input(2, "2022-01-01T00:15:00", { status: "empty" }),
+    input(3, "2022-01-01T00:30:00", { status: "error" }),
+    input(4, "2026-07-16T00:00:00", { status: "parse_error", error: "markup drifted" }),
+  ]);
+
+  assertEquals(check(dataset, { captured: spotArtifacts() }), []);
+});
+
+Deno.test("validate catches a month whose file went missing", async () => {
+  const dataset = await healthy();
+  dataset.files.delete("data/observations/2022-01.csv");
+
+  assertStringIncludes(
+    check(dataset, { captured: spotArtifacts() }).join("\n"),
+    "no observations file",
+  );
 });
 
 // The spot-check SHAs are pinned in backfill.ts; a run that never fetched them must fail

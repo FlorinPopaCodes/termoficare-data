@@ -7,7 +7,7 @@ import { type ScrapeStatus } from "./parser.ts";
 import { type SnapshotArtifacts } from "./snapshot.ts";
 import {
   appendPayload,
-  monthFile,
+  monthPath,
   OBSERVATION_HEADER,
   OBSERVATIONS_DIR,
   SNAPSHOT_LOG_HEADER,
@@ -33,7 +33,8 @@ export interface Stats {
   months: Map<string, MonthStats>;
   outOfOrder: string[]; // snapshots whose instant went backwards
   zeroRowViolations: string[]; // non-ok snapshots that still emitted observation rows
-  window: { errors: number; empty: number; observations: number }; // catalog-window counts
+  // Counts confined to the span the catalog covers.
+  window: { errors: number; empty: number; observations: number; parseErrors: number };
 }
 
 export interface Dataset {
@@ -49,6 +50,7 @@ export interface Catalog {
   empty: number; // system-wide zero-incident snapshots inside the window
   emptyTolerance: number;
   minObservations: number;
+  parseErrors: number; // pages inside the window the parser is expected to choke on
 }
 
 // Counts are windowed to the catalog's cutoff because the catalog is a statement about a
@@ -65,6 +67,13 @@ export const CATALOG: Catalog = {
   // A floor, not a target: #4's 467,518 counts pre-explosion HTML rows, and one row
   // carries 1..55 puncte termice, so the observation total lands far above it.
   minObservations: 467_518,
+  // #4 found 16 structural signatures in the window and no unparseable page, so the
+  // parser owes us every one of them. Without this the floor above is the only thing
+  // standing between a parser regression and a pushed dataset -- and it clears by 4.6x,
+  // so most of the history could rot to parse_error and still pass. Windowed like the
+  // rest: a page CMTEB mangles after the cutoff gets reported, not blocked, so one bad
+  // new page can't wedge regeneration forever.
+  parseErrors: 0,
 };
 
 // The commits behind decision #7's manual spot checks, pinned by SHA from the fixture
@@ -121,7 +130,7 @@ export async function buildDataset(
     months: new Map(),
     outOfOrder: [],
     zeroRowViolations: [],
-    window: { errors: 0, empty: 0, observations: 0 },
+    window: { errors: 0, empty: 0, observations: 0, parseErrors: 0 },
   };
   let previous = -Infinity;
 
@@ -163,6 +172,7 @@ export async function buildDataset(
       stats.window.observations += rows;
       if (artifacts.status === "error") stats.window.errors++;
       if (artifacts.status === "empty") stats.window.empty++;
+      if (artifacts.status === "parse_error") stats.window.parseErrors++;
     }
 
     previous = instant;
@@ -170,9 +180,8 @@ export async function buildDataset(
 
   const files = new Map<string, string>();
   for (const [month, bucket] of buckets) {
-    const ts = `${month}-01T00:00:00`;
-    files.set(monthFile(OBSERVATIONS_DIR, ts), bucket.observations.join(""));
-    files.set(monthFile(SNAPSHOTS_DIR, ts), bucket.log.join(""));
+    files.set(monthPath(OBSERVATIONS_DIR, month), bucket.observations.join(""));
+    files.set(monthPath(SNAPSHOTS_DIR, month), bucket.log.join(""));
   }
 
   return { files, stats };
@@ -184,8 +193,9 @@ export interface ValidationInput {
   captured: Map<string, SnapshotArtifacts>; // sha -> artifacts, for SPOT_CHECKS
 }
 
-function dataRows(content: string | undefined): number {
-  if (content === undefined) return -1;
+// null = no such file, which is a different failure from a miscount.
+function dataRows(content: string | undefined): number | null {
+  if (content === undefined) return null;
   return content.split("\n").filter((l) => l !== "").length - 1; // less the header
 }
 
@@ -218,16 +228,19 @@ export function validate(input: ValidationInput, catalog: Catalog = CATALOG): st
   let observations = 0;
   let logged = 0;
   for (const [month, monthStats] of stats.months) {
-    const ts = `${month}-01T00:00:00`;
-    const inObservations = dataRows(files.get(monthFile(OBSERVATIONS_DIR, ts)));
-    const inLog = dataRows(files.get(monthFile(SNAPSHOTS_DIR, ts)));
+    const inObservations = dataRows(files.get(monthPath(OBSERVATIONS_DIR, month)));
+    const inLog = dataRows(files.get(monthPath(SNAPSHOTS_DIR, month)));
 
-    if (inObservations !== monthStats.observations) {
+    if (inObservations === null) {
+      failures.push(`${month}: has ${monthStats.snapshots} snapshots but no observations file`);
+    } else if (inObservations !== monthStats.observations) {
       failures.push(
         `${month}: observations file holds ${inObservations} rows, expected ${monthStats.observations}`,
       );
     }
-    if (inLog !== monthStats.snapshots) {
+    if (inLog === null) {
+      failures.push(`${month}: has ${monthStats.snapshots} snapshots but no scrape log`);
+    } else if (inLog !== monthStats.snapshots) {
       failures.push(`${month}: scrape log holds ${inLog} rows, expected ${monthStats.snapshots}`);
     }
     if (monthStats.observations !== monthStats.loggedObservations) {
@@ -263,6 +276,12 @@ export function validate(input: ValidationInput, catalog: Catalog = CATALOG): st
     failures.push(
       `${stats.window.observations} observations ${window}, below the catalog floor of ` +
         `${catalog.minObservations}`,
+    );
+  }
+  if (stats.window.parseErrors !== catalog.parseErrors) {
+    failures.push(
+      `${stats.window.parseErrors} snapshots ${window} failed to parse, expected ` +
+        `${catalog.parseErrors} — the parser has regressed against history it used to read`,
     );
   }
 

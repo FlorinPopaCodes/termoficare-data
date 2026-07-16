@@ -5,6 +5,10 @@ import { type ParseResult, parseSnapshot, type ScrapeStatus } from "./parser.ts"
 import { toCurrentJson } from "./current_json.ts";
 import { type CsvValue } from "./csv.ts";
 
+// The scrape the whole pipeline is about: the live loop writes it, the backfill replays
+// every historical version of it.
+export const SNAPSHOT_PATH = "data/termoficare.html";
+
 export interface SnapshotArtifacts {
   status: ScrapeStatus;
   currentJson: string;

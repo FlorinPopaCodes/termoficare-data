@@ -14,9 +14,7 @@ import {
   SNAPSHOT_LOG_HEADER,
   SNAPSHOTS_DIR,
 } from "./src/csv.ts";
-import { buildArtifacts } from "./src/snapshot.ts";
-
-const SNAPSHOT_PATH = "data/termoficare.html";
+import { buildArtifacts, SNAPSHOT_PATH } from "./src/snapshot.ts";
 
 async function runGit(args: string[]): Promise<string> {
   const cmd = new Deno.Command("git", { args, stdout: "piped" });

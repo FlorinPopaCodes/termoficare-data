@@ -17,11 +17,10 @@
 
 import { bucharestTimestamp } from "../src/clock.ts";
 import { parseSnapshot } from "../src/parser.ts";
-import { buildArtifacts, type SnapshotArtifacts } from "../src/snapshot.ts";
+import { buildArtifacts, SNAPSHOT_PATH, type SnapshotArtifacts } from "../src/snapshot.ts";
 import { OBSERVATIONS_DIR, SNAPSHOTS_DIR } from "../src/csv.ts";
 import { buildDataset, type SnapshotInput, SPOT_CHECKS, validate } from "../src/backfill.ts";
 
-const SNAPSHOT_PATH = "data/termoficare.html";
 const PROGRESS_EVERY = 2_000;
 
 const decoder = new TextDecoder();
