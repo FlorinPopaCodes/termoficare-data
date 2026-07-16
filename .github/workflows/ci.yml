@@ -41,6 +41,7 @@ jobs:
 
       # Must go through the task, not a bare `deno test`: the task sets TZ=UTC, and the
       # heatmap golden buckets days by local date, so an unpinned zone fails the run.
-      # --allow-read is the whole permission budget; do not widen it.
+      # --allow-read/--allow-write is the whole permission budget (CSV and snapshot-
+      # artifact tests write to Deno.makeTempDir); do not widen it further.
       - name: Test
         run: deno task test

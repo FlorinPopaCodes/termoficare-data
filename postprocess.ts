@@ -4,6 +4,19 @@
 
 import { CommitData, generateSVG, getYearsFromData } from "./src/heatmap.ts";
 import { generateReadme } from "./src/readme.ts";
+import { nowBucharest } from "./src/time.ts";
+import { writeSnapshotArtifacts } from "./src/snapshot_artifacts.ts";
+
+const RAW_HTML_PATH = "data/termoficare.html";
+
+async function fileExists(path: string): Promise<boolean> {
+  try {
+    await Deno.stat(path);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 async function getCommitCounts(): Promise<CommitData> {
   const cmd = new Deno.Command("git", {
@@ -23,15 +36,6 @@ async function getCommitCounts(): Promise<CommitData> {
     }
   }
   return counts;
-}
-
-async function fileExists(path: string): Promise<boolean> {
-  try {
-    await Deno.stat(path);
-    return true;
-  } catch {
-    return false;
-  }
 }
 
 async function main() {
@@ -66,6 +70,20 @@ async function main() {
   console.log("Generating README.md...");
   const readme = generateReadme(years);
   await Deno.writeTextFile("README.md", readme);
+
+  // Parse the raw snapshot into structured artifacts. Fault-isolated inside
+  // writeSnapshotArtifacts: a parser crash must not cost this commit.
+  console.log("Parsing termoficare snapshot...");
+  const html = await Deno.readTextFile(RAW_HTML_PATH);
+  const snapshotTs = nowBucharest();
+  const result = await writeSnapshotArtifacts(html, snapshotTs, {
+    currentJson: "data/current.json",
+    observationsDir: "data/observations",
+    snapshotsDir: "data/snapshots",
+  });
+  console.log(
+    `Snapshot ${snapshotTs}: ${result.status} (${result.observations.length} observations)`,
+  );
 
   console.log("Done!");
 }
