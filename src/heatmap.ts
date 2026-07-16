@@ -1,5 +1,7 @@
 // Heatmap generation: GitHub-style contribution heatmaps showing data commits per day.
-// Pure module — no I/O. Given commit counts keyed by date, produces year SVGs.
+// No I/O. Given commit counts keyed by date, produces year SVGs. Output depends on the
+// ambient timezone (day-cell keys go through toISOString), so callers that need
+// reproducible bytes must fix TZ — the Flat workflow and the tests both run under UTC.
 
 const COLORS = {
   empty: "#161b22",
