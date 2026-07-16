@@ -2,7 +2,7 @@
   "tasks": {
     "postprocess": "deno run -A postprocess.ts",
     "test": "deno task test:pure && TZ=UTC deno test --allow-read src/",
-    "test:pure": "deno test --no-prompt src/parser_test.ts",
+    "test:pure": "deno test --no-prompt src/parser_test.ts src/csv_test.ts src/clock_test.ts",
     "bless": "deno run --allow-read --allow-write src/bless.ts",
     "check": "deno check src/ postprocess.ts"
   },
