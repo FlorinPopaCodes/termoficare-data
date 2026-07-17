@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T19:07:53",
+  "scraped_at": "2026-07-17T20:14:33",
   "status": "ok",
   "outages": [
     {
@@ -282,15 +282,6 @@
       "cause": "Reabilitare conducte DN 1000 - magistrala III SUD",
       "estimated_restore": "2026-08-01T23:00",
       "zone_raw": "• Spl Unirii -"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Izvorul Cosbuc",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare in cadrul Lotului 5,Obiectivul 14,parte a obiectivului de investitii ''Reabilitarea sistemului de termoficare al Municipiului Bucuresti''",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Bld Regina Maria - bl. 119 • Bld Libertăţii - bl. 113, 114, 115, 116, 117, 118, A1, A2"
     },
     {
       "sector": 5,
