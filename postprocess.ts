@@ -26,6 +26,9 @@ async function runGit(args: string[]): Promise<string> {
   return new TextDecoder().decode(output.stdout);
 }
 
+// Only commits touching data/ are data updates: the 2026-01..07 heatmap feedback loop
+// left thousands of heatmap-only commits (the SVG counting its own previous commit) that
+// must not count.
 async function getCommitCounts(): Promise<CommitData> {
   const text = await runGit([
     "log",
@@ -33,6 +36,8 @@ async function getCommitCounts(): Promise<CommitData> {
     "--author=Archive Bot",
     "--format=%ad",
     "--date=short",
+    "--",
+    "data/",
   ]);
 
   const counts: CommitData = {};
