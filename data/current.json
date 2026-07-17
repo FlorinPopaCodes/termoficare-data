@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T00:42:58",
+  "scraped_at": "2026-07-17T07:21:30",
   "status": "ok",
   "outages": [
     {
@@ -273,15 +273,6 @@
       "cause": "Lipsa parametri pentru livrare apă caldă de consum",
       "estimated_restore": "2026-07-17T10:00",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
-    },
-    {
-      "sector": 2,
-      "pt_name": "6 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-07-17T10:00",
-      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
     },
     {
       "sector": 2,
