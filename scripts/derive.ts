@@ -1,15 +1,16 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write
 //
-// Regenerates the derived incident/estimate/cause history from the foundation CSVs
-// (data/observations, data/snapshots) per decision #8.
+// Regenerates the derived incident/estimate/cause/episode history from the foundation
+// CSVs (data/observations, data/snapshots) per decision #8.
 //
 //   deno task derive
 //
 // Full deterministic regeneration -- no cursors, no resume state. Reads each month's
 // snapshot log + observations file, aligns them via foundationSnapshots (which throws on
 // any mismatch), and feeds the aligned stream to deriveDatasets. Only
-// data/derived/{incidents,estimates,causes} are replaced wholesale; anything else under
-// data/derived/ is left untouched for future datasets to live beside these.
+// data/derived/{incidents,estimates,causes,episodes,episode_incidents} are replaced
+// wholesale; anything else under data/derived/ is left untouched for future datasets to
+// live beside these.
 //
 // Foundation month files are read one at a time (never more than one month's ~586MB of
 // observations held in memory together) via a sync generator, matching foundationSnapshots'
@@ -18,6 +19,8 @@
 import {
   CAUSES_DIR,
   deriveDatasets,
+  EPISODE_INCIDENTS_DIR,
+  EPISODES_DIR,
   ESTIMATES_DIR,
   foundationSnapshots,
   INCIDENTS_DIR,
@@ -57,7 +60,9 @@ function* readMonths(months: string[]): Generator<MonthContent> {
 // foundation regeneration changed history) must not survive alongside stale output.
 // Everything else under data/derived/ is left alone for future datasets.
 async function write(files: Map<string, string>) {
-  for (const dir of [INCIDENTS_DIR, ESTIMATES_DIR, CAUSES_DIR]) {
+  for (
+    const dir of [INCIDENTS_DIR, ESTIMATES_DIR, CAUSES_DIR, EPISODES_DIR, EPISODE_INCIDENTS_DIR]
+  ) {
     await Deno.remove(dir, { recursive: true }).catch(() => {});
     await Deno.mkdir(dir, { recursive: true });
   }
@@ -78,6 +83,10 @@ async function main() {
       `${stats.snapshots} snapshots across ${stats.months} months in ${seconds}s.`,
   );
   console.error(`  ${stats.estimateRuns} estimate runs, ${stats.causeRuns} cause runs.`);
+  console.error(
+    `  ${stats.episodes} episodes (${stats.openEpisodes} still open), ` +
+      `${stats.bridgedGaps} bridged gaps.`,
+  );
 
   await write(files);
   console.error(`Wrote ${files.size} files.`);

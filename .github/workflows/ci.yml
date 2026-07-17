@@ -37,7 +37,7 @@ jobs:
           cache: true
 
       - name: Typecheck (and verify deno.lock is up to date)
-        run: deno check --frozen src/ scripts/backfill.ts postprocess.ts
+        run: deno check --frozen src/ scripts/backfill.ts scripts/derive.ts postprocess.ts
 
       # Must go through the task, not a bare `deno test`: the task sets TZ=UTC, and the
       # heatmap golden buckets days by local date, so an unpinned zone fails the run.
