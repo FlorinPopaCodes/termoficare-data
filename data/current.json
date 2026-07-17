@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T14:47:26",
+  "scraped_at": "2026-07-17T15:13:05",
   "status": "ok",
   "outages": [
     {
@@ -10,7 +10,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "LUCRARI MODERNIZARE RETEA TERMICA PRIMARA POIM LOT 2 OBIECTIV 9 EXECUTATE DE FIRMA ELSACO",
-      "estimated_restore": "2026-07-17T23:30",
+      "estimated_restore": "2026-07-21T23:30",
       "zone_raw": "• Cal Griviţei - bl.Sora"
     },
     {
@@ -330,15 +330,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "1 Labirint",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Avarie CD ACC bl. L110, str. Matei Basarab.",
-      "estimated_restore": "2026-07-17T15:00",
-      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
-    },
-    {
-      "sector": 3,
       "pt_name": "4X - Partial",
       "blocks": 2,
       "service": "Oprire ACC",
@@ -408,15 +399,6 @@
       "cause": "Reabilitare conducte DN 1000 - magistrala III SUD",
       "estimated_restore": "2026-08-01T23:00",
       "zone_raw": "• Spl Unirii -"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Berceni Oltenita - Partial",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Inlocuit conducta acc subsol bloc 47,str. Tulnici.",
-      "estimated_restore": "2026-07-17T15:00",
-      "zone_raw": "• Şos Olteniţei - bl. 48 • Str Anton Bacalbaşa - bl. 51 • Str Gârniţei - bl. 49, 50, 56 • Str Tulnici - bl.45, 46, 47"
     },
     {
       "sector": 4,
@@ -928,17 +910,8 @@
       "blocks": 2,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-17T15:30",
+      "estimated_restore": "2026-07-17T18:30",
       "zone_raw": "• Str Lujerului - bl. 100 • Int Vagonetului - bl. 101"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 1/3 - MODULE TERMICE - Partial",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de înlocuire de conductă pe circuitul primar DN 150",
-      "estimated_restore": "2026-07-17T23:00",
-      "zone_raw": "• Str Romancierilor - bl.Z16, Z17, E19 • Str Sănduleşti - bl. Z14, Z15"
     },
     {
       "sector": 6,
