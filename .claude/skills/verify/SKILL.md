@@ -8,15 +8,19 @@ description: How to verify changes in this repo (the scrape → parse → derive
 There is no server or UI. The repo has **three scheduled runtime surfaces**, each a
 Deno script a GitHub workflow runs:
 
-1. **Flat postprocess** (`postprocess.ts`, `flat.yml`, every ~15 min) — after each
-   scrape, parses `data/termoficare.html` into observation + scrape-log rows and
+1. **Flat postprocess** (`postprocess.ts`, `flat.yml`) — after each scrape, parses
+   `data/termoficare.html` into observation + scrape-log rows and
    `data/current.json`, then regenerates `images/heatmap-*.svg` + `README.md`.
 2. **Daily derive** (`scripts/derive.ts`, `derive.yml`) — regenerates
    `data/derived/{incidents,estimates,causes,episodes,episode_incidents}` wholesale
    from the foundation CSVs.
-3. **Health cron** (`scripts/health.ts`, `health.yml`, every 15 min) — collects
-   cadence facts (workflow runs, scrape log, git), evaluates alert conditions,
-   opens/closes `scrape-health` issues, and writes the `data/health.json` badge.
+3. **Health cron** (`scripts/health.ts`, `health.yml`) — collects cadence facts
+   (workflow runs, scrape log, git), evaluates alert conditions, opens/closes
+   `scrape-health` issues, and writes the `data/health.json` badge.
+
+`flat.yml` and `health.yml` both request a `*/15 * * * *` cron, but GitHub throttles
+scheduled runs to roughly hourly in practice (median gap 76 min — see `health.yml`'s
+header comment and `docs/research/2026-07-17-external-scheduler-for-15min-cron.md`).
 
 Cheap whole-repo gates, in order of cost:
 
