@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T07:21:30",
+  "scraped_at": "2026-07-17T09:33:55",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "2 Ilie Pintilie",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-07-17T11:30",
+      "zone_raw": "• Str Grigore Alexandrescu - bl. H1 • Bld Iancu de Hunedoara - bl. H5, H6, H4"
+    },
     {
       "sector": 1,
       "pt_name": "Sora",
@@ -267,6 +276,15 @@
     },
     {
       "sector": 2,
+      "pt_name": "2 Fundeni",
+      "blocks": 14,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-17T13:00",
+      "zone_raw": "• Str Maior Vasile Băcilă - bl.30A, 30B, 18B, 19 • Str Pescarilor - bl.25, 26 • Str Poiana cu Aluni - bl.17, 18, 18A • Str Răscoala 1907 - bl.24 • Str Radovanu - bl.20, 22, 23, 21"
+    },
+    {
+      "sector": 2,
       "pt_name": "Barbu Vacarescu",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -282,15 +300,6 @@
       "cause": "Remediere avarie racord primar",
       "estimated_restore": "2026-07-17T23:00",
       "zone_raw": "• Str Doamna Ghica - bl.62 • Str Deva - imob. Nr. 5, 7, 3 • Str Trei Scaune - imob. Nr. 4, 7, 9, 11, 13, 17, 19, 21, 12 • Str Oradea - imob. Nr.5, 16, 54, 52, 56, 66 • Str Odorhei - imob. Nr. 12, 16, 60, 62, 64, • Şos Colentina - bl.10, 9A,9B, 9C"
-    },
-    {
-      "sector": 2,
-      "pt_name": "AUTOCENTER",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - Calea Moșilor x Strada Ion Maiorescu",
-      "estimated_restore": "2026-07-17T23:00",
-      "zone_raw": "• Str Venerei -"
     },
     {
       "sector": 2,
@@ -318,6 +327,15 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "4X - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum Bj.Sadului",
+      "estimated_restore": "2026-07-17T15:30",
+      "zone_raw": "• Ale Barajul Sadului - bl. M4 • Ale Barajul Lotru - bl. M4A1"
     },
     {
       "sector": 3,
@@ -381,6 +399,15 @@
       "cause": "Reabilitare conducte DN 1000 - magistrala III SUD",
       "estimated_restore": "2026-08-01T23:00",
       "zone_raw": "• Spl Unirii -"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Berceni Oltenita - Partial",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Inlocuit conducta acc subsol bloc 47,str. Tulnici.",
+      "estimated_restore": "2026-07-17T15:00",
+      "zone_raw": "• Şos Olteniţei - bl. 48 • Str Anton Bacalbaşa - bl. 51 • Str Gârniţei - bl. 49, 50, 56 • Str Tulnici - bl.45, 46, 47"
     },
     {
       "sector": 4,
@@ -885,6 +912,33 @@
       "cause": "Revizie tehnică - CTE Progresu",
       "estimated_restore": "2026-08-01T23:00",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3 Virtuții",
+      "blocks": 15,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-17T12:30",
+      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 6 Placare - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-17T14:30",
+      "zone_raw": "• Bld Iuliu Maniu - bl. D5, 21P"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 5 Placare - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-17T15:30",
+      "zone_raw": "• Str Lujerului - bl. 100 • Int Vagonetului - bl. 101"
     },
     {
       "sector": 6,
