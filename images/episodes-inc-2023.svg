@@ -1,0 +1,405 @@
+<svg width="782" height="148" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .month { font: 10px sans-serif; fill: #8b949e; }
+    .day { font: 10px sans-serif; fill: #8b949e; }
+    .title { font: bold 14px sans-serif; fill: #c9d1d9; }
+    .legend { font: 10px sans-serif; fill: #8b949e; }
+  </style>
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <text x="0" y="29" class="day">Mon</text>
+  <text x="0" y="57" class="day">Wed</text>
+  <text x="0" y="85" class="day">Fri</text>
+  <text x="0" y="113" class="day">Sun</text>
+  <text x="30" y="15" class="month">Jan</text>
+  <text x="100" y="15" class="month">Feb</text>
+  <text x="156" y="15" class="month">Mar</text>
+  <text x="212" y="15" class="month">Apr</text>
+  <text x="282" y="15" class="month">May</text>
+  <text x="338" y="15" class="month">Jun</text>
+  <text x="394" y="15" class="month">Jul</text>
+  <text x="464" y="15" class="month">Aug</text>
+  <text x="520" y="15" class="month">Sep</text>
+  <text x="576" y="15" class="month">Oct</text>
+  <text x="646" y="15" class="month">Nov</text>
+  <text x="702" y="15" class="month">Dec</text>
+  <rect x="30" y="104" width="11" height="11" fill="#feeed6" rx="2"><title>2023-01-01: 8 active episodes</title></rect>
+  <rect x="44" y="20" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-01-02: 1 active episode</title></rect>
+  <rect x="44" y="34" width="11" height="11" fill="#fee4bf" rx="2"><title>2023-01-03: 54 active episodes</title></rect>
+  <rect x="44" y="48" width="11" height="11" fill="#fdddb0" rx="2"><title>2023-01-04: 85 active episodes</title></rect>
+  <rect x="44" y="62" width="11" height="11" fill="#fee1b8" rx="2"><title>2023-01-05: 68 active episodes</title></rect>
+  <rect x="44" y="76" width="11" height="11" fill="#fee7c4" rx="2"><title>2023-01-06: 43 active episodes</title></rect>
+  <rect x="44" y="90" width="11" height="11" fill="#feecd1" rx="2"><title>2023-01-07: 17 active episodes</title></rect>
+  <rect x="44" y="104" width="11" height="11" fill="#fef0d8" rx="2"><title>2023-01-08: 3 active episodes</title></rect>
+  <rect x="58" y="20" width="11" height="11" fill="#fdd9a6" rx="2"><title>2023-01-09: 104 active episodes</title></rect>
+  <rect x="58" y="34" width="11" height="11" fill="#fdd39a" rx="2"><title>2023-01-10: 128 active episodes</title></rect>
+  <rect x="58" y="48" width="11" height="11" fill="#fdd8a5" rx="2"><title>2023-01-11: 106 active episodes</title></rect>
+  <rect x="58" y="62" width="11" height="11" fill="#fee0b5" rx="2"><title>2023-01-12: 74 active episodes</title></rect>
+  <rect x="58" y="76" width="11" height="11" fill="#fedfb4" rx="2"><title>2023-01-13: 75 active episodes</title></rect>
+  <rect x="58" y="90" width="11" height="11" fill="#fee6c4" rx="2"><title>2023-01-14: 44 active episodes</title></rect>
+  <rect x="58" y="104" width="11" height="11" fill="#fee7c4" rx="2"><title>2023-01-15: 43 active episodes</title></rect>
+  <rect x="72" y="20" width="11" height="11" fill="#fedfb4" rx="2"><title>2023-01-16: 76 active episodes</title></rect>
+  <rect x="72" y="34" width="11" height="11" fill="#fee1b9" rx="2"><title>2023-01-17: 66 active episodes</title></rect>
+  <rect x="72" y="48" width="11" height="11" fill="#fee0b6" rx="2"><title>2023-01-18: 71 active episodes</title></rect>
+  <rect x="72" y="62" width="11" height="11" fill="#fedfb3" rx="2"><title>2023-01-19: 78 active episodes</title></rect>
+  <rect x="72" y="76" width="11" height="11" fill="#fee2ba" rx="2"><title>2023-01-20: 63 active episodes</title></rect>
+  <rect x="72" y="90" width="11" height="11" fill="#feecd0" rx="2"><title>2023-01-21: 19 active episodes</title></rect>
+  <rect x="72" y="104" width="11" height="11" fill="#feeed6" rx="2"><title>2023-01-22: 8 active episodes</title></rect>
+  <rect x="86" y="20" width="11" height="11" fill="#feeed4" rx="2"><title>2023-01-23: 11 active episodes</title></rect>
+  <rect x="86" y="34" width="11" height="11" fill="#fee8c8" rx="2"><title>2023-01-24: 36 active episodes</title></rect>
+  <rect x="86" y="48" width="11" height="11" fill="#fee4bf" rx="2"><title>2023-01-25: 54 active episodes</title></rect>
+  <rect x="86" y="62" width="11" height="11" fill="#fee1b9" rx="2"><title>2023-01-26: 66 active episodes</title></rect>
+  <rect x="86" y="76" width="11" height="11" fill="#fee4bf" rx="2"><title>2023-01-27: 54 active episodes</title></rect>
+  <rect x="86" y="90" width="11" height="11" fill="#feebcd" rx="2"><title>2023-01-28: 25 active episodes</title></rect>
+  <rect x="86" y="104" width="11" height="11" fill="#feedd3" rx="2"><title>2023-01-29: 13 active episodes</title></rect>
+  <rect x="100" y="20" width="11" height="11" fill="#fee9c9" rx="2"><title>2023-01-30: 33 active episodes</title></rect>
+  <rect x="100" y="34" width="11" height="11" fill="#fee2ba" rx="2"><title>2023-01-31: 64 active episodes</title></rect>
+  <rect x="100" y="48" width="11" height="11" fill="#fedfb4" rx="2"><title>2023-02-01: 76 active episodes</title></rect>
+  <rect x="100" y="62" width="11" height="11" fill="#fee1b8" rx="2"><title>2023-02-02: 68 active episodes</title></rect>
+  <rect x="100" y="76" width="11" height="11" fill="#fee4be" rx="2"><title>2023-02-03: 56 active episodes</title></rect>
+  <rect x="100" y="90" width="11" height="11" fill="#feecd0" rx="2"><title>2023-02-04: 19 active episodes</title></rect>
+  <rect x="100" y="104" width="11" height="11" fill="#feebce" rx="2"><title>2023-02-05: 23 active episodes</title></rect>
+  <rect x="114" y="20" width="11" height="11" fill="#fee9c9" rx="2"><title>2023-02-06: 33 active episodes</title></rect>
+  <rect x="114" y="34" width="11" height="11" fill="#fee7c5" rx="2"><title>2023-02-07: 42 active episodes</title></rect>
+  <rect x="114" y="48" width="11" height="11" fill="#fee5c1" rx="2"><title>2023-02-08: 49 active episodes</title></rect>
+  <rect x="114" y="62" width="11" height="11" fill="#fee8c8" rx="2"><title>2023-02-09: 35 active episodes</title></rect>
+  <rect x="114" y="76" width="11" height="11" fill="#feeacb" rx="2"><title>2023-02-10: 29 active episodes</title></rect>
+  <rect x="114" y="90" width="11" height="11" fill="#feeed5" rx="2"><title>2023-02-11: 10 active episodes</title></rect>
+  <rect x="114" y="104" width="11" height="11" fill="#feefd6" rx="2"><title>2023-02-12: 7 active episodes</title></rect>
+  <rect x="128" y="20" width="11" height="11" fill="#fca46b" rx="2"><title>2023-02-13: 262 active episodes</title></rect>
+  <rect x="128" y="34" width="11" height="11" fill="#fca36a" rx="2"><title>2023-02-14: 265 active episodes</title></rect>
+  <rect x="128" y="48" width="11" height="11" fill="#fdd196" rx="2"><title>2023-02-15: 137 active episodes</title></rect>
+  <rect x="128" y="62" width="11" height="11" fill="#fdc887" rx="2"><title>2023-02-16: 171 active episodes</title></rect>
+  <rect x="128" y="76" width="11" height="11" fill="#fdd398" rx="2"><title>2023-02-17: 132 active episodes</title></rect>
+  <rect x="128" y="90" width="11" height="11" fill="#fee6c3" rx="2"><title>2023-02-18: 46 active episodes</title></rect>
+  <rect x="128" y="104" width="11" height="11" fill="#feecd1" rx="2"><title>2023-02-19: 18 active episodes</title></rect>
+  <rect x="142" y="20" width="11" height="11" fill="#fdd59e" rx="2"><title>2023-02-20: 121 active episodes</title></rect>
+  <rect x="142" y="34" width="11" height="11" fill="#fdd297" rx="2"><title>2023-02-21: 135 active episodes</title></rect>
+  <rect x="142" y="48" width="11" height="11" fill="#fdd8a4" rx="2"><title>2023-02-22: 108 active episodes</title></rect>
+  <rect x="142" y="62" width="11" height="11" fill="#fddcad" rx="2"><title>2023-02-23: 91 active episodes</title></rect>
+  <rect x="142" y="76" width="11" height="11" fill="#fee0b5" rx="2"><title>2023-02-24: 73 active episodes</title></rect>
+  <rect x="142" y="90" width="11" height="11" fill="#feeacd" rx="2"><title>2023-02-25: 26 active episodes</title></rect>
+  <rect x="142" y="104" width="11" height="11" fill="#fee5c0" rx="2"><title>2023-02-26: 52 active episodes</title></rect>
+  <rect x="156" y="20" width="11" height="11" fill="#fddaaa" rx="2"><title>2023-02-27: 97 active episodes</title></rect>
+  <rect x="156" y="34" width="11" height="11" fill="#fdd69f" rx="2"><title>2023-02-28: 118 active episodes</title></rect>
+  <rect x="156" y="48" width="11" height="11" fill="#fedeb2" rx="2"><title>2023-03-01: 79 active episodes</title></rect>
+  <rect x="156" y="62" width="11" height="11" fill="#fddeb1" rx="2"><title>2023-03-02: 83 active episodes</title></rect>
+  <rect x="156" y="76" width="11" height="11" fill="#fee7c5" rx="2"><title>2023-03-03: 41 active episodes</title></rect>
+  <rect x="156" y="90" width="11" height="11" fill="#feeed6" rx="2"><title>2023-03-04: 8 active episodes</title></rect>
+  <rect x="156" y="104" width="11" height="11" fill="#feedd2" rx="2"><title>2023-03-05: 15 active episodes</title></rect>
+  <rect x="170" y="20" width="11" height="11" fill="#fee7c6" rx="2"><title>2023-03-06: 39 active episodes</title></rect>
+  <rect x="170" y="34" width="11" height="11" fill="#fee2ba" rx="2"><title>2023-03-07: 63 active episodes</title></rect>
+  <rect x="170" y="48" width="11" height="11" fill="#fee0b5" rx="2"><title>2023-03-08: 73 active episodes</title></rect>
+  <rect x="170" y="62" width="11" height="11" fill="#fedeb2" rx="2"><title>2023-03-09: 81 active episodes</title></rect>
+  <rect x="170" y="76" width="11" height="11" fill="#fee2bb" rx="2"><title>2023-03-10: 62 active episodes</title></rect>
+  <rect x="170" y="90" width="11" height="11" fill="#feefd8" rx="2"><title>2023-03-11: 4 active episodes</title></rect>
+  <rect x="170" y="104" width="11" height="11" fill="#feedd2" rx="2"><title>2023-03-12: 15 active episodes</title></rect>
+  <rect x="184" y="20" width="11" height="11" fill="#fedeb2" rx="2"><title>2023-03-13: 80 active episodes</title></rect>
+  <rect x="184" y="34" width="11" height="11" fill="#fdddb0" rx="2"><title>2023-03-14: 85 active episodes</title></rect>
+  <rect x="184" y="48" width="11" height="11" fill="#fddeb1" rx="2"><title>2023-03-15: 83 active episodes</title></rect>
+  <rect x="184" y="62" width="11" height="11" fill="#fdd9a7" rx="2"><title>2023-03-16: 103 active episodes</title></rect>
+  <rect x="184" y="76" width="11" height="11" fill="#fddcac" rx="2"><title>2023-03-17: 92 active episodes</title></rect>
+  <rect x="184" y="90" width="11" height="11" fill="#feecd1" rx="2"><title>2023-03-18: 18 active episodes</title></rect>
+  <rect x="184" y="104" width="11" height="11" fill="#feeed4" rx="2"><title>2023-03-19: 11 active episodes</title></rect>
+  <rect x="198" y="20" width="11" height="11" fill="#fddeb1" rx="2"><title>2023-03-20: 83 active episodes</title></rect>
+  <rect x="198" y="34" width="11" height="11" fill="#fdd194" rx="2"><title>2023-03-21: 140 active episodes</title></rect>
+  <rect x="198" y="48" width="11" height="11" fill="#fdd59d" rx="2"><title>2023-03-22: 123 active episodes</title></rect>
+  <rect x="198" y="62" width="11" height="11" fill="#fdcd8c" rx="2"><title>2023-03-23: 156 active episodes</title></rect>
+  <rect x="198" y="76" width="11" height="11" fill="#fee0b5" rx="2"><title>2023-03-24: 73 active episodes</title></rect>
+  <rect x="198" y="90" width="11" height="11" fill="#fee9cb" rx="2"><title>2023-03-25: 30 active episodes</title></rect>
+  <rect x="198" y="104" width="11" height="11" fill="#feefd7" rx="2"><title>2023-03-26: 6 active episodes</title></rect>
+  <rect x="212" y="20" width="11" height="11" fill="#fee0b5" rx="2"><title>2023-03-27: 74 active episodes</title></rect>
+  <rect x="212" y="34" width="11" height="11" fill="#fedfb3" rx="2"><title>2023-03-28: 77 active episodes</title></rect>
+  <rect x="212" y="48" width="11" height="11" fill="#fdd39a" rx="2"><title>2023-03-29: 128 active episodes</title></rect>
+  <rect x="212" y="62" width="11" height="11" fill="#fdd298" rx="2"><title>2023-03-30: 133 active episodes</title></rect>
+  <rect x="212" y="76" width="11" height="11" fill="#fddcae" rx="2"><title>2023-03-31: 88 active episodes</title></rect>
+  <rect x="212" y="90" width="11" height="11" fill="#feeed4" rx="2"><title>2023-04-01: 11 active episodes</title></rect>
+  <rect x="212" y="104" width="11" height="11" fill="#feecd1" rx="2"><title>2023-04-02: 17 active episodes</title></rect>
+  <rect x="226" y="20" width="11" height="11" fill="#fee5c1" rx="2"><title>2023-04-03: 50 active episodes</title></rect>
+  <rect x="226" y="34" width="11" height="11" fill="#fee0b5" rx="2"><title>2023-04-04: 73 active episodes</title></rect>
+  <rect x="226" y="48" width="11" height="11" fill="#fee7c4" rx="2"><title>2023-04-05: 43 active episodes</title></rect>
+  <rect x="226" y="62" width="11" height="11" fill="#fdddb0" rx="2"><title>2023-04-06: 85 active episodes</title></rect>
+  <rect x="226" y="76" width="11" height="11" fill="#fddcae" rx="2"><title>2023-04-07: 88 active episodes</title></rect>
+  <rect x="226" y="90" width="11" height="11" fill="#feebce" rx="2"><title>2023-04-08: 23 active episodes</title></rect>
+  <rect x="226" y="104" width="11" height="11" fill="#feedd3" rx="2"><title>2023-04-09: 13 active episodes</title></rect>
+  <rect x="240" y="20" width="11" height="11" fill="#fee1b9" rx="2"><title>2023-04-10: 66 active episodes</title></rect>
+  <rect x="240" y="34" width="11" height="11" fill="#fee3bd" rx="2"><title>2023-04-11: 58 active episodes</title></rect>
+  <rect x="240" y="48" width="11" height="11" fill="#fee5c0" rx="2"><title>2023-04-12: 52 active episodes</title></rect>
+  <rect x="240" y="62" width="11" height="11" fill="#feefd8" rx="2"><title>2023-04-13: 4 active episodes</title></rect>
+  <rect x="240" y="76" width="11" height="11" fill="#484f58" rx="2"><title>2023-04-14: no data</title></rect>
+  <rect x="240" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-15: 0 active episodes</title></rect>
+  <rect x="240" y="104" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-04-16: 1 active episode</title></rect>
+  <rect x="254" y="20" width="11" height="11" fill="#484f58" rx="2"><title>2023-04-17: no data</title></rect>
+  <rect x="254" y="34" width="11" height="11" fill="#feecd0" rx="2"><title>2023-04-18: 19 active episodes</title></rect>
+  <rect x="254" y="48" width="11" height="11" fill="#feecd1" rx="2"><title>2023-04-19: 17 active episodes</title></rect>
+  <rect x="254" y="62" width="11" height="11" fill="#feedd2" rx="2"><title>2023-04-20: 15 active episodes</title></rect>
+  <rect x="254" y="76" width="11" height="11" fill="#feefd6" rx="2"><title>2023-04-21: 7 active episodes</title></rect>
+  <rect x="254" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-22: 0 active episodes</title></rect>
+  <rect x="254" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-23: 0 active episodes</title></rect>
+  <rect x="268" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-24: 0 active episodes</title></rect>
+  <rect x="268" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-25: 0 active episodes</title></rect>
+  <rect x="268" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-26: 0 active episodes</title></rect>
+  <rect x="268" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-27: 0 active episodes</title></rect>
+  <rect x="268" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-28: 0 active episodes</title></rect>
+  <rect x="268" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-29: 0 active episodes</title></rect>
+  <rect x="268" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-04-30: 0 active episodes</title></rect>
+  <rect x="282" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-01: 0 active episodes</title></rect>
+  <rect x="282" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-02: 0 active episodes</title></rect>
+  <rect x="282" y="48" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-05-03: 2 active episodes</title></rect>
+  <rect x="282" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-04: 0 active episodes</title></rect>
+  <rect x="282" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-05: 0 active episodes</title></rect>
+  <rect x="282" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-06: 0 active episodes</title></rect>
+  <rect x="282" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-07: 0 active episodes</title></rect>
+  <rect x="296" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-08: 0 active episodes</title></rect>
+  <rect x="296" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-09: 0 active episodes</title></rect>
+  <rect x="296" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-10: 0 active episodes</title></rect>
+  <rect x="296" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-11: 0 active episodes</title></rect>
+  <rect x="296" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-12: 0 active episodes</title></rect>
+  <rect x="296" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-13: 0 active episodes</title></rect>
+  <rect x="296" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-14: 0 active episodes</title></rect>
+  <rect x="310" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-15: 0 active episodes</title></rect>
+  <rect x="310" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-16: 0 active episodes</title></rect>
+  <rect x="310" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-17: 0 active episodes</title></rect>
+  <rect x="310" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-18: 0 active episodes</title></rect>
+  <rect x="310" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-19: 0 active episodes</title></rect>
+  <rect x="310" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-20: 0 active episodes</title></rect>
+  <rect x="310" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-21: 0 active episodes</title></rect>
+  <rect x="324" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-22: 0 active episodes</title></rect>
+  <rect x="324" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-23: 0 active episodes</title></rect>
+  <rect x="324" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-24: 0 active episodes</title></rect>
+  <rect x="324" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-25: 0 active episodes</title></rect>
+  <rect x="324" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-26: 0 active episodes</title></rect>
+  <rect x="324" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-27: 0 active episodes</title></rect>
+  <rect x="324" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-28: 0 active episodes</title></rect>
+  <rect x="338" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-29: 0 active episodes</title></rect>
+  <rect x="338" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-30: 0 active episodes</title></rect>
+  <rect x="338" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-05-31: 0 active episodes</title></rect>
+  <rect x="338" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-01: 0 active episodes</title></rect>
+  <rect x="338" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-02: 0 active episodes</title></rect>
+  <rect x="338" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-03: 0 active episodes</title></rect>
+  <rect x="338" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-04: 0 active episodes</title></rect>
+  <rect x="352" y="20" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-06-05: 1 active episode</title></rect>
+  <rect x="352" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-06: 0 active episodes</title></rect>
+  <rect x="352" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-07: 0 active episodes</title></rect>
+  <rect x="352" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-08: 0 active episodes</title></rect>
+  <rect x="352" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-09: 0 active episodes</title></rect>
+  <rect x="352" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-10: 0 active episodes</title></rect>
+  <rect x="352" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-11: 0 active episodes</title></rect>
+  <rect x="366" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-12: 0 active episodes</title></rect>
+  <rect x="366" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-13: 0 active episodes</title></rect>
+  <rect x="366" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-14: 0 active episodes</title></rect>
+  <rect x="366" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-15: 0 active episodes</title></rect>
+  <rect x="366" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-16: 0 active episodes</title></rect>
+  <rect x="366" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-17: 0 active episodes</title></rect>
+  <rect x="366" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-18: 0 active episodes</title></rect>
+  <rect x="380" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-19: 0 active episodes</title></rect>
+  <rect x="380" y="34" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-06-20: 1 active episode</title></rect>
+  <rect x="380" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-21: 0 active episodes</title></rect>
+  <rect x="380" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-22: 0 active episodes</title></rect>
+  <rect x="380" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-23: 0 active episodes</title></rect>
+  <rect x="380" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-24: 0 active episodes</title></rect>
+  <rect x="380" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-25: 0 active episodes</title></rect>
+  <rect x="394" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-26: 0 active episodes</title></rect>
+  <rect x="394" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-27: 0 active episodes</title></rect>
+  <rect x="394" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-28: 0 active episodes</title></rect>
+  <rect x="394" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-29: 0 active episodes</title></rect>
+  <rect x="394" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-06-30: 0 active episodes</title></rect>
+  <rect x="394" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-01: 0 active episodes</title></rect>
+  <rect x="394" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-02: 0 active episodes</title></rect>
+  <rect x="408" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-03: 0 active episodes</title></rect>
+  <rect x="408" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-04: 0 active episodes</title></rect>
+  <rect x="408" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-05: 0 active episodes</title></rect>
+  <rect x="408" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-06: 0 active episodes</title></rect>
+  <rect x="408" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-07: 0 active episodes</title></rect>
+  <rect x="408" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-08: 0 active episodes</title></rect>
+  <rect x="408" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-09: 0 active episodes</title></rect>
+  <rect x="422" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-10: 0 active episodes</title></rect>
+  <rect x="422" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-11: 0 active episodes</title></rect>
+  <rect x="422" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-12: 0 active episodes</title></rect>
+  <rect x="422" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-13: 0 active episodes</title></rect>
+  <rect x="422" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-14: 0 active episodes</title></rect>
+  <rect x="422" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-15: 0 active episodes</title></rect>
+  <rect x="422" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-16: 0 active episodes</title></rect>
+  <rect x="436" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-17: 0 active episodes</title></rect>
+  <rect x="436" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-18: 0 active episodes</title></rect>
+  <rect x="436" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-19: 0 active episodes</title></rect>
+  <rect x="436" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-20: 0 active episodes</title></rect>
+  <rect x="436" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-21: 0 active episodes</title></rect>
+  <rect x="436" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-22: 0 active episodes</title></rect>
+  <rect x="436" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-23: 0 active episodes</title></rect>
+  <rect x="450" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-24: 0 active episodes</title></rect>
+  <rect x="450" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-25: 0 active episodes</title></rect>
+  <rect x="450" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-26: 0 active episodes</title></rect>
+  <rect x="450" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-27: 0 active episodes</title></rect>
+  <rect x="450" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-28: 0 active episodes</title></rect>
+  <rect x="450" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-29: 0 active episodes</title></rect>
+  <rect x="450" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-30: 0 active episodes</title></rect>
+  <rect x="464" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-07-31: 0 active episodes</title></rect>
+  <rect x="464" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-01: 0 active episodes</title></rect>
+  <rect x="464" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-02: 0 active episodes</title></rect>
+  <rect x="464" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-03: 0 active episodes</title></rect>
+  <rect x="464" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-04: 0 active episodes</title></rect>
+  <rect x="464" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-05: 0 active episodes</title></rect>
+  <rect x="464" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-06: 0 active episodes</title></rect>
+  <rect x="478" y="20" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-07: no data</title></rect>
+  <rect x="478" y="34" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-08: no data</title></rect>
+  <rect x="478" y="48" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-09: no data</title></rect>
+  <rect x="478" y="62" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-10: no data</title></rect>
+  <rect x="478" y="76" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-11: no data</title></rect>
+  <rect x="478" y="90" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-12: no data</title></rect>
+  <rect x="478" y="104" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-13: no data</title></rect>
+  <rect x="492" y="20" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-14: no data</title></rect>
+  <rect x="492" y="34" width="11" height="11" fill="#484f58" rx="2"><title>2023-08-15: no data</title></rect>
+  <rect x="492" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-16: 0 active episodes</title></rect>
+  <rect x="492" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-17: 0 active episodes</title></rect>
+  <rect x="492" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-18: 0 active episodes</title></rect>
+  <rect x="492" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-19: 0 active episodes</title></rect>
+  <rect x="492" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-20: 0 active episodes</title></rect>
+  <rect x="506" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-21: 0 active episodes</title></rect>
+  <rect x="506" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-22: 0 active episodes</title></rect>
+  <rect x="506" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-23: 0 active episodes</title></rect>
+  <rect x="506" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-24: 0 active episodes</title></rect>
+  <rect x="506" y="76" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-08-25: 1 active episode</title></rect>
+  <rect x="506" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-26: 0 active episodes</title></rect>
+  <rect x="506" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-27: 0 active episodes</title></rect>
+  <rect x="520" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-28: 0 active episodes</title></rect>
+  <rect x="520" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-29: 0 active episodes</title></rect>
+  <rect x="520" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-30: 0 active episodes</title></rect>
+  <rect x="520" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-08-31: 0 active episodes</title></rect>
+  <rect x="520" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-01: 0 active episodes</title></rect>
+  <rect x="520" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-02: 0 active episodes</title></rect>
+  <rect x="520" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-03: 0 active episodes</title></rect>
+  <rect x="534" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-04: 0 active episodes</title></rect>
+  <rect x="534" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-05: 0 active episodes</title></rect>
+  <rect x="534" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-06: 0 active episodes</title></rect>
+  <rect x="534" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-07: 0 active episodes</title></rect>
+  <rect x="534" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-08: 0 active episodes</title></rect>
+  <rect x="534" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-09: 0 active episodes</title></rect>
+  <rect x="534" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-10: 0 active episodes</title></rect>
+  <rect x="548" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-11: 0 active episodes</title></rect>
+  <rect x="548" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-12: 0 active episodes</title></rect>
+  <rect x="548" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-13: 0 active episodes</title></rect>
+  <rect x="548" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-14: 0 active episodes</title></rect>
+  <rect x="548" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-15: 0 active episodes</title></rect>
+  <rect x="548" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-16: 0 active episodes</title></rect>
+  <rect x="548" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-17: 0 active episodes</title></rect>
+  <rect x="562" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-18: 0 active episodes</title></rect>
+  <rect x="562" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-19: 0 active episodes</title></rect>
+  <rect x="562" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-20: 0 active episodes</title></rect>
+  <rect x="562" y="62" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-09-21: 2 active episodes</title></rect>
+  <rect x="562" y="76" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-09-22: 2 active episodes</title></rect>
+  <rect x="562" y="90" width="11" height="11" fill="#fef0d9" rx="2"><title>2023-09-23: 1 active episode</title></rect>
+  <rect x="562" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-24: 0 active episodes</title></rect>
+  <rect x="576" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-25: 0 active episodes</title></rect>
+  <rect x="576" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-26: 0 active episodes</title></rect>
+  <rect x="576" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-27: 0 active episodes</title></rect>
+  <rect x="576" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-28: 0 active episodes</title></rect>
+  <rect x="576" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-29: 0 active episodes</title></rect>
+  <rect x="576" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-09-30: 0 active episodes</title></rect>
+  <rect x="576" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-01: 0 active episodes</title></rect>
+  <rect x="590" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-02: 0 active episodes</title></rect>
+  <rect x="590" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-03: 0 active episodes</title></rect>
+  <rect x="590" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-04: 0 active episodes</title></rect>
+  <rect x="590" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-05: 0 active episodes</title></rect>
+  <rect x="590" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-06: 0 active episodes</title></rect>
+  <rect x="590" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-07: 0 active episodes</title></rect>
+  <rect x="590" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-08: 0 active episodes</title></rect>
+  <rect x="604" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-09: 0 active episodes</title></rect>
+  <rect x="604" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-10: 0 active episodes</title></rect>
+  <rect x="604" y="48" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-11: 0 active episodes</title></rect>
+  <rect x="604" y="62" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-12: 0 active episodes</title></rect>
+  <rect x="604" y="76" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-13: 0 active episodes</title></rect>
+  <rect x="604" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-14: 0 active episodes</title></rect>
+  <rect x="604" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-15: 0 active episodes</title></rect>
+  <rect x="618" y="20" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-16: 0 active episodes</title></rect>
+  <rect x="618" y="34" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-17: 0 active episodes</title></rect>
+  <rect x="618" y="48" width="11" height="11" fill="#feecd0" rx="2"><title>2023-10-18: 19 active episodes</title></rect>
+  <rect x="618" y="62" width="11" height="11" fill="#feedd3" rx="2"><title>2023-10-19: 14 active episodes</title></rect>
+  <rect x="618" y="76" width="11" height="11" fill="#fef0d8" rx="2"><title>2023-10-20: 3 active episodes</title></rect>
+  <rect x="618" y="90" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-21: 0 active episodes</title></rect>
+  <rect x="618" y="104" width="11" height="11" fill="#161b22" rx="2"><title>2023-10-22: 0 active episodes</title></rect>
+  <rect x="632" y="20" width="11" height="11" fill="#feedd2" rx="2"><title>2023-10-23: 16 active episodes</title></rect>
+  <rect x="632" y="34" width="11" height="11" fill="#feebcd" rx="2"><title>2023-10-24: 25 active episodes</title></rect>
+  <rect x="632" y="48" width="11" height="11" fill="#fee7c4" rx="2"><title>2023-10-25: 43 active episodes</title></rect>
+  <rect x="632" y="62" width="11" height="11" fill="#feeccf" rx="2"><title>2023-10-26: 21 active episodes</title></rect>
+  <rect x="632" y="76" width="11" height="11" fill="#feebcf" rx="2"><title>2023-10-27: 22 active episodes</title></rect>
+  <rect x="632" y="90" width="11" height="11" fill="#feeacd" rx="2"><title>2023-10-28: 26 active episodes</title></rect>
+  <rect x="632" y="104" width="11" height="11" fill="#feeed4" rx="2"><title>2023-10-29: 12 active episodes</title></rect>
+  <rect x="646" y="20" width="11" height="11" fill="#fdddb0" rx="2"><title>2023-10-30: 84 active episodes</title></rect>
+  <rect x="646" y="34" width="11" height="11" fill="#fedeb2" rx="2"><title>2023-10-31: 80 active episodes</title></rect>
+  <rect x="646" y="48" width="11" height="11" fill="#fedeb2" rx="2"><title>2023-11-01: 81 active episodes</title></rect>
+  <rect x="646" y="62" width="11" height="11" fill="#fdd6a1" rx="2"><title>2023-11-02: 115 active episodes</title></rect>
+  <rect x="646" y="76" width="11" height="11" fill="#fdd8a4" rx="2"><title>2023-11-03: 109 active episodes</title></rect>
+  <rect x="646" y="90" width="11" height="11" fill="#fddaa9" rx="2"><title>2023-11-04: 99 active episodes</title></rect>
+  <rect x="646" y="104" width="11" height="11" fill="#feebce" rx="2"><title>2023-11-05: 24 active episodes</title></rect>
+  <rect x="660" y="20" width="11" height="11" fill="#fee4be" rx="2"><title>2023-11-06: 56 active episodes</title></rect>
+  <rect x="660" y="34" width="11" height="11" fill="#fee0b6" rx="2"><title>2023-11-07: 72 active episodes</title></rect>
+  <rect x="660" y="48" width="11" height="11" fill="#fdddaf" rx="2"><title>2023-11-08: 87 active episodes</title></rect>
+  <rect x="660" y="62" width="11" height="11" fill="#fdd6a0" rx="2"><title>2023-11-09: 116 active episodes</title></rect>
+  <rect x="660" y="76" width="11" height="11" fill="#fddbab" rx="2"><title>2023-11-10: 95 active episodes</title></rect>
+  <rect x="660" y="90" width="11" height="11" fill="#fdddb0" rx="2"><title>2023-11-11: 84 active episodes</title></rect>
+  <rect x="660" y="104" width="11" height="11" fill="#fdc887" rx="2"><title>2023-11-12: 170 active episodes</title></rect>
+  <rect x="674" y="20" width="11" height="11" fill="#f06f47" rx="2"><title>2023-11-13: 372 active episodes</title></rect>
+  <rect x="674" y="34" width="11" height="11" fill="#fc8d59" rx="2"><title>2023-11-14: 321 active episodes</title></rect>
+  <rect x="674" y="48" width="11" height="11" fill="#fdc786" rx="2"><title>2023-11-15: 174 active episodes</title></rect>
+  <rect x="674" y="62" width="11" height="11" fill="#fdbb7d" rx="2"><title>2023-11-16: 204 active episodes</title></rect>
+  <rect x="674" y="76" width="11" height="11" fill="#fdc181" rx="2"><title>2023-11-17: 189 active episodes</title></rect>
+  <rect x="674" y="90" width="11" height="11" fill="#fdd196" rx="2"><title>2023-11-18: 137 active episodes</title></rect>
+  <rect x="674" y="104" width="11" height="11" fill="#fdd6a0" rx="2"><title>2023-11-19: 117 active episodes</title></rect>
+  <rect x="688" y="20" width="11" height="11" fill="#fdcf90" rx="2"><title>2023-11-20: 148 active episodes</title></rect>
+  <rect x="688" y="34" width="11" height="11" fill="#fdb97b" rx="2"><title>2023-11-21: 209 active episodes</title></rect>
+  <rect x="688" y="48" width="11" height="11" fill="#fdbb7d" rx="2"><title>2023-11-22: 203 active episodes</title></rect>
+  <rect x="688" y="62" width="11" height="11" fill="#fdb87b" rx="2"><title>2023-11-23: 211 active episodes</title></rect>
+  <rect x="688" y="76" width="11" height="11" fill="#fdc685" rx="2"><title>2023-11-24: 177 active episodes</title></rect>
+  <rect x="688" y="90" width="11" height="11" fill="#fee5c0" rx="2"><title>2023-11-25: 52 active episodes</title></rect>
+  <rect x="688" y="104" width="11" height="11" fill="#fee9ca" rx="2"><title>2023-11-26: 31 active episodes</title></rect>
+  <rect x="702" y="20" width="11" height="11" fill="#fdbd7e" rx="2"><title>2023-11-27: 200 active episodes</title></rect>
+  <rect x="702" y="34" width="11" height="11" fill="#fdb679" rx="2"><title>2023-11-28: 218 active episodes</title></rect>
+  <rect x="702" y="48" width="11" height="11" fill="#fca96e" rx="2"><title>2023-11-29: 251 active episodes</title></rect>
+  <rect x="702" y="62" width="11" height="11" fill="#fedfb3" rx="2"><title>2023-11-30: 77 active episodes</title></rect>
+  <rect x="702" y="76" width="11" height="11" fill="#feecd0" rx="2"><title>2023-12-01: 19 active episodes</title></rect>
+  <rect x="702" y="90" width="11" height="11" fill="#feeed6" rx="2"><title>2023-12-02: 8 active episodes</title></rect>
+  <rect x="702" y="104" width="11" height="11" fill="#feeed5" rx="2"><title>2023-12-03: 10 active episodes</title></rect>
+  <rect x="716" y="20" width="11" height="11" fill="#fdbd7f" rx="2"><title>2023-12-04: 198 active episodes</title></rect>
+  <rect x="716" y="34" width="11" height="11" fill="#fc945f" rx="2"><title>2023-12-05: 302 active episodes</title></rect>
+  <rect x="716" y="48" width="11" height="11" fill="#fc915c" rx="2"><title>2023-12-06: 312 active episodes</title></rect>
+  <rect x="716" y="62" width="11" height="11" fill="#fc9c64" rx="2"><title>2023-12-07: 284 active episodes</title></rect>
+  <rect x="716" y="76" width="11" height="11" fill="#fdc584" rx="2"><title>2023-12-08: 179 active episodes</title></rect>
+  <rect x="716" y="90" width="11" height="11" fill="#fee3bc" rx="2"><title>2023-12-09: 60 active episodes</title></rect>
+  <rect x="716" y="104" width="11" height="11" fill="#fee7c6" rx="2"><title>2023-12-10: 40 active episodes</title></rect>
+  <rect x="730" y="20" width="11" height="11" fill="#fca66c" rx="2"><title>2023-12-11: 258 active episodes</title></rect>
+  <rect x="730" y="34" width="11" height="11" fill="#fdb376" rx="2"><title>2023-12-12: 225 active episodes</title></rect>
+  <rect x="730" y="48" width="11" height="11" fill="#f88252" rx="2"><title>2023-12-13: 340 active episodes</title></rect>
+  <rect x="730" y="62" width="11" height="11" fill="#f27349" rx="2"><title>2023-12-14: 365 active episodes</title></rect>
+  <rect x="730" y="76" width="11" height="11" fill="#fc925d" rx="2"><title>2023-12-15: 308 active episodes</title></rect>
+  <rect x="730" y="90" width="11" height="11" fill="#fdcf90" rx="2"><title>2023-12-16: 148 active episodes</title></rect>
+  <rect x="730" y="104" width="11" height="11" fill="#fee0b6" rx="2"><title>2023-12-17: 72 active episodes</title></rect>
+  <rect x="744" y="20" width="11" height="11" fill="#fdd196" rx="2"><title>2023-12-18: 137 active episodes</title></rect>
+  <rect x="744" y="34" width="11" height="11" fill="#fdd092" rx="2"><title>2023-12-19: 145 active episodes</title></rect>
+  <rect x="744" y="48" width="11" height="11" fill="#fdd298" rx="2"><title>2023-12-20: 133 active episodes</title></rect>
+  <rect x="744" y="62" width="11" height="11" fill="#fdd9a7" rx="2"><title>2023-12-21: 103 active episodes</title></rect>
+  <rect x="744" y="76" width="11" height="11" fill="#fdd194" rx="2"><title>2023-12-22: 141 active episodes</title></rect>
+  <rect x="744" y="90" width="11" height="11" fill="#fee2b9" rx="2"><title>2023-12-23: 65 active episodes</title></rect>
+  <rect x="744" y="104" width="11" height="11" fill="#feebcf" rx="2"><title>2023-12-24: 22 active episodes</title></rect>
+  <rect x="758" y="20" width="11" height="11" fill="#feeccf" rx="2"><title>2023-12-25: 21 active episodes</title></rect>
+  <rect x="758" y="34" width="11" height="11" fill="#fca56c" rx="2"><title>2023-12-26: 260 active episodes</title></rect>
+  <rect x="758" y="48" width="11" height="11" fill="#fdb87b" rx="2"><title>2023-12-27: 211 active episodes</title></rect>
+  <rect x="758" y="62" width="11" height="11" fill="#fee3bc" rx="2"><title>2023-12-28: 59 active episodes</title></rect>
+  <rect x="758" y="76" width="11" height="11" fill="#feeacc" rx="2"><title>2023-12-29: 27 active episodes</title></rect>
+  <rect x="758" y="90" width="11" height="11" fill="#feeed4" rx="2"><title>2023-12-30: 12 active episodes</title></rect>
+  <rect x="758" y="104" width="11" height="11" fill="#feebce" rx="2"><title>2023-12-31: 24 active episodes</title></rect>
+  <text x="30" y="133" class="title">2023 - 8562 heating episodes</text>
+  <defs>
+    <linearGradient id="legend-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fef0d9"/>
+      <stop offset="33.33333333333333%" stop-color="#fdcc8a"/>
+      <stop offset="66.66666666666666%" stop-color="#fc8d59"/>
+      <stop offset="100%" stop-color="#d7301f"/>
+    </linearGradient>
+  </defs>
+  <text x="560" y="133" class="legend">No data</text>
+  <rect x="602" y="123" width="11" height="11" fill="#484f58" rx="2"/>
+  <text x="632" y="133" class="legend">Less</text>
+  <rect x="662" y="123" width="11" height="11" fill="#161b22" rx="2"/>
+  <rect x="676" y="123" width="53" height="11" fill="url(#legend-gradient)" rx="2"/>
+  <text x="737" y="133" class="legend">More</text>
+</svg>

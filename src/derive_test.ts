@@ -638,3 +638,40 @@ Deno.test("episodes: an unrecognized service value throws, naming the value", as
     "Ceva Nou",
   );
 });
+
+// --- usableDays / episodeSpans ---
+
+Deno.test("usableDays collects ok and empty snapshot days but not an errored-only day", async () => {
+  const { usableDays } = await deriveDatasets([
+    ok("2026-01-01T00:00:00"),
+    errored("2026-01-02T00:00:00"),
+    empty("2026-01-03T00:00:00"),
+  ]);
+
+  assertEquals([...usableDays].sort(), ["2026-01-01", "2026-01-03"]);
+});
+
+Deno.test("episodeSpans: an Oprire ACC incident seen at two ts then absent yields one span", async () => {
+  const { episodeSpans } = await deriveDatasets([
+    ok("2026-01-01T00:00:00"),
+    ok("2026-01-01T00:15:00"),
+    ok("2026-01-01T00:30:00", []),
+  ]);
+
+  assertEquals(episodeSpans, [
+    { utility: "ACC", first_seen_ts: "2026-01-01T00:00:00", last_seen_ts: "2026-01-01T00:15:00" },
+  ]);
+});
+
+Deno.test("episodeSpans: an Oprire ACC/INC incident yields two spans, one per utility", async () => {
+  const { episodeSpans } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [obs({ service: "Oprire ACC/INC" })]),
+  ]);
+
+  const utilities = episodeSpans.map((s) => s.utility).sort();
+  assertEquals(utilities, ["ACC", "INC"]);
+  for (const span of episodeSpans) {
+    assertEquals(span.first_seen_ts, "2026-01-01T00:00:00");
+    assertEquals(span.last_seen_ts, "2026-01-01T00:00:00");
+  }
+});

@@ -158,9 +158,20 @@ export interface DeriveStats {
   bridgedGaps: number;
 }
 
+// One derived episode's utility and span, structurally identical to episode_heatmap.ts's
+// own EpisodeSpan on purpose -- the two modules are opposite sides of the seam and
+// deliberately don't import each other.
+export interface EpisodeSpan {
+  utility: string;
+  first_seen_ts: string;
+  last_seen_ts: string;
+}
+
 export interface Derived {
   files: Map<string, string>;
   stats: DeriveStats;
+  episodeSpans: EpisodeSpan[];
+  usableDays: Set<string>;
 }
 
 // One contiguous run of a distinct estimate/cause value across an incident's parseable
@@ -389,6 +400,7 @@ function episodeId(episode: Episode): Promise<string> {
 export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): Promise<Derived> {
   const open = new Map<string, Incident>();
   const incidents: Incident[] = [];
+  const usableDays = new Set<string>();
   let snapshotCount = 0;
 
   // Plain sync sweep -- the only async work (hashing incident ids) happens after, over
@@ -398,6 +410,8 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     // error/parse_error: the page had content we couldn't read, so it can't testify to
     // absence. Open incidents run straight across it -- skip entirely, evidence or not.
     if (snap.status === "error" || snap.status === "parse_error") continue;
+
+    usableDays.add(snap.ts.slice(0, 10));
 
     const groups = new Map<string, KeyGroup>();
     for (const obs of snap.observations) {
@@ -587,6 +601,12 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     );
   }
 
+  const episodeSpans: EpisodeSpan[] = episodes.map((episode) => ({
+    utility: episode.utility,
+    first_seen_ts: episode.first_seen_ts,
+    last_seen_ts: episode.last_seen_ts,
+  }));
+
   return {
     files,
     stats: {
@@ -600,5 +620,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
       openEpisodes,
       bridgedGaps,
     },
+    episodeSpans,
+    usableDays,
   };
 }

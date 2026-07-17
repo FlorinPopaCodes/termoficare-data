@@ -16,7 +16,14 @@ export interface YearGridConfig {
   color: (value: CellValue) => string;
   tooltip: (date: string, value: CellValue) => string;
   title: string;
-  legend: { zeroColor: string; gradientStops: string[] };
+  legend: {
+    zeroColor: string;
+    gradientStops: string[];
+    // Present only for heatmaps that distinguish "known zero" from "no data" (e.g. blind
+    // days). Adds one legend entry left of "Less"; omitted entirely leaves the legend
+    // byte-identical to a caller that never heard of noData.
+    noData?: { color: string; label: string };
+  };
 }
 
 function getWeekNumber(date: Date): number {
@@ -116,6 +123,13 @@ ${
   }
     </linearGradient>
   </defs>\n`;
+  const noData = config.legend.noData;
+  if (noData !== undefined) {
+    svg += `  <text x="${legendX - 72}" y="${bottomY}" class="legend">${noData.label}</text>\n`;
+    svg += `  <rect x="${
+      legendX - 30
+    }" y="${legendY}" width="11" height="11" fill="${noData.color}" rx="2"/>\n`;
+  }
   svg += `  <text x="${legendX}" y="${bottomY}" class="legend">Less</text>\n`;
   svg += `  <rect x="${
     legendX + 30
