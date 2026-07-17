@@ -1,6 +1,7 @@
 // Postprocess entrypoint for the Flat Data action.
-// Thin orchestrator: appends the scrape's structured artifacts, then sequences the pure
-// heatmap and README modules and writes their output to disk.
+// Thin orchestrator: skips all writes when the snapshot is unchanged, otherwise appends
+// the scrape's structured artifacts, then sequences the pure heatmap and README modules
+// and writes their output to disk.
 
 import { CommitData, generateSVG, getYearsFromData } from "./src/heatmap.ts";
 import { generateReadme } from "./src/readme.ts";
@@ -67,14 +68,8 @@ async function appendCsv(dir: string, ts: string, header: string[], rows: CsvVal
   await Deno.writeTextFile(path, payload, { append: true });
 }
 
-// Only change-bearing scrapes emit structured artifacts -- an unchanged snapshot is
-// noise, not an observation. One clock reading feeds all three payloads.
+// One clock reading feeds all three payloads.
 async function writeStructuredArtifacts() {
-  if (!(await htmlChanged())) {
-    console.log("Snapshot unchanged — skipping structured artifacts");
-    return;
-  }
-
   const ts = bucharestTimestamp(new Date());
   const artifacts = buildArtifacts(await Deno.readTextFile(SNAPSHOT_PATH), ts);
 
@@ -86,6 +81,14 @@ async function writeStructuredArtifacts() {
 }
 
 async function main() {
+  // An unchanged snapshot is noise, not an observation: skip every write so Flat has
+  // nothing to commit. Regenerating the heatmap here would count the previous run's
+  // commit and re-commit forever.
+  if (!(await htmlChanged())) {
+    console.log("Snapshot unchanged — skipping all writes");
+    return;
+  }
+
   // A lost HTML snapshot is unrecoverable; bad structured data is repairable by rerunning
   // the backfill. So nothing here may abort the run -- that would cost the snapshot commit
   // and the heatmap below. A persistently broken write path surfaces as scrape-log silence.
@@ -99,27 +102,19 @@ async function main() {
 
   const data = await getCommitCounts();
   const years = getYearsFromData(data);
-  const currentYear = new Date().getFullYear();
 
   console.log(`Found data for years: ${years.join(", ")}`);
-  console.log(`Current year: ${currentYear}`);
 
   // Create images directory if needed
   await Deno.mkdir("images", { recursive: true });
 
-  // Generate heatmaps
+  // Backfills can add commits with historical author dates, so past-year SVGs are not
+  // immutable -- regenerate them all.
   for (const year of years) {
     const svgPath = `images/heatmap-${year}.svg`;
-    const isCurrentYear = year === currentYear;
-    const exists = await fileExists(svgPath);
-
-    if (isCurrentYear || !exists) {
-      console.log(`Generating ${svgPath}...`);
-      const svg = generateSVG(year, data);
-      await Deno.writeTextFile(svgPath, svg);
-    } else {
-      console.log(`Skipping ${svgPath} (already exists)`);
-    }
+    console.log(`Generating ${svgPath}...`);
+    const svg = generateSVG(year, data);
+    await Deno.writeTextFile(svgPath, svg);
   }
 
   // Generate README
