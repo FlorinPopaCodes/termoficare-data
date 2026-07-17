@@ -122,9 +122,14 @@ async function main() {
     await Deno.writeTextFile(svgPath, svg);
   }
 
-  // Generate README
+  // Generate README. The Flat loop must not read data/derived/, so outage-map years are
+  // discovered from the images/ listing rather than from derive's own state.
   console.log("Generating README.md...");
-  const readme = generateReadme(years);
+  const imageFiles: string[] = [];
+  for await (const entry of Deno.readDir("images")) {
+    if (entry.isFile) imageFiles.push(entry.name);
+  }
+  const readme = generateReadme(years, imageFiles);
   await Deno.writeTextFile("README.md", readme);
 
   console.log("Done!");
