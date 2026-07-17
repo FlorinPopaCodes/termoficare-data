@@ -3,13 +3,16 @@
 // ambient timezone (day-cell keys go through toISOString), so callers that need
 // reproducible bytes must fix TZ — the Flat workflow and the tests both run under UTC.
 
-const COLORS = {
-  empty: "#161b22",
-  level1: "#fef0d9",
-  level2: "#fdcc8a",
-  level3: "#fc8d59",
-  level4: "#d7301f",
-};
+const EMPTY_COLOR = "#161b22";
+
+// Continuous gradient endpoints for non-zero counts, interpolated in RGB space.
+// Intermediate stops keep the same hue progression as the original discrete scale.
+const GRADIENT_STOPS: [number, number, number][] = [
+  [0xfe, 0xf0, 0xd9], // lightest: lowest non-zero count in the year
+  [0xfd, 0xcc, 0x8a],
+  [0xfc, 0x8d, 0x59],
+  [0xd7, 0x30, 0x1f], // red: highest count in the year
+];
 
 const CELL_SIZE = 11;
 const CELL_GAP = 3;
@@ -42,32 +45,50 @@ function getDayOfWeek(date: Date): number {
   return day === 0 ? 6 : day - 1;
 }
 
-function getColorForCount(count: number, percentiles: number[]): string {
-  if (count === 0) return COLORS.empty;
-  if (count <= percentiles[0]) return COLORS.level1;
-  if (count <= percentiles[1]) return COLORS.level2;
-  if (count <= percentiles[2]) return COLORS.level3;
-  return COLORS.level4;
+function toHex(n: number): string {
+  return Math.round(n).toString(16).padStart(2, "0");
 }
 
-function calculatePercentiles(data: CommitData, year: number): number[] {
+// Piecewise-linear interpolation across the gradient stops for a continuous
+// (not bucketed) color range. t=0 -> first stop, t=1 -> last stop.
+function interpolateGradient(t: number): string {
+  const clamped = Math.min(1, Math.max(0, t));
+  const scaled = clamped * (GRADIENT_STOPS.length - 1);
+  const index = Math.min(GRADIENT_STOPS.length - 2, Math.floor(scaled));
+  const localT = scaled - index;
+  const [r1, g1, b1] = GRADIENT_STOPS[index];
+  const [r2, g2, b2] = GRADIENT_STOPS[index + 1];
+  const r = r1 + (r2 - r1) * localT;
+  const g = g1 + (g2 - g1) * localT;
+  const b = b1 + (b2 - b1) * localT;
+  return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+}
+
+interface CountRange {
+  min: number;
+  max: number;
+}
+
+function getColorForCount(count: number, range: CountRange): string {
+  if (count === 0) return EMPTY_COLOR;
+  if (range.max === range.min) return interpolateGradient(1);
+  const t = (count - range.min) / (range.max - range.min);
+  return interpolateGradient(t);
+}
+
+function calculateRange(data: CommitData, year: number): CountRange {
   const counts = Object.entries(data)
     .filter(([date]) => date.startsWith(year.toString()))
     .map(([, count]) => count)
-    .filter((c) => c > 0)
-    .sort((a, b) => a - b);
+    .filter((c) => c > 0);
 
-  if (counts.length === 0) return [1, 5, 10, 20];
+  if (counts.length === 0) return { min: 1, max: 1 };
 
-  const p25 = counts[Math.floor(counts.length * 0.25)] || 1;
-  const p50 = counts[Math.floor(counts.length * 0.50)] || p25;
-  const p75 = counts[Math.floor(counts.length * 0.75)] || p50;
-
-  return [p25, p50, p75];
+  return { min: Math.min(...counts), max: Math.max(...counts) };
 }
 
 export function generateSVG(year: number, data: CommitData): string {
-  const percentiles = calculatePercentiles(data, year);
+  const range = calculateRange(data, year);
 
   // Calculate dimensions
   const leftPadding = 30;
@@ -127,7 +148,7 @@ export function generateSVG(year: number, data: CommitData): string {
   for (const d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
     const dateStr = d.toISOString().substring(0, 10);
     const count = data[dateStr] || 0;
-    const color = getColorForCount(count, percentiles);
+    const color = getColorForCount(count, range);
 
     const week = getWeekNumber(d);
     const dayOfWeek = getDayOfWeek(d);
@@ -145,15 +166,28 @@ export function generateSVG(year: number, data: CommitData): string {
   svg +=
     `  <text x="${leftPadding}" y="${bottomY}" class="title">${year} - ${totalCommits.toLocaleString()} data updates</text>\n`;
 
-  // Legend at bottom right
+  // Legend at bottom right: a black swatch for zero, then a continuous gradient bar
   const legendX = width - 150;
-  svg += `  <text x="${legendX}" y="${bottomY}" class="legend">Less</text>\n`;
-  const legendColors = [COLORS.empty, COLORS.level1, COLORS.level2, COLORS.level3, COLORS.level4];
-  for (let i = 0; i < legendColors.length; i++) {
-    svg += `  <rect x="${legendX + 30 + i * 14}" y="${bottomY - 10}" width="11" height="11" fill="${
-      legendColors[i]
-    }" rx="2"/>\n`;
+  const legendY = bottomY - 10;
+  svg += `  <defs>
+    <linearGradient id="legend-gradient" x1="0" y1="0" x2="1" y2="0">
+${
+    GRADIENT_STOPS.map((stop, i) => {
+      const offset = (i / (GRADIENT_STOPS.length - 1)) * 100;
+      return `      <stop offset="${offset}%" stop-color="#${toHex(stop[0])}${toHex(stop[1])}${
+        toHex(stop[2])
+      }"/>`;
+    }).join("\n")
   }
+    </linearGradient>
+  </defs>\n`;
+  svg += `  <text x="${legendX}" y="${bottomY}" class="legend">Less</text>\n`;
+  svg += `  <rect x="${
+    legendX + 30
+  }" y="${legendY}" width="11" height="11" fill="${EMPTY_COLOR}" rx="2"/>\n`;
+  svg += `  <rect x="${
+    legendX + 44
+  }" y="${legendY}" width="53" height="11" fill="url(#legend-gradient)" rx="2"/>\n`;
   svg += `  <text x="${legendX + 105}" y="${bottomY}" class="legend">More</text>\n`;
 
   svg += `</svg>`;
