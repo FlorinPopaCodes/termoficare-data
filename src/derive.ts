@@ -21,6 +21,8 @@ import {
 export const INCIDENTS_DIR = "data/derived/incidents";
 export const ESTIMATES_DIR = "data/derived/estimates";
 export const CAUSES_DIR = "data/derived/causes";
+export const EPISODES_DIR = "data/derived/episodes";
+export const EPISODE_INCIDENTS_DIR = "data/derived/episode_incidents";
 
 export const INCIDENT_HEADER = [
   "incident_id",
@@ -40,6 +42,20 @@ export const ESTIMATE_HEADER = [
   "last_seen_ts",
 ];
 export const CAUSE_HEADER = ["incident_id", "cause", "first_seen_ts", "last_seen_ts"];
+
+export const EPISODE_HEADER = [
+  "episode_id",
+  "sector",
+  "pt_name",
+  "utility",
+  "first_seen_ts",
+  "last_seen_ts",
+  "first_absent_ts",
+  "n_incidents",
+  "n_bridged_gaps",
+  "bridged_seconds",
+];
+export const EPISODE_INCIDENT_HEADER = ["episode_id", "incident_id"];
 
 // Raw CSV strings only -- blocks/zone_raw/snapshot_ts play no part in incident identity
 // or history and are dropped at the seam so the sweep below can't accidentally depend on
@@ -137,6 +153,9 @@ export interface DeriveStats {
   estimateRuns: number;
   causeRuns: number;
   months: number;
+  episodes: number;
+  openEpisodes: number;
+  bridgedGaps: number;
 }
 
 export interface Derived {
@@ -205,12 +224,166 @@ function advanceRuns(runs: Run[], open: Map<string, Run>, values: Set<string>, t
   }
 }
 
-async function incidentId(incident: Incident): Promise<string> {
-  const input =
-    `${incident.first_seen_ts}|${incident.sector}|${incident.pt_name}|${incident.service}`;
+interface Episode {
+  episode_id: string; // filled in after building -- hashing is the only async part
+  sector: string;
+  pt_name: string;
+  utility: string;
+  members: Incident[]; // opening order
+  first_seen_ts: string;
+  last_seen_ts: string;
+  first_absent_ts: string | null; // null = still open at end of input (censored)
+  n_bridged_gaps: number;
+  bridged_seconds: number;
+}
+
+// severity is a fixed two-value prefix ("Oprire" = full stop, "Deficienta" = degraded);
+// the suffix names the utility, where "ACC/INC" means the incident affects both and so
+// belongs to two utility episodes. Anything else is a service string this derivation
+// doesn't know how to interpret -- a gate, not a guess, so it throws rather than drop or
+// misclassify the incident.
+function unpackService(service: string): { isOprire: boolean; utilities: string[] } {
+  const [severity, util] = service.split(" ");
+  if (severity !== "Oprire" && severity !== "Deficienta") {
+    throw new Error(`unrecognized service: "${service}"`);
+  }
+  if (util !== "ACC" && util !== "INC" && util !== "ACC/INC") {
+    throw new Error(`unrecognized service: "${service}"`);
+  }
+  return {
+    isOprire: severity === "Oprire",
+    utilities: util === "ACC/INC" ? ["ACC", "INC"] : [util],
+  };
+}
+
+// An incident plus its already-parsed isOprire fact -- parsed once, by unpackService in
+// the grouping loop below, so buildEpisodes never re-splits the service string.
+interface UtilityMember {
+  incident: Incident;
+  isOprire: boolean;
+}
+
+// One (sector, pt_name, utility) key's incidents, in first-seen order -- the order they
+// arrive in from the finished `incidents` array, which is itself opening order.
+interface UtilityGroup {
+  sector: string;
+  pt_name: string;
+  utility: string;
+  members: UtilityMember[];
+}
+
+// One current episode's in-progress span while sweeping a key's incidents.
+interface EpisodeBuilder {
+  members: Incident[];
+  first_seen_ts: string;
+  last_seen_ts: string;
+  spanEndTs: string | null; // max first_absent_ts over the CURRENT span; null = infinity
+  spanHasOprire: boolean; // whether the CURRENT span contains an Oprire-severity incident
+  n_bridged_gaps: number;
+  bridged_seconds: number;
+}
+
+function startEpisode(member: UtilityMember): EpisodeBuilder {
+  const { incident } = member;
+  return {
+    members: [incident],
+    first_seen_ts: incident.first_seen_ts,
+    last_seen_ts: incident.last_seen_ts,
+    spanEndTs: incident.first_absent_ts,
+    spanHasOprire: member.isOprire,
+    n_bridged_gaps: 0,
+    bridged_seconds: 0,
+  };
+}
+
+function finishEpisode(group: UtilityGroup, b: EpisodeBuilder): Episode {
+  return {
+    episode_id: "",
+    sector: group.sector,
+    pt_name: group.pt_name,
+    utility: group.utility,
+    members: b.members,
+    first_seen_ts: b.first_seen_ts,
+    last_seen_ts: b.last_seen_ts,
+    first_absent_ts: b.spanEndTs,
+    n_bridged_gaps: b.n_bridged_gaps,
+    bridged_seconds: b.bridged_seconds,
+  };
+}
+
+// null stands for infinity (an open span or incident); concrete timestamps compare as
+// plain strings since ISO timestamps are fixed-width.
+function maxOpenEndedTs(a: string | null, b: string | null): string | null {
+  if (a === null || b === null) return null;
+  return a >= b ? a : b;
+}
+
+// Builds one key's finished episodes from its incidents, already in first_seen order.
+// Overlapping/contiguous incidents share a span outright; a gap either bridges (span so
+// far contains an Oprire, and the gap is <= 24h) or closes the episode.
+function buildEpisodes(group: UtilityGroup): Episode[] {
+  const episodes: Episode[] = [];
+  let current: EpisodeBuilder | undefined;
+
+  for (const member of group.members) {
+    const { incident: inc, isOprire } = member;
+
+    if (current === undefined) {
+      current = startEpisode(member);
+      continue;
+    }
+
+    if (current.spanEndTs === null || inc.first_seen_ts <= current.spanEndTs) {
+      current.members.push(inc);
+      current.spanEndTs = maxOpenEndedTs(current.spanEndTs, inc.first_absent_ts);
+      current.spanHasOprire ||= isOprire;
+      if (inc.last_seen_ts > current.last_seen_ts) current.last_seen_ts = inc.last_seen_ts;
+      continue;
+    }
+
+    // Append "Z" so naive local timestamps are treated as a fixed offset -- deterministic
+    // (DST-edge wall-clock skew is an accepted caveat).
+    const gapSeconds = (Date.parse(`${inc.first_seen_ts}Z`) - Date.parse(`${current.spanEndTs}Z`)) /
+      1000;
+
+    if (gapSeconds <= 86400 && current.spanHasOprire) {
+      current.n_bridged_gaps++;
+      current.bridged_seconds += gapSeconds;
+      current.members.push(inc);
+      current.spanEndTs = inc.first_absent_ts;
+      // Resets to the new span: this is the recovery-tail rule -- Oprire -> gap ->
+      // Deficienta bridges, but that Deficienta must not itself re-bridge the next gap.
+      current.spanHasOprire = isOprire;
+      if (inc.last_seen_ts > current.last_seen_ts) current.last_seen_ts = inc.last_seen_ts;
+      continue;
+    }
+
+    episodes.push(finishEpisode(group, current));
+    current = startEpisode(member);
+  }
+
+  if (current !== undefined) episodes.push(finishEpisode(group, current));
+  return episodes;
+}
+
+// Shared by incident and episode identity: both are "first 12 hex of SHA-1 over a
+// pipe-joined natural key" -- the digest itself is the only async step either needs.
+async function shortSha1(input: string): Promise<string> {
   const digest = await crypto.subtle.digest("SHA-1", new TextEncoder().encode(input));
   return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, "0")).join("")
     .slice(0, 12);
+}
+
+function incidentId(incident: Incident): Promise<string> {
+  return shortSha1(
+    `${incident.first_seen_ts}|${incident.sector}|${incident.pt_name}|${incident.service}`,
+  );
+}
+
+function episodeId(episode: Episode): Promise<string> {
+  return shortSha1(
+    `${episode.first_seen_ts}|${episode.sector}|${episode.pt_name}|${episode.utility}`,
+  );
 }
 
 export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): Promise<Derived> {
@@ -299,6 +472,8 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     incidents: CsvValue[][];
     estimates: CsvValue[][];
     causes: CsvValue[][];
+    episodes: CsvValue[][];
+    episodeIncidents: CsvValue[][];
   }
   const byMonth = new Map<string, MonthBucket>();
 
@@ -310,7 +485,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     const month = incident.first_seen_ts.slice(0, 7);
     let bucket = byMonth.get(month);
     if (bucket === undefined) {
-      bucket = { incidents: [], estimates: [], causes: [] };
+      bucket = { incidents: [], estimates: [], causes: [], episodes: [], episodeIncidents: [] };
       byMonth.set(month, bucket);
     }
 
@@ -332,12 +507,84 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     }
   }
 
+  // Episode grouping: key = (sector, pt_name, utility), the U+0001-joined trick again
+  // (over the utility rather than the raw service) -- a Map preserves first-appearance
+  // order per key, and an ACC/INC incident lands in two groups. This is also the single
+  // call site for unpackService per incident: isOprire travels with each member from here
+  // on, so buildEpisodes/startEpisode never re-parse the service string.
+  const episodeGroups = new Map<string, UtilityGroup>();
+  for (const incident of incidents) {
+    const { isOprire, utilities } = unpackService(incident.service);
+    for (const utility of utilities) {
+      const key = `${incident.sector}${incident.pt_name}${utility}`;
+      let group = episodeGroups.get(key);
+      if (group === undefined) {
+        group = { sector: incident.sector, pt_name: incident.pt_name, utility, members: [] };
+        episodeGroups.set(key, group);
+      }
+      group.members.push({ incident, isOprire });
+    }
+  }
+
+  const episodes: Episode[] = [];
+  for (const group of episodeGroups.values()) episodes.push(...buildEpisodes(group));
+
+  const episodeIds = await Promise.all(episodes.map(episodeId));
+  episodes.forEach((episode, i) => (episode.episode_id = episodeIds[i]));
+
+  // Output ordering: (first_seen_ts, sector, pt_name, utility), all lexicographic --
+  // U+0001 again, this time as a sort-key joiner rather than a Map key.
+  episodes.sort((a, b) => {
+    const ka = `${a.first_seen_ts}${a.sector}${a.pt_name}${a.utility}`;
+    const kb = `${b.first_seen_ts}${b.sector}${b.pt_name}${b.utility}`;
+    return ka < kb ? -1 : ka > kb ? 1 : 0;
+  });
+
+  let openEpisodes = 0;
+  let bridgedGaps = 0;
+
+  // An episode and all its link rows land in the month of the EPISODE's first_seen_ts,
+  // which always belongs to some member incident -- so that month's bucket already exists
+  // from the incidents loop above, even when every one of this month's incidents joined
+  // episodes begun in an earlier month (a header-only episodes/episode_incidents file).
+  for (const episode of episodes) {
+    if (episode.first_absent_ts === null) openEpisodes++;
+    bridgedGaps += episode.n_bridged_gaps;
+
+    const month = episode.first_seen_ts.slice(0, 7);
+    const bucket = byMonth.get(month);
+    if (bucket === undefined) {
+      throw new Error(`episode ${episode.episode_id}: no bucket for month ${month}`);
+    }
+
+    bucket.episodes.push([
+      episode.episode_id,
+      episode.sector,
+      episode.pt_name,
+      episode.utility,
+      episode.first_seen_ts,
+      episode.last_seen_ts,
+      episode.first_absent_ts ?? "",
+      episode.members.length,
+      episode.n_bridged_gaps,
+      episode.bridged_seconds,
+    ]);
+    for (const member of episode.members) {
+      bucket.episodeIncidents.push([episode.episode_id, member.incident_id]);
+    }
+  }
+
   const render = (header: string[], rows: CsvValue[][]) =>
     formatRow(header) + rows.map(formatRow).join("");
   for (const [month, bucket] of byMonth) {
     files.set(monthPath(INCIDENTS_DIR, month), render(INCIDENT_HEADER, bucket.incidents));
     files.set(monthPath(ESTIMATES_DIR, month), render(ESTIMATE_HEADER, bucket.estimates));
     files.set(monthPath(CAUSES_DIR, month), render(CAUSE_HEADER, bucket.causes));
+    files.set(monthPath(EPISODES_DIR, month), render(EPISODE_HEADER, bucket.episodes));
+    files.set(
+      monthPath(EPISODE_INCIDENTS_DIR, month),
+      render(EPISODE_INCIDENT_HEADER, bucket.episodeIncidents),
+    );
   }
 
   return {
@@ -349,6 +596,9 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
       estimateRuns,
       causeRuns,
       months: byMonth.size,
+      episodes: episodes.length,
+      openEpisodes,
+      bridgedGaps,
     },
   };
 }
