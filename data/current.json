@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T13:29:38",
+  "scraped_at": "2026-07-17T13:45:02",
   "status": "ok",
   "outages": [
     {
@@ -271,7 +271,7 @@
       "blocks": 5,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-17T15:00",
+      "estimated_restore": "2026-07-17T21:00",
       "zone_raw": "• Str Delfinului - bl.D17 • Str Ciocârliei - bl. D27, D26, D28, D29"
     },
     {
@@ -903,6 +903,15 @@
       "cause": "Revizie tehnică - CTE Progresu",
       "estimated_restore": "2026-08-01T23:00",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Giulești - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-17T17:30",
+      "zone_raw": "• Cal Giuleşti - bl. 5"
     },
     {
       "sector": 6,
