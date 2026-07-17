@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T20:14:33",
+  "scraped_at": "2026-07-17T21:06:18",
   "status": "ok",
   "outages": [
     {
@@ -174,15 +174,6 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "zone_raw": "• Str N. Constantinescu - bl. 9, 11, 11A • Str Lt. D. Darian - bl. 11B, 23 • Str Lt. Radu Beller - bl. 20, 22 • Str Gen. Andrei Popovici - bl. 6, 1+1B • Str Ştefan Protopopescu - bl. 24 • Str Puţul lui Zamfir - bl. 20A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "24 Delfinului - Partial",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-17T21:00",
-      "zone_raw": "• Str Delfinului - bl.D17 • Str Ciocârliei - bl. D27, D26, D28, D29"
     },
     {
       "sector": 2,
