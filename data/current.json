@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T13:45:02",
+  "scraped_at": "2026-07-17T14:47:26",
   "status": "ok",
   "outages": [
     {
@@ -267,6 +267,15 @@
     },
     {
       "sector": 2,
+      "pt_name": "13 Lacul Tei - Partial",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-17T15:30",
+      "zone_raw": "• Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A • Str Opanez - bl.15B"
+    },
+    {
+      "sector": 2,
       "pt_name": "24 Delfinului - Partial",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -280,7 +289,7 @@
       "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-07-17T14:00",
+      "estimated_restore": "2026-07-17T23:00",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
     },
     {
@@ -912,15 +921,6 @@
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-07-17T17:30",
       "zone_raw": "• Cal Giuleşti - bl. 5"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 6 Placare - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-17T14:30",
-      "zone_raw": "• Bld Iuliu Maniu - bl. D5, 21P"
     },
     {
       "sector": 6,
