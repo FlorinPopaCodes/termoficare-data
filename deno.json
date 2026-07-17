@@ -1,10 +1,11 @@
 {
   "tasks": {
     "postprocess": "deno run -A postprocess.ts",
+    "backfill": "deno run --allow-run=git --allow-read --allow-write scripts/backfill.ts",
     "test": "deno task test:pure && TZ=UTC deno test --allow-read src/",
-    "test:pure": "deno test --no-prompt src/parser_test.ts src/csv_test.ts src/clock_test.ts",
+    "test:pure": "deno test --no-prompt src/parser_test.ts src/csv_test.ts src/clock_test.ts src/backfill_test.ts",
     "bless": "deno run --allow-read --allow-write src/bless.ts",
-    "check": "deno check src/ postprocess.ts"
+    "check": "deno check src/ scripts/backfill.ts postprocess.ts"
   },
   "imports": {
     "deno-dom": "jsr:@b-fuze/deno-dom@0.1.49",
@@ -12,10 +13,10 @@
   },
   "fmt": {
     "lineWidth": 100,
-    "include": ["src/"],
+    "include": ["src/", "scripts/backfill.ts"],
     "exclude": ["src/fixtures/", "src/testdata/"]
   },
   "lint": {
-    "include": ["src/"]
+    "include": ["src/", "scripts/backfill.ts"]
   }
 }

@@ -2,6 +2,11 @@
 
 export type CsvValue = string | number | null;
 
+// The live loop and the backfill must write the same files, or a regeneration silently
+// lands beside the dataset instead of replacing it.
+export const OBSERVATIONS_DIR = "data/observations";
+export const SNAPSHOTS_DIR = "data/snapshots";
+
 export const OBSERVATION_HEADER = [
   "snapshot_ts",
   "sector",
@@ -33,7 +38,11 @@ export function appendPayload(fileExists: boolean, header: string[], rows: CsvVa
   return headerLine + rows.map(formatRow).join("");
 }
 
+export function monthPath(dir: string, month: string): string {
+  return `${dir}/${month}.csv`;
+}
+
 // Month comes from snapshot_ts, not wall-clock time-of-write.
 export function monthFile(dir: string, snapshotTs: string): string {
-  return `${dir}/${snapshotTs.slice(0, 7)}.csv`;
+  return monthPath(dir, snapshotTs.slice(0, 7));
 }
