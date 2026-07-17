@@ -38,6 +38,54 @@ export function appendPayload(fileExists: boolean, header: string[], rows: CsvVa
   return headerLine + rows.map(formatRow).join("");
 }
 
+// Inverse of formatRow: reads a foundation CSV back into rows of raw strings. RFC 4180
+// enough for what this repo writes -- LF row endings, quotes doubled, quoted fields may
+// hold commas/newlines/CR. A field only enters quoted mode as its very first character,
+// matching how formatRow always quotes the whole field or none of it.
+export function parseRows(content: string): string[][] {
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let field = "";
+  let inQuotes = false;
+
+  for (let i = 0; i < content.length; i++) {
+    const c = content[i];
+    if (inQuotes) {
+      if (c === '"') {
+        if (content[i + 1] === '"') {
+          field += '"';
+          i++;
+        } else {
+          inQuotes = false;
+        }
+      } else {
+        field += c;
+      }
+      continue;
+    }
+    if (c === '"' && field === "") {
+      inQuotes = true;
+    } else if (c === ",") {
+      row.push(field);
+      field = "";
+    } else if (c === "\n") {
+      row.push(field);
+      rows.push(row);
+      row = [];
+      field = "";
+    } else {
+      field += c;
+    }
+  }
+  // Only a dangling final row (no trailing newline) needs flushing; a well-formed file
+  // ends with \n, which already flushed the last row above.
+  if (field !== "" || row.length > 0) {
+    row.push(field);
+    rows.push(row);
+  }
+  return rows;
+}
+
 export function monthPath(dir: string, month: string): string {
   return `${dir}/${month}.csv`;
 }

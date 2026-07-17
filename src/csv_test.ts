@@ -1,5 +1,5 @@
 import { assertEquals } from "@std/assert";
-import { appendPayload, formatRow, monthFile, OBSERVATION_HEADER } from "./csv.ts";
+import { appendPayload, formatRow, monthFile, OBSERVATION_HEADER, parseRows } from "./csv.ts";
 
 Deno.test("fields are unquoted when they contain nothing special", () => {
   assertEquals(formatRow(["a", 1, "b"]), "a,1,b\n");
@@ -68,4 +68,31 @@ Deno.test("a real zone_raw value with bullets and commas round-trips as one phys
   const payload = formatRow(row);
   assertEquals(payload.split("\n").length, 2); // one row + trailing empty split
   assertEquals(payload.includes(`"${zone}"`), true);
+});
+
+Deno.test("parseRows round-trips a nasty formatRow row: quotes, commas, newline, CR, empty fields", () => {
+  const nasty = ["a,b", 'say "hi"', "line one\nline two\rline three", "", "plain"];
+  const payload = formatRow(nasty);
+  assertEquals(parseRows(payload), [nasty]);
+});
+
+Deno.test("parseRows parses multiple LF-terminated rows", () => {
+  const content = "h1,h2\na,1\nb,2\n";
+  assertEquals(parseRows(content), [
+    ["h1", "h2"],
+    ["a", "1"],
+    ["b", "2"],
+  ]);
+});
+
+Deno.test("parseRows ignores a trailing final newline", () => {
+  assertEquals(parseRows("a,b\n"), [["a", "b"]]);
+});
+
+Deno.test("parseRows on empty content returns no rows", () => {
+  assertEquals(parseRows(""), []);
+});
+
+Deno.test("parseRows keeps a genuinely empty final field when there is no trailing newline", () => {
+  assertEquals(parseRows("a,b,"), [["a", "b", ""]]);
 });
