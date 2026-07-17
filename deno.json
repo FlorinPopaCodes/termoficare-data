@@ -2,7 +2,7 @@
   "tasks": {
     "postprocess": "deno run -A postprocess.ts",
     "backfill": "deno run --allow-run=git --allow-read --allow-write scripts/backfill.ts",
-    "derive": "deno run --allow-read --allow-write scripts/derive.ts",
+    "derive": "TZ=UTC deno run --allow-read --allow-write scripts/derive.ts",
     "health": "deno run --allow-read --allow-write --allow-run=git,gh scripts/health.ts",
     "test": "deno task test:pure && TZ=UTC deno test --allow-read src/",
     "test:pure": "deno test --no-prompt src/parser_test.ts src/csv_test.ts src/clock_test.ts src/backfill_test.ts src/derive_test.ts src/health_test.ts",

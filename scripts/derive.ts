@@ -1,7 +1,8 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write
 //
 // Regenerates the derived incident/estimate/cause/episode history from the foundation
-// CSVs (data/observations, data/snapshots) per decision #8.
+// CSVs (data/observations, data/snapshots) per decision #8, and renders the episode
+// heatmap SVGs (images/episodes-<utility>-<year>.svg) from that same derivation.
 //
 //   deno task derive
 //
@@ -10,7 +11,9 @@
 // any mismatch), and feeds the aligned stream to deriveDatasets. Only
 // data/derived/{incidents,estimates,causes,episodes,episode_incidents} are replaced
 // wholesale; anything else under data/derived/ is left untouched for future datasets to
-// live beside these.
+// live beside these. The images/ output is likewise regenerated wholesale (one file per
+// utility per year) but nothing there is removed first -- images/heatmap-<year>.svg from
+// the commit heatmap lives alongside it undisturbed.
 //
 // Foundation month files are read one at a time (never more than one month's ~586MB of
 // observations held in memory together) via a sync generator, matching foundationSnapshots'
@@ -27,6 +30,7 @@ import {
   type MonthContent,
 } from "../src/derive.ts";
 import { monthPath, OBSERVATIONS_DIR, SNAPSHOTS_DIR } from "../src/csv.ts";
+import { IMAGES_DIR, renderEpisodeHeatmaps } from "../src/episode_heatmap.ts";
 
 // Enumerates months from the scrape-log dir (the authoritative set of months that were
 // ever scraped) and requires a matching observations file for each -- a missing
@@ -75,7 +79,9 @@ async function main() {
   console.error(`${months.length} months to derive, ${months[0]}..${months[months.length - 1]}.`);
 
   const started = performance.now();
-  const { files, stats } = await deriveDatasets(foundationSnapshots(readMonths(months)));
+  const { files, stats, episodeSpans, usableDays } = await deriveDatasets(
+    foundationSnapshots(readMonths(months)),
+  );
   const seconds = ((performance.now() - started) / 1000).toFixed(1);
 
   console.error(
@@ -90,6 +96,11 @@ async function main() {
 
   await write(files);
   console.error(`Wrote ${files.size} files.`);
+
+  const heatmaps = renderEpisodeHeatmaps(episodeSpans, usableDays);
+  await Deno.mkdir(IMAGES_DIR, { recursive: true });
+  for (const [path, svg] of heatmaps) await Deno.writeTextFile(path, svg);
+  console.error(`Wrote ${heatmaps.size} episode heatmaps.`);
 }
 
 main();
