@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T11:54:17",
+  "scraped_at": "2026-07-17T13:29:38",
   "status": "ok",
   "outages": [
     {
@@ -294,15 +294,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "2 Mosilor",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - Calea Moșilor",
-      "estimated_restore": "2026-07-17T23:00",
-      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
-    },
-    {
-      "sector": 2,
       "pt_name": "2 Stefan cel Mare",
       "blocks": 19,
       "service": "Oprire ACC",
@@ -318,6 +309,15 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "5 C3/2",
+      "blocks": 14,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic - Bj. Dunarii nr.1",
+      "estimated_restore": "2026-07-17T16:30",
+      "zone_raw": "• Ale Solidarităţii - bl. Y6, M17, M18, M19, M20, M31C • Ale Barajul Rovinari - bl. M21, M22 • Ale Barajul Dunării - bl. 21A, 21B, 21C, M37, M38, M39"
     },
     {
       "sector": 3,
