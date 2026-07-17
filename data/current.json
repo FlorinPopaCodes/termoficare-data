@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T22:44:26",
+  "scraped_at": "2026-07-17T23:33:34",
   "status": "ok",
   "outages": [
     {
@@ -12,24 +12,6 @@
       "cause": "LUCRARI MODERNIZARE RETEA TERMICA PRIMARA POIM LOT 2 OBIECTIV 9 EXECUTATE DE FIRMA ELSACO",
       "estimated_restore": "2026-07-21T23:30",
       "zone_raw": "• Cal Griviţei - bl.Sora"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Prefabricate",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar -",
-      "estimated_restore": "2026-07-17T23:30",
-      "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "6 ACM",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar -",
-      "estimated_restore": "2026-07-17T23:30",
-      "zone_raw": "• Str Constantin Stere - Imobil Nr.10 • Cal Griviţei - bl. 4, 5, 6, 7, imob.Nr. 7 • Str Lainici - Imobil Nr.5"
     },
     {
       "sector": 1,
