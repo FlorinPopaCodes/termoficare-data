@@ -1,0 +1,54 @@
+name: Scrape health
+
+# Owns all detection/alerting per decision #9: separate from Flat because postprocess only
+# runs on a successful fetch, so it is structurally blind to fetch failures and to the
+# workflow simply not running. The */15 cron below is, like flat.yml's, throttled by
+# GitHub's scheduler to roughly hourly in practice -- measured median gap 76 min, max 4.4h
+# (see docs/research/2026-07-17-external-scheduler-for-15min-cron.md). The thresholds in
+# src/health.ts (6h/12h/72h/48h) are sized against that measured cadence, not the requested one.
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: health
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # git-log-based fact ages need full history
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+          cache: true
+
+      - name: Evaluate scrape health
+        run: deno task health
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/health.json
+          if git diff --cached --quiet; then
+            echo "no state change"
+          else
+            git commit -m "Health: $(jq -r .message data/health.json)"
+            # Flat pushes every 15 minutes; rebase absorbs that race.
+            git pull --rebase origin main
+            git push origin main
+          fi
