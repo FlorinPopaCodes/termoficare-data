@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T21:06:18",
+  "scraped_at": "2026-07-17T22:44:26",
   "status": "ok",
   "outages": [
     {
@@ -181,7 +181,7 @@
       "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-07-17T23:00",
+      "estimated_restore": "2026-07-20T23:00",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
     },
     {
