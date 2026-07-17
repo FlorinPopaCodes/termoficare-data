@@ -21,3 +21,17 @@ export function bucharestTimestamp(instant: Date): string {
     get("second")
   }`;
 }
+
+// Inverse of bucharestTimestamp: a naive Bucharest wall-clock string back to the instant
+// it names. Two fixed-point iterations absorb the DST-dependent offset; October's
+// fall-back hour is ambiguous and resolves to one of its two instants (accepted, matching
+// bucharestTimestamp's accepted duplicate).
+export function bucharestToInstant(ts: string): Date {
+  const wallMs = Date.parse(ts + "Z");
+  let guess = new Date(wallMs);
+  for (let i = 0; i < 2; i++) {
+    const renderedMs = Date.parse(bucharestTimestamp(guess) + "Z");
+    guess = new Date(guess.getTime() + (wallMs - renderedMs));
+  }
+  return guess;
+}
