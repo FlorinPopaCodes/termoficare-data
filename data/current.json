@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-17T15:13:05",
+  "scraped_at": "2026-07-17T15:53:14",
   "status": "ok",
   "outages": [
     {
@@ -271,7 +271,7 @@
       "blocks": 7,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-17T15:30",
+      "estimated_restore": "2026-07-17T19:30",
       "zone_raw": "• Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A • Str Opanez - bl.15B"
     },
     {
@@ -318,24 +318,6 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
-    },
-    {
-      "sector": 3,
-      "pt_name": "5 C3/2",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic - Bj. Dunarii nr.1",
-      "estimated_restore": "2026-07-17T16:30",
-      "zone_raw": "• Ale Solidarităţii - bl. Y6, M17, M18, M19, M20, M31C • Ale Barajul Rovinari - bl. M21, M22 • Ale Barajul Dunării - bl. 21A, 21B, 21C, M37, M38, M39"
-    },
-    {
-      "sector": 3,
-      "pt_name": "4X - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum Bj.Sadului",
-      "estimated_restore": "2026-07-17T15:30",
-      "zone_raw": "• Ale Barajul Sadului - bl. M4 • Ale Barajul Lotru - bl. M4A1"
     },
     {
       "sector": 3,
@@ -964,7 +946,7 @@
       "blocks": 6,
       "service": "Oprire ACC",
       "cause": "Lucrari rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-17T15:30",
+      "estimated_restore": "2026-07-17T19:30",
       "zone_raw": "• Str Paşcani - bl. D5 • Str Drumul Taberei - bl. A6 • Str Cetatea Histria - bl.MIIB8/13 • Str Delineşti - bl.TD45, MIIB8/11, MIIB8/12"
     }
   ]
