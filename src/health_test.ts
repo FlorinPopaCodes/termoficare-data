@@ -176,6 +176,13 @@ Deno.test("derived-stale: latestDeriveConclusion 'failure' is active", () => {
   assertEquals(evaluate(facts).includes("derived-stale"), true);
 });
 
+Deno.test("derived-stale: any non-success conclusion (cancelled, timed_out) is active", () => {
+  for (const conclusion of ["cancelled", "timed_out", "startup_failure"]) {
+    const facts = buildFacts({ latestDeriveConclusion: conclusion });
+    assertEquals(evaluate(facts).includes("derived-stale"), true, conclusion);
+  }
+});
+
 Deno.test("derived-stale: last success exactly 48h ago is inactive (strict >)", () => {
   const facts = buildFacts({ lastDeriveSuccessAt: NOW - 48 * HOUR });
   assertEquals(evaluate(facts).includes("derived-stale"), false);
@@ -352,8 +359,11 @@ Deno.test("issueBody for parser-broken names it a likely markup change needing a
 });
 
 Deno.test("issueBody for derived-stale names the triggering clause", () => {
-  const failureBody = issueBody("derived-stale", buildFacts({ latestDeriveConclusion: "failure" }));
-  assertEquals(/failure/i.test(failureBody), true);
+  const failureBody = issueBody(
+    "derived-stale",
+    buildFacts({ latestDeriveConclusion: "timed_out" }),
+  );
+  assertEquals(/timed_out/.test(failureBody), true);
 
   const staleBody = issueBody(
     "derived-stale",

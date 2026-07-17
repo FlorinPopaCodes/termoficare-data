@@ -27,10 +27,13 @@ import { bucharestToInstant } from "../src/clock.ts";
 import { parseRows, SNAPSHOTS_DIR } from "../src/csv.ts";
 import { type ScrapeStatus } from "../src/parser.ts";
 
+// Unlike postprocess's runGit, failures carry stderr: this runs unattended on a cron, so
+// a gh auth/rate-limit error must be diagnosable from the workflow log alone.
 async function run(cmd: string, args: string[]): Promise<string> {
-  const output = await new Deno.Command(cmd, { args, stdout: "piped" }).output();
+  const output = await new Deno.Command(cmd, { args, stdout: "piped", stderr: "piped" }).output();
   if (!output.success) {
-    throw new Error(`${cmd} ${args[0]} failed with code ${output.code}`);
+    const stderr = new TextDecoder().decode(output.stderr).trim();
+    throw new Error(`${cmd} ${args[0]} failed with code ${output.code}: ${stderr}`);
   }
   return new TextDecoder().decode(output.stdout);
 }
@@ -120,7 +123,7 @@ interface GhIssue {
 // An issue's condition is the first CONDITIONS entry present among its labels; an issue
 // carrying none of them (shouldn't happen given how they're opened, but not this script's
 // job to enforce) is skipped rather than guessed at.
-async function openIssues(): Promise<OpenIssue[]> {
+export async function openIssues(): Promise<OpenIssue[]> {
   const text = await run("gh", [
     "issue",
     "list",
@@ -144,7 +147,7 @@ async function openIssues(): Promise<OpenIssue[]> {
   return result;
 }
 
-async function openIssueFor(condition: ConditionId, facts: HealthFacts) {
+export async function openIssueFor(condition: ConditionId, facts: HealthFacts) {
   console.error(`Opening issue: ${condition}`);
   await run("gh", [
     "issue",
@@ -160,16 +163,15 @@ async function openIssueFor(condition: ConditionId, facts: HealthFacts) {
   ]);
 }
 
-async function closeIssue(issue: OpenIssue, now: number) {
+export async function closeIssue(issue: OpenIssue, now: number) {
   console.error(`Closing issue #${issue.number}: ${issue.condition}`);
   await run("gh", [
     "issue",
-    "comment",
+    "close",
     String(issue.number),
-    "--body",
+    "--comment",
     recoveryComment(issue.openedAt, now),
   ]);
-  await run("gh", ["issue", "close", String(issue.number)]);
 }
 
 async function main() {
@@ -197,4 +199,6 @@ async function main() {
   console.error("Wrote data/health.json");
 }
 
-main();
+// Guarded (unlike sibling scripts) so the tracker executors above stay importable by a
+// lifecycle drill without side effects.
+if (import.meta.main) main();

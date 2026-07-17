@@ -97,10 +97,13 @@ function isFrozenPage(facts: HealthFacts): boolean {
   return facts.now - facts.lastHtmlChangeAt >= FROZEN_PAGE_HOURS * HOUR_MS;
 }
 
-// A null lastDeriveSuccessAt (derivation has never happened in any form) does not alert
-// on its own -- that's the pre-derivation repo state, not staleness.
+// "Failed" reads as any completed conclusion other than success -- cancelled, timed_out,
+// and startup_failure all mean the derivation didn't happen, exactly what the rule is
+// for. A null lastDeriveSuccessAt (derivation has never happened in any form) does not
+// alert on its own -- that's the pre-derivation repo state, not staleness.
 function isDerivedStale(facts: HealthFacts): boolean {
-  if (facts.latestDeriveConclusion === "failure") return true;
+  const c = facts.latestDeriveConclusion;
+  if (c !== null && c !== "success") return true;
   if (facts.lastDeriveSuccessAt === null) return false;
   return facts.now - facts.lastDeriveSuccessAt > DERIVED_STALE_HOURS * HOUR_MS;
 }
@@ -197,8 +200,9 @@ function issueParagraph(c: ConditionId, facts: HealthFacts): string {
       return `HTML last changed at ${at}, threshold ${FROZEN_PAGE_HOURS}h.`;
     }
     case "derived-stale": {
-      if (facts.latestDeriveConclusion === "failure") {
-        return "The most recent derive.yml run concluded with failure.";
+      const c = facts.latestDeriveConclusion;
+      if (c !== null && c !== "success") {
+        return `The most recent derive.yml run concluded with ${c}.`;
       }
       if (facts.lastDeriveSuccessAt === null) {
         return `No successful derive has ever been recorded; threshold ${DERIVED_STALE_HOURS}h.`;
