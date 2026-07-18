@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-18T20:11:21",
+  "scraped_at": "2026-07-18T21:05:49",
   "status": "ok",
   "outages": [
     {
@@ -276,20 +276,11 @@
     },
     {
       "sector": 5,
-      "pt_name": "7 Petre Ispirescu",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Petre Ispirescu - bl. P71A, P72B • Str Lacul Plopului - bl. P64 • Str Dorneasca - bl. P72 • Str Sg.maj. Vasile Topliceanu - bl. P66, P67"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 din 13 Septembrie",
       "blocks": 19,
       "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
+      "cause": "Lucrări de modernizare în cadrul Lotului 3 Magistrala V Grozăvesti, Obiectivul 15 „Reabilitarea sistemului de termoficare al Municipiului București”",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Str Uranus - bl. U8, 53 • Str Ion Creangă - bl. 87, 89, 91 • Cal 13 Septembrie - bl. 55-57, 59-61, 63, 65-67, 69 ,71, 73-75, 77ABC,79 ,81, 83, 85"
     },
     {
