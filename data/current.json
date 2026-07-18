@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-18T08:41:37",
+  "scraped_at": "2026-07-18T12:06:52",
   "status": "ok",
   "outages": [
     {
@@ -447,15 +447,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "5 Petre Ispirescu",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
-    },
-    {
-      "sector": 5,
       "pt_name": "5 Margeanului",
       "blocks": 22,
       "service": "Oprire ACC",
@@ -606,60 +597,6 @@
       "cause": "Revizie tehnică - CTE Progresu",
       "estimated_restore": "2026-08-01T23:00",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "ISCH",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "LUCRARI POIM LOT 2 ,OBIECTIV 7- LUCREAZA FIRMA SICOR",
-      "estimated_restore": "2026-07-18T10:00",
-      "zone_raw": "• Spl Independenţei - bl. ISCH"
-    },
-    {
-      "sector": 6,
-      "pt_name": "REGIE 3",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "LUCRARI POIM LOT 2 ,OBIECTIV 7- LUCREAZA FIRMA SICOR",
-      "estimated_restore": "2026-07-18T10:00",
-      "zone_raw": "• Spl Independenţei - CAMIN P7, P8, P9, P10, P11, P12, P13, P14, CANTINA VEST, CANTINA EST"
-    },
-    {
-      "sector": 6,
-      "pt_name": "ZAGANESCU",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "LUCRARI POIM LOT 2 ,OBIECTIV 7- LUCREAZA FIRMA SICOR",
-      "estimated_restore": "2026-07-18T10:00",
-      "zone_raw": "• Str Burlă Vasile - imobil 3,17,19, 21 • Str Cpt. Pavel Zăgănescu - imobil 3,4,5,8"
-    },
-    {
-      "sector": 6,
-      "pt_name": "REGIE 4",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "LUCRARI POIM LOT 2 ,OBIECTIV 7- LUCREAZA FIRMA SICOR",
-      "estimated_restore": "2026-07-18T10:00",
-      "zone_raw": "• Spl Independenţei - CAMIN P1, P2, P3, P4, P5, P6, P20, P21, P22, SALA SPORT, COMPLEX COMERCIAL"
-    },
-    {
-      "sector": 6,
-      "pt_name": "STUDENTI 2",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "LUCRARI POIM LOT 2 ,OBIECTIV 7- LUCREAZA FIRMA SICOR",
-      "estimated_restore": "2026-07-18T10:00",
-      "zone_raw": "• Spl Independenţei - CAMIN P18, P19, P17, P16, P15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4/7 - Partial",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Lucrari rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-18T11:00",
-      "zone_raw": "• Str Paşcani - bl. D5 • Str Drumul Taberei - bl. A6 • Str Cetatea Histria - bl.MIIB8/13 • Str Delineşti - bl.TD45, MIIB8/11, MIIB8/12"
     }
   ]
 }
