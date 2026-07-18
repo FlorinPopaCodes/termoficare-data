@@ -7,7 +7,8 @@
     "jsr:@std/csv@1": "1.0.6",
     "jsr:@std/internal@^1.0.12": "1.0.14",
     "jsr:@std/streams@^1.0.9": "1.1.1",
-    "npm:chroma-js@3": "3.2.0"
+    "npm:chroma-js@3": "3.2.0",
+    "npm:luxon@3": "3.7.2"
   },
   "jsr": {
     "@b-fuze/deno-dom@0.1.49": {
@@ -41,6 +42,9 @@
   "npm": {
     "chroma-js@3.2.0": {
       "integrity": "sha512-os/OippSlX1RlWWr+QDPcGUZs0uoqr32urfxESG9U93lhUfbnlyckte84Q8P1UQY/qth983AS1JONKmLS4T0nw=="
+    },
+    "luxon@3.7.2": {
+      "integrity": "sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew=="
     }
   },
   "workspace": {
@@ -48,7 +52,8 @@
       "jsr:@b-fuze/deno-dom@0.1.49",
       "jsr:@std/assert@1",
       "jsr:@std/csv@1",
-      "npm:chroma-js@3"
+      "npm:chroma-js@3",
+      "npm:luxon@3"
     ]
   }
 }
