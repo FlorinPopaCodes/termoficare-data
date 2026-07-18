@@ -12,6 +12,7 @@
   "imports": {
     "deno-dom": "jsr:@b-fuze/deno-dom@0.1.49",
     "@std/assert": "jsr:@std/assert@1",
+    "@std/csv": "jsr:@std/csv@1",
     "chroma-js": "npm:chroma-js@3"
   },
   "fmt": {
