@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-18T12:06:52",
+  "scraped_at": "2026-07-18T15:36:00",
   "status": "ok",
   "outages": [
     {
@@ -258,15 +258,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "6 Chirigiu",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Progresului - bl. 5A"
-    },
-    {
-      "sector": 5,
       "pt_name": "2 Rahova",
       "blocks": 22,
       "service": "Oprire ACC",
@@ -285,111 +276,12 @@
     },
     {
       "sector": 5,
-      "pt_name": "4 Sălaj",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Şos Sălaj - bl. 58A, 126A, 128B • Ale Tulcea - bl. 126B, 128 • Cal Ferentari - bl. 125, 123, 124, 124A, 126"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Sălaj",
       "blocks": 7,
       "service": "Oprire ACC",
       "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
       "estimated_restore": "2026-07-18T23:00",
       "zone_raw": "• Str Petre Păun - bl. 69D, 69C • Şos Sălaj - bl. 68, 69A 69B • Str Sg. Turturică - bl. 70A, 70B"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Petre Ispirescu",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Petre Ispirescu - bl. P1A, P6 • Str Cobadin - bl. P14, P19A, P19 • Str Ileana Cosânzeana - bl. P1, P2, P7, P8, P9, P10, P11 • Str Făt Frumos - bl. P6, P12, P11A, P13, P15, P16"
-    },
-    {
-      "sector": 5,
-      "pt_name": "5 Chirigiu",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Cal Rahovei - bl. 12, 13 • Str Năsăud - bl. 20, 21, 23, 24, 25"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Sălaj",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Pecineaga - bl. 46, 47A • Str Cartojani - bl. 53A, 55A • Ale Sălaj - bl. 47, 48, 49, 50, 55, 53 • Str Dunavăţ - bl. 49C, 49D, 49E, 51A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "bloc 1, bloc 2 (cod PT: 50039)",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Mihail Sebastian - 116 – PT propriu"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Alexandria",
-      "blocks": 27,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Ale Lereşti - bl D1, D2, D3, A2, 37, 38, Sc.126, Cresa Sf. Stelian • Str Antiaeriană - bl A1, A1Prim • Şos Alexandria - bl L21, L22, L23, L24, L25, L26, L27, L28, L29, M1, M2, M3, M4, M5, OD1, PC9, PC10, PC11, PC12"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Salaj",
-      "blocks": 25,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A,122B, • Str Dunavăţ - 57,58,59,60,61A,65,60A,61 • Str Teliţa - 52A,56,66A,120,121,116,122A,119C • Cal Ferentari - 117,119A,70A+B,119B,119D,117A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Alexandria",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Şos Alexandria - bl L1, L2, L3,L4, L5, L6, PC1, PC2, PC7, PC6"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Chirigiu",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Năsăud - bl. 31, 32"
-    },
-    {
-      "sector": 5,
-      "pt_name": "7 Margeanului",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M29, M30, M31, M32, M33, M34 • Str Sold. Ene Modoran - bl. M93A, M93B • Str Dumbrava Nouă - bl. M78 scara 1, M79 • Str Buzoeni - bl. M38, M39, M40, M41, M76, M77, M78 scara 2 • Str Mărgeanului - bl. M35, M36, M37"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Vicina",
-      "blocks": 30,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Ale Pricopan - bl. Z7, Z8, 11, 12, 13, 14, 16, 17, 18, 19, 20, 33, 34, 35, 36 • Ale Sălaj - bl. Z4, Z5, Z10, 15, 21, 37, 41 • Str Malcoci - bl. 38, 39, 40 • Ale Vicina - bl. 1, Z2, Z3, Z6, Z9"
     },
     {
       "sector": 5,
@@ -402,30 +294,12 @@
     },
     {
       "sector": 5,
-      "pt_name": "3 Rahova",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Pribeagului - bl 25 • Str Sold. Ene Modoran - bl 10C • Ale Rădăşeni - bl 14, 17, 19, 22, 27, imobil Dan Alexandru • Cal Rahovei - bl 10A, 10B, 16, 20A, 20B"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Petre Ispirescu",
       "blocks": 16,
       "service": "Oprire ACC",
       "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
       "estimated_restore": "2026-07-18T23:00",
       "zone_raw": "• Str Petre Ispirescu - bl. P22B, P22C, P22 • Str Cobadin - bl. P21C1, P21C2, P24 • Str Dumbrava Nouă - bl. P22A,P21B, P25, P41 • Str Moţoc - bl. P21A2, P21A1 • Str Elev Nicolae Popovici - bl. P42 • Str Sg.maj. Vasile Topliceanu - bl. P42B, P42A • Str Sg. maj. Ion Nedeleanu - bl. P40"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Teiuş",
-      "blocks": 30,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Ale Posada - bl. 31, 32, 33, 35, 36, 34, Şcoala nr. 131 • Str Teiuş - bl. 10, Şcoala generală nr. 139 ,Policlinica Teius • Şos Alexandria - bl. C11, 4, 5bis, 21, 21bis, 22, 26, 27, 30, imobil nr 7B • Ale Ghimeş - bl. 23, 24, 25,28, 29 • Str Garoafei - bl. 5, 6, 7, 8, 9, Grădiniţa nr. 185"
     },
     {
       "sector": 5,
@@ -456,15 +330,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "1 Rahova",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Petre Ispirescu - bl 49 • Ale Bărbăteşti - bl 58 • Str Sg. Gheorghe Donici - bl 65, 71, Şcoala Nr. 280 • Str Serg. maj. Gheorghe Iorga - bl 53, 53A, 55, 55A, 59A, 59B • Cal Rahovei - bl 57, 57A, 57B, 59, 67"
-    },
-    {
-      "sector": 5,
       "pt_name": "9 Margeanului",
       "blocks": 36,
       "service": "Oprire ACC",
@@ -474,39 +339,12 @@
     },
     {
       "sector": 5,
-      "pt_name": "6 Rahova",
-      "blocks": 26,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Constantin Lecca - bl 66E • Str Pictor Mihail Dan - bl 62, 67 • Şos Sălaj - bl 34, 62A, 62B • Str Malcoci - bl 36, 45, 46 • Str Vasile Dumitrescu - bl 66C • Str Dunavăţ - bl 63, 66D, 45A, 45B, 45C, 70A • Str Teliţa - bl 66A, 66B, 67A, 70, Policlinica Malcoci • Str Frecăţei - bl 35 • Cal Rahovei - bl 44, 44A, 52, 66"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 din 13 Septembrie",
       "blocks": 19,
       "service": "Oprire ACC",
       "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
       "estimated_restore": "2026-07-18T23:00",
       "zone_raw": "• Str Uranus - bl. U8, 53 • Str Ion Creangă - bl. 87, 89, 91 • Cal 13 Septembrie - bl. 55-57, 59-61, 63, 65-67, 69 ,71, 73-75, 77ABC,79 ,81, 83, 85"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Soldat Croitoru",
-      "blocks": 29,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Pecineaga - bl.17C, 23, 24 • Str Cap. Preda - bl. 3E, 19, 4 • Str Cap. Ilina - bl. 3B, 3C, 14, 21, 21A, 3D • Str Sold. Vasile Croitoru - bl. 3, 8, 9, 9A, 9B • Str Sold. Ion Cândea - bl. 22, 21B • Str Lt. Ilie Câmpeanu - bl. 2, 18, 18A, 18B, 15, 15A • Str Amurgului - Sectia 19 Politie • Str Slt. Popa - bl. 17, 17A, 17B, 20, 23A REZILIAT 21 – Sc. 1, 2"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Petre Ispirescu",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
     },
     {
       "sector": 5,
@@ -528,15 +366,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "8 Alexandria",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Dobrun - bl. M67 • Şos Alexandria - bl. L8, L9, L10, L11, PC8 • Str Mărgeanului - bl. M68, M69, M70, M71"
-    },
-    {
-      "sector": 5,
       "pt_name": "2 Ferentari",
       "blocks": 22,
       "service": "Oprire ACC",
@@ -555,39 +384,12 @@
     },
     {
       "sector": 5,
-      "pt_name": "Garoafei",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Ale Costineşti - bl. 1, 2, 3, 4, 5, 6, 7, 8, 9 • Str Pucheni - bl. 2, 3 • Şos Alexandria - bl. 1, 12, imobil"
-    },
-    {
-      "sector": 5,
       "pt_name": "8 Margeanului",
       "blocks": 19,
       "service": "Oprire ACC",
       "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
       "estimated_restore": "2026-07-18T23:00",
       "zone_raw": "• Str Topolniţa - bl. M44, M45, M54 • Str Dobrun - bl. M57, M58 • Str Buzoeni - bl. M43, M46, M47, M48, M72, M73, M74 • Str Mărgeanului - bl. M49, M50 • Str Glicinelor - bl. M51, M52, M53, M55, M56"
-    },
-    {
-      "sector": 5,
-      "pt_name": "6 Margeanului",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M21, M25, M26, M27 • Str Sold. Ene Modoran - bl. M91, M92, M94 • Str Dumbrava Nouă - bl. M17, M28, M80, M81, M82 • Str Cap. Petre Mişcă - bl. M18, M19, M20, M22 • Str Mărgeanului - bl. M23, M23A, M24"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Rahova",
-      "blocks": 35,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare în cadrul Lotului 5, Obiectivul 14, parte a obiectivului de investiții „Reabilitarea sistemului de termoficare al Municipiului București” - Şoseaua Panduri",
-      "estimated_restore": "2026-07-18T23:00",
-      "zone_raw": "• Str Pecineaga - bl 23A, 23B, 25, 26, 28A, 28C, 29C • Str Cap. Ilina - bl 11B, 13A • Str Vicina - bl 29, 29A, 29B, 32, 33, 37, 38 • Str Oltina - bl 23, 27, 28, 28B • Str Slt. Popa - bl 13B, 13C, 15, 15A, 15B • Str Sg. Scarlat - bl 12 • Cal Rahovei - bl 11, 11A, 11C, 13, 28, 26, 30, 30A, imobil Ioniţă"
     },
     {
       "sector": 5,
