@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-19T14:28:36",
+  "scraped_at": "2026-07-19T17:46:55",
   "status": "ok",
   "outages": [
     {
@@ -192,6 +192,15 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "16 Foișor",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-07-19T21:00",
+      "zone_raw": "• Cal Vitan - bl. V6"
     },
     {
       "sector": 3,
