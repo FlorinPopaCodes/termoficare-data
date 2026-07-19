@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-18T22:21:40",
+  "scraped_at": "2026-07-19T09:22:30",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "Ct Magheru 7-9",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie in Centrala Termica",
+      "estimated_restore": "2026-07-19T11:30",
+      "zone_raw": "• Bld G-ral Gheorghe Magheru - Bl 7 • Str Cosmonauţilor - Bl 9 ,Bl Plomba"
+    },
     {
       "sector": 1,
       "pt_name": "Sora",
