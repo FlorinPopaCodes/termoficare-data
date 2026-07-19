@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-19T11:40:12",
+  "scraped_at": "2026-07-19T14:28:36",
   "status": "ok",
   "outages": [
     {
@@ -255,6 +255,33 @@
       "cause": "Reabilitare conducte DN 1000 - magistrala III SUD",
       "estimated_restore": "2026-08-01T23:00",
       "zone_raw": "• Spl Unirii -"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Propriu 1",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar - (str. Caporal Gheorghe Ion nr. 1)",
+      "estimated_restore": "2026-07-20T09:00",
+      "zone_raw": "• Şos Olteniţei - bl. 52, 53"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Propriu 2",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar - (str. Caporal Gheorghe Ion nr. 1)",
+      "estimated_restore": "2026-07-20T09:00",
+      "zone_raw": "• Şos Olteniţei - bl. 55, 56"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenita Nord",
+      "blocks": 14,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar - (str. Caporal Gheorghe Ion nr. 1)",
+      "estimated_restore": "2026-07-20T09:00",
+      "zone_raw": "• Str Stolnici - bl. 43, 44, 45, 46 • Str Săvineşti - bl. 37, 38A, 38B, 39, 40 • Şos Olteniţei - bl. 31, 33 • Str Vegetaţiei - bl. 32 • Str Cercetătorilor - bl. 35, 48"
     },
     {
       "sector": 5,
