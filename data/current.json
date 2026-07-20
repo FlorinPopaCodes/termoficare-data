@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-20T23:11:04",
+  "scraped_at": "2026-07-21T01:30:41",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "N Chibrit",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-23T23:30",
+      "zone_raw": "• Cal Griviţei - bl. M, N, P, R, S • Str Bucegi - imob. Nr.54, 52"
+    },
     {
       "sector": 1,
       "pt_name": "Club Steaua",
