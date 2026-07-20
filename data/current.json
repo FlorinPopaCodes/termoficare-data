@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-20T15:54:19",
+  "scraped_at": "2026-07-20T18:01:50",
   "status": "ok",
   "outages": [
     {
@@ -291,6 +291,114 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "zone_raw": "• Str N. Constantinescu - bl. 9, 11, 11A • Str Lt. D. Darian - bl. 11B, 23 • Str Lt. Radu Beller - bl. 20, 22 • Str Gen. Andrei Popovici - bl. 6, 1+1B • Str Ştefan Protopopescu - bl. 24 • Str Puţul lui Zamfir - bl. 20A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Judetului",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
+    },
+    {
+      "sector": 2,
+      "pt_name": "29 Stefan cel Mare",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Şos Ştefan cel Mare - bl.29, 29A-B, 27, 28"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Ion Maiorescu",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Şos Mihai Bravu - bl.P21-21A, P22, P22A, P23-24"
+    },
+    {
+      "sector": 2,
+      "pt_name": "6 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Petricani",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
+    },
+    {
+      "sector": 2,
+      "pt_name": "13 Lacul Tei",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Mosilor",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Str Ardeleni - bl. 39A • Cal Moşilor - bl. 47, 47Bis, 49-49A, 51Bis, 53, 55, 45, 45A, 43, 41, 39, 37, 33-35, imob.Nr.257 • Str Făinari - bl.51 sc.C; 51 sc.B • Str Rovine - bl. 51B, 57A. 51 sc.A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Mosilor",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Ale Cenuşeresei - bl.50, 52 • Str Traian - bl.30 B, imob.Nr.254 • Cal Moşilor - bl.36, 38, 42, 46, 48, 58, 32, 30A, 31A , 31C • Str Mihai Eminescu - bl.31B ,32 • Str Vaselor - bl.34, imob.Nr.3A • Str Ion Maiorescu - bl.44 ;50 ;40, imob.Nr.37, 7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Mosilor",
+      "blocks": 25,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Galvani Tei",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-20T23:30",
+      "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
     },
     {
       "sector": 2,
@@ -1896,39 +2004,30 @@
     },
     {
       "sector": 6,
+      "pt_name": "MT PLAVAT",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare POIM efectuate de firma SICOR",
+      "estimated_restore": "2026-07-21T23:00",
+      "zone_raw": "• Str Alexandru Ivasiuc - E6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "S.G.A. Ilfov-Bucureşti, Administratia Nationala Apele Romane)",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare POIM efectuate de firma SICOR",
+      "estimated_restore": "2026-07-21T23:00",
+      "zone_raw": "• Spl Independenţei - Instituție"
+    },
+    {
+      "sector": 6,
       "pt_name": "10 Aragonitului",
       "blocks": 20,
       "service": "Oprire ACC",
       "cause": "Izolare racord PT 10 Aragonitului în vederea depistării și remedierii avarie conductă DN200 mm",
       "estimated_restore": "2026-07-21T23:30",
       "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 5 Placare - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-20T17:30",
-      "zone_raw": "• Str Cupolei - bl. 106"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Giulești",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea primară",
-      "estimated_restore": "2026-07-20T23:30",
-      "zone_raw": "• Cal Giuleşti - bl. 1, 5 • Str George Vâlsan - bl. 2"
-    },
-    {
-      "sector": 6,
-      "pt_name": "J Giulești",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea primară",
-      "estimated_restore": "2026-07-20T23:30",
-      "zone_raw": "• Str Ruşeţu - bl. G15, G14, G13 • Bld Constructorilor - bl. G19+20, H3, J3, G17+18, G16, J1, I, H1, H2, 31, 29, 21, 23, 27, 33"
     },
     {
       "sector": 6,
