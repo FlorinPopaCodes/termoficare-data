@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-20T18:01:50",
+  "scraped_at": "2026-07-20T19:42:31",
   "status": "ok",
   "outages": [
     {
@@ -1002,15 +1002,6 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "zone_raw": "• Str Brăiliţa - bl. D9B, D9A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "5Placare-T - Partial",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-20T18:30",
-      "zone_raw": "• Bld Nicolae Grigorescu - bl. PM1, PM2, PM3 • Str Prevederii - bl PM4 • Str Patrioţilor - bl. PM14, PM15"
     },
     {
       "sector": 3,
@@ -2028,15 +2019,6 @@
       "cause": "Izolare racord PT 10 Aragonitului în vederea depistării și remedierii avarie conductă DN200 mm",
       "estimated_restore": "2026-07-21T23:30",
       "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Îndesirii - Partial",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-20T18:30",
-      "zone_raw": "• Str Apusului - bl. F • Str Apele Vii - bl. 308, 310 • Bld Iuliu Maniu - bl. E, C1"
     }
   ]
 }
