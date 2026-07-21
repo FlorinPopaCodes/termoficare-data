@@ -1,9 +1,18 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-21T10:06:14",
+  "scraped_at": "2026-07-21T12:36:27",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "CT Floreasca - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie bucla contorizare",
+      "estimated_restore": "2026-07-21T14:00",
+      "zone_raw": "• Str Mihail Ivanovici Glinka - Nr. 4 sc A , B"
+    },
     {
       "sector": 1,
       "pt_name": "N Chibrit",
@@ -307,7 +316,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T06:30",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Str Venerei -"
     },
     {
@@ -316,7 +325,7 @@
       "blocks": 8,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T06:30",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
     },
     {
@@ -325,7 +334,7 @@
       "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T06:30",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Şos Mihai Bravu - bl.P21-21A, P22, P22A, P23-24"
     },
     {
@@ -334,7 +343,7 @@
       "blocks": 8,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T06:30",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
     },
     {
@@ -343,7 +352,7 @@
       "blocks": 8,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T06:30",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
     },
     {
@@ -352,7 +361,7 @@
       "blocks": 18,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T06:30",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Str Ardeleni - bl. 39A • Cal Moşilor - bl. 47, 47Bis, 49-49A, 51Bis, 53, 55, 45, 45A, 43, 41, 39, 37, 33-35, imob.Nr.257 • Str Făinari - bl.51 sc.C; 51 sc.B • Str Rovine - bl. 51B, 57A. 51 sc.A"
     },
     {
@@ -361,7 +370,7 @@
       "blocks": 22,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T06:30",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Ale Cenuşeresei - bl.50, 52 • Str Traian - bl.30 B, imob.Nr.254 • Cal Moşilor - bl.36, 38, 42, 46, 48, 58, 32, 30A, 31A , 31C • Str Mihai Eminescu - bl.31B ,32 • Str Vaselor - bl.34, imob.Nr.3A • Str Ion Maiorescu - bl.44 ;50 ;40, imob.Nr.37, 7"
     },
     {
@@ -370,7 +379,7 @@
       "blocks": 25,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T06:30",
+      "estimated_restore": "2026-07-22T23:00",
       "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
     },
     {
@@ -379,8 +388,17 @@
       "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-21T12:00",
+      "estimated_restore": "2026-07-21T23:00",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Judetului",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-21T23:00",
+      "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
     },
     {
       "sector": 2,
@@ -388,7 +406,7 @@
       "blocks": 15,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-21T12:00",
+      "estimated_restore": "2026-07-21T23:00",
       "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
@@ -397,7 +415,7 @@
       "blocks": 9,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-21T12:00",
+      "estimated_restore": "2026-07-21T23:00",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
     },
     {
@@ -415,7 +433,7 @@
       "blocks": 29,
       "service": "Oprire ACC",
       "cause": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la punctul termic",
-      "estimated_restore": "2026-07-21T12:00",
+      "estimated_restore": "2026-07-22T12:00",
       "zone_raw": "• Str Doamna Ghica - bl.62 • Str Deva - imob. Nr. 5, 7, 3 • Str Trei Scaune - imob. Nr. 4, 7, 9, 11, 13, 17, 19, 21, 12 • Str Oradea - imob. Nr.5, 16, 54, 52, 56, 66 • Str Odorhei - imob. Nr. 12, 16, 60, 62, 64, • Şos Colentina - bl.10, 9A,9B, 9C"
     },
     {
@@ -1941,15 +1959,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "2 Ferentari - Partial",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-21T13:00",
-      "zone_raw": "• Str Prof. Dr. Alexandru Locusteanu - bl. 77A, 77B, 77C, 77D"
-    },
-    {
-      "sector": 5,
       "pt_name": "5 Petre Ispirescu",
       "blocks": 7,
       "service": "Oprire ACC",
@@ -2013,39 +2022,12 @@
     },
     {
       "sector": 6,
-      "pt_name": "1 Roșu",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-07-21T13:30",
-      "zone_raw": "• Bld Anul 1864 - bl. P5, P6, P9, P10, P11, P16, P19 • Str Părăluţelor - bl. P3, P4, P8, D1 • Str Piscul Crăsani - bl. P7, P14 • Str Strămoşilor - bl. P12, P13, P17, P20 • Str Strigăturii - Casa Andrei • Str Deduleşti - Casa Simion"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1/1 - Partial",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. Sibiu",
-      "estimated_restore": "2026-07-21T12:00",
-      "zone_raw": "• Str Sibiu - bl. E1, E2, E3"
-    },
-    {
-      "sector": 6,
       "pt_name": "MILITARI - 2 Placare",
       "blocks": 18,
       "service": "Oprire ACC",
       "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-07-21T15:30",
       "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3 Virtuții - Partial",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-21T13:30",
-      "zone_raw": "• Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl D4"
     },
     {
       "sector": 6,
