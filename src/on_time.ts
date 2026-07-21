@@ -1,10 +1,10 @@
-// On-time estimate scoring and rate aggregation (ADR 0001: strict scoring).
-// Pure: episode histories in, score/rate/index rows out. The derive pass scores every
-// posted estimate of every ended episode; keeping the cause classifier here, in the one
-// module both passes import, is what guarantees derive-time buckets and scrape-time
-// lookups agree.
+// On-time estimate scoring, rate aggregation, and scrape-time lookup (ADR 0001: strict
+// scoring). Pure: episode histories in, score/rate/index rows out; rate/index CSVs in,
+// per-outage predictions out. The derive pass scores every posted estimate of every
+// ended episode; keeping the cause classifier here, in the one module both passes
+// import, is what guarantees derive-time buckets and scrape-time lookups agree.
 
-import { type CsvValue } from "./csv.ts";
+import { type CsvValue, parseRows } from "./csv.ts";
 
 export const ESTIMATE_SCORES_DIR = "data/derived/estimate_scores";
 export const RATES_PATH = "data/derived/on_time_rates.csv";
@@ -212,4 +212,104 @@ export function aggregateRates(scores: EstimateScore[]): CsvValue[][] {
       return ka < kb ? -1 : ka > kb ? 1 : 0;
     })
     .map(({ tuple, hits, n }) => [...tuple, hits, n]);
+}
+
+// --- scrape-time lookup ---
+
+export interface PredictionContext {
+  rates: Map<string, { hits: number; n: number }>;
+  slips: Map<string, number>; // sector + pt_name + utility -> the open episode's slip count
+}
+
+function assertHeader(actual: string[] | undefined, expected: string[], path: string): void {
+  const matches = actual !== undefined && actual.length === expected.length &&
+    actual.every((v, i) => v === expected[i]);
+  if (!matches) throw new Error(`${path}: header does not match the expected shape`);
+}
+
+// Header-gated like derive's foundation reader: a file whose shape drifted from this
+// module's writer (deploy skew) must throw, not silently publish wrong probabilities.
+// The orchestrator treats a throw like a missing file and omits the fields.
+export function parsePredictionContext(ratesCsv: string, activeCsv: string): PredictionContext {
+  const rateRows = parseRows(ratesCsv);
+  const activeRows = parseRows(activeCsv);
+  assertHeader(rateRows[0], RATE_HEADER, RATES_PATH);
+  assertHeader(activeRows[0], ACTIVE_EPISODE_HEADER, ACTIVE_EPISODES_PATH);
+
+  const rates = new Map<string, { hits: number; n: number }>();
+  for (let i = 1; i < rateRows.length; i++) {
+    const [level, sector, pt_name, cause_class, slip_bucket, hits, n] = rateRows[i];
+    rates.set(
+      [level, sector, pt_name, cause_class, slip_bucket].join(KEY_JOIN),
+      { hits: Number(hits), n: Number(n) },
+    );
+  }
+  const slips = new Map<string, number>();
+  for (let i = 1; i < activeRows.length; i++) {
+    const [, sector, pt_name, utility, slip_count] = activeRows[i];
+    slips.set([sector, pt_name, utility].join(KEY_JOIN), Number(slip_count));
+  }
+  return { rates, slips };
+}
+
+// The scrape-side mirror of derive.ts's unpackService, but lenient: an unrecognized
+// service degrades to "no episode match", it must never break current.json.
+function serviceUtilities(service: string): string[] {
+  const util = service.split(" ")[1];
+  if (util === "ACC" || util === "INC") return [util];
+  if (util === "ACC/INC") return ["ACC", "INC"];
+  return [];
+}
+
+// An ACC/INC row joins both utilities' episodes; the worse (higher) slip count wins so
+// an escalated outage can't reset trust. Outages not yet in the index (fresh, or the
+// index is a day stale) condition on slip 0.
+function slipFor(
+  o: { sector: number; pt_name: string; service: string },
+  slips: Map<string, number>,
+): number {
+  let slip = 0;
+  for (const utility of serviceUtilities(o.service)) {
+    const found = slips.get([String(o.sector), o.pt_name, utility].join(KEY_JOIN));
+    if (found !== undefined && found > slip) slip = found;
+  }
+  return slip;
+}
+
+// Fewest scored estimates a bucket may publish from before backing off to a coarser one.
+const MIN_BASIS = 20;
+
+export interface OutagePrediction {
+  on_time_probability: number;
+  basis_n: number;
+  basis_bucket: string;
+}
+
+// P(the currently posted estimate is hit). A deadline already earlier than scraped_at is
+// a settled miss (probability 0, basis_bucket "overdue") no matter how stale the derived
+// data is. Otherwise: the empirical rate from the most specific bucket holding at least
+// MIN_BASIS scored estimates, backing off stepwise; the coarsest level (slip alone)
+// publishes at any size. Null when even that bucket has no history.
+export function predictOutage(
+  o: { sector: number; pt_name: string; service: string; cause: string },
+  estimatedRestore: string,
+  scrapedAt: string,
+  context: PredictionContext,
+): OutagePrediction | null {
+  if (deadline(estimatedRestore) < scrapedAt) {
+    return { on_time_probability: 0, basis_n: 0, basis_bucket: "overdue" };
+  }
+  const bucket = slipBucket(slipFor(o, context.slips));
+  for (const tuple of rateTuples(String(o.sector), o.pt_name, causeClass(o.cause), bucket)) {
+    const rate = context.rates.get(tuple.join(KEY_JOIN));
+    if (rate === undefined) continue;
+    if (rate.n >= MIN_BASIS || tuple[0] === "slip") {
+      return {
+        on_time_probability: Math.round(rate.hits / rate.n * 1000) / 1000,
+        basis_n: rate.n,
+        basis_bucket: tuple[0],
+      };
+    }
+  }
+  return null;
 }
