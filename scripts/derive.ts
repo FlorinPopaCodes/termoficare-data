@@ -1,35 +1,28 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write
 //
-// Regenerates the derived incident/estimate/cause/episode history from the foundation
-// CSVs (data/observations, data/snapshots) per decision #8, and renders the episode
-// heatmap SVGs (images/episodes-<utility>-<year>.svg) from that same derivation.
+// Regenerates the published derived outputs from the foundation CSVs (data/observations,
+// data/snapshots) per decision #8, and renders the episode heatmap SVGs
+// (images/episodes-<utility>-<year>.svg) from the same derivation.
 //
 //   deno task derive
 //
 // Full deterministic regeneration -- no cursors, no resume state. Reads each month's
 // snapshot log + observations file, aligns them via foundationSnapshots (which throws on
-// any mismatch), and feeds the aligned stream to deriveDatasets. Only
-// data/derived/{incidents,estimates,causes,episodes,episode_incidents} are replaced
-// wholesale; anything else under data/derived/ is left untouched for future datasets to
-// live beside these. The images/ output is likewise regenerated wholesale (one file per
-// utility per year) but nothing there is removed first -- images/heatmap-<year>.svg from
-// the commit heatmap lives alongside it undisturbed.
+// any mismatch), and feeds the aligned stream to deriveDatasets. The derivation renders
+// the full incident/estimate/cause/episode history in memory (the surface the tests lock
+// down), but only the files postprocess.ts consumes are written out:
+// data/derived/on_time_rates.csv and data/derived/active_episodes.csv. The monthly
+// history datasets are not published -- nothing reads them from disk, and they re-derive
+// from the foundation at any time. The images/ output is regenerated wholesale (one file
+// per utility per year) but nothing there is removed first -- images/heatmap-<year>.svg
+// from the commit heatmap lives alongside it undisturbed.
 //
 // Foundation month files are read one at a time (never more than one month's ~586MB of
 // observations held in memory together) via a sync generator, matching foundationSnapshots'
 // own laziness.
 
-import {
-  CAUSES_DIR,
-  deriveDatasets,
-  EPISODE_INCIDENTS_DIR,
-  EPISODES_DIR,
-  ESTIMATES_DIR,
-  foundationSnapshots,
-  INCIDENTS_DIR,
-  type MonthContent,
-} from "../src/derive.ts";
-import { ESTIMATE_SCORES_DIR } from "../src/on_time.ts";
+import { deriveDatasets, foundationSnapshots, type MonthContent } from "../src/derive.ts";
+import { ACTIVE_EPISODES_PATH, RATES_PATH } from "../src/on_time.ts";
 import { monthPath, OBSERVATIONS_DIR, SNAPSHOTS_DIR } from "../src/csv.ts";
 import { IMAGES_DIR, renderEpisodeHeatmaps } from "../src/episode_heatmap.ts";
 
@@ -61,25 +54,7 @@ function* readMonths(months: string[]): Generator<MonthContent> {
   }
 }
 
-// Wholesale replacement, not an append: an incident that no longer derives (e.g. a
-// foundation regeneration changed history) must not survive alongside stale output.
-// Everything else under data/derived/ is left alone for future datasets.
-async function write(files: Map<string, string>) {
-  for (
-    const dir of [
-      INCIDENTS_DIR,
-      ESTIMATES_DIR,
-      CAUSES_DIR,
-      EPISODES_DIR,
-      EPISODE_INCIDENTS_DIR,
-      ESTIMATE_SCORES_DIR,
-    ]
-  ) {
-    await Deno.remove(dir, { recursive: true }).catch(() => {});
-    await Deno.mkdir(dir, { recursive: true });
-  }
-  for (const [path, content] of files) await Deno.writeTextFile(path, content);
-}
+const PUBLISHED_PATHS = [RATES_PATH, ACTIVE_EPISODES_PATH];
 
 async function main() {
   const months = monthsToProcess();
@@ -103,8 +78,8 @@ async function main() {
   );
   console.error(`  ${stats.scoredEstimates} scored estimates.`);
 
-  await write(files);
-  console.error(`Wrote ${files.size} files.`);
+  for (const path of PUBLISHED_PATHS) await Deno.writeTextFile(path, files.get(path)!);
+  console.error(`Wrote ${PUBLISHED_PATHS.length} files.`);
 
   const heatmaps = renderEpisodeHeatmaps(episodeSpans, usableDays);
   await Deno.mkdir(IMAGES_DIR, { recursive: true });

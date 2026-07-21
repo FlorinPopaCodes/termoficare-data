@@ -72,7 +72,7 @@ Two utilities are tracked: **heating** (INC) and **domestic hot water** (ACC). E
 
 ## View Data
 
-Once this repository is made public, use [Flat Viewer](https://flatgithub.com/FlorinPopaCodes/termoficare-data) to browse the data interactively.
+Use [Flat Viewer](https://flatgithub.com/FlorinPopaCodes/termoficare-data) to browse the data interactively.
 
 ## How It Works
 
