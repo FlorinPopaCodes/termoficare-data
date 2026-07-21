@@ -5688,7 +5688,7 @@ pt_cause_slip,2,Ion Maiorescu,other,3+,1,1
 pt_cause_slip,2,Ion Maiorescu,planned_works,0,4,14
 pt_cause_slip,2,Ion Maiorescu,planned_works,1,1,1
 pt_cause_slip,2,Ion Maiorescu,planned_works,3+,0,1
-pt_cause_slip,2,Judetului,balancing,0,29,51
+pt_cause_slip,2,Judetului,balancing,0,30,52
 pt_cause_slip,2,Judetului,balancing,1,10,20
 pt_cause_slip,2,Judetului,balancing,2,5,13
 pt_cause_slip,2,Judetului,balancing,3+,7,52
@@ -18269,7 +18269,7 @@ sector_cause_slip,1,,planned_works,0,871,2215
 sector_cause_slip,1,,planned_works,1,170,664
 sector_cause_slip,1,,planned_works,2,81,191
 sector_cause_slip,1,,planned_works,3+,50,188
-sector_cause_slip,2,,balancing,0,1203,2653
+sector_cause_slip,2,,balancing,0,1204,2654
 sector_cause_slip,2,,balancing,1,899,1606
 sector_cause_slip,2,,balancing,2,262,755
 sector_cause_slip,2,,balancing,3+,532,1971
@@ -18389,7 +18389,7 @@ sector_cause_slip,6,,planned_works,0,819,2247
 sector_cause_slip,6,,planned_works,1,257,529
 sector_cause_slip,6,,planned_works,2,61,172
 sector_cause_slip,6,,planned_works,3+,43,176
-cause_slip,,,balancing,0,3844,9474
+cause_slip,,,balancing,0,3845,9475
 cause_slip,,,balancing,1,2180,4853
 cause_slip,,,balancing,2,961,2658
 cause_slip,,,balancing,3+,1540,5909
@@ -18413,7 +18413,7 @@ cause_slip,,,planned_works,0,5167,14111
 cause_slip,,,planned_works,1,1296,3723
 cause_slip,,,planned_works,2,363,1350
 cause_slip,,,planned_works,3+,483,1722
-slip,,,,0,52967,132178
+slip,,,,0,52968,132179
 slip,,,,1,21392,50019
 slip,,,,2,8192,22018
 slip,,,,3+,8929,34065

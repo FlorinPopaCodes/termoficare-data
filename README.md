@@ -44,6 +44,12 @@ Two utilities are tracked: **heating** (INC) and **domestic hot water** (ACC). E
 
 ![2021 hot water outages](images/episodes-acc-2021.svg)
 
+## Estimate reliability
+
+CMTEB posts a restoration estimate for most outages. Each point is the share of the estimates posted that month that were met — restoration observed at or before the estimated time, with no grace period. Hollow points are provisional: some of that month's outages are still running, so the value can move as they resolve (it usually reads high at first, because quickly-fixed outages settle their scores soonest). Months with fewer than 20 scored estimates are not drawn.
+
+![On-time trend](images/on-time-trend.svg)
+
 ## Data Source
 
 - **URL**: https://www.cmteb.ro/functionare_sistem_termoficare.php

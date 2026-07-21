@@ -1,0 +1,34 @@
+<svg width="782" height="220" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .axis { font: 10px sans-serif; fill: #8b949e; }
+    .label { font: 10px sans-serif; fill: #c9d1d9; paint-order: stroke; stroke: #0d1117; stroke-width: 3px; }
+    .title { font: bold 14px sans-serif; fill: #c9d1d9; }
+  </style>
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <line x1="40" y1="180" x2="722" y2="180" stroke="#30363d"/>
+  <text x="34" y="183" text-anchor="end" class="axis">0%</text>
+  <line x1="40" y1="142.5" x2="722" y2="142.5" stroke="#21262d"/>
+  <text x="34" y="145.5" text-anchor="end" class="axis">25%</text>
+  <line x1="40" y1="105" x2="722" y2="105" stroke="#21262d"/>
+  <text x="34" y="108" text-anchor="end" class="axis">50%</text>
+  <line x1="40" y1="67.5" x2="722" y2="67.5" stroke="#21262d"/>
+  <text x="34" y="70.5" text-anchor="end" class="axis">75%</text>
+  <line x1="40" y1="30" x2="722" y2="30" stroke="#21262d"/>
+  <text x="34" y="33" text-anchor="end" class="axis">100%</text>
+  <text x="40" y="194" text-anchor="middle" class="axis">2026</text>
+  <polyline points="40,105 267.3,75" fill="none" stroke-width="2" stroke="#d95926"/>
+  <circle cx="40" cy="105" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-01: heating 50% on time (20 estimates)</title></circle>
+  <circle cx="267.3" cy="75" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-02: heating 70% on time (20 estimates)</title></circle>
+  <circle cx="722" cy="90" r="4" fill="#0d1117" stroke-width="2" stroke="#d95926"><title>2026-04: heating 60% on time (20 estimates, provisional)</title></circle>
+  <circle cx="267.3" cy="67.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-02: hot water 75% on time (20 estimates)</title></circle>
+  <circle cx="722" cy="67.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-04: hot water 75% on time (24 estimates)</title></circle>
+  <text x="731" y="93" class="label">INC</text>
+  <text x="731" y="70.5" class="label">ACC</text>
+  <rect x="442" y="8" width="10" height="10" rx="2" fill="#d95926"/>
+  <text x="456" y="16" class="axis">heating (INC)</text>
+  <rect x="542" y="8" width="10" height="10" rx="2" fill="#3987e5"/>
+  <text x="556" y="16" class="axis">hot water (ACC)</text>
+  <circle cx="647" cy="13" r="4" fill="#0d1117" stroke-width="2" stroke="#8b949e"/>
+  <text x="656" y="16" class="axis">provisional</text>
+  <text x="40" y="212" class="title">Share of posted restore estimates met on time</text>
+</svg>

@@ -2,7 +2,8 @@
 //
 // Regenerates the published derived outputs from the foundation CSVs (data/observations,
 // data/snapshots) per decision #8, and renders the episode heatmap SVGs
-// (images/episodes-<utility>-<year>.svg) from the same derivation.
+// (images/episodes-<utility>-<year>.svg) and the on-time trend chart
+// (images/on-time-trend.svg) from the same derivation.
 //
 //   deno task derive
 //
@@ -25,6 +26,7 @@ import { deriveDatasets, foundationSnapshots, type MonthContent } from "../src/d
 import { ACTIVE_EPISODES_PATH, RATES_PATH } from "../src/on_time.ts";
 import { monthPath, OBSERVATIONS_DIR, SNAPSHOTS_DIR } from "../src/csv.ts";
 import { IMAGES_DIR, renderEpisodeHeatmaps } from "../src/episode_heatmap.ts";
+import { renderOnTimeTrend, TREND_PATH } from "../src/on_time_trend.ts";
 
 // Enumerates months from the scrape-log dir (the authoritative set of months that were
 // ever scraped) and requires a matching observations file for each -- a missing
@@ -62,9 +64,8 @@ async function main() {
   console.error(`${months.length} months to derive, ${months[0]}..${months[months.length - 1]}.`);
 
   const started = performance.now();
-  const { files, stats, episodeSpans, usableDays } = await deriveDatasets(
-    foundationSnapshots(readMonths(months)),
-  );
+  const { files, stats, episodeSpans, usableDays, estimateScores, pendingEstimates } =
+    await deriveDatasets(foundationSnapshots(readMonths(months)));
   const seconds = ((performance.now() - started) / 1000).toFixed(1);
 
   console.error(
@@ -85,6 +86,12 @@ async function main() {
   await Deno.mkdir(IMAGES_DIR, { recursive: true });
   for (const [path, svg] of heatmaps) await Deno.writeTextFile(path, svg);
   console.error(`Wrote ${heatmaps.size} episode heatmaps.`);
+
+  const trend = renderOnTimeTrend(estimateScores, pendingEstimates);
+  if (trend !== null) {
+    await Deno.writeTextFile(TREND_PATH, trend);
+    console.error(`Wrote ${TREND_PATH}.`);
+  }
 }
 
 main();

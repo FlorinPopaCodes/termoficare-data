@@ -83,3 +83,12 @@ Deno.test("generateReadme with no years and no images still renders the static s
   assertEquals(/!\[\d{4} Heatmap\]/.test(out), false);
   assertEquals(/outages\]/.test(out), false);
 });
+
+Deno.test("generateReadme adds the estimate-reliability section only when the trend image exists", () => {
+  const out = generateReadme([], ["on-time-trend.svg"]);
+  const section = out.slice(out.indexOf("## Estimate reliability"), out.indexOf("## Data Source"));
+
+  assertEquals(section.includes("![On-time trend](images/on-time-trend.svg)"), true);
+  assertEquals(section.includes("provisional"), true);
+  assertEquals(generateReadme([], []).includes("Estimate reliability"), false);
+});

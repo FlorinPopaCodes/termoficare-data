@@ -949,3 +949,28 @@ Deno.test("scores land in the episode's opening month even when restoration come
   assertEquals(rows[0].split(",")[9], "0"); // restored 10:00 > deadline 09:00
   assertEquals(files.has(`${ESTIMATE_SCORES_DIR}/2022-02.csv`), false);
 });
+
+Deno.test("trend inputs: scores come back in memory, open episodes' distinct claims as pending", async () => {
+  const { estimateScores, pendingEstimates } = await deriveDatasets([
+    ok("2026-01-31T22:00:00", [
+      obs({ pt_name: "PT A", estimated_restore: "2026-02-01T10:00" }),
+      obs({ pt_name: "PT B", estimated_restore: "2026-01-31T23:00" }),
+      obs({ pt_name: "PT C", estimated_restore: "" }),
+    ]),
+    ok("2026-02-01T00:30:00", [
+      // PT A restored (a hit); PT B slips to a second estimate; PT C still claim-less
+      obs({ pt_name: "PT B", estimated_restore: "2026-02-01T08:00" }),
+      obs({ pt_name: "PT C", estimated_restore: "" }),
+    ]),
+  ]);
+
+  assertEquals(
+    estimateScores.map((s) => [s.utility, s.posted_ts, s.hit]),
+    [["ACC", "2026-01-31T22:00:00", true]],
+  );
+  // PT B's two claims are pending, one per posting month; PT C never made a claim
+  assertEquals(
+    pendingEstimates.map((p) => [p.utility, p.posted_ts]),
+    [["ACC", "2026-01-31T22:00:00"], ["ACC", "2026-02-01T00:30:00"]],
+  );
+});
