@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-21T17:30:31",
+  "scraped_at": "2026-07-21T19:16:00",
   "status": "ok",
   "outages": [
     {
@@ -603,18 +603,6 @@
       "basis_n": 3490,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Matei Ambrozie",
-      "blocks": 30,
-      "service": "Oprire ACC",
-      "cause": "Inlocuit conducta CP subsol PT. - Al. Suraia",
-      "estimated_restore": "2026-07-21T18:00",
-      "on_time_probability": 0.287,
-      "basis_n": 1445,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Ţăndărei - bl. 52, 30B • Ale Suraia - bl. 21B, 21, 32, 30, 31B, 50 • Str Fizicienilor - bl. 21A, 11A, 51, 11, 20A, 30A • Str Istriei - bl. 41, 42 • Str Danubiu - bl. 52A, 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Str Schitului - bl. 57, 20b, 43, 20, 11B, 40 • Ale Berevoieşti - bl. 53, 54"
     },
     {
       "sector": 3,
@@ -2691,18 +2679,6 @@
       "basis_n": 1612,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Uverturii",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul primar",
-      "estimated_restore": "2026-07-21T19:00",
-      "on_time_probability": 0.31,
-      "basis_n": 58,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Arinii Dornei - bl. M28, I8, I4, I7, I3, I9, M27, M29, I6, M30 • Str Arieşul Mare - bl. A32, I11, I12, I10, I5, A31, A33, A34 • Ale Politehnicii - bl. I1, I2"
     },
     {
       "sector": 6,
