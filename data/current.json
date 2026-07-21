@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-21T23:33:44",
+  "scraped_at": "2026-07-22T00:43:56",
   "status": "ok",
   "outages": [
     {
@@ -538,7 +538,7 @@
       "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-22T10:00",
+      "estimated_restore": "2026-07-22T23:00",
       "on_time_probability": 0.27,
       "basis_n": 1971,
       "basis_bucket": "sector_cause_slip",
@@ -550,7 +550,7 @@
       "blocks": 15,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-22T10:00",
+      "estimated_restore": "2026-07-22T23:00",
       "on_time_probability": 0.25,
       "basis_n": 40,
       "basis_bucket": "pt_cause_slip",
@@ -562,7 +562,7 @@
       "blocks": 9,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-22T10:00",
+      "estimated_restore": "2026-07-22T23:00",
       "on_time_probability": 0.347,
       "basis_n": 755,
       "basis_bucket": "sector_cause_slip",
