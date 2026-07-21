@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-21T22:36:28",
+  "scraped_at": "2026-07-21T23:33:44",
   "status": "ok",
   "outages": [
     {
@@ -538,7 +538,7 @@
       "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-21T23:00",
+      "estimated_restore": "2026-07-22T10:00",
       "on_time_probability": 0.27,
       "basis_n": 1971,
       "basis_bucket": "sector_cause_slip",
@@ -550,7 +550,7 @@
       "blocks": 15,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-21T23:00",
+      "estimated_restore": "2026-07-22T10:00",
       "on_time_probability": 0.25,
       "basis_n": 40,
       "basis_bucket": "pt_cause_slip",
@@ -562,7 +562,7 @@
       "blocks": 9,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-21T23:00",
+      "estimated_restore": "2026-07-22T10:00",
       "on_time_probability": 0.347,
       "basis_n": 755,
       "basis_bucket": "sector_cause_slip",
@@ -615,6 +615,18 @@
       "basis_n": 3490,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "6 C5/2 - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Avarie conducta acc subsol bloc",
+      "estimated_restore": "2026-07-22T15:30",
+      "on_time_probability": 0.476,
+      "basis_n": 10034,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Postăvarul - bl.O28"
     },
     {
       "sector": 3,
