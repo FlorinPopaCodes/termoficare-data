@@ -1,17 +1,35 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-21T12:36:27",
+  "scraped_at": "2026-07-21T14:27:11",
   "status": "ok",
   "outages": [
     {
       "sector": 1,
-      "pt_name": "CT Floreasca - Partial",
+      "pt_name": "3 Titulescu",
+      "blocks": 12,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare RTP POIM LOT 2 OBIECTIV 9 executate de firma ELSACO",
+      "estimated_restore": "2026-07-24T23:30",
+      "zone_raw": "• Str Miron Costin - bl. 5A+5B • Şos Nicolae Titulescu - bl. 7, 10A, 9A+B, 8, 10, 6, 4, 2, 3 • Bld Alexandru Ioan Cuza - imob.Nr.80 • Str G-ral Alexandru Cernat - imob.Nr.24"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Iacob Negruzzi",
       "blocks": 1,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie bucla contorizare",
-      "estimated_restore": "2026-07-21T14:00",
-      "zone_raw": "• Str Mihail Ivanovici Glinka - Nr. 4 sc A , B"
+      "cause": "Lucrari de modernizare RTP POIM LOT 2 OBIECTIV 9 executate de firma ELSACO",
+      "estimated_restore": "2026-07-24T23:30",
+      "zone_raw": "• Str Iacob Negruzzi - imob.Nr.45"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Școala Gimnazială ,,Nicolae Titulescu”",
+      "blocks": 0,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare RTP POIM LOT 2 OBIECTIV 9 executate de firma ELSACO",
+      "estimated_restore": "2026-07-24T23:30",
+      "zone_raw": "• Şos Nicolae Titulescu -"
     },
     {
       "sector": 1,
@@ -399,15 +417,6 @@
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-21T23:00",
       "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
-    },
-    {
-      "sector": 2,
-      "pt_name": "17-18 Petricani",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-21T23:00",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
       "sector": 2,
@@ -1959,15 +1968,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "5 Petre Ispirescu",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-07-21T14:00",
-      "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
-    },
-    {
-      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2028,24 +2028,6 @@
       "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-07-21T15:30",
       "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MT PLAVAT",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare POIM efectuate de firma SICOR",
-      "estimated_restore": "2026-07-21T23:00",
-      "zone_raw": "• Str Alexandru Ivasiuc - E6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "S.G.A. Ilfov-Bucureşti, Administratia Nationala Apele Romane)",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare POIM efectuate de firma SICOR",
-      "estimated_restore": "2026-07-21T23:00",
-      "zone_raw": "• Spl Independenţei - Instituție"
     },
     {
       "sector": 6,
