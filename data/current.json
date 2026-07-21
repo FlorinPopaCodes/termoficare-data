@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-21T07:28:33",
+  "scraped_at": "2026-07-21T10:06:14",
   "status": "ok",
   "outages": [
     {
@@ -435,6 +435,15 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Matei Ambrozie",
+      "blocks": 30,
+      "service": "Oprire ACC",
+      "cause": "Inlocuit conducta CP subsol PT. - Al. Suraia",
+      "estimated_restore": "2026-07-21T18:00",
+      "zone_raw": "• Ale Ţăndărei - bl. 52, 30B • Ale Suraia - bl. 21B, 21, 32, 30, 31B, 50 • Str Fizicienilor - bl. 21A, 11A, 51, 11, 20A, 30A • Str Istriei - bl. 41, 42 • Str Danubiu - bl. 52A, 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Str Schitului - bl. 57, 20b, 43, 20, 11B, 40 • Ale Berevoieşti - bl. 53, 54"
     },
     {
       "sector": 3,
@@ -1932,6 +1941,24 @@
     },
     {
       "sector": 5,
+      "pt_name": "2 Ferentari - Partial",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-21T13:00",
+      "zone_raw": "• Str Prof. Dr. Alexandru Locusteanu - bl. 77A, 77B, 77C, 77D"
+    },
+    {
+      "sector": 5,
+      "pt_name": "5 Petre Ispirescu",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-07-21T14:00",
+      "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
+    },
+    {
+      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -1983,6 +2010,42 @@
       "cause": "Revizie tehnică - CTE Progresu",
       "estimated_restore": "2026-08-01T23:00",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Roșu",
+      "blocks": 19,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-07-21T13:30",
+      "zone_raw": "• Bld Anul 1864 - bl. P5, P6, P9, P10, P11, P16, P19 • Str Părăluţelor - bl. P3, P4, P8, D1 • Str Piscul Crăsani - bl. P7, P14 • Str Strămoşilor - bl. P12, P13, P17, P20 • Str Strigăturii - Casa Andrei • Str Deduleşti - Casa Simion"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1/1 - Partial",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. Sibiu",
+      "estimated_restore": "2026-07-21T12:00",
+      "zone_raw": "• Str Sibiu - bl. E1, E2, E3"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 2 Placare",
+      "blocks": 18,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-21T15:30",
+      "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3 Virtuții - Partial",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-21T13:30",
+      "zone_raw": "• Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl D4"
     },
     {
       "sector": 6,
