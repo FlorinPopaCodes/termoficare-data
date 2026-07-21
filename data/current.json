@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-21T14:27:11",
+  "scraped_at": "2026-07-21T15:50:53",
   "status": "ok",
   "outages": [
     {
@@ -2022,12 +2022,12 @@
     },
     {
       "sector": 6,
-      "pt_name": "MILITARI - 2 Placare",
-      "blocks": 18,
+      "pt_name": "1 Uverturii",
+      "blocks": 20,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-21T15:30",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
+      "cause": "Remediere avarie în punctul termic pe circuitul primar",
+      "estimated_restore": "2026-07-21T19:00",
+      "zone_raw": "• Ale Arinii Dornei - bl. M28, I8, I4, I7, I3, I9, M27, M29, I6, M30 • Str Arieşul Mare - bl. A32, I11, I12, I10, I5, A31, A33, A34 • Ale Politehnicii - bl. I1, I2"
     },
     {
       "sector": 6,
