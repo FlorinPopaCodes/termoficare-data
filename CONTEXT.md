@@ -34,6 +34,26 @@ Everyday synonym for Episode, acceptable in reader-facing prose (README, issue t
 **Active day**:
 A Bucharest-local calendar day on which an episode was observed present — the days from its first to its last sighting. Days between the last sighting and the first observed absence are not active.
 
+### Estimates
+
+**Estimate**:
+A restoration deadline CMTEB posts for an ongoing episode. An episode may carry several estimates in sequence; each posted estimate is a separate claim, scored on its own.
+_Avoid_: estimation, ETA
+
+**Slip**:
+The supersession of a posted estimate by a newer one while the episode is still ongoing. An episode's slip count is how many estimates preceded the current one.
+_Avoid_: prolongation, extension
+
+**Hit**:
+An estimate whose episode was observed restored at or before the estimated time. Anything else — including restoration first confirmed after the deadline — is a **miss**; there is no grace period. "On time" is the reader-facing synonym.
+
+**Cause class**:
+One of a small fixed taxonomy of outage-cause families (breakdown repair, missing supply parameters, hydraulic balancing, planned works, maneuvers/tests, other) derived from the free-text cause.
+_Avoid_: issue type
+
+**On-time probability**:
+The share of comparable past estimates that were hit, published for an active outage's current estimate together with the size of its basis. Comparable means same thermal point, cause class, and slip count, widening to coarser groupings when history is thin.
+
 ### Scrape health
 
 **Failure**:

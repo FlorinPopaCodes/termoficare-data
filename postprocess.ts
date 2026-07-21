@@ -16,6 +16,13 @@ import {
   SNAPSHOTS_DIR,
 } from "./src/csv.ts";
 import { buildArtifacts, SNAPSHOT_PATH } from "./src/snapshot.ts";
+import { parseSnapshot } from "./src/parser.ts";
+import {
+  ACTIVE_EPISODES_PATH,
+  parsePredictionContext,
+  type PredictionContext,
+  RATES_PATH,
+} from "./src/on_time.ts";
 
 async function runGit(args: string[]): Promise<string> {
   const cmd = new Deno.Command("git", { args, stdout: "piped" });
@@ -73,10 +80,28 @@ async function appendCsv(dir: string, ts: string, header: string[], rows: CsvVal
   await Deno.writeTextFile(path, payload, { append: true });
 }
 
+// The daily derive pass refreshes the rate files; until it has run (or if a deploy skew
+// left them malformed) current.json simply omits the on-time fields.
+async function readPredictionContext(): Promise<PredictionContext | null> {
+  try {
+    return parsePredictionContext(
+      await Deno.readTextFile(RATES_PATH),
+      await Deno.readTextFile(ACTIVE_EPISODES_PATH),
+    );
+  } catch {
+    return null;
+  }
+}
+
 // One clock reading feeds all three payloads.
 async function writeStructuredArtifacts() {
   const ts = bucharestTimestamp(new Date());
-  const artifacts = buildArtifacts(await Deno.readTextFile(SNAPSHOT_PATH), ts);
+  const artifacts = buildArtifacts(
+    await Deno.readTextFile(SNAPSHOT_PATH),
+    ts,
+    parseSnapshot,
+    await readPredictionContext(),
+  );
 
   await appendCsv(OBSERVATIONS_DIR, ts, OBSERVATION_HEADER, artifacts.observations);
   await appendCsv(SNAPSHOTS_DIR, ts, SNAPSHOT_LOG_HEADER, [artifacts.logRow]);
@@ -122,8 +147,9 @@ async function main() {
     await Deno.writeTextFile(svgPath, svg);
   }
 
-  // Generate README. The Flat loop must not read data/derived/, so outage-map years are
-  // discovered from the images/ listing rather than from derive's own state.
+  // Generate README. It must render correctly even when derive has never run, so
+  // outage-map years are discovered from the images/ listing rather than from derive's
+  // own state.
   console.log("Generating README.md...");
   const imageFiles: string[] = [];
   for await (const entry of Deno.readDir("images")) {

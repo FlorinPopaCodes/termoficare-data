@@ -4,6 +4,7 @@
 import { type ParseResult, parseSnapshot, type ScrapeStatus } from "./parser.ts";
 import { toCurrentJson } from "./current_json.ts";
 import { type CsvValue } from "./csv.ts";
+import { type PredictionContext } from "./on_time.ts";
 
 // The scrape the whole pipeline is about: the live loop writes it, the backfill replays
 // every historical version of it.
@@ -22,6 +23,7 @@ export function buildArtifacts(
   html: string,
   snapshotTs: string,
   parse: Parser = parseSnapshot,
+  prediction: PredictionContext | null = null,
 ): SnapshotArtifacts {
   let result: ParseResult;
   try {
@@ -52,7 +54,7 @@ export function buildArtifacts(
 
   return {
     status: result.status,
-    currentJson: toCurrentJson(result),
+    currentJson: toCurrentJson(result, prediction),
     observations,
     logRow: [snapshotTs, result.status, observations.length],
   };

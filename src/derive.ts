@@ -15,8 +15,22 @@ import {
   monthPath,
   OBSERVATION_HEADER,
   parseRows,
+  sameHeader,
   SNAPSHOT_LOG_HEADER,
 } from "./csv.ts";
+import {
+  ACTIVE_EPISODE_HEADER,
+  ACTIVE_EPISODES_PATH,
+  aggregateRates,
+  currentSlipCount,
+  type EpisodeHistory,
+  ESTIMATE_SCORE_HEADER,
+  ESTIMATE_SCORES_DIR,
+  type EstimateScore,
+  RATE_HEADER,
+  RATES_PATH,
+  scoreEpisode,
+} from "./on_time.ts";
 
 export const INCIDENTS_DIR = "data/derived/incidents";
 export const ESTIMATES_DIR = "data/derived/estimates";
@@ -78,11 +92,6 @@ export interface MonthContent {
   month: string;
   log: string;
   observations: string;
-}
-
-function sameHeader(actual: string[] | undefined, expected: string[]): boolean {
-  return actual !== undefined && actual.length === expected.length &&
-    actual.every((v, i) => v === expected[i]);
 }
 
 // Walks a month's scrape log in order and consumes exactly as many observation rows as
@@ -156,6 +165,7 @@ export interface DeriveStats {
   episodes: number;
   openEpisodes: number;
   bridgedGaps: number;
+  scoredEstimates: number;
 }
 
 // One derived episode's utility and span, structurally identical to episode_heatmap.ts's
@@ -397,6 +407,23 @@ function episodeId(episode: Episode): Promise<string> {
   );
 }
 
+// Flattens an episode's members into the estimate/cause history the scoring seam wants.
+// Members are in opening order but concurrent incidents interleave in time, so the merged
+// runs are re-sorted by first_seen_ts (stable, preserving member order on ties).
+function episodeHistory(episode: Episode): EpisodeHistory {
+  const byStart = (a: { first_seen_ts: string }, b: { first_seen_ts: string }) =>
+    a.first_seen_ts < b.first_seen_ts ? -1 : a.first_seen_ts > b.first_seen_ts ? 1 : 0;
+  return {
+    episode_id: episode.episode_id,
+    sector: episode.sector,
+    pt_name: episode.pt_name,
+    utility: episode.utility,
+    first_absent_ts: episode.first_absent_ts,
+    estimates: episode.members.flatMap((m) => m.estimateRuns).sort(byStart),
+    causes: episode.members.flatMap((m) => m.causeRuns).sort(byStart),
+  };
+}
+
 export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): Promise<Derived> {
   const open = new Map<string, Incident>();
   const incidents: Incident[] = [];
@@ -488,6 +515,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     causes: CsvValue[][];
     episodes: CsvValue[][];
     episodeIncidents: CsvValue[][];
+    estimateScores: CsvValue[][];
   }
   const byMonth = new Map<string, MonthBucket>();
 
@@ -499,7 +527,14 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     const month = incident.first_seen_ts.slice(0, 7);
     let bucket = byMonth.get(month);
     if (bucket === undefined) {
-      bucket = { incidents: [], estimates: [], causes: [], episodes: [], episodeIncidents: [] };
+      bucket = {
+        incidents: [],
+        estimates: [],
+        causes: [],
+        episodes: [],
+        episodeIncidents: [],
+        estimateScores: [],
+      };
       byMonth.set(month, bucket);
     }
 
@@ -556,6 +591,8 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
 
   let openEpisodes = 0;
   let bridgedGaps = 0;
+  const allScores: EstimateScore[] = [];
+  const activeRows: CsvValue[][] = [];
 
   // An episode and all its link rows land in the month of the EPISODE's first_seen_ts,
   // which always belongs to some member incident -- so that month's bucket already exists
@@ -586,6 +623,35 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     for (const member of episode.members) {
       bucket.episodeIncidents.push([episode.episode_id, member.incident_id]);
     }
+
+    // Ended episodes score their estimates (into the opening month's bucket, like the
+    // episode row itself); open ones join the active index the scrape pass joins against.
+    const history = episodeHistory(episode);
+    if (episode.first_absent_ts === null) {
+      activeRows.push([
+        episode.episode_id,
+        episode.sector,
+        episode.pt_name,
+        episode.utility,
+        currentSlipCount(history),
+      ]);
+    } else {
+      for (const score of scoreEpisode(history)) {
+        allScores.push(score);
+        bucket.estimateScores.push([
+          score.episode_id,
+          score.sector,
+          score.pt_name,
+          score.utility,
+          score.cause_class,
+          score.slip_count,
+          score.estimated_restore,
+          score.posted_ts,
+          score.restored_ts,
+          score.hit ? 1 : 0,
+        ]);
+      }
+    }
   }
 
   const render = (header: string[], rows: CsvValue[][]) =>
@@ -599,7 +665,13 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
       monthPath(EPISODE_INCIDENTS_DIR, month),
       render(EPISODE_INCIDENT_HEADER, bucket.episodeIncidents),
     );
+    files.set(
+      monthPath(ESTIMATE_SCORES_DIR, month),
+      render(ESTIMATE_SCORE_HEADER, bucket.estimateScores),
+    );
   }
+  files.set(RATES_PATH, render(RATE_HEADER, aggregateRates(allScores)));
+  files.set(ACTIVE_EPISODES_PATH, render(ACTIVE_EPISODE_HEADER, activeRows));
 
   const episodeSpans: EpisodeSpan[] = episodes.map((episode) => ({
     utility: episode.utility,
@@ -619,6 +691,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
       episodes: episodes.length,
       openEpisodes,
       bridgedGaps,
+      scoredEstimates: allScores.length,
     },
     episodeSpans,
     usableDays,

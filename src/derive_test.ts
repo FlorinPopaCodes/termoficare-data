@@ -16,6 +16,14 @@ import {
   type KeyObservation,
   type MonthContent,
 } from "./derive.ts";
+import {
+  ACTIVE_EPISODE_HEADER,
+  ACTIVE_EPISODES_PATH,
+  ESTIMATE_SCORE_HEADER,
+  ESTIMATE_SCORES_DIR,
+  RATE_HEADER,
+  RATES_PATH,
+} from "./on_time.ts";
 
 // --- small builders ---
 
@@ -69,6 +77,18 @@ function episodeRows(files: Map<string, string>, month: string): string[] {
 
 function episodeIncidentRows(files: Map<string, string>, month: string): string[] {
   return lines(files.get(`${EPISODE_INCIDENTS_DIR}/${month}.csv`)).slice(1);
+}
+
+function scoreRows(files: Map<string, string>, month: string): string[] {
+  return lines(files.get(`${ESTIMATE_SCORES_DIR}/${month}.csv`)).slice(1);
+}
+
+function rateRows(files: Map<string, string>): string[] {
+  return lines(files.get(RATES_PATH)).slice(1);
+}
+
+function activeRows(files: Map<string, string>): string[] {
+  return lines(files.get(ACTIVE_EPISODES_PATH)).slice(1);
 }
 
 // --- lifecycle ---
@@ -451,6 +471,28 @@ Deno.test("headers match the spec exactly", () => {
     "bridged_seconds",
   ]);
   assertEquals(EPISODE_INCIDENT_HEADER, ["episode_id", "incident_id"]);
+  assertEquals(ESTIMATE_SCORE_HEADER, [
+    "episode_id",
+    "sector",
+    "pt_name",
+    "utility",
+    "cause_class",
+    "slip_count",
+    "estimated_restore",
+    "posted_ts",
+    "restored_ts",
+    "hit",
+  ]);
+  assertEquals(RATE_HEADER, [
+    "level",
+    "sector",
+    "pt_name",
+    "cause_class",
+    "slip_bucket",
+    "hits",
+    "n",
+  ]);
+  assertEquals(ACTIVE_EPISODE_HEADER, ["episode_id", "sector", "pt_name", "utility", "slip_count"]);
 });
 
 // --- episodes ---
@@ -674,4 +716,236 @@ Deno.test("episodeSpans: an Oprire ACC/INC incident yields two spans, one per ut
     assertEquals(span.first_seen_ts, "2026-01-01T00:00:00");
     assertEquals(span.last_seen_ts, "2026-01-01T00:00:00");
   }
+});
+
+// --- estimate scores / on-time rates / active-episode index ---
+
+Deno.test("scoring: restoration observed exactly at the deadline is a hit", async () => {
+  const { files, stats } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [obs({ estimated_restore: "2026-01-01T12:00" })]),
+    ok("2026-01-01T12:00:00", []),
+  ]);
+
+  const rows = scoreRows(files, "2026-01");
+  assertEquals(rows.length, 1);
+  const fields = rows[0].split(",");
+  assertEquals(fields.slice(1), [
+    "1",
+    "PT A",
+    "ACC",
+    "breakdown",
+    "0",
+    "2026-01-01T12:00",
+    "2026-01-01T00:00:00",
+    "2026-01-01T12:00:00",
+    "1",
+  ]);
+  assertEquals(stats.scoredEstimates, 1);
+});
+
+Deno.test("scoring: restoration first observed after the deadline is a miss", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [obs({ estimated_restore: "2026-01-01T12:00" })]),
+    ok("2026-01-01T12:15:00", []),
+  ]);
+
+  const fields = scoreRows(files, "2026-01")[0].split(",");
+  assertEquals(fields[8], "2026-01-01T12:15:00"); // restored_ts
+  assertEquals(fields[9], "0"); // hit
+});
+
+Deno.test("scoring: a superseded estimate scores as the miss it was, the successor on its own", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [obs({ estimated_restore: "2026-01-01T10:00" })]),
+    ok("2026-01-01T00:15:00", [obs({ estimated_restore: "2026-01-01T23:00" })]),
+    ok("2026-01-01T12:00:00", []),
+  ]);
+
+  const rows = scoreRows(files, "2026-01").map((r) => r.split(","));
+  assertEquals(rows.length, 2);
+  const [first, second] = rows;
+  assertEquals(first[5], "0"); // slip_count
+  assertEquals(first[6], "2026-01-01T10:00");
+  assertEquals(first[7], "2026-01-01T00:00:00"); // posted_ts
+  assertEquals(first[9], "0"); // superseded and blown: a miss
+  assertEquals(second[5], "1");
+  assertEquals(second[6], "2026-01-01T23:00");
+  assertEquals(second[7], "2026-01-01T00:15:00");
+  assertEquals(second[9], "1");
+});
+
+Deno.test("scoring: an episode never observed ended scores nothing and lands in the active index", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [obs({ estimated_restore: "2026-01-01T10:00" })]),
+    ok("2026-01-01T00:15:00", [obs({ estimated_restore: "2026-01-01T23:00" })]),
+  ]);
+
+  assertEquals(scoreRows(files, "2026-01"), []);
+  assertEquals(rateRows(files), []);
+  const active = activeRows(files);
+  assertEquals(active.length, 1);
+  const fields = active[0].split(",");
+  assertEquals(fields.slice(1), ["1", "PT A", "ACC", "1"]); // slip 1: one estimate superseded
+});
+
+Deno.test("scoring: blank estimates (Nedefinit) neither score nor advance the slip count", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [
+      obs({ pt_name: "PT A", estimated_restore: "" }),
+      obs({ pt_name: "PT B", estimated_restore: "" }),
+    ]),
+    ok("2026-01-01T00:15:00", [
+      obs({ pt_name: "PT A", estimated_restore: "2026-01-02T10:00" }),
+      obs({ pt_name: "PT B", estimated_restore: "" }),
+    ]),
+    ok("2026-01-01T12:00:00", []),
+  ]);
+
+  const rows = scoreRows(files, "2026-01").map((r) => r.split(","));
+  assertEquals(rows.length, 1); // PT B never made a claim, so nothing to score
+  assertEquals(rows[0][2], "PT A");
+  assertEquals(rows[0][5], "0"); // the blank did not count as a first estimate
+  assertEquals(rows[0][9], "1");
+});
+
+Deno.test("scoring: re-posting an earlier estimate value is not a new claim", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [obs({ estimated_restore: "2026-01-01T10:00" })]),
+    ok("2026-01-01T00:15:00", [obs({ estimated_restore: "2026-01-01T23:00" })]),
+    ok("2026-01-01T00:30:00", [obs({ estimated_restore: "2026-01-01T10:00" })]),
+    ok("2026-01-01T12:00:00", []),
+  ]);
+
+  const rows = scoreRows(files, "2026-01").map((r) => r.split(","));
+  assertEquals(rows.length, 2);
+  assertEquals(rows.map((r) => r[6]), ["2026-01-01T10:00", "2026-01-01T23:00"]);
+});
+
+Deno.test("scoring: each posting is classed by the cause on the page when it appeared", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [
+      obs({ cause: "Remediere avarie", estimated_restore: "2026-01-01T10:00" }),
+    ]),
+    ok("2026-01-01T00:15:00", [
+      obs({ cause: "Lucrari de modernizare RTP", estimated_restore: "2026-01-01T23:00" }),
+    ]),
+    ok("2026-01-01T12:00:00", []),
+  ]);
+
+  const rows = scoreRows(files, "2026-01").map((r) => r.split(","));
+  assertEquals(rows.map((r) => r[4]), ["breakdown", "planned_works"]);
+});
+
+Deno.test("scoring: the cause taxonomy is keyword-driven and diacritic-insensitive", async () => {
+  const close = ok("2026-01-01T12:00:00", []);
+  const causes: [string, string][] = [
+    ["PT A", "Remediere avarie retea primara"],
+    ["PT B", "Lipsă parametri furnizați de CET"],
+    ["PT C", "Echilibrare hidraulică"],
+    ["PT D", "Lucrari de modernizare RTP POIM"],
+    ["PT E", "Manevre de golire instalatie"],
+    ["PT F", "Surpare in carosabil"],
+    ["PT G", "Lucrari de remediere avarie"], // breakdown outranks planned works
+    ["PT H", "Parametrii insuficienti livrati de CTE SUD"],
+  ];
+  const { files } = await deriveDatasets([
+    ok(
+      "2026-01-01T00:00:00",
+      causes.map(([pt_name, cause]) => obs({ pt_name, cause })),
+    ),
+    close,
+  ]);
+
+  const byPt = new Map(
+    scoreRows(files, "2026-01").map((r) => {
+      const fields = r.split(",");
+      return [fields[2], fields[4]];
+    }),
+  );
+  assertEquals(byPt.get("PT A"), "breakdown");
+  assertEquals(byPt.get("PT B"), "missing_params");
+  assertEquals(byPt.get("PT C"), "balancing");
+  assertEquals(byPt.get("PT D"), "planned_works");
+  assertEquals(byPt.get("PT E"), "maneuvers");
+  assertEquals(byPt.get("PT F"), "other");
+  assertEquals(byPt.get("PT G"), "breakdown");
+  assertEquals(byPt.get("PT H"), "missing_params");
+});
+
+Deno.test("rates: one scored estimate lands in one bucket at every backoff level", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [obs({ estimated_restore: "2026-01-01T10:00" })]),
+    ok("2026-01-01T12:00:00", []),
+  ]);
+
+  assertEquals(
+    files.get(RATES_PATH),
+    "level,sector,pt_name,cause_class,slip_bucket,hits,n\n" +
+      "pt_cause_slip,1,PT A,breakdown,0,0,1\n" +
+      "sector_cause_slip,1,,breakdown,0,0,1\n" +
+      "cause_slip,,,breakdown,0,0,1\n" +
+      "slip,,,,0,0,1\n",
+  );
+});
+
+Deno.test("rates: coarser levels pool what the PT level keeps apart", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [
+      obs({ pt_name: "PT A", estimated_restore: "2026-01-01T23:00" }), // hit
+      obs({ pt_name: "PT B", estimated_restore: "2026-01-01T10:00" }), // miss
+    ]),
+    ok("2026-01-01T12:00:00", []),
+  ]);
+
+  const rows = rateRows(files).map((r) => r.split(","));
+  const ptRows = rows.filter((r) => r[0] === "pt_cause_slip");
+  assertEquals(ptRows.length, 2);
+  for (const row of ptRows) assertEquals(row[6], "1");
+  const sectorRow = rows.find((r) => r[0] === "sector_cause_slip")!;
+  assertEquals(sectorRow.slice(5), ["1", "2"]); // 1 hit of 2
+  const slipRow = rows.find((r) => r[0] === "slip")!;
+  assertEquals(slipRow.slice(5), ["1", "2"]);
+});
+
+Deno.test("rates: slip counts of 3 and beyond share the 3+ bucket", async () => {
+  const estimates = ["10:00", "11:00", "12:00", "13:00", "14:00"];
+  const { files } = await deriveDatasets([
+    ...estimates.map((hhmm, i) =>
+      ok(`2026-01-01T0${i}:00:00`, [obs({ estimated_restore: `2026-01-02T${hhmm}` })])
+    ),
+    ok("2026-01-01T06:00:00", []),
+  ]);
+
+  const slipRows = rateRows(files).map((r) => r.split(",")).filter((r) => r[0] === "slip");
+  assertEquals(slipRows.map((r) => [r[4], r[6]]), [["0", "1"], ["1", "1"], ["2", "1"], [
+    "3+",
+    "2",
+  ]]);
+});
+
+Deno.test("active index: an open ACC/INC episode yields one row per utility", async () => {
+  const { files } = await deriveDatasets([
+    ok("2026-01-01T00:00:00", [
+      obs({ service: "Oprire ACC/INC", estimated_restore: "2026-01-01T10:00" }),
+    ]),
+  ]);
+
+  const rows = activeRows(files).map((r) => r.split(","));
+  assertEquals(rows.map((r) => r.slice(1)), [
+    ["1", "PT A", "ACC", "0"],
+    ["1", "PT A", "INC", "0"],
+  ]);
+  assertEquals(rows[0][0] === rows[1][0], false); // two distinct episodes
+});
+
+Deno.test("scores land in the episode's opening month even when restoration comes later", async () => {
+  const { files } = await deriveDatasets([
+    ok("2022-01-31T23:00:00", [obs({ estimated_restore: "2022-02-01T09:00" })]),
+    ok("2022-02-01T10:00:00", []),
+  ]);
+
+  const rows = scoreRows(files, "2022-01");
+  assertEquals(rows.length, 1);
+  assertEquals(rows[0].split(",")[9], "0"); // restored 10:00 > deadline 09:00
+  assertEquals(files.has(`${ESTIMATE_SCORES_DIR}/2022-02.csv`), false);
 });
