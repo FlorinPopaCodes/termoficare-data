@@ -15,6 +15,7 @@ import {
   monthPath,
   OBSERVATION_HEADER,
   parseRows,
+  sameHeader,
   SNAPSHOT_LOG_HEADER,
 } from "./csv.ts";
 import {
@@ -91,11 +92,6 @@ export interface MonthContent {
   month: string;
   log: string;
   observations: string;
-}
-
-function sameHeader(actual: string[] | undefined, expected: string[]): boolean {
-  return actual !== undefined && actual.length === expected.length &&
-    actual.every((v, i) => v === expected[i]);
 }
 
 // Walks a month's scrape log in order and consumes exactly as many observation rows as

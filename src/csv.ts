@@ -47,6 +47,12 @@ export function parseRows(content: string): string[][] {
   return parse(content);
 }
 
+// Shared by every reader that gates on a CSV's header before trusting its rows.
+export function sameHeader(actual: string[] | undefined, expected: string[]): boolean {
+  return actual !== undefined && actual.length === expected.length &&
+    actual.every((v, i) => v === expected[i]);
+}
+
 export function monthPath(dir: string, month: string): string {
   return `${dir}/${month}.csv`;
 }

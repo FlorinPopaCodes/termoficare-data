@@ -4,7 +4,7 @@
 // ended episode; keeping the cause classifier here, in the one module both passes
 // import, is what guarantees derive-time buckets and scrape-time lookups agree.
 
-import { type CsvValue, parseRows } from "./csv.ts";
+import { type CsvValue, parseRows, sameHeader } from "./csv.ts";
 
 export const ESTIMATE_SCORES_DIR = "data/derived/estimate_scores";
 export const RATES_PATH = "data/derived/on_time_rates.csv";
@@ -222,9 +222,9 @@ export interface PredictionContext {
 }
 
 function assertHeader(actual: string[] | undefined, expected: string[], path: string): void {
-  const matches = actual !== undefined && actual.length === expected.length &&
-    actual.every((v, i) => v === expected[i]);
-  if (!matches) throw new Error(`${path}: header does not match the expected shape`);
+  if (!sameHeader(actual, expected)) {
+    throw new Error(`${path}: header does not match the expected shape`);
+  }
 }
 
 // Header-gated like derive's foundation reader: a file whose shape drifted from this
@@ -282,7 +282,7 @@ const MIN_BASIS = 20;
 export interface OutagePrediction {
   on_time_probability: number;
   basis_n: number;
-  basis_bucket: string;
+  basis_bucket: RateLevel | "overdue";
 }
 
 // P(the currently posted estimate is hit). A deadline already earlier than scraped_at is
