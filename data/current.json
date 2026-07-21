@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-21T22:03:54",
+  "scraped_at": "2026-07-21T22:36:28",
   "status": "ok",
   "outages": [
     {
@@ -2691,18 +2691,6 @@
       "basis_n": 1612,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "10 Aragonitului",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Izolare racord PT 10 Aragonitului în vederea depistării și remedierii avarie conductă DN200 mm",
-      "estimated_restore": "2026-07-21T23:30",
-      "on_time_probability": 0.355,
-      "basis_n": 3472,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
     }
   ]
 }
