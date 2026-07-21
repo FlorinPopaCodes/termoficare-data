@@ -70,7 +70,9 @@ async function lastCommitTouching(path: string): Promise<number | null> {
 }
 
 // Derivation predates derive.yml running on a schedule, so a repo that has only ever
-// derived locally still has a valid staleness signal via the commit history.
+// derived locally still has a valid staleness signal via the commit history. The fallback
+// only ticks when the published files' bytes change (on_time_rates.csv, active_episodes.csv),
+// so a quiet stretch -- no episode starting, ending, or slipping -- reads staler than it is.
 async function lastDeriveSuccessAt(): Promise<number | null> {
   const viaWorkflow = await lastWorkflowSuccessAt("derive.yml");
   if (viaWorkflow !== null) return viaWorkflow;
