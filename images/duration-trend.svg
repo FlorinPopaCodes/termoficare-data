@@ -1,0 +1,326 @@
+<svg width="782" height="392" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .axis { font: 10px sans-serif; fill: #8b949e; }
+    .label { font: 10px sans-serif; paint-order: stroke; stroke: #0d1117; stroke-width: 3px; }
+    .panel { font: bold 12px sans-serif; fill: #c9d1d9; }
+    .title { font: bold 14px sans-serif; fill: #c9d1d9; }
+  </style>
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <text x="46" y="16" class="panel">heating (INC)</text>
+  <line x1="46" y1="139" x2="722" y2="139" stroke="#21262d"/>
+  <text x="40" y="142" text-anchor="end" class="axis">6h</text>
+  <line x1="46" y1="108.9" x2="722" y2="108.9" stroke="#21262d"/>
+  <text x="40" y="111.9" text-anchor="end" class="axis">1d</text>
+  <line x1="46" y1="85" x2="722" y2="85" stroke="#21262d"/>
+  <text x="40" y="88" text-anchor="end" class="axis">3d</text>
+  <line x1="46" y1="66.7" x2="722" y2="66.7" stroke="#21262d"/>
+  <text x="40" y="69.7" text-anchor="end" class="axis">1w</text>
+  <line x1="46" y1="35.1" x2="722" y2="35.1" stroke="#21262d"/>
+  <text x="40" y="38.1" text-anchor="end" class="axis">30d</text>
+  <text x="58.3" y="168" text-anchor="middle" class="axis">2022</text>
+  <text x="205.8" y="168" text-anchor="middle" class="axis">2023</text>
+  <text x="353.3" y="168" text-anchor="middle" class="axis">2024</text>
+  <text x="500.8" y="168" text-anchor="middle" class="axis">2025</text>
+  <text x="648.3" y="168" text-anchor="middle" class="axis">2026</text>
+  <polyline points="46,69.3 58.3,79.3 70.6,74.3 82.9,78.8" fill="none" stroke-width="1.5" stroke="#f2b491"/>
+  <polyline points="181.2,56.9 193.5,69.3 205.8,78.1 218.1,81.2 230.4,75.7 242.7,90.5" fill="none" stroke-width="1.5" stroke="#f2b491"/>
+  <polyline points="316.4,43.7 328.7,69 341,74 353.3,70.6 365.6,76.2 377.9,77.5" fill="none" stroke-width="1.5" stroke="#f2b491"/>
+  <polyline points="463.9,62.2 476.2,64.5 488.5,74.1 500.8,68.8 513.1,84.4 525.3,66.4 537.6,63.6" fill="none" stroke-width="1.5" stroke="#f2b491"/>
+  <polyline points="611.4,63.8 623.7,62.6 636,74.9 648.3,54.3 660.5,76.5 672.8,71.5 685.1,82.3" fill="none" stroke-width="1.5" stroke="#f2b491"/>
+  <circle cx="46" cy="69.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2021-12: heating p99 149h (1040 episodes)</title></circle>
+  <circle cx="58.3" cy="79.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2022-01: heating p99 94h (1813 episodes)</title></circle>
+  <circle cx="70.6" cy="74.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2022-02: heating p99 118h (1951 episodes)</title></circle>
+  <circle cx="82.9" cy="78.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2022-03: heating p99 96h (1618 episodes)</title></circle>
+  <circle cx="181.2" cy="56.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2022-11: heating p99 264h (2759 episodes)</title></circle>
+  <circle cx="193.5" cy="69.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2022-12: heating p99 149h (1480 episodes)</title></circle>
+  <circle cx="205.8" cy="78.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2023-01: heating p99 99h (929 episodes)</title></circle>
+  <circle cx="218.1" cy="81.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2023-02: heating p99 86h (1424 episodes)</title></circle>
+  <circle cx="230.4" cy="75.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2023-03: heating p99 111h (1180 episodes)</title></circle>
+  <circle cx="242.7" cy="90.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2023-04: heating p99 56h (425 episodes)</title></circle>
+  <circle cx="316.4" cy="43.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2023-10: heating p99 484h (191 episodes)</title></circle>
+  <circle cx="328.7" cy="69" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2023-11: heating p99 151h (2257 episodes)</title></circle>
+  <circle cx="341" cy="74" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2023-12: heating p99 120h (2141 episodes)</title></circle>
+  <circle cx="353.3" cy="70.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2024-01: heating p99 140h (1390 episodes)</title></circle>
+  <circle cx="365.6" cy="76.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2024-02: heating p99 108h (1256 episodes)</title></circle>
+  <circle cx="377.9" cy="77.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2024-03: heating p99 102h (768 episodes)</title></circle>
+  <circle cx="463.9" cy="62.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2024-10: heating p99 206h (813 episodes)</title></circle>
+  <circle cx="476.2" cy="64.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2024-11: heating p99 186h (1912 episodes)</title></circle>
+  <circle cx="488.5" cy="74.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2024-12: heating p99 119h (1187 episodes)</title></circle>
+  <circle cx="500.8" cy="68.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2025-01: heating p99 152h (1628 episodes)</title></circle>
+  <circle cx="513.1" cy="84.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2025-02: heating p99 74h (1134 episodes)</title></circle>
+  <circle cx="525.3" cy="66.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2025-03: heating p99 170h (1584 episodes)</title></circle>
+  <circle cx="537.6" cy="63.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2025-04: heating p99 193h (835 episodes)</title></circle>
+  <circle cx="611.4" cy="63.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2025-10: heating p99 192h (842 episodes)</title></circle>
+  <circle cx="623.7" cy="62.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2025-11: heating p99 203h (1111 episodes)</title></circle>
+  <circle cx="636" cy="74.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2025-12: heating p99 115h (1214 episodes)</title></circle>
+  <circle cx="648.3" cy="54.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2026-01: heating p99 297h (1836 episodes)</title></circle>
+  <circle cx="660.5" cy="76.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2026-02: heating p99 107h (1413 episodes)</title></circle>
+  <circle cx="672.8" cy="71.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2026-03: heating p99 134h (1792 episodes)</title></circle>
+  <circle cx="685.1" cy="82.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2026-04: heating p99 82h (305 episodes)</title></circle>
+  <polyline points="46,97.8 58.3,96.2 70.6,87.9 82.9,94.3" fill="none" stroke-width="1.5" stroke="#e8875c"/>
+  <polyline points="181.2,95.2 193.5,95.2 205.8,92.5 218.1,95.2 230.4,92.1 242.7,95.2" fill="none" stroke-width="1.5" stroke="#e8875c"/>
+  <polyline points="316.4,82.2 328.7,93 341,88.6 353.3,95.2 365.6,89 377.9,85" fill="none" stroke-width="1.5" stroke="#e8875c"/>
+  <polyline points="463.9,82.2 476.2,81.2 488.5,89.7 500.8,78.4 513.1,99.5 525.3,83.3 537.6,84.2" fill="none" stroke-width="1.5" stroke="#e8875c"/>
+  <polyline points="611.4,87.6 623.7,79.3 636,95.7 648.3,58.6 660.5,86.2 672.8,85 685.1,92.8" fill="none" stroke-width="1.5" stroke="#e8875c"/>
+  <circle cx="46" cy="97.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2021-12: heating p90 40h (1040 episodes)</title></circle>
+  <circle cx="58.3" cy="96.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2022-01: heating p90 43h (1813 episodes)</title></circle>
+  <circle cx="70.6" cy="87.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2022-02: heating p90 63h (1951 episodes)</title></circle>
+  <circle cx="82.9" cy="94.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2022-03: heating p90 47h (1618 episodes)</title></circle>
+  <circle cx="181.2" cy="95.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2022-11: heating p90 45h (2759 episodes)</title></circle>
+  <circle cx="193.5" cy="95.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2022-12: heating p90 45h (1480 episodes)</title></circle>
+  <circle cx="205.8" cy="92.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2023-01: heating p90 51h (929 episodes)</title></circle>
+  <circle cx="218.1" cy="95.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2023-02: heating p90 45h (1424 episodes)</title></circle>
+  <circle cx="230.4" cy="92.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2023-03: heating p90 52h (1180 episodes)</title></circle>
+  <circle cx="242.7" cy="95.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2023-04: heating p90 45h (425 episodes)</title></circle>
+  <circle cx="316.4" cy="82.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2023-10: heating p90 82h (191 episodes)</title></circle>
+  <circle cx="328.7" cy="93" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2023-11: heating p90 50h (2257 episodes)</title></circle>
+  <circle cx="341" cy="88.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2023-12: heating p90 61h (2141 episodes)</title></circle>
+  <circle cx="353.3" cy="95.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2024-01: heating p90 45h (1390 episodes)</title></circle>
+  <circle cx="365.6" cy="89" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2024-02: heating p90 60h (1256 episodes)</title></circle>
+  <circle cx="377.9" cy="85" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2024-03: heating p90 72h (768 episodes)</title></circle>
+  <circle cx="463.9" cy="82.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2024-10: heating p90 82h (813 episodes)</title></circle>
+  <circle cx="476.2" cy="81.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2024-11: heating p90 86h (1912 episodes)</title></circle>
+  <circle cx="488.5" cy="89.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2024-12: heating p90 58h (1187 episodes)</title></circle>
+  <circle cx="500.8" cy="78.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2025-01: heating p90 98h (1628 episodes)</title></circle>
+  <circle cx="513.1" cy="99.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2025-02: heating p90 37h (1134 episodes)</title></circle>
+  <circle cx="525.3" cy="83.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2025-03: heating p90 78h (1584 episodes)</title></circle>
+  <circle cx="537.6" cy="84.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2025-04: heating p90 75h (835 episodes)</title></circle>
+  <circle cx="611.4" cy="87.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2025-10: heating p90 64h (842 episodes)</title></circle>
+  <circle cx="623.7" cy="79.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2025-11: heating p90 94h (1111 episodes)</title></circle>
+  <circle cx="636" cy="95.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2025-12: heating p90 44h (1214 episodes)</title></circle>
+  <circle cx="648.3" cy="58.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2026-01: heating p90 243h (1836 episodes)</title></circle>
+  <circle cx="660.5" cy="86.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2026-02: heating p90 68h (1413 episodes)</title></circle>
+  <circle cx="672.8" cy="85" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2026-03: heating p90 72h (1792 episodes)</title></circle>
+  <circle cx="685.1" cy="92.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2026-04: heating p90 50h (305 episodes)</title></circle>
+  <polyline points="46,123.9 58.3,127.9 70.6,117.7 82.9,127.9" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="181.2,130.2 193.5,127.9 205.8,125.8 218.1,130.2 230.4,130.2 242.7,132.7" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="316.4,100.1 328.7,123.9 341,120.6 353.3,127.9 365.6,122.2 377.9,122.2" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="463.9,111.8 476.2,123.9 488.5,123.9 500.8,132.7 513.1,125.8 525.3,120.6 537.6,120.6" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="611.4,123.9 623.7,123.9 636,130.2 648.3,119.6 660.5,120.6 672.8,123.9 685.1,123.4" fill="none" stroke-width="2" stroke="#d95926"/>
+  <circle cx="46" cy="123.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2021-12: heating p50 12h (1040 episodes)</title></circle>
+  <circle cx="58.3" cy="127.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-01: heating p50 10h (1813 episodes)</title></circle>
+  <circle cx="70.6" cy="117.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-02: heating p50 16h (1951 episodes)</title></circle>
+  <circle cx="82.9" cy="127.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-03: heating p50 10h (1618 episodes)</title></circle>
+  <circle cx="181.2" cy="130.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-11: heating p50 9h (2759 episodes)</title></circle>
+  <circle cx="193.5" cy="127.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-12: heating p50 10h (1480 episodes)</title></circle>
+  <circle cx="205.8" cy="125.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-01: heating p50 11h (929 episodes)</title></circle>
+  <circle cx="218.1" cy="130.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-02: heating p50 9h (1424 episodes)</title></circle>
+  <circle cx="230.4" cy="130.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-03: heating p50 9h (1180 episodes)</title></circle>
+  <circle cx="242.7" cy="132.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-04: heating p50 8h (425 episodes)</title></circle>
+  <circle cx="316.4" cy="100.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-10: heating p50 36h (191 episodes)</title></circle>
+  <circle cx="328.7" cy="123.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-11: heating p50 12h (2257 episodes)</title></circle>
+  <circle cx="341" cy="120.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-12: heating p50 14h (2141 episodes)</title></circle>
+  <circle cx="353.3" cy="127.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-01: heating p50 10h (1390 episodes)</title></circle>
+  <circle cx="365.6" cy="122.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-02: heating p50 13h (1256 episodes)</title></circle>
+  <circle cx="377.9" cy="122.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-03: heating p50 13h (768 episodes)</title></circle>
+  <circle cx="463.9" cy="111.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-10: heating p50 21h (813 episodes)</title></circle>
+  <circle cx="476.2" cy="123.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-11: heating p50 12h (1912 episodes)</title></circle>
+  <circle cx="488.5" cy="123.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-12: heating p50 12h (1187 episodes)</title></circle>
+  <circle cx="500.8" cy="132.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-01: heating p50 8h (1628 episodes)</title></circle>
+  <circle cx="513.1" cy="125.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-02: heating p50 11h (1134 episodes)</title></circle>
+  <circle cx="525.3" cy="120.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-03: heating p50 14h (1584 episodes)</title></circle>
+  <circle cx="537.6" cy="120.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-04: heating p50 14h (835 episodes)</title></circle>
+  <circle cx="611.4" cy="123.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-10: heating p50 12h (842 episodes)</title></circle>
+  <circle cx="623.7" cy="123.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-11: heating p50 12h (1111 episodes)</title></circle>
+  <circle cx="636" cy="130.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-12: heating p50 9h (1214 episodes)</title></circle>
+  <circle cx="648.3" cy="119.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-01: heating p50 15h (1836 episodes)</title></circle>
+  <circle cx="660.5" cy="120.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-02: heating p50 14h (1413 episodes)</title></circle>
+  <circle cx="672.8" cy="123.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-03: heating p50 12h (1792 episodes)</title></circle>
+  <circle cx="685.1" cy="123.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-04: heating p50 12h (305 episodes)</title></circle>
+  <text x="693.1" y="85.3" class="label" fill="#f2b491">p99</text>
+  <text x="693.1" y="96.3" class="label" fill="#e8875c">p90</text>
+  <text x="693.1" y="126.4" class="label" fill="#d95926">p50</text>
+  <text x="46" y="192" class="panel">hot water (ACC)</text>
+  <line x1="46" y1="315" x2="722" y2="315" stroke="#21262d"/>
+  <text x="40" y="318" text-anchor="end" class="axis">6h</text>
+  <line x1="46" y1="284.9" x2="722" y2="284.9" stroke="#21262d"/>
+  <text x="40" y="287.9" text-anchor="end" class="axis">1d</text>
+  <line x1="46" y1="261" x2="722" y2="261" stroke="#21262d"/>
+  <text x="40" y="264" text-anchor="end" class="axis">3d</text>
+  <line x1="46" y1="242.7" x2="722" y2="242.7" stroke="#21262d"/>
+  <text x="40" y="245.7" text-anchor="end" class="axis">1w</text>
+  <line x1="46" y1="211.1" x2="722" y2="211.1" stroke="#21262d"/>
+  <text x="40" y="214.1" text-anchor="end" class="axis">30d</text>
+  <text x="58.3" y="344" text-anchor="middle" class="axis">2022</text>
+  <text x="205.8" y="344" text-anchor="middle" class="axis">2023</text>
+  <text x="353.3" y="344" text-anchor="middle" class="axis">2024</text>
+  <text x="500.8" y="344" text-anchor="middle" class="axis">2025</text>
+  <text x="648.3" y="344" text-anchor="middle" class="axis">2026</text>
+  <polyline points="46,265 58.3,257.2 70.6,252.7 82.9,256.2 95.2,241.4 107.5,252.2 119.7,231.9 132,206 144.3,220.8 156.6,243.3 168.9,246.9 181.2,243.1 193.5,254.1 205.8,257.7 218.1,258.5 230.4,253.1 242.7,234.6 254.9,241.2 267.2,226.1 279.5,224.7 291.8,210 304.1,239.5 316.4,246.6 328.7,252.4 341,252 353.3,265 365.6,256 377.9,253.7 390.1,240.6 402.4,248.1 414.7,248.9 427,238.3 439.3,226.4 451.6,237 463.9,235.8 476.2,245.9 488.5,253.3 500.8,245.9 513.1,266.9 525.3,250.5 537.6,242.4 549.9,228.7 562.2,232.4 574.5,232.6 586.8,219.8 599.1,232.3 611.4,244.1 623.7,239.5 636,256 648.3,232.1 660.5,255.7 672.8,246.8 685.1,233.8 697.4,235.2 709.7,230.4 722,238.2" fill="none" stroke-width="1.5" stroke="#a6c8f3"/>
+  <circle cx="46" cy="265" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2021-12: hot water p99 60h (619 episodes)</title></circle>
+  <circle cx="58.3" cy="257.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-01: hot water p99 86h (1478 episodes)</title></circle>
+  <circle cx="70.6" cy="252.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-02: hot water p99 106h (1642 episodes)</title></circle>
+  <circle cx="82.9" cy="256.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-03: hot water p99 90h (1441 episodes)</title></circle>
+  <circle cx="95.2" cy="241.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-04: hot water p99 178h (1725 episodes)</title></circle>
+  <circle cx="107.5" cy="252.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-05: hot water p99 108h (1636 episodes)</title></circle>
+  <circle cx="119.7" cy="231.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-06: hot water p99 276h (1221 episodes)</title></circle>
+  <circle cx="132" cy="206" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-07: hot water p99 912h (1670 episodes)</title></circle>
+  <circle cx="144.3" cy="220.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-08: hot water p99 461h (1204 episodes)</title></circle>
+  <circle cx="156.6" cy="243.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-09: hot water p99 163h (2409 episodes)</title></circle>
+  <circle cx="168.9" cy="246.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-10: hot water p99 138h (2541 episodes)</title></circle>
+  <circle cx="181.2" cy="243.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-11: hot water p99 165h (2889 episodes)</title></circle>
+  <circle cx="193.5" cy="254.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2022-12: hot water p99 99h (1166 episodes)</title></circle>
+  <circle cx="205.8" cy="257.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-01: hot water p99 84h (951 episodes)</title></circle>
+  <circle cx="218.1" cy="258.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-02: hot water p99 81h (1508 episodes)</title></circle>
+  <circle cx="230.4" cy="253.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-03: hot water p99 104h (1462 episodes)</title></circle>
+  <circle cx="242.7" cy="234.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-04: hot water p99 244h (1303 episodes)</title></circle>
+  <circle cx="254.9" cy="241.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-05: hot water p99 180h (3031 episodes)</title></circle>
+  <circle cx="267.2" cy="226.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-06: hot water p99 361h (1861 episodes)</title></circle>
+  <circle cx="279.5" cy="224.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-07: hot water p99 385h (1627 episodes)</title></circle>
+  <circle cx="291.8" cy="210" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-08: hot water p99 757h (1256 episodes)</title></circle>
+  <circle cx="304.1" cy="239.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-09: hot water p99 194h (1664 episodes)</title></circle>
+  <circle cx="316.4" cy="246.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-10: hot water p99 140h (1822 episodes)</title></circle>
+  <circle cx="328.7" cy="252.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-11: hot water p99 107h (2224 episodes)</title></circle>
+  <circle cx="341" cy="252" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2023-12: hot water p99 109h (2006 episodes)</title></circle>
+  <circle cx="353.3" cy="265" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-01: hot water p99 60h (1174 episodes)</title></circle>
+  <circle cx="365.6" cy="256" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-02: hot water p99 91h (1471 episodes)</title></circle>
+  <circle cx="377.9" cy="253.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-03: hot water p99 101h (1047 episodes)</title></circle>
+  <circle cx="390.1" cy="240.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-04: hot water p99 185h (2547 episodes)</title></circle>
+  <circle cx="402.4" cy="248.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-05: hot water p99 131h (2329 episodes)</title></circle>
+  <circle cx="414.7" cy="248.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-06: hot water p99 126h (1299 episodes)</title></circle>
+  <circle cx="427" cy="238.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-07: hot water p99 205h (1439 episodes)</title></circle>
+  <circle cx="439.3" cy="226.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-08: hot water p99 356h (2456 episodes)</title></circle>
+  <circle cx="451.6" cy="237" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-09: hot water p99 218h (1813 episodes)</title></circle>
+  <circle cx="463.9" cy="235.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-10: hot water p99 231h (2143 episodes)</title></circle>
+  <circle cx="476.2" cy="245.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-11: hot water p99 145h (1742 episodes)</title></circle>
+  <circle cx="488.5" cy="253.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2024-12: hot water p99 103h (1160 episodes)</title></circle>
+  <circle cx="500.8" cy="245.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-01: hot water p99 145h (1413 episodes)</title></circle>
+  <circle cx="513.1" cy="266.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-02: hot water p99 55h (1164 episodes)</title></circle>
+  <circle cx="525.3" cy="250.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-03: hot water p99 117h (1660 episodes)</title></circle>
+  <circle cx="537.6" cy="242.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-04: hot water p99 170h (1407 episodes)</title></circle>
+  <circle cx="549.9" cy="228.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-05: hot water p99 319h (1759 episodes)</title></circle>
+  <circle cx="562.2" cy="232.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-06: hot water p99 270h (1704 episodes)</title></circle>
+  <circle cx="574.5" cy="232.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-07: hot water p99 267h (1214 episodes)</title></circle>
+  <circle cx="586.8" cy="219.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-08: hot water p99 481h (1551 episodes)</title></circle>
+  <circle cx="599.1" cy="232.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-09: hot water p99 271h (1896 episodes)</title></circle>
+  <circle cx="611.4" cy="244.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-10: hot water p99 157h (2271 episodes)</title></circle>
+  <circle cx="623.7" cy="239.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-11: hot water p99 194h (1135 episodes)</title></circle>
+  <circle cx="636" cy="256" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2025-12: hot water p99 91h (950 episodes)</title></circle>
+  <circle cx="648.3" cy="232.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2026-01: hot water p99 273h (1617 episodes)</title></circle>
+  <circle cx="660.5" cy="255.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2026-02: hot water p99 92h (1246 episodes)</title></circle>
+  <circle cx="672.8" cy="246.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2026-03: hot water p99 139h (1693 episodes)</title></circle>
+  <circle cx="685.1" cy="233.8" r="3" fill="#0d1117" stroke-width="2" stroke="#a6c8f3"><title>2026-04: hot water p99 253h (1936 episodes, provisional)</title></circle>
+  <circle cx="697.4" cy="235.2" r="3" fill="#0d1117" stroke-width="2" stroke="#a6c8f3"><title>2026-05: hot water p99 237h (2585 episodes, provisional)</title></circle>
+  <circle cx="709.7" cy="230.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2026-06: hot water p99 296h (1306 episodes)</title></circle>
+  <circle cx="722" cy="238.2" r="3" fill="#0d1117" stroke-width="2" stroke="#a6c8f3"><title>2026-07: hot water p99 207h (691 episodes, provisional)</title></circle>
+  <polyline points="46,279.3 58.3,279.3 70.6,264.3 82.9,272.2 95.2,265 107.5,268.1 119.7,251.8 132,237.7 144.3,261 156.6,271.7 168.9,260.2 181.2,275.5 193.5,276.1 205.8,273.8 218.1,274.9 230.4,269 242.7,262.6 254.9,250.3 267.2,266.5 279.5,257.4 291.8,219.1 304.1,261 316.4,269.8 328.7,271.2 341,267.3 353.3,273.3 365.6,265 377.9,266.9 390.1,265 402.4,259.3 414.7,262.6 427,252 439.3,248.2 451.6,262.9 463.9,262 476.2,263.9 488.5,267.7 500.8,254.6 513.1,275.5 525.3,265.4 537.6,265.4 549.9,257.4 562.2,252.4 574.5,250.3 586.8,229.3 599.1,252.7 611.4,267.7 623.7,257.7 636,271.7 648.3,234.6 660.5,262.2 672.8,261.4 685.1,260.1 697.4,257.2 709.7,241.4 722,255" fill="none" stroke-width="1.5" stroke="#6fa6ec"/>
+  <circle cx="46" cy="279.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2021-12: hot water p90 31h (619 episodes)</title></circle>
+  <circle cx="58.3" cy="279.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-01: hot water p90 31h (1478 episodes)</title></circle>
+  <circle cx="70.6" cy="264.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-02: hot water p90 62h (1642 episodes)</title></circle>
+  <circle cx="82.9" cy="272.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-03: hot water p90 43h (1441 episodes)</title></circle>
+  <circle cx="95.2" cy="265" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-04: hot water p90 60h (1725 episodes)</title></circle>
+  <circle cx="107.5" cy="268.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-05: hot water p90 52h (1636 episodes)</title></circle>
+  <circle cx="119.7" cy="251.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-06: hot water p90 110h (1221 episodes)</title></circle>
+  <circle cx="132" cy="237.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-07: hot water p90 211h (1670 episodes)</title></circle>
+  <circle cx="144.3" cy="261" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-08: hot water p90 72h (1204 episodes)</title></circle>
+  <circle cx="156.6" cy="271.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-09: hot water p90 44h (2409 episodes)</title></circle>
+  <circle cx="168.9" cy="260.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-10: hot water p90 75h (2541 episodes)</title></circle>
+  <circle cx="181.2" cy="275.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-11: hot water p90 37h (2889 episodes)</title></circle>
+  <circle cx="193.5" cy="276.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-12: hot water p90 36h (1166 episodes)</title></circle>
+  <circle cx="205.8" cy="273.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-01: hot water p90 40h (951 episodes)</title></circle>
+  <circle cx="218.1" cy="274.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-02: hot water p90 38h (1508 episodes)</title></circle>
+  <circle cx="230.4" cy="269" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-03: hot water p90 50h (1462 episodes)</title></circle>
+  <circle cx="242.7" cy="262.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-04: hot water p90 67h (1303 episodes)</title></circle>
+  <circle cx="254.9" cy="250.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-05: hot water p90 118h (3031 episodes)</title></circle>
+  <circle cx="267.2" cy="266.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-06: hot water p90 56h (1861 episodes)</title></circle>
+  <circle cx="279.5" cy="257.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-07: hot water p90 85h (1627 episodes)</title></circle>
+  <circle cx="291.8" cy="219.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-08: hot water p90 497h (1256 episodes)</title></circle>
+  <circle cx="304.1" cy="261" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-09: hot water p90 72h (1664 episodes)</title></circle>
+  <circle cx="316.4" cy="269.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-10: hot water p90 48h (1822 episodes)</title></circle>
+  <circle cx="328.7" cy="271.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-11: hot water p90 45h (2224 episodes)</title></circle>
+  <circle cx="341" cy="267.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2023-12: hot water p90 54h (2006 episodes)</title></circle>
+  <circle cx="353.3" cy="273.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-01: hot water p90 41h (1174 episodes)</title></circle>
+  <circle cx="365.6" cy="265" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-02: hot water p90 60h (1471 episodes)</title></circle>
+  <circle cx="377.9" cy="266.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-03: hot water p90 55h (1047 episodes)</title></circle>
+  <circle cx="390.1" cy="265" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-04: hot water p90 60h (2547 episodes)</title></circle>
+  <circle cx="402.4" cy="259.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-05: hot water p90 78h (2329 episodes)</title></circle>
+  <circle cx="414.7" cy="262.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-06: hot water p90 67h (1299 episodes)</title></circle>
+  <circle cx="427" cy="252" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-07: hot water p90 109h (1439 episodes)</title></circle>
+  <circle cx="439.3" cy="248.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-08: hot water p90 130h (2456 episodes)</title></circle>
+  <circle cx="451.6" cy="262.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-09: hot water p90 66h (1813 episodes)</title></circle>
+  <circle cx="463.9" cy="262" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-10: hot water p90 69h (2143 episodes)</title></circle>
+  <circle cx="476.2" cy="263.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-11: hot water p90 63h (1742 episodes)</title></circle>
+  <circle cx="488.5" cy="267.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2024-12: hot water p90 53h (1160 episodes)</title></circle>
+  <circle cx="500.8" cy="254.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-01: hot water p90 97h (1413 episodes)</title></circle>
+  <circle cx="513.1" cy="275.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-02: hot water p90 37h (1164 episodes)</title></circle>
+  <circle cx="525.3" cy="265.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-03: hot water p90 59h (1660 episodes)</title></circle>
+  <circle cx="537.6" cy="265.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-04: hot water p90 59h (1407 episodes)</title></circle>
+  <circle cx="549.9" cy="257.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-05: hot water p90 85h (1759 episodes)</title></circle>
+  <circle cx="562.2" cy="252.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-06: hot water p90 107h (1704 episodes)</title></circle>
+  <circle cx="574.5" cy="250.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-07: hot water p90 118h (1214 episodes)</title></circle>
+  <circle cx="586.8" cy="229.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-08: hot water p90 311h (1551 episodes)</title></circle>
+  <circle cx="599.1" cy="252.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-09: hot water p90 106h (1896 episodes)</title></circle>
+  <circle cx="611.4" cy="267.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-10: hot water p90 53h (2271 episodes)</title></circle>
+  <circle cx="623.7" cy="257.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-11: hot water p90 84h (1135 episodes)</title></circle>
+  <circle cx="636" cy="271.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2025-12: hot water p90 44h (950 episodes)</title></circle>
+  <circle cx="648.3" cy="234.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2026-01: hot water p90 244h (1617 episodes)</title></circle>
+  <circle cx="660.5" cy="262.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2026-02: hot water p90 68h (1246 episodes)</title></circle>
+  <circle cx="672.8" cy="261.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2026-03: hot water p90 71h (1693 episodes)</title></circle>
+  <circle cx="685.1" cy="260.1" r="3" fill="#0d1117" stroke-width="2" stroke="#6fa6ec"><title>2026-04: hot water p90 75h (1936 episodes, provisional)</title></circle>
+  <circle cx="697.4" cy="257.2" r="3" fill="#0d1117" stroke-width="2" stroke="#6fa6ec"><title>2026-05: hot water p90 86h (2585 episodes, provisional)</title></circle>
+  <circle cx="709.7" cy="241.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2026-06: hot water p90 178h (1306 episodes)</title></circle>
+  <circle cx="722" cy="255" r="3" fill="#0d1117" stroke-width="2" stroke="#6fa6ec"><title>2026-07: hot water p90 95h (691 episodes, provisional)</title></circle>
+  <polyline points="46,308.7 58.3,308.7 70.6,301.8 82.9,315 95.2,311.6 107.5,323.8 119.7,306.2 132,278 144.3,303.9 156.6,323.8 168.9,315 181.2,315 193.5,315 205.8,315 218.1,315 230.4,315 242.7,315 254.9,308.7 267.2,315 279.5,303.9 291.8,278.6 304.1,315 316.4,318.9 328.7,308.7 341,301.8 353.3,315 365.6,308.7 377.9,311.6 390.1,311.6 402.4,318.9 414.7,306.2 427,298.2 439.3,298.2 451.6,318.9 463.9,308.7 476.2,306.2 488.5,308.7 500.8,308.7 513.1,308.7 525.3,306.2 537.6,311.6 549.9,318.9 562.2,298.2 574.5,301.8 586.8,283.1 599.1,308.7 611.4,311.6 623.7,308.7 636,315 648.3,298.8 660.5,301.5 672.8,306.5 685.1,301.1 697.4,320.5 709.7,304.6 722,297.5" fill="none" stroke-width="2" stroke="#3987e5"/>
+  <circle cx="46" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2021-12: hot water p50 8h (619 episodes)</title></circle>
+  <circle cx="58.3" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-01: hot water p50 8h (1478 episodes)</title></circle>
+  <circle cx="70.6" cy="301.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-02: hot water p50 11h (1642 episodes)</title></circle>
+  <circle cx="82.9" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-03: hot water p50 6h (1441 episodes)</title></circle>
+  <circle cx="95.2" cy="311.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-04: hot water p50 7h (1725 episodes)</title></circle>
+  <circle cx="107.5" cy="323.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-05: hot water p50 4h (1636 episodes)</title></circle>
+  <circle cx="119.7" cy="306.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-06: hot water p50 9h (1221 episodes)</title></circle>
+  <circle cx="132" cy="278" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-07: hot water p50 33h (1670 episodes)</title></circle>
+  <circle cx="144.3" cy="303.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-08: hot water p50 10h (1204 episodes)</title></circle>
+  <circle cx="156.6" cy="323.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-09: hot water p50 4h (2409 episodes)</title></circle>
+  <circle cx="168.9" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-10: hot water p50 6h (2541 episodes)</title></circle>
+  <circle cx="181.2" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-11: hot water p50 6h (2889 episodes)</title></circle>
+  <circle cx="193.5" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-12: hot water p50 6h (1166 episodes)</title></circle>
+  <circle cx="205.8" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-01: hot water p50 6h (951 episodes)</title></circle>
+  <circle cx="218.1" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-02: hot water p50 6h (1508 episodes)</title></circle>
+  <circle cx="230.4" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-03: hot water p50 6h (1462 episodes)</title></circle>
+  <circle cx="242.7" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-04: hot water p50 6h (1303 episodes)</title></circle>
+  <circle cx="254.9" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-05: hot water p50 8h (3031 episodes)</title></circle>
+  <circle cx="267.2" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-06: hot water p50 6h (1861 episodes)</title></circle>
+  <circle cx="279.5" cy="303.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-07: hot water p50 10h (1627 episodes)</title></circle>
+  <circle cx="291.8" cy="278.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-08: hot water p50 32h (1256 episodes)</title></circle>
+  <circle cx="304.1" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-09: hot water p50 6h (1664 episodes)</title></circle>
+  <circle cx="316.4" cy="318.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-10: hot water p50 5h (1822 episodes)</title></circle>
+  <circle cx="328.7" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-11: hot water p50 8h (2224 episodes)</title></circle>
+  <circle cx="341" cy="301.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-12: hot water p50 11h (2006 episodes)</title></circle>
+  <circle cx="353.3" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-01: hot water p50 6h (1174 episodes)</title></circle>
+  <circle cx="365.6" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-02: hot water p50 8h (1471 episodes)</title></circle>
+  <circle cx="377.9" cy="311.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-03: hot water p50 7h (1047 episodes)</title></circle>
+  <circle cx="390.1" cy="311.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-04: hot water p50 7h (2547 episodes)</title></circle>
+  <circle cx="402.4" cy="318.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-05: hot water p50 5h (2329 episodes)</title></circle>
+  <circle cx="414.7" cy="306.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-06: hot water p50 9h (1299 episodes)</title></circle>
+  <circle cx="427" cy="298.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-07: hot water p50 13h (1439 episodes)</title></circle>
+  <circle cx="439.3" cy="298.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-08: hot water p50 13h (2456 episodes)</title></circle>
+  <circle cx="451.6" cy="318.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-09: hot water p50 5h (1813 episodes)</title></circle>
+  <circle cx="463.9" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-10: hot water p50 8h (2143 episodes)</title></circle>
+  <circle cx="476.2" cy="306.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-11: hot water p50 9h (1742 episodes)</title></circle>
+  <circle cx="488.5" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-12: hot water p50 8h (1160 episodes)</title></circle>
+  <circle cx="500.8" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-01: hot water p50 8h (1413 episodes)</title></circle>
+  <circle cx="513.1" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-02: hot water p50 8h (1164 episodes)</title></circle>
+  <circle cx="525.3" cy="306.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-03: hot water p50 9h (1660 episodes)</title></circle>
+  <circle cx="537.6" cy="311.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-04: hot water p50 7h (1407 episodes)</title></circle>
+  <circle cx="549.9" cy="318.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-05: hot water p50 5h (1759 episodes)</title></circle>
+  <circle cx="562.2" cy="298.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-06: hot water p50 13h (1704 episodes)</title></circle>
+  <circle cx="574.5" cy="301.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-07: hot water p50 11h (1214 episodes)</title></circle>
+  <circle cx="586.8" cy="283.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-08: hot water p50 26h (1551 episodes)</title></circle>
+  <circle cx="599.1" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-09: hot water p50 8h (1896 episodes)</title></circle>
+  <circle cx="611.4" cy="311.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-10: hot water p50 7h (2271 episodes)</title></circle>
+  <circle cx="623.7" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-11: hot water p50 8h (1135 episodes)</title></circle>
+  <circle cx="636" cy="315" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-12: hot water p50 6h (950 episodes)</title></circle>
+  <circle cx="648.3" cy="298.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-01: hot water p50 13h (1617 episodes)</title></circle>
+  <circle cx="660.5" cy="301.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-02: hot water p50 11h (1246 episodes)</title></circle>
+  <circle cx="672.8" cy="306.5" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-03: hot water p50 9h (1693 episodes)</title></circle>
+  <circle cx="685.1" cy="301.1" r="3" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-04: hot water p50 11h (1936 episodes, provisional)</title></circle>
+  <circle cx="697.4" cy="320.5" r="3" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-05: hot water p50 5h (2585 episodes, provisional)</title></circle>
+  <circle cx="709.7" cy="304.6" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-06: hot water p50 10h (1306 episodes)</title></circle>
+  <circle cx="722" cy="297.5" r="3" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-07: hot water p50 13h (691 episodes, provisional)</title></circle>
+  <text x="730" y="241.2" class="label" fill="#a6c8f3">p99</text>
+  <text x="730" y="258" class="label" fill="#6fa6ec">p90</text>
+  <text x="730" y="300.5" class="label" fill="#3987e5">p50</text>
+  <circle cx="652" cy="13" r="3" fill="#0d1117" stroke-width="2" stroke="#8b949e"/>
+  <text x="661" y="16" class="axis">provisional</text>
+  <text x="46" y="384" class="title">How long outages last: median, p90 and p99 by month begun</text>
+</svg>

@@ -169,13 +169,15 @@ export interface DeriveStats {
   scoredEstimates: number;
 }
 
-// One derived episode's utility and span, structurally identical to episode_heatmap.ts's
-// own EpisodeSpan on purpose -- the two modules are opposite sides of the seam and
-// deliberately don't import each other.
+// One derived episode's utility and span, structurally a superset of episode_heatmap.ts's
+// EpisodeSpan and duration_trend.ts's EpisodeDuration on purpose -- the renderers sit on
+// the other side of the seam, each declares only the fields it reads, and none of the
+// three modules import each other.
 export interface EpisodeSpan {
   utility: string;
   first_seen_ts: string;
   last_seen_ts: string;
+  first_absent_ts: string | null; // null = still open at end of input (censored)
 }
 
 // A still-open episode's posted claim, structurally identical to on_time_trend.ts's own
@@ -691,6 +693,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     utility: episode.utility,
     first_seen_ts: episode.first_seen_ts,
     last_seen_ts: episode.last_seen_ts,
+    first_absent_ts: episode.first_absent_ts,
   }));
 
   return {
