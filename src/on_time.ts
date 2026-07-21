@@ -156,6 +156,12 @@ export function currentSlipCount(episode: EpisodeHistory): number {
   return Math.max(0, postings(episode).length - 1);
 }
 
+// Posting timestamps of an open episode's distinct claims -- estimates whose outcomes are
+// still pending. The trend chart marks their posting months provisional.
+export function pendingPostings(episode: EpisodeHistory): string[] {
+  return postings(episode).map((p) => p.posted_ts);
+}
+
 const RATE_LEVELS = ["pt_cause_slip", "sector_cause_slip", "cause_slip", "slip"] as const;
 type RateLevel = (typeof RATE_LEVELS)[number];
 
@@ -276,8 +282,9 @@ function slipFor(
   return slip;
 }
 
-// Fewest scored estimates a bucket may publish from before backing off to a coarser one.
-const MIN_BASIS = 20;
+// Fewest scored estimates a group may publish a rate from: a prediction bucket backs off
+// to a coarser one below this, and the trend chart draws no point for a thinner month.
+export const MIN_BASIS = 20;
 
 export interface OutagePrediction {
   on_time_probability: number;

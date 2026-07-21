@@ -47,6 +47,15 @@ _Avoid_: prolongation, extension
 **Hit**:
 An estimate whose episode was observed restored at or before the estimated time. Anything else — including restoration first confirmed after the deadline — is a **miss**; there is no grace period. "On time" is the reader-facing synonym.
 
+**On-time rate**:
+The share of hits among a group of estimates whose outcomes are known. The basis of a published on-time probability is the rate over comparable history; the reliability trend is the rate over each posting month, split by utility.
+
+**Pending**:
+Said of an estimate whose outcome is not yet knowable because its episode is still ongoing. Pending estimates are what make a period's on-time rate provisional.
+
+**Provisional**:
+Said of a period's on-time rate while any estimate posted in that period belongs to a still-ongoing episode — the rate can still move as outcomes land.
+
 **Cause class**:
 One of a small fixed taxonomy of outage-cause families (breakdown repair, missing supply parameters, hydraulic balancing, planned works, maneuvers/tests, other) derived from the free-text cause.
 _Avoid_: issue type

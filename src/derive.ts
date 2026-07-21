@@ -27,6 +27,7 @@ import {
   ESTIMATE_SCORE_HEADER,
   ESTIMATE_SCORES_DIR,
   type EstimateScore,
+  pendingPostings,
   RATE_HEADER,
   RATES_PATH,
   scoreEpisode,
@@ -177,11 +178,20 @@ export interface EpisodeSpan {
   last_seen_ts: string;
 }
 
+// A still-open episode's posted claim, structurally identical to on_time_trend.ts's own
+// PendingEstimate for the same reason as EpisodeSpan above.
+export interface PendingEstimate {
+  utility: string;
+  posted_ts: string;
+}
+
 export interface Derived {
   files: Map<string, string>;
   stats: DeriveStats;
   episodeSpans: EpisodeSpan[];
   usableDays: Set<string>;
+  estimateScores: EstimateScore[];
+  pendingEstimates: PendingEstimate[];
 }
 
 // One contiguous run of a distinct estimate/cause value across an incident's parseable
@@ -593,6 +603,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
   let bridgedGaps = 0;
   const allScores: EstimateScore[] = [];
   const activeRows: CsvValue[][] = [];
+  const pendingEstimates: PendingEstimate[] = [];
 
   // An episode and all its link rows land in the month of the EPISODE's first_seen_ts,
   // which always belongs to some member incident -- so that month's bucket already exists
@@ -635,6 +646,9 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
         episode.utility,
         currentSlipCount(history),
       ]);
+      for (const posted_ts of pendingPostings(history)) {
+        pendingEstimates.push({ utility: episode.utility, posted_ts });
+      }
     } else {
       for (const score of scoreEpisode(history)) {
         allScores.push(score);
@@ -695,5 +709,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     },
     episodeSpans,
     usableDays,
+    estimateScores: allScores,
+    pendingEstimates,
   };
 }

@@ -3,6 +3,8 @@
 // are discovered by parsing imageFiles against EPISODE_FILE_RE; any other filename is ignored,
 // so postprocess.ts never needs to know the episode filename convention or touch data/derived/.
 
+import { MIN_BASIS } from "./on_time.ts";
+
 const EPISODE_FILE_RE = /^episodes-(inc|acc)-(\d{4})\.svg$/;
 
 const UTILITY_LABELS: Record<"inc" | "acc", string> = {
@@ -49,6 +51,16 @@ Two utilities are tracked: **heating** (INC) and **domestic hot water** (ACC). E
         UTILITY_LABELS[utility]
       } outages](images/episodes-${utility}-${year}.svg)\n\n`;
     }
+  }
+
+  if (imageFiles.includes("on-time-trend.svg")) {
+    readme += `## Estimate reliability
+
+CMTEB posts a restoration estimate for most outages. Each point is the share of the estimates posted that month that were met — restoration observed at or before the estimated time, with no grace period. Hollow points are provisional: some of that month's outages are still running, so the value can move as they resolve (it usually reads high at first, because quickly-fixed outages settle their scores soonest). Months with fewer than ${MIN_BASIS} scored estimates are not drawn.
+
+![On-time trend](images/on-time-trend.svg)
+
+`;
   }
 
   readme += `## Data Source
