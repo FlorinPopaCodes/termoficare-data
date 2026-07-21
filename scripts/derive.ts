@@ -29,6 +29,7 @@ import {
   INCIDENTS_DIR,
   type MonthContent,
 } from "../src/derive.ts";
+import { ESTIMATE_SCORES_DIR } from "../src/on_time.ts";
 import { monthPath, OBSERVATIONS_DIR, SNAPSHOTS_DIR } from "../src/csv.ts";
 import { IMAGES_DIR, renderEpisodeHeatmaps } from "../src/episode_heatmap.ts";
 
@@ -65,7 +66,14 @@ function* readMonths(months: string[]): Generator<MonthContent> {
 // Everything else under data/derived/ is left alone for future datasets.
 async function write(files: Map<string, string>) {
   for (
-    const dir of [INCIDENTS_DIR, ESTIMATES_DIR, CAUSES_DIR, EPISODES_DIR, EPISODE_INCIDENTS_DIR]
+    const dir of [
+      INCIDENTS_DIR,
+      ESTIMATES_DIR,
+      CAUSES_DIR,
+      EPISODES_DIR,
+      EPISODE_INCIDENTS_DIR,
+      ESTIMATE_SCORES_DIR,
+    ]
   ) {
     await Deno.remove(dir, { recursive: true }).catch(() => {});
     await Deno.mkdir(dir, { recursive: true });
@@ -93,6 +101,7 @@ async function main() {
     `  ${stats.episodes} episodes (${stats.openEpisodes} still open), ` +
       `${stats.bridgedGaps} bridged gaps.`,
   );
+  console.error(`  ${stats.scoredEstimates} scored estimates.`);
 
   await write(files);
   console.error(`Wrote ${files.size} files.`);
