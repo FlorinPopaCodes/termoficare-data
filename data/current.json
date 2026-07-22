@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-22T14:30:14",
+  "scraped_at": "2026-07-22T16:00:08",
   "status": "ok",
   "outages": [
     {
@@ -627,18 +627,6 @@
       "basis_n": 3490,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
-    },
-    {
-      "sector": 3,
-      "pt_name": "6 C5/2 - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Avarie conducta acc subsol bloc",
-      "estimated_restore": "2026-07-22T15:30",
-      "on_time_probability": 0.476,
-      "basis_n": 10034,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Postăvarul - bl.O28"
     },
     {
       "sector": 3,
@@ -2646,11 +2634,23 @@
     },
     {
       "sector": 5,
+      "pt_name": "3 Sălaj - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Şos Sălaj)",
+      "estimated_restore": "2026-07-22T18:30",
+      "on_time_probability": 0.504,
+      "basis_n": 6329,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Sălaj - bl. 69A,69B"
+    },
+    {
+      "sector": 5,
       "pt_name": "2 Drumul Sarii - Partial",
       "blocks": 3,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-22T15:30",
+      "estimated_restore": "2026-07-22T19:30",
       "on_time_probability": 0.504,
       "basis_n": 6329,
       "basis_bucket": "sector_cause_slip",
@@ -2662,7 +2662,7 @@
       "blocks": 8,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str. Cap. Ivan Anghelache)",
-      "estimated_restore": "2026-07-22T15:00",
+      "estimated_restore": "2026-07-22T17:30",
       "on_time_probability": 0.276,
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
@@ -2739,18 +2739,6 @@
       "basis_n": 1612,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "12 Maratonului - Partial",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum.",
-      "estimated_restore": "2026-07-22T15:30",
-      "on_time_probability": 0.339,
-      "basis_n": 59,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Apusului - bl. 47, 48, 49, 69, 70, 71 • Ale Ghirlandei - bl.43, 44, 45, 46"
     },
     {
       "sector": 6,
