@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-22T11:47:09",
+  "scraped_at": "2026-07-22T11:54:56",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "Ct Baneasa 1 - Partial",
+      "blocks": 16,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea secundara pe circuitul apa calda de consum/CT Baneasa 1.",
+      "estimated_restore": "2026-07-22T20:00",
+      "on_time_probability": 0.467,
+      "basis_n": 9443,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Neagoe Vodă - Bl2/5,13/6 • Bld Aerogării - Bl. 2/1 se lucreaza la scara F • Şos Bucureşti-Ploieşti - Bl.13/1,13/2,13/3,2/2,2/3, • Str Băneasa - Bl.7/1,2/4 ,Gura Motrului bl 13/4,13/5,Albotei bl 8/1,8/2,8/3,13/7"
+    },
     {
       "sector": 1,
       "pt_name": "3 Titulescu",
