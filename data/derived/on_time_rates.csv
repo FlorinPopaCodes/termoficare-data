@@ -13234,7 +13234,7 @@ pt_cause_slip,5,2 Ferentari,other,2,0,2
 pt_cause_slip,5,2 Ferentari,other,3+,1,1
 pt_cause_slip,5,2 Ferentari,planned_works,0,9,29
 pt_cause_slip,5,2 Ferentari,planned_works,1,3,7
-pt_cause_slip,5,2 Ferentari - Partial,breakdown,0,22,56
+pt_cause_slip,5,2 Ferentari - Partial,breakdown,0,21,55
 pt_cause_slip,5,2 Ferentari - Partial,breakdown,1,4,10
 pt_cause_slip,5,2 Ferentari - Partial,breakdown,2,0,2
 pt_cause_slip,5,2 Ferentari - Partial,breakdown,3+,0,2
@@ -18345,7 +18345,7 @@ sector_cause_slip,5,,balancing,0,736,1582
 sector_cause_slip,5,,balancing,1,210,521
 sector_cause_slip,5,,balancing,2,69,288
 sector_cause_slip,5,,balancing,3+,152,510
-sector_cause_slip,5,,breakdown,0,3189,6330
+sector_cause_slip,5,,breakdown,0,3188,6329
 sector_cause_slip,5,,breakdown,1,661,1909
 sector_cause_slip,5,,breakdown,2,268,753
 sector_cause_slip,5,,breakdown,3+,325,849
@@ -18393,7 +18393,7 @@ cause_slip,,,balancing,0,3845,9475
 cause_slip,,,balancing,1,2180,4853
 cause_slip,,,balancing,2,961,2658
 cause_slip,,,balancing,3+,1540,5909
-cause_slip,,,breakdown,0,25077,53339
+cause_slip,,,breakdown,0,25076,53338
 cause_slip,,,breakdown,1,7647,18594
 cause_slip,,,breakdown,2,2802,7293
 cause_slip,,,breakdown,3+,2516,8826
@@ -18413,7 +18413,7 @@ cause_slip,,,planned_works,0,5167,14111
 cause_slip,,,planned_works,1,1296,3723
 cause_slip,,,planned_works,2,363,1350
 cause_slip,,,planned_works,3+,483,1722
-slip,,,,0,52968,132182
+slip,,,,0,52967,132181
 slip,,,,1,21393,50020
 slip,,,,2,8192,22018
 slip,,,,3+,8929,34065

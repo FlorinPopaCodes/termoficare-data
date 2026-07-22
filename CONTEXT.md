@@ -31,6 +31,9 @@ _Avoid_: failure (reserved for scrape health), disruption
 **Outage**:
 Everyday synonym for Episode, acceptable in reader-facing prose (README, issue titles). Never a distinct entity.
 
+**Duration**:
+The span from an episode's first sighting to its observed restoration (per the strict rule, its first observed absence). Undefined while the episode is ongoing.
+
 **Active day**:
 A Bucharest-local calendar day on which an episode was observed present — the days from its first to its last sighting. Days between the last sighting and the first observed absence are not active.
 
@@ -54,7 +57,7 @@ The share of hits among a group of estimates whose outcomes are known. The basis
 Said of an estimate whose outcome is not yet knowable because its episode is still ongoing. Pending estimates are what make a period's on-time rate provisional.
 
 **Provisional**:
-Said of a period's on-time rate while any estimate posted in that period belongs to a still-ongoing episode — the rate can still move as outcomes land.
+Said of a period's statistic while any of its contributing outcomes is not yet known — the value can still move as outcomes land. An on-time rate is provisional while any estimate posted in the period is pending; duration percentiles are provisional while any episode begun in the period is still ongoing. Still-ongoing episodes contribute nothing to a period's duration percentiles.
 
 **Cause class**:
 One of a small fixed taxonomy of outage-cause families (breakdown repair, missing supply parameters, hydraulic balancing, planned works, maneuvers/tests, other) derived from the free-text cause.

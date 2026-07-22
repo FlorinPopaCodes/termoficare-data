@@ -1,0 +1,60 @@
+<svg width="782" height="392" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .axis { font: 10px sans-serif; fill: #8b949e; }
+    .label { font: 10px sans-serif; paint-order: stroke; stroke: #0d1117; stroke-width: 3px; }
+    .panel { font: bold 12px sans-serif; fill: #c9d1d9; }
+    .title { font: bold 14px sans-serif; fill: #c9d1d9; }
+  </style>
+  <rect width="100%" height="100%" fill="#0d1117"/>
+  <text x="46" y="16" class="panel">heating (INC)</text>
+  <line x1="46" y1="139" x2="722" y2="139" stroke="#21262d"/>
+  <text x="40" y="142" text-anchor="end" class="axis">6h</text>
+  <line x1="46" y1="108.9" x2="722" y2="108.9" stroke="#21262d"/>
+  <text x="40" y="111.9" text-anchor="end" class="axis">1d</text>
+  <line x1="46" y1="85" x2="722" y2="85" stroke="#21262d"/>
+  <text x="40" y="88" text-anchor="end" class="axis">3d</text>
+  <line x1="46" y1="66.7" x2="722" y2="66.7" stroke="#21262d"/>
+  <text x="40" y="69.7" text-anchor="end" class="axis">1w</text>
+  <line x1="46" y1="35.1" x2="722" y2="35.1" stroke="#21262d"/>
+  <text x="40" y="38.1" text-anchor="end" class="axis">30d</text>
+  <text x="46" y="168" text-anchor="middle" class="axis">2026</text>
+  <polyline points="46,78.1 271.3,65.3" fill="none" stroke-width="1.5" stroke="#f2b491"/>
+  <circle cx="46" cy="78.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2026-01: heating p99 99h (100 episodes)</title></circle>
+  <circle cx="271.3" cy="65.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#f2b491"><title>2026-02: heating p99 179h (120 episodes)</title></circle>
+  <circle cx="722" cy="54.3" r="3" fill="#0d1117" stroke-width="2" stroke="#f2b491"><title>2026-04: heating p99 297h (100 episodes, provisional)</title></circle>
+  <polyline points="46,80.2 271.3,67.4" fill="none" stroke-width="1.5" stroke="#e8875c"/>
+  <circle cx="46" cy="80.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2026-01: heating p90 90h (100 episodes)</title></circle>
+  <circle cx="271.3" cy="67.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#e8875c"><title>2026-02: heating p90 162h (120 episodes)</title></circle>
+  <circle cx="722" cy="56.4" r="3" fill="#0d1117" stroke-width="2" stroke="#e8875c"><title>2026-04: heating p90 270h (100 episodes, provisional)</title></circle>
+  <polyline points="46,93 271.3,80.2" fill="none" stroke-width="2" stroke="#d95926"/>
+  <circle cx="46" cy="93" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-01: heating p50 50h (100 episodes)</title></circle>
+  <circle cx="271.3" cy="80.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-02: heating p50 90h (120 episodes)</title></circle>
+  <circle cx="722" cy="69.1" r="3" fill="#0d1117" stroke-width="2" stroke="#d95926"><title>2026-04: heating p50 150h (100 episodes, provisional)</title></circle>
+  <text x="730" y="57.3" class="label" fill="#f2b491">p99</text>
+  <text x="730" y="68.3" class="label" fill="#e8875c">p90</text>
+  <text x="730" y="79.3" class="label" fill="#d95926">p50</text>
+  <text x="46" y="192" class="panel">hot water (ACC)</text>
+  <line x1="46" y1="315" x2="722" y2="315" stroke="#21262d"/>
+  <text x="40" y="318" text-anchor="end" class="axis">6h</text>
+  <line x1="46" y1="284.9" x2="722" y2="284.9" stroke="#21262d"/>
+  <text x="40" y="287.9" text-anchor="end" class="axis">1d</text>
+  <line x1="46" y1="261" x2="722" y2="261" stroke="#21262d"/>
+  <text x="40" y="264" text-anchor="end" class="axis">3d</text>
+  <line x1="46" y1="242.7" x2="722" y2="242.7" stroke="#21262d"/>
+  <text x="40" y="245.7" text-anchor="end" class="axis">1w</text>
+  <line x1="46" y1="211.1" x2="722" y2="211.1" stroke="#21262d"/>
+  <text x="40" y="214.1" text-anchor="end" class="axis">30d</text>
+  <text x="46" y="344" text-anchor="middle" class="axis">2026</text>
+  <circle cx="271.3" cy="260.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2026-02: hot water p99 75h (150 episodes)</title></circle>
+  <circle cx="722" cy="224.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2026-04: hot water p99 396h (200 episodes)</title></circle>
+  <circle cx="271.3" cy="262.4" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2026-02: hot water p90 68h (150 episodes)</title></circle>
+  <circle cx="722" cy="226.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2026-04: hot water p90 360h (200 episodes)</title></circle>
+  <circle cx="271.3" cy="275.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-02: hot water p50 38h (150 episodes)</title></circle>
+  <circle cx="722" cy="238.9" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-04: hot water p50 200h (200 episodes)</title></circle>
+  <text x="730" y="227.1" class="label" fill="#a6c8f3">p99</text>
+  <text x="730" y="238.1" class="label" fill="#6fa6ec">p90</text>
+  <text x="730" y="249.1" class="label" fill="#3987e5">p50</text>
+  <circle cx="652" cy="13" r="3" fill="#0d1117" stroke-width="2" stroke="#8b949e"/>
+  <text x="661" y="16" class="axis">provisional</text>
+  <text x="46" y="384" class="title">How long outages last: median, p90 and p99 by month begun</text>
+</svg>

@@ -701,8 +701,22 @@ Deno.test("episodeSpans: an Oprire ACC incident seen at two ts then absent yield
   ]);
 
   assertEquals(episodeSpans, [
-    { utility: "ACC", first_seen_ts: "2026-01-01T00:00:00", last_seen_ts: "2026-01-01T00:15:00" },
+    {
+      utility: "ACC",
+      first_seen_ts: "2026-01-01T00:00:00",
+      last_seen_ts: "2026-01-01T00:15:00",
+      first_absent_ts: "2026-01-01T00:30:00",
+    },
   ]);
+});
+
+Deno.test("episodeSpans: a still-open episode carries first_absent_ts = null", async () => {
+  const { episodeSpans } = await deriveDatasets([
+    ok("2026-01-01T00:00:00"),
+    ok("2026-01-01T00:15:00"),
+  ]);
+
+  assertEquals(episodeSpans.map((s) => s.first_absent_ts), [null]);
 });
 
 Deno.test("episodeSpans: an Oprire ACC/INC incident yields two spans, one per utility", async () => {
