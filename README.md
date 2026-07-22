@@ -50,12 +50,6 @@ CMTEB posts a restoration estimate for most outages. Each point is the share of 
 
 ![On-time trend](images/on-time-trend.svg)
 
-## Outage duration
-
-How long outages last, month by month: the median (p50), p90 and p99 of the durations of outages that began that month, from first sighting to observed restoration. The time scale is logarithmic — typical outages resolve in hours, the worst run for weeks. Hollow points are provisional: some of that month's outages are still running, and the percentiles can still move as those resolve — the still-running outages tend to be the long ones, so the tail is usually understated at first. Months with fewer than 100 closed outages for a utility are not drawn, which is why the heating panel goes quiet each summer.
-
-![Duration trend](images/duration-trend.svg)
-
 ## Data Source
 
 - **URL**: https://www.cmteb.ro/functionare_sistem_termoficare.php
