@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-22T00:43:56",
+  "scraped_at": "2026-07-22T10:18:56",
   "status": "ok",
   "outages": [
     {
@@ -551,9 +551,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.25,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.347,
+      "basis_n": 755,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
@@ -563,9 +563,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 755,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0.151,
+      "basis_n": 53,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
     },
     {
@@ -2634,6 +2634,30 @@
     },
     {
       "sector": 5,
+      "pt_name": "2 Ferentari - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Prof. Dr. Alexandru Locusteanu)",
+      "estimated_restore": "2026-07-22T13:00",
+      "on_time_probability": 0.393,
+      "basis_n": 56,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Prof. Dr. Alexandru Locusteanu - bl. 77B"
+    },
+    {
+      "sector": 5,
+      "pt_name": "7 Margeanului - Partial",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str. Cap. Ivan Anghelache)",
+      "estimated_restore": "2026-07-22T15:00",
+      "on_time_probability": 0.276,
+      "basis_n": 29,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M29, M30, M31, M32, M33, M34 • Str Mărgeanului - bl. M35, M36"
+    },
+    {
+      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2703,6 +2727,102 @@
       "basis_n": 1612,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MFA",
+      "blocks": 30,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-22T13:00",
+      "on_time_probability": 0.354,
+      "basis_n": 48,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lt. Gheorghe Caranda - bl.J • Int Drumul Taberei - bl. E1,E2, F, G, H • Str Mihaela Ruxandra Marcu - bl. B4, B5,A3 • Str Drumul Taberei - bl. A1, A2, B3, D1, D2 • Ale Poiana Mare - bl. B6, B7, B8, B9 • Str Poiana Câmpina - bl. A5, A6, A7, A8 • Bld Timişoara - bl. H1 • Bld G-ral Vasile Milea - bl. A, B, C, A4, B1, B2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "SC 1/3 - MODULE TERMICE - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-22T13:00",
+      "on_time_probability": 0.414,
+      "basis_n": 10266,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Sănduleşti - bl. Z14"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/7' - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-22T13:00",
+      "on_time_probability": 0.156,
+      "basis_n": 32,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Valea Călugărească - A10"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3 Virtuții",
+      "blocks": 15,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-07-22T13:30",
+      "on_time_probability": 0.364,
+      "basis_n": 2247,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Uverturii - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum.",
+      "estimated_restore": "2026-07-22T13:30",
+      "on_time_probability": 0.25,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Arinii Dornei - bl. I4"
+    },
+    {
+      "sector": 6,
+      "pt_name": "12 Maratonului",
+      "blocks": 20,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum.",
+      "estimated_restore": "2026-07-22T15:30",
+      "on_time_probability": 0.46,
+      "basis_n": 50,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Maratonului - bl. N6 • Str Apusului - bl. 47, 48, 49, 69, 70, 71, 50 • Str Mărgelelor - bl. N2, N3 • Int Flotei - bl. N4 • Ale Ghirlandei - bl. N1, N5, N5A, 43, 44, 45, 46 • Str Castranova - Casa Ilie"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 3 Placare - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum.",
+      "estimated_restore": "2026-07-22T15:30",
+      "on_time_probability": 0.278,
+      "basis_n": 36,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - bl. 5P"
+    },
+    {
+      "sector": 6,
+      "pt_name": "6 Roșia Montană - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-22T14:30",
+      "on_time_probability": 0.353,
+      "basis_n": 34,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Dreptăţii - bl. P8"
     }
   ]
 }
