@@ -92,3 +92,12 @@ Deno.test("generateReadme adds the estimate-reliability section only when the tr
   assertEquals(section.includes("provisional"), true);
   assertEquals(generateReadme([], []).includes("Estimate reliability"), false);
 });
+
+Deno.test("generateReadme adds the outage-duration section only when the trend image exists", () => {
+  const out = generateReadme([], ["duration-trend.svg"]);
+  const section = out.slice(out.indexOf("## Outage duration"), out.indexOf("## Data Source"));
+
+  assertEquals(section.includes("![Duration trend](images/duration-trend.svg)"), true);
+  assertEquals(section.includes("provisional"), true);
+  assertEquals(generateReadme([], []).includes("Outage duration"), false);
+});
