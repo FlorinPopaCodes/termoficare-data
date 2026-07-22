@@ -4,6 +4,7 @@
 // so postprocess.ts never needs to know the episode filename convention or touch data/derived/.
 
 import { MIN_BASIS } from "./on_time.ts";
+import { DURATION_MIN_BASIS } from "./duration_trend.ts";
 
 const EPISODE_FILE_RE = /^episodes-(inc|acc)-(\d{4})\.svg$/;
 
@@ -59,6 +60,16 @@ Two utilities are tracked: **heating** (INC) and **domestic hot water** (ACC). E
 CMTEB posts a restoration estimate for most outages. Each point is the share of the estimates posted that month that were met — restoration observed at or before the estimated time, with no grace period. Hollow points are provisional: some of that month's outages are still running, so the value can move as they resolve (it usually reads high at first, because quickly-fixed outages settle their scores soonest). Months with fewer than ${MIN_BASIS} scored estimates are not drawn.
 
 ![On-time trend](images/on-time-trend.svg)
+
+`;
+  }
+
+  if (imageFiles.includes("duration-trend.svg")) {
+    readme += `## Outage duration
+
+How long outages last, month by month: the median (p50), p90 and p99 of the durations of outages that began that month, from first sighting to observed restoration. The time scale is logarithmic — typical outages resolve in hours, the worst run for weeks. Hollow points are provisional: some of that month's outages are still running, and the percentiles can still move as those resolve — the still-running outages tend to be the long ones, so the tail is usually understated at first. Months with fewer than ${DURATION_MIN_BASIS} closed outages for a utility are not drawn, which is why the heating panel goes quiet each summer.
+
+![Duration trend](images/duration-trend.svg)
 
 `;
   }
