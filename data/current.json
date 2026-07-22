@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-22T18:06:57",
+  "scraped_at": "2026-07-22T19:42:09",
   "status": "ok",
   "outages": [
     {
@@ -546,15 +546,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "Judetului",
-      "blocks": 6,
+      "pt_name": "17-18 Petricani",
+      "blocks": 15,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.577,
-      "basis_n": 52,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
+      "on_time_probability": 0.347,
+      "basis_n": 755,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
       "sector": 2,
@@ -2622,30 +2622,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "3 Sălaj - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Şos Sălaj)",
-      "estimated_restore": "2026-07-22T18:30",
-      "on_time_probability": 0.504,
-      "basis_n": 6329,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Sălaj - bl. 69A,69B"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Drumul Sarii - Partial",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-22T19:30",
-      "on_time_probability": 0.504,
-      "basis_n": 6329,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Drm Sării - bl. V62, V63 • Str Lt. col. Constantin Marinescu - bl. V64"
-    },
-    {
-      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2703,18 +2679,6 @@
       "basis_n": 1612,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 3 Placare - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum.",
-      "estimated_restore": "2026-07-22T18:30",
-      "on_time_probability": 0.278,
-      "basis_n": 36,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 5P"
     }
   ]
 }
