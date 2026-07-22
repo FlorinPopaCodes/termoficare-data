@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-22T19:42:09",
+  "scraped_at": "2026-07-22T23:14:30",
   "status": "ok",
   "outages": [
     {
@@ -438,26 +438,14 @@
     },
     {
       "sector": 2,
-      "pt_name": "AUTOCENTER",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Depistare și remediere avarie Rețea primară",
-      "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.465,
-      "basis_n": 3835,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Venerei -"
-    },
-    {
-      "sector": 2,
       "pt_name": "7 Mosilor",
       "blocks": 8,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.247,
-      "basis_n": 2099,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
     },
     {
@@ -467,9 +455,9 @@
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.247,
-      "basis_n": 2099,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Mihai Bravu - bl.P21-21A, P22, P22A, P23-24"
     },
     {
@@ -479,9 +467,9 @@
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.4,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
     },
     {
@@ -491,9 +479,9 @@
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.247,
-      "basis_n": 2099,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
     },
     {
@@ -503,9 +491,9 @@
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.247,
-      "basis_n": 2099,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ardeleni - bl. 39A • Cal Moşilor - bl. 47, 47Bis, 49-49A, 51Bis, 53, 55, 45, 45A, 43, 41, 39, 37, 33-35, imob.Nr.257 • Str Făinari - bl.51 sc.C; 51 sc.B • Str Rovine - bl. 51B, 57A. 51 sc.A"
     },
     {
@@ -515,9 +503,9 @@
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.247,
-      "basis_n": 2099,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Cenuşeresei - bl.50, 52 • Str Traian - bl.30 B, imob.Nr.254 • Cal Moşilor - bl.36, 38, 42, 46, 48, 58, 32, 30A, 31A , 31C • Str Mihai Eminescu - bl.31B ,32 • Str Vaselor - bl.34, imob.Nr.3A • Str Ion Maiorescu - bl.44 ;50 ;40, imob.Nr.37, 7"
     },
     {
@@ -527,9 +515,9 @@
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie Rețea primară",
       "estimated_restore": "2026-07-22T23:00",
-      "on_time_probability": 0.247,
-      "basis_n": 2099,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
     },
     {
@@ -538,7 +526,7 @@
       "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-22T23:00",
+      "estimated_restore": "2026-07-23T23:00",
       "on_time_probability": 0.27,
       "basis_n": 1971,
       "basis_bucket": "sector_cause_slip",
@@ -550,7 +538,7 @@
       "blocks": 15,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-22T23:00",
+      "estimated_restore": "2026-07-23T23:00",
       "on_time_probability": 0.347,
       "basis_n": 755,
       "basis_bucket": "sector_cause_slip",
@@ -562,7 +550,7 @@
       "blocks": 9,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-22T23:00",
+      "estimated_restore": "2026-07-23T23:00",
       "on_time_probability": 0.151,
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
