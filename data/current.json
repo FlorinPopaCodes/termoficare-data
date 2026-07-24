@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-24T12:30:57",
+  "scraped_at": "2026-07-24T14:21:55",
   "status": "ok",
   "outages": [
     {
@@ -15,6 +15,18 @@
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Plevnei - 114"
+    },
+    {
+      "sector": 1,
+      "pt_name": "3 Dinicu Golescu",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-07-25T23:30",
+      "on_time_probability": 0.423,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
     },
     {
       "sector": 1,
@@ -39,6 +51,18 @@
       "basis_n": 75,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Miron Costin - bl. 5A+5B • Şos Nicolae Titulescu - bl. 7, 10A, 9A+B, 8, 10, 6, 4, 2, 3 • Bld Alexandru Ioan Cuza - imob.Nr.80 • Str G-ral Alexandru Cernat - imob.Nr.24"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Garnizoana",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-07-25T23:30",
+      "on_time_probability": 0.364,
+      "basis_n": 22,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Institutul Medico-Militar - 22"
     },
     {
       "sector": 1,
@@ -267,30 +291,6 @@
       "basis_n": 39,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Gheorghe Polizu -"
-    },
-    {
-      "sector": 1,
-      "pt_name": "3 Dinicu Golescu",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare RTP POIM LOT 2 OBIECTIV 9 executate de firma ELSACO",
-      "estimated_restore": "2026-07-24T23:30",
-      "on_time_probability": 0.27,
-      "basis_n": 677,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Garnizoana",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare RTP POIM LOT 2 OBIECTIV 9 executate de firma ELSACO",
-      "estimated_restore": "2026-07-24T23:30",
-      "on_time_probability": 0.27,
-      "basis_n": 677,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Institutul Medico-Militar - 22"
     },
     {
       "sector": 1,
@@ -546,27 +546,27 @@
     },
     {
       "sector": 2,
-      "pt_name": "3 Colentina",
-      "blocks": 13,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-24T23:00",
-      "on_time_probability": 0.558,
-      "basis_n": 1612,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Maşina de Pâine - bl.OD35, R30, OD39, R28, R29, OD37 • Şos Colentina - BL.R24, R26, R25, OD41, OD57"
-    },
-    {
-      "sector": 2,
-      "pt_name": "6 Mosilor",
+      "pt_name": "3 Cheile Zanoagei",
       "blocks": 8,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-24T23:00",
-      "on_time_probability": 0.271,
-      "basis_n": 1974,
+      "on_time_probability": 0.419,
+      "basis_n": 74,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Berechet - bl.T31A • Str Inginerilor Tei - bl.T31B, T30C, T30B, T30A • Bld Ghica Tei - bl.T32, T33, • Str Oteşani - Camin C7 (Bl.T29)"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Stefan cel Mare",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-24T23:00",
+      "on_time_probability": 0.453,
+      "basis_n": 2664,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
+      "zone_raw": "• Şos Ştefan cel Mare - bl. 30A, 30B, 27A, 27, 26A, 26, 24A, 24B, 26 • Str Vasile Lascăr - bl. 31A, 31B; imobil 203 • Str Tunari - bl. 24C, 24D • Str Serg. Năstase Pamfil - bl. 29, 32; imobil 38 • Str Ghiocei - bl. 30C"
     },
     {
       "sector": 2,
@@ -591,18 +591,6 @@
       "basis_n": 38,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Alexandru cel Bun - BL.T61; T50 sc.1 • Str Deleni - bl.T69, T65, T63; T66, T74, T64 • Str Grigore Ionescu - bl.T71, T75, T72, T59, T60, T73 • Str Maica Domnului - bl.T56, T57, T58, T54, T55, T52, T53, T51, T50 sc.2 • Str Oteşani - bl.T70, T68, T67, T62"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Mosilor",
-      "blocks": 25,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-24T23:00",
-      "on_time_probability": 0.271,
-      "basis_n": 1974,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
     },
     {
       "sector": 2,
@@ -2670,18 +2658,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "5 Petre Ispirescu",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-07-24T12:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
-    },
-    {
-      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2763,18 +2739,6 @@
       "basis_n": 2250,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Romancierilor - bl.Z16, Z17, E19 • Str Sănduleşti - bl. Z14, Z15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "13 Liniei - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-24T14:30",
-      "on_time_probability": 0.414,
-      "basis_n": 10278,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lujerului - bl. 1A"
     }
   ]
 }
