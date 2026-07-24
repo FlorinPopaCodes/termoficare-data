@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-24T17:44:57",
+  "scraped_at": "2026-07-24T20:48:47",
   "status": "ok",
   "outages": [
     {
@@ -382,7 +382,7 @@
       "blocks": 9,
       "service": "Oprire ACC",
       "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-      "estimated_restore": "2026-07-24T18:00",
+      "estimated_restore": "2026-07-25T02:00",
       "on_time_probability": 0.527,
       "basis_n": 93,
       "basis_bucket": "pt_cause_slip",
@@ -2514,18 +2514,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "1 Panduri - Partial",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-24T18:30",
-      "on_time_probability": 0.088,
-      "basis_n": 34,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Ion Urdăreanu - bl. P41, P42, P45 • Cal 13 Septembrie - bl. P44"
-    },
-    {
-      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2583,18 +2571,6 @@
       "basis_n": 1613,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "G3 Giulești - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-24T18:30",
-      "on_time_probability": 0.414,
-      "basis_n": 10278,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Ruşeţu - bl. G8"
     }
   ]
 }
