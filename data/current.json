@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-24T04:05:36",
+  "scraped_at": "2026-07-24T07:29:19",
   "status": "ok",
   "outages": [
     {
@@ -1179,18 +1179,6 @@
       "basis_n": 187,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Spl Unirii -"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Izvorul Cosbuc",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-07-24T10:00",
-      "on_time_probability": 0.481,
-      "basis_n": 106,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Regina Maria - bl. 119 • Bld Libertăţii - bl. 113, 114, 115, 116, 117, 118, A1, A2"
     },
     {
       "sector": 4,
