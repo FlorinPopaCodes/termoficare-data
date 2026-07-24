@@ -1,6 +1,6 @@
-// Continuous gradient color scale for count-per-day heatmaps. No I/O. Shared by the
-// commit heatmap (heatmap.ts) and the episode heatmaps (episode_heatmap.ts) so that
-// "equal color" always means the same thing across every year-grid this repo renders.
+// Continuous gradient color scale for count-per-day heatmaps. No I/O. Used by the
+// episode heatmaps (episode_heatmap.ts) so that "equal color" always means the same
+// thing across every year-grid this repo renders.
 
 import chroma from "chroma-js";
 

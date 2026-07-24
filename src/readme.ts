@@ -1,7 +1,7 @@
-// README generation. Pure module — no I/O. Given the years with commit-activity data and
-// the raw basenames of images/, produces the repository README. Outage-map years/utilities
-// are discovered by parsing imageFiles against EPISODE_FILE_RE; any other filename is ignored,
-// so postprocess.ts never needs to know the episode filename convention or touch data/derived/.
+// README generation. Pure module — no I/O. Given the raw basenames of images/, produces
+// the repository README. Outage-map years/utilities are discovered by parsing imageFiles
+// against EPISODE_FILE_RE; any other filename is ignored, so postprocess.ts never needs
+// to know the episode filename convention or touch data/derived/.
 
 import { MIN_BASIS } from "./on_time.ts";
 import { DURATION_MIN_BASIS } from "./duration_trend.ts";
@@ -31,7 +31,7 @@ function outageMapsByYear(imageFiles: string[]): Map<number, ("inc" | "acc")[]> 
   return years;
 }
 
-export function generateReadme(commitYears: number[], imageFiles: string[]): string {
+export function generateReadme(imageFiles: string[]): string {
   let readme = `# Termoficare Bucuresti - Flat Data
 
 [![Scrape health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFlorinPopaCodes%2Ftermoficare-data%2Fmain%2Fdata%2Fhealth.json)](https://github.com/FlorinPopaCodes/termoficare-data/issues?q=is%3Aissue+label%3Ascrape-health)
@@ -80,15 +80,7 @@ How long outages last, month by month: the median (p50), p90 and p99 of the dura
 - **Update frequency**: Every 15 minutes
 - **Format**: Raw HTML
 
-## Commit Activity
-
-`;
-
-  for (const year of commitYears) {
-    readme += `### ${year}\n![${year} Heatmap](images/heatmap-${year}.svg)\n\n`;
-  }
-
-  readme += `## View Data
+## View Data
 
 Use [Flat Viewer](https://flatgithub.com/FlorinPopaCodes/termoficare-data) to browse the data interactively.
 
