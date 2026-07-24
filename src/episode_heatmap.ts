@@ -1,8 +1,8 @@
 // Episode-outage heatmaps: GitHub-style year grids where each day-cell shows how many
 // episodes of one utility (INC or ACC) were active at any point that day. No I/O --
-// mirrors heatmap.ts's role as a thin config of the generic year_grid renderer, but the
-// color scale is global across all years per utility (not per-year like the commit map),
-// so equal color means equal badness whichever year you're looking at.
+// a thin config of the generic year_grid renderer, with a color scale that is global
+// across all years per utility, so equal color means equal badness whichever year
+// you're looking at.
 
 import { renderYearGrid } from "./year_grid.ts";
 import {
@@ -51,8 +51,8 @@ function dailyCounts(episodes: EpisodeSpan[], utility: string): Map<string, numb
   return counts;
 }
 
-// Global per utility, not per year like the commit heatmap: equal color must mean equal
-// badness across every year this utility's cells appear in.
+// Global per utility, not per year: equal color must mean equal badness across every
+// year this utility's cells appear in.
 function utilityRange(counts: Map<string, number>): CountRange {
   const nonZero = [...counts.values()].filter((c) => c > 0);
   if (nonZero.length === 0) return { min: 1, max: 1 };

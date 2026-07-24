@@ -40,7 +40,7 @@ jobs:
         run: deno check --frozen src/ scripts/backfill.ts scripts/derive.ts scripts/health.ts postprocess.ts
 
       # Must go through the task, not a bare `deno test`: the task sets TZ=UTC, and the
-      # heatmap golden buckets days by local date, so an unpinned zone fails the run.
+      # episode-heatmap golden buckets days by local date, so an unpinned zone fails the run.
       # --allow-read is the whole permission budget; do not widen it.
       - name: Test
         run: deno task test

@@ -1,9 +1,7 @@
 // Postprocess entrypoint for the Flat Data action.
 // Thin orchestrator: skips all writes when the snapshot is unchanged, otherwise appends
-// the scrape's structured artifacts, then sequences the pure heatmap and README modules
-// and writes their output to disk.
+// the scrape's structured artifacts, then regenerates the README from the pure module.
 
-import { CommitData, generateSVG, getYearsFromData } from "./src/heatmap.ts";
 import { generateReadme } from "./src/readme.ts";
 import { bucharestTimestamp } from "./src/clock.ts";
 import {
@@ -31,29 +29,6 @@ async function runGit(args: string[]): Promise<string> {
     throw new Error(`git ${args[0]} failed with code ${output.code}`);
   }
   return new TextDecoder().decode(output.stdout);
-}
-
-// Only commits touching data/ are data updates: the 2026-01..07 heatmap feedback loop
-// left thousands of heatmap-only commits (the SVG counting its own previous commit) that
-// must not count.
-async function getCommitCounts(): Promise<CommitData> {
-  const text = await runGit([
-    "log",
-    "--author=flat-data",
-    "--author=Archive Bot",
-    "--format=%ad",
-    "--date=short",
-    "--",
-    "data/",
-  ]);
-
-  const counts: CommitData = {};
-  for (const line of text.trim().split("\n")) {
-    if (line) {
-      counts[line] = (counts[line] || 0) + 1;
-    }
-  }
-  return counts;
 }
 
 async function fileExists(path: string): Promise<boolean> {
@@ -112,39 +87,19 @@ async function writeStructuredArtifacts() {
 
 async function main() {
   // An unchanged snapshot is noise, not an observation: skip every write so Flat has
-  // nothing to commit. Regenerating the heatmap here would count the previous run's
-  // commit and re-commit forever.
+  // nothing to commit and the CSVs don't accumulate duplicate rows.
   if (!(await htmlChanged())) {
     console.log("Snapshot unchanged — skipping all writes");
     return;
   }
 
   // A lost HTML snapshot is unrecoverable; bad structured data is repairable by rerunning
-  // the backfill. So nothing here may abort the run -- that would cost the snapshot commit
-  // and the heatmap below. A persistently broken write path surfaces as scrape-log silence.
+  // the backfill. So nothing here may abort the run -- that would cost the snapshot commit.
+  // A persistently broken write path surfaces as scrape-log silence.
   try {
     await writeStructuredArtifacts();
   } catch (err) {
     console.error("Structured artifacts failed; continuing so the snapshot still commits:", err);
-  }
-
-  console.log("Generating heatmaps...");
-
-  const data = await getCommitCounts();
-  const years = getYearsFromData(data);
-
-  console.log(`Found data for years: ${years.join(", ")}`);
-
-  // Create images directory if needed
-  await Deno.mkdir("images", { recursive: true });
-
-  // Backfills can add commits with historical author dates, so past-year SVGs are not
-  // immutable -- regenerate them all.
-  for (const year of years) {
-    const svgPath = `images/heatmap-${year}.svg`;
-    console.log(`Generating ${svgPath}...`);
-    const svg = generateSVG(year, data);
-    await Deno.writeTextFile(svgPath, svg);
   }
 
   // Generate README. It must render correctly even when derive has never run, so
@@ -155,7 +110,7 @@ async function main() {
   for await (const entry of Deno.readDir("images")) {
     if (entry.isFile) imageFiles.push(entry.name);
   }
-  const readme = generateReadme(years, imageFiles);
+  const readme = generateReadme(imageFiles);
   await Deno.writeTextFile("README.md", readme);
 
   console.log("Done!");

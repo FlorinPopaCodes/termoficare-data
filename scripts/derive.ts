@@ -16,8 +16,7 @@
 // data/derived/on_time_rates.csv and data/derived/active_episodes.csv. The monthly
 // history datasets are not published -- nothing reads them from disk, and they re-derive
 // from the foundation at any time. The images/ output is regenerated wholesale (one file
-// per utility per year) but nothing there is removed first -- images/heatmap-<year>.svg
-// from the commit heatmap lives alongside it undisturbed.
+// per utility per year); nothing there is removed first.
 //
 // Foundation month files are read one at a time (never more than one month's ~586MB of
 // observations held in memory together) via a sync generator, matching foundationSnapshots'

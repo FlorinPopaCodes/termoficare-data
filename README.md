@@ -62,26 +62,6 @@ How long outages last, month by month: the median (p50), p90 and p99 of the dura
 - **Update frequency**: Every 15 minutes
 - **Format**: Raw HTML
 
-## Commit Activity
-
-### 2026
-![2026 Heatmap](images/heatmap-2026.svg)
-
-### 2025
-![2025 Heatmap](images/heatmap-2025.svg)
-
-### 2024
-![2024 Heatmap](images/heatmap-2024.svg)
-
-### 2023
-![2023 Heatmap](images/heatmap-2023.svg)
-
-### 2022
-![2022 Heatmap](images/heatmap-2022.svg)
-
-### 2021
-![2021 Heatmap](images/heatmap-2021.svg)
-
 ## View Data
 
 Use [Flat Viewer](https://flatgithub.com/FlorinPopaCodes/termoficare-data) to browse the data interactively.

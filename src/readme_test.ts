@@ -1,7 +1,7 @@
 import { assertEquals } from "@std/assert";
 import { generateReadme } from "./readme.ts";
 
-Deno.test("generateReadme renders outages then commit activity per year in order", () => {
+Deno.test("generateReadme renders outage maps per year in order", () => {
   const expected = `# Termoficare Bucuresti - Flat Data
 
 [![Scrape health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFlorinPopaCodes%2Ftermoficare-data%2Fmain%2Fdata%2Fhealth.json)](https://github.com/FlorinPopaCodes/termoficare-data/issues?q=is%3Aissue+label%3Ascrape-health)
@@ -24,11 +24,6 @@ Two utilities are tracked: **heating** (INC) and **domestic hot water** (ACC). E
 - **Update frequency**: Every 15 minutes
 - **Format**: Raw HTML
 
-## Commit Activity
-
-### 2026
-![2026 Heatmap](images/heatmap-2026.svg)
-
 ## View Data
 
 Use [Flat Viewer](https://flatgithub.com/FlorinPopaCodes/termoficare-data) to browse the data interactively.
@@ -39,13 +34,13 @@ This repository uses the [Flat GitHub Action](https://github.com/githubocto/flat
 `;
 
   assertEquals(
-    generateReadme([2026], ["episodes-inc-2026.svg", "episodes-acc-2026.svg", "heatmap-2026.svg"]),
+    generateReadme(["episodes-inc-2026.svg", "episodes-acc-2026.svg", "heatmap-2026.svg"]),
     expected,
   );
 });
 
 Deno.test("generateReadme discovers outage years/utilities from imageFiles alone", () => {
-  const out = generateReadme([], [
+  const out = generateReadme([
     "episodes-inc-2025.svg",
     "episodes-acc-2025.svg",
     "episodes-inc-2023.svg", // 2023 has no ACC map
@@ -75,29 +70,27 @@ Two utilities are tracked: **heating** (INC) and **domestic hot water** (ACC). E
   );
 });
 
-Deno.test("generateReadme with no years and no images still renders the static scaffold", () => {
-  const out = generateReadme([], []);
+Deno.test("generateReadme with no images still renders the static scaffold", () => {
+  const out = generateReadme([]);
   assertEquals(out.includes("## Outages"), true);
-  assertEquals(out.includes("## Commit Activity"), true);
   assertEquals(out.includes("![Scrape health]"), true);
-  assertEquals(/!\[\d{4} Heatmap\]/.test(out), false);
   assertEquals(/outages\]/.test(out), false);
 });
 
 Deno.test("generateReadme adds the estimate-reliability section only when the trend image exists", () => {
-  const out = generateReadme([], ["on-time-trend.svg"]);
+  const out = generateReadme(["on-time-trend.svg"]);
   const section = out.slice(out.indexOf("## Estimate reliability"), out.indexOf("## Data Source"));
 
   assertEquals(section.includes("![On-time trend](images/on-time-trend.svg)"), true);
   assertEquals(section.includes("provisional"), true);
-  assertEquals(generateReadme([], []).includes("Estimate reliability"), false);
+  assertEquals(generateReadme([]).includes("Estimate reliability"), false);
 });
 
 Deno.test("generateReadme adds the outage-duration section only when the trend image exists", () => {
-  const out = generateReadme([], ["duration-trend.svg"]);
+  const out = generateReadme(["duration-trend.svg"]);
   const section = out.slice(out.indexOf("## Outage duration"), out.indexOf("## Data Source"));
 
   assertEquals(section.includes("![Duration trend](images/duration-trend.svg)"), true);
   assertEquals(section.includes("provisional"), true);
-  assertEquals(generateReadme([], []).includes("Outage duration"), false);
+  assertEquals(generateReadme([]).includes("Outage duration"), false);
 });

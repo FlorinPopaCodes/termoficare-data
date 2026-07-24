@@ -10,7 +10,7 @@ Deno script a GitHub workflow runs:
 
 1. **Flat postprocess** (`postprocess.ts`, `flat.yml`) — after each scrape, parses
    `data/termoficare.html` into observation + scrape-log rows and
-   `data/current.json`, then regenerates `images/heatmap-*.svg` + `README.md`.
+   `data/current.json`, then regenerates `README.md`.
 2. **Daily derive** (`scripts/derive.ts`, `derive.yml`) — regenerates
    `data/derived/{incidents,estimates,causes,episodes,episode_incidents}` wholesale
    from the foundation CSVs.
@@ -37,22 +37,20 @@ part of verifying a change.
 ## Surface 1: Flat postprocess
 
 ```bash
-deno run -A postprocess.ts    # parses the snapshot + regenerates images/*.svg + README.md
+deno run -A postprocess.ts    # parses the snapshot + regenerates README.md
 ```
 
 **On a clean tree this is a no-op** — it prints `Snapshot unchanged — skipping all
 writes` and exits, because writes are gated on `data/termoficare.html` differing from
-git's index (an unchanged snapshot must not commit, or the heatmap would count its own
-previous commit forever). When the snapshot *has* changed, it appends observation and
-scrape-log rows timestamped with the current wall clock, rewrites `data/current.json`,
-reads `git log` (authors `flat-data` / `Archive Bot`, paths under `data/`) for
-commit-per-day counts, and regenerates **every** year's SVG plus `README.md` (past
-years are not frozen — backfills can add commits with historical dates).
+git's index (an unchanged snapshot must not commit — it would append duplicate
+observation rows and produce noise commits). When the snapshot *has* changed, it
+appends observation and scrape-log rows timestamped with the current wall clock,
+rewrites `data/current.json`, and regenerates `README.md` from the `images/` listing.
 
 After any driven run, restore the tree:
 
 ```bash
-git checkout -- data/ README.md images/
+git checkout -- data/ README.md
 ```
 
 ### Verifying a refactor is behavior-preserving (byte-identity)
@@ -63,36 +61,22 @@ tree, then run the base version, and diff the outputs:
 ```bash
 tmp=$(mktemp -d)
 deno run -A postprocess.ts          # AFTER (current working tree)
-cp README.md "$tmp/README.after"; cp -r images "$tmp/images.after"
-git checkout -- data/ README.md images/
+cp README.md "$tmp/README.after"
+git checkout -- data/ README.md
 
 git worktree add "$tmp/base" main   # BASE — see caveat below
 (cd "$tmp/base" && deno run -A postprocess.ts)
-cp "$tmp/base/README.md" "$tmp/README.before"; cp -r "$tmp/base/images" "$tmp/images.before"
+cp "$tmp/base/README.md" "$tmp/README.before"
 git worktree remove --force "$tmp/base"
 
 diff "$tmp/README.before" "$tmp/README.after"      # must be identical
-diff -r "$tmp/images.before" "$tmp/images.after"   # must be identical
 ```
 
 **Caveat — `postprocess.ts` is not self-contained.** It imports `./src/*.ts`, so
 `git show <ref>:postprocess.ts` into a temp file won't resolve its imports; run the
 base ref in a `git worktree` as above. (Only refs from before the parser refactor
-were single-file.) The worktree run sees the same `git log` but its *own* clean
-snapshot — to drive the parse path on both sides, make the same snapshot edit in both
-checkouts.
-
-**Keep TZ constant across both runs.** `generateSVG` output depends on the ambient
-timezone (see the heatmap module header); a single shell already holds TZ fixed, so
-before/after stay comparable. Production (the Flat workflow) runs under UTC.
-
-### Gotcha: current-year SVG "differs from committed" is NOT a regression
-
-`images/heatmap-<currentYear>.svg` will differ from the committed copy every time you
-run, because the live `git log` has more commits than when the file was last committed
-(the scraper commits every 15 min). Prior-year SVGs are regenerated too but should
-come out identical. Compare refactored-vs-original from the *same git state* (above) —
-don't compare against the committed bytes and don't flag the current-year delta as a bug.
+were single-file.) The worktree run sees its *own* clean snapshot — to drive the
+parse path on both sides, make the same snapshot edit in both checkouts.
 
 ## Surface 2: daily derive
 
