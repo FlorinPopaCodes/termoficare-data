@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-24T14:21:55",
+  "scraped_at": "2026-07-24T15:52:15",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "Club Steaua",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.396,
-      "basis_n": 53,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Plevnei - 114"
-    },
     {
       "sector": 1,
       "pt_name": "3 Dinicu Golescu",
@@ -66,42 +54,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "Spitalul Militar Central",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.25,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mircea Vulcănescu -"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Palatul CFR",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.469,
-      "basis_n": 32,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Dinicu Golescu - 38"
-    },
-    {
-      "sector": 1,
-      "pt_name": "A Gara",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.435,
-      "basis_n": 62,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Gării de Nord - bl. A, C • Cal Griviţei - bl. 139 • Str Atelierului -"
-    },
-    {
-      "sector": 1,
       "pt_name": "150 Grivita",
       "blocks": 3,
       "service": "Oprire ACC",
@@ -123,30 +75,6 @@
       "basis_n": 76,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Veronica Micle - bl. M5, M6, 1C, imob. nr. 40, 38, 36Bis • Str Dr. Iacob Felix - bl. M4, A1, B1, C2,imob. nr. 53, 12 • Şos Nicolae Titulescu - bl. 12, 11B, 11A • Str Bradului - bl. C2"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Spitalul Militar",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.467,
-      "basis_n": 9449,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mircea Vulcănescu - 88"
-    },
-    {
-      "sector": 1,
-      "pt_name": "D3 Gara",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.561,
-      "basis_n": 41,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Gării de Nord - bl. D3 • Cal Griviţei - bl. J1"
     },
     {
       "sector": 1,
@@ -183,30 +111,6 @@
       "basis_n": 72,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. 146 • Str Constantin Disescu - imobil Nr.2A, 2 • Str Pandele Ţăruşanu - imob.Nr.3, 5, 11"
-    },
-    {
-      "sector": 1,
-      "pt_name": "B Dinicu Golescu",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.424,
-      "basis_n": 59,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Dinicu Golescu - bl. E, F, H, G, B"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Muzeul Militar",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.37,
-      "basis_n": 54,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mircea Vulcănescu - Muzeul Militar"
     },
     {
       "sector": 1,
@@ -255,18 +159,6 @@
       "basis_n": 75,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu - bl. 23, 20, 21A, 21, 22"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Grup Exploatare si intretinere Palat C.F.R. S.A.",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-25T23:30",
-      "on_time_probability": 0.467,
-      "basis_n": 9449,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Dinicu Golescu -"
     },
     {
       "sector": 1,
@@ -483,6 +375,18 @@
       "basis_n": 2231,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str N. Constantinescu - bl. 9, 11, 11A • Str Lt. D. Darian - bl. 11B, 23 • Str Lt. Radu Beller - bl. 20, 22 • Str Gen. Andrei Popovici - bl. 6, 1+1B • Str Ştefan Protopopescu - bl. 24 • Str Puţul lui Zamfir - bl. 20A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Mecanica Fina",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-07-24T18:00",
+      "on_time_probability": 0.527,
+      "basis_n": 93,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Popa Lazăr - bl. Aversa • Şos Pantelimon - bl. P2, 5D, 5C, 5A, 5B, • Bld Ferdinand I - bl. E1- E4, G1- G3, imob.Nr.125"
     },
     {
       "sector": 2,
@@ -2658,6 +2562,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "1 Panduri - Partial",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-24T18:30",
+      "on_time_probability": 0.088,
+      "basis_n": 34,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Ion Urdăreanu - bl. P41, P42, P45 • Cal 13 Septembrie - bl. P44"
+    },
+    {
+      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2718,15 +2634,15 @@
     },
     {
       "sector": 6,
-      "pt_name": "2/8 - Partial",
-      "blocks": 4,
+      "pt_name": "G3 Giulești - Partial",
+      "blocks": 1,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum bl Z36-Z37",
-      "estimated_restore": "2026-07-24T15:30",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-24T18:30",
       "on_time_probability": 0.414,
       "basis_n": 10278,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Drumul Taberei - bl. F2, Z36, Z37 • Str Râul Dorna - bl. A1"
+      "zone_raw": "• Str Ruşeţu - bl. G8"
     },
     {
       "sector": 6,
