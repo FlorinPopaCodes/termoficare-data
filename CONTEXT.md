@@ -101,6 +101,10 @@ The share of comparable past estimates that were hit, published for an active ou
 
 ### Reporting
 
+**Interruption**:
+The unit the individual report lists: an episode, or the two episodes at one thermal point that took INC and ACC away together — same first sighting and same first observed absence, at the scrape's own resolution. A reporting unit only, never a derivation one; the episode stays the canonical outage. Grouping is what the resident lived through rather than what the record counts, so it applies to the record list and not to the heatmaps, which answer how often each service is out. Romanian surface word: `întrerupere`. Per [#58](https://github.com/FlorinPopaCodes/termoficare-data/issues/58).
+_Avoid_: combined outage, joint episode
+
 **Basis**:
 What a published figure rests on — its period, its denominator, whether it is provisional, and what it excludes, including any blind days inside its period. Carried with the figure rather than in the surrounding prose, because a quoted or screenshotted figure arrives at its reader with the prose stripped away.
 _Avoid_: caveat, disclaimer, footnote
