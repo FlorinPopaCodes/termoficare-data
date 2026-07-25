@@ -18,6 +18,22 @@ _Avoid_: denumire, PT name
 CMTEB's [system map](https://cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php) captured as `data/thermal_points.csv` — 951 thermal points with the coordinates that serve as identity evidence for [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md). The only published list of which thermal points exist, since the status page shows only those currently in outage. Names are stored exactly as published, padding included, and a row is keyed by the `(name, latitude, longitude)` triple rather than the name, which repeats. Not a closed world: over a hundred canonical identities in the outage record are absent from it — mostly institutions — so a lookup miss is an expected case in both directions.
 _Avoid_: map, gazetteer
 
+### Addresses
+
+**Address**:
+The `(street, block)` pair a resident starts from, parsed out of an observation's `zone_raw` and matched street-type-insensitively — `Str Tohani` and `Ale Tohani` are one street. A block token indexes when it bears a digit or is a single letter; the staircases enumerated after a block (`bl. 71 sc. A, B, C`) belong to that one building and are not addresses of their own. 10,205 addresses have appeared in the outage record.
+_Avoid_: building, location
+
+**Alias table**:
+`docs/research/address-resolution/pt_aliases.csv` — 54 rows folding a point label the canonical-name pipeline leaves unresolved onto the thermal point it denotes: pre-2022-07 shorthand and misspellings absent from the registry. 17 rows key on the label alone; 37 key on `(label, street)`, because five `N Placare` labels blend the Titan and Militari estates and nothing else on the observation separates them. Frozen — every blended label fell out of use by 2022-06.
+
+**Street index**:
+Street → the thermal points serving it, 1,182 streets. Fed by every segment of `zone_raw`, including those naming a street with no block list. Serves the lookup miss, where a street's points are the only context available.
+
+**Lookup miss**:
+An address the index has never seen. Per [ADR 0003](docs/adr/0003-claim-only-what-the-record-positively-shows.md) it says no outage has been _published_ for this address — never that the address has had no outage, and never that the address is unserved.
+_Avoid_: not found, no data
+
 ### Scraping
 
 **Snapshot**:
