@@ -37,14 +37,21 @@ Verified, not assumed:
   `Str` 11,904 · `Ale` 2,528 · `Bld` 2,062 · `Şos` 1,022 · `Cal` 685 ·
   `Int` 363 · `Drm` 121 · `Prl` 70 · `Spl` 69 · `Pţa` 21.
 - **` - ` (spaced hyphen) separates street from block list**, and occurs exactly
-  once in 18,304 segments. The exceptions are benign:
+  once in 18,304 segments. Both exception classes were enumerated in full:
   - 521 segments have **zero** — they end in a dangling `-` with the block list
     missing (`Str Popa Lazăr -`).
-  - 20 segments have **two** — an ` - instituţie` suffix
-    (`Str Izvor - Nr. 13-15 - instituţie`).
+  - 20 segments have **two**. All 20 inspected: 15 are an ` - instituţie` suffix
+    (`Str Izvor - Nr. 13-15 - instituţie`), which is droppable. The other **5 carry
+    the second hyphen inside the block list** and must not be discarded —
+    `Str Nera - bl. OD5 - modulul II`, `Bld Timişoara - bl.OD6 - modul II`,
+    `Str Şerban Bogdan Stan - bl. 306 - 307, 311`,
+    `Str Şerban Bogdan Stan - bl. 305, 306 - 307, 311`, and
+    `Str Giuseppe Garibaldi - Nr. 2 - bl 2/ scara1,2,3`.
 
-  Splitting on the **first** ` - ` is correct in every case; no street name in the
-  corpus contains a spaced hyphen.
+  Splitting on the **first** ` - ` extracts the street correctly in all 18,845
+  segments — no street name in the corpus contains a spaced hyphen. The tail after
+  that split is not always a clean block list, but the 5 affected segments are
+  0.03% of the corpus.
 - Both `,` and `;` appear as block separators, sometimes in the same corpus week
   (see §5).
 
@@ -95,10 +102,10 @@ Two classes deserve attention when building the index:
 
 ### 3.1 Street labels do drift, but modestly
 
-On a normalized basis (diacritics folded, ` - Partial` stripped) there are
-**10,216 (sector, PT, block) triples**; **615 (6.0%)** ever carry more than one
-street label. Of the two-label cases, **214 are clean hand-offs** (the old label
-never returns) and **365 are interleaved** (both labels remain in use).
+On the fully-folded basis (§3.4) there are **9,750 (sector, PT, block) triples**;
+**615 (6.3%)** ever carry more than one street label. Of the two-label cases,
+**214 are clean hand-offs** (the old label never returns) and **365 are
+interleaved** (both labels remain in use).
 
 Of the 615, **96 are street-*type*-only drift** — same name, different prefix
 (`Str Tohani` → `Ale Tohani`) — and **519 are genuine name changes**. Street-type
@@ -160,6 +167,37 @@ overlapping periods, concentrated on long arteries where a block label repeats
 index would buy 42 addresses out of 9,535 and cost a time dimension on every
 lookup. Better to resolve to the current PT and, for the 224 concurrent cases,
 carry a small candidate list rather than pretend to a single answer.
+
+### 3.3a What the denominator is — and the lookup-miss path
+
+9,535 is **addresses that have appeared in at least one outage**, not addresses in
+Bucharest. `zone_raw` only ever lists affected blocks, so a flat whose block has
+never had a recorded outage is not in the corpus at all.
+
+The corpus is nonetheless effectively closed. First-seen month of each address:
+
+| by | cumulative addresses | share |
+|---|---:|---:|
+| 2022-01 | 7,221 | 75.7% |
+| 2022-04 | 8,709 | 91.3% |
+| 2023-01 | 8,986 | 94.2% |
+| 2024-01 | 9,182 | 96.3% |
+| 2025-01 | 9,314 | 97.7% |
+| 2026-07 | 9,535 | 100.0% |
+
+91.3% of every address ever seen was seen within the first four months, and only
+**134 addresses (1.4%) first appeared in the last 12 months** — roughly 11 a
+month and flat. The index is not still filling up.
+
+But saturation is not coverage: it says CMTEB's outage footprint is a fixed set,
+not that the set is all of Bucharest. So the individual report **needs a defined
+lookup-miss behaviour** — a resident whose block has never had an outage is a
+legitimate, expected case, and "no results" is a bad answer to give them when the
+truthful answer is "your block has no recorded outage in 4.5 years", which is the
+best possible news. That is a content decision for
+[#56](https://github.com/FlorinPopaCodes/termoficare-data/issues/56) and
+[#58](https://github.com/FlorinPopaCodes/termoficare-data/issues/58), not a
+blocker here.
 
 ### 3.4 Thermal-point name variant families
 
@@ -273,4 +311,5 @@ Handed on:
 - **To [#56](https://github.com/FlorinPopaCodes/termoficare-data/issues/56) (address→PT model):** a static `(street, block)` → PT lookup is
   viable at 97.2%; the residue is 224 genuinely-ambiguous addresses needing a
   candidate list and 42 historical migrations that can be resolved to their
-  current PT.
+  current PT. The index covers only addresses that have had an outage (§3.3a), so
+  the model needs a **lookup-miss path** — an expected case, not an error.
