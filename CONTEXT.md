@@ -7,11 +7,11 @@ Automated tracking of Bucharest's district-heating system: scrapes the CMTEB sta
 ### Thermal points
 
 **Thermal point**:
-The physical installation supplying heat and hot water to a set of blocks — the unit every outage is attributed to. Identified by its canonical name alone; sector is a reported attribute that drifts between labels, not part of the identity. Estate qualifiers (`-T` for Titan, `MILITARI - `) and the prime marker distinguish genuinely separate installations and are kept. 1,061 have appeared in the outage record; CMTEB's system map lists 951. Per [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md).
+The physical installation supplying heat and hot water to a set of blocks — the unit every outage is attributed to. Identified by its canonical name alone; sector is a reported attribute that drifts between labels, not part of the identity. Estate qualifiers (`-T` for Titan, `MILITARI - `) and the prime marker distinguish genuinely separate installations and are kept. 1,058 have appeared in the outage record; CMTEB's system map lists 951. Per [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md).
 _Avoid_: station, substation
 
 **Point label**:
-One raw `pt_name` string as CMTEB publishes it. Several labels denote the same thermal point: diacritic, casing and whitespace variants, the ` - Partial` and ` - Module Termice` qualifiers, and pre-2022-07 unqualified shorthand. 1,732 labels over 1,061 thermal points.
+One raw `pt_name` string as CMTEB publishes it. Several labels denote the same thermal point: diacritic, casing and whitespace variants, the ` - Partial` and ` - Module Termice` qualifiers in any of their four spellings — which stack, so stripping them repeats — and pre-2022-07 unqualified shorthand. 1,732 labels over 1,058 thermal points.
 _Avoid_: denumire, PT name
 
 **Registry**:
