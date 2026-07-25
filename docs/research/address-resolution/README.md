@@ -5,10 +5,10 @@ How a resident gets from the address they know to the thermal point that serves 
 figure that ticket inherited from
 [#53](https://github.com/FlorinPopaCodes/termoficare-data/issues/53).
 
-**Headline: a static `(street, block)` index resolves 97.71% of addresses to exactly one thermal
-point, and only 13 addresses out of 10,283 ever change thermal point.** The inherited 97.2% was an
+**Headline: a static `(street, block)` index resolves 97.78% of addresses to exactly one thermal
+point, and only 11 addresses out of 10,205 ever change thermal point.** The inherited 97.2% was an
 upper bound computed under an over-fold; it survives re-measurement, but only because the model
-gains a step ADR 0002 does not currently have. Without that step the figure is **94.47%**.
+gains a step ADR 0002 does not currently have. Without that step the figure is **94.36%**.
 
 ## How it was measured
 
@@ -19,7 +19,7 @@ Thermal-point identity is `wideCanonicalName` from
 of the decided pipeline. `zone_raw` parsing is [`address.ts`](address.ts); the scan and the
 alias-table derivation are [`measure.ts`](measure.ts).
 
-The address basis is **10,283 `(street, block)` pairs**, against #53's 9,535. The corpus is the
+The address basis is **10,205 `(street, block)` pairs**, against #53's 9,535. The corpus is the
 same; the difference is the token policy (below) and a reconstructed institution filter, since #53's
 script was never committed. **Read the rungs against each other, not against #53's absolute
 counts.**
@@ -34,15 +34,19 @@ merged Titan+Militari identity and so never registered as touching two points.
 
 | rung                                | resolves to exactly 1 point | migrations | concurrent |
 | ----------------------------------- | --------------------------: | ---------: | ---------: |
-| settled model, shorthand unresolved |                      94.47% |        354 |        208 |
-| + per-address shorthand resolution  |                      97.60% |         44 |        200 |
-| + alias table (the decided model)   |                  **97.71%** |     **13** |        222 |
-| _#53's over-fold, for reference_    |                    _97.60%_ |       _43_ |      _201_ |
+| settled model, shorthand unresolved |                      94.36% |        352 |        224 |
+| + per-address shorthand resolution  |                      97.47% |         42 |        216 |
+| + alias table (the decided model)   |                  **97.78%** |     **11** |        216 |
+| _#53's over-fold, for reference_    |                    _97.47%_ |       _41_ |      _217_ |
 
 The over-fold and the correct model land in the same place because folding the `MILITARI` prefix and
 `-T` papered over the **pre-2022-07 shorthand era** for free. ADR 0002 retains those qualifiers, so
-the shorthand is now exposed, and the 3.13pp gap between the first two rungs is entirely it. Closing
+the shorthand is now exposed, and the 3.11pp gap between the first two rungs is entirely it. Closing
 that gap is a prerequisite for the address model, not a refinement of it.
+
+The over-fold lands _exactly_ on the per-address rung (97.47%, 41 vs 42 migrations) — it is a
+faithful stand-in for shorthand resolution and nothing more. The remaining 0.31pp the alias table
+adds over both is the misspelling class in §3, which no fold reaches.
 
 ## 2. The shorthand rule has to be per-address
 
@@ -54,7 +58,7 @@ estates**, so no single winner per label can be right.
 
 Resolving per address instead — a shorthand at this address folds into the one candidate also seen
 at this address, else the one on this street — resolves **324 of 374 occurrences on same-address
-evidence and 36 more on same-street, leaving 14**. All five blended labels resolve cleanly. The
+evidence and 39 more on same-street, leaving 11**. All five blended labels resolve cleanly. The
 address index is a better shorthand oracle than the registry is.
 
 Of 20 shorthand labels in the address corpus, **15 resolve the same way everywhere and 5 blend**:
@@ -84,6 +88,15 @@ Only the street. Measured against every field available on the observation:
   identity.
 - **Street succeeds completely**: all **37 `(label, street)` keys are clean, zero split**.
 
+One precondition, checked rather than assumed. A street-scoped lookup takes the observation's street
+list, so if a single observation named streets belonging to _different_ estates, the answer would
+depend on which street came first in `zone_raw` — an arbitrary tiebreak filing an estate's blocks 10
+km away, and one no aggregate figure here would expose, since the row still resolves to exactly one
+point. Of the **44 distinct `zone_raw` strings that touch a street-scoped key, zero name streets
+with different targets.** The blended labels never mix estates within one observation, so the lookup
+is order-independent. Any consumer of the table inherits this precondition and should re-check it if
+the corpus grows.
+
 ## 3. The alias table
 
 [`pt_aliases.csv`](pt_aliases.csv) — **54 rows, 17 keyed on the label alone and 37 on
@@ -112,29 +125,33 @@ identity.
 
 ## 4. Resolution does not need a time dimension
 
-**13 addresses out of 10,283 (0.13%)** are served by one thermal point and later another — a third
+**11 addresses out of 10,205 (0.11%)** are served by one thermal point and later another — a quarter
 of #53's 42, because two of its "migrations" were the misspelling pairs above and most of the rest
 were the shorthand era.
 
 ```
 compozitorilor / bl f11       6/8 [2021-12..2023-01] -> 4/8 [2023-03..2026-07]
+valea prahovei / bl 8s14      6/8 -> 4/8                             2022-02
 doamna ghica / bl 15          7 Doamna Ghica -> 1 Colentina Socului   2022-02
 gheorghe sincai / bl 3        Sincai -> 4 Lanariei                    2022-02
 secuilor / bl b47             9 Brancoveanu -> 19 Dolhasca            2022-02
-stefan cel mare / bl 1        Aleea Circului -> Spitalul Clinic Colentina
+stefan cel mare / bl 1        Aleea Circului -> Spitalul Clinic Colentina  2022-02
+resita / bl a5                1 Zona IV -> 4 Vifornita                2022-04
+lugojana / bl 50              1 Matei Ambrozie [..2022-11] -> 16 Racari [2025-01..]
+nicolae grigorescu / bl 6     sc.3C3/1 -> 3 C5/1        (2022-11, then one day 2023-01)
 pantelimon / bl 69            4' Pantelimon -> 4 Pantelimon    (one day, 2024-04)
 wolfgang amadeus mozart / bl 4  CT Floreasca -> CT Mozart      (one day, 2026-07)
-rahovei / bl scara 1          4 Rahova -> 6 Rahova       (two isolated single days)
 ```
 
-Several are single-day appearances that read as data entry rather than a building changing supplier.
-A time-dependent index would buy 13 addresses and cost a date parameter on all 10,283.
+Several are single-day appearances that read as data entry rather than a building changing supplier
+— `sc.3C3/1` is not even a well-formed point name. A time-dependent index would buy 11 addresses and
+cost a date parameter on all 10,205.
 
 ## 5. Street-label drift
 
-Under the settled model, **501 of 10,202 `(point, block)` triples (4.9%)** carry more than one
-street name — and they split **339 interleaved to 162 clean hand-offs**. Both labels stay in use for
-two cases in three.
+Under the settled model, **495 of 9,908 `(point, block)` pairs (5.0%)** carry more than one street
+name — and they split **335 interleaved to 160 clean hand-offs**. Both labels stay in use for two
+cases in three.
 
 This is why the decision absorbs drift silently rather than narrating it: "your block was listed
 under Str Liliacului until April 2022" is **false for the majority**. The map's own worked example
@@ -154,24 +171,50 @@ so matching ignores it.
 ## 6. Corrections to #53
 
 **§5 is wrong that dropping the no-digit token class costs no residential coverage.** The class is
-dominated by single-letter block labels, which are ordinary residential buildings:
+dominated by single-letter block labels, which are ordinary residential buildings —
+`Bld Timişoara -
+bl A, B, C, D, E, F, G, H` is eight blocks:
 
 | token | observations | thermal points |
 | ----- | -----------: | -------------: |
-| `b`   |       66,379 |             37 |
-| `c`   |       63,515 |             29 |
-| `a`   |       35,742 |             16 |
+| `b`   |       47,016 |             26 |
+| `c`   |       45,095 |             22 |
+| `a`   |       35,691 |             15 |
 | `f`   |       23,339 |             11 |
 | `g`   |       20,866 |              9 |
 
-Indexing them adds **400 addresses**. The genuinely institutional tokens are separable —
+Indexing them adds **123 addresses**. The genuinely institutional tokens are separable —
 `institutie` (38,113 observations), `parohie`, `policlinica`, `cresa sf. stelian`, and 113 distinct
 institution phrases.
+
+**But a bare letter is not always a block, and volume alone cannot tell the difference.** A block's
+staircases are enumerated as bare letters after it: in `Str Tineretului - bl. 19 sc.A, B, 37, 39`
+the `B` is staircase B of block 19, not a block B. Read as a block it invents an address, and worse,
+it collides — `Str C. Rădulescu-Motru - bl. 1, 35 sc.A+C, B, 37A` would file its `B` at the same
+phantom address. Splitting single-letter tokens by what precedes them:
+
+| context                                      | observations | reading   |
+| -------------------------------------------- | -----------: | --------- |
+| list has no numbered token (`bl. A, B, C`)   |       79,062 | block     |
+| first token of a mixed list (`K, K1, K2`)    |        3,402 | block     |
+| after a plain numbered token (`121, 120, G`) |      153,186 | block     |
+| after a token bearing `sc.` (`19 sc.A, B`)   |       24,315 | staircase |
+
+So the rule is positional, and sticky — in `bl. 71 sc. A, B, C` all three letters are staircases of
+block 71, and the run only closes on the next token that names a building. 9.4% of single-letter
+tokens fall in the staircase class; excluding them removes 78 phantom addresses and 2 spurious
+migrations, one of which (`rahovei / bl scara 1`) was an artifact end to end.
 
 **Two grammar claims verified across the full corpus**, both holding: **zero** of the 6,849,152
 segments begin with a street-type token outside the closed set of ten, and **2.11%** of segments are
 dangling — a street named with its block list missing. Those still say _this point serves this
 street_, so they feed the street index.
+
+A third class sits beside the dangling one: **2.44% of segments carry a block list that yields no
+building at all** — named houses (`Str Castranova - Casa Ilie`), `Imobil`, `Bloc Turn`, and one
+outright parse gap, `Str Băiculeşti - bl .A3`, where the stray space after `bl` leaves `.A3` and the
+token is dropped (1,313 observations). These behave like dangling segments for indexing — the street
+is still evidence — so **95.45% of segments yield at least one address**.
 
 **Data-quality note:** rows with an empty `pt_name` exist (2026-02-03, sector 6). They carry zones
 but no thermal point, so they cannot enter the index.
@@ -179,15 +222,16 @@ but no thermal point, so they cannot enter the index.
 ## 7. The decided model
 
 - **Key** is `(street, block)`, street-type-insensitive. A block token indexes if it bears a digit
-  or is a single letter, unless it is on the institution stop-list. Block suffixes are never
-  normalized away — `4` and `4Bis` are different buildings.
+  or is a single letter, unless it is on the institution stop-list, is itself only a staircase
+  reference, or is a bare letter continuing a staircase run. Block suffixes are never normalized
+  away — `4` and `4Bis` are different buildings.
 - **Every street label a block has carried is a search alias.** Drift is never narrated.
-- **Lookup returns a list**, always: length 1 for 97.71% of addresses, 2–4 for the 222 concurrent
-  cases (219 carry two candidates, 15 carry three, one carries four), and a time-disjoint pair with
-  date spans for the 13 migrations. Candidate records are shown separately, never merged — a union
+- **Lookup returns a list**, always: length 1 for 97.78% of addresses, 2–4 for the 216 concurrent
+  cases (211 carry two candidates, 15 carry three, one carries four), and a time-disjoint pair with
+  date spans for the 11 migrations. Candidate records are shown separately, never merged — a union
   overstates and an intersection understates.
 - **A miss is an outcome, not a failure.** The index covers only addresses that have had a published
-  outage, and it is saturated: 91.3% of addresses were seen by 2022-04 and only 1.4% first appeared
+  outage, and it is saturated: 88.2% of addresses were seen by 2022-04 and only 2.0% first appeared
   in the last 12 months. But saturation is not coverage. Per
   [ADR 0003](../../adr/0003-claim-only-what-the-record-positively-shows.md) a clean record cannot be
   distinguished from an unpublished outage or a blind day, so a miss says no outage has been

@@ -31,7 +31,11 @@ const INSTITUTION =
 export interface Segment {
   street: string;
   blocks: string[];
-  /** True when the segment named a street but carried no block list (`Str Popa Lazăr -`). */
+  /**
+   * True when the segment yielded no address: the block list was absent (`Str Popa Lazăr -`,
+   * 2.11% of segments) or held nothing indexable (`Str Castranova - Casa Ilie`, 2.44%). Both
+   * behave alike downstream -- the street is still evidence that this point serves it.
+   */
   dangling: boolean;
 }
 
@@ -50,11 +54,16 @@ function stripBlockPrefix(token: string): string {
   return s;
 }
 
+// A staircase reference: `sc.A`, `sc. 7-13`, `scara 2`. As a suffix it rides along on the
+// block token (`19 sc.A`); standing alone it names no building of its own.
+const STAIRCASE = /\bsc\.?\s*[a-z0-9]|\bscara\b/;
+const STAIRCASE_ONLY = /^(sc\.?\s*|scara\s+)[a-z0-9]/;
+
 // A token names a building when it bears a digit or is a single letter. The single-letter
-// case is load-bearing: blocks A, B and C are 165,636 observations across 37 thermal
-// points, and #53's taxonomy filed them with the institutions.
+// case is load-bearing: standalone blocks A, B and C are 235,650 observations across 37
+// thermal points, and #53's taxonomy filed them with the institutions.
 export function isBlockLabel(core: string): boolean {
-  if (!core || INSTITUTION.test(core)) return false;
+  if (!core || INSTITUTION.test(core) || STAIRCASE_ONLY.test(core)) return false;
   if (/^[a-z]$/.test(core)) return true;
   return /\d/.test(core) && !/^[.\s]/.test(core);
 }
@@ -88,10 +97,21 @@ export function parseZone(zoneRaw: string): Segment[] {
     // ` - instituţie` is a droppable suffix on 15 segments; any other second ` - ` lives
     // inside the block list and must survive.
     const tail = segment.slice(cut + 3).trim().replace(/\s*-\s*institu[tţ]ie\s*$/i, "");
-    const blocks = tail.split(/[,;]/)
-      .map(stripBlockPrefix)
-      .map(normalizeBlock)
-      .filter(isBlockLabel);
+    // A block's staircases are enumerated as bare letters after it -- `bl. 71 sc. A, B, C`
+    // is one building, not three. The run opens on a token carrying a staircase marker and
+    // closes on the next token that names a building, so those letters are not addresses.
+    let inStaircaseRun = false;
+    const blocks: string[] = [];
+    for (const token of tail.split(/[,;]/)) {
+      const core = normalizeBlock(stripBlockPrefix(token));
+      if (!isBlockLabel(core)) {
+        if (STAIRCASE.test(core)) inStaircaseRun = true;
+        continue;
+      }
+      if (inStaircaseRun && /^[a-z]$/.test(core)) continue;
+      inStaircaseRun = STAIRCASE.test(core);
+      blocks.push(core);
+    }
     out.push({ street, blocks, dangling: blocks.length === 0 });
   }
   return out;
@@ -105,6 +125,11 @@ export function addressKey(street: string, block: string): string {
  * The alias table decided on #56. `street` is empty for a label that resolves the same way
  * everywhere; it is set only for the five shorthand labels that blend the Titan and
  * Militari estates, which no other field on the observation separates.
+ *
+ * Precondition, measured rather than assumed: of the 44 distinct `zone_raw` strings that
+ * touch a street-scoped row, none names streets belonging to different estates. Were one
+ * to, `resolveAlias` below would pick by street order -- an arbitrary tiebreak. Re-check
+ * if the corpus grows.
  */
 export interface AliasRow {
   alias: string;
