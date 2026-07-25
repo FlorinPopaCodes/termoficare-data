@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-25T11:36:14",
+  "scraped_at": "2026-07-25T13:14:46",
   "status": "ok",
   "outages": [
     {
@@ -2319,18 +2319,6 @@
       "basis_n": 1613,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2/8",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str.Obcina Mica",
-      "estimated_restore": "2026-07-25T14:00",
-      "on_time_probability": 0.433,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Obcina Mare - bl.A2, A3, F3, F4,OS2 • Ale Obcina Mică - bl. A4,A5 • Str Drumul Taberei - bl. F2, Z33, Z36, Z37 • Str Râul Dorna - bl. F1, Z48, A1,Z47 • Str Sibiu - bl.OS1, E22, E23"
     }
   ]
 }
