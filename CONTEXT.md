@@ -4,6 +4,16 @@ Automated tracking of Bucharest's district-heating system: scrapes the CMTEB sta
 
 ## Language
 
+### Thermal points
+
+**Thermal point**:
+The physical installation supplying heat and hot water to a set of blocks — the unit every outage is attributed to. Identified by its canonical name alone; sector is a reported attribute that drifts between labels, not part of the identity. Estate qualifiers (`-T` for Titan, `MILITARI - `) and the prime marker distinguish genuinely separate installations and are kept. 1,061 have appeared in the outage record; CMTEB's system map lists 951. Per [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md).
+_Avoid_: station, substation
+
+**Point label**:
+One raw `pt_name` string as CMTEB publishes it. Several labels denote the same thermal point: diacritic, casing and whitespace variants, the ` - Partial` and ` - Module Termice` qualifiers, and pre-2022-07 unqualified shorthand. 1,732 labels over 1,061 thermal points.
+_Avoid_: denumire, PT name
+
 ### Scraping
 
 **Snapshot**:
@@ -11,6 +21,9 @@ One scrape of the CMTEB status page at a point in time. A snapshot is usable whe
 
 **Observation**:
 One disruption row read from a single snapshot: a thermal point × service entry with its affected blocks, cause, and estimated restore time.
+
+**Partial**:
+Said of an observation whose point label carries the ` - Partial` suffix: only part of the thermal point's blocks are affected, and `zone_raw` names which. A qualifier on the observation, never a separate thermal point.
 
 **Blind day**:
 A calendar day with no usable snapshot — the system's state that day is unknown. Distinct from a day verified to have zero episodes.
@@ -22,10 +35,10 @@ _Avoid_: gap day, missing day
 One of the two tracked services: INC (heating) or ACC (domestic hot water).
 
 **Incident**:
-A contiguous run of the same sector + thermal point + service disruption across consecutive usable snapshots. A scrape-level artifact: a change in service wording splits one real-world disruption into multiple incidents.
+A contiguous run of the same thermal point + service disruption across consecutive usable snapshots. A scrape-level artifact: a change in service wording splits one real-world disruption into multiple incidents.
 
 **Episode**:
-The canonical outage unit: one or more incidents at the same sector + thermal point + utility, bridged across short gaps. When prose says "outage", it means an episode.
+The canonical outage unit: one or more incidents at the same thermal point + utility, bridged across short gaps. When prose says "outage", it means an episode.
 _Avoid_: failure (reserved for scrape health), disruption
 
 **Outage**:
