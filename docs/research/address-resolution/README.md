@@ -171,9 +171,8 @@ so matching ignores it.
 ## 6. Corrections to #53
 
 **§5 is wrong that dropping the no-digit token class costs no residential coverage.** The class is
-dominated by single-letter block labels, which are ordinary residential buildings —
-`Bld Timişoara -
-bl A, B, C, D, E, F, G, H` is eight blocks:
+dominated by single-letter block labels, which are ordinary residential buildings. On Bld Timişoara,
+`bl A, B, C, D, E, F, G, H` is eight of them:
 
 | token | observations | thermal points |
 | ----- | -----------: | -------------: |
