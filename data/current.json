@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-25T22:52:41",
+  "scraped_at": "2026-07-26T00:33:46",
   "status": "ok",
   "outages": [
     {
@@ -207,18 +207,6 @@
       "basis_n": 54,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
-    },
-    {
-      "sector": 2,
-      "pt_name": "1 Cheile Zanoagei",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-26T23:30",
-      "on_time_probability": 0.609,
-      "basis_n": 69,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cristea Mateescu - bl.T4A, T6A, T4B • Str Petre Antonescu - bl.T3A, T3B, T3C • Str Grigore Ionescu - bl.T8A, T7A , T7B, T7C, T6B • Str Brebu - bl.T9B, T9A, T10, T11, T5 • Str Oteşani - bl.T1, T2, T8B"
     },
     {
       "sector": 2,
