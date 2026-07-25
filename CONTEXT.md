@@ -7,15 +7,18 @@ Automated tracking of Bucharest's district-heating system: scrapes the CMTEB sta
 ### Thermal points
 
 **Thermal point**:
-The physical installation supplying heat and hot water to a set of blocks — the unit every outage is attributed to. Identified by its canonical name alone; sector is a reported attribute that drifts between labels, not part of the identity. Estate qualifiers (`-T` for Titan, `MILITARI - `) and the prime marker distinguish genuinely separate installations and are kept. 1,058 have appeared in the outage record; CMTEB's system map lists 951. Per [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md).
+The physical installation supplying heat and hot water to a set of blocks — the unit every outage is attributed to. Identified by its canonical name alone; sector is a reported attribute that drifts between labels, not part of the identity. Estate qualifiers (`-T` for Titan, `MILITARI - `) and the prime marker distinguish genuinely separate installations and are kept. 1,032 have appeared in the outage record; CMTEB's system map lists 951. Per [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md).
 _Avoid_: station, substation
 
 **Point label**:
-One raw `pt_name` string as CMTEB publishes it. Several labels denote the same thermal point: diacritic, casing and whitespace variants, the ` - Partial` and ` - Module Termice` qualifiers in any of their four spellings — which stack, so stripping them repeats — and pre-2022-07 unqualified shorthand. 1,732 labels over 1,058 thermal points.
+One raw `pt_name` string as CMTEB publishes it. Several labels denote the same thermal point: diacritic, casing and whitespace variants, the ` - Partial` and ` - Module Termice` qualifiers in any of their four spellings — which stack, so stripping them repeats — and shorthand, which the alias table folds. 1,731 labels over 1,032 thermal points. A row whose `pt_name` is empty names no thermal point at all and is dropped.
 _Avoid_: denumire, PT name
 
+**Alias table**:
+Step 4 of canonicalization: 57 rows folding a point label the earlier steps leave unresolved onto the thermal point it denotes — 23 shorthand labels CMTEB published as a fragment of the settled name, and two misspellings. 20 rows key on the label alone; 37 key on `(label, street)`, because five `N Placare` labels blend the Titan and Militari estates and nothing else on the observation separates them. A checked-in constant under `src/`, not something a workflow refreshes. The street-scoped rows are frozen — every blended label fell out of use by 2022-06 — but the table is not: `Dageco` first appeared in 2024-07. Derived on [#56](https://github.com/FlorinPopaCodes/termoficare-data/issues/56) as `docs/research/address-resolution/pt_aliases.csv`, which holds 54 of the rows; the other three are labels that never appear at a residential address.
+
 **Registry**:
-CMTEB's [system map](https://cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php) captured as `data/thermal_points.csv` — 951 thermal points with the coordinates that serve as identity evidence for [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md). The only published list of which thermal points exist, since the status page shows only those currently in outage. Names are stored exactly as published, padding included, and a row is keyed by the `(name, latitude, longitude)` triple rather than the name, which repeats. Not a closed world: over a hundred canonical identities in the outage record are absent from it — mostly institutions — so a lookup miss is an expected case in both directions.
+CMTEB's [system map](https://cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php) captured as `data/thermal_points.csv` — 951 thermal points with the coordinates that serve as identity evidence for [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md). The only published list of which thermal points exist, since the status page shows only those currently in outage. Names are stored exactly as published, padding included, and a row is keyed by the `(name, latitude, longitude)` triple rather than the name, which repeats. Not a closed world: 101 canonical identities in the outage record are absent from it — mostly institutions — and 17 of its points have never been published as down, so a lookup miss is an expected case in both directions.
 _Avoid_: map, gazetteer
 
 ### Addresses
@@ -23,9 +26,6 @@ _Avoid_: map, gazetteer
 **Address**:
 The `(street, block)` pair a resident starts from, parsed out of an observation's `zone_raw` and matched street-type-insensitively — `Str Tohani` and `Ale Tohani` are one street. A block token indexes when it bears a digit or is a single letter; the staircases enumerated after a block (`bl. 71 sc. A, B, C`) belong to that one building and are not addresses of their own. 10,205 addresses have appeared in the outage record.
 _Avoid_: building, location
-
-**Alias table**:
-`docs/research/address-resolution/pt_aliases.csv` — 54 rows folding a point label the canonical-name pipeline leaves unresolved onto the thermal point it denotes: pre-2022-07 shorthand and misspellings absent from the registry. 17 rows key on the label alone; 37 key on `(label, street)`, because five `N Placare` labels blend the Titan and Militari estates and nothing else on the observation separates them. Frozen — every blended label fell out of use by 2022-06.
 
 **Street index**:
 Street → the thermal points serving it, 1,182 streets. Fed by every segment of `zone_raw`, including those naming a street with no block list. Serves the lookup miss, where a street's points are the only context available.
