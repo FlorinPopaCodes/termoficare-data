@@ -192,17 +192,21 @@ the `B` is staircase B of block 19, not a block B. Read as a block it invents an
 it collides — `Str C. Rădulescu-Motru - bl. 1, 35 sc.A+C, B, 37A` would file its `B` at the same
 phantom address. Splitting single-letter tokens by what precedes them:
 
-| context                                      | observations | reading   |
-| -------------------------------------------- | -----------: | --------- |
-| list has no numbered token (`bl. A, B, C`)   |       79,062 | block     |
-| first token of a mixed list (`K, K1, K2`)    |        3,402 | block     |
-| after a plain numbered token (`121, 120, G`) |      153,186 | block     |
-| after a token bearing `sc.` (`19 sc.A, B`)   |       24,315 | staircase |
+| context                                        | token instances | reading   |
+| ---------------------------------------------- | --------------: | --------- |
+| list has no numbered token (`bl. A, B, C`)     |         123,184 | block     |
+| first building token of a mixed list (`K, K1`) |          38,017 | block     |
+| after a plain numbered token (`121, 120, G`)   |         135,579 | block     |
+| after a token bearing `sc.` (`19 sc.A, B`)     |          39,024 | staircase |
+
+Counted after prefix stripping, so `bl. A` contributes its `A`, and weighted by occurrence — a
+single-letter token in a `zone_raw` seen on 400 days counts 400 times. **11.6% of the 335,804
+single-letter token instances are staircases.**
 
 So the rule is positional, and sticky — in `bl. 71 sc. A, B, C` all three letters are staircases of
-block 71, and the run only closes on the next token that names a building. 9.4% of single-letter
-tokens fall in the staircase class; excluding them removes 78 phantom addresses and 2 spurious
-migrations, one of which (`rahovei / bl scara 1`) was an artifact end to end.
+block 71, and the run only closes on the next token that names a building. Excluding them removes 78
+phantom addresses and 2 spurious migrations, one of which (`rahovei / bl scara 1`) was an artifact
+end to end.
 
 **Two grammar claims verified across the full corpus**, both holding: **zero** of the 6,849,152
 segments begin with a street-type token outside the closed set of ten, and **2.11%** of segments are
@@ -244,5 +248,9 @@ but no thermal point, so they cannot enter the index.
   is silent rather than decisive for `2/3/7/8/9 Placare`.
 - **To [#58](https://github.com/FlorinPopaCodes/termoficare-data/issues/58):** the street index, the
   candidate-list presentation, and the miss-path copy.
+- **Known defects left unfixed**, for whoever implements: `Str Băiculeşti - bl .A3` loses its block
+  to a stray space after `bl` (1,313 observations), and single letters must be classified by
+  `parseZone`, never by `isBlockLabel` alone — the staircase rule is positional and the predicate
+  cannot see position.
 - **Unmeasured here:** what the alias table costs on published figures. It changes identity, and ADR
   0002 requires that fold to land before the first published on-time figure.

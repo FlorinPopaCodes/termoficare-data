@@ -60,8 +60,13 @@ const STAIRCASE = /\bsc\.?\s*[a-z0-9]|\bscara\b/;
 const STAIRCASE_ONLY = /^(sc\.?\s*|scara\s+)[a-z0-9]/;
 
 // A token names a building when it bears a digit or is a single letter. The single-letter
-// case is load-bearing: standalone blocks A, B and C are 235,650 observations across 37
-// thermal points, and #53's taxonomy filed them with the institutions.
+// case is load-bearing: standalone blocks A, B and C are 296,780 token instances, and
+// #53's taxonomy filed them with the institutions.
+//
+// NOT SUFFICIENT ON ITS OWN for a single letter: whether `B` is block B or staircase B of
+// the preceding block depends on what came before it, which only `parseZone` sees. Calling
+// this predicate directly over a block list reintroduces the phantom addresses parseZone
+// exists to exclude.
 export function isBlockLabel(core: string): boolean {
   if (!core || INSTITUTION.test(core) || STAIRCASE_ONLY.test(core)) return false;
   if (/^[a-z]$/.test(core)) return true;
