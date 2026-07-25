@@ -222,9 +222,11 @@ blends of both, so the tie-break is a majority vote, not a separation:
 | `8 placare` | 7 | 0.714 | 0.286 |
 | `9 placare` | 6 | 0.667 | 0.286 |
 
-`2 placare` ties exactly and stays unresolved. `3 placare` resolves to **Titan**, against
-the spacing rule ADR 0002 generalises from (`1Placare` Titan, `1 Placare` Militari) — the
-overlap evidence and the spacing heuristic disagree on that one label. 2,041 observations
+`2 placare` ties exactly and stays unresolved — which on its own establishes the blend.
+`3 placare` resolves to **Titan**, against the spacing rule ADR 0002 generalises from
+(`1Placare` Titan, `1 Placare` Militari), but only on a 3-vs-2 shared-street margin: one
+street's classification under this harness's street-type list flips the winner. Treat that
+single assignment as unresolved for #56's purposes; the blending itself is robust. 2,041 observations
 (0.09% of volume) sit on the five two-candidate labels, which is why this does not move any
 figure above; it matters to #56, where a blended label points one address at two thermal
 points 10–13 km apart.
@@ -265,7 +267,7 @@ on both sides.
 | `5 placare` | 379 | 2022-06 | 1 | `militari - 5 placare` | forced |
 | `8 placare` | 325 | 2022-06 | 2 | `militari - 8 placare` | street overlap |
 | `4 placare` | 307 | 2022-06 | 1 | `militari - 4 placare` | forced |
-| `3 placare` | 263 | 2022-06 | 2 | `3 placare-t` | street overlap |
+| `3 placare` | 263 | 2022-06 | 2 | `3 placare-t` *(3-vs-2 margin — treat as unresolved)* | street overlap |
 | `camin radet` | 260 | 2022-10 | 1 | `camin radet - apanova` | forced |
 | `gradinita nr.268` | 259 | 2022-12 | 1 | `gradinita nr.268 scoala nr.128` | forced |
 | `3a placare` | 230 | 2022-06 | 1 | `militari - 3a placare` | forced |
@@ -288,8 +290,22 @@ on both sides.
   all leaning the same way — the direction an accountability report must not lean by
   accident. Nothing measured here argues against it.
 - **`identity.ts` in this folder is the canonicalization**, validated against the decision
-  (1,061 identities) and against the corpus. It needs the two corrections above folded in
-  before it moves to `src/`.
+  (1,061 identities) and against the corpus. Correction 1 is already applied in it —
+  `stripQualifier` repeats, which is what makes `canonicalName` yield 1,061. Correction 2
+  is *not*: it sits beside it as `wideCanonicalName`, wired only into the `full_wide`
+  measurement rung, pending a decision to widen the closed list.
+- **`slipFor` in `on_time.ts` keys `active_episodes.csv` on the raw scraped sector**
+  (`[String(o.sector), o.pt_name, utility]`, `on_time.ts:279`), and `rateTuples` keys the
+  backoff chain the same way (`:310`). Both read the *live scraped* row, so canonicalizing
+  the label has to happen on the live side too, not just in the derivation. Sector is the
+  subtle half: once it is a reported-only attribute resolved most-recent-wins, a live row
+  published under a sector that differs from its point's canonical one misses its slip
+  entirely and silently conditions on 0 — the wrong prediction bucket, no error. 64
+  identities carry more than one sector label, so this is live rather than hypothetical,
+  and it is the one place where "sector is only a reported attribute" is not free. Either
+  drop sector from the lookup keys or canonicalize it where the live row is read.
+  (`compare.ts` §7 has to canonicalize the live row for exactly this reason, or the
+  `current.json` comparison becomes an artifact of the join.)
 - **Republish everything in one step**, as ADR 0002 already requires: 998 of 4,382 heatmap
   day-cells recolour and both colour scales shift, so a partial republish leaves the images
   internally inconsistent.
