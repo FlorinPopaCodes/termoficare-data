@@ -83,6 +83,20 @@ _Avoid_: issue type
 **On-time probability**:
 The share of comparable past estimates that were hit, published for an active outage's current estimate together with the size of its basis. Comparable means same thermal point, cause class, and slip count, widening to coarser groupings when history is thin.
 
+### Reporting
+
+**Basis**:
+What a published figure rests on — its period, its denominator, whether it is provisional, and what it excludes, including any blind days inside its period. Carried with the figure rather than in the surrounding prose, because a quoted or screenshotted figure arrives at its reader with the prose stripped away.
+_Avoid_: caveat, disclaimer, footnote
+
+**Restatement**:
+A change of method that moves figures already published. The after-the-fact twin of **Provisional**: a provisional figure is disclosed as movable before it moves, whereas a restatement is disclosed afterwards, the reader having been told nothing. Recorded once and dated for the whole set of figures affected, since a method change moves every surface at the same time and in the same direction.
+_Avoid_: correction (implies an error rather than a changed method)
+
+**Scorecard**:
+The published ranking of thermal points by outage record. Has a worst end only — a best end would rest on the absence of records, which cannot be distinguished from non-reporting or from a blind day, per [ADR 0003](docs/adr/0003-claim-only-what-the-record-positively-shows.md).
+_Avoid_: league table, leaderboard
+
 ### Scrape health
 
 **Failure**:
