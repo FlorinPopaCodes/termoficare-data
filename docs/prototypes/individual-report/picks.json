@@ -1,0 +1,32 @@
+[
+  {
+    "street": "dorobantilor",
+    "block": "11",
+    "why": "out right now"
+  },
+  {
+    "street": "toporasi",
+    "block": "1",
+    "why": "one candidate, heaviest record in the corpus"
+  },
+  {
+    "street": "zizin",
+    "block": "v80a",
+    "why": "one candidate, median record -- the ordinary case"
+  },
+  {
+    "street": "doamna ghica",
+    "block": "3",
+    "why": "concurrent candidates, shown separately"
+  },
+  {
+    "street": "doamna ghica",
+    "block": "15",
+    "why": "changed thermal point (time-disjoint)"
+  },
+  {
+    "street": "unirii",
+    "block": "999",
+    "why": "no published outage at this address"
+  }
+]

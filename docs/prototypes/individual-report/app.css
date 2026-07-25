@@ -1,0 +1,458 @@
+/* PROTOTYPE -- throwaway. Tokens are the dataviz reference palette; ACC takes categorical
+   slot 1 (blue), INC slot 2 (orange), and each utility keeps its hue everywhere on the
+   page, chips and heatmap alike, so color follows the entity rather than the chart. */
+
+:root {
+  color-scheme: light;
+  --surface-1: #fcfcfb;
+  --plane: #f9f9f7;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --ink-muted: #898781;
+  --grid: #e1e0d9;
+  --baseline: #c3c2b7;
+  --border: rgba(11, 11, 11, 0.1);
+  --acc: #2a78d6;
+  --inc: #eb6834;
+  --status-critical: #d03b3b;
+  --status-warning: #fab219;
+  --status-good: #0ca30c;
+  --cell-empty: #eceae4;
+  --acc-ramp-1: #cde2fb;
+  --acc-ramp-2: #9ec5f4;
+  --acc-ramp-3: #6da7ec;
+  --acc-ramp-4: #2a78d6;
+  --acc-ramp-5: #1c5cab;
+  --inc-ramp-1: #fde3d6;
+  --inc-ramp-2: #f8ab8a;
+  --inc-ramp-3: #f38f66;
+  --inc-ramp-4: #eb6834;
+  --inc-ramp-5: #ab4219;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --surface-1: #1a1a19;
+    --plane: #0d0d0d;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --ink-muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255, 255, 255, 0.1);
+    --acc: #3987e5;
+    --inc: #d95926;
+    --cell-empty: #232322;
+    --acc-ramp-1: #184f95;
+    --acc-ramp-2: #256abf;
+    --acc-ramp-3: #3987e5;
+    --acc-ramp-4: #6da7ec;
+    --acc-ramp-5: #9ec5f4;
+    --inc-ramp-1: #853313;
+    --inc-ramp-2: #ab4219;
+    --inc-ramp-3: #d1521f;
+    --inc-ramp-4: #eb6834;
+    --inc-ramp-5: #f8ab8a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 0 5.5rem;
+  background: var(--plane);
+  color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+}
+
+a {
+  color: inherit;
+}
+
+.muted {
+  color: var(--ink-muted);
+}
+
+.secondary {
+  color: var(--ink-2);
+}
+
+/* ---- basis line: rides with the figure, never in the surrounding prose ---- */
+.basis {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  line-height: 1.4;
+  margin-top: 0.3rem;
+}
+
+.card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* ---- status: color never alone -- always icon + label ---- */
+.status {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  border-left: 4px solid var(--baseline);
+  padding-left: 0.8rem;
+}
+
+.status.out {
+  border-left-color: var(--status-critical);
+}
+
+.status.quiet {
+  border-left-color: var(--baseline);
+}
+
+.status .icon {
+  font-size: 1.3rem;
+  line-height: 1.2;
+}
+
+.status .headline {
+  font-weight: 650;
+  font-size: 1.05rem;
+}
+
+/* ---- utility identity: chip carries the hue, text stays ink ---- */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+.chip::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  background: var(--baseline);
+}
+
+.chip.acc::before {
+  background: var(--acc);
+}
+
+.chip.inc::before {
+  background: var(--inc);
+}
+
+.legend {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0.4rem 0 0.8rem;
+}
+
+/* ---- stat tiles ---- */
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: 0.75rem;
+}
+
+.tile {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.8rem 0.9rem;
+}
+
+.tile .label {
+  font-size: 0.78rem;
+  color: var(--ink-2);
+}
+
+.tile .value {
+  font-size: 1.75rem;
+  font-weight: 640;
+  line-height: 1.15;
+  margin-top: 0.15rem;
+}
+
+.tile .value.small {
+  font-size: 1.15rem;
+}
+
+/* ---- episode feed ---- */
+.year-rule {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 1.4rem 0 0.6rem;
+  color: var(--ink-2);
+  font-size: 0.85rem;
+}
+
+.year-rule::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--grid);
+}
+
+.year-rule strong {
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.ep {
+  display: grid;
+  grid-template-columns: 6.2rem 1fr;
+  gap: 0.2rem 0.9rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--grid);
+  font-size: 0.9rem;
+}
+
+.ep .when {
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.ep .cause {
+  color: var(--ink-2);
+  font-size: 0.85rem;
+  grid-column: 2;
+}
+
+.ep .dur {
+  font-weight: 600;
+}
+
+.ep .verdict {
+  font-size: 0.8rem;
+  grid-column: 2;
+}
+
+/* ---- duration strip: one row of marks, 2px surface gap between fills ---- */
+.strip {
+  display: flex;
+  gap: 2px;
+  align-items: flex-end;
+  height: 3.2rem;
+  margin-top: 0.5rem;
+}
+
+.strip i {
+  flex: 1;
+  min-width: 2px;
+  border-radius: 2px 2px 0 0;
+  background: var(--baseline);
+  display: block;
+}
+
+/* ---- month x year heatmap ---- */
+.heat {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: 2.6rem repeat(12, 1fr);
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  align-items: center;
+}
+
+.heat .cell {
+  aspect-ratio: 1;
+  border-radius: 3px;
+  background: var(--cell-empty);
+}
+
+.heat .rowlab {
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-2);
+}
+
+.ramp {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  margin-top: 0.4rem;
+}
+
+.ramp i {
+  width: 15px;
+  height: 10px;
+  border-radius: 2px;
+  display: block;
+}
+
+/* ---- disclosure ---- */
+details summary {
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--ink-2);
+  padding: 0.4rem 0;
+}
+
+table.record {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+table.record th,
+table.record td {
+  text-align: left;
+  padding: 0.35rem 0.5rem 0.35rem 0;
+  border-bottom: 1px solid var(--grid);
+}
+
+table.record th {
+  color: var(--ink-2);
+  font-weight: 550;
+}
+
+/* ---- candidate tabs (variant B) ---- */
+.tabs {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.9rem;
+}
+
+.tabs button {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+
+.tabs button[aria-selected="true"] {
+  background: var(--ink);
+  color: var(--plane);
+  border-color: var(--ink);
+}
+
+/* ---- question-led (variant C) ---- */
+.qa {
+  margin: 0 0 1.6rem;
+}
+
+.qa h2 {
+  font-size: 1.05rem;
+  color: var(--ink-2);
+  font-weight: 550;
+}
+
+.qa .answer {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0.35rem;
+}
+
+.qa p {
+  margin: 0.4rem 0 0;
+  color: var(--ink-2);
+  font-size: 0.92rem;
+}
+
+/* ---- prototype chrome: deliberately not part of the design under review ---- */
+#bar {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #0b0b0b;
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.4rem 0.5rem;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+  font-size: 0.85rem;
+  z-index: 50;
+  max-width: calc(100vw - 2rem);
+}
+
+#bar button {
+  font: inherit;
+  background: #262625;
+  color: #fff;
+  border: 0;
+  border-radius: 999px;
+  width: 1.9rem;
+  height: 1.9rem;
+  cursor: pointer;
+}
+
+#bar .name {
+  min-width: 12rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+#bar select {
+  font: inherit;
+  font-size: 0.8rem;
+  background: #262625;
+  color: #fff;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.35rem 0.5rem;
+  max-width: 15rem;
+}
+
+#tip {
+  position: fixed;
+  pointer-events: none;
+  background: #0b0b0b;
+  color: #fff;
+  font-size: 0.78rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.1s;
+  z-index: 60;
+  max-width: 18rem;
+}
+
+.protohead {
+  background: var(--surface-1);
+  border-bottom: 1px solid var(--border);
+  padding: 0.5rem 1.25rem;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
