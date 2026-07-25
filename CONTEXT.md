@@ -14,6 +14,10 @@ _Avoid_: station, substation
 One raw `pt_name` string as CMTEB publishes it. Several labels denote the same thermal point: diacritic, casing and whitespace variants, the ` - Partial` and ` - Module Termice` qualifiers, and pre-2022-07 unqualified shorthand. 1,732 labels over 1,061 thermal points.
 _Avoid_: denumire, PT name
 
+**Registry**:
+CMTEB's [system map](https://cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php) captured as `data/thermal_points.csv` — 951 thermal points with the coordinates that serve as identity evidence for [ADR 0002](docs/adr/0002-thermal-point-identity-by-canonical-name.md). The only published list of which thermal points exist, since the status page shows only those currently in outage. Names are stored exactly as published, padding included, and a row is keyed by the `(name, latitude, longitude)` triple rather than the name, which repeats. Not a closed world: over a hundred canonical identities in the outage record are absent from it — mostly institutions — so a lookup miss is an expected case in both directions.
+_Avoid_: map, gazetteer
+
 ### Scraping
 
 **Snapshot**:

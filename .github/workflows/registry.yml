@@ -1,0 +1,47 @@
+name: Registry
+
+# Refreshes data/thermal_points.csv from CMTEB's system map once a day. Only the stable
+# fields (name, coordinates) are captured, so a run commits nothing unless CMTEB
+# commissioned, renamed or moved a thermal point -- the file's git history is the drift
+# record. The same script runs locally via `deno task registry`.
+on:
+  schedule:
+    - cron: '43 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: registry
+  cancel-in-progress: false
+
+jobs:
+  registry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+          cache: true
+
+      - name: Refresh the thermal-point registry
+        run: deno task registry
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/thermal_points.csv
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "Registry: refresh thermal points from the CMTEB system map"
+            # Flat pushes every 15 minutes; rebase absorbs that race.
+            git pull --rebase origin main
+            git push origin main
+          fi

@@ -4,10 +4,11 @@
     "backfill": "deno run --allow-run=git --allow-read --allow-write scripts/backfill.ts",
     "derive": "TZ=UTC deno run --allow-read --allow-write scripts/derive.ts",
     "health": "deno run --allow-read --allow-write --allow-run=git,gh scripts/health.ts",
+    "registry": "deno run --allow-net --allow-write scripts/registry.ts",
     "test": "deno task test:pure && TZ=UTC deno test --allow-read src/",
-    "test:pure": "deno test --no-prompt src/parser_test.ts src/csv_test.ts src/clock_test.ts src/backfill_test.ts src/derive_test.ts src/health_test.ts src/current_json_test.ts",
+    "test:pure": "deno test --no-prompt src/parser_test.ts src/csv_test.ts src/clock_test.ts src/backfill_test.ts src/derive_test.ts src/health_test.ts src/current_json_test.ts src/registry_test.ts",
     "bless": "deno run --allow-read --allow-write src/bless.ts",
-    "check": "deno check src/ scripts/backfill.ts scripts/derive.ts scripts/health.ts postprocess.ts"
+    "check": "deno check src/ scripts/backfill.ts scripts/derive.ts scripts/health.ts scripts/registry.ts postprocess.ts"
   },
   "imports": {
     "deno-dom": "jsr:@b-fuze/deno-dom@0.1.49",
@@ -18,10 +19,10 @@
   },
   "fmt": {
     "lineWidth": 100,
-    "include": ["src/", "scripts/backfill.ts", "scripts/derive.ts", "scripts/health.ts"],
+    "include": ["src/", "scripts/backfill.ts", "scripts/derive.ts", "scripts/health.ts", "scripts/registry.ts"],
     "exclude": ["src/fixtures/", "src/testdata/"]
   },
   "lint": {
-    "include": ["src/", "scripts/backfill.ts", "scripts/derive.ts", "scripts/health.ts"]
+    "include": ["src/", "scripts/backfill.ts", "scripts/derive.ts", "scripts/health.ts", "scripts/registry.ts"]
   }
 }
