@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-25T13:14:46",
+  "scraped_at": "2026-07-25T17:16:34",
   "status": "ok",
   "outages": [
     {
@@ -195,6 +195,18 @@
       "basis_n": 2233,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str N. Constantinescu - bl. 9, 11, 11A • Str Lt. D. Darian - bl. 11B, 23 • Str Lt. Radu Beller - bl. 20, 22 • Str Gen. Andrei Popovici - bl. 6, 1+1B • Str Ştefan Protopopescu - bl. 24 • Str Puţul lui Zamfir - bl. 20A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Judetului",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-25T23:30",
+      "on_time_probability": 0.574,
+      "basis_n": 54,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
     },
     {
       "sector": 2,
