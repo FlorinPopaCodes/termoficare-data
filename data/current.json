@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-26T00:33:46",
+  "scraped_at": "2026-07-26T10:17:40",
   "status": "ok",
   "outages": [
     {
@@ -203,10 +203,46 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-26T23:30",
-      "on_time_probability": 0.574,
-      "basis_n": 54,
+      "on_time_probability": 0.476,
+      "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Stefan cel Mare",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-26T23:30",
+      "on_time_probability": 0.454,
+      "basis_n": 2678,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Ştefan cel Mare - bl. 30A, 30B, 27A, 27, 26A, 26, 24A, 24B, 26 • Str Vasile Lascăr - bl. 31A, 31B; imobil 203 • Str Tunari - bl. 24C, 24D • Str Serg. Năstase Pamfil - bl. 29, 32; imobil 38 • Str Ghiocei - bl. 30C"
+    },
+    {
+      "sector": 2,
+      "pt_name": "17-18 Petricani",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-26T23:30",
+      "on_time_probability": 0.238,
+      "basis_n": 42,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Mosilor",
+      "blocks": 25,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-26T23:30",
+      "on_time_probability": 0.454,
+      "basis_n": 2678,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
     },
     {
       "sector": 2,
