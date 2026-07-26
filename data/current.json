@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-26T10:17:40",
+  "scraped_at": "2026-07-26T12:29:25",
   "status": "ok",
   "outages": [
     {
@@ -210,6 +210,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "Opanez",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-26T23:30",
+      "on_time_probability": 0.429,
+      "basis_n": 35,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
+    },
+    {
+      "sector": 2,
       "pt_name": "3 Stefan cel Mare",
       "blocks": 18,
       "service": "Deficienta ACC",
@@ -231,6 +243,18 @@
       "basis_n": 42,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Luncsoara",
+      "blocks": 13,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-26T23:30",
+      "on_time_probability": 0.463,
+      "basis_n": 41,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Deda - bl.48B • Şos Ştefan cel Mare - bl. 46, 45 ,44, 43 • Str Viitorului - bl.49 • Str Luncşoara - bl.48A, 52, 54 • Str Făinari - bl.50 , 51, 53, 55"
     },
     {
       "sector": 2,
