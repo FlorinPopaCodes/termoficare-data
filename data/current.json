@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-26T17:57:37",
+  "scraped_at": "2026-07-26T22:31:51",
   "status": "ok",
   "outages": [
     {
@@ -219,6 +219,18 @@
       "basis_n": 35,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Stefan cel Mare",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-26T23:30",
+      "on_time_probability": 0.515,
+      "basis_n": 33,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Ştefan cel Mare - bl.38B, 39, 41; 33A, 35A, 36B, 35B, 36A, 41BC, 37, 38, 33B, 35B2 • Str Viitorului - bl.42A, 42B • Str Viesparilor - bl. 33C, 34 • Str Badea Cârţan - bl.37A , 40, 40Bis, imob.Nr.62, 67"
     },
     {
       "sector": 2,
