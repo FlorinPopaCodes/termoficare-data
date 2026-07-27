@@ -4257,7 +4257,7 @@ pt_cause_slip,2,3 Socului,planned_works,0,14,44
 pt_cause_slip,2,3 Socului,planned_works,1,3,7
 pt_cause_slip,2,3 Socului,planned_works,3+,1,1
 pt_cause_slip,2,3 Socului - Partial,breakdown,0,1,1
-pt_cause_slip,2,3 Stefan cel Mare,balancing,0,4,11
+pt_cause_slip,2,3 Stefan cel Mare,balancing,0,5,12
 pt_cause_slip,2,3 Stefan cel Mare,balancing,1,0,7
 pt_cause_slip,2,3 Stefan cel Mare,balancing,2,1,6
 pt_cause_slip,2,3 Stefan cel Mare,balancing,3+,6,11
@@ -4534,8 +4534,8 @@ pt_cause_slip,2,4 Socului,planned_works,1,4,8
 pt_cause_slip,2,4 Socului - Partial,breakdown,0,2,5
 pt_cause_slip,2,4 Socului - Partial,breakdown,1,0,1
 pt_cause_slip,2,4 Socului - Partial,breakdown,2,0,1
-pt_cause_slip,2,4 Stefan cel Mare,balancing,0,17,33
-pt_cause_slip,2,4 Stefan cel Mare,balancing,1,6,13
+pt_cause_slip,2,4 Stefan cel Mare,balancing,0,17,34
+pt_cause_slip,2,4 Stefan cel Mare,balancing,1,7,14
 pt_cause_slip,2,4 Stefan cel Mare,balancing,2,2,5
 pt_cause_slip,2,4 Stefan cel Mare,balancing,3+,6,12
 pt_cause_slip,2,4 Stefan cel Mare,breakdown,0,43,77
@@ -5749,7 +5749,7 @@ pt_cause_slip,2,Liceul Iulia Hasdeu,other,3+,2,2
 pt_cause_slip,2,Liceul Iulia Hasdeu,planned_works,0,11,21
 pt_cause_slip,2,Liceul Iulia Hasdeu,planned_works,1,3,8
 pt_cause_slip,2,Liceul Iulia Hasdeu,planned_works,2,2,2
-pt_cause_slip,2,Luncsoara,balancing,0,19,41
+pt_cause_slip,2,Luncsoara,balancing,0,20,42
 pt_cause_slip,2,Luncsoara,balancing,1,11,23
 pt_cause_slip,2,Luncsoara,balancing,2,10,17
 pt_cause_slip,2,Luncsoara,balancing,3+,9,20
@@ -18271,8 +18271,8 @@ sector_cause_slip,1,,planned_works,0,871,2233
 sector_cause_slip,1,,planned_works,1,176,679
 sector_cause_slip,1,,planned_works,2,81,191
 sector_cause_slip,1,,planned_works,3+,50,191
-sector_cause_slip,2,,balancing,0,1216,2678
-sector_cause_slip,2,,balancing,1,899,1618
+sector_cause_slip,2,,balancing,0,1218,2681
+sector_cause_slip,2,,balancing,1,900,1619
 sector_cause_slip,2,,balancing,2,265,759
 sector_cause_slip,2,,balancing,3+,537,1985
 sector_cause_slip,2,,breakdown,0,5747,11483
@@ -18391,8 +18391,8 @@ sector_cause_slip,6,,planned_works,0,819,2250
 sector_cause_slip,6,,planned_works,1,257,529
 sector_cause_slip,6,,planned_works,2,62,173
 sector_cause_slip,6,,planned_works,3+,43,176
-cause_slip,,,balancing,0,3857,9499
-cause_slip,,,balancing,1,2180,4865
+cause_slip,,,balancing,0,3859,9502
+cause_slip,,,balancing,1,2181,4866
 cause_slip,,,balancing,2,964,2662
 cause_slip,,,balancing,3+,1545,5923
 cause_slip,,,breakdown,0,25093,53385
@@ -18415,7 +18415,7 @@ cause_slip,,,planned_works,0,5167,14133
 cause_slip,,,planned_works,1,1303,3740
 cause_slip,,,planned_works,2,364,1351
 cause_slip,,,planned_works,3+,483,1725
-slip,,,,0,52997,132277
-slip,,,,1,21403,50062
+slip,,,,0,52999,132280
+slip,,,,1,21404,50063
 slip,,,,2,8211,22048
 slip,,,,3+,8936,34096
