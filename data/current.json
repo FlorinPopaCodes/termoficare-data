@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-27T19:37:49",
+  "scraped_at": "2026-07-27T21:11:44",
   "status": "ok",
   "outages": [
     {
@@ -3690,18 +3690,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "Razoare",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "ELCEN efectueaza lucrare tehnica programata in cadrul CET GROZAVESTI",
-      "estimated_restore": "2026-07-27T23:00",
-      "on_time_probability": 0.33,
-      "basis_n": 1271,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Lt. Gheorghe Caranda - bl. L • Int Drumul Taberei - bl. G4, K • Str Drumul Taberei - bl. I • Bld Timişoara - bl. B2, B3, B4, B5, H4 • Bld G-ral Vasile Milea - bl. B1"
-    },
-    {
-      "sector": 6,
       "pt_name": "10/4",
       "blocks": 14,
       "service": "Oprire ACC",
@@ -3930,6 +3918,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "ZAGANESCU",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "ELCEN efectueaza lucrare tehnica programata in cadru CET GROZAVESTI",
+      "estimated_restore": "2026-07-27T23:00",
+      "on_time_probability": 0.33,
+      "basis_n": 1271,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Burlă Vasile - imobil 3,17,19, 21 • Str Cpt. Pavel Zăgănescu - imobil 3,4,5,8"
+    },
+    {
+      "sector": 6,
       "pt_name": "9/4",
       "blocks": 22,
       "service": "Oprire ACC",
@@ -4047,6 +4047,18 @@
       "basis_n": 1271,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Drumul Taberei - • Ale Bujoreni - bl. P1 • Ale Poiana Cernei - bl. E4, E5, Z4 • Bld Timişoara - bl. Z1, Z2,Z3 • Ale Valea Siretului - bl. P2,P3 • Str Sibiu - bl. OD1,OD2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Razoare",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "ELCEN efectueaza lucrare tehnica programata in cadru CET GROZAVESTI",
+      "estimated_restore": "2026-07-27T23:00",
+      "on_time_probability": 0.33,
+      "basis_n": 1271,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Int Lt. Gheorghe Caranda - bl. L • Int Drumul Taberei - bl. G4, K • Str Drumul Taberei - bl. I • Bld Timişoara - bl. B2, B3, B4, B5, H4 • Bld G-ral Vasile Milea - bl. B1"
     },
     {
       "sector": 6,
@@ -4335,6 +4347,18 @@
       "basis_n": 1271,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "12 Liniei",
+      "blocks": 13,
+      "service": "Oprire ACC",
+      "cause": "Lucrare tehnica programata in cadrul CTE Grozavesti, necesara pentru functionarea in conditii de siguranta a instalatiilor de gaze natural ( efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia )",
+      "estimated_restore": "2026-07-27T23:30",
+      "on_time_probability": 0.33,
+      "basis_n": 1271,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Mălinului - bl. 3, 4, 12bis • Str Murguţa - bl. 7, 8, 9, 10, 11 • Str Moineşti - • Str Roşiori de Vede - bl. 6 • Int Viforului - bl. 12, 13"
     },
     {
       "sector": 6,
