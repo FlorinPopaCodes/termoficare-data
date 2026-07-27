@@ -1,20 +1,44 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-27T11:44:51",
+  "scraped_at": "2026-07-27T14:58:03",
   "status": "ok",
   "outages": [
     {
       "sector": 1,
-      "pt_name": "Miciurin",
-      "blocks": 7,
+      "pt_name": "MODUL TERMIC E13",
+      "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-07-27T13:00",
-      "on_time_probability": 0.4,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Mareşal Alexandru Averescu - bl. 1, 2, 3, 4, 5, 6, 7"
+      "estimated_restore": "2026-07-27T15:30",
+      "on_time_probability": 0.39,
+      "basis_n": 2233,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Băiculeşti - E13"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC F13 sc.A+B",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-07-27T15:30",
+      "on_time_probability": 0.39,
+      "basis_n": 2233,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Int Dridu - bl.F13 sc.A+B"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC F13 sc.C+D",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-07-27T15:30",
+      "on_time_probability": 0.39,
+      "basis_n": 2233,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Int Dridu - bl.F13 sc.C+D"
     },
     {
       "sector": 1,
@@ -690,18 +714,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "23 Baicului",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Lucrari in punctul termic pe circuitul de apa calda",
-      "estimated_restore": "2026-07-27T15:00",
-      "on_time_probability": 0.091,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
-    },
-    {
-      "sector": 2,
       "pt_name": "Judetului",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -723,30 +735,6 @@
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
-    },
-    {
-      "sector": 2,
-      "pt_name": "17-18 Petricani",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-27T23:30",
-      "on_time_probability": 0.44,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
-    },
-    {
-      "sector": 2,
-      "pt_name": "13 Lacul Tei",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-27T23:30",
-      "on_time_probability": 0.265,
-      "basis_n": 34,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
     },
     {
       "sector": 2,
@@ -1635,6 +1623,42 @@
       "basis_n": 187,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Spl Unirii -"
+    },
+    {
+      "sector": 4,
+      "pt_name": "V.S.Sud",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Se efectueaza o lucrare tehnica programata in cadrul CTE Grozavesti, necesara pentru functionarea in conditii de siguranta a instalatiilor de gaz natural (efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia)",
+      "estimated_restore": "2026-07-27T23:00",
+      "on_time_probability": 0.347,
+      "basis_n": 793,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Izvorul Cosbuc",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Se efectueaza o lucrare tehnica programata in cadrul CTE Grozavesti, necesara pentru functionarea in conditii de siguranta a instalatiilor de gaz natural (efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia)",
+      "estimated_restore": "2026-07-27T23:00",
+      "on_time_probability": 0.347,
+      "basis_n": 793,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Regina Maria - bl. 119 • Bld Libertăţii - bl. 113, 114, 115, 116, 117, 118, A1, A2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "P 5 A",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Se efectueaza o lucrare tehnica programata in cadrul CTE Grozavesti, necesara pentru functionarea in conditii de siguranta a instalatiilor de gaz natural (efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia)",
+      "estimated_restore": "2026-07-27T23:00",
+      "on_time_probability": 0.347,
+      "basis_n": 793,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
     },
     {
       "sector": 4,
@@ -3735,6 +3759,18 @@
       "basis_n": 1613,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "SC 4/5",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-27T15:30",
+      "on_time_probability": 0.493,
+      "basis_n": 69,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Roşia Montană - bl. 29, 30, 32 • Str Dezrobirii - bl. 23, 24, 25, 26, 27, 33 • Str Cetatea de Baltă - bl. 28, 31"
     },
     {
       "sector": 6,
