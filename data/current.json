@@ -1,45 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-27T14:58:03",
+  "scraped_at": "2026-07-27T17:28:03",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC E13",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-07-27T15:30",
-      "on_time_probability": 0.39,
-      "basis_n": 2233,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Băiculeşti - E13"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC F13 sc.A+B",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-07-27T15:30",
-      "on_time_probability": 0.39,
-      "basis_n": 2233,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Dridu - bl.F13 sc.A+B"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC F13 sc.C+D",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-07-27T15:30",
-      "on_time_probability": 0.39,
-      "basis_n": 2233,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Dridu - bl.F13 sc.C+D"
-    },
     {
       "sector": 1,
       "pt_name": "156 Grivita",
@@ -342,6 +306,18 @@
     },
     {
       "sector": 1,
+      "pt_name": "2 Ilie Pintilie",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Electrocentrale Bucucuresti (ELCEN) informeaza ca luni 27.07.2026 va fi efectuata o lucrare tehnica programata in cadrul CTE Grozavesti,necesara pentru functiunarea in conditii de siguranta a instalatiilorde gaz natural(efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia).Pentru desfasurarea in siguranta a acestor operatiuni,este necesara sistarea temporara a alimentari cu gaz natural CET Grozavesti",
+      "estimated_restore": "2026-07-27T23:30",
+      "on_time_probability": 0.7,
+      "basis_n": 636,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Grigore Alexandrescu - bl. H1 • Bld Iancu de Hunedoara - bl. H5, H6, H4"
+    },
+    {
+      "sector": 1,
       "pt_name": "146 Grivita",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -426,18 +402,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "7 Clucerului",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Electrocentrale Bucucuresti (ELCEN) informeaza ca luni 27.07.2026 va fi efectuata o lucrare tehnica programata in cadrul CTE Grozavesti,necesara pentru functiunarea in conditii de siguranta a instalatiilorde gaz natural(efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia).Pentru desfasurarea in siguranta a acestor operatiuni,este necesara sistarea temporara a alimentari cu gaz natural CET Grozavesti",
-      "estimated_restore": "2026-07-27T23:30",
-      "on_time_probability": 0.7,
-      "basis_n": 636,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Clucerului - bl. 36, 50 • Bld Ion Mihalache - bl. 40"
-    },
-    {
-      "sector": 1,
       "pt_name": "Iacob Negruzzi",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -471,6 +435,18 @@
       "basis_n": 636,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu - bl. 23, 20, 21A, 21, 22"
+    },
+    {
+      "sector": 1,
+      "pt_name": "1 Ilie Pintilie",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Electrocentrale Bucucuresti (ELCEN) informeaza ca luni 27.07.2026 va fi efectuata o lucrare tehnica programata in cadrul CTE Grozavesti,necesara pentru functiunarea in conditii de siguranta a instalatiilorde gaz natural(efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia).Pentru desfasurarea in siguranta a acestor operatiuni,este necesara sistarea temporara a alimentari cu gaz natural CET Grozavesti",
+      "estimated_restore": "2026-07-27T23:30",
+      "on_time_probability": 0.7,
+      "basis_n": 636,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Mexic - bl. 1, I3 • Str Londra - bl. 4 • Str Louis Blanc - bl.I 1 • Str Argentina - bl. I2 • Bld Ilie Pintilie - • Bld Iancu de Hunedoara - bl. 2, 3, I1"
     },
     {
       "sector": 1,
@@ -699,18 +675,6 @@
       "basis_n": 2233,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str N. Constantinescu - bl. 9, 11, 11A • Str Lt. D. Darian - bl. 11B, 23 • Str Lt. Radu Beller - bl. 20, 22 • Str Gen. Andrei Popovici - bl. 6, 1+1B • Str Ştefan Protopopescu - bl. 24 • Str Puţul lui Zamfir - bl. 20A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "24 Delfinului",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-27T15:00",
-      "on_time_probability": 0.634,
-      "basis_n": 82,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Delfinului - bl.D30, D21, D16, D20, D18, D19, D11, D17 • Ale Dobrina - bl. D10, D12 • Str Ciocârliei - bl.D25, D27, D26, D28, D13, D29, D15, D8, D14, D9, D24 • Şos Fundeni - bl.D22, D23"
     },
     {
       "sector": 2,
@@ -1626,18 +1590,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "V.S.Sud",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Se efectueaza o lucrare tehnica programata in cadrul CTE Grozavesti, necesara pentru functionarea in conditii de siguranta a instalatiilor de gaz natural (efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia)",
-      "estimated_restore": "2026-07-27T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 793,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
-    },
-    {
-      "sector": 4,
       "pt_name": "Izvorul Cosbuc",
       "blocks": 9,
       "service": "Oprire ACC",
@@ -1647,18 +1599,6 @@
       "basis_n": 793,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Regina Maria - bl. 119 • Bld Libertăţii - bl. 113, 114, 115, 116, 117, 118, A1, A2"
-    },
-    {
-      "sector": 4,
-      "pt_name": "P 5 A",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Se efectueaza o lucrare tehnica programata in cadrul CTE Grozavesti, necesara pentru functionarea in conditii de siguranta a instalatiilor de gaz natural (efectuarea releveului diafragmei de gaz in vederea inlocuirii acesteia)",
-      "estimated_restore": "2026-07-27T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 793,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
     },
     {
       "sector": 4,
@@ -3762,18 +3702,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "SC 4/5",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-27T15:30",
-      "on_time_probability": 0.493,
-      "basis_n": 69,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Roşia Montană - bl. 29, 30, 32 • Str Dezrobirii - bl. 23, 24, 25, 26, 27, 33 • Str Cetatea de Baltă - bl. 28, 31"
-    },
-    {
-      "sector": 6,
       "pt_name": "Razoare",
       "blocks": 11,
       "service": "Oprire ACC",
@@ -4743,18 +4671,6 @@
       "basis_n": 1271,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 7 Placare - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str. Basmului)",
-      "estimated_restore": "2026-07-27T15:30",
-      "on_time_probability": 0.304,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Basmului - bl. 108A"
     }
   ]
 }
