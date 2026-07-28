@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-28T12:44:48",
+  "scraped_at": "2026-07-28T14:45:17",
   "status": "ok",
   "outages": [
     {
@@ -9,24 +9,12 @@
       "pt_name": "2 Ilie Pintilie",
       "blocks": 4,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-28T15:00",
+      "cause": "Remediere avarie racord primar",
+      "estimated_restore": "2026-07-29T23:30",
       "on_time_probability": 0.395,
       "basis_n": 86,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Grigore Alexandrescu - bl. H1 • Bld Iancu de Hunedoara - bl. H5, H6, H4"
-    },
-    {
-      "sector": 1,
-      "pt_name": "5-1 Mai",
-      "blocks": 21,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-28T13:00",
-      "on_time_probability": 0.468,
-      "basis_n": 47,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Paharnicului - imob.Nr.2, 4, 3 • Int Anda Călugăreanu - imob.Nr. 1 • Str Clucerului - bl. 49, imob. Nr. 21C, 27, 23A • Bld Ion Mihalache - bl. 52, 41, 45, 44A1, 44A2, 44B, 41, imob Nr.66 • Str Serdarului - bl. 46A, 46B, 47, 48 • Str Radu Boiangiu - bl.42"
     },
     {
       "sector": 1,
@@ -342,30 +330,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "C1 Vatra Luminoasa",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.646,
-      "basis_n": 82,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dimitrie Marinescu - Bl. C2 • Str Vatra Luminoasă - bl.W1, W2, C1,imob.Nr.62, 79, 81, 83, 85, 87,64, 89, 97, 91-93, 91, 95 • Str Lt. Bazar Romulus Niculescu - imob.Nr. 42, 28, 32 ,44 • Str Mr. Laurenţiu Claudian - imob.Nr.42, 40, 53 • Str Constantin Tănase - imob.Nr.1, 5, 3, 9, 17, 13, 19"
-    },
-    {
-      "sector": 2,
-      "pt_name": "2 Cheile Zanoagei",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-28T15:00",
-      "on_time_probability": 0.574,
-      "basis_n": 115,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Alexandru cel Bun - bl.T21A, T19A, T16; T18, T17A, T21B, T17B, T19B; T20, T22 ; • Str Cristea Mateescu - bl.T15C,T15A,T15B • Str Grigore Ionescu - bl.T26, T14, T13, T28, T27 , T25 • Str Oteşani - bl.T23A, T24A, T24, T23B"
-    },
-    {
-      "sector": 2,
       "pt_name": "Judetului",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -471,18 +435,6 @@
       "basis_n": 61,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mizil - bl. 1, 3A, 4ALCAZ, G17,TMUCB,C1, 3 • Str Prevederii - bl. G15,G16 • Str Lemnişorului - bl. G40, G41, G42"
-    },
-    {
-      "sector": 3,
-      "pt_name": "6C4/2",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum bl H8",
-      "estimated_restore": "2026-07-28T15:00",
-      "on_time_probability": 0.429,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Stănila - bl. H12, H9, H11, H7, H10 • Ale Rotundă - Y1, H8, H6"
     },
     {
       "sector": 3,
@@ -2490,18 +2442,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "4 Petre Ispirescu - Partial",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum )",
-      "estimated_restore": "2026-07-28T15:30",
-      "on_time_probability": 0.519,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lacul Plopului - bl. P75 • Str Dorneasca - bl. P62, P59, P63 • Str Novaci - bl. P61, P65"
-    },
-    {
-      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2562,14 +2502,26 @@
     },
     {
       "sector": 6,
+      "pt_name": "5 Virtuții - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire",
+      "estimated_restore": "2026-07-28T18:30",
+      "on_time_probability": 0.414,
+      "basis_n": 10285,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Virtuţii - bl. R11A"
+    },
+    {
+      "sector": 6,
       "pt_name": "12 Maratonului",
       "blocks": 20,
       "service": "Oprire ACC",
       "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
       "estimated_restore": "2026-07-28T14:00",
-      "on_time_probability": 0.464,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Int Maratonului - bl. N6 • Str Apusului - bl. 47, 48, 49, 69, 70, 71, 50 • Str Mărgelelor - bl. N2, N3 • Int Flotei - bl. N4 • Ale Ghirlandei - bl. N1, N5, N5A, 43, 44, 45, 46 • Str Castranova - Casa Ilie"
     },
     {
