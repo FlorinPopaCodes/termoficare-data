@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-28T20:07:03",
+  "scraped_at": "2026-07-28T21:42:27",
   "status": "ok",
   "outages": [
     {
@@ -330,6 +330,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "19 Pantelimon",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-28T23:30",
+      "on_time_probability": 0.454,
+      "basis_n": 2685,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
+    },
+    {
+      "sector": 2,
       "pt_name": "Judetului",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -387,18 +399,6 @@
       "basis_n": 34,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Ştefan cel Mare - bl.38B, 39, 41; 33A, 35A, 36B, 35B, 36A, 41BC, 37, 38, 33B, 35B2 • Str Viitorului - bl.42A, 42B • Str Viesparilor - bl. 33C, 34 • Str Badea Cârţan - bl.37A , 40, 40Bis, imob.Nr.62, 67"
-    },
-    {
-      "sector": 2,
-      "pt_name": "6 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.68,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
     },
     {
       "sector": 2,
