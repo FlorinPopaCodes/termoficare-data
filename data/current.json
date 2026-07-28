@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-28T16:19:29",
+  "scraped_at": "2026-07-28T18:40:31",
   "status": "ok",
   "outages": [
     {
@@ -11,9 +11,9 @@
       "service": "Oprire ACC",
       "cause": "Modernizare automatizare",
       "estimated_restore": "2026-07-28T18:00",
-      "on_time_probability": 0.389,
-      "basis_n": 2237,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Băiculeşti - E13"
     },
     {
@@ -23,9 +23,9 @@
       "service": "Oprire ACC",
       "cause": "Modernizare automatizare",
       "estimated_restore": "2026-07-28T18:00",
-      "on_time_probability": 0.389,
-      "basis_n": 2237,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Int Dridu - bl.F13 sc.A+B"
     },
     {
@@ -35,9 +35,9 @@
       "service": "Oprire ACC",
       "cause": "Modernizare automatizare",
       "estimated_restore": "2026-07-28T18:00",
-      "on_time_probability": 0.389,
-      "basis_n": 2237,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Int Dridu - bl.F13 sc.C+D"
     },
     {
@@ -387,18 +387,6 @@
       "basis_n": 36,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
-    },
-    {
-      "sector": 2,
-      "pt_name": "13 Lacul Tei",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.286,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
     },
     {
       "sector": 2,
@@ -2559,42 +2547,6 @@
       "basis_n": 64,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Oboga - bl. 155A, 160 • Bld Iuliu Maniu - bl. 1, 2A, 2B, 3 • Str Vistiernicul Stavrinos - bl. 51, 52A, 53, 53A, 54, 54A, 55A, 152, 153, 155 • Str Băbeşti - bl. 52 • Str Ierbei - bl. 158 • Str Iedului - bl. 149A, 149B • Str Bârsăneşti - bl. 50,150, 151, 154, 156, 157, 159"
-    },
-    {
-      "sector": 6,
-      "pt_name": "5 Virtuții - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire",
-      "estimated_restore": "2026-07-28T18:30",
-      "on_time_probability": 0.414,
-      "basis_n": 10285,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Virtuţii - bl. R11A"
-    },
-    {
-      "sector": 6,
-      "pt_name": "12 Liniei - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-28T18:30",
-      "on_time_probability": 0.231,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Viforului - bl. 12"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 8/9",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-28T18:30",
-      "on_time_probability": 0.56,
-      "basis_n": 50,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Floare Roşie - bl. 51, 53, 54, 55, 58, 67, 68 • Bld Iuliu Maniu - bl. 34, 35, 36, 37 • Str Cernişoara - bl. L"
     }
   ]
 }
