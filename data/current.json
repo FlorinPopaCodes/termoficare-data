@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-28T21:42:27",
+  "scraped_at": "2026-07-28T23:05:40",
   "status": "ok",
   "outages": [
     {
@@ -347,9 +347,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.135,
-      "basis_n": 52,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
     },
     {
@@ -359,46 +359,22 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.417,
-      "basis_n": 36,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
     },
     {
       "sector": 2,
-      "pt_name": "Aleea Circului",
-      "blocks": 6,
+      "pt_name": "Ion Maiorescu",
+      "blocks": 4,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.454,
-      "basis_n": 2685,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Ştefan cel Mare - bl. 15, 17 • Ale Circului - bl. 1, 2, 3, 4"
-    },
-    {
-      "sector": 2,
-      "pt_name": "5 Mosilor",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.454,
-      "basis_n": 2685,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Deda - bl.79 • Şos Ştefan cel Mare - bl.59B, 59B1, 77, 47; 59A • Cal Moşilor - bl.55 Bis, • Str Luncşoara - bl.75, 63, 73 • Str Făinari - bl.69, 71 • Str Rovine - bl.65, 67"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Stefan cel Mare",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.5,
-      "basis_n": 34,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Ştefan cel Mare - bl.38B, 39, 41; 33A, 35A, 36B, 35B, 36A, 41BC, 37, 38, 33B, 35B2 • Str Viitorului - bl.42A, 42B • Str Viesparilor - bl. 33C, 34 • Str Badea Cârţan - bl.37A , 40, 40Bis, imob.Nr.62, 67"
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
+      "zone_raw": "• Şos Mihai Bravu - bl.P21-21A, P22, P22A, P23-24"
     },
     {
       "sector": 2,
@@ -407,9 +383,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.454,
-      "basis_n": 2685,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl. 30A, 30B, 27A, 27, 26A, 26, 24A, 24B, 26 • Str Vasile Lascăr - bl. 31A, 31B; imobil 203 • Str Tunari - bl. 24C, 24D • Str Serg. Năstase Pamfil - bl. 29, 32; imobil 38 • Str Ghiocei - bl. 30C"
     },
     {
@@ -419,9 +395,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.454,
-      "basis_n": 2685,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
     },
     {
@@ -431,9 +407,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.286,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
     },
     {
@@ -443,9 +419,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.454,
-      "basis_n": 2685,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Cenuşeresei - bl.50, 52 • Str Traian - bl.30 B, imob.Nr.254 • Cal Moşilor - bl.36, 38, 42, 46, 48, 58, 32, 30A, 31A , 31C • Str Mihai Eminescu - bl.31B ,32 • Str Vaselor - bl.34, imob.Nr.3A • Str Ion Maiorescu - bl.44 ;50 ;40, imob.Nr.37, 7"
     },
     {
@@ -455,10 +431,22 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.476,
-      "basis_n": 42,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Deda - bl.48B • Şos Ştefan cel Mare - bl. 46, 45 ,44, 43 • Str Viitorului - bl.49 • Str Luncşoara - bl.48A, 52, 54 • Str Făinari - bl.50 , 51, 53, 55"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Mosilor",
+      "blocks": 25,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-28T23:00",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
+      "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
     },
     {
       "sector": 2,
@@ -467,9 +455,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-28T23:00",
-      "on_time_probability": 0.151,
-      "basis_n": 53,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
     },
     {
