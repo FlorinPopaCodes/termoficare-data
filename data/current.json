@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-29T20:34:53",
+  "scraped_at": "2026-07-29T21:38:36",
   "status": "ok",
   "outages": [
     {
@@ -318,18 +318,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "2 Fundeni",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-29T21:00",
-      "on_time_probability": 0.461,
-      "basis_n": 102,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Maior Vasile Băcilă - bl.30A, 30B, 18B, 19 • Str Pescarilor - bl.25, 26 • Str Poiana cu Aluni - bl.17, 18, 18A • Str Răscoala 1907 - bl.24 • Str Radovanu - bl.20, 22, 23, 21"
-    },
-    {
-      "sector": 2,
       "pt_name": "3 Fundeni",
       "blocks": 17,
       "service": "Oprire ACC",
@@ -346,7 +334,7 @@
       "blocks": 22,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-29T23:30",
+      "estimated_restore": "2026-07-30T23:30",
       "on_time_probability": 0.364,
       "basis_n": 22,
       "basis_bucket": "pt_cause_slip",
@@ -354,11 +342,35 @@
     },
     {
       "sector": 2,
+      "pt_name": "4 Stefan cel Mare",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-30T23:30",
+      "on_time_probability": 0.486,
+      "basis_n": 35,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Ştefan cel Mare - bl.38B, 39, 41; 33A, 35A, 36B, 35B, 36A, 41BC, 37, 38, 33B, 35B2 • Str Viitorului - bl.42A, 42B • Str Viesparilor - bl. 33C, 34 • Str Badea Cârţan - bl.37A , 40, 40Bis, imob.Nr.62, 67"
+    },
+    {
+      "sector": 2,
+      "pt_name": "6 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-30T23:30",
+      "on_time_probability": 0.692,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
+    },
+    {
+      "sector": 2,
       "pt_name": "13 Lacul Tei",
       "blocks": 11,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-29T23:30",
+      "estimated_restore": "2026-07-30T23:30",
       "on_time_probability": 0.458,
       "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
@@ -370,7 +382,7 @@
       "blocks": 9,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-29T23:30",
+      "estimated_restore": "2026-07-30T23:30",
       "on_time_probability": 0.151,
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
@@ -2235,18 +2247,6 @@
       "basis_n": 1376,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Rahova - Partial",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-29T20:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Vicina - bl 29A, 29B, 33 • Str Oltina - bl 27"
     },
     {
       "sector": 5,
