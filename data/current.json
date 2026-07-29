@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-29T13:03:05",
+  "scraped_at": "2026-07-29T15:17:07",
   "status": "ok",
   "outages": [
     {
@@ -1446,30 +1446,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "Propriu 1",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.296,
-      "basis_n": 412,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 52, 53"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Moldovita",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Moldoviţa - bl. 1, 3, 5, 7, 9, 11, 13, 15"
-    },
-    {
-      "sector": 4,
       "pt_name": "2 Oltenitei",
       "blocks": 12,
       "service": "Oprire ACC",
@@ -1503,18 +1479,6 @@
       "basis_n": 1376,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - bl. OD1, 2B, 2A, M1, OD2"
-    },
-    {
-      "sector": 4,
-      "pt_name": "6 Berceni Oltenita",
-      "blocks": 27,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Slt. Erou Gheorghe Ionescu - bl. 139, 140, 141, 144, 148 • Str Sg. Ion Iriceanu - bl. 152, 153, 154,155, 156 • Şos Olteniţei - bl. 148Bis, 149, 151 • Str Panselelor - bl. 142, 145, 146, 150, 169, 173, Parohia Sf. Nicolae • Str Anton Bacalbaşa - bl. 143, 170, 171, 172 • Str Călţunaşi - bl. 147, 174, 175"
     },
     {
       "sector": 4,
@@ -1575,18 +1539,6 @@
       "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
-    },
-    {
-      "sector": 4,
-      "pt_name": "7 Berceni Oltenita",
-      "blocks": 26,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Slt. Erou Gheorghe Ionescu - bl. 126, 136 • Ale Sg maj Emil Holuţ - bl. 161, 162 • Str Sg. Ion Iriceanu - bl. 131, 132, 157, 158, 160 • Str Panselelor - bl. 133, 134, 134Bis, 135, 163, 164, 165 • Str Şoldanului - bl. 137, 159, 166, 167, 168 • Str Cap. Constantin Vasilescu - bl. 138 • Şos Berceni - bl. 127, 128, 129, 130"
     },
     {
       "sector": 4,
@@ -1659,18 +1611,6 @@
       "basis_n": 1376,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Moldoviţa -"
-    },
-    {
-      "sector": 4,
-      "pt_name": "5 Berceni Oltenița",
-      "blocks": 25,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Sg. maj. Victor Popescu - bl. 91, 92 • Str Sg. maj. Dumitru Samoilă - bl. 93, 95, 96, 105 • Str Măriuca - bl. 109, 110, 116 • Str Frumuşani - bl. 94, 99, 100, 101, 115 • Str Şoldanului - bl. 97, 111, 112, 113, 114 • Str Cap. Gheorghe Ion - bl. 102, 103 • Şos Berceni - bl. 104, 106, 107, 108"
     },
     {
       "sector": 4,
@@ -1818,18 +1758,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "1 Oltenita Nord",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Sold. Nicolae Barbu - bl. 12, 13, 15, 16 • Str Sold. Florea Ionescu - bl. 1, 2, 3 • Str Lunca Bârzeşti - bl. 11, 14, 17, 21 • Şos Olteniţei - bl. 22, 23, 25, 27, 28, 30 • Str Cercetătorilor - bl. 18, 19, 20, 24, 26, 29"
-    },
-    {
-      "sector": 4,
       "pt_name": "Complex Comercial",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -1890,18 +1818,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "Sabaoani",
-      "blocks": 25,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Moldoviţa - bl. C5, EM5, EM6, M2D9/1A, M2D9/1B, M2D9/3, M2D9/4 • Ale Moldoviţa - bl. A7, A8, C1, C2, C3, C4, EM3 • Str Lt. col. Dumitru Petrescu - bl. A7 • Ale Emil Racoviţă - bl. A1, A2, A3, A4, A5, A6, C6, EM1, EM2, M2D9/2, Școala nr.93, Gradinița nr.199"
-    },
-    {
-      "sector": 4,
       "pt_name": "9 Brâncoveanu",
       "blocks": 4,
       "service": "Oprire ACC",
@@ -1923,18 +1839,6 @@
       "basis_n": 1376,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Ornamentului - bl. E7 • Ale Râul Sadului - bl. R22 • Str Emil Racoviţă - bl. I13, R6, R9, R23, U3 • Str Turnu Măgurele - bl. A14, A15, S1"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Dumitru Petrescu",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Turnu Măgurele - bl. 10 • Str Tomeşti - bl. 1, 2, 12, 13, 14, 15 • Str Democraţiei - bl. 7, 8, 9, 11 • Şos Berceni - bl. 3, 4, 5, 6"
     },
     {
       "sector": 4,
@@ -2019,18 +1923,6 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Abatorului - bl. 95 • Str Plugarilor - bl. 91, 94 • Str V. V. Stanciu - bl. 88, 90 • Cal Văcăreşti - bl. 85A, 85B, 86, 87 • Ale Bran - bl. 89, 92, 93"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Berceni Oltenita",
-      "blocks": 27,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 6, 7, 8, 13, 13bis, 23, 24 • Str Anton Bacalbaşa - bl. 26 • Str Parincea - bl. 5, 14, 15 • Str Voila - bl. 18, 19, 21, 22, Școala nr.113 • Str Ciochina - bl. 10, 11, 12, 20, 25 • Şos Berceni - bl. 1, 2, 3, 4, 9, 16, 17"
     },
     {
       "sector": 4,
@@ -2346,18 +2238,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "Propriu 2",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.296,
-      "basis_n": 412,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 55, 56"
-    },
-    {
-      "sector": 4,
       "pt_name": "5 Zona I",
       "blocks": 9,
       "service": "Oprire ACC",
@@ -2367,18 +2247,6 @@
       "basis_n": 1376,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. O4 • Str Aliorului - bl. E11, Gradinita 101 Dalmatieni • Bld Alexandru Obregia - bl. O3 • Ale Ciceu - bl. 5B, E12, E13, E14, R10"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Nord",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.296,
-      "basis_n": 412,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stolnici - bl. 43, 44, 45, 46 • Str Săvineşti - bl. 37, 38A, 38B, 39, 40 • Şos Olteniţei - bl. 31, 33 • Str Vegetaţiei - bl. 32 • Str Cercetătorilor - bl. 35, 48"
     },
     {
       "sector": 4,
@@ -2394,18 +2262,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "2 Berceni Oltenita",
-      "blocks": 26,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stânjeneilor - bl. 29, 30, 50, 54, 57, 62; Școala nr.133 • Şos Olteniţei - bl. 48, 53, 57, 58 • Str Anton Bacalbaşa - bl. 31, 51, 55, 61 • Str Gârniţei - bl. 49, 50, 52, 56 • Str Voila - bl. 32, 33, 59, 60 • Str Tulnici - bl.45, 46, 47 • Şos Berceni - bl. 27, 28"
-    },
-    {
-      "sector": 4,
       "pt_name": "17 Dolhasca",
       "blocks": 11,
       "service": "Oprire ACC",
@@ -2415,18 +2271,6 @@
       "basis_n": 1376,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Sg. Gheorghe Tache - bl. 17 • Şos Olteniţei - bl. 1, 2, 3, 13, 14, 16, Parohie • Str Huşi - bl. PA1, PA2 • Str Dolhasca - Vila Serban"
-    },
-    {
-      "sector": 4,
-      "pt_name": "3 Berceni Oltenița",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 1376,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stânjeneilor - bl. 34 • Str Gârniţei - bl. 35Bis, 36, 42 • Str Frumuşani - bl. 37, 41, 43 • Str Tulnici - bl. 40, 44 • Şos Berceni - bl. 35, 38, 39"
     },
     {
       "sector": 4,
@@ -2550,6 +2394,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "1 Panduri - Partial",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-29T15:30",
+      "on_time_probability": 0.086,
+      "basis_n": 35,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal 13 Septembrie - bl. P34 • Şos Panduri - P32, P33"
+    },
+    {
+      "sector": 5,
       "pt_name": "4 Rahova - Partial",
       "blocks": 4,
       "service": "Oprire ACC",
@@ -2595,18 +2451,6 @@
       "basis_n": 44,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Izvor - Nr. 2-4 - instituţie"
-    },
-    {
-      "sector": 5,
-      "pt_name": "6 Margeanului",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-29T15:00",
-      "on_time_probability": 0.407,
-      "basis_n": 81,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M21, M25, M26, M27 • Str Sold. Ene Modoran - bl. M91, M92, M94 • Str Dumbrava Nouă - bl. M17, M28, M80, M81, M82 • Str Cap. Petre Mişcă - bl. M18, M19, M20, M22 • Str Mărgeanului - bl. M23, M23A, M24"
     },
     {
       "sector": 5,
@@ -2667,42 +2511,6 @@
       "basis_n": 1613,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4/6 - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum- str. Aleea Calatis",
-      "estimated_restore": "2026-07-29T13:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Callatis - bl. A11"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1/1",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum -str. Mihaela R. Marcu",
-      "estimated_restore": "2026-07-29T15:30",
-      "on_time_probability": 0.353,
-      "basis_n": 34,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mihaela Ruxandra Marcu - bl. C7,107,108 • Str Drumul Taberei - bl. C2,T8 • Ale Poiana Sibiului - bl. MC1, MC2, C4, E25, C5 • Bld Timişoara - bl. 106A, 106B, C6 • Str Sibiu - bl. E1, E2, E3, T9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 4/3 -MODULE TERMICE",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie racord primar DN 80 - str. Crinul de Padure",
-      "estimated_restore": "2026-07-30T09:00",
-      "on_time_probability": 0.414,
-      "basis_n": 10288,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Drumul Taberei - bl. OS2, OS4, GIIB4/3, GIIB4/4, GIIB4/5, F3 • Str Braşov - bl. OD1, Z132A, Z132B • Ale Poiana Muntelui - bl.OD3 • Str Crinul de Pădure - bl. G5, G6, G7, F2"
     },
     {
       "sector": 6,
