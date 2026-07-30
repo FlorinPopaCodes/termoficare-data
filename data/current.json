@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-30T14:31:58",
+  "scraped_at": "2026-07-30T16:13:10",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "A Gara",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic -",
-      "estimated_restore": "2026-07-30T14:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Gării de Nord - bl. A, C • Cal Griviţei - bl. 139 • Str Atelierului -"
-    },
     {
       "sector": 1,
       "pt_name": "MODUL TERMIC B13",
@@ -58,7 +46,7 @@
       "blocks": 2,
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
-      "estimated_restore": "2026-07-30T23:30",
+      "estimated_restore": "2026-07-31T23:30",
       "on_time_probability": 0.39,
       "basis_n": 2244,
       "basis_bucket": "sector_cause_slip",
@@ -70,7 +58,7 @@
       "blocks": 5,
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
-      "estimated_restore": "2026-07-30T23:30",
+      "estimated_restore": "2026-07-31T23:30",
       "on_time_probability": 0.39,
       "basis_n": 2244,
       "basis_bucket": "sector_cause_slip",
@@ -82,7 +70,7 @@
       "blocks": 10,
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
-      "estimated_restore": "2026-07-30T23:30",
+      "estimated_restore": "2026-07-31T23:30",
       "on_time_probability": 0.39,
       "basis_n": 2244,
       "basis_bucket": "sector_cause_slip",
@@ -94,7 +82,7 @@
       "blocks": 13,
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
-      "estimated_restore": "2026-07-30T23:30",
+      "estimated_restore": "2026-07-31T23:30",
       "on_time_probability": 0.39,
       "basis_n": 2244,
       "basis_bucket": "sector_cause_slip",
@@ -106,7 +94,7 @@
       "blocks": 10,
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
-      "estimated_restore": "2026-07-30T23:30",
+      "estimated_restore": "2026-07-31T23:30",
       "on_time_probability": 0.333,
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
@@ -402,18 +390,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "U1",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-30T14:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Baba Novac - bl. R1, T1, T2, U1"
-    },
-    {
-      "sector": 3,
       "pt_name": "SC.1Cornisa - Module Termice",
       "blocks": 8,
       "service": "Oprire ACC",
@@ -435,18 +411,6 @@
       "basis_n": 3688,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Barajul Uzului - bl. L23A, L23B • Ale Barajul Bicaz - bl. G1, M31, M32A, M32B, M33, M33A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Placare-T",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - b-dul Theodor Pallady",
-      "estimated_restore": "2026-07-30T23:30",
-      "on_time_probability": 0.655,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mizil - bl. 1, 3A, 4ALCAZ, G17,TMUCB,C1, 3 • Str Prevederii - bl. G15,G16 • Str Lemnişorului - bl. G40, G41, G42"
     },
     {
       "sector": 3,
@@ -2310,27 +2274,27 @@
     },
     {
       "sector": 6,
+      "pt_name": "MILITARI - 1 Placare - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-07-30T17:30",
+      "on_time_probability": 0.212,
+      "basis_n": 66,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - bl. 2A"
+    },
+    {
+      "sector": 6,
       "pt_name": "1/1",
       "blocks": 19,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. M.R.MARCU",
       "estimated_restore": "2026-07-30T15:00",
-      "on_time_probability": 0.343,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mihaela Ruxandra Marcu - bl. C7,107,108 • Str Drumul Taberei - bl. C2,T8 • Ale Poiana Sibiului - bl. MC1, MC2, C4, E25, C5 • Bld Timişoara - bl. 106A, 106B, C6 • Str Sibiu - bl. E1, E2, E3, T9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "8 Virtuții - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-30T14:30",
       "on_time_probability": 0,
       "basis_n": 0,
       "basis_bucket": "overdue",
-      "zone_raw": "• Str Dealului - bl. F8"
+      "zone_raw": "• Str Mihaela Ruxandra Marcu - bl. C7,107,108 • Str Drumul Taberei - bl. C2,T8 • Ale Poiana Sibiului - bl. MC1, MC2, C4, E25, C5 • Bld Timişoara - bl. 106A, 106B, C6 • Str Sibiu - bl. E1, E2, E3, T9"
     },
     {
       "sector": 6,
