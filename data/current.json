@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-30T16:13:10",
+  "scraped_at": "2026-07-30T18:22:37",
   "status": "ok",
   "outages": [
     {
@@ -11,9 +11,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari modernizare automatizare.",
       "estimated_restore": "2026-07-30T18:00",
-      "on_time_probability": 0.39,
-      "basis_n": 2244,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Băiculeşti - bl. B13"
     },
     {
@@ -23,9 +23,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari modernizare automatizare.",
       "estimated_restore": "2026-07-30T18:00",
-      "on_time_probability": 0.39,
-      "basis_n": 2244,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Băiculeşti - bl. C13"
     },
     {
@@ -35,9 +35,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari modernizare automatizare.",
       "estimated_restore": "2026-07-30T18:00",
-      "on_time_probability": 0.39,
-      "basis_n": 2244,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Băiculeşti - bl. A13"
     },
     {
@@ -315,18 +315,6 @@
       "basis_n": 760,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
-    },
-    {
-      "sector": 2,
-      "pt_name": "13 Lacul Tei",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-30T23:30",
-      "on_time_probability": 0.349,
-      "basis_n": 760,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
     },
     {
       "sector": 2,
@@ -2274,51 +2262,15 @@
     },
     {
       "sector": 6,
-      "pt_name": "MILITARI - 1 Placare - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-30T17:30",
-      "on_time_probability": 0.212,
-      "basis_n": 66,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 2A"
-    },
-    {
-      "sector": 6,
       "pt_name": "1/1",
       "blocks": 19,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. M.R.MARCU",
-      "estimated_restore": "2026-07-30T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Mihaela Ruxandra Marcu - bl. C7,107,108 • Str Drumul Taberei - bl. C2,T8 • Ale Poiana Sibiului - bl. MC1, MC2, C4, E25, C5 • Bld Timişoara - bl. 106A, 106B, C6 • Str Sibiu - bl. E1, E2, E3, T9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 3A Placare - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-07-30T17:30",
-      "on_time_probability": 0.414,
-      "basis_n": 10293,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Moineşti - bl. 127"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 1 Placare",
-      "blocks": 28,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie racord primar",
-      "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.547,
-      "basis_n": 64,
+      "estimated_restore": "2026-07-30T19:30",
+      "on_time_probability": 0.343,
+      "basis_n": 35,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Oboga - bl. 155A, 160 • Bld Iuliu Maniu - bl. 1, 2A, 2B, 3 • Str Vistiernicul Stavrinos - bl. 51, 52A, 53, 53A, 54, 54A, 55A, 152, 153, 155 • Str Băbeşti - bl. 52 • Str Ierbei - bl. 158 • Str Iedului - bl. 149A, 149B • Str Bârsăneşti - bl. 50,150, 151, 154, 156, 157, 159"
+      "zone_raw": "• Str Mihaela Ruxandra Marcu - bl. C7,107,108 • Str Drumul Taberei - bl. C2,T8 • Ale Poiana Sibiului - bl. MC1, MC2, C4, E25, C5 • Bld Timişoara - bl. 106A, 106B, C6 • Str Sibiu - bl. E1, E2, E3, T9"
     }
   ]
 }
