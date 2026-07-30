@@ -1,45 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-30T18:22:37",
+  "scraped_at": "2026-07-30T19:57:05",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC B13",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare automatizare.",
-      "estimated_restore": "2026-07-30T18:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Băiculeşti - bl. B13"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC C13",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare automatizare.",
-      "estimated_restore": "2026-07-30T18:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Băiculeşti - bl. C13"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC A13",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare automatizare.",
-      "estimated_restore": "2026-07-30T18:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Băiculeşti - bl. A13"
-    },
     {
       "sector": 1,
       "pt_name": "156 Grivita",
@@ -387,18 +351,6 @@
       "basis_n": 3688,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Barajul Iezeru - Module bl.M1A+B • Ale Barajul Bicaz - Module bl. M2A+B, M3A, M3B, M25A+B, M26 • Bld 1 Decembrie 1918 - Module bl.M27, M28"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1CORNISA",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - str.Barajul Uzului",
-      "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.456,
-      "basis_n": 3688,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Barajul Uzului - bl. L23A, L23B • Ale Barajul Bicaz - bl. G1, M31, M32A, M32B, M33, M33A"
     },
     {
       "sector": 3,
@@ -2267,9 +2219,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. M.R.MARCU",
       "estimated_restore": "2026-07-30T19:30",
-      "on_time_probability": 0.343,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mihaela Ruxandra Marcu - bl. C7,107,108 • Str Drumul Taberei - bl. C2,T8 • Ale Poiana Sibiului - bl. MC1, MC2, C4, E25, C5 • Bld Timişoara - bl. 106A, 106B, C6 • Str Sibiu - bl. E1, E2, E3, T9"
     }
   ]
