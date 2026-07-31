@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-31T06:49:41",
+  "scraped_at": "2026-07-31T09:36:26",
   "status": "ok",
   "outages": [
     {
@@ -11,8 +11,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
       "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.39,
-      "basis_n": 2244,
+      "on_time_probability": 0.257,
+      "basis_n": 684,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. 3B, 2B, 4B"
     },
@@ -23,8 +23,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
       "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.39,
-      "basis_n": 2244,
+      "on_time_probability": 0.257,
+      "basis_n": 684,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Petru Rareş - imob.Nr.19-21 • Şos Nicolae Titulescu - bl. 21, 20 • Cal Griviţei - bl. B"
     },
@@ -35,8 +35,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
       "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.39,
-      "basis_n": 2244,
+      "on_time_probability": 0.257,
+      "basis_n": 684,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu - bl. 24, 24A, imob.Nr.60, 58 • Bld Banul Manta - bl. 27, 26, 28, 29, imobil Nr.24 • Str Gen. G. Constantinide - bl. 24C"
     },
@@ -47,8 +47,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
       "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.39,
-      "basis_n": 2244,
+      "on_time_probability": 0.257,
+      "basis_n": 684,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Teodosie Rudeanu - bl. 15, 1C • Str Valea Merilor - imob.Nr.5 • Str Petru Maior - imob.Nr.10 • Şos Nicolae Titulescu - bl. 14-14A, 1A, 1, 13, imob.Nr.88A, 88 • Bld Banul Manta - bl. 7, 1B, imob.Nr.5"
     },
@@ -59,9 +59,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de deblindare conducte tur si retur DN 300 retea termica primara, zona C28 Cuza de catre firma SC ELSACO SRL, care urmeaza sa efectueze lucrari de modernizare, inlocuire conducte si impun sistarea furnizarii agentului termic pentru apa calda",
       "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.333,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.257,
+      "basis_n": 684,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Maior Alexandru Câmpeanu - bl. 37 • Bld Banul Manta - bl. 34, 32, 30, 31, imobil Nr.33, 61 • Str Frosa Sarandy - bl. 33 • Str G-ral Barbu Vlădoianu - bl. 35, 36"
     },
     {
@@ -180,7 +180,7 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "on_time_probability": 0.39,
-      "basis_n": 2244,
+      "basis_n": 2246,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Floreasca - bl.1F"
     },
@@ -192,7 +192,7 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "on_time_probability": 0.39,
-      "basis_n": 2244,
+      "basis_n": 2246,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. G6, 6A, 7E, 7F, 7, 7I, 7K,7M • Str Avionului - bl. 5C, 5E, 5E PRIM, 6B, 6C, 6D • Str Aviaţiei - bl. 4C, 5D, 5G, 4D, 5F,7D, 5A • Şos Pipera - bl. 4A, 4B, 5B • Str Aripilor - bl. 6E,6F • Str Borşa - bl. 5F, 4F, 4G, 4E, 7G, ARMONIA, 7B, 7A, 7H"
     },
@@ -228,7 +228,7 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "on_time_probability": 0.39,
-      "basis_n": 2244,
+      "basis_n": 2246,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str N. Constantinescu - bl. 15A, 14, 14A, 16, 16A, 13, 15, imob.Nr.60 • Str Lt. D. Darian - Nr.27 • Str George Călinescu - bl. 17, 17A, 19A, 20B, 20A • Str Gen. Andrei Popovici - bl. 8, 7, 8A, 7A, imob.Nr.65, 41 • Str Constantin D. Aricescu - bl. 21, 20 • Str Ştefan Protopopescu - bl. 3, 4, 2"
     },
@@ -252,7 +252,7 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "on_time_probability": 0.39,
-      "basis_n": 2244,
+      "basis_n": 2246,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str N. Constantinescu - bl. 9, 11, 11A • Str Lt. D. Darian - bl. 11B, 23 • Str Lt. Radu Beller - bl. 20, 22 • Str Gen. Andrei Popovici - bl. 6, 1+1B • Str Ştefan Protopopescu - bl. 24 • Str Puţul lui Zamfir - bl. 20A"
     },
@@ -275,22 +275,10 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.453,
-      "basis_n": 2702,
+      "on_time_probability": 0.454,
+      "basis_n": 2707,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Opanez",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.349,
-      "basis_n": 760,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
     },
     {
       "sector": 2,
@@ -299,22 +287,10 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.692,
-      "basis_n": 26,
+      "on_time_probability": 0.704,
+      "basis_n": 27,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
-    },
-    {
-      "sector": 2,
-      "pt_name": "13 Lacul Tei",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-07-31T23:30",
-      "on_time_probability": 0.349,
-      "basis_n": 760,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
     },
     {
       "sector": 2,
@@ -372,7 +348,7 @@
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-07-31T23:00",
       "on_time_probability": 0.328,
-      "basis_n": 3491,
+      "basis_n": 3492,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
     },
@@ -2147,8 +2123,8 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-07-31T10:00",
-      "on_time_probability": 0.531,
-      "basis_n": 49,
+      "on_time_probability": 0.136,
+      "basis_n": 22,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Spl Independenţei - Nr. 105 - instituţie"
     },
@@ -2159,8 +2135,8 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-07-31T10:00",
-      "on_time_probability": 0.51,
-      "basis_n": 49,
+      "on_time_probability": 0.24,
+      "basis_n": 25,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Izvor - Nr. 2-4 - instituţie"
     },
@@ -2171,8 +2147,8 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-07-31T10:00",
-      "on_time_probability": 0.545,
-      "basis_n": 44,
+      "on_time_probability": 0.2,
+      "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Izvor - Nr. 2-4 - instituţie"
     },
@@ -2235,6 +2211,54 @@
       "basis_n": 1613,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 7 Placare - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Basmului.)",
+      "estimated_restore": "2026-07-31T11:30",
+      "on_time_probability": 0.292,
+      "basis_n": 24,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Basmului - bl. 108A"
+    },
+    {
+      "sector": 6,
+      "pt_name": "6 Roșia Montană - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum. (str.Dreptatii.)",
+      "estimated_restore": "2026-07-31T14:30",
+      "on_time_probability": 0.343,
+      "basis_n": 35,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Dreptăţii - bl. P8"
+    },
+    {
+      "sector": 6,
+      "pt_name": "4 Roșia Montană - Partial",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Dezrobirii.)",
+      "estimated_restore": "2026-07-31T14:30",
+      "on_time_probability": 0.414,
+      "basis_n": 10299,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Dreptăţii - bl. O4, O10 • Str Dezrobirii - bl. O9 • Str Cetatea de Baltă - bl. O6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Loc ICPB",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum. Str. Preciziei",
+      "estimated_restore": "2026-07-31T13:30",
+      "on_time_probability": 0.655,
+      "basis_n": 29,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Preciziei - bl. F3, F4"
     }
   ]
 }
