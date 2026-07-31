@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-07-30T23:56:02",
+  "scraped_at": "2026-07-31T06:49:41",
   "status": "ok",
   "outages": [
     {
@@ -270,6 +270,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "7 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-31T23:30",
+      "on_time_probability": 0.453,
+      "basis_n": 2702,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
+    },
+    {
+      "sector": 2,
       "pt_name": "Opanez",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -279,6 +291,30 @@
       "basis_n": 760,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
+    },
+    {
+      "sector": 2,
+      "pt_name": "6 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-31T23:30",
+      "on_time_probability": 0.692,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
+    },
+    {
+      "sector": 2,
+      "pt_name": "13 Lacul Tei",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-07-31T23:30",
+      "on_time_probability": 0.349,
+      "basis_n": 760,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
     },
     {
       "sector": 2,
