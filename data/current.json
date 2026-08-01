@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-01T19:36:28",
+  "scraped_at": "2026-08-01T20:41:46",
   "status": "ok",
   "outages": [
     {
@@ -15,18 +15,6 @@
       "basis_n": 1989,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
-    },
-    {
-      "sector": 2,
-      "pt_name": "1 Mosilor",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-01T23:00",
-      "on_time_probability": 0.556,
-      "basis_n": 1627,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Cenuşeresei - bl.50, 52 • Str Traian - bl.30 B, imob.Nr.254 • Cal Moşilor - bl.36, 38, 42, 46, 48, 58, 32, 30A, 31A , 31C • Str Mihai Eminescu - bl.31B ,32 • Str Vaselor - bl.34, imob.Nr.3A • Str Ion Maiorescu - bl.44 ;50 ;40, imob.Nr.37, 7"
     },
     {
       "sector": 2,
@@ -870,6 +858,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "2 Nitu Vasile",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Sg. Niţu Vasile - bl. 10, 11V, 25, 26 • Str Rezonanţei - bl. 7, 8, 12V, 13V, 14V, N26 • Bld Constantin Brâncoveanu - bl. 27, 28 • Ale Cricovul Sărat - bl. 11, 12, 13, 14, N27"
+    },
+    {
+      "sector": 4,
       "pt_name": "2 Serban Voda",
       "blocks": 5,
       "service": "Deficienta ACC",
@@ -879,6 +879,30 @@
       "basis_n": 76,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Oltenita Placare",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
     },
     {
       "sector": 4,
@@ -903,6 +927,18 @@
       "basis_n": 553,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - 2A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "6 Brancoveanu",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Secuilor - bl. B17A • Str Păduroiu - bl. B22A, B23, B24, B25 • Str Pomârla - bl. B20, B21, B22 • Bld Constantin Brâncoveanu - bl. B14, B15, B16, B17 • Str Băltiţa - bl. B18 ,B19"
     },
     {
       "sector": 4,
