@@ -7,32 +7,19 @@ episode_id,sector,pt_name,utility,slip_count
 629d17a58024,3,O.P.,ACC,5
 6405f78bfaba,3,P. M.,ACC,5
 e73f2675fb71,3,S.M.,ACC,5
-9b89d9abe631,1,1 Aviatiei,ACC,0
-d6171b728f80,1,11 Dorobanti,ACC,0
-f7961b2591a0,1,12 Gostat,ACC,0
-48c68581126d,1,2 Aviatiei,ACC,0
-27371b02e759,1,2 Dorobanti,ACC,0
-2282bd3fdafa,1,3 Aviatiei,ACC,0
-ecc4842aed03,1,4 Aviatiei,ACC,0
-199b2eaa2b18,1,5 Aviatiei,ACC,0
-159e7a955b0a,1,6 Aviatiei,ACC,0
-9d18047be719,1,61-63 Dorobanti,ACC,0
-5796adc4477b,1,Beller Bitolia,ACC,0
-81219e9526a4,1,Casata,ACC,0
-fca2ed931b06,1,Cosmonautilor,ACC,0
-98ddb5422d3e,1,Floreasca,ACC,0
-eea416f8f26b,1,Perla,ACC,0
-d8d2b6805d19,1,Radu Beller,ACC,0
-9dbed50dac29,2,2 Stefan cel Mare,ACC,0
-6ebed7bf282d,2,Barbu Vacarescu,ACC,13
-75b479b4e560,2,Modul Bl. 6 Stefan cel Mare,ACC,0
+9b89d9abe631,1,1 Aviatiei,ACC,1
+48c68581126d,1,2 Aviatiei,ACC,1
+2282bd3fdafa,1,3 Aviatiei,ACC,1
+ecc4842aed03,1,4 Aviatiei,ACC,1
+199b2eaa2b18,1,5 Aviatiei,ACC,1
+159e7a955b0a,1,6 Aviatiei,ACC,1
+6ebed7bf282d,2,Barbu Vacarescu,ACC,15
 d94fc9bbef14,3,16 Foișor,ACC,1
 320afd1fe788,3,1 Anexa,ACC,0
 9800a1ca2e88,3,1 Călăraşi,ACC,0
 41819823cb3d,3,1 Labirint,ACC,0
 4e7ae2ba73d6,3,1 Laborator,ACC,0
 e63e8fe40631,3,1 Mărăşeşti,ACC,0
-8f5908b5625c,3,1 Tomis,ACC,0
 33885208ec36,3,1 Vitan,ACC,0
 1e407fb35a10,3,10 Laborator,ACC,0
 56738eed72be,3,10 Vitan,ACC,0
@@ -68,7 +55,6 @@ f6ec51a5f030,3,6 Mărășești,ACC,0
 b4dc1644bc7c,3,6 Vitan,ACC,0
 aff0ff2c0c7f,3,7 Călăraşi,ACC,0
 4abc85112f2a,3,7 Vitan,ACC,0
-9582cdb3681c,3,9 Laborator,ACC,0
 c98fee2969c9,3,9 Vitan,ACC,0
 0142a808b875,3,BL U114 (UM 02544/B1),ACC,0
 ddd4f33ebc17,3,Biblioteca Nationala,ACC,0
@@ -88,55 +74,28 @@ adfe1ac1d264,3,Ministerul de Finante,ACC,0
 c9e2b84fadf9,3,S14,ACC,0
 9588fcac6c89,3,S6,ACC,0
 2aa009881173,3,Tribunalul Bucuresti,ACC,0
-2c95be2cc608,4,1 Nitu Vasile,ACC,0
-6e7305801447,4,1 Oltenita Placare,ACC,0
-e19b101e3780,4,1 Serban Voda,ACC,0
+e19b101e3780,4,1 Serban Voda,ACC,2
 42fb00ca2c9f,4,1 Stoian Militaru,ACC,0
 b793f190aaa4,4,1 Tineretului,ACC,0
 b82096152ebc,4,1 Vacaresti,ACC,0
-ae7f82093edc,4,1 Zona II,ACC,0
 ae5894ff827f,4,1 Zona IV,ACC,0
 39ceb1fdd3d2,4,1 Zona V,ACC,0
 ee4105bf22d3,4,11 Giurgiu,ACC,0
 40eed1f919e6,4,12 Giurgiu,ACC,0
-f13650e20df2,4,17 Dolhasca,ACC,0
-e31a94b5cf2c,4,19 Dolhasca,ACC,0
-d798c3edbd1f,4,2 A Metalurgiei,ACC,0
 50c94c3e9b40,4,2 Giurgiu,ACC,0
 35fe93a285ab,4,2 Lanariei,ACC,0
-697e0f558ec1,4,2 Nitu Vasile,ACC,0
-455f9a608d48,4,2 Oltenita Placare,ACC,0
-e9ee39f59bf4,4,2 Oltenitei,ACC,0
-cccbcc1e09d2,4,2 Serban Voda,ACC,0
-ad67fff9a4b6,4,2 Stoian Militaru,ACC,0
+cccbcc1e09d2,4,2 Serban Voda,ACC,2
 4a79ec4fa01e,4,2 Tineretului,ACC,0
 2d7d89ffa13b,4,2 Vacaresti,ACC,0
 f3631238cc98,4,2 Vifornita,ACC,0
-80ba4f592e7a,4,2 Zona II,ACC,0
 5e48b0120844,4,2 Zona V,ACC,0
-aa2776cb5c37,4,3 Nitu Vasile,ACC,0
 b64f3e0c917a,4,3 Oltenita Placare,ACC,0
 588371286df1,4,3 Tineretului,ACC,0
-c81b0b97abe5,4,3 Zona II,ACC,0
 e0bc17242805,4,3 Zona V,ACC,0
-961be59fc115,4,4 Berceni Oltenita,ACC,0
 78aaa8738195,4,4 Lanariei,ACC,0
-b52b3c32c4ef,4,4 Nitu Vasile,ACC,0
-cb5fb3abc101,4,4 Oltenita Placare,ACC,0
 aaf3787c33e3,4,4 Tineretului,ACC,0
 8378732b4fa6,4,4 Vifornita,ACC,0
-4982eefdb22b,4,4 Zona II,ACC,0
-19cff1d66869,4,5 Brancoveanu,ACC,0
-7bc01f3fdbcc,4,5 Metalurgiei,ACC,0
-9fe71674fa90,4,5 Oltenita,ACC,0
-0eb566f500fc,4,5 Zona II,ACC,0
-3da01bf05515,4,6 Brancoveanu,ACC,0
 6047e1e5dcd3,4,6 Vifornita,ACC,0
-0d2c4ad29c89,4,6 Zona I,ACC,0
-60326e21db48,4,6 Zona II,ACC,0
-681edcc3dc3f,4,7 Zona I,ACC,0
-67c4b9dac0bb,4,8 Brancoveanu,ACC,0
-658a56c89615,4,9 Brâncoveanu,ACC,0
 5280c6ae92dd,4,Almașul Mare,ACC,0
 db76ceec4606,4,Curcani,ACC,0
 b19818c2eb39,4,Dealul Cernei,ACC,0
@@ -144,14 +103,11 @@ adb99e7d785a,4,Huedin,ACC,0
 6367488ce305,4,Inst. Nat. de Neurologie si Boli Neurovasculare,ACC,0
 4b85aa7bf144,4,Livada Noua,ACC,0
 c875bd671cd1,4,Luica,ACC,0
-1879a2c1718a,4,Metalurgiei,ACC,0
 051f1318454d,4,Modul Termic - Trident,ACC,0
 15174f431155,4,Norilor,ACC,0
 3d0f8f97e346,4,Palatul National al Copiilor,ACC,0
-9272348a5400,4,Pieptanari,ACC,0
+9272348a5400,4,Pieptanari,ACC,2
 ffd9a577465d,4,Plugarilor,ACC,0
-99e453f48ac2,4,Posta,ACC,0
-5fc8bb3f535b,4,Prasilei,ACC,0
 29a88fc3af75,4,Scoala I Teodoreanu nr.36 - Sala Sport,ACC,0
 8d340fca6772,4,Sincai,ACC,0
 9a264f4c17b3,4,Spinis,ACC,0
@@ -164,23 +120,14 @@ cc08612e4fa3,4,Urziceni,ACC,0
 5ecbd2bc30ae,5,9 Farado,ACC,0
 51549e7ddbfd,5,Giurgiu Farado,ACC,0
 af1d0f91b851,2,201 Mihai Bravu,ACC,0
-8ff64c3b104e,4,Complex Comercial,ACC,0
 d4826c392336,4,Modul Termic - Grădinița nr.243,ACC,0
 38245e3e012c,4,Modul Termic - Spitalul Alexandru Obregia ( Creșa 25 ) / Stationar de zi,ACC,0
 7cfd077c0ced,4,Observator Astronomic,ACC,0
 27d656494239,4,Sala Polivalenta,ACC,0
-57b75044cee5,2,Galvani Tei,ACC,15
+57b75044cee5,2,Galvani Tei,ACC,16
 7d1ff403ce57,4,B 3 Cauzasi,ACC,0
-8b8916cc300c,1,1 Banu Manta,ACC,1
-5938162f3b78,1,1 Titulescu,ACC,1
-ab4b0cdcdb9a,1,156 Grivita,ACC,1
-292d57150e8c,1,2 Banu Manta,ACC,1
-7b241f26f23d,1,2 Titulescu,ACC,1
-96e8d1ef970e,2,Opanez,ACC,3
-6a018cf7a5bb,2,3 Fundeni,ACC,0
-ce4ed11c6c67,5,Facultatea de Medicină Veterinară,ACC,1
-06b5a4da24fa,5,Garajul Parlamentului,ACC,1
-4a6ef3852b1c,5,Palatul Parlamentului,ACC,1
-f369f4da60e3,2,13 Lacul Tei,ACC,0
-8e5e8be8f3d0,2,6 Mosilor,ACC,0
-a4f7f05d3796,2,7 Mosilor,ACC,0
+51c5bbe14ccc,2,1 Mosilor,ACC,1
+b60120a55155,2,13 Lacul Tei,ACC,1
+662f9ea06eab,2,4 Mosilor,ACC,1
+216e8bc90516,2,4 Stefan cel Mare,ACC,1
+ca1ad6eaf12b,2,ICB,ACC,1
