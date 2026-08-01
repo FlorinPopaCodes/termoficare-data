@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-01T07:33:33",
+  "scraped_at": "2026-08-01T10:12:31",
   "status": "ok",
   "outages": [
     {
@@ -11,9 +11,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-08-01T12:00",
-      "on_time_probability": 0.571,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.266,
+      "basis_n": 693,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Măguricea - bl. 3K, 3F, 8H, 8J, 8G • Str Nicolae G. Caramfil - bl. 1B, 1C, 10B, 10C, 10D • Str Elena Caragiani - bl. 8A-2, 8A-3, 2G, 3B, 8C, 2H, 3J, 3I, 8B • Şos Pipera - bl. 1D, 1E, 2D, 2E, 2F, 3E, 3D, 3C • Str Borşa - bl. 1A, 1B, 2 I, 2J, 8D, 8E, 3H, 3A, 8F, 3B, 10E, 10F, 3G • Str Smaranda Brăescu - bl. 2C, 1H, 1 I, 1G, 2K, 2B, 1F, 10G, 10 H • Str Feleacu - bl. 8I, 8A-1, 10A, 10I, FELEACU 2"
     },
     {
@@ -23,9 +23,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-08-01T12:00",
-      "on_time_probability": 0.5,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.266,
+      "basis_n": 693,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Măguricea - bl. 13D, 13E, 7P • Str Nicolae G. Caramfil - bl. 11C, 11A, 11B • Str G-ral Ştefan Burileanu - bl. 11I, 12J, 12K, 13M, 13N • Str Cpt. Alexandru Şerbănescu - bl. 7M, 7L, 7N • Str Elena Caragiani - bl. 12D • Str Smaranda Brăescu - bl. 11G, 12I, 12H, 12A, 11H • Str Prometeu - bl. 12G, 12E, 12F, 13F, 13G • Str Feleacu - bl. 13B, 11E, 12B, 12C, 13A, 13C, 11D, 11F"
     },
     {
@@ -35,9 +35,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-08-01T12:00",
-      "on_time_probability": 0.476,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.266,
+      "basis_n": 693,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Căpâlna - bl. 15M, 14D+14E, 15B, 15J, 15K, 15A, 15L, 16H, 16I • Str Cpt. Alexandru Şerbănescu - bl. 14B, SERBANESCU 12-14, 14C, 16A, 16C • Str Avionului - bl. 16J, 15H, 15D, 15F, 15E • Str Aripilor - bl. 15C , STAR • Str Siriului - bl. 16J, 16F, 16E • Str Prometeu - bl. 14F, 16G, 16D"
     },
     {
@@ -47,8 +47,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-08-01T12:00",
-      "on_time_probability": 0.39,
-      "basis_n": 2246,
+      "on_time_probability": 0.266,
+      "basis_n": 693,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. G6, 6A, 7E, 7F, 7, 7I, 7K,7M • Str Avionului - bl. 5C, 5E, 5E PRIM, 6B, 6C, 6D • Str Aviaţiei - bl. 4C, 5D, 5G, 4D, 5F,7D, 5A • Şos Pipera - bl. 4A, 4B, 5B • Str Aripilor - bl. 6E,6F • Str Borşa - bl. 5F, 4F, 4G, 4E, 7G, ARMONIA, 7B, 7A, 7H"
     },
@@ -59,9 +59,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-08-01T12:00",
-      "on_time_probability": 0.455,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.266,
+      "basis_n": 693,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Nicolae G. Caramfil - bl. 21H, 21B, 21A, 21C, 22 B • Str G-ral Ştefan Burileanu - bl. 20A, 20C, 20B, 21E • Str Cpt. Alexandru Şerbănescu - bl. 20-I, 20J, 22H, 20E, 20D • Str Smaranda Brăescu - bl. 20H, 20F, 21 I, 21G, 22D, 21F"
     },
     {
@@ -71,9 +71,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare conducta Dn-600 retea termica primara, magistrala II-III Grozavesti,obiectiv 4,executate de ENERGETICA",
       "estimated_restore": "2026-08-01T12:00",
-      "on_time_probability": 0.5,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.266,
+      "basis_n": 693,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. 17A, 17B, 18A, 19A, 19B, 19F, 19G • Str Siriului - bl. 17C, 17D, 18B, 19D, 19E"
     },
     {
@@ -84,57 +84,9 @@
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-08-01T23:00",
       "on_time_probability": 0.271,
-      "basis_n": 1988,
+      "basis_n": 1989,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
-    },
-    {
-      "sector": 2,
-      "pt_name": "ICB",
-      "blocks": 2,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-01T23:00",
-      "on_time_probability": 0.454,
-      "basis_n": 2707,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Lacul Tei -"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Stefan cel Mare",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-01T23:00",
-      "on_time_probability": 0.5,
-      "basis_n": 36,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Ştefan cel Mare - bl.38B, 39, 41; 33A, 35A, 36B, 35B, 36A, 41BC, 37, 38, 33B, 35B2 • Str Viitorului - bl.42A, 42B • Str Viesparilor - bl. 33C, 34 • Str Badea Cârţan - bl.37A , 40, 40Bis, imob.Nr.62, 67"
-    },
-    {
-      "sector": 2,
-      "pt_name": "13 Lacul Tei",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-01T23:00",
-      "on_time_probability": 0.297,
-      "basis_n": 37,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Mosilor",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-01T23:00",
-      "on_time_probability": 0.64,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Ardeleni - bl. 39A • Cal Moşilor - bl. 47, 47Bis, 49-49A, 51Bis, 53, 55, 45, 45A, 43, 41, 39, 37, 33-35, imob.Nr.257 • Str Făinari - bl.51 sc.C; 51 sc.B • Str Rovine - bl. 51B, 57A. 51 sc.A"
     },
     {
       "sector": 2,
@@ -143,8 +95,8 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-08-01T23:00",
-      "on_time_probability": 0.454,
-      "basis_n": 2707,
+      "on_time_probability": 0.556,
+      "basis_n": 1627,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Cenuşeresei - bl.50, 52 • Str Traian - bl.30 B, imob.Nr.254 • Cal Moşilor - bl.36, 38, 42, 46, 48, 58, 32, 30A, 31A , 31C • Str Mihai Eminescu - bl.31B ,32 • Str Vaselor - bl.34, imob.Nr.3A • Str Ion Maiorescu - bl.44 ;50 ;40, imob.Nr.37, 7"
     },
@@ -180,7 +132,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Dudeşti -"
     },
@@ -228,7 +180,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vlaicu Vodă - bl. C8, C9 • Str Vlad Dracul - bl. B12, B13 • Str Vasile Cârlova - bl. A7, A7bis • Str Emil Gârleanu - bl. A6, A4 • Str Lt. col. Dumitru Papazoglu - bl. B10, C6 • Str Anastasie Panu - bl. A12, A5, A16, B7 • Str Alexandru Moruzzi Voievod - bl. A11, A13, B6"
     },
@@ -240,7 +192,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Zizin - bl. G1 • Str Brânduşelor - bl. G3 • Str Banu Udrea - bl. G7, G8"
     },
@@ -252,7 +204,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vlad Dracul - bl. C12, C14, C13 • Str Foişorului - bl. F13C, F14C, F11C, F12C • Str Anastasie Panu - bl. C15, D3, D1, D2, D6, D4, D5"
     },
@@ -264,7 +216,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Miletin - Imobil • Pţa Alba Iulia - bl. I1, I2, I3, I4, I5"
     },
@@ -276,7 +228,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vulcan Judeţul - bl. B1B, B1C, B3A • Str Traian Popovici - bl. B3D, B4, B4D, B4F, B4A • Şos Mihai Bravu - bl. B2A, B2B, B2C, B1, B1A, B1D, B3B, B3C • Str Caloian Judeţul - bl. B4C, Scoala Generala nr. 80"
     },
@@ -288,7 +240,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vlad Dracul - bl. B1, B2 • Str Nerva Traian - bl. M70, M71, M66, M69, M68, M65 • Str Emil Gârleanu - bl. A8, A9 • Str Logofătul Tăutu - bl. C3, C4, C5 • Str Lt. col. Dumitru Papazoglu - bl. B5 • Str Alexandru Moruzzi Voievod - bl. B1, A10"
     },
@@ -300,7 +252,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Unirii - bl. J1, J3B, J4, J2, J3A • Pţa Alba Iulia - bl. I6, I7"
     },
@@ -312,7 +264,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Nerva Traian - bl. K6 • Bld Octavian Goga - bl. M103, M106 • Str Emil Botta - bl. M109, M105, M104, M107, M108 • Bld Unirii - bl. K3, K4, K2, K5 • Str Lucian Blaga - bl. K1"
     },
@@ -324,7 +276,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Maximilian Popper - bl. F6 • Bld Unirii - bl. F2, F3, F4 • Str Traian - bl. F1 • Str Ion Pillat - bl. F5"
     },
@@ -336,7 +288,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
     },
@@ -372,7 +324,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Zizin - bl. V75C • Str Vlaicu Vodă - bl. V65, V66 • Str Brânduşelor - bl. V70, V75A, V77 • Str Foişorului - bl. F9C, F8C • Str Rarău - bl. V69, V68, V70, V71, F10C, V74"
     },
@@ -384,7 +336,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Zizin - bl. 97, V101C, V101B • Str Vlaicu Vodă - bl. V34C, V100 • Cal Vitan - bl. V34A, V35 • Str Nucului - bl. V100, V101,V101A • Str Banu Udrea - bl. V104, V103, V101C, V99, V97, V102, V95"
     },
@@ -408,7 +360,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Theodor D. Speranţia - bl. S24, S25, S26, S27,S28 • Bld Decebal - bl. S12, S12A, S12B, S13, S14, S15"
     },
@@ -432,7 +384,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vintilă Vodă - bl. E1 • Bld Unirii - bl. E2, E3,E3A, E3-3, E3A2"
     },
@@ -444,7 +396,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Matei Basarab - 72, 86, 73, 74, 85, L122, L120, L118 • Str Theodor D. Speranţia - 78, 83, 84 • Str Agricultori - 80, 81, 82,79, • Cal Călăraşi - 75,76,77"
     },
@@ -468,7 +420,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Mircea Vodă - 44"
     },
@@ -492,7 +444,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Laborator - bl. S18, 39A, 40, 39, 38 • Str Râmnicu Vâlcea - bl. S19, S20, S16, S15, S17"
     },
@@ -516,7 +468,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Mircea Vodă - 3-5"
     },
@@ -528,7 +480,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Negru Vodă - C3, C4, C3A • Str Mămulari - C1, C2 • Bld Unirii - A1, A2, A3, A4 • Str Sfânta Vineri - A6, A5"
     },
@@ -564,7 +516,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
     },
@@ -576,7 +528,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lt. Aurel Botea - D24, D22 • Bld Burebista - D15, D16 • Str Caloian Judeţul - D19A, D21A, D20, D19B, D18, D21B"
     },
@@ -588,7 +540,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - 428"
     },
@@ -624,7 +576,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vlaicu Vodă - bl. V62, V63, V61 • Str Brânduşelor - bl.V64 • Str Foişorului - bl. F6C, F7C, F5C, F4C • Str Alexandru Moruzzi Voievod - bl. V60, V59, V58"
     },
@@ -660,7 +612,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Călăraşi - Cal. Călăraşi bl. 50, 70, 68, 65, 49, 71, 67, 66,"
     },
@@ -696,7 +648,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Mircea Vodă - bl. M11, M14, M20bis, M9,M8, M1, M21, M22, M6, M20 • Str Panait Cerna - bl. M5 • Spl Unirii - bl. M3, M4, M12, M19, M10, M15, M7, M18, M16, M13"
     },
@@ -708,7 +660,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Matei Basarab - bl. L112, L112A, L113A, L113 • Str Traian - bl. L112B"
     },
@@ -744,7 +696,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Vitan - bl. V21A, V21B, V2, V1 • Ale Blăjel - bl. V3, V4 • Str Breaza - bl. V22A, V22B"
     },
@@ -756,7 +708,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Int Ţiglina - Scoala Gimnaziala Cezar Bolliac • Str Diligenţei - • Str Mircea Bădescu - • Str Nicolae Tudor - • Str Levănţica - • Str Dristorului - • Str Cerceluş -"
     },
@@ -804,7 +756,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Unirii - 22"
     },
@@ -828,7 +780,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Corneliu Coposu - 105A, 103, 104, 101, 106A, 105A • Str Sfânta Vineri - 105B, 105C, 102"
     },
@@ -840,7 +792,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Decebal - bl. S11, S9, S10, S7, S4, H3, S6, S5, S7, S8"
     },
@@ -852,7 +804,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Unirii - bl. E4, E4A • Str Traian - bl. E5, E6"
     },
@@ -864,7 +816,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Unirii - 37"
     },
@@ -876,7 +828,7 @@
       "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
       "estimated_restore": "2026-08-02T23:00",
       "on_time_probability": 0.347,
-      "basis_n": 3171,
+      "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Vitan - bl. V50B, V50A, V51 • Str Alexandru Moruzzi Voievod - bl. V54B, V54A, V56, V57, V54, V55, V57B"
     },
@@ -978,13 +930,25 @@
     },
     {
       "sector": 4,
+      "pt_name": "Metalurgiei",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Alexandru Obregia - bl. OD1, 2B, 2A, M1, OD2"
+    },
+    {
+      "sector": 4,
       "pt_name": "2 Serban Voda",
       "blocks": 5,
       "service": "Deficienta ACC",
       "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
-      "estimated_restore": "2026-08-01T08:00",
-      "on_time_probability": 0.389,
-      "basis_n": 553,
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.566,
+      "basis_n": 76,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
     },
@@ -994,9 +958,9 @@
       "blocks": 4,
       "service": "Deficienta ACC",
       "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
-      "estimated_restore": "2026-08-01T08:00",
-      "on_time_probability": 0.389,
-      "basis_n": 553,
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.566,
+      "basis_n": 76,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
     },
@@ -1006,9 +970,9 @@
       "blocks": 14,
       "service": "Deficienta ACC",
       "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
-      "estimated_restore": "2026-08-01T08:00",
-      "on_time_probability": 0.389,
-      "basis_n": 553,
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.566,
+      "basis_n": 76,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Constantin Mănescu - bl. 6, 7, 8, Comunitatea Musulmană • Bld Pieptănari - bl. 5 • Str Dârste - Imobil nr.3 • Şos Viilor - bl. 4AB • Str Dumitru P. Botez - bl. Plomba 12 • Cal Şerban Vodă - bl. 2, 3A, 3B, 11 • Str Pandele Roşca - Scoala Gimnaziala Princepesa Margareta • Str Nicolae Galea - bl. 10 • Str Scarlat Otulescu - bl. 9"
     },
@@ -1019,8 +983,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Almaşu Mare -"
     },
@@ -1043,8 +1007,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Semenic - bl. 20 • Str Huedin - bl. 1, 2, 3, 6, 7, 11, III/21A • Str Izvorul Oltului - bl. 4, 21, 22, III/25 • Str Lamoteşti - bl. 4, 5, 10, 11A, 11B, 12, 13, 14, 15, 62, III/21B • Bld Constantin Brâncoveanu - bl. 8, 9, 18, 19 • Ale Crevedia - bl. 16, 17 • Str Cetatea Veche - bl. III/4, III/5A, III/5B"
     },
@@ -1055,8 +1019,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Argeşelu - Spitalul Alexandru Obregia ( Creșa 25 ) / Stationar de zi"
     },
@@ -1067,8 +1031,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Orăştie - bl. 2A, L4, M2 • Str Anghel Moldoveanu - bl. A1 • Str Perşani - bl. L2 • Str Ilie Oprea - bl. L1, L3 • Str Tudor Gociu - bl. 1, B, C, C1, C2, C3, C4, L2, L4, AGIP"
     },
@@ -1079,8 +1043,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Slătioara - bl. 4, 12, 13, 15, 16, C1, C2, C3, C8, C10, C11 • Str Luica - bl. 1, 2, 3, 4, 5, 6, 7, 106 • Str Răzăchiei - bl. 11 • Str Reşiţa - bl. 8, 9, 10, 42, 42A, 43, 44, 45, 46, 47 • Str Urziceni - bl. 14, 17. 41, C9 • Ale Călineşti - bl. C4, C5, C6, C7, C12"
     },
@@ -1091,8 +1055,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Straja - bl. 69 • Str Straja - bl. 62, 62Bis, 63 • Str Argeşelu - bl. A4, A7 • Drm Găzarului - bl. A1, A2, A3, 133, 136, 138 • Ale Reşiţa A - bl. A6 • Str Reşiţa - bl. A5 • Str Izvorul Rece - bl. A8 • Ale Dolina - bl. 64, 68, 70, 134, 137"
     },
@@ -1103,8 +1067,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Huedin - bl. A12 • Ale Ţebea - bl. 101, 102. 103, D10, D11A, D12, D13 • Str Izvorul Trotuşului - bl. D14, D15, D24 • Str Izvorul Rece - bl. S14 A+B • Str Izvorul Mureşului - bl. A11, D9, D22 • Str Izvorul Crişului - bl. A1, A2, A3, D1 • Bld Constantin Brâncoveanu - bl. M1/1, M2/3, M2/4"
     },
@@ -1115,8 +1079,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Vitan Bârzeşti -"
     },
@@ -1127,8 +1091,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Alunişului - bl. 1 • Şos Giurgiului - bl. 4, 9, 9T, G, N, O • Str Ghimpaţi - bl. 3, 2, 1T, 2T, 3T, 8T • Int Târgu Frumos - bl. 5, 6, 7, 4T"
     },
@@ -1139,8 +1103,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Moldoviţa -"
     },
@@ -1151,8 +1115,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Straja - bl. 52 • Str Moldoveni - bl. B15, B21 • Str Grădiştea - bl. 48, B5 • Str Reşiţa - bl. 49, 50, 51, Biserica Sf. Daniel • Str Huedin - bl. A26, 34, M1/2 • Ale Huedin - bl. 2, 3, 4, 5 • Str Uioara - bl. 33"
     },
@@ -1163,8 +1127,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Piscului -"
     },
@@ -1175,8 +1139,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Tineretului -"
     },
@@ -1199,8 +1163,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Coştila -"
     },
@@ -1223,8 +1187,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Berceni -"
     },
@@ -1235,8 +1199,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Tineretului - bl. 18, 19, 37, 38, 39 • Str Albinelor - bl. 32 • Str Piscului - bl. 40, 41, 42, 47 • Str V. V. Stanciu - bl. 31 • Str Trestiana - bl. 17, 20, 23 • Str Vişana - bl. 25, 26, 36, 43, 44, 45 • Str Constantin Rădulescu-Motru - bl. 22-24, 33, 34, 35, 36, 46"
     },
@@ -1247,8 +1211,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Tineretului - bl. 52 • Bld Pionierilor - bl. 51 • Str Piscului - bl. 49, 50, 77, 78, 79, 80, 81 • Str V. V. Stanciu - bl. 69A • Cal Văcăreşti - bl. 69B, 70B, 83, 84 • Str Cărămidarii de Jos - bl. 48, 75, 76"
     },
@@ -1295,8 +1259,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Pţa Unirii - bl. B3, B4, B5 ,B6, B7 • Str Radu Vodă - bl. B8 • Bld Dimitrie Cantemir - bl. B2"
     },
@@ -1307,8 +1271,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Giurgiului - bl. 1, 2A, 2B, • Str Grădiştea - bl. 86, 87 • Str Tătuleşti - bl. 18, 20, 82, 83, 84, 85 • Ale Călineşti - bl. 11, 12, 13, 14, 15, 81"
     },
@@ -1319,8 +1283,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Tohani - bl. 30, 31; Gradinita nr.224 • Bld Tineretului - bl. A2, A3, A4, A5, A6, Z2, Z3, Z4, Z5, Z6, Z7, 5A • Str Mocăncuţei - Imob.vila • Str Poenari - bl. 12, 13 • Str Trestiana - bl. 8A, 8B, 9, 10, 11, 14, 15, 16, 32 • Str Tohani - bl. 29, 33 • Str Constantin Rădulescu-Motru - bl. 21, 27A, 28, 34 • Str Cuza Vodă - bl. 27B"
     },
@@ -1331,8 +1295,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Tineretului - bl. 53, 54, 57, 58, 64, 65, 66 • Str Baladei - bl. 55, 56, 59, 60, 61, 61A, 73 • Cal Văcăreşti - bl. 62, 63, 67, 68, 71, 72A, 72B • Str Cărămidarii de Jos - bl. 74A, 74B"
     },
@@ -1355,8 +1319,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Luica - bl. M1, M2, M3, M4, M4Bis, M5, M6, IV/1A • Str Reşiţa - bl. M1, P4 • Str Uioara - bl. IV/1B, IV/1C, IV/1 sc.A; M2 • Str Ucea - bl. P3, P4, P7, P8, P9, P10, P11, P12, IV/2 • Str Coştila - bl. P1, P2, P5, P6, P9"
     },
@@ -1379,8 +1343,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
     },
@@ -1427,8 +1391,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Uioara - bl. 12Bis, 35, 36, 46 • Ale Cetatea Veche - bl. 2Bis, 3Bis, 5, 37, 38, 39, 40, 41, 47"
     },
@@ -1451,8 +1415,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. D17 • Str Huedin - bl. A13, D18, D19, D20 • Str Izvorul Mureşului - bl. 10, A4 • Str Izvorul Crişului - bl. A5, A6, A7, A8, A14, A15, A16, D16, D21"
     },
@@ -1463,8 +1427,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Semenic - bl. 23, 24 • Str Luica - bl. 59, 60, 61, III/6, III/7 • Ale Gorneşti - bl. 55, 56 • Ale Uioara - bl. 4Bis, 42, 43, 44, 45, 48, 49, 50, 51, 52, 53, 54, 58 • Ale Izvorul Oltului - bl. 25, 26, 27, 28, 29, 33, 62Bis • Bld Constantin Brâncoveanu - bl. 30, 34-35"
     },
@@ -1475,8 +1439,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Moldoveni - bl. B19, B20 • Str Almaşu Mic - bl. B6, B7, B8, B10, B11, B12, B17, B18, Gradinita nr.62 • Str Almaşu Mare - bl. B2, B9, B16 • Str Grădiştea - bl. B1, B3, B4, B13, B14"
     },
@@ -1487,8 +1451,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Straja - bl. 30, 31, 32, 40, 65, 66 • Str Spiniş - bl. 52, 53, 54 • Str Moldoveni - bl. 55, 59, 60, 61 • Str Almaşu Mare - bl. 51, 56, 57, 58 • Str Argeşelu - bl. 33, 34, 35, 37, 39, 67 • Drm Găzarului - bl. 29 • Str Reşiţa - bl. 36, 38"
     },
@@ -1499,8 +1463,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Grădiştea - bl. A9, A10 • Ale Reşiţa D - A1, A3, A4, A5, A7, A8 • Str Reşiţa - bl. A2, A6 • Str Uioara - bl. A11, A12, A13, A14"
     },
@@ -1511,8 +1475,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Piscului -"
     },
@@ -1523,8 +1487,8 @@
       "service": "Oprire ACC",
       "cause": "Lucrari POIM - Reabilitarea sistemului de termoficare al Municipului Bucuresti - LOT 4 ,Obiectivele 17,18,19,20.",
       "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.401,
-      "basis_n": 1393,
+      "on_time_probability": 0.414,
+      "basis_n": 1424,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
     },
@@ -1582,7 +1546,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Revizie tehnică - CTE Progresu",
-      "estimated_restore": "2026-08-01T23:00",
+      "estimated_restore": "2026-08-10T23:00",
       "on_time_probability": 0.429,
       "basis_n": 1613,
       "basis_bucket": "sector_cause_slip",
