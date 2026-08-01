@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-01T14:57:32",
+  "scraped_at": "2026-08-01T15:58:21",
   "status": "ok",
   "outages": [
     {
@@ -939,6 +939,18 @@
       "basis_n": 76,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 A Metalurgiei",
+      "blocks": 1,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-01T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Alexandru Obregia - 2A"
     },
     {
       "sector": 4,
