@@ -1,57 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-01T15:58:21",
+  "scraped_at": "2026-08-01T17:24:46",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "4 Aviatiei",
-      "blocks": 33,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-01T21:00",
-      "on_time_probability": 0.467,
-      "basis_n": 75,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Măguricea - bl. 13D, 13E, 7P • Str Nicolae G. Caramfil - bl. 11C, 11A, 11B • Str G-ral Ştefan Burileanu - bl. 11I, 12J, 12K, 13M, 13N • Str Cpt. Alexandru Şerbănescu - bl. 7M, 7L, 7N • Str Elena Caragiani - bl. 12D • Str Smaranda Brăescu - bl. 11G, 12I, 12H, 12A, 11H • Str Prometeu - bl. 12G, 12E, 12F, 13F, 13G • Str Feleacu - bl. 13B, 11E, 12B, 12C, 13A, 13C, 11D, 11F"
-    },
-    {
-      "sector": 1,
-      "pt_name": "3 Aviatiei",
-      "blocks": 27,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-01T21:00",
-      "on_time_probability": 0.358,
-      "basis_n": 95,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Căpâlna - bl. 15M, 14D+14E, 15B, 15J, 15K, 15A, 15L, 16H, 16I • Str Cpt. Alexandru Şerbănescu - bl. 14B, SERBANESCU 12-14, 14C, 16A, 16C • Str Avionului - bl. 16J, 15H, 15D, 15F, 15E • Str Aripilor - bl. 15C , STAR • Str Siriului - bl. 16J, 16F, 16E • Str Prometeu - bl. 14F, 16G, 16D"
-    },
-    {
-      "sector": 1,
-      "pt_name": "6 Aviatiei",
-      "blocks": 20,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-01T21:00",
-      "on_time_probability": 0.418,
-      "basis_n": 98,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nicolae G. Caramfil - bl. 21H, 21B, 21A, 21C, 22 B • Str G-ral Ştefan Burileanu - bl. 20A, 20C, 20B, 21E • Str Cpt. Alexandru Şerbănescu - bl. 20-I, 20J, 22H, 20E, 20D • Str Smaranda Brăescu - bl. 20H, 20F, 21 I, 21G, 22D, 21F"
-    },
-    {
-      "sector": 1,
-      "pt_name": "5 Aviatiei",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-01T21:00",
-      "on_time_probability": 0.371,
-      "basis_n": 124,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. 17A, 17B, 18A, 19A, 19B, 19F, 19G • Str Siriului - bl. 17C, 17D, 18B, 19D, 19E"
-    },
     {
       "sector": 2,
       "pt_name": "Barbu Vacarescu",
