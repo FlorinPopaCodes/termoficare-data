@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-01T12:19:37",
+  "scraped_at": "2026-08-01T13:54:19",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "1 Aviatiei",
-      "blocks": 49,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-01T21:00",
-      "on_time_probability": 0.643,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Măguricea - bl. 3K, 3F, 8H, 8J, 8G • Str Nicolae G. Caramfil - bl. 1B, 1C, 10B, 10C, 10D • Str Elena Caragiani - bl. 8A-2, 8A-3, 2G, 3B, 8C, 2H, 3J, 3I, 8B • Şos Pipera - bl. 1D, 1E, 2D, 2E, 2F, 3E, 3D, 3C • Str Borşa - bl. 1A, 1B, 2 I, 2J, 8D, 8E, 3H, 3A, 8F, 3B, 10E, 10F, 3G • Str Smaranda Brăescu - bl. 2C, 1H, 1 I, 1G, 2K, 2B, 1F, 10G, 10 H • Str Feleacu - bl. 8I, 8A-1, 10A, 10I, FELEACU 2"
-    },
     {
       "sector": 1,
       "pt_name": "4 Aviatiei",
@@ -42,18 +30,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "2 Aviatiei",
-      "blocks": 32,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-01T21:00",
-      "on_time_probability": 0.475,
-      "basis_n": 101,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. G6, 6A, 7E, 7F, 7, 7I, 7K,7M • Str Avionului - bl. 5C, 5E, 5E PRIM, 6B, 6C, 6D • Str Aviaţiei - bl. 4C, 5D, 5G, 4D, 5F,7D, 5A • Şos Pipera - bl. 4A, 4B, 5B • Str Aripilor - bl. 6E,6F • Str Borşa - bl. 5F, 4F, 4G, 4E, 7G, ARMONIA, 7B, 7A, 7H"
-    },
-    {
-      "sector": 1,
       "pt_name": "6 Aviatiei",
       "blocks": 20,
       "service": "Deficienta ACC",
@@ -66,6 +42,18 @@
     },
     {
       "sector": 1,
+      "pt_name": "Radu Beller",
+      "blocks": 25,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-01T21:00",
+      "on_time_probability": 0.345,
+      "basis_n": 55,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str N. Constantinescu - bl. 15A, 14, 14A, 16, 16A, 13, 15, imob.Nr.60 • Str Lt. D. Darian - Nr.27 • Str George Călinescu - bl. 17, 17A, 19A, 20B, 20A • Str Gen. Andrei Popovici - bl. 8, 7, 8A, 7A, imob.Nr.65, 41 • Str Constantin D. Aricescu - bl. 21, 20 • Str Ştefan Protopopescu - bl. 3, 4, 2"
+    },
+    {
+      "sector": 1,
       "pt_name": "5 Aviatiei",
       "blocks": 12,
       "service": "Deficienta ACC",
@@ -75,6 +63,18 @@
       "basis_n": 124,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. 17A, 17B, 18A, 19A, 19B, 19F, 19G • Str Siriului - bl. 17C, 17D, 18B, 19D, 19E"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Beller Bitolia",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-01T21:00",
+      "on_time_probability": 0.227,
+      "basis_n": 44,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str N. Constantinescu - bl. 9, 11, 11A • Str Lt. D. Darian - bl. 11B, 23 • Str Lt. Radu Beller - bl. 20, 22 • Str Gen. Andrei Popovici - bl. 6, 1+1B • Str Ştefan Protopopescu - bl. 24 • Str Puţul lui Zamfir - bl. 20A"
     },
     {
       "sector": 2,
