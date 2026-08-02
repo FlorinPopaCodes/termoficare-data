@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T19:47:24",
+  "scraped_at": "2026-08-02T20:53:39",
   "status": "ok",
   "outages": [
     {
@@ -558,6 +558,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "2 Oltenita Placare",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-02T23:00",
+      "on_time_probability": 0.387,
+      "basis_n": 556,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
+    },
+    {
+      "sector": 4,
       "pt_name": "Pieptanari",
       "blocks": 14,
       "service": "Deficienta ACC",
@@ -903,6 +915,18 @@
       "basis_n": 1432,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 din 13 Septembrie",
+      "blocks": 22,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-08-03T01:00",
+      "on_time_probability": 0.588,
+      "basis_n": 80,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Tudor Vladimirescu - bl. 131,133,135 • Cal 13 Septembrie - bl. 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 123, 125, 127, 129 • Str Sabinelor - bl. 113, 115, 119, 121 • Str Sirenelor - bl. 117"
     },
     {
       "sector": 5,
