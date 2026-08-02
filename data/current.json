@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T00:34:38",
+  "scraped_at": "2026-08-02T07:36:32",
   "status": "ok",
   "outages": [
     {
@@ -15,6 +15,66 @@
       "basis_n": 1989,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Ion Maiorescu",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-02T23:30",
+      "on_time_probability": 0.455,
+      "basis_n": 2713,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Mihai Bravu - bl.P21-21A, P22, P22A, P23-24"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-02T23:30",
+      "on_time_probability": 0.455,
+      "basis_n": 2713,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Mosilor",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-02T23:30",
+      "on_time_probability": 0.556,
+      "basis_n": 1627,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Ardeleni - bl. 39A • Cal Moşilor - bl. 47, 47Bis, 49-49A, 51Bis, 53, 55, 45, 45A, 43, 41, 39, 37, 33-35, imob.Nr.257 • Str Făinari - bl.51 sc.C; 51 sc.B • Str Rovine - bl. 51B, 57A. 51 sc.A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Mosilor",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-02T23:30",
+      "on_time_probability": 0.556,
+      "basis_n": 1627,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Cenuşeresei - bl.50, 52 • Str Traian - bl.30 B, imob.Nr.254 • Cal Moşilor - bl.36, 38, 42, 46, 48, 58, 32, 30A, 31A , 31C • Str Mihai Eminescu - bl.31B ,32 • Str Vaselor - bl.34, imob.Nr.3A • Str Ion Maiorescu - bl.44 ;50 ;40, imob.Nr.37, 7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Mosilor",
+      "blocks": 25,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-02T23:30",
+      "on_time_probability": 0.3,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
     },
     {
       "sector": 2,
@@ -39,6 +99,30 @@
       "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - bl. 205, 203, 204, 200, • Cal Călăraşilor - bl. 201, 202"
+    },
+    {
+      "sector": 3,
+      "pt_name": "21 Foișor",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulică a rețelei primare",
+      "estimated_restore": "2026-08-02T17:00",
+      "on_time_probability": 0.407,
+      "basis_n": 27,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vlaicu Vodă - bl. C8, C9 • Str Vlad Dracul - bl. B12, B13 • Str Vasile Cârlova - bl. A7, A7bis • Str Emil Gârleanu - bl. A6, A4 • Str Lt. col. Dumitru Papazoglu - bl. B10, C6 • Str Anastasie Panu - bl. A12, A5, A16, B7 • Str Alexandru Moruzzi Voievod - bl. A11, A13, B6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "13 Foișor",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulică a rețelei primare",
+      "estimated_restore": "2026-08-02T17:00",
+      "on_time_probability": 0.414,
+      "basis_n": 1859,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Vlaicu Vodă - bl. V62, V63, V61 • Str Brânduşelor - bl.V64 • Str Foişorului - bl. F6C, F7C, F5C, F4C • Str Alexandru Moruzzi Voievod - bl. V60, V59, V58"
     },
     {
       "sector": 3,
@@ -90,42 +174,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "21 Foișor",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 3173,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlaicu Vodă - bl. C8, C9 • Str Vlad Dracul - bl. B12, B13 • Str Vasile Cârlova - bl. A7, A7bis • Str Emil Gârleanu - bl. A6, A4 • Str Lt. col. Dumitru Papazoglu - bl. B10, C6 • Str Anastasie Panu - bl. A12, A5, A16, B7 • Str Alexandru Moruzzi Voievod - bl. A11, A13, B6"
-    },
-    {
-      "sector": 3,
-      "pt_name": "15 Foișor",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 3173,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Zizin - bl. G1 • Str Brânduşelor - bl. G3 • Str Banu Udrea - bl. G7, G8"
-    },
-    {
-      "sector": 3,
-      "pt_name": "12 Foișor",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 3173,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlad Dracul - bl. C12, C14, C13 • Str Foişorului - bl. F13C, F14C, F11C, F12C • Str Anastasie Panu - bl. C15, D3, D1, D2, D6, D4, D5"
-    },
-    {
-      "sector": 3,
       "pt_name": "I3",
       "blocks": 6,
       "service": "Oprire ACC",
@@ -147,18 +195,6 @@
       "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vulcan Judeţul - bl. B1B, B1C, B3A • Str Traian Popovici - bl. B3D, B4, B4D, B4F, B4A • Şos Mihai Bravu - bl. B2A, B2B, B2C, B1, B1A, B1D, B3B, B3C • Str Caloian Judeţul - bl. B4C, Scoala Generala nr. 80"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Mărășești",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 3173,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlad Dracul - bl. B1, B2 • Str Nerva Traian - bl. M70, M71, M66, M69, M68, M65 • Str Emil Gârleanu - bl. A8, A9 • Str Logofătul Tăutu - bl. C3, C4, C5 • Str Lt. col. Dumitru Papazoglu - bl. B5 • Str Alexandru Moruzzi Voievod - bl. B1, A10"
     },
     {
       "sector": 3,
@@ -234,30 +270,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "11 Foișor",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 3173,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Zizin - bl. V75C • Str Vlaicu Vodă - bl. V65, V66 • Str Brânduşelor - bl. V70, V75A, V77 • Str Foişorului - bl. F9C, F8C • Str Rarău - bl. V69, V68, V70, V71, F10C, V74"
-    },
-    {
-      "sector": 3,
-      "pt_name": "9 Vitan",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 3173,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Zizin - bl. 97, V101C, V101B • Str Vlaicu Vodă - bl. V34C, V100 • Cal Vitan - bl. V34A, V35 • Str Nucului - bl. V100, V101,V101A • Str Banu Udrea - bl. V104, V103, V101C, V99, V97, V102, V95"
-    },
-    {
-      "sector": 3,
       "pt_name": "10 Laborator",
       "blocks": 26,
       "service": "Oprire ACC",
@@ -318,18 +330,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Mărăşeşti",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.261,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Ştefan Octavian Iosif - bl. M51, M54 • Str Panait Cerna - bl. M53, M52 • Str Nerva Traian - bl. M37, M36, M39, M55, M38 • Bld Octavian Goga - bl. M42, M61 • Str Alexandru Vlahuţă - bl. M49, M50"
-    },
-    {
-      "sector": 3,
       "pt_name": "Ministerul de Finante",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -339,18 +339,6 @@
       "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Mircea Vodă - 44"
-    },
-    {
-      "sector": 3,
-      "pt_name": "5 Mărăşeşti",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.2,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Mircea Vodă - bl. M31, M29, M30 • Ale Dimitrie Anghel - bl. M45 • Str Panait Cerna - bl. M44 • Str Nerva Traian - bl. M34, M35 • Str Alexandru Vlahuţă - bl. M46, M47, M48"
     },
     {
       "sector": 3,
@@ -486,18 +474,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "13 Foișor",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 3173,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlaicu Vodă - bl. V62, V63, V61 • Str Brânduşelor - bl.V64 • Str Foişorului - bl. F6C, F7C, F5C, F4C • Str Alexandru Moruzzi Voievod - bl. V60, V59, V58"
-    },
-    {
-      "sector": 3,
       "pt_name": "3 Theodor Speranţia",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -546,30 +522,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "10 Vitan",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.391,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Zizin - bl. V80B, V80A, V81C, V40 • Str Vlaicu Vodă - bl. V43, V39, V82, V38, V81, V79, V82B, V81A • Cal Vitan - bl. V40, V42, V17, V82A, V42C,V42A • Str Brânduşelor - bl. V78"
-    },
-    {
-      "sector": 3,
-      "pt_name": "6 Mărășești",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.347,
-      "basis_n": 3173,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Mircea Vodă - bl. M11, M14, M20bis, M9,M8, M1, M21, M22, M6, M20 • Str Panait Cerna - bl. M5 • Spl Unirii - bl. M3, M4, M12, M19, M10, M15, M7, M18, M16, M13"
-    },
-    {
-      "sector": 3,
       "pt_name": "4 Labirint",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -591,18 +543,6 @@
       "basis_n": 33,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vlad Judeţul - bl. V12, V13, V14A, V11 • Cal Vitan - bl. V14B, V16B, V16A, V15 • Str Agatha Bârsescu - bl. V19 • Str Brăiliţa - bl. V17, V10, V18"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Mărăşeşti",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.381,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nerva Traian - bl M64 • Bld Octavian Goga - bl. V53C, M62, M63 • Str Emil Gârleanu - bl. V52C, V53D, A1, F • Str Foişorului - bl. F1C, F2C, F3C, D, E • Str Anastasie Panu - bl. A1, A2, A3"
     },
     {
       "sector": 3,
@@ -654,18 +594,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "4 Mărăşeşti",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.364,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Dimitrie Anghel - bl. M59 • Str Panait Cerna - bl. M43, M57, M56, M58, M28 • Str Nerva Traian - Grădinița nr. 81 • Bld Octavian Goga - bl. M60I, M24, M26, M25, M23"
-    },
-    {
-      "sector": 3,
       "pt_name": "Biblioteca Nationala",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -675,18 +603,6 @@
       "basis_n": 3173,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Unirii - 22"
-    },
-    {
-      "sector": 3,
-      "pt_name": "19 Foișor",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.227,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Brânduşelor - bl. G4, G4A, H1, H16 • Str Banu Udrea - bl. G5, G6, H5, J2, J1, H6"
     },
     {
       "sector": 3,
@@ -846,6 +762,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-02T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
+    },
+    {
+      "sector": 4,
       "pt_name": "1 Serban Voda",
       "blocks": 4,
       "service": "Deficienta ACC",
@@ -855,6 +783,30 @@
       "basis_n": 76,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
+    },
+    {
+      "sector": 4,
+      "pt_name": "B 3 Cauzasi",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-02T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Pţa Unirii - bl. B3, B4, B5 ,B6, B7 • Str Radu Vodă - bl. B8 • Bld Dimitrie Cantemir - bl. B2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Vacaresti",
+      "blocks": 21,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+      "estimated_restore": "2026-08-02T23:00",
+      "on_time_probability": 0.389,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
     },
     {
       "sector": 4,
