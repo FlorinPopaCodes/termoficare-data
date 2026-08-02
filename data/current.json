@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T20:53:39",
+  "scraped_at": "2026-08-02T23:05:59",
   "status": "ok",
   "outages": [
     {
@@ -543,42 +543,6 @@
       "basis_n": 415,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Mocăncuţei - Imobil nr.12 • Bld Gheorghe Şincai - bl. 2, 4 • Str Tineretului - bl 5,Z1 • Str Trestiana - bl. 3 • Str Constantin Rădulescu-Motru - bl. 1, 35 • Str Cuza Vodă - bl. 37A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Serban Voda",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.351,
-      "basis_n": 191,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.387,
-      "basis_n": 556,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Pieptanari",
-      "blocks": 14,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.387,
-      "basis_n": 556,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Constantin Mănescu - bl. 6, 7, 8, Comunitatea Musulmană • Bld Pieptănari - bl. 5 • Str Dârste - Imobil nr.3 • Şos Viilor - bl. 4AB • Str Dumitru P. Botez - bl. Plomba 12 • Cal Şerban Vodă - bl. 2, 3A, 3B, 11 • Str Pandele Roşca - Scoala Gimnaziala Princepesa Margareta • Str Nicolae Galea - bl. 10 • Str Scarlat Otulescu - bl. 9"
     },
     {
       "sector": 4,
