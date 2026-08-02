@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T16:50:41",
+  "scraped_at": "2026-08-02T17:53:53",
   "status": "ok",
   "outages": [
     {
@@ -51,18 +51,6 @@
       "basis_n": 10045,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Anastasie Panu - bl. B7"
-    },
-    {
-      "sector": 3,
-      "pt_name": "13 Foișor",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de echilibrare hidraulică a rețelei primare",
-      "estimated_restore": "2026-08-02T17:00",
-      "on_time_probability": 0.501,
-      "basis_n": 991,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlaicu Vodă - bl. V62, V63, V61 • Str Brânduşelor - bl.V64 • Str Foişorului - bl. F6C, F7C, F5C, F4C • Str Alexandru Moruzzi Voievod - bl. V60, V59, V58"
     },
     {
       "sector": 3,
@@ -303,18 +291,6 @@
       "basis_n": 3185,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - 428"
-    },
-    {
-      "sector": 3,
-      "pt_name": "G3",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.286,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. G2, H1, G3, G2A, G2B, G2C • Str Ion Pillat - bl. G1, G1A • Bld Decebal - bl. H2"
     },
     {
       "sector": 3,
