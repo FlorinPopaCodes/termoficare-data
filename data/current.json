@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T10:16:00",
+  "scraped_at": "2026-08-02T12:28:52",
   "status": "ok",
   "outages": [
     {
@@ -51,18 +51,6 @@
       "basis_n": 10045,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Anastasie Panu - bl. B7"
-    },
-    {
-      "sector": 3,
-      "pt_name": "21 Foișor",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de echilibrare hidraulică a rețelei primare",
-      "estimated_restore": "2026-08-02T17:00",
-      "on_time_probability": 0.501,
-      "basis_n": 991,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlaicu Vodă - bl. C8, C9 • Str Vlad Dracul - bl. B12, B13 • Str Vasile Cârlova - bl. A7, A7bis • Str Emil Gârleanu - bl. A6, A4 • Str Lt. col. Dumitru Papazoglu - bl. B10, C6 • Str Anastasie Panu - bl. A12, A5, A16, B7 • Str Alexandru Moruzzi Voievod - bl. A11, A13, B6"
     },
     {
       "sector": 3,
@@ -150,18 +138,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "J2 Unirii",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. J1, J3B, J4, J2, J3A • Pţa Alba Iulia - bl. I6, I7"
-    },
-    {
-      "sector": 3,
       "pt_name": "M107",
       "blocks": 25,
       "service": "Oprire ACC",
@@ -171,18 +147,6 @@
       "basis_n": 3185,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Nerva Traian - bl. K6 • Bld Octavian Goga - bl. M103, M106 • Str Emil Botta - bl. M109, M105, M104, M107, M108 • Bld Unirii - bl. K3, K4, K2, K5 • Str Lucian Blaga - bl. K1"
-    },
-    {
-      "sector": 3,
-      "pt_name": "F6",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Maximilian Popper - bl. F6 • Bld Unirii - bl. F2, F3, F4 • Str Traian - bl. F1 • Str Ion Pillat - bl. F5"
     },
     {
       "sector": 3,
@@ -258,18 +222,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "E1",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vintilă Vodă - bl. E1 • Bld Unirii - bl. E2, E3,E3A, E3-3, E3A2"
-    },
-    {
-      "sector": 3,
       "pt_name": "2 Călăraşi",
       "blocks": 18,
       "service": "Oprire ACC",
@@ -279,18 +231,6 @@
       "basis_n": 3185,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Matei Basarab - 72, 86, 73, 74, 85, L122, L120, L118 • Str Theodor D. Speranţia - 78, 83, 84 • Str Agricultori - 80, 81, 82,79, • Cal Călăraşi - 75,76,77"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Ministerul de Finante",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Mircea Vodă - 44"
     },
     {
       "sector": 3,
@@ -315,30 +255,6 @@
       "basis_n": 36,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Miraj - bl. 60, 61, 68 • Ale Florin Ciungan - bl. 64, 66, 65, 67, 69 • Ale Răcari - bl. 75, 74, 71, 71A, 70 • Ale Marius Emanoil Buteică - bl. 72, 63, 62"
-    },
-    {
-      "sector": 3,
-      "pt_name": "BL U114 (UM 02544/B1)",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Mircea Vodă - 3-5"
-    },
-    {
-      "sector": 3,
-      "pt_name": "C3 Căuzaşi",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Negru Vodă - C3, C4, C3A • Str Mămulari - C1, C2 • Bld Unirii - A1, A2, A3, A4 • Str Sfânta Vineri - A6, A5"
     },
     {
       "sector": 3,
@@ -546,30 +462,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "Biblioteca Nationala",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Unirii - 22"
-    },
-    {
-      "sector": 3,
-      "pt_name": "7 Călăraşi",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Corneliu Coposu - 105A, 103, 104, 101, 106A, 105A • Str Sfânta Vineri - 105B, 105C, 102"
-    },
-    {
-      "sector": 3,
       "pt_name": "S6",
       "blocks": 10,
       "service": "Oprire ACC",
@@ -579,30 +471,6 @@
       "basis_n": 3185,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Decebal - bl. S11, S9, S10, S7, S4, H3, S6, S5, S7, S8"
-    },
-    {
-      "sector": 3,
-      "pt_name": "E6",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. E4, E4A • Str Traian - bl. E5, E6"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Tribunalul Bucuresti",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Unirii - 37"
     },
     {
       "sector": 3,
@@ -1119,18 +987,6 @@
       "basis_n": 375,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4 Crivina - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-02T12:00",
-      "on_time_probability": 0.413,
-      "basis_n": 10304,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Crângaşi - bl. 45"
     }
   ]
 }
