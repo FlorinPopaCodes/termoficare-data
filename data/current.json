@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T12:28:52",
+  "scraped_at": "2026-08-02T13:58:44",
   "status": "ok",
   "outages": [
     {
@@ -135,18 +135,6 @@
       "basis_n": 3185,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vulcan Judeţul - bl. B1B, B1C, B3A • Str Traian Popovici - bl. B3D, B4, B4D, B4F, B4A • Şos Mihai Bravu - bl. B2A, B2B, B2C, B1, B1A, B1D, B3B, B3C • Str Caloian Judeţul - bl. B4C, Scoala Generala nr. 80"
-    },
-    {
-      "sector": 3,
-      "pt_name": "M107",
-      "blocks": 25,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma ELSACO pe Magistrala II Sud",
-      "estimated_restore": "2026-08-02T23:00",
-      "on_time_probability": 0.349,
-      "basis_n": 3185,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Nerva Traian - bl. K6 • Bld Octavian Goga - bl. M103, M106 • Str Emil Botta - bl. M109, M105, M104, M107, M108 • Bld Unirii - bl. K3, K4, K2, K5 • Str Lucian Blaga - bl. K1"
     },
     {
       "sector": 3,
