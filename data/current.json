@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T17:53:53",
+  "scraped_at": "2026-08-02T18:53:33",
   "status": "ok",
   "outages": [
     {
@@ -895,14 +895,14 @@
     {
       "sector": 5,
       "pt_name": "1 Salaj - Partial",
-      "blocks": 3,
+      "blocks": 18,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-08-03T15:30",
       "on_time_probability": 0.25,
       "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A • Str Teliţa - 52A"
+      "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A,122B • Str Dunavăţ - 57,58,59,60,61A,65,60A,61 • Str Teliţa - 52A,56,66A,120,121,116,122A"
     },
     {
       "sector": 5,
