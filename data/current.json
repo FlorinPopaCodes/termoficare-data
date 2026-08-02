@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T23:05:59",
+  "scraped_at": "2026-08-03T00:08:18",
   "status": "ok",
   "outages": [
     {
@@ -10,7 +10,7 @@
       "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-02T23:30",
+      "estimated_restore": "2026-08-03T23:30",
       "on_time_probability": 0.271,
       "basis_n": 1989,
       "basis_bucket": "sector_cause_slip",
@@ -22,7 +22,7 @@
       "blocks": 9,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-02T23:30",
+      "estimated_restore": "2026-08-03T23:30",
       "on_time_probability": 0.151,
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
@@ -882,11 +882,23 @@
     },
     {
       "sector": 5,
+      "pt_name": "3 din 13 Septembrie",
+      "blocks": 19,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-08-03T03:00",
+      "on_time_probability": 0.524,
+      "basis_n": 82,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Uranus - bl. U8, 53 • Str Ion Creangă - bl. 87, 89, 91 • Cal 13 Septembrie - bl. 55-57, 59-61, 63, 65-67, 69 ,71, 73-75, 77ABC,79 ,81, 83, 85"
+    },
+    {
+      "sector": 5,
       "pt_name": "2 din 13 Septembrie",
       "blocks": 22,
       "service": "Oprire ACC",
       "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-      "estimated_restore": "2026-08-03T01:00",
+      "estimated_restore": "2026-08-03T03:00",
       "on_time_probability": 0.588,
       "basis_n": 80,
       "basis_bucket": "pt_cause_slip",
