@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-02T13:58:44",
+  "scraped_at": "2026-08-02T16:50:41",
   "status": "ok",
   "outages": [
     {
@@ -915,6 +915,18 @@
       "basis_n": 1432,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Salaj - Partial",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-03T15:30",
+      "on_time_probability": 0.25,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A • Str Teliţa - 52A"
     },
     {
       "sector": 5,
