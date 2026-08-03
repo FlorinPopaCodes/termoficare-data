@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-03T09:52:20",
+  "scraped_at": "2026-08-03T13:32:27",
   "status": "ok",
   "outages": [
     {
@@ -63,18 +63,6 @@
       "basis_n": 31,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Petricani",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-03T15:30",
-      "on_time_probability": 0.576,
-      "basis_n": 125,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
     },
     {
       "sector": 2,
@@ -954,18 +942,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "9 Margeanului - Partial",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str,Sold. Ene Modoran)",
-      "estimated_restore": "2026-08-03T15:00",
-      "on_time_probability": 0.503,
-      "basis_n": 6349,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Ene Modoran - bl.M163, M 162,M 169 M174, M179, M185, M191 • Str Bârnova - bl. M187 • Str Bârca - bl. M179A, M186,M161 • Str Focşani - bl. M181, M182, M188 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Sălaj",
       "blocks": 7,
       "service": "Oprire ACC",
@@ -1143,18 +1119,6 @@
       "basis_n": 2252,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Spl Independenţei - CAMIN P18, P19, P17, P16, P15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 4/5",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-03T13:00",
-      "on_time_probability": 0.493,
-      "basis_n": 71,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Roşia Montană - bl. 29, 30, 32 • Str Dezrobirii - bl. 23, 24, 25, 26, 27, 33 • Str Cetatea de Baltă - bl. 28, 31"
     },
     {
       "sector": 6,
