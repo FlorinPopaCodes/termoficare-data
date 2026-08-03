@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-03T21:02:33",
+  "scraped_at": "2026-08-03T22:54:07",
   "status": "ok",
   "outages": [
     {
@@ -27,18 +27,6 @@
       "basis_n": 38,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
-    },
-    {
-      "sector": 2,
-      "pt_name": "5 Mosilor",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-03T23:30",
-      "on_time_probability": 0.455,
-      "basis_n": 2723,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Deda - bl.79 • Şos Ştefan cel Mare - bl.59B, 59B1, 77, 47; 59A • Cal Moşilor - bl.55 Bis, • Str Luncşoara - bl.75, 63, 73 • Str Făinari - bl.69, 71 • Str Rovine - bl.65, 67"
     },
     {
       "sector": 2,
