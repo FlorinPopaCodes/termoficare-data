@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-04T18:42:37",
+  "scraped_at": "2026-08-04T20:19:34",
   "status": "ok",
   "outages": [
     {
@@ -63,6 +63,18 @@
       "basis_n": 1032,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - bl. 205, 203, 204, 200, • Cal Călăraşilor - bl. 201, 202"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.4C3/2 - Module Termice - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la modulul termic - str.Ale Barajul Dunării",
+      "estimated_restore": "2026-08-04T21:00",
+      "on_time_probability": 0.476,
+      "basis_n": 10046,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Barajul Dunării - M35"
     },
     {
       "sector": 3,
@@ -975,18 +987,6 @@
       "basis_n": 379,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "12 Liniei",
-      "blocks": 13,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie racord primar - (str. Murguta .)",
-      "estimated_restore": "2026-08-05T23:30",
-      "on_time_probability": 0.73,
-      "basis_n": 37,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mălinului - bl. 3, 4, 12bis • Str Murguţa - bl. 7, 8, 9, 10, 11 • Str Moineşti - • Str Roşiori de Vede - bl. 6 • Int Viforului - bl. 12, 13"
     }
   ]
 }
