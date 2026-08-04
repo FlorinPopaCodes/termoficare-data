@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-04T00:58:34",
+  "scraped_at": "2026-08-04T06:33:18",
   "status": "ok",
   "outages": [
     {
@@ -735,66 +735,6 @@
       "basis_n": 375,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "ISCH",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM LOT 2 OBIECTIV 7, executate de firma SICOR",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.364,
-      "basis_n": 2252,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Spl Independenţei - bl. ISCH"
-    },
-    {
-      "sector": 6,
-      "pt_name": "REGIE 3",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM LOT 2 OBIECTIV 7, executate de firma SICOR",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.364,
-      "basis_n": 2252,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Spl Independenţei - CAMIN P7, P8, P9, P10, P11, P12, P13, P14, CANTINA VEST, CANTINA EST"
-    },
-    {
-      "sector": 6,
-      "pt_name": "ZAGANESCU",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM LOT 2 OBIECTIV 7, executate de firma SICOR",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.364,
-      "basis_n": 2252,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Burlă Vasile - imobil 3,17,19, 21 • Str Cpt. Pavel Zăgănescu - imobil 3,4,5,8"
-    },
-    {
-      "sector": 6,
-      "pt_name": "REGIE 4",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM LOT 2 OBIECTIV 7, executate de firma SICOR",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.364,
-      "basis_n": 2252,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Spl Independenţei - CAMIN P1, P2, P3, P4, P5, P6, P20, P21, P22, SALA SPORT, COMPLEX COMERCIAL"
-    },
-    {
-      "sector": 6,
-      "pt_name": "STUDENTI 2",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM LOT 2 OBIECTIV 7, executate de firma SICOR",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.364,
-      "basis_n": 2252,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Spl Independenţei - CAMIN P18, P19, P17, P16, P15"
     }
   ]
 }
