@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-04T16:21:06",
+  "scraped_at": "2026-08-04T18:42:37",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC F4",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Automatizare Modernizare",
-      "estimated_restore": "2026-08-04T18:00",
-      "on_time_probability": 0.386,
-      "basis_n": 2271,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Pajurei - bl. F4"
-    },
     {
       "sector": 2,
       "pt_name": "Sala de Sport UTCB",
@@ -51,18 +39,6 @@
       "basis_n": 123,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Tuzla - bl.11, 11A • Str Grigore C. Moisil - bl.9, 10, 8, 6A, 6 • Bld Lacul Tei - bl.5A2, 5, 5A1, 4, 6B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Judetului",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.564,
-      "basis_n": 55,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
     },
     {
       "sector": 2,
@@ -630,6 +606,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "Huedin",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulică a rețelei primare .",
+      "estimated_restore": "2026-08-04T23:30",
+      "on_time_probability": 0.386,
+      "basis_n": 559,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Straja - bl. 52 • Str Moldoveni - bl. B15, B21 • Str Grădiştea - bl. 48, B5 • Str Reşiţa - bl. 49, 50, 51, Biserica Sf. Daniel • Str Huedin - bl. A26, 34, M1/2 • Ale Huedin - bl. 2, 3, 4, 5 • Str Uioara - bl. 33"
+    },
+    {
+      "sector": 4,
       "pt_name": "Spinis",
       "blocks": 26,
       "service": "Deficienta ACC",
@@ -687,6 +675,18 @@
       "basis_n": 559,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Moldoveni - bl. B19, B20 • Str Almaşu Mic - bl. B6, B7, B8, B10, B11, B12, B17, B18, Gradinita nr.62 • Str Almaşu Mare - bl. B2, B9, B16 • Str Grădiştea - bl. B1, B3, B4, B13, B14"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Zona IV",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulică a rețelei primare .",
+      "estimated_restore": "2026-08-04T23:30",
+      "on_time_probability": 0.386,
+      "basis_n": 559,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Grădiştea - bl. A9, A10 • Ale Reşiţa D - A1, A3, A4, A5, A7, A8 • Str Reşiţa - bl. A2, A6 • Str Uioara - bl. A11, A12, A13, A14"
     },
     {
       "sector": 5,
@@ -978,18 +978,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "J Giulești - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Bd. Constructorilor.)",
-      "estimated_restore": "2026-08-04T18:30",
-      "on_time_probability": 0.391,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Constructorilor - bl. 31"
-    },
-    {
-      "sector": 6,
       "pt_name": "12 Liniei",
       "blocks": 13,
       "service": "Oprire ACC",
@@ -999,54 +987,6 @@
       "basis_n": 37,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mălinului - bl. 3, 4, 12bis • Str Murguţa - bl. 7, 8, 9, 10, 11 • Str Moineşti - • Str Roşiori de Vede - bl. 6 • Int Viforului - bl. 12, 13"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4 Virtuții",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - (str.Virtutii .)",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.385,
-      "basis_n": 78,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3 Virtuții",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - (str.Virtutii .)",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.431,
-      "basis_n": 65,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Virtuții",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - (str.Virtutii .)",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.369,
-      "basis_n": 65,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Virtuții",
-      "blocks": 22,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - (str.Virtutii .)",
-      "estimated_restore": "2026-08-04T23:30",
-      "on_time_probability": 0.338,
-      "basis_n": 80,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
     }
   ]
 }
