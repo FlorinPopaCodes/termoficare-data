@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-04T14:32:11",
+  "scraped_at": "2026-08-04T16:21:06",
   "status": "ok",
   "outages": [
     {
@@ -978,6 +978,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "J Giulești - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Bd. Constructorilor.)",
+      "estimated_restore": "2026-08-04T18:30",
+      "on_time_probability": 0.391,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Constructorilor - bl. 31"
+    },
+    {
+      "sector": 6,
       "pt_name": "12 Liniei",
       "blocks": 13,
       "service": "Oprire ACC",
@@ -987,18 +999,6 @@
       "basis_n": 37,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mălinului - bl. 3, 4, 12bis • Str Murguţa - bl. 7, 8, 9, 10, 11 • Str Moineşti - • Str Roşiori de Vede - bl. 6 • Int Viforului - bl. 12, 13"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Îndesirii - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum. ( Bld. Iuliu Maniu. )",
-      "estimated_restore": "2026-08-04T15:30",
-      "on_time_probability": 0.44,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. G2"
     },
     {
       "sector": 6,
