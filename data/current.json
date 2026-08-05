@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-05T13:14:45",
+  "scraped_at": "2026-08-05T15:16:43",
   "status": "ok",
   "outages": [
     {
@@ -270,18 +270,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "5 Pantelimon",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum .",
-      "estimated_restore": "2026-08-05T14:00",
-      "on_time_probability": 0.526,
-      "basis_n": 78,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Herţa - bl. 63; 64A; 64B • Str Pescăruşului - Imobil • Şos Pantelimon - bl.59-60, 55, 53, 55A"
-    },
-    {
-      "sector": 2,
       "pt_name": "Sala de Sport UTCB",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -342,15 +330,15 @@
     },
     {
       "sector": 3,
-      "pt_name": "1 Vitan",
-      "blocks": 22,
+      "pt_name": "2 Placare-T - Partial",
+      "blocks": 3,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-05T14:30",
-      "on_time_probability": 0.219,
-      "basis_n": 32,
+      "cause": "Remediere avarie CD acc + recirculatie",
+      "estimated_restore": "2026-08-05T18:30",
+      "on_time_probability": 0.351,
+      "basis_n": 37,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Vitan - bl. 2, 3, 9, 10, 7C, 2A, 1, 1A, 1B • Str Lugojana - bl. 12, 11 • Str Dristorului - bl. 6 • Ale Râmnicu Sărat - bl. 2B, 7B,7A,15 • Str Râmnicu Vâlcea - bl. 15, 15B, 15A • Str Baia Mare - bl. 4, 8, 7A1,12A 5, 7, 12B"
+      "zone_raw": "• Str Valea Buzăului - bl.G33, G34, • Str Trapezului - bl.G35"
     },
     {
       "sector": 3,
@@ -750,18 +738,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "3 Nitu Vasile",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-08-05T14:00",
-      "on_time_probability": 0.411,
-      "basis_n": 1461,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Secuilor - bl. 21, 22 • Ale Donea Diana Alexandra - bl.19, 32, V18, 19B • Str Rezonanţei - bl. 15+16 • Bld Constantin Brâncoveanu - bl. 29, 30 • Ale Cricovul Dulce - bl. 15, 16, 17, 18, 17-18, N16, N17, N18, N19, N21, Policlinica • Ale Adrian Dan Urucu - bl. 20, 31, N17, Gradinița nr.227"
-    },
-    {
-      "sector": 4,
       "pt_name": "V.S.Sud",
       "blocks": 11,
       "service": "Oprire ACC",
@@ -975,6 +951,18 @@
       "basis_n": 559,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Drumul Sarii",
+      "blocks": 16,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-05T15:30",
+      "on_time_probability": 0.439,
+      "basis_n": 66,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Baltagului - bl. V75, V76A,V76, V67, V73A • Str Mihail Sebastian - bl. V73, V74 • Drm Sării - bl. V62, V63 • Str Lt. col. Constantin Marinescu - bl. V64, V65, V66, V68, V69, V70, V71"
     },
     {
       "sector": 5,
@@ -1266,18 +1254,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "6/2",
-      "blocks": 13,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de înlocuire vană/vane pe circuitul primar DN 250",
-      "estimated_restore": "2026-08-05T23:00",
-      "on_time_probability": 0.364,
-      "basis_n": 2258,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Dumbrăviţa - bl.MIIB8/4, 28,T8, P14, 229,ITN • Bld Timişoara - bl. P13, P15, 229Bis, T10, 33, 34, 35, 36"
-    },
-    {
-      "sector": 6,
       "pt_name": "1/7",
       "blocks": 28,
       "service": "Oprire ACC",
@@ -1294,7 +1270,7 @@
       "blocks": 2,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-05T15:30",
+      "estimated_restore": "2026-08-05T17:30",
       "on_time_probability": 0.28,
       "basis_n": 25,
       "basis_bucket": "pt_cause_slip",
