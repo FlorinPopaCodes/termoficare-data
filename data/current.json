@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-05T00:53:14",
+  "scraped_at": "2026-08-05T07:47:47",
   "status": "ok",
   "outages": [
     {
@@ -15,30 +15,6 @@
       "basis_n": 2271,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Făurei - bl. E3"
-    },
-    {
-      "sector": 2,
-      "pt_name": "18 Pantelimon",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-      "estimated_restore": "2026-08-05T04:00",
-      "on_time_probability": 0.42,
-      "basis_n": 119,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Fântânica - bl.204, 203, imob.Nr.14A • Şos Pantelimon - bl.206, 205sc.A,B, 400B, 400A, 400C • Ale Cislău - bl.10, 9A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "23 Baicului",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-      "estimated_restore": "2026-08-05T04:00",
-      "on_time_probability": 0.41,
-      "basis_n": 139,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
     },
     {
       "sector": 2,
