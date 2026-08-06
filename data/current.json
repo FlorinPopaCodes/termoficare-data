@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-06T12:20:47",
+  "scraped_at": "2026-08-06T14:38:25",
   "status": "ok",
   "outages": [
     {
@@ -406,23 +406,11 @@
       "blocks": 9,
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-06T14:00",
+      "estimated_restore": "2026-08-06T23:30",
       "on_time_probability": 0.151,
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
-    },
-    {
-      "sector": 3,
-      "pt_name": "17 Răcari",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie apa calda de consum in PT.",
-      "estimated_restore": "2026-08-06T15:30",
-      "on_time_probability": 0.4,
-      "basis_n": 50,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Miraj - bl. 60, 61, 68 • Ale Florin Ciungan - bl. 64, 66, 65, 67, 69 • Ale Răcari - bl. 75, 74, 71, 71A, 70 • Ale Marius Emanoil Buteică - bl. 72, 63, 62"
     },
     {
       "sector": 3,
@@ -762,15 +750,15 @@
     },
     {
       "sector": 6,
-      "pt_name": "12 Liniei - Partial",
-      "blocks": 1,
+      "pt_name": "9/4",
+      "blocks": 22,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-06T13:30",
-      "on_time_probability": 0.222,
-      "basis_n": 27,
+      "cause": "Depistare avarie - izolare racord PT 9/4",
+      "estimated_restore": "2026-08-07T10:00",
+      "on_time_probability": 0.58,
+      "basis_n": 50,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Roşiori de Vede - bl. 6"
+      "zone_raw": "• Ale Lunca Cernei - Cernei bl D48, D47,M52 • Str Romancierilor - bl.C14 • Str Drumul Taberei - bl M33, M35, M37, M39, M40Bis • Bld Timişoara - bl C13, D44, M50 • Ale Valea Boteni - bl.D46, M51 • Ale Valea Viilor - bl. M34, A53, M36, D49, M38, M40, D50"
     }
   ]
 }
