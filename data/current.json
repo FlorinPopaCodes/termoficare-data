@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-06T06:58:16",
+  "scraped_at": "2026-08-06T09:28:15",
   "status": "ok",
   "outages": [
     {
@@ -47,10 +47,34 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-08-07T23:30",
-      "on_time_probability": 0.402,
-      "basis_n": 87,
+      "on_time_probability": 0.395,
+      "basis_n": 86,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Grigore Alexandrescu - bl. H1 • Bld Iancu de Hunedoara - bl. H5, H6, H4"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Colentina 3",
+      "blocks": 19,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul primar",
+      "estimated_restore": "2026-08-06T14:00",
+      "on_time_probability": 0.463,
+      "basis_n": 82,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Gherghiţei - bl.94B • Str Fabrica de Gheaţă - bl.84II sc.1+3, 2, 89, 90, 91, 98, 97, 96, 95A, 95B • Şos Colentina - bl.85, 84I, 86, 87, 88,83, 92 sc.1, 2; 93, 94A;"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Ilarie Chendi",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-06T14:00",
+      "on_time_probability": 0.455,
+      "basis_n": 2737,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Medic Constantin Zlătescu - • Şos Mihai Bravu - bl.D25, D26 sc.A, D27 sc.A, B, D28, D27B • Str Ilarie Chendi - imob.Nr.44 • Ale Lunguleţu - bl.V1, V2, D14, V3 sc.B"
     },
     {
       "sector": 2,
@@ -95,8 +119,8 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie retea primara.",
       "estimated_restore": "2026-08-07T23:30",
-      "on_time_probability": 0.417,
-      "basis_n": 120,
+      "on_time_probability": 0.478,
+      "basis_n": 46,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Fântânica - bl.204, 203, imob.Nr.14A • Şos Pantelimon - bl.206, 205sc.A,B, 400B, 400A, 400C • Ale Cislău - bl.10, 9A"
     },
@@ -239,8 +263,8 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie retea primara.",
       "estimated_restore": "2026-08-07T23:30",
-      "on_time_probability": 0.407,
-      "basis_n": 140,
+      "on_time_probability": 0.393,
+      "basis_n": 56,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
     },
@@ -258,13 +282,37 @@
     },
     {
       "sector": 3,
+      "pt_name": "4 Dudești",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie apa calda de consum in PT.",
+      "estimated_restore": "2026-08-06T10:30",
+      "on_time_probability": 0.523,
+      "basis_n": 65,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Brăiliţa - bl. D9B, D9A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "17 Răcari",
+      "blocks": 15,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie apa calda de consum in PT.",
+      "estimated_restore": "2026-08-06T15:30",
+      "on_time_probability": 0.4,
+      "basis_n": 50,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Miraj - bl. 60, 61, 68 • Ale Florin Ciungan - bl. 64, 66, 65, 67, 69 • Ale Răcari - bl. 75, 74, 71, 71A, 70 • Ale Marius Emanoil Buteică - bl. 72, 63, 62"
+    },
+    {
+      "sector": 3,
       "pt_name": "3 Unităţii",
       "blocks": 19,
       "service": "Oprire ACC",
       "cause": "Execuție lucrări de modernizare - firma SICOR",
       "estimated_restore": "2026-08-06T23:30",
-      "on_time_probability": 0.197,
-      "basis_n": 370,
+      "on_time_probability": 0.199,
+      "basis_n": 371,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Traian Popovici - bl. B7, B11, B10 • Şos Mihai Bravu - bl. B13, B13A, B13D, B13B, B13C • Str Lt. Aurel Botea - bl. B5A, B5, B5D, B5B, B5C, B6, B6A, B6B, B8, B9"
     },
@@ -275,34 +323,10 @@
       "service": "Oprire ACC",
       "cause": "Execuție lucrări de modernizare - firma SICOR",
       "estimated_restore": "2026-08-06T23:30",
-      "on_time_probability": 0.197,
-      "basis_n": 370,
+      "on_time_probability": 0.199,
+      "basis_n": 371,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - 12, 12A, 15, 15A, 18, 18A, 14A+B • Str Dristorului - 15B, 10, 10A, 11, 12B, 16ABC, 17,13, 13C • Bld Camil Ressu - 13A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Stoian Militaru",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de echilibrare hidraulica a retelei primare",
-      "estimated_restore": "2026-08-06T23:30",
-      "on_time_probability": 0.386,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de echilibrare hidraulica a retelei primare",
-      "estimated_restore": "2026-08-06T23:30",
-      "on_time_probability": 0.584,
-      "basis_n": 149,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
     },
     {
       "sector": 4,
@@ -330,13 +354,61 @@
     },
     {
       "sector": 5,
+      "pt_name": "VSNord",
+      "blocks": 15,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-08T23:00",
+      "on_time_probability": 0.521,
+      "basis_n": 96,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Pţa Naţiunile Unite - B1, B2, C • Str Sfintii Apostoli - 3B • Bld Unirii - 1, 1A, 1B, 1C, 2A, 2B, 2C, 3, 4A, 4B • Str Bordea Poenaru - 8-10"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Tribunal",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-08T23:00",
+      "on_time_probability": 0.511,
+      "basis_n": 92,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Unirii - bl. 12, 13, 14, 15 • Spl Independenţei - bl. 16, 17"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Gioconda",
+      "blocks": 0,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-08T23:00",
+      "on_time_probability": 0.523,
+      "basis_n": 88,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
+    },
+    {
+      "sector": 5,
+      "pt_name": "4 Rahova - Partial",
+      "blocks": 29,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-06T15:30",
+      "on_time_probability": 0.211,
+      "basis_n": 57,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Pecineaga - bl 23A, 23B, 28A, 28C • Str Cap. Ilina - bl 11B, 13A • Str Vicina - bl 29, 29A, 29B, 32, 33 • Str Oltina - bl 23, 27, 28B • Str Slt. Popa - bl 13B, 13C, 15, 15A, 15B • Str Sg. Scarlat - bl 12 • Cal Rahovei - bl 11, 11A, 11C, 13, 28, 26, 30, 30A, imobil Ioniţă"
+    },
+    {
+      "sector": 5,
       "pt_name": "1 Giurgiu - Partial",
       "blocks": 3,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-08-06T15:30",
       "on_time_probability": 0.503,
-      "basis_n": 6353,
+      "basis_n": 6359,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Verigei - bl. 2, Z 3 • Str Măgurei - bl. D1"
     },
@@ -477,11 +549,11 @@
       "pt_name": "3 Sălaj",
       "blocks": 7,
       "service": "Oprire ACC",
-      "cause": "Înlocuit conductă DN 500 mm - str. Dunăvăț și Sos. Sălaj",
+      "cause": "Lucrări de inlocuire conductă DN 500 mm retea termică primară - str.Dunavăţ, Sos.Sălaj",
       "estimated_restore": "2026-08-06T23:00",
-      "on_time_probability": 0.382,
-      "basis_n": 777,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0.55,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Petre Păun - bl. 69D, 69C • Şos Sălaj - bl. 68, 69A 69B • Str Sg. Turturică - bl. 70A, 70B"
     },
     {
@@ -489,11 +561,11 @@
       "pt_name": "2 Sălaj",
       "blocks": 14,
       "service": "Oprire ACC",
-      "cause": "Înlocuit conductă DN 500 mm - str. Dunăvăț și Sos. Sălaj",
+      "cause": "Lucrări de inlocuire conductă DN 500 mm retea termică primară - str.Dunavăţ, Sos.Sălaj",
       "estimated_restore": "2026-08-06T23:00",
-      "on_time_probability": 0.382,
-      "basis_n": 777,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0.478,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Pecineaga - bl. 46, 47A • Str Cartojani - bl. 53A, 55A • Ale Sălaj - bl. 47, 48, 49, 50, 55, 53 • Str Dunavăţ - bl. 49C, 49D, 49E, 51A"
     },
     {
@@ -501,10 +573,10 @@
       "pt_name": "1 Salaj",
       "blocks": 25,
       "service": "Oprire ACC",
-      "cause": "Înlocuit conductă DN 500 mm - str. Dunăvăț și Sos. Sălaj",
+      "cause": "Lucrări de inlocuire conductă DN 500 mm retea termică primară - str.Dunavăţ, Sos.Sălaj",
       "estimated_restore": "2026-08-06T23:00",
-      "on_time_probability": 0.382,
-      "basis_n": 777,
+      "on_time_probability": 0.429,
+      "basis_n": 1620,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A,122B, • Str Dunavăţ - 57,58,59,60,61A,65,60A,61 • Str Teliţa - 52A,56,66A,120,121,116,122A,119C • Cal Ferentari - 117,119A,70A+B,119B,119D,117A"
     },
@@ -513,11 +585,11 @@
       "pt_name": "Vicina",
       "blocks": 30,
       "service": "Oprire ACC",
-      "cause": "Înlocuit conductă DN 500 mm - str. Dunăvăț și Sos. Sălaj",
+      "cause": "Lucrări de inlocuire conductă DN 500 mm retea termică primară - str.Dunavăţ, Sos.Sălaj",
       "estimated_restore": "2026-08-06T23:00",
-      "on_time_probability": 0.382,
-      "basis_n": 777,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0.4,
+      "basis_n": 30,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Pricopan - bl. Z7, Z8, 11, 12, 13, 14, 16, 17, 18, 19, 20, 33, 34, 35, 36 • Ale Sălaj - bl. Z4, Z5, Z10, 15, 21, 37, 41 • Str Malcoci - bl. 38, 39, 40 • Ale Vicina - bl. 1, Z2, Z3, Z6, Z9"
     },
     {
@@ -525,11 +597,11 @@
       "pt_name": "6 Rahova",
       "blocks": 26,
       "service": "Oprire ACC",
-      "cause": "Înlocuit conductă DN 500 mm - str. Dunăvăț și Sos. Sălaj",
+      "cause": "Lucrări de inlocuire conductă DN 500 mm retea termică primară - str.Dunavăţ, Sos.Sălaj",
       "estimated_restore": "2026-08-06T23:00",
-      "on_time_probability": 0.382,
-      "basis_n": 777,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0.55,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Constantin Lecca - bl 66E • Str Pictor Mihail Dan - bl 62, 67 • Şos Sălaj - bl 34, 62A, 62B • Str Malcoci - bl 36, 45, 46 • Str Vasile Dumitrescu - bl 66C • Str Dunavăţ - bl 63, 66D, 45A, 45B, 45C, 70A • Str Teliţa - bl 66A, 66B, 67A, 70, Policlinica Malcoci • Str Frecăţei - bl 35 • Cal Rahovei - bl 44, 44A, 52, 66"
     },
     {
@@ -543,6 +615,42 @@
       "basis_n": 379,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MFA",
+      "blocks": 30,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. int. Dr. Taberei",
+      "estimated_restore": "2026-08-06T12:00",
+      "on_time_probability": 0.367,
+      "basis_n": 49,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lt. Gheorghe Caranda - bl.J • Int Drumul Taberei - bl. E1,E2, F, G, H • Str Mihaela Ruxandra Marcu - bl. B4, B5,A3 • Str Drumul Taberei - bl. A1, A2, B3, D1, D2 • Ale Poiana Mare - bl. B6, B7, B8, B9 • Str Poiana Câmpina - bl. A5, A6, A7, A8 • Bld Timişoara - bl. H1 • Bld G-ral Vasile Milea - bl. A, B, C, A4, B1, B2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "12 Liniei - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-06T13:30",
+      "on_time_probability": 0.222,
+      "basis_n": 27,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Roşiori de Vede - bl. 6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "7 Lavandei",
+      "blocks": 14,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-08-06T13:30",
+      "on_time_probability": 0.417,
+      "basis_n": 24,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lavandei - bl. P28 • Str Dobreni - bl. P22, P23 • Int Pitulicii - bl. P24, P25, P26, P27 • Str Dezrobirii - bl. P17, P19 • Bld Uverturii - bl. P16, P21 • Str Cernişoara - bl. P18, P20, O13"
     }
   ]
 }
