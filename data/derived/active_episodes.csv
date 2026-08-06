@@ -1,57 +1,16 @@
 episode_id,sector,pt_name,utility,slip_count
 0a0f8f6ef8a3,5,Modul Toporaşi,ACC,1
-9800a1ca2e88,3,1 Călăraşi,ACC,1
-41819823cb3d,3,1 Labirint,ACC,1
-4e7ae2ba73d6,3,1 Laborator,ACC,1
-1e407fb35a10,3,10 Laborator,ACC,1
-e197a1a33991,3,11 Laborator,ACC,1
-7f0464073040,3,16 Răcari,ACC,1
-e0034ce41d3b,3,17 Răcari,ACC,1
-1fd05eb3be82,3,2 Cornul Caprei,ACC,1
-0a99105d614e,3,2 Călăraşi,ACC,1
-0caec80f4acd,3,2 Unităţii,ACC,2
-3174300c7366,3,2 Vitan,ACC,1
-79a897a33555,3,3 Călăraşi,ACC,1
-c99b4bd4f33f,3,3 Labirint,ACC,1
-917f6689a2e9,3,3 Theodor Speranţia,ACC,1
 d5aa9a339222,3,3 Unităţii,ACC,2
-d9faf5d34c9d,3,4 Labirint,ACC,1
-c4ed6f71df03,3,4 Theodor Speranţia,ACC,1
-1500ae72ceb6,3,5 Cornul Caprei,ACC,1
-7793d4832729,3,5 Călăraşi,ACC,1
-bffd0b3325e4,3,Colegiul Tehnic Mihai Bravu,ACC,1
 a12d33602c69,3,Dristor Insulă,ACC,2
-e07ae37f4fff,3,I3,ACC,1
-89e259141130,3,IN CITY,ACC,1
-c9e2b84fadf9,3,S14,ACC,1
-9588fcac6c89,3,S6,ACC,1
-42fb00ca2c9f,4,1 Stoian Militaru,ACC,3
-b793f190aaa4,4,1 Tineretului,ACC,1
-35fe93a285ab,4,2 Lanariei,ACC,1
-4a79ec4fa01e,4,2 Tineretului,ACC,1
-b64f3e0c917a,4,3 Oltenita Placare,ACC,3
-588371286df1,4,3 Tineretului,ACC,1
-78aaa8738195,4,4 Lanariei,ACC,1
-15174f431155,4,Norilor,ACC,1
-8d340fca6772,4,Sincai,ACC,1
-af1d0f91b851,2,201 Mihai Bravu,ACC,1
-57b75044cee5,2,Galvani Tei,ACC,20
+42fb00ca2c9f,4,1 Stoian Militaru,ACC,4
+b64f3e0c917a,4,3 Oltenita Placare,ACC,4
+57b75044cee5,2,Galvani Tei,ACC,21
 5b1cdf297e90,5,1 Salaj,ACC,0
 b2fee1ab361b,5,2 Sălaj,ACC,0
 62a7e8e2613b,5,3 Sălaj,ACC,0
 d01e31038598,5,6 Rahova,ACC,0
 e9f34d771aad,5,Vicina,ACC,0
-5df22884546f,3,7 Călăraşi,ACC,0
-1a25d3c1cf1e,3,BL U114 (UM 02544/B1),ACC,0
-b2ff12af5eb0,3,Biblioteca Nationala,ACC,0
-6897624563b9,3,C3 Căuzaşi,ACC,0
-dddf82369d98,3,E1,ACC,0
-30e24e2c1252,3,Tribunalul Bucuresti,ACC,0
-eaf8d4ab0d69,2,5 Lacul Tei,ACC,0
-23744204d525,2,ICB,ACC,0
-863aaf9edae7,2,Sala de Sport UTCB,ACC,0
-b9d9598118d8,4,P 5 A,ACC,0
-fad1b59ee767,4,V.S.Sud,ACC,0
+a7e3cdc27d3a,1,2 Ilie Pintilie,ACC,0
 1879a288400e,5,1 Drumul Sarii,ACC,0
 caca59e2e178,5,1 Petre Ispirescu,ACC,0
 4e3948ac6ac4,5,10 Margeanului,ACC,0
@@ -60,15 +19,28 @@ caca59e2e178,5,1 Petre Ispirescu,ACC,0
 993330714a66,5,3 Drumul Sării,ACC,0
 6c28876cfc04,5,3 Petre Ispirescu,ACC,0
 04a3afe60313,5,4 Drumul Sarii,ACC,0
-b11c0fafb6d6,5,5 Margeanului,ACC,0
-8e7ff08535f7,5,6 Margeanului,ACC,0
 516a0bf77332,5,6 Petre Ispirescu,ACC,0
-d02c4f19a59d,5,7 Margeanului,ACC,0
 b671b02d2b81,5,7 Petre Ispirescu,ACC,0
 9f982dfeb55e,5,9 Margeanului,ACC,0
-b8c27fe1b0ac,5,Gioconda,ACC,0
-ef652fb00e75,5,Institutul Teologioc,ACC,0
-337f02b69e82,5,Tribunal,ACC,0
-7a990304d58a,5,VSNord,ACC,0
-b06c6edfface,4,2 Oltenita Placare,ACC,1
-f969a38f39ce,1,MODUL TERMIC E3,ACC,0
+b06c6edfface,4,2 Oltenita Placare,ACC,4
+4771fa775c5b,2,18 Pantelimon,ACC,1
+9db8a6a3c27d,2,23 Baicului,ACC,1
+a1862e7b6fd6,4,2 Stoian Militaru,ACC,3
+5d909402f6bb,1,146 Grivita,ACC,0
+c20a8c2d9773,1,148 Grivita,ACC,0
+8a657c5aef6f,1,150 Grivita,ACC,0
+4dac8a39139f,2,1 Iancului,ACC,0
+b53f5b1f84d7,2,19 Pantelimon,ACC,0
+86eec43feda7,2,2 Iancului,ACC,0
+54d42a865934,2,20 Pantelimon,ACC,0
+496143286638,2,21 Pantelimon,ACC,0
+6bf2b8ad2182,2,22 Pantelimon,ACC,0
+320a078f4d2e,2,3 Iancului,ACC,0
+0f4a332ede0e,2,4 Iancului,ACC,0
+5bff258e3620,2,5 Iancului,ACC,0
+c8217cb884c3,2,Bl.100,ACC,0
+4c97ebece432,2,C1 Vatra Luminoasa,ACC,0
+2e76dd950452,2,E2 Vatra Luminoasa,ACC,0
+cb4bff088fc7,2,H1 Victor Manu,ACC,0
+1c3f286a6dda,2,Vila 71A,ACC,0
+112860397bf0,5,1 Giurgiu - Partial,ACC,0
