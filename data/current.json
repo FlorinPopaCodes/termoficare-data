@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-07T15:09:59",
+  "scraped_at": "2026-08-07T16:35:34",
   "status": "ok",
   "outages": [
     {
@@ -77,30 +77,6 @@
       "zone_raw": "• Str Institutul Medico-Militar - 22"
     },
     {
-      "sector": 1,
-      "pt_name": "Club Steaua",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare efectuate de firma ELSACO",
-      "estimated_restore": "2026-08-07T15:30",
-      "on_time_probability": 0.386,
-      "basis_n": 2274,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Plevnei - 114"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Muzeul Militar",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare efectuate de firma ELSACO",
-      "estimated_restore": "2026-08-07T15:30",
-      "on_time_probability": 0.386,
-      "basis_n": 2274,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mircea Vulcănescu - Muzeul Militar"
-    },
-    {
       "sector": 2,
       "pt_name": "Judetului - Partial",
       "blocks": 1,
@@ -159,18 +135,6 @@
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Vaselor",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-08-07T23:30",
-      "on_time_probability": 0.455,
-      "basis_n": 2738,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl.P3, P30A, 4, 4Bis, P14, P12, P15Bis, P15, P13 • Str Pictor Oscar Obedeanu - imob.Nr.18 • Ale Avrig - bl.P4, P5, P6, P18Bis, P30, P18, P19Bis, P19"
     },
     {
       "sector": 2,
@@ -431,9 +395,9 @@
       "service": "Oprire ACC",
       "cause": "Conducta apa rece alimentare modul sparta - Bd.1Dec 1918",
       "estimated_restore": "2026-08-07T15:30",
-      "on_time_probability": 0.285,
-      "basis_n": 1454,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld 1 Decembrie 1918 - Module bl M28"
     },
     {
@@ -442,7 +406,7 @@
       "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-07T19:00",
+      "estimated_restore": "2026-08-07T19:30",
       "on_time_probability": 0.467,
       "basis_n": 5795,
       "basis_bucket": "sector_cause_slip",
@@ -454,7 +418,7 @@
       "blocks": 2,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-07T17:00",
+      "estimated_restore": "2026-08-07T17:30",
       "on_time_probability": 0.467,
       "basis_n": 5795,
       "basis_bucket": "sector_cause_slip",
@@ -519,6 +483,18 @@
       "basis_n": 581,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Rahova",
+      "blocks": 22,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str Cal Rahovei.)",
+      "estimated_restore": "2026-08-07T20:30",
+      "on_time_probability": 0.519,
+      "basis_n": 54,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Petre Ispirescu - bl 40, 41, 42A, 42B, 47 • Str Bârca - bl M184, M189, M190, M194 • Str Focşani - bl M178, M183, M193, M195, M196 • Str Iancu Jianu - bl M176, M177, M192 • Cal Rahovei - bl 31, 37, 43-43A, 43B, imobil Lungu Smaranda"
     },
     {
       "sector": 5,
@@ -651,18 +627,6 @@
       "basis_n": 379,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "12 Maratonului - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-07T15:30",
-      "on_time_probability": 0.333,
-      "basis_n": 60,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Ghirlandei - bl. 44"
     }
   ]
 }
