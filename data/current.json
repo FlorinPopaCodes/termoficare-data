@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-07T03:35:42",
+  "scraped_at": "2026-08-07T06:37:12",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "Ct Scala",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la punctul termic - (str./Bd.)",
-      "estimated_restore": "2026-08-07T03:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str C. A. Rosetti - Bl Scala,20 • Str Vasile Conta - Bl 9A"
-    },
     {
       "sector": 2,
       "pt_name": "Galvani Tei",
@@ -27,6 +15,18 @@
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Colentina Socului",
+      "blocks": 13,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-07T23:30",
+      "on_time_probability": 0.429,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Abanosului - bl.2, 5 • Str Doamna Ghica - bl.70, 69 • Str Dimitrie Grozdea - bl.64, 63, 82 • Ale Bistricioara - bl.65, 66, 68, 67 • Str Baicului - bl.81, 83"
     },
     {
       "sector": 2,
@@ -42,6 +42,42 @@
     },
     {
       "sector": 2,
+      "pt_name": "1 Colentina Socului",
+      "blocks": 20,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-07T23:30",
+      "on_time_probability": 0.649,
+      "basis_n": 37,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - Bl.15 • Str Stolnicul Vasile - bl.28, 33, 27, 30, 18, 17Bis, 29Bis • Str Popa Nicolae - bl.24, 23, 21, 22, 31, 32, 25 • Str Răuşeni - bl.26, 16, 17, 29, 31"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Dimitrov",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-07T23:30",
+      "on_time_probability": 0.389,
+      "basis_n": 36,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Ferdinand I - bl.O11,O10, O13, O12, O14, imob.nr.118 • Str Avrig - bl.O18,O20,O15,O16,O19,O17"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Vaselor",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-07T23:30",
+      "on_time_probability": 0.455,
+      "basis_n": 2737,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Mihai Bravu - bl.P3, P30A, 4, 4Bis, P14, P12, P15Bis, P15, P13 • Str Pictor Oscar Obedeanu - imob.Nr.18 • Ale Avrig - bl.P4, P5, P6, P18Bis, P30, P18, P19Bis, P19"
+    },
+    {
+      "sector": 2,
       "pt_name": "Ilarie Chendi",
       "blocks": 9,
       "service": "Deficienta ACC",
@@ -51,6 +87,18 @@
       "basis_n": 2737,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Medic Constantin Zlătescu - • Şos Mihai Bravu - bl.D25, D26 sc.A, D27 sc.A, B, D28, D27B • Str Ilarie Chendi - imob.Nr.44 • Ale Lunguleţu - bl.V1, V2, D14, V3 sc.B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Republicii",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-07T23:30",
+      "on_time_probability": 0.455,
+      "basis_n": 2737,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Mihai Bravu - bl.D17, D16, D3, D4, D1, D2, D5 • Int Sg. Ion Tancu - imob. Nr.6, 8, 1, 5, 3, 4, 8 • Int Serg. Ion Panţâru - imob.Nr.10, 3, 8"
     },
     {
       "sector": 2,
@@ -366,6 +414,30 @@
     },
     {
       "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-07T23:00",
+      "on_time_probability": 0.356,
+      "basis_n": 194,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenita Placare",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-07T23:00",
+      "on_time_probability": 0.356,
+      "basis_n": 194,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
+    },
+    {
+      "sector": 4,
       "pt_name": "1 Stoian Militaru",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -387,6 +459,18 @@
       "basis_n": 194,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
+    },
+    {
+      "sector": 4,
+      "pt_name": "6 Brancoveanu",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-07T23:00",
+      "on_time_probability": 0.373,
+      "basis_n": 579,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Secuilor - bl. B17A • Str Păduroiu - bl. B22A, B23, B24, B25 • Str Pomârla - bl. B20, B21, B22 • Bld Constantin Brâncoveanu - bl. B14, B15, B16, B17 • Str Băltiţa - bl. B18 ,B19"
     },
     {
       "sector": 4,
@@ -450,42 +534,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "3 Drumul Sării",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de reintregire conducta DN 500 mm - Lucrari POIM in strada Dumbrava Noua, Calea 13 Septembrie, Topliceanu Vasile",
-      "estimated_restore": "2026-08-07T23:00",
-      "on_time_probability": 0.556,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Baltagului - bl. V77, V78, V81 • Ale Botorani - bl. V28, V35, V36, V37, V42, V43, V80, V82, V83, V84 • Cal 13 Septembrie - bl. V38, V39, V40 • Str Mihail Sebastian - bl. V29, V30, V79"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Petre Ispirescu",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de reintregire conducta DN 500 mm - Lucrari POIM in strada Dumbrava Noua, Calea 13 Septembrie, Topliceanu Vasile",
-      "estimated_restore": "2026-08-07T23:00",
-      "on_time_probability": 0.407,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P1A, P6 • Str Cobadin - bl. P14, P19A, P19 • Str Ileana Cosânzeana - bl. P1, P2, P7, P8, P9, P10, P11 • Str Făt Frumos - bl. P6, P12, P11A, P13, P15, P16"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Drumul Sarii",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de reintregire conducta DN 500 mm - Lucrari POIM in strada Dumbrava Noua, Calea 13 Septembrie, Topliceanu Vasile",
-      "estimated_restore": "2026-08-07T23:00",
-      "on_time_probability": 0.478,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lacul Plopului - bl. V7, P73 • Cal 13 Septembrie - bl. V1, V3, V4, V5, V6 • Str Şerbota - bl. P74, V8, V9, V19, V20, V21 • Str Sg. maj. Ion Nedeleanu - bl. V22, V23"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Petre Ispirescu",
       "blocks": 16,
       "service": "Oprire ACC",
@@ -498,42 +546,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "6 Petre Ispirescu",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de reintregire conducta DN 500 mm - Lucrari POIM in strada Dumbrava Noua, Calea 13 Septembrie, Topliceanu Vasile",
-      "estimated_restore": "2026-08-07T23:00",
-      "on_time_probability": 0.3,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sg.maj. Vasile Topliceanu - bl. P37, P31, P32, P38, P36, P38A • Str Sg. maj. Ion Nedeleanu - bl. P33, P34, P35, P39"
-    },
-    {
-      "sector": 5,
-      "pt_name": "7 Petre Ispirescu",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de reintregire conducta DN 500 mm - Lucrari POIM in strada Dumbrava Noua, Calea 13 Septembrie, Topliceanu Vasile",
-      "estimated_restore": "2026-08-07T23:00",
-      "on_time_probability": 0.44,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P71A, P72B • Str Lacul Plopului - bl. P64 • Str Dorneasca - bl. P72 • Str Sg.maj. Vasile Topliceanu - bl. P66, P67"
-    },
-    {
-      "sector": 5,
-      "pt_name": "9 Margeanului",
-      "blocks": 36,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de reintregire conducta DN 500 mm - Lucrari POIM in strada Dumbrava Noua, Calea 13 Septembrie, Topliceanu Vasile",
-      "estimated_restore": "2026-08-07T23:00",
-      "on_time_probability": 0.45,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
       "pt_name": "2 Petre Ispirescu",
       "blocks": 12,
       "service": "Oprire ACC",
@@ -543,30 +555,6 @@
       "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
-    },
-    {
-      "sector": 5,
-      "pt_name": "11 Margeanului",
-      "blocks": 31,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de reintregire conducta DN 500 mm - Lucrari POIM in strada Dumbrava Noua, Calea 13 Septembrie, Topliceanu Vasile",
-      "estimated_restore": "2026-08-07T23:00",
-      "on_time_probability": 0.292,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. M137, M138, M140, M198, M198A, M199, M217, M210, M211, M212, M214, M215, M216, M213 • Str Crăişorului - bl. M136, M143A, M143B • Str Cobadin - bl. M200, M201, M202, M209 • Str Dumbrava Nouă - bl. M207, M208A, M2M141, M142, M197, M206,08 • Str Iancu Jianu - bl. M204, M205, M203"
-    },
-    {
-      "sector": 5,
-      "pt_name": "10 Margeanului",
-      "blocks": 32,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de reintregire conducta DN 500 mm - Lucrari POIM in strada Dumbrava Noua, Calea 13 Septembrie, Topliceanu Vasile",
-      "estimated_restore": "2026-08-07T23:00",
-      "on_time_probability": 0.304,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
     },
     {
       "sector": 5,
