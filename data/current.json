@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-07T21:28:14",
+  "scraped_at": "2026-08-07T22:28:07",
   "status": "ok",
   "outages": [
     {
@@ -363,18 +363,6 @@
       "basis_n": 581,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Ct Salaj",
-      "blocks": 29,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie in Centrala Termica Salaj ,pe circuitul apa calda de consum.",
-      "estimated_restore": "2026-08-07T22:00",
-      "on_time_probability": 0.502,
-      "basis_n": 6360,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Bacău - bl. B1, B3, H 1 Garsoniere, H 1 Apartamente, H 2 Garsoniere; H 2 Apartamente, H3, H4, H5, H 9; • Str Chimirului - bl. S4 • Şos Sălaj - bl, Nr. 259 . 2B bl. 4B, Nr. 253 bl. S2, Nr. 251 bl. S3, Nr. 261 bl. 3B, Nr. 263 bl. B2, Nr. 255 bl. 1S, Nr. 257 bl. B4, Nr. 267 bl. 1B; • Str Humuleşti - Bl. S1, S2, S5, H6, H7, H8"
     },
     {
       "sector": 5,
