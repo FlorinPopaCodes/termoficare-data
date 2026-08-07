@@ -1,9 +1,33 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-07T11:54:27",
+  "scraped_at": "2026-08-07T12:51:13",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "3 Dinicu Golescu",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Lucrari modernizare RTP POIM lot 2 obiectiv 9 executate de firma ELSACO",
+      "estimated_restore": "2026-08-09T12:00",
+      "on_time_probability": 0.386,
+      "basis_n": 2274,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Garnizoana",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Lucrari modernizare RTP POIM lot 2 obiectiv 9 executate de firma ELSACO",
+      "estimated_restore": "2026-08-09T12:00",
+      "on_time_probability": 0.386,
+      "basis_n": 2274,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Institutul Medico-Militar - 22"
+    },
     {
       "sector": 1,
       "pt_name": "Club Steaua",
@@ -353,30 +377,6 @@
       "zone_raw": "• Bld 1 Decembrie 1918 - Module bl M28"
     },
     {
-      "sector": 3,
-      "pt_name": "Dristor Insulă",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Execuție lucrări de modernizare - firma SICOR",
-      "estimated_restore": "2026-08-07T23:30",
-      "on_time_probability": 0.411,
-      "basis_n": 292,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - 12, 12A, 15, 15A, 18, 18A, 14A+B • Str Dristorului - 15B, 10, 10A, 11, 12B, 16ABC, 17,13, 13C • Bld Camil Ressu - 13A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Moldovita",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-07T13:00",
-      "on_time_probability": 0.5,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Moldoviţa - bl. 1, 3, 5, 7, 9, 11, 13, 15"
-    },
-    {
       "sector": 4,
       "pt_name": "3 Oltenita Placare",
       "blocks": 22,
@@ -459,6 +459,18 @@
       "basis_n": 581,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Panduri",
+      "blocks": 27,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Cpt. Ion Gârbea)",
+      "estimated_restore": "2026-08-07T15:30",
+      "on_time_probability": 0.614,
+      "basis_n": 70,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Cpt. Ion Gârbea - bl. P2C, P2B • Str Ioniţă Cegan - bl. P11, P12 • Str Ioviţa - bl. P13, P13A, P14 • Şos Panduri - bl. P7, P8, P9, P10, P2, P2A, P3, P3A, P1, P1B, P1A • Int Buturugeni - bl. P1C, P1D • Str Frunte Lată - bl. P14A, P5, P16, P15, P6, P4 • Str Progresului - bl. P52"
     },
     {
       "sector": 5,
@@ -615,18 +627,6 @@
       "basis_n": 79,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4/7'",
-      "blocks": 21,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul primar",
-      "estimated_restore": "2026-08-07T13:00",
-      "on_time_probability": 0.229,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Drumul Taberei - bl.714, 713, 715 • Str Braşov - bl.716, 717, 718, 719 • Str Valea Călugărească - bl. 1, 2, 3, 4, 5,7, 8, 720 • Str Chilia Veche - bl.710, B11 • Str Valea Roşie - bl.60, 61,62"
     },
     {
       "sector": 6,
