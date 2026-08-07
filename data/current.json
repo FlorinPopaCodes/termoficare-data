@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-07T16:35:34",
+  "scraped_at": "2026-08-07T18:33:21",
   "status": "ok",
   "outages": [
     {
@@ -75,18 +75,6 @@
       "basis_n": 2274,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Institutul Medico-Militar - 22"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Judetului - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum.",
-      "estimated_restore": "2026-08-07T18:30",
-      "on_time_probability": 0.501,
-      "basis_n": 11508,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Judeţului - bl. 20"
     },
     {
       "sector": 2,
@@ -377,30 +365,6 @@
       "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
     },
     {
-      "sector": 3,
-      "pt_name": "2 Papiu Ilarian - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum,bl. 41",
-      "estimated_restore": "2026-08-07T18:30",
-      "on_time_probability": 0.476,
-      "basis_n": 10059,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Complexului - bl. 41"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Cornisa - Module Termice - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Conducta apa rece alimentare modul sparta - Bd.1Dec 1918",
-      "estimated_restore": "2026-08-07T15:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Bld 1 Decembrie 1918 - Module bl M28"
-    },
-    {
       "sector": 4,
       "pt_name": "3 Oltenita Placare - Partial",
       "blocks": 4,
@@ -411,18 +375,6 @@
       "basis_n": 5795,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Tineretului - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-07T17:30",
-      "on_time_probability": 0.467,
-      "basis_n": 5795,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Trestiana - bl. 20 • Str Vişana - bl. 26"
     },
     {
       "sector": 4,
@@ -459,6 +411,18 @@
       "basis_n": 581,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Huedin - bl. A12 • Ale Ţebea - bl. 101, 102. 103, D10, D11A, D12, D13 • Str Izvorul Trotuşului - bl. D14, D15, D24 • Str Izvorul Rece - bl. S14 A+B • Str Izvorul Mureşului - bl. A11, D9, D22 • Str Izvorul Crişului - bl. A1, A2, A3, D1 • Bld Constantin Brâncoveanu - bl. M1/1, M2/3, M2/4"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Spinis",
+      "blocks": 26,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-07T23:00",
+      "on_time_probability": 0.372,
+      "basis_n": 581,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Spiniş - bl. 19, 24, 43, 45, 48, 104, 105 • Str Râul Şoimului - bl. 25, 26, 27, 28, 46, 47, 49 • Şos Giurgiului - bl. 4A, 4B • Str Grădiştea - bl. 101 • Drm Găzarului - bl. 18, 21, 22, 50 • Str Tătuleşti - bl. 44, 98, 100A, 100B, 103"
     },
     {
       "sector": 4,
@@ -502,7 +466,7 @@
       "blocks": 29,
       "service": "Oprire ACC",
       "cause": "Remediere avarie in Centrala Termica Salaj ,pe circuitul apa calda de consum.",
-      "estimated_restore": "2026-08-07T17:00",
+      "estimated_restore": "2026-08-07T20:00",
       "on_time_probability": 0.502,
       "basis_n": 6360,
       "basis_bucket": "sector_cause_slip",
