@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-07T14:30:19",
+  "scraped_at": "2026-08-07T15:09:59",
   "status": "ok",
   "outages": [
     {
@@ -99,6 +99,18 @@
       "basis_n": 2274,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Mircea Vulcănescu - Muzeul Militar"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Judetului - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum.",
+      "estimated_restore": "2026-08-07T18:30",
+      "on_time_probability": 0.501,
+      "basis_n": 11508,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Judeţului - bl. 20"
     },
     {
       "sector": 2,
@@ -526,7 +538,7 @@
       "blocks": 3,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str. Petre Ispirescu)",
-      "estimated_restore": "2026-08-07T15:30",
+      "estimated_restore": "2026-08-07T20:30",
       "on_time_probability": 0.381,
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
