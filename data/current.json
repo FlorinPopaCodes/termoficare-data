@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-07T13:42:20",
+  "scraped_at": "2026-08-07T14:30:19",
   "status": "ok",
   "outages": [
     {
@@ -402,18 +402,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "G3",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie,bucla contorizare apa calda de consum la Bl.H1 Sc.5",
-      "estimated_restore": "2026-08-07T14:00",
-      "on_time_probability": 0.431,
-      "basis_n": 72,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. G2, H1, G3, G2A, G2B, G2C • Str Ion Pillat - bl. G1, G1A • Bld Decebal - bl. H2"
-    },
-    {
-      "sector": 3,
       "pt_name": "2 Papiu Ilarian - Partial",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -438,27 +426,27 @@
     },
     {
       "sector": 4,
-      "pt_name": "3 Oltenita Placare",
-      "blocks": 22,
+      "pt_name": "3 Oltenita Placare - Partial",
+      "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-08-07T19:00",
-      "on_time_probability": 0.364,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
+      "on_time_probability": 0.467,
+      "basis_n": 5795,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D"
     },
     {
       "sector": 4,
       "pt_name": "2 Tineretului - Partial",
-      "blocks": 7,
+      "blocks": 2,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-07T14:30",
+      "estimated_restore": "2026-08-07T17:00",
       "on_time_probability": 0.467,
       "basis_n": 5795,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Tineretului - bl. 37, 38, 39 • Str Piscului - bl. 40 • Str Trestiana - bl. 20 • Str Vişana - bl., 26, 36"
+      "zone_raw": "• Str Trestiana - bl. 20 • Str Vişana - bl. 26"
     },
     {
       "sector": 4,
@@ -663,30 +651,6 @@
       "basis_n": 60,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Ghirlandei - bl. 44"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3/10 - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. Serg. Latea Gheorghe",
-      "estimated_restore": "2026-08-07T13:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Serg. Gheorghe Lăţea - bl. C60"
-    },
-    {
-      "sector": 6,
-      "pt_name": "9/4",
-      "blocks": 22,
-      "service": "Oprire ACC",
-      "cause": "Depistare avarie - izolare racord PT 9/4",
-      "estimated_restore": "2026-08-08T10:00",
-      "on_time_probability": 0.58,
-      "basis_n": 50,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Lunca Cernei - Cernei bl D48, D47,M52 • Str Romancierilor - bl.C14 • Str Drumul Taberei - bl M33, M35, M37, M39, M40Bis • Bld Timişoara - bl C13, D44, M50 • Ale Valea Boteni - bl.D46, M51 • Ale Valea Viilor - bl. M34, A53, M36, D49, M38, M40, D50"
     }
   ]
 }
