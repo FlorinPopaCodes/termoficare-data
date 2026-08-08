@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-08T05:50:12",
+  "scraped_at": "2026-08-08T07:05:00",
   "status": "ok",
   "outages": [
     {
@@ -39,6 +39,18 @@
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Spinis",
+      "blocks": 26,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-08T23:30",
+      "on_time_probability": 0.372,
+      "basis_n": 581,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Spiniş - bl. 19, 24, 43, 45, 48, 104, 105 • Str Râul Şoimului - bl. 25, 26, 27, 28, 46, 47, 49 • Şos Giurgiului - bl. 4A, 4B • Str Grădiştea - bl. 101 • Drm Găzarului - bl. 18, 21, 22, 50 • Str Tătuleşti - bl. 44, 98, 100A, 100B, 103"
     },
     {
       "sector": 4,
