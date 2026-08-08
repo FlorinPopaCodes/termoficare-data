@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-08T16:25:41",
+  "scraped_at": "2026-08-08T20:32:16",
   "status": "ok",
   "outages": [
     {
@@ -39,6 +39,18 @@
       "basis_n": 56,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Opanez",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+      "estimated_restore": "2026-08-08T23:00",
+      "on_time_probability": 0.4,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
     },
     {
       "sector": 2,
