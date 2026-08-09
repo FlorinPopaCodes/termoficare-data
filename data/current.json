@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-09T18:30:31",
+  "scraped_at": "2026-08-09T19:02:49",
   "status": "ok",
   "outages": [
     {
@@ -63,6 +63,18 @@
       "basis_n": 197,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Zona II",
+      "blocks": 28,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-09T23:00",
+      "on_time_probability": 0.376,
+      "basis_n": 591,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Stupilor - bl. A8, A12, A13, Gradinita nr.175, Scoala nr.98 • Str Turnu Măgurele - bl. C2, C3 • Bld Constantin Brâncoveanu - bl. VB, V5, V6, V7, V8 • Ale Dorohoi - bl. A10, A11, A20, A24, E19, E20, E21, F20 ,F21 • Ale Covasna - bl. A6, A7, A9, A19, E18, E25, E27, F19, F26"
     },
     {
       "sector": 4,
