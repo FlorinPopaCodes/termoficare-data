@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-09T19:02:49",
+  "scraped_at": "2026-08-09T22:09:26",
   "status": "ok",
   "outages": [
     {
@@ -18,6 +18,30 @@
     },
     {
       "sector": 4,
+      "pt_name": "2 Nitu Vasile",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-09T23:00",
+      "on_time_probability": 0.376,
+      "basis_n": 591,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Sg. Niţu Vasile - bl. 10, 11V, 25, 26 • Str Rezonanţei - bl. 7, 8, 12V, 13V, 14V, N26 • Bld Constantin Brâncoveanu - bl. 27, 28 • Ale Cricovul Sărat - bl. 11, 12, 13, 14, N27"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Serban Voda",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-09T23:00",
+      "on_time_probability": 0.376,
+      "basis_n": 591,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
+    },
+    {
+      "sector": 4,
       "pt_name": "2 Zona V",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -27,6 +51,30 @@
       "basis_n": 164,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Huedin - bl. A12 • Ale Ţebea - bl. 101, 102. 103, D10, D11A, D12, D13 • Str Izvorul Trotuşului - bl. D14, D15, D24 • Str Izvorul Rece - bl. S14 A+B • Str Izvorul Mureşului - bl. A11, D9, D22 • Str Izvorul Crişului - bl. A1, A2, A3, D1 • Bld Constantin Brâncoveanu - bl. M1/1, M2/3, M2/4"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Oltenita Placare",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-09T23:00",
+      "on_time_probability": 0.376,
+      "basis_n": 591,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-09T23:00",
+      "on_time_probability": 0.376,
+      "basis_n": 591,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
     },
     {
       "sector": 4,
@@ -51,6 +99,30 @@
       "basis_n": 92,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Posta",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-09T23:00",
+      "on_time_probability": 0.376,
+      "basis_n": 591,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Alexandru Obregia - bl. 18A, 20Bis, A15, R3, R13, II/30, II/31 • Str Vatra Dornei - bl. A16, 18B+C"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 A Metalurgiei",
+      "blocks": 1,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-09T23:00",
+      "on_time_probability": 0.376,
+      "basis_n": 591,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Alexandru Obregia - 2A"
     },
     {
       "sector": 4,
@@ -87,6 +159,18 @@
       "basis_n": 197,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
+    },
+    {
+      "sector": 4,
+      "pt_name": "6 Brancoveanu",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica a retelei primare",
+      "estimated_restore": "2026-08-09T23:00",
+      "on_time_probability": 0.376,
+      "basis_n": 591,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Secuilor - bl. B17A • Str Păduroiu - bl. B22A, B23, B24, B25 • Str Pomârla - bl. B20, B21, B22 • Bld Constantin Brâncoveanu - bl. B14, B15, B16, B17 • Str Băltiţa - bl. B18 ,B19"
     },
     {
       "sector": 4,
