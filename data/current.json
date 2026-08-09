@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-09T11:00:55",
+  "scraped_at": "2026-08-09T11:59:41",
   "status": "ok",
   "outages": [
     {
@@ -10,7 +10,7 @@
       "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Lucrari modernizare RTP POIM lot 2 obiectiv 9 executate de firma ELSACO",
-      "estimated_restore": "2026-08-09T12:00",
+      "estimated_restore": "2026-08-09T23:00",
       "on_time_probability": 0.385,
       "basis_n": 2276,
       "basis_bucket": "sector_cause_slip",
@@ -22,7 +22,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Lucrari modernizare RTP POIM lot 2 obiectiv 9 executate de firma ELSACO",
-      "estimated_restore": "2026-08-09T12:00",
+      "estimated_restore": "2026-08-09T23:00",
       "on_time_probability": 0.385,
       "basis_n": 2276,
       "basis_bucket": "sector_cause_slip",
