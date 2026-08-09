@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-09T13:52:04",
+  "scraped_at": "2026-08-09T14:52:36",
   "status": "ok",
   "outages": [
     {
@@ -15,18 +15,6 @@
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
-    },
-    {
-      "sector": 3,
-      "pt_name": "G3",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum bl g1A SC 2",
-      "estimated_restore": "2026-08-09T15:00",
-      "on_time_probability": 0.425,
-      "basis_n": 73,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. G2, H1, G3, G2A, G2B, G2C • Str Ion Pillat - bl. G1, G1A • Bld Decebal - bl. H2"
     },
     {
       "sector": 4,
