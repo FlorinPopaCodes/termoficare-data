@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-10T18:14:17",
+  "scraped_at": "2026-08-10T20:05:56",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "2 Aviatiei",
-      "blocks": 32,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-10T19:30",
-      "on_time_probability": 0.337,
-      "basis_n": 101,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. G6, 6A, 7E, 7F, 7, 7I, 7K,7M • Str Avionului - bl. 5C, 5E, 5E PRIM, 6B, 6C, 6D • Str Aviaţiei - bl. 4C, 5D, 5G, 4D, 5F,7D, 5A • Şos Pipera - bl. 4A, 4B, 5B • Str Aripilor - bl. 6E,6F • Str Borşa - bl. 5F, 4F, 4G, 4E, 7G, ARMONIA, 7B, 7A, 7H"
-    },
     {
       "sector": 1,
       "pt_name": "6 Aviatiei",
