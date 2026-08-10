@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-10T17:04:13",
+  "scraped_at": "2026-08-10T18:14:17",
   "status": "ok",
   "outages": [
     {
@@ -2634,6 +2634,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "J2 Unirii",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
+      "estimated_restore": "2026-08-10T23:30",
+      "on_time_probability": 0.326,
+      "basis_n": 95,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Unirii - bl. J1, J3B, J4, J2, J3A • Pţa Alba Iulia - bl. I6, I7"
+    },
+    {
+      "sector": 3,
       "pt_name": "M107",
       "blocks": 25,
       "service": "Deficienta ACC",
@@ -2655,6 +2667,18 @@
       "basis_n": 95,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Maximilian Popper - bl. F6 • Bld Unirii - bl. F2, F3, F4 • Str Traian - bl. F1 • Str Ion Pillat - bl. F5"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Cornul Caprei",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
+      "estimated_restore": "2026-08-10T23:30",
+      "on_time_probability": 0.326,
+      "basis_n": 95,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
     },
     {
       "sector": 3,
@@ -2919,6 +2943,18 @@
       "basis_n": 95,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
+    },
+    {
+      "sector": 3,
+      "pt_name": "5 Cornul Caprei",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
+      "estimated_restore": "2026-08-10T23:30",
+      "on_time_probability": 0.326,
+      "basis_n": 95,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Lt. Aurel Botea - D24, D22 • Bld Burebista - D15, D16 • Str Caloian Judeţul - D19A, D21A, D20, D19B, D18, D21B"
     },
     {
       "sector": 3,
