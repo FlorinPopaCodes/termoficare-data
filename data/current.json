@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-10T14:43:47",
+  "scraped_at": "2026-08-10T15:31:38",
   "status": "ok",
   "outages": [
     {
@@ -1575,18 +1575,6 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "12Tomis",
-      "blocks": 26,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie plasa PT.str. G.T.Bogdan.",
-      "estimated_restore": "2026-08-10T15:30",
-      "on_time_probability": 0.5,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tudor Gheorghe Bogdan - bl. 21G, 21, 21F, 20B, 20B1, 20A, 20G, 22C, • Str Istriei - bl. 21E, 21C, 21D, • Str Danubiu - bl. 20E, 17, 20H • Bld Râmnicu Sărat - bl. 21B, 21A, 16, 20, 20J • Str Râmnicu Vâlcea - bl. 20C, 23, 22A, 20D, 22B, 16, 17"
     },
     {
       "sector": 3,
