@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-10T23:58:39",
+  "scraped_at": "2026-08-11T00:39:55",
   "status": "ok",
   "outages": [
     {
@@ -3267,54 +3267,6 @@
       "basis_n": 384,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3 Crivina",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar tronson C13 INTERMERIDIAN-CC1- CONDUCTA DN 600mm",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.375,
-      "basis_n": 72,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vintilă Mihăilescu - bl. 60, 61, 72, 70, 62, 63, 63A, 64 • Str Zboina Neagră - bl. 69 • Str Stoian Popescu - Imobil Str. P. Stoian nr. 4 • Str George Vâlsan - bl. 65, 65A • Str Ceahlăul - bl. 66, 71, 67, 68, 73"
-    },
-    {
-      "sector": 6,
-      "pt_name": "8 Crivina",
-      "blocks": 29,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar tronson C13 INTERMERIDIAN-CC1- CONDUCTA DN 600mm",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.419,
-      "basis_n": 62,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112,113 • Str Zboina Neagră - bl. 91-95, 116 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str George Mihail Zamfirescu - bl. 102 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4 Crivina",
-      "blocks": 31,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar tronson C13 INTERMERIDIAN-CC1- CONDUCTA DN 600mm",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.473,
-      "basis_n": 55,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Olăneşti - bl. 76A, 83 • Str Pădureni - bl. 51, 52, 58D, 53A, 53B, 53C, 52 • Str Vintilă Mihăilescu - bl. 78, 54, 55, 56, 57, 58, 59, 77, 80, 79, 44 • Str Zboina Neagră - bl. 81, 74 • Str Ceahlăul - bl. 82, 75, 76 • Cal Crângaşi - bl. 46, 48, 49, 45, 50, 47"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Crivina",
-      "blocks": 13,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar tronson C13 INTERMERIDIAN-CC1- CONDUCTA DN 600mm",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.368,
-      "basis_n": 57,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nucşoara - bl. 15A ICEM, 41, 42 • Str Mehadiei - bl. 21, 22 • Cal Crângaşi - bl. 15 ICEM, 16 • Bld Constructorilor - bl. 20, 17, 18, 19, 20A, 44"
     }
   ]
 }
