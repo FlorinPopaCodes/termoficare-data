@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-12T00:11:12",
+  "scraped_at": "2026-08-12T01:02:14",
   "status": "ok",
   "outages": [
     {
@@ -279,18 +279,6 @@
       "basis_n": 402,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Ştefan cel Mare - bl.29, 29A-B, 27, 28"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Colentina",
-      "blocks": 13,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD și pornire CTE Progresu",
-      "estimated_restore": "2026-08-12T23:30",
-      "on_time_probability": 0.388,
-      "basis_n": 402,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Maşina de Pâine - bl.OD35, R30, OD39, R28, R29, OD37 • Şos Colentina - BL.R24, R26, R25, OD41, OD57"
     },
     {
       "sector": 2,
