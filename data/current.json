@@ -1,9 +1,33 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-11T10:51:38",
+  "scraped_at": "2026-08-11T11:43:23",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "7 Dinicu Golescu",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic -",
+      "estimated_restore": "2026-08-11T16:30",
+      "on_time_probability": 0.513,
+      "basis_n": 39,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 5, 6,7"
+    },
+    {
+      "sector": 1,
+      "pt_name": "3 Dinicu Golescu",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic -",
+      "estimated_restore": "2026-08-11T16:30",
+      "on_time_probability": 0.484,
+      "basis_n": 64,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
+    },
     {
       "sector": 1,
       "pt_name": "Ct Amzei",
@@ -39,18 +63,6 @@
       "basis_n": 2279,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Petru Poni - bl.1 • Cal Griviţei - bl.142 • Bld Gheorghe Duca - bl.3-11 • Str Pandele Ţăruşanu - imobile.18, 6, 14, 6Bis,12"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Petricani - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-11T11:00",
-      "on_time_probability": 0.385,
-      "basis_n": 39,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lăptari Tei - bl..4"
     },
     {
       "sector": 2,
@@ -2418,18 +2430,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "Propriu 1",
-      "blocks": 2,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresul",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.152,
-      "basis_n": 33,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 52, 53"
-    },
-    {
-      "sector": 4,
       "pt_name": "4 Lanariei",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -2478,18 +2478,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "4 Tineretului",
-      "blocks": 23,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresul",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.152,
-      "basis_n": 33,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Tineretului - bl. 53, 54, 57, 58, 64, 65, 66 • Str Baladei - bl. 55, 56, 59, 60, 61, 61A, 73 • Cal Văcăreşti - bl. 62, 63, 67, 68, 71, 72A, 72B • Str Cărămidarii de Jos - bl. 74A, 74B"
-    },
-    {
-      "sector": 4,
       "pt_name": "2 Lanariei",
       "blocks": 15,
       "service": "Deficienta ACC",
@@ -2499,18 +2487,6 @@
       "basis_n": 33,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Maria Tănase - bl. 13 • Bld Gheorghe Şincai - bl. 11, 12 • Str Viorele - bl. 15, 17, 18, 20A, 20B, 22, 37, Scoala nr. 97 • Cal Văcăreşti - bl. 23, 24 • Ale Borcea - bl. 14, 16"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Propriu 2",
-      "blocks": 2,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresul",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.152,
-      "basis_n": 33,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 55, 56"
     },
     {
       "sector": 4,
@@ -2835,6 +2811,18 @@
       "basis_n": 33,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Secuilor - bl. 21, 22 • Ale Donea Diana Alexandra - bl.19, 32, V18, 19B • Str Rezonanţei - bl. 15+16 • Bld Constantin Brâncoveanu - bl. 29, 30 • Ale Cricovul Dulce - bl. 15, 16, 17, 18, 17-18, N16, N17, N18, N19, N21, Policlinica • Ale Adrian Dan Urucu - bl. 20, 31, N17, Gradinița nr.227"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Ct Salaj - Partial",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie pe circuitul apa calda de consum /CT.Salaj",
+      "estimated_restore": "2026-08-11T16:00",
+      "on_time_probability": 0.438,
+      "basis_n": 32,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Bacău - H3, H4, H5, • Str Chimirului - • Şos Sălaj - • Str Humuleşti - Bl. H6, H7, H8, S1 (p+4)"
     },
     {
       "sector": 5,
