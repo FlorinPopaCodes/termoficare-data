@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-11T18:36:39",
+  "scraped_at": "2026-08-11T19:32:07",
   "status": "ok",
   "outages": [
     {
@@ -1446,18 +1446,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "1 Labirint",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea primara.",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.333,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
-    },
-    {
-      "sector": 3,
       "pt_name": "3 Tomis",
       "blocks": 19,
       "service": "Deficienta ACC",
@@ -1530,6 +1518,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "SC.1Dudesti",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
+      "estimated_restore": "2026-08-11T23:30",
+      "on_time_probability": 0.58,
+      "basis_n": 69,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Drm Murgului - Module bl.51B, 52B, 54, 54A, 55A • Str Liviu Rebreanu - Module bl.51.51A, 52, 53 • Bld Camil Ressu - Modul bl.55"
+    },
+    {
+      "sector": 3,
       "pt_name": "I3",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -1587,6 +1587,18 @@
       "basis_n": 75,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Labirint",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
+      "estimated_restore": "2026-08-11T23:30",
+      "on_time_probability": 0.227,
+      "basis_n": 75,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
     },
     {
       "sector": 3,
