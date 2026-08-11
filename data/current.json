@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-11T12:41:59",
+  "scraped_at": "2026-08-11T13:32:10",
   "status": "ok",
   "outages": [
     {
@@ -210,6 +210,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "5 Pantelimon",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
+      "estimated_restore": "2026-08-11T23:30",
+      "on_time_probability": 0.388,
+      "basis_n": 402,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Herţa - bl. 63; 64A; 64B • Str Pescăruşului - Imobil • Şos Pantelimon - bl.59-60, 55, 53, 55A"
+    },
+    {
+      "sector": 2,
       "pt_name": "D18 Mihai Bravu",
       "blocks": 12,
       "service": "Deficienta ACC",
@@ -234,18 +246,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "20 Pantelimon",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.388,
-      "basis_n": 402,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Amiral Ioan Murgescu - bl.401 • Şos Pantelimon - bl.404-405, 400, 402A, 403A, 402, 403 • Str Baicului - bl.401A"
-    },
-    {
-      "sector": 2,
       "pt_name": "Cosmos Vechi",
       "blocks": 12,
       "service": "Deficienta ACC",
@@ -258,15 +258,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "Vila 71A",
-      "blocks": 0,
+      "pt_name": "4 Colentina Socului",
+      "blocks": 13,
       "service": "Deficienta ACC",
       "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
       "estimated_restore": "2026-08-11T23:30",
       "on_time_probability": 0.388,
       "basis_n": 402,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lt. Victor Manu - vila 71"
+      "zone_raw": "• Int Abanosului - bl.2, 5 • Str Doamna Ghica - bl.70, 69 • Str Dimitrie Grozdea - bl.64, 63, 82 • Ale Bistricioara - bl.65, 66, 68, 67 • Str Baicului - bl.81, 83"
     },
     {
       "sector": 2,
@@ -282,51 +282,27 @@
     },
     {
       "sector": 2,
-      "pt_name": "U2 Avrig",
-      "blocks": 1,
+      "pt_name": "4 Iancului",
+      "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
       "estimated_restore": "2026-08-11T23:30",
       "on_time_probability": 0.388,
       "basis_n": 402,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Avrig - bl.U2"
+      "zone_raw": "• Şos Iancului - bl.114A, 113B, 115, 114B, 113A, 113C"
     },
     {
       "sector": 2,
-      "pt_name": "U1 Avrig",
-      "blocks": 1,
+      "pt_name": "2 Colentina Socului",
+      "blocks": 7,
       "service": "Deficienta ACC",
       "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
       "estimated_restore": "2026-08-11T23:30",
       "on_time_probability": 0.388,
       "basis_n": 402,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Avrig - bl.U1"
-    },
-    {
-      "sector": 2,
-      "pt_name": "C16 Mihai Bravu",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.388,
-      "basis_n": 402,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl. C16, C17, C18, C, C19 • Str Avrig - bl. E2"
-    },
-    {
-      "sector": 2,
-      "pt_name": "19 Pantelimon",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.388,
-      "basis_n": 402,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
+      "zone_raw": "• Ale Bistricioara - bl.49, 43, 48, 45, 44 • Str Stolnicul Vasile - bl.42, Inspectoratul general pt. emigrari (bl.13)"
     },
     {
       "sector": 2,
@@ -342,6 +318,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "13 Pantelimon",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
+      "estimated_restore": "2026-08-11T23:30",
+      "on_time_probability": 0.388,
+      "basis_n": 402,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Pantelimon - bl.41, 46, 47"
+    },
+    {
+      "sector": 2,
       "pt_name": "D11 Mihai Bravu",
       "blocks": 5,
       "service": "Deficienta ACC",
@@ -351,18 +339,6 @@
       "basis_n": 270,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - bl.E1, D11, D10, imob.Nr.121A • Str Vatra Luminoasă - BL. D7"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Chiristigii",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu",
-      "estimated_restore": "2026-08-11T23:30",
-      "on_time_probability": 0.388,
-      "basis_n": 402,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Chiristigii - bl.P36A, P36B, P36, P36C • Şos Mihai Bravu - bl.P38, P37-P37A"
     },
     {
       "sector": 2,
@@ -639,18 +615,6 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "10 Vitan",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie pe circuitul primar in punctul termic.",
-      "estimated_restore": "2026-08-11T14:00",
-      "on_time_probability": 0.407,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Zizin - bl. V80B, V80A, V81C, V40 • Str Vlaicu Vodă - bl. V43, V39, V82, V38, V81, V79, V82B, V81A • Cal Vitan - bl. V40, V42, V17, V82A, V42C,V42A • Str Brânduşelor - bl. V78"
     },
     {
       "sector": 3,
@@ -2862,18 +2826,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "Ct Salaj - Partial",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie pe circuitul apa calda de consum /CT.Salaj",
-      "estimated_restore": "2026-08-11T16:00",
-      "on_time_probability": 0.438,
-      "basis_n": 32,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Bacău - H3, H4, H5, • Str Chimirului - • Şos Sălaj - • Str Humuleşti - Bl. H6, H7, H8, S1 (p+4)"
-    },
-    {
-      "sector": 5,
       "pt_name": "VSNord",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -3250,7 +3202,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-11T14:30",
+      "estimated_restore": "2026-08-11T19:30",
       "on_time_probability": 0.209,
       "basis_n": 67,
       "basis_bucket": "pt_cause_slip",
