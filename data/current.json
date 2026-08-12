@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-12T21:33:03",
+  "scraped_at": "2026-08-12T22:45:33",
   "status": "ok",
   "outages": [
     {
@@ -2235,6 +2235,114 @@
       "basis_n": 78,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "4/10",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.268,
+      "basis_n": 112,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Meseriaşilor - bl. C80, C91, C92, C93, C94 • Str Sergent Major Cara Anghel - bl. C90 • Str Serg. Gheorghe Lăţea - bl. C51, C52, C53, C81,C82 • Bld Ghencea - bl. C76, C87, C89, C88A, C88B • Str Gârleni - bl. C78, C79, C83, C84, C85,C86"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3/7",
+      "blocks": 35,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.268,
+      "basis_n": 82,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Peştera Scărişoara - bl.MIIB8/3 • Str Paşcani - bl.TD34, TD33, TD32 • Ale Paşcani - bl. TD36, TD49, TD35 • Str Drumul Taberei - bl.TD14, A10, A9, A8, A7, TD15, TD16, TD11, TD12, TD13 • Str Topolovăţ - bl. TD17, TD18, TD19, TD20, TD21, TD22 • Str Târgu Neamţ - bl.D9, MIIB8/4, B37, D4, B36, D3,MIIB8/6, MIIB8/5, TD23, TD24, TD25, TD26"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/7",
+      "blocks": 32,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.385,
+      "basis_n": 78,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Peştera Scărişoara - bl. 701A, B16B • Str Paşcani - • Str Drumul Taberei - bl.TS7,TS8, TS10, TS9, 701B, R1, R2, R3 • Str Târgu Neamţ - bl. B16A, MIIB8/2, A15, A16, A17, A18, TS30, TS31, TD 27, TD 28, TD29, MIIB8/1, 715A, 715B • Str Segarcea - bl.A11, A14, A12, A13, B13, B14"
+    },
+    {
+      "sector": 6,
+      "pt_name": "12/4",
+      "blocks": 21,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.37,
+      "basis_n": 73,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Lunca Siretului - bl. A45, D38, D43, A46, M45A, M45B • Bld Timişoara - bl. C12, M46, M45, D36, M44 • Ale Crăeşti - bl. A47,42, D41 • Ale Dealul Măcinului - bl. D37, M43, A44, D40, D39 • Ale Câmpul cu Flori - bl. M49A, M49B"
+    },
+    {
+      "sector": 6,
+      "pt_name": "9/4",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.304,
+      "basis_n": 79,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Lunca Cernei - Cernei bl D48, D47,M52 • Str Romancierilor - bl.C14 • Str Drumul Taberei - bl M33, M35, M37, M39, M40Bis • Bld Timişoara - bl C13, D44, M50 • Ale Valea Boteni - bl.D46, M51 • Ale Valea Viilor - bl. M34, A53, M36, D49, M38, M40, D50"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1/7'",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.345,
+      "basis_n": 58,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Drumul Taberei - bl OD1,OD2,TD18 • Ale Vlăsiei - bl. M1, M2, M3 • Str Râul Doamnei - bl.TD5, TS4, TS3, TS2, TS1 • Str Valea lui Mihai - bl TD7, TD6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "NEFAMILISTI",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.353,
+      "basis_n": 51,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Bostanilor - bl.13, 14 • Drm Timonierului - • Bld Timişoara -"
+    },
+    {
+      "sector": 6,
+      "pt_name": "6/8",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.456,
+      "basis_n": 68,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Bozieni - bl. 830, 830bis, 832, 833, 834 • Bld 1 Mai - bl.12 • Ale Compozitorilor - bl. 1, 2, 3, 4, F8 • Ale Valea Prahovei - bl. 831, 7S14(apa calda)"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3/7'",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-12T23:30",
+      "on_time_probability": 0.269,
+      "basis_n": 52,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Valea Călugărească - bl. E1, E3, E2 • Prl Ghencea - bl. A1, A2, R1, R2, D3, TS9, TS10 • Ale Ghencea - bl.A12 • Str Râul Doamnei - bl. TS8 • Str Valea lui Mihai - bl. A3, A4, D1, D2,TD14, TD13, TD12, TD11"
     },
     {
       "sector": 6,
