@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-12T19:32:57",
+  "scraped_at": "2026-08-12T20:38:48",
   "status": "ok",
   "outages": [
     {
@@ -78,15 +78,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "23 Baicului",
-      "blocks": 23,
+      "pt_name": "33 Muncii",
+      "blocks": 3,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-12T19:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
+      "cause": "Avarie Apa Nova",
+      "estimated_restore": "2026-08-13T02:00",
+      "on_time_probability": 0.636,
+      "basis_n": 66,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
     },
     {
       "sector": 2,
@@ -255,18 +255,6 @@
       "basis_n": 78,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Nerva Traian - bl M64 • Bld Octavian Goga - bl. V53C, M62, M63 • Str Emil Gârleanu - bl. V52C, V53D, A1, F • Str Foişorului - bl. F1C, F2C, F3C, D, E • Str Anastasie Panu - bl. A1, A2, A3"
-    },
-    {
-      "sector": 3,
-      "pt_name": "12 Foișor",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Lucrari in punctul termic",
-      "estimated_restore": "2026-08-12T18:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Vlad Dracul - bl. C12, C14, C13 • Str Foişorului - bl. F13C, F14C, F11C, F12C • Str Anastasie Panu - bl. C15, D3, D1, D2, D6, D4, D5"
     },
     {
       "sector": 3,
@@ -1998,18 +1986,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "2 din 13 Septembrie - Partial",
-      "blocks": 13,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-12T19:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal 13 Septembrie - bl. 93, 95, 97, 99, 101, 103, 105, 107, 109, 111 • Str Sabinelor - bl. 113, 115 • Str Sirenelor - bl. 117"
-    },
-    {
-      "sector": 5,
       "pt_name": "VSNord",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2235,18 +2211,6 @@
       "basis_n": 50,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Azurului - bl. 113B • Ale Poarta Albă - bl. 109A, 110, 110A • Str Basmului - bl. 108A • Drm Timonierului - bl. 1, 2, 109, 111, 111A, 111B, 113C, 113D • Str Centurii - bl. 112, 113, 113A • Str Cupolei - bl. 108"
-    },
-    {
-      "sector": 6,
-      "pt_name": "11/4",
-      "blocks": 25,
-      "service": "Deficienta ACC",
-      "cause": "Lucrari de mentenanta in incinta - CTE ENERGO VEST",
-      "estimated_restore": "2026-08-12T23:00",
-      "on_time_probability": 0.364,
-      "basis_n": 2261,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Lunca Siretului - bl.A39B • Ale Ariniş - bl A39C • Ale Zvoriştea - bl.D29, A42 • Bld Timişoara - bl.D35, M42 • Str Valea Ialomiţei - bl.417D, C11, C10, D28 • Ale Crăeşti - bl. AD41 • Ale Dealul Măcinului - bl.A44B, 452, 451, A41, D33, D34 • Str Valea Oltului - bl.A43,D31,M41, D30,D32"
     },
     {
       "sector": 6,
