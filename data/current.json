@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-12T10:51:18",
+  "scraped_at": "2026-08-12T12:01:34",
   "status": "ok",
   "outages": [
     {
@@ -11,9 +11,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-08-12T12:00",
-      "on_time_probability": 0.492,
-      "basis_n": 65,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
     },
     {
@@ -279,30 +279,6 @@
       "basis_n": 131,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
-    },
-    {
-      "sector": 2,
-      "pt_name": "29 Stefan cel Mare",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD și pornire CTE Progresu",
-      "estimated_restore": "2026-08-12T23:30",
-      "on_time_probability": 0.575,
-      "basis_n": 280,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Ştefan cel Mare - bl.29, 29A-B, 27, 28"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Stefan cel Mare",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD și pornire CTE Progresu",
-      "estimated_restore": "2026-08-12T23:30",
-      "on_time_probability": 0.575,
-      "basis_n": 280,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Ştefan cel Mare - bl.38B, 39, 41; 33A, 35A, 36B, 35B, 36A, 41BC, 37, 38, 33B, 35B2 • Str Viitorului - bl.42A, 42B • Str Viesparilor - bl. 33C, 34 • Str Badea Cârţan - bl.37A , 40, 40Bis, imob.Nr.62, 67"
     },
     {
       "sector": 2,
@@ -1434,30 +1410,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "11 Laborator",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
-      "estimated_restore": "2026-08-12T23:30",
-      "on_time_probability": 0.651,
-      "basis_n": 86,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Laborator - bl. S18, 39A, 40, 39, 38 • Str Râmnicu Vâlcea - bl. S19, S20, S16, S15, S17"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Nicolae Pascu",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
-      "estimated_restore": "2026-08-12T23:30",
-      "on_time_probability": 0.437,
-      "basis_n": 135,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lăcrămioarei - bl. 1-2, 6, 18, 19, 3-4, 16, 15, 17, 20, 14 • Str Fizicienilor - bl. 12-13, 11, 9-10"
-    },
-    {
-      "sector": 3,
       "pt_name": "SC.3Dudesti",
       "blocks": 2,
       "service": "Deficienta ACC",
@@ -1494,18 +1446,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "5 Cornul Caprei",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
-      "estimated_restore": "2026-08-12T23:30",
-      "on_time_probability": 0.225,
-      "basis_n": 160,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lt. Aurel Botea - D24, D22 • Bld Burebista - D15, D16 • Str Caloian Judeţul - D19A, D21A, D20, D19B, D18, D21B"
-    },
-    {
-      "sector": 3,
       "pt_name": "G3",
       "blocks": 9,
       "service": "Deficienta ACC",
@@ -1527,18 +1467,6 @@
       "basis_n": 86,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fuiorului - bl. H16A, H16B, H17, Y3 • Ale Fuiorului - bl. H16A, H16B, H17, Y3 • Str Firidei - bl. H15, H19 • Ale Lotrioara - bl. H25, N10 • Str Rotundă - bl. H19B • Bld Camil Ressu - bl. H14, H26, N8, N9, N11, N12"
-    },
-    {
-      "sector": 3,
-      "pt_name": "10 Matei Ambrozie",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
-      "estimated_restore": "2026-08-12T23:30",
-      "on_time_probability": 0.651,
-      "basis_n": 86,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Odobeşti - bl. V16, V15 • Ale Ianca - bl. V18, V17"
     },
     {
       "sector": 3,
