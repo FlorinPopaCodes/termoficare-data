@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-14T00:59:50",
+  "scraped_at": "2026-08-14T01:44:17",
   "status": "ok",
   "outages": [
     {
@@ -78,6 +78,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "5 Doamna Ghica",
+      "blocks": 2,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.411,
+      "basis_n": 467,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.11Sud, 12 Sud"
+    },
+    {
+      "sector": 2,
       "pt_name": "Opanez",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -90,6 +102,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "Ramuri Tei",
+      "blocks": 13,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.411,
+      "basis_n": 467,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Vidin - bl.59, 58 Bis, 54, 57, 58, 55, 53, 56 • Str Gheorghe Ţiţeica - bl.54Bis, 52Bis, 56BIS • Str Zambilelor - bl.62; TEI"
+    },
+    {
+      "sector": 2,
       "pt_name": "3 Cheile Zanoagei",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -99,18 +123,6 @@
       "basis_n": 467,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Berechet - bl.T31A • Str Inginerilor Tei - bl.T31B, T30C, T30B, T30A • Bld Ghica Tei - bl.T32, T33, • Str Oteşani - Camin C7 (Bl.T29)"
-    },
-    {
-      "sector": 2,
-      "pt_name": "17-18 Petricani",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.411,
-      "basis_n": 467,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
       "sector": 2,
@@ -2067,6 +2079,42 @@
       "basis_n": 93,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Secuilor - bl. 21, 22 • Ale Donea Diana Alexandra - bl.19, 32, V18, 19B • Str Rezonanţei - bl. 15+16 • Bld Constantin Brâncoveanu - bl. 29, 30 • Ale Cricovul Dulce - bl. 15, 16, 17, 18, 17-18, N16, N17, N18, N19, N21, Policlinica • Ale Adrian Dan Urucu - bl. 20, 31, N17, Gradinița nr.227"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Panduri",
+      "blocks": 27,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-08-14T03:00",
+      "on_time_probability": 0.62,
+      "basis_n": 71,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Cpt. Ion Gârbea - bl. P2C, P2B • Str Ioniţă Cegan - bl. P11, P12 • Str Ioviţa - bl. P13, P13A, P14 • Şos Panduri - bl. P7, P8, P9, P10, P2, P2A, P3, P3A, P1, P1B, P1A • Int Buturugeni - bl. P1C, P1D • Str Frunte Lată - bl. P14A, P5, P16, P15, P6, P4 • Str Progresului - bl. P52"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Tudor Vladimirescu",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-08-14T03:00",
+      "on_time_probability": 0.55,
+      "basis_n": 60,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Tudor Vladimirescu - bl. T4, T5, T6 • Cal 13 Septembrie - bl. T1B, T1C, T2B, T2C, T3, T3A"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Panduri",
+      "blocks": 29,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-08-14T03:00",
+      "on_time_probability": 0.494,
+      "basis_n": 83,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Ioniţă Cegan - bl. P17, P24A, P25A, P26, P27 • Str Ion Urdăreanu - bl. P22, P23, P28, P29, P40, P41, P42, P45 • Str Ioviţa - bl. P24, P25 • Cal 13 Septembrie - bl. P34, P35, P36, P43, P44 • Şos Panduri - bl. P18, P19, P20, P21, P30, P31, P32, P33, Monitor Oficial Panduri 1"
     },
     {
       "sector": 5,
