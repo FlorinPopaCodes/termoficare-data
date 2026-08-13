@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-13T20:39:01",
+  "scraped_at": "2026-08-13T21:34:55",
   "status": "ok",
   "outages": [
     {
@@ -99,30 +99,6 @@
       "basis_n": 467,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
-    },
-    {
-      "sector": 2,
-      "pt_name": "13 Lacul Tei",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-13T23:30",
-      "on_time_probability": 0.411,
-      "basis_n": 467,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "2 Teiul Doamnei",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-13T23:30",
-      "on_time_probability": 0.411,
-      "basis_n": 467,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Alexandru cel Bun - bl.35, 42 • Str Cristea Mateescu - bl.35, 34 • Str Petre Antonescu - bl.28; 29 • Str Grigore Ionescu - bl. 43; 44 • Bld Ghica Tei - bl.41,40 • Str Teiul Doamnei - bl.33,32,31,39,38,37,36,27 • Str Sânzieni - bl.30"
     },
     {
       "sector": 2,
@@ -1359,6 +1335,30 @@
       "basis_n": 164,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.4Catelu",
+      "blocks": 1,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
+      "estimated_restore": "2026-08-13T23:30",
+      "on_time_probability": 0.207,
+      "basis_n": 193,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Câmpia Libertăţii - Module bl.21"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.2Catelu-module",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
+      "estimated_restore": "2026-08-13T23:30",
+      "on_time_probability": 0.207,
+      "basis_n": 193,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Baba Novac - Module bl.G10, G11, G12, G13"
     },
     {
       "sector": 3,
