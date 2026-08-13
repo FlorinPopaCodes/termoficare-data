@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-13T14:26:47",
+  "scraped_at": "2026-08-13T15:06:34",
   "status": "ok",
   "outages": [
     {
@@ -27,18 +27,6 @@
       "basis_n": 65,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
-    },
-    {
-      "sector": 1,
-      "pt_name": "3 Aviatiei",
-      "blocks": 27,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-13T14:30",
-      "on_time_probability": 0.265,
-      "basis_n": 102,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Căpâlna - bl. 15M, 14D+14E, 15B, 15J, 15K, 15A, 15L, 16H, 16I • Str Cpt. Alexandru Şerbănescu - bl. 14B, SERBANESCU 12-14, 14C, 16A, 16C • Str Avionului - bl. 16J, 15H, 15D, 15F, 15E • Str Aripilor - bl. 15C , STAR • Str Siriului - bl. 16J, 16F, 16E • Str Prometeu - bl. 14F, 16G, 16D"
     },
     {
       "sector": 1,
@@ -2351,9 +2339,9 @@
       "service": "Oprire ACC",
       "cause": "Inlocuire conducta acc CD bl.TD24",
       "estimated_restore": "2026-08-13T15:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1355,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Târgu Neamţ - bl. TD23, TD24, TD25."
     }
   ]
