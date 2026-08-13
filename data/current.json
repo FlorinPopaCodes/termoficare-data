@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-13T06:12:47",
+  "scraped_at": "2026-08-13T08:02:46",
   "status": "ok",
   "outages": [
     {
@@ -1446,18 +1446,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "6C4/2",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
-      "estimated_restore": "2026-08-13T23:30",
-      "on_time_probability": 0.651,
-      "basis_n": 86,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Stănila - bl. H12, H9, H11, H7, H10 • Ale Rotundă - Y1, H8, H6"
-    },
-    {
-      "sector": 3,
       "pt_name": "14 Foișor",
       "blocks": 11,
       "service": "Deficienta ACC",
@@ -1998,6 +1986,30 @@
     },
     {
       "sector": 5,
+      "pt_name": "3 Petre Ispirescu",
+      "blocks": 16,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-13T12:00",
+      "on_time_probability": 0.396,
+      "basis_n": 53,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Petre Ispirescu - bl. P22B, P22C, P22 • Str Cobadin - bl. P21C1, P21C2, P24 • Str Dumbrava Nouă - bl. P22A,P21B, P25, P41 • Str Moţoc - bl. P21A2, P21A1 • Str Elev Nicolae Popovici - bl. P42 • Str Sg.maj. Vasile Topliceanu - bl. P42B, P42A • Str Sg. maj. Ion Nedeleanu - bl. P40"
+    },
+    {
+      "sector": 5,
+      "pt_name": "9 Margeanului",
+      "blocks": 36,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-13T12:00",
+      "on_time_probability": 0.443,
+      "basis_n": 61,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
+    },
+    {
+      "sector": 5,
       "pt_name": "VSNord",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2031,66 +2043,6 @@
       "basis_n": 88,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Petre Ispirescu",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie reţea termică primară - Calea Rahovei",
-      "estimated_restore": "2026-08-14T23:00",
-      "on_time_probability": 0.587,
-      "basis_n": 63,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P1A, P6 • Str Cobadin - bl. P14, P19A, P19 • Str Ileana Cosânzeana - bl. P1, P2, P7, P8, P9, P10, P11 • Str Făt Frumos - bl. P6, P12, P11A, P13, P15, P16"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Petre Ispirescu",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie reţea termică primară - Calea Rahovei",
-      "estimated_restore": "2026-08-14T23:00",
-      "on_time_probability": 0.523,
-      "basis_n": 88,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P22B, P22C, P22 • Str Cobadin - bl. P21C1, P21C2, P24 • Str Dumbrava Nouă - bl. P22A,P21B, P25, P41 • Str Moţoc - bl. P21A2, P21A1 • Str Elev Nicolae Popovici - bl. P42 • Str Sg.maj. Vasile Topliceanu - bl. P42B, P42A • Str Sg. maj. Ion Nedeleanu - bl. P40"
-    },
-    {
-      "sector": 5,
-      "pt_name": "9 Margeanului",
-      "blocks": 36,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie reţea termică primară - Calea Rahovei",
-      "estimated_restore": "2026-08-14T23:00",
-      "on_time_probability": 0.556,
-      "basis_n": 72,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Petre Ispirescu",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie reţea termică primară - Calea Rahovei",
-      "estimated_restore": "2026-08-14T23:00",
-      "on_time_probability": 0.481,
-      "basis_n": 81,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
-    },
-    {
-      "sector": 5,
-      "pt_name": "11 Margeanului",
-      "blocks": 31,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie reţea termică primară - Calea Rahovei",
-      "estimated_restore": "2026-08-14T23:00",
-      "on_time_probability": 0.541,
-      "basis_n": 61,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. M137, M138, M140, M198, M198A, M199, M217, M210, M211, M212, M214, M215, M216, M213 • Str Crăişorului - bl. M136, M143A, M143B • Str Cobadin - bl. M200, M201, M202, M209 • Str Dumbrava Nouă - bl. M207, M208A, M2M141, M142, M197, M206,08 • Str Iancu Jianu - bl. M204, M205, M203"
     },
     {
       "sector": 5,
