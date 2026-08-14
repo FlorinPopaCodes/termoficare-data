@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-14T18:28:15",
+  "scraped_at": "2026-08-14T19:22:08",
   "status": "ok",
   "outages": [
     {
@@ -390,6 +390,78 @@
     },
     {
       "sector": 3,
+      "pt_name": "15 Foișor",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea primara.",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.357,
+      "basis_n": 42,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Zizin - bl. G1 • Str Brânduşelor - bl. G3 • Str Banu Udrea - bl. G7, G8"
+    },
+    {
+      "sector": 3,
+      "pt_name": "11 Foișor",
+      "blocks": 14,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea primara.",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.512,
+      "basis_n": 43,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Zizin - bl. V75C • Str Vlaicu Vodă - bl. V65, V66 • Str Brânduşelor - bl. V70, V75A, V77 • Str Foişorului - bl. F9C, F8C • Str Rarău - bl. V69, V68, V70, V71, F10C, V74"
+    },
+    {
+      "sector": 3,
+      "pt_name": "9 Vitan",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea primara.",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.5,
+      "basis_n": 42,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Zizin - bl. 97, V101C, V101B • Str Vlaicu Vodă - bl. V34C, V100 • Cal Vitan - bl. V34A, V35 • Str Nucului - bl. V100, V101,V101A • Str Banu Udrea - bl. V104, V103, V101C, V99, V97, V102, V95"
+    },
+    {
+      "sector": 3,
+      "pt_name": "13 Foișor",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea primara.",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.421,
+      "basis_n": 57,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vlaicu Vodă - bl. V62, V63, V61 • Str Brânduşelor - bl.V64 • Str Foişorului - bl. F6C, F7C, F5C, F4C • Str Alexandru Moruzzi Voievod - bl. V60, V59, V58"
+    },
+    {
+      "sector": 3,
+      "pt_name": "10 Vitan",
+      "blocks": 17,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea primara.",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.38,
+      "basis_n": 50,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Zizin - bl. V80B, V80A, V81C, V40 • Str Vlaicu Vodă - bl. V43, V39, V82, V38, V81, V79, V82B, V81A • Cal Vitan - bl. V40, V42, V17, V82A, V42C,V42A • Str Brânduşelor - bl. V78"
+    },
+    {
+      "sector": 3,
+      "pt_name": "19 Foișor",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea primara.",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.375,
+      "basis_n": 48,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Brânduşelor - bl. G4, G4A, H1, H16 • Str Banu Udrea - bl. G5, G6, H5, J2, J1, H6"
+    },
+    {
+      "sector": 3,
       "pt_name": "SC.4Catelu",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -670,7 +742,7 @@
       "blocks": 14,
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
+      "estimated_restore": "2026-08-15T23:30",
       "on_time_probability": 0.432,
       "basis_n": 1420,
       "basis_bucket": "sector_cause_slip",
