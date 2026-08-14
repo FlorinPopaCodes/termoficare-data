@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-14T22:12:34",
+  "scraped_at": "2026-08-14T22:55:21",
   "status": "ok",
   "outages": [
     {
@@ -150,6 +150,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "H1 Victor Manu",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.418,
+      "basis_n": 483,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Dimitrie Marinescu - imob Nr.48, 50, 52, 54 • Str Lt. Victor Manu - bl.A, F, G1, H1 • Str Maior Ion Coravu - bl.G3, G2, H2"
+    },
+    {
+      "sector": 2,
       "pt_name": "21 Pantelimon",
       "blocks": 17,
       "service": "Deficienta ACC",
@@ -162,18 +174,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "11 Pantelimon",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 483,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Logofătul Dan - • Ale Vergului - bl. 21, 19, 20, 18, 17, 16, 15 • Şos Pantelimon - bl.1, 2"
-    },
-    {
-      "sector": 2,
       "pt_name": "2 Voiniceni",
       "blocks": 26,
       "service": "Deficienta ACC",
@@ -183,42 +183,6 @@
       "basis_n": 483,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Chişinău - bl.M7; M8; M9 • Str Cernăuţi - bl. M10, B28, M10A; B27 • Str Herţa - bl.D2, B29, J2, X1, X2, X3, X4; • Str Pescăruşului - bl.B26, D6 ; J1; D5; B25; D4; B24 • Ale Codlea - bl.D3, D1, J3, D7"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Cosmos Extindere",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 483,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Zambilă Ioniţă - bl. 33C, 7C, 7D • Şos Pantelimon - bl. A3, A2, A1, A4, 7A+7B, B1, B2 • Str Azotului - bl. 33D"
-    },
-    {
-      "sector": 2,
-      "pt_name": "20 Pantelimon",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.578,
-      "basis_n": 303,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Amiral Ioan Murgescu - bl.401 • Şos Pantelimon - bl.404-405, 400, 402A, 403A, 402, 403 • Str Baicului - bl.401A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Cosmos Vechi",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 483,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Pantelimon - bl.7, B2, 3, 8, 10, 5, 11, 12, 13, B9, 6, O"
     },
     {
       "sector": 2,
@@ -354,18 +318,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "1 Republicii",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 483,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl.D17, D16, D3, D4, D1, D2, D5 • Int Sg. Ion Tancu - imob. Nr.6, 8, 1, 5, 3, 4, 8 • Int Serg. Ion Panţâru - imob.Nr.10, 3, 8"
-    },
-    {
-      "sector": 2,
       "pt_name": "13 Pantelimon",
       "blocks": 3,
       "service": "Deficienta ACC",
@@ -399,18 +351,6 @@
       "basis_n": 483,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Chiristigii - bl.P36A, P36B, P36, P36C • Şos Mihai Bravu - bl.P38, P37-P37A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "201 Mihai Bravu",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea primara",
-      "estimated_restore": "2026-08-16T14:00",
-      "on_time_probability": 0.62,
-      "basis_n": 71,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl. 205, 203, 204, 200, • Cal Călăraşilor - bl. 201, 202"
     },
     {
       "sector": 2,
@@ -562,7 +502,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare SACET-Obiectiv 3 si Reabilitarea sistemului de termoficare al Municipiului Bucuresti-Obiectiv 1 Magistrala I Sud.",
-      "estimated_restore": "2026-08-14T23:30",
+      "estimated_restore": "2026-08-22T23:30",
       "on_time_probability": 0.349,
       "basis_n": 3232,
       "basis_bucket": "sector_cause_slip",
@@ -574,7 +514,7 @@
       "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare SACET-Obiectiv 3 si Reabilitarea sistemului de termoficare al Municipiului Bucuresti-Obiectiv 1 Magistrala I Sud.",
-      "estimated_restore": "2026-08-14T23:30",
+      "estimated_restore": "2026-08-22T23:30",
       "on_time_probability": 0.349,
       "basis_n": 3232,
       "basis_bucket": "sector_cause_slip",
@@ -586,7 +526,7 @@
       "blocks": 11,
       "service": "Oprire ACC",
       "cause": "Lucrari de modernizare SACET-Obiectiv 3 si Reabilitarea sistemului de termoficare al Municipiului Bucuresti-Obiectiv 1 Magistrala I Sud.",
-      "estimated_restore": "2026-08-14T23:30",
+      "estimated_restore": "2026-08-22T23:30",
       "on_time_probability": 0.349,
       "basis_n": 3232,
       "basis_bucket": "sector_cause_slip",
