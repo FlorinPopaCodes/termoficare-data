@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-14T08:54:07",
+  "scraped_at": "2026-08-14T10:09:05",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "Ct Amzei",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie in centrala termica",
+      "estimated_restore": "2026-08-14T15:30",
+      "on_time_probability": 0.346,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Piaţa Amzei - Bl 10-22 • Str D. I. Mendeleev - Bl 7-15"
+    },
     {
       "sector": 1,
       "pt_name": "J Grivita",
@@ -111,6 +123,18 @@
       "basis_n": 303,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Colentina",
+      "blocks": 13,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.418,
+      "basis_n": 483,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Maşina de Pâine - bl.OD35, R30, OD39, R28, R29, OD37 • Şos Colentina - BL.R24, R26, R25, OD41, OD57"
     },
     {
       "sector": 2,
@@ -387,6 +411,66 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.4Catelu",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare SACET-Obiectiv 3 si Reabilitarea sistemului de termoficare al Municipiului Bucuresti-Obiectiv 1 Magistrala I Sud.",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.349,
+      "basis_n": 3232,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Câmpia Libertăţii - Module bl.21"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.2Catelu-module",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare SACET-Obiectiv 3 si Reabilitarea sistemului de termoficare al Municipiului Bucuresti-Obiectiv 1 Magistrala I Sud.",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.349,
+      "basis_n": 3232,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Baba Novac - Module bl.G10, G11, G12, G13"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.1Baba Novac",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare SACET-Obiectiv 3 si Reabilitarea sistemului de termoficare al Municipiului Bucuresti-Obiectiv 1 Magistrala I Sud.",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.349,
+      "basis_n": 3232,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Șulea",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Avarie CP in plasa PT.",
+      "estimated_restore": "2026-08-14T12:00",
+      "on_time_probability": 0.517,
+      "basis_n": 58,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Odobeşti - bl. M7A, M7B, V7, V7A, V8, V9, V10, V12, V13, Z1A, Z2,V11"
+    },
+    {
+      "sector": 3,
+      "pt_name": "J2 Unirii",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Avarie CP in plasa PT.",
+      "estimated_restore": "2026-08-14T16:00",
+      "on_time_probability": 0.382,
+      "basis_n": 55,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Unirii - bl. J1, J3B, J4, J2, J3A • Pţa Alba Iulia - bl. I6, I7"
     },
     {
       "sector": 3,
@@ -2034,6 +2118,42 @@
     },
     {
       "sector": 5,
+      "pt_name": "2 Ferentari - Partial",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-14T15:00",
+      "on_time_probability": 0.375,
+      "basis_n": 56,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Prof. Dr. Alexandru Locusteanu - bl. 77A, 77B, 77C, 77D, 80 • Str Zamfir Olaru - bl. 79 • Cal Rahovei - bl. 81A, 81B"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Giurgiu - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-14T15:00",
+      "on_time_probability": 0.503,
+      "basis_n": 6397,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Verigei - bl. 1"
+    },
+    {
+      "sector": 5,
+      "pt_name": "9 Margeanului",
+      "blocks": 36,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de modernizare",
+      "estimated_restore": "2026-08-14T20:00",
+      "on_time_probability": 0.476,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
+    },
+    {
+      "sector": 5,
       "pt_name": "3 Petre Ispirescu",
       "blocks": 16,
       "service": "Deficienta ACC",
@@ -2055,42 +2175,6 @@
       "basis_n": 840,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
-    },
-    {
-      "sector": 5,
-      "pt_name": "VSNord",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie circuit primar",
-      "estimated_restore": "2026-08-14T10:00",
-      "on_time_probability": 0.533,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Pţa Naţiunile Unite - B1, B2, C • Str Sfintii Apostoli - 3B • Bld Unirii - 1, 1A, 1B, 1C, 2A, 2B, 2C, 3, 4A, 4B • Str Bordea Poenaru - 8-10"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Tribunal",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie circuit primar",
-      "estimated_restore": "2026-08-14T10:00",
-      "on_time_probability": 0.447,
-      "basis_n": 38,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. 12, 13, 14, 15 • Spl Independenţei - bl. 16, 17"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Gioconda",
-      "blocks": 0,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie circuit primar",
-      "estimated_restore": "2026-08-14T10:00",
-      "on_time_probability": 0.486,
-      "basis_n": 37,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
     },
     {
       "sector": 5,
