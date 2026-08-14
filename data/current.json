@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-14T23:52:30",
+  "scraped_at": "2026-08-15T00:46:11",
   "status": "ok",
   "outages": [
     {
@@ -63,18 +63,6 @@
       "basis_n": 483,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Nada Florilor - bl.14, 13, 5 • Str Petre Antonescu - bl.11, 12, 23, 24, 26, 25 • Str Braşoveni - bl.15, 17, 19, 16, 18, 20, 7, 4, 3 • Str Lăptari Tei - bl. 6 • Str Teiul Doamnei - bl.8, 9, 10, 21, 22, 1, 2"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Ramuri Tei",
-      "blocks": 13,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-15T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 483,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vidin - bl.59, 58 Bis, 54, 57, 58, 55, 53, 56 • Str Gheorghe Ţiţeica - bl.54Bis, 52Bis, 56BIS • Str Zambilelor - bl.62; TEI"
     },
     {
       "sector": 2,
@@ -519,162 +507,6 @@
       "basis_n": 3232,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Unităţii",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie Retea primara.",
-      "estimated_restore": "2026-08-16T14:00",
-      "on_time_probability": 0.592,
-      "basis_n": 49,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vulcan Judeţul - bl. B1B, B1C, B3A • Str Traian Popovici - bl. B3D, B4, B4D, B4F, B4A • Şos Mihai Bravu - bl. B2A, B2B, B2C, B1, B1A, B1D, B3B, B3C • Str Caloian Judeţul - bl. B4C, Scoala Generala nr. 80"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Mihai Bravu Vest",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie Retea primara.",
-      "estimated_restore": "2026-08-16T14:00",
-      "on_time_probability": 0.543,
-      "basis_n": 46,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl. 2, 3, 4, 5, 6, 7, 103, 104, 105 • Bld Decebal - bl. S1, S2, S2A+S2B, S3 • Ale Apostol Mărgărit - bl. 106, 107, 108, D.G.A.S.P.C, Centrul de zi Titan-Cercelus9 cresa nr.35 • Str Cerceluş - bl. 10-11"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Unităţii",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie Retea primara.",
-      "estimated_restore": "2026-08-16T14:00",
-      "on_time_probability": 0.706,
-      "basis_n": 51,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Traian Popovici - bl. B7, B11, B10 • Şos Mihai Bravu - bl. B13, B13A, B13D, B13B, B13C • Str Lt. Aurel Botea - bl. B5A, B5, B5D, B5B, B5C, B6, B6A, B6B, B8, B9"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Dristor Insulă",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie Retea primara.",
-      "estimated_restore": "2026-08-16T14:00",
-      "on_time_probability": 0.548,
-      "basis_n": 42,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - 12, 12A, 15, 15A, 18, 18A, 14A+B • Str Dristorului - 15B, 10, 10A, 11, 12B, 16ABC, 17,13, 13C • Bld Camil Ressu - 13A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Anexa",
-      "blocks": 28,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie Retea primara.",
-      "estimated_restore": "2026-08-16T14:00",
-      "on_time_probability": 0.543,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Ţiglina - Scoala Gimnaziala Cezar Bolliac • Str Diligenţei - • Str Mircea Bădescu - • Str Nicolae Tudor - • Str Levănţica - • Str Dristorului - • Str Cerceluş -"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Labirint",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Matei Basarab - bl. 119bis, L121, L118A, L116A • Str Labirint - bl. L117, L119, L117bis"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Labirint",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Călăraşi",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Matei Basarab - 72, 86, 73, 74, 85, L122, L120, L118 • Str Theodor D. Speranţia - 78, 83, 84 • Str Agricultori - 80, 81, 82,79, • Cal Călăraşi - 75,76,77"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Călăraşi",
-      "blocks": 13,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Theodor Speranţia",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Theodor D. Speranţia - bl. S22 • Bld Decebal - bl. S16 • Cal Călăraşi - bl. S18, S20, S21"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Călăraşi",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal Călăraşi - Cal. Călăraşi bl. 50, 70, 68, 65, 49, 71, 67, 66,"
-    },
-    {
-      "sector": 3,
-      "pt_name": "4 Labirint",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Matei Basarab - bl. L112, L112A, L113A, L113 • Str Traian - bl. L112B"
-    },
-    {
-      "sector": 3,
-      "pt_name": "5 Călăraşi",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii Retea Primara.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Matei Basarab - 64 • Cal Călăraşi - 59, 60, 61, 58"
     },
     {
       "sector": 3,
