@@ -1,9 +1,33 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-14T10:09:05",
+  "scraped_at": "2026-08-14T11:35:57",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "7 Dinicu Golescu",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-08-14T15:00",
+      "on_time_probability": 0.5,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 5, 6,7"
+    },
+    {
+      "sector": 1,
+      "pt_name": "3 Dinicu Golescu",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-08-14T15:00",
+      "on_time_probability": 0.477,
+      "basis_n": 65,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
+    },
     {
       "sector": 1,
       "pt_name": "Ct Amzei",
@@ -102,18 +126,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "5 Doamna Ghica",
-      "blocks": 2,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 483,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.11Sud, 12 Sud"
-    },
-    {
-      "sector": 2,
       "pt_name": "Opanez",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -183,30 +195,6 @@
       "basis_n": 483,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "D18 Mihai Bravu",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.578,
-      "basis_n": 303,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Matei Voievod - bl. O1, O2, O3, D18, MATEI VOIEVOD • Str Medic Constantin Zlătescu - bl.V5, V4 • Şos Mihai Bravu - bl.D22, V6, D23, D20, D21, D24, D19, D18 SC.C"
-    },
-    {
-      "sector": 2,
-      "pt_name": "6 Pantelimon",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 483,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Dobrina - bl. 49B, 49C; 49D1; 49C1 • Bld Chişinău - bl. 48A; 49 • Şos Pantelimon - bl.45, 48, 54 • Str Renului - bl. 49D"
     },
     {
       "sector": 2,
@@ -318,6 +306,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "1 Republicii",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.418,
+      "basis_n": 483,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Mihai Bravu - bl.D17, D16, D3, D4, D1, D2, D5 • Int Sg. Ion Tancu - imob. Nr.6, 8, 1, 5, 3, 4, 8 • Int Serg. Ion Panţâru - imob.Nr.10, 3, 8"
+    },
+    {
+      "sector": 2,
       "pt_name": "13 Pantelimon",
       "blocks": 3,
       "service": "Deficienta ACC",
@@ -327,18 +327,6 @@
       "basis_n": 483,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Pantelimon - bl.41, 46, 47"
-    },
-    {
-      "sector": 2,
-      "pt_name": "D11 Mihai Bravu",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.578,
-      "basis_n": 303,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl.E1, D11, D10, imob.Nr.121A • Str Vatra Luminoasă - BL. D7"
     },
     {
       "sector": 2,
@@ -447,18 +435,6 @@
       "basis_n": 3232,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Șulea",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Avarie CP in plasa PT.",
-      "estimated_restore": "2026-08-14T12:00",
-      "on_time_probability": 0.517,
-      "basis_n": 58,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Odobeşti - bl. M7A, M7B, V7, V7A, V8, V9, V10, V12, V13, Z1A, Z2,V11"
     },
     {
       "sector": 3,
