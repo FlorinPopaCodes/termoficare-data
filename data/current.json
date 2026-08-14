@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-14T13:38:51",
+  "scraped_at": "2026-08-14T14:25:54",
   "status": "ok",
   "outages": [
     {
@@ -90,6 +90,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "7 IRTA",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.418,
+      "basis_n": 483,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Maşina de Pâine - bl.5, 6 IRTA, 50, 9IRTA, 4IRTA • Str Teiul Doamnei - bl.8 IRTA • Şos Colentina - bl.2, 1A, 1B, 3IRTA, 7"
+    },
+    {
+      "sector": 2,
       "pt_name": "7 Mosilor",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -114,15 +126,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "3 Colentina",
-      "blocks": 13,
+      "pt_name": "1 Cheile Zanoagei",
+      "blocks": 19,
       "service": "Deficienta ACC",
       "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
       "estimated_restore": "2026-08-14T23:30",
       "on_time_probability": 0.418,
       "basis_n": 483,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Maşina de Pâine - bl.OD35, R30, OD39, R28, R29, OD37 • Şos Colentina - BL.R24, R26, R25, OD41, OD57"
+      "zone_raw": "• Str Cristea Mateescu - bl.T4A, T6A, T4B • Str Petre Antonescu - bl.T3A, T3B, T3C • Str Grigore Ionescu - bl.T8A, T7A , T7B, T7C, T6B • Str Brebu - bl.T9B, T9A, T10, T11, T5 • Str Oteşani - bl.T1, T2, T8B"
     },
     {
       "sector": 2,
@@ -1506,18 +1518,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "2 Cornul Caprei",
-      "blocks": 3,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE Sud si pornire CTE Progresu.",
-      "estimated_restore": "2026-08-14T23:30",
-      "on_time_probability": 0.644,
-      "basis_n": 191,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
-    },
-    {
-      "sector": 3,
       "pt_name": "SC.3C3/1 - Module Termice",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -2046,22 +2046,10 @@
     },
     {
       "sector": 5,
-      "pt_name": "9 Margeanului",
-      "blocks": 36,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare",
-      "estimated_restore": "2026-08-14T20:00",
-      "on_time_probability": 0.476,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Petre Ispirescu",
       "blocks": 16,
       "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare",
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti, Lot 5 - Obiectiv14",
       "estimated_restore": "2026-08-14T23:30",
       "on_time_probability": 0.487,
       "basis_n": 78,
@@ -2070,13 +2058,37 @@
     },
     {
       "sector": 5,
+      "pt_name": "9 Margeanului",
+      "blocks": 36,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti, Lot 5 - Obiectiv14",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.476,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
+    },
+    {
+      "sector": 5,
+      "pt_name": "2 Petre Ispirescu",
+      "blocks": 12,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti, Lot 5 - Obiectiv14",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.187,
+      "basis_n": 75,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
+    },
+    {
+      "sector": 5,
       "pt_name": "10 Margeanului",
       "blocks": 32,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie reţea termică primară - Calea Rahovei",
-      "estimated_restore": "2026-08-14T23:00",
-      "on_time_probability": 0.524,
-      "basis_n": 63,
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti, Lot 5 - Obiectiv14",
+      "estimated_restore": "2026-08-14T23:30",
+      "on_time_probability": 0.333,
+      "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
     },
