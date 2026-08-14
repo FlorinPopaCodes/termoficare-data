@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-14T21:12:32",
+  "scraped_at": "2026-08-14T22:12:34",
   "status": "ok",
   "outages": [
     {
@@ -447,6 +447,18 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "5 Cornul Caprei - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-15T16:00",
+      "on_time_probability": 0.476,
+      "basis_n": 10066,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Lt. Aurel Botea - D24, sc 1,2"
     },
     {
       "sector": 3,
