@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-15T19:40:29",
+  "scraped_at": "2026-08-15T22:33:58",
   "status": "ok",
   "outages": [
     {
@@ -63,6 +63,18 @@
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vidin - bl.59, 58 Bis, 54, 57, 58, 55, 53, 56 • Str Gheorghe Ţiţeica - bl.54Bis, 52Bis, 56BIS • Str Zambilelor - bl.62; TEI"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Cheile Zanoagei",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.464,
+      "basis_n": 140,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Berechet - bl.T31A • Str Inginerilor Tei - bl.T31B, T30C, T30B, T30A • Bld Ghica Tei - bl.T32, T33, • Str Oteşani - Camin C7 (Bl.T29)"
     },
     {
       "sector": 2,
