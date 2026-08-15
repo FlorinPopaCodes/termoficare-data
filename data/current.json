@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-15T17:44:46",
+  "scraped_at": "2026-08-15T18:20:21",
   "status": "ok",
   "outages": [
     {
@@ -75,6 +75,18 @@
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Tuzla - bl.11, 11A • Str Grigore C. Moisil - bl.9, 10, 8, 6A, 6 • Bld Lacul Tei - bl.5A2, 5, 5A1, 4, 6B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Cheile Zanoagei",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.425,
+      "basis_n": 506,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Cristea Mateescu - bl.T4A, T6A, T4B • Str Petre Antonescu - bl.T3A, T3B, T3C • Str Grigore Ionescu - bl.T8A, T7A , T7B, T7C, T6B • Str Brebu - bl.T9B, T9A, T10, T11, T5 • Str Oteşani - bl.T1, T2, T8B"
     },
     {
       "sector": 2,
