@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-15T18:42:02",
+  "scraped_at": "2026-08-15T19:40:29",
   "status": "ok",
   "outages": [
     {
@@ -39,18 +39,6 @@
       "basis_n": 140,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
-    },
-    {
-      "sector": 2,
-      "pt_name": "5 Lacul Tei",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-15T23:30",
-      "on_time_probability": 0.425,
-      "basis_n": 506,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Tuzla - bl.11, 11A • Str Grigore C. Moisil - bl.9, 10, 8, 6A, 6 • Bld Lacul Tei - bl.5A2, 5, 5A1, 4, 6B"
     },
     {
       "sector": 2,
