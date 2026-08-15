@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-15T23:56:59",
+  "scraped_at": "2026-08-16T00:55:04",
   "status": "ok",
   "outages": [
     {
@@ -270,18 +270,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Tomis",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-16T23:30",
-      "on_time_probability": 0.333,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
-    },
-    {
-      "sector": 3,
       "pt_name": "9C4/2",
       "blocks": 15,
       "service": "Deficienta ACC",
@@ -327,18 +315,6 @@
       "basis_n": 69,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Theodor D. Speranţia - bl. S22 • Bld Decebal - bl. S16 • Cal Călăraşi - bl. S18, S20, S21"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Tomis",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-16T23:30",
-      "on_time_probability": 0.2,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Plut. Ion Nedelcu - H11, H12 • Str Istriei - bl. C6, H16, H18 • Int Sold. Dumitru Drăgan - bl. 8A, 8A1, 8A2 • Bld Râmnicu Sărat - bl. H13, H14, H15, H17 • Bld Camil Ressu - bl. A7, A7BIS, A8, A8BIS, A9, A10, A11, C10, C11, C12"
     },
     {
       "sector": 3,
