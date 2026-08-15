@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-15T23:36:02",
+  "scraped_at": "2026-08-15T23:56:59",
   "status": "ok",
   "outages": [
     {
@@ -123,18 +123,6 @@
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Măgura Vulturului - bl.413; • Str Elev Ştefan Ştefănescu - bl.419, 420, 423, 422A, 420B, 422, 420C, imob.Nr.67-69 • Şos Pantelimon - bl.409B, 409A, 409, 420A, 411, 410, 412, 421"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Colentina Socului",
-      "blocks": 13,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-16T23:30",
-      "on_time_probability": 0.592,
-      "basis_n": 314,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Abanosului - bl.2, 5 • Str Doamna Ghica - bl.70, 69 • Str Dimitrie Grozdea - bl.64, 63, 82 • Ale Bistricioara - bl.65, 66, 68, 67 • Str Baicului - bl.81, 83"
     },
     {
       "sector": 2,
