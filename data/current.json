@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-15T16:40:37",
+  "scraped_at": "2026-08-15T17:44:46",
   "status": "ok",
   "outages": [
     {
@@ -363,6 +363,42 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "9C4/2",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.387,
+      "basis_n": 31,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Odobeşti - bl. T1, V35 • Str Lotrioara - bl. M31A, M31B, 31, V32, V30, V33, V34, V36, V37, V38, V39, V40, V41"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Nicolae Pascu",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.289,
+      "basis_n": 5691,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Lăcrămioarei - bl. 1-2, 6, 18, 19, 3-4, 16, 15, 17, 20, 14 • Str Fizicienilor - bl. 12-13, 11, 9-10"
+    },
+    {
+      "sector": 3,
+      "pt_name": "4C4/2",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-15T23:30",
+      "on_time_probability": 0.289,
+      "basis_n": 5691,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Fuiorului - bl. H16A, H16B, H17, Y3 • Ale Fuiorului - bl. H16A, H16B, H17, Y3 • Str Firidei - bl. H15, H19 • Ale Lotrioara - bl. H25, N10 • Str Rotundă - bl. H19B • Bld Camil Ressu - bl. H14, H26, N8, N9, N11, N12"
     },
     {
       "sector": 3,
