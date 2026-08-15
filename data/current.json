@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-15T12:46:38",
+  "scraped_at": "2026-08-15T13:56:25",
   "status": "ok",
   "outages": [
     {
@@ -27,6 +27,18 @@
       "basis_n": 25,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Constantin Stere - Imobil Nr.10 • Cal Griviţei - bl. 4, 5, 6, 7, imob.Nr. 7 • Str Lainici - Imobil Nr.5"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Cheile Zanoagei - Partial",
+      "blocks": 16,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-17T19:30",
+      "on_time_probability": 0.233,
+      "basis_n": 30,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Deleni - bl.T69, T65, T66, T74 • Str Grigore Ionescu - bl.T71, T75, T72, T59, T60, T73 • Str Maica Domnului - bl.T56, T57, T58 • Str Oteşani - bl.T70, T68, T67"
     },
     {
       "sector": 2,
@@ -78,15 +90,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "4 Cheile Zanoagei",
-      "blocks": 26,
+      "pt_name": "4 Cheile Zanoagei - Partial",
+      "blocks": 10,
       "service": "Deficienta ACC",
       "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
       "estimated_restore": "2026-08-15T23:30",
-      "on_time_probability": 0.592,
-      "basis_n": 314,
+      "on_time_probability": 0.425,
+      "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Alexandru cel Bun - BL.T61; T50 sc.1 • Str Deleni - bl.T69, T65, T63; T66, T74, T64 • Str Grigore Ionescu - bl.T71, T75, T72, T59, T60, T73 • Str Maica Domnului - bl.T56, T57, T58, T54, T55, T52, T53, T51, T50 sc.2 • Str Oteşani - bl.T70, T68, T67, T62"
+      "zone_raw": "• Str Alexandru cel Bun - BL.T61; T50 sc.1 • Str Deleni - bl T63; T64 • Str Maica Domnului - bl. T54, T55, T52, T53, T51, T50 sc.2 • Str Oteşani - blT62"
     },
     {
       "sector": 2,
