@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-16T23:56:01",
+  "scraped_at": "2026-08-17T00:54:14",
   "status": "ok",
   "outages": [
     {
@@ -1218,18 +1218,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "1 Socului",
-      "blocks": 14,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.42,
-      "basis_n": 521,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Mozaicului - bl.B1, B2, B3 sc.A+B,C; B5, B4, B7, B8, B9 sc.A,B,C • Bld Chişinău - bl. B6 sc.A,B,C; A7, A7 bis, A8 • Str Cernăuţi - bl. A9 • Str Dimitrie Hârlescu - bl. A6"
-    },
-    {
-      "sector": 2,
       "pt_name": "7 Muncii",
       "blocks": 9,
       "service": "Deficienta ACC",
@@ -1278,18 +1266,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "P16 Mihai Bravu",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.472,
-      "basis_n": 163,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl.P16-P16A, P16Bis • Bld Ferdinand I - bl.P32, P31, P33, P17 • Str Avrig - bl.P33A • Str Ziduri Între Vii - imob.Nr.11"
-    },
-    {
-      "sector": 2,
       "pt_name": "19 Pantelimon",
       "blocks": 18,
       "service": "Deficienta ACC",
@@ -1323,30 +1299,6 @@
       "basis_n": 521,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Alexandru Ipsilanti - bl.29Bis, 29E • Str Logofătul Dan - bl.22 • Str Bodeşti - bl.29A, 29B • Şos Pantelimon - bl.3, 4 • Str Armaşul Marcu - bl. 23, 24, 28, 27, 29, 25, 26 • Str Cluceru Sandu - bl.29C"
-    },
-    {
-      "sector": 2,
-      "pt_name": "5 Socului",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.42,
-      "basis_n": 521,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Chişinău - bl.A1, A5, A5Bis, A3Bis, A4, A2, A3 • Str Dimitrie Hârlescu - bl.A5A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Vaselor",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.42,
-      "basis_n": 521,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl.P3, P30A, 4, 4Bis, P14, P12, P15Bis, P15, P13 • Str Pictor Oscar Obedeanu - imob.Nr.18 • Ale Avrig - bl.P4, P5, P6, P18Bis, P30, P18, P19Bis, P19"
     },
     {
       "sector": 2,
@@ -2619,6 +2571,18 @@
       "basis_n": 293,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Barajul Uzului - bl. L23A, L23B • Ale Barajul Bicaz - bl. G1, M31, M32A, M32B, M33, M33A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "B 3 Cauzasi",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic - (Bd.Dimitrie Cantemir nr.1",
+      "estimated_restore": "2026-08-17T04:00",
+      "on_time_probability": 0.469,
+      "basis_n": 49,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Pţa Unirii - bl. B3, B4, B5 ,B6, B7 • Str Radu Vodă - bl. B8 • Bld Dimitrie Cantemir - bl. B2"
     },
     {
       "sector": 4,
