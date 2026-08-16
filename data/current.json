@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-16T08:39:29",
+  "scraped_at": "2026-08-16T08:58:49",
   "status": "ok",
   "outages": [
     {
@@ -15,6 +15,18 @@
       "basis_n": 1685,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Deleni - bl.T69, T65, T66, T74 • Str Grigore Ionescu - bl.T71, T75, T72, T59, T60, T73 • Str Maica Domnului - bl.T56, T57, T58 • Str Oteşani - bl.T70, T68, T67"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-16T23:30",
+      "on_time_probability": 0.42,
+      "basis_n": 521,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
     },
     {
       "sector": 2,
@@ -66,6 +78,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "3 Cheile Zanoagei",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-16T23:30",
+      "on_time_probability": 0.42,
+      "basis_n": 521,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Berechet - bl.T31A • Str Inginerilor Tei - bl.T31B, T30C, T30B, T30A • Bld Ghica Tei - bl.T32, T33, • Str Oteşani - Camin C7 (Bl.T29)"
+    },
+    {
+      "sector": 2,
       "pt_name": "3 Petricani",
       "blocks": 12,
       "service": "Deficienta ACC",
@@ -99,6 +123,18 @@
       "basis_n": 325,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Mosilor",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-16T23:30",
+      "on_time_probability": 0.42,
+      "basis_n": 521,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Cenuşeresei - bl.50, 52 • Str Traian - bl.30 B, imob.Nr.254 • Cal Moşilor - bl.36, 38, 42, 46, 48, 58, 32, 30A, 31A , 31C • Str Mihai Eminescu - bl.31B ,32 • Str Vaselor - bl.34, imob.Nr.3A • Str Ion Maiorescu - bl.44 ;50 ;40, imob.Nr.37, 7"
     },
     {
       "sector": 2,
@@ -294,6 +330,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "3 Tomis",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
+      "estimated_restore": "2026-08-16T23:30",
+      "on_time_probability": 0.353,
+      "basis_n": 34,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
+    },
+    {
+      "sector": 3,
       "pt_name": "9C4/2",
       "blocks": 15,
       "service": "Deficienta ACC",
@@ -327,18 +375,6 @@
       "basis_n": 2940,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fuiorului - bl. H16A, H16B, H17, Y3 • Ale Fuiorului - bl. H16A, H16B, H17, Y3 • Str Firidei - bl. H15, H19 • Ale Lotrioara - bl. H25, N10 • Str Rotundă - bl. H19B • Bld Camil Ressu - bl. H14, H26, N8, N9, N11, N12"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Theodor Speranţia",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-16T23:30",
-      "on_time_probability": 0.367,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Theodor D. Speranţia - bl. S22 • Bld Decebal - bl. S16 • Cal Călăraşi - bl. S18, S20, S21"
     },
     {
       "sector": 3,
