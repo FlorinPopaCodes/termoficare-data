@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-16T08:58:49",
+  "scraped_at": "2026-08-16T11:16:54",
   "status": "ok",
   "outages": [
     {
@@ -330,6 +330,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "3 Placare-T - Partial",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum Str Mizil",
+      "estimated_restore": "2026-08-17T15:30",
+      "on_time_probability": 0.3,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mizil - bl. 1, 3A G17, 3 • Str Prevederii - bl. G15,G16"
+    },
+    {
+      "sector": 3,
       "pt_name": "3 Tomis",
       "blocks": 19,
       "service": "Deficienta ACC",
@@ -483,18 +495,6 @@
       "basis_n": 195,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Feteşti - bl. I26 • Str Jean-Alexandru Steriadi - bl. M9, M10, M11, P20bis • Ale Ciucea - bl. P15, P16, P17, P18, P19, P19bis, P20"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Placare-T",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-16T23:30",
-      "on_time_probability": 0.641,
-      "basis_n": 195,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mizil - bl. 1, 3A, 4ALCAZ, G17,TMUCB,C1, 3 • Str Prevederii - bl. G15,G16 • Str Lemnişorului - bl. G40, G41, G42"
     },
     {
       "sector": 3,
@@ -711,6 +711,18 @@
       "basis_n": 195,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Perişoru - bl. H34, H35, H36 • Ale Giurgeni - bl.F6, F7, F8, F9, F10, F11, F12, F13, F14 • Str Gura Ialomiţei - bl. PC8, PC9, PC10, PC11,H33,H32 PC12, H28, H29, H30, H31 • Str Feteşti - bl. V13, H27"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Placare-T - Partial",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
+      "estimated_restore": "2026-08-16T23:30",
+      "on_time_probability": 0.21,
+      "basis_n": 233,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Mizil - bl. 4ALCAZ,TMUCB,C1, • Str Lemnişorului - bl. G40, G41, G42"
     },
     {
       "sector": 3,
