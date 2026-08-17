@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-17T19:51:52",
+  "scraped_at": "2026-08-17T20:17:56",
   "status": "ok",
   "outages": [
     {
@@ -198,18 +198,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "3 Socului",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.589,
-      "basis_n": 331,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Diham - bl.B14, B15, B16, B21, M5 • Bld Chişinău - BL. B22; M4, B18, M6, M4, M2, M1 • Ale Socului - BL.B12; B11; M4BIS • Str Herţa - bl.B13, B17 • Str Pescăruşului - bl.B19, B23, B20"
-    },
-    {
-      "sector": 2,
       "pt_name": "4 Colentina Socului",
       "blocks": 13,
       "service": "Deficienta ACC",
@@ -270,18 +258,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "19 Pantelimon",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.459,
-      "basis_n": 146,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
-    },
-    {
-      "sector": 2,
       "pt_name": "4 Socului",
       "blocks": 11,
       "service": "Deficienta ACC",
@@ -315,18 +291,6 @@
       "basis_n": 166,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Vergului - bl.15D • Şos Pantelimon - bl.15ABC"
-    },
-    {
-      "sector": 2,
-      "pt_name": "13 Pantelimon",
-      "blocks": 3,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.589,
-      "basis_n": 331,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Pantelimon - bl.41, 46, 47"
     },
     {
       "sector": 2,
