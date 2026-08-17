@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-17T08:57:09",
+  "scraped_at": "2026-08-17T10:38:28",
   "status": "ok",
   "outages": [
     {
@@ -1770,18 +1770,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "2 Vitan",
-      "blocks": 33,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de Modernizare Retea de Termoficare-Firma ELSACO",
-      "estimated_restore": "2026-08-21T23:30",
-      "on_time_probability": 0.368,
-      "basis_n": 38,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Vitan - bl. 42, 30, 41, 31, 21, 20, 51, 52, 22 • Str Mureşana - bl. 43B, 44, 58, 58A, 59 • Str Jieneasca - bl. 46, 47, 34, 33 • Str Căluşari - bl. 43, 43A, 24, 25, 50, 43A • Str Alunului - bl. 57 • Şos Mihai Bravu - bl. 53, 54, 55 • Str Răcari - bl. 38, 39 • Str Alunelului - bl. 45, 40, 32"
-    },
-    {
-      "sector": 3,
       "pt_name": "1 C3/1",
       "blocks": 20,
       "service": "Oprire ACC",
@@ -2598,6 +2586,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "1 Giurgiu - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-17T15:00",
+      "on_time_probability": 0.504,
+      "basis_n": 6405,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Verigei - bl. 1"
+    },
+    {
+      "sector": 5,
       "pt_name": "6 Chirigiu",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -3282,6 +3282,42 @@
     },
     {
       "sector": 6,
+      "pt_name": "2/10",
+      "blocks": 15,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar",
+      "estimated_restore": "2026-08-17T22:00",
+      "on_time_probability": 0.45,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vlădeasa - bl.C32,C33 • Bld 1 Mai - bl C11, C12, C13, C14, C15, C16, C17 • Str Constantin Titel Petrescu - bl.C20, C21, C22, C29, C30, C31"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3/10",
+      "blocks": 35,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar",
+      "estimated_restore": "2026-08-17T22:00",
+      "on_time_probability": 0.511,
+      "basis_n": 47,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vlădeasa - bl. C67, C77, C68, C74 SCARA B, C75, C39, C34, C48 • Str Serg. Gheorghe Lăţea - bl. C70, C71, C47, C36, C60, C37, C35, C61, C69, C74-SCARA A • Bld Ghencea - bl.C66, C65, C64, C63, C24, C25, C26 • Str Gârleni - bl. C45, C46, C72, C73 • Str Constantin Titel Petrescu - bl. C23, C62, C38, C40"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3/8",
+      "blocks": 17,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar",
+      "estimated_restore": "2026-08-17T22:00",
+      "on_time_probability": 0.364,
+      "basis_n": 77,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Obcina Mică - bl. Z31 • Bld 1 Mai - bl. 4S14, 6S14 • Ale Compozitorilor - bl. E21, G12, OD5, G10, 5S14, G9, G11, F17,10S14,Z38 • Str Sibiu - bl.E33, 813, Z32"
+    },
+    {
+      "sector": 6,
       "pt_name": "SC 4/5",
       "blocks": 11,
       "service": "Oprire ACC",
@@ -3510,18 +3546,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "2/10",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
-      "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlădeasa - bl.C32,C33 • Bld 1 Mai - bl C11, C12, C13, C14, C15, C16, C17 • Str Constantin Titel Petrescu - bl.C20, C21, C22, C29, C30, C31"
-    },
-    {
-      "sector": 6,
       "pt_name": "2/7",
       "blocks": 32,
       "service": "Oprire ACC",
@@ -3702,18 +3726,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "3/10",
-      "blocks": 35,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
-      "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlădeasa - bl. C67, C77, C68, C74 SCARA B, C75, C39, C34, C48 • Str Serg. Gheorghe Lăţea - bl. C70, C71, C47, C36, C60, C37, C35, C61, C69, C74-SCARA A • Bld Ghencea - bl.C66, C65, C64, C63, C24, C25, C26 • Str Gârleni - bl. C45, C46, C72, C73 • Str Constantin Titel Petrescu - bl. C23, C62, C38, C40"
-    },
-    {
-      "sector": 6,
       "pt_name": "4/7",
       "blocks": 27,
       "service": "Oprire ACC",
@@ -3735,18 +3747,6 @@
       "basis_n": 1356,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Spl Independenţei - CAMIN P18, P19, P17, P16, P15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3/8",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
-      "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Obcina Mică - bl. Z31 • Bld 1 Mai - bl. 4S14, 6S14 • Ale Compozitorilor - bl. E21, G12, OD5, G10, 5S14, G9, G11, F17,10S14,Z38 • Str Sibiu - bl.E33, 813, Z32"
     },
     {
       "sector": 6,
