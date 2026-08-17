@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-17T20:51:31",
+  "scraped_at": "2026-08-17T21:23:34",
   "status": "ok",
   "outages": [
     {
@@ -15,18 +15,6 @@
       "basis_n": 331,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Lacul Tei -"
-    },
-    {
-      "sector": 2,
-      "pt_name": "7 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.589,
-      "basis_n": 331,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
     },
     {
       "sector": 2,
@@ -51,18 +39,6 @@
       "basis_n": 146,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vidin - bl.59, 58 Bis, 54, 57, 58, 55, 53, 56 • Str Gheorghe Ţiţeica - bl.54Bis, 52Bis, 56BIS • Str Zambilelor - bl.62; TEI"
-    },
-    {
-      "sector": 2,
-      "pt_name": "6 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.422,
-      "basis_n": 529,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
     },
     {
       "sector": 2,
@@ -2022,6 +1998,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "Spinis",
+      "blocks": 26,
+      "service": "Oprire ACC",
+      "cause": "Avarie retea primara",
+      "estimated_restore": "2026-08-18T23:00",
+      "on_time_probability": 0.576,
+      "basis_n": 33,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Spiniş - bl. 19, 24, 43, 45, 48, 104, 105 • Str Râul Şoimului - bl. 25, 26, 27, 28, 46, 47, 49 • Şos Giurgiului - bl. 4A, 4B • Str Grădiştea - bl. 101 • Drm Găzarului - bl. 18, 21, 22, 50 • Str Tătuleşti - bl. 44, 98, 100A, 100B, 103"
+    },
+    {
+      "sector": 4,
       "pt_name": "4 Lanariei",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -2379,30 +2367,6 @@
       "basis_n": 114,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Constantin Mănescu - bl. 6, 7, 8, Comunitatea Musulmană • Bld Pieptănari - bl. 5 • Str Dârste - Imobil nr.3 • Şos Viilor - bl. 4AB • Str Dumitru P. Botez - bl. Plomba 12 • Cal Şerban Vodă - bl. 2, 3A, 3B, 11 • Str Pandele Roşca - Scoala Gimnaziala Princepesa Margareta • Str Nicolae Galea - bl. 10 • Str Scarlat Otulescu - bl. 9"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Vicina",
-      "blocks": 30,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-17T23:00",
-      "on_time_probability": 0.432,
-      "basis_n": 37,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Pricopan - bl. Z7, Z8, 11, 12, 13, 14, 16, 17, 18, 19, 20, 33, 34, 35, 36 • Ale Sălaj - bl. Z4, Z5, Z10, 15, 21, 37, 41 • Str Malcoci - bl. 38, 39, 40 • Ale Vicina - bl. 1, Z2, Z3, Z6, Z9"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Rahova",
-      "blocks": 35,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-17T23:00",
-      "on_time_probability": 0.559,
-      "basis_n": 34,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pecineaga - bl 23A, 23B, 25, 26, 28A, 28C, 29C • Str Cap. Ilina - bl 11B, 13A • Str Vicina - bl 29, 29A, 29B, 32, 33, 37, 38 • Str Oltina - bl 23, 27, 28, 28B • Str Slt. Popa - bl 13B, 13C, 15, 15A, 15B • Str Sg. Scarlat - bl 12 • Cal Rahovei - bl 11, 11A, 11C, 13, 28, 26, 30, 30A, imobil Ioniţă"
     },
     {
       "sector": 5,
