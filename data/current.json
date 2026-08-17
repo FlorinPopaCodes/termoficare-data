@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T00:46:55",
+  "scraped_at": "2026-08-18T01:13:57",
   "status": "ok",
   "outages": [
     {
@@ -2403,6 +2403,18 @@
       "basis_n": 114,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Constantin Mănescu - bl. 6, 7, 8, Comunitatea Musulmană • Bld Pieptănari - bl. 5 • Str Dârste - Imobil nr.3 • Şos Viilor - bl. 4AB • Str Dumitru P. Botez - bl. Plomba 12 • Cal Şerban Vodă - bl. 2, 3A, 3B, 11 • Str Pandele Roşca - Scoala Gimnaziala Princepesa Margareta • Str Nicolae Galea - bl. 10 • Str Scarlat Otulescu - bl. 9"
+    },
+    {
+      "sector": 5,
+      "pt_name": "7 Petre Ispirescu",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-18T15:30",
+      "on_time_probability": 0.62,
+      "basis_n": 79,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Petre Ispirescu - bl. P71A, P72B • Str Lacul Plopului - bl. P64 • Str Dorneasca - bl. P72 • Str Sg.maj. Vasile Topliceanu - bl. P66, P67"
     },
     {
       "sector": 5,
