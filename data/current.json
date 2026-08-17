@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-17T00:54:14",
+  "scraped_at": "2026-08-17T05:07:50",
   "status": "ok",
   "outages": [
     {
@@ -2571,18 +2571,6 @@
       "basis_n": 293,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Barajul Uzului - bl. L23A, L23B • Ale Barajul Bicaz - bl. G1, M31, M32A, M32B, M33, M33A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "B 3 Cauzasi",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic - (Bd.Dimitrie Cantemir nr.1",
-      "estimated_restore": "2026-08-17T04:00",
-      "on_time_probability": 0.469,
-      "basis_n": 49,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Pţa Unirii - bl. B3, B4, B5 ,B6, B7 • Str Radu Vodă - bl. B8 • Bld Dimitrie Cantemir - bl. B2"
     },
     {
       "sector": 4,
