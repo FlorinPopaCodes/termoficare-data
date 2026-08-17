@@ -1,9 +1,93 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-17T10:38:28",
+  "scraped_at": "2026-08-17T12:05:55",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC B3",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-17T20:30",
+      "on_time_probability": 0.492,
+      "basis_n": 59,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Hrisovului - bl. B3"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC C3",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-17T20:30",
+      "on_time_probability": 0.519,
+      "basis_n": 54,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Hrisovului - bl. C3"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC Vila 12B",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-17T20:30",
+      "on_time_probability": 0.46,
+      "basis_n": 50,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Făurei - Vila 12B"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC Vila 13",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-17T20:30",
+      "on_time_probability": 0.457,
+      "basis_n": 46,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Făurei - Vila 13"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC Vila 12A",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-17T20:30",
+      "on_time_probability": 0.46,
+      "basis_n": 50,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Făurei - Vila 12A"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC G5",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-17T20:30",
+      "on_time_probability": 0.478,
+      "basis_n": 46,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Pajurei - bl. G5"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC D3",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-17T20:30",
+      "on_time_probability": 0.462,
+      "basis_n": 52,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Hrisovului - bl. D3"
+    },
     {
       "sector": 1,
       "pt_name": "Club Steaua",
@@ -11,9 +95,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Plevnei - 114"
     },
     {
@@ -23,9 +107,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Dinicu Golescu - bl. 5, 6,7"
     },
     {
@@ -35,9 +119,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
     },
     {
@@ -47,9 +131,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Gării de Nord -"
     },
     {
@@ -59,9 +143,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lt.Col. Paul Ionescu - Imobil nr. 3 • Bld Gheorghe Duca - bl. 10-22, 4, 8, 17, 26, 24, 15, 6"
     },
     {
@@ -71,9 +155,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. 3B, 2B, 4B"
     },
     {
@@ -83,9 +167,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Miron Costin - bl. 5A+5B • Şos Nicolae Titulescu - bl. 7, 10A, 9A+B, 8, 10, 6, 4, 2, 3 • Bld Alexandru Ioan Cuza - imob.Nr.80 • Str G-ral Alexandru Cernat - imob.Nr.24"
     },
     {
@@ -95,9 +179,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. K, L2, L3, J, L1"
     },
     {
@@ -107,9 +191,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Giuleşti -"
     },
     {
@@ -119,9 +203,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl.Perla"
     },
     {
@@ -131,9 +215,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Institutul Medico-Militar - 22"
     },
     {
@@ -143,9 +227,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mircea Vulcănescu -"
     },
     {
@@ -155,9 +239,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Dinicu Golescu - 38"
     },
     {
@@ -167,9 +251,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Dorobanţilor - bl.11"
     },
     {
@@ -179,9 +263,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld G-ral Gheorghe Magheru - bl. 1, Casata"
     },
     {
@@ -191,9 +275,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mircea Vulcănescu -"
     },
     {
@@ -203,9 +287,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Gării de Nord - bl. A, C • Cal Griviţei - bl. 139 • Str Atelierului -"
     },
     {
@@ -215,9 +299,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petru Rareş - imob.Nr.19-21 • Şos Nicolae Titulescu - bl. 21, 20 • Cal Griviţei - bl. B"
     },
     {
@@ -227,9 +311,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Măguricea - bl. 3K, 3F, 8H, 8J, 8G • Str Nicolae G. Caramfil - bl. 1B, 1C, 10B, 10C, 10D • Str Elena Caragiani - bl. 8A-2, 8A-3, 2G, 3B, 8C, 2H, 3J, 3I, 8B • Şos Pipera - bl. 1D, 1E, 2D, 2E, 2F, 3E, 3D, 3C • Str Borşa - bl. 1A, 1B, 2 I, 2J, 8D, 8E, 3H, 3A, 8F, 3B, 10E, 10F, 3G • Str Smaranda Brăescu - bl. 2C, 1H, 1 I, 1G, 2K, 2B, 1F, 10G, 10 H • Str Feleacu - bl. 8I, 8A-1, 10A, 10I, FELEACU 2"
     },
     {
@@ -239,9 +323,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. 150 • Str Alexandru Depărăţeanu - imob.Nr.4, 6"
     },
     {
@@ -251,9 +335,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str George Enescu - bl. 6"
     },
     {
@@ -263,9 +347,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Nicolae Titulescu - bl. A7, A1 • Str Buzeşti - bl. A5, A6"
     },
     {
@@ -275,9 +359,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Măguricea - bl. 13D, 13E, 7P • Str Nicolae G. Caramfil - bl. 11C, 11A, 11B • Str G-ral Ştefan Burileanu - bl. 11I, 12J, 12K, 13M, 13N • Str Cpt. Alexandru Şerbănescu - bl. 7M, 7L, 7N • Str Elena Caragiani - bl. 12D • Str Smaranda Brăescu - bl. 11G, 12I, 12H, 12A, 11H • Str Prometeu - bl. 12G, 12E, 12F, 13F, 13G • Str Feleacu - bl. 13B, 11E, 12B, 12C, 13A, 13C, 11D, 11F"
     },
     {
@@ -287,9 +371,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ştefan cel Mare - bl.13 • Cal Dorobanţilor - bl. 13 • Bld Iancu de Hunedoara - bl. 12A, 12B"
     },
     {
@@ -299,9 +383,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Veronica Micle - bl. M5, M6, 1C, imob. nr. 40, 38, 36Bis • Str Dr. Iacob Felix - bl. M4, A1, B1, C2,imob. nr. 53, 12 • Şos Nicolae Titulescu - bl. 12, 11B, 11A • Str Bradului - bl. C2"
     },
     {
@@ -311,9 +395,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Căpâlna - bl. 15M, 14D+14E, 15B, 15J, 15K, 15A, 15L, 16H, 16I • Str Cpt. Alexandru Şerbănescu - bl. 14B, SERBANESCU 12-14, 14C, 16A, 16C • Str Avionului - bl. 16J, 15H, 15D, 15F, 15E • Str Aripilor - bl. 15C , STAR • Str Siriului - bl. 16J, 16F, 16E • Str Prometeu - bl. 14F, 16G, 16D"
     },
     {
@@ -323,9 +407,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dr. Iacob Felix - 92-94"
     },
     {
@@ -335,9 +419,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. I"
     },
     {
@@ -347,9 +431,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Nicolae Titulescu - bl. 24, 24A, imob.Nr.60, 58 • Bld Banul Manta - bl. 27, 26, 28, 29, imobil Nr.24 • Str Gen. G. Constantinide - bl. 24C"
     },
     {
@@ -359,9 +443,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Teodosie Rudeanu - bl. 15, 1C • Str Valea Merilor - imob.Nr.5 • Str Petru Maior - imob.Nr.10 • Şos Nicolae Titulescu - bl. 14-14A, 1A, 1, 13, imob.Nr.88A, 88 • Bld Banul Manta - bl. 7, 1B, imob.Nr.5"
     },
     {
@@ -371,9 +455,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Stoica Ludescu - imobil 3 • Str Şoimăreştilor - imobil 8 • Str Lugoj - imobil 2, 46 • Str George Bariţiu - imobil 10, 13, 17, 20, 26, 30,31, 36, 38, 41 • Cal Griviţei - bl. O, P, R, S • Str Costache Marinescu - imobil 9-11, 37, 37A, 37B • Str Cpt. Octav Cocărăscu - imobil 3,5, 6,10,12, 26, 32, 34, 39, 41B, 42, 50"
     },
     {
@@ -383,9 +467,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Gării de Nord - bl. D3 • Cal Griviţei - bl. J1"
     },
     {
@@ -395,9 +479,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ştirbei Vodă - bl. 21A, 24A, 20B, 23A, 26A, 20C, 22A, 22B, 24B, 24C, 25C, 25D, 26B, 10F2, 10G, 26C, 23B • Str Berzei - bl. 25A, 25B • Cal Plevnei - bl. 10B, 10C, 10D, 10D2, 10E, 10F1"
     },
     {
@@ -407,9 +491,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
     },
     {
@@ -419,9 +503,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Dorobanţilor - bl. 9, 10"
     },
     {
@@ -431,9 +515,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. 1B • Str Constantin Disescu - imobil Nr.7"
     },
     {
@@ -443,9 +527,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Grigore Alexandrescu - bl. H1 • Bld Iancu de Hunedoara - bl. H5, H6, H4"
     },
     {
@@ -455,9 +539,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Caransebeş -"
     },
     {
@@ -467,9 +551,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. 146 • Str Constantin Disescu - imobil Nr.2A, 2 • Str Pandele Ţăruşanu - imob.Nr.3, 5, 11"
     },
     {
@@ -479,9 +563,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. A, B, C"
     },
     {
@@ -491,9 +575,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Dinicu Golescu - bl. E, F, H, G, B"
     },
     {
@@ -503,9 +587,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Floreasca - bl.1F"
     },
     {
@@ -515,9 +599,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. G6, 6A, 7E, 7F, 7, 7I, 7K,7M • Str Avionului - bl. 5C, 5E, 5E PRIM, 6B, 6C, 6D • Str Aviaţiei - bl. 4C, 5D, 5G, 4D, 5F,7D, 5A • Şos Pipera - bl. 4A, 4B, 5B • Str Aripilor - bl. 6E,6F • Str Borşa - bl. 5F, 4F, 4G, 4E, 7G, ARMONIA, 7B, 7A, 7H"
     },
     {
@@ -527,9 +611,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mircea Vulcănescu - Muzeul Militar"
     },
     {
@@ -539,9 +623,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae G. Caramfil - bl. 21H, 21B, 21A, 21C, 22 B • Str G-ral Ştefan Burileanu - bl. 20A, 20C, 20B, 21E • Str Cpt. Alexandru Şerbănescu - bl. 20-I, 20J, 22H, 20E, 20D • Str Smaranda Brăescu - bl. 20H, 20F, 21 I, 21G, 22D, 21F"
     },
     {
@@ -551,9 +635,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dr. Iacob Felix - bl. 18, 17, 17A, 19 • Bld Banul Manta - bl.19A • Str Sava Henţia - imob.Nr.6"
     },
     {
@@ -563,9 +647,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl.Sora"
     },
     {
@@ -575,9 +659,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Iacob Negruzzi - imob.Nr.45"
     },
     {
@@ -587,9 +671,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Nicolae Titulescu -"
     },
     {
@@ -599,9 +683,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Nicolae Titulescu - bl. 23, 20, 21A, 21, 22"
     },
     {
@@ -611,9 +695,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mexic - bl. 1, I3 • Str Londra - bl. 4 • Str Louis Blanc - bl.I 1 • Str Argentina - bl. I2 • Bld Ilie Pintilie - • Bld Iancu de Hunedoara - bl. 2, 3, I1"
     },
     {
@@ -623,9 +707,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. I, J, K"
     },
     {
@@ -635,9 +719,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Dorobanţilor - bl.53-57, 59, 61-63"
     },
     {
@@ -647,9 +731,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str N. Constantinescu - bl. 15A, 14, 14A, 16, 16A, 13, 15, imob.Nr.60 • Str Lt. D. Darian - Nr.27 • Str George Călinescu - bl. 17, 17A, 19A, 20B, 20A • Str Gen. Andrei Popovici - bl. 8, 7, 8A, 7A, imob.Nr.65, 41 • Str Constantin D. Aricescu - bl. 21, 20 • Str Ştefan Protopopescu - bl. 3, 4, 2"
     },
     {
@@ -659,9 +743,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Constantin Stere - Imobil Nr.10 • Cal Griviţei - bl. 4, 5, 6, 7, imob.Nr. 7 • Str Lainici - Imobil Nr.5"
     },
     {
@@ -671,9 +755,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Maior Alexandru Câmpeanu - bl. 37 • Bld Banul Manta - bl. 34, 32, 30, 31, imobil Nr.33, 61 • Str Frosa Sarandy - bl. 33 • Str G-ral Barbu Vlădoianu - bl. 35, 36"
     },
     {
@@ -683,9 +767,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. 17A, 17B, 18A, 19A, 19B, 19F, 19G • Str Siriului - bl. 17C, 17D, 18B, 19D, 19E"
     },
     {
@@ -695,9 +779,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Victoriei - bl. D4, D1, D5, D6 • Str Grigore Alexandrescu - bl. D7"
     },
     {
@@ -707,9 +791,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petru Poni - bl.1 • Cal Griviţei - bl.142 • Bld Gheorghe Duca - bl.3-11 • Str Pandele Ţăruşanu - imobile.18, 6, 14, 6Bis,12"
     },
     {
@@ -719,9 +803,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Witing - Imobil Nr. 42"
     },
     {
@@ -731,9 +815,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str N. Constantinescu - bl. 9, 11, 11A • Str Lt. D. Darian - bl. 11B, 23 • Str Lt. Radu Beller - bl. 20, 22 • Str Gen. Andrei Popovici - bl. 6, 1+1B • Str Ştefan Protopopescu - bl. 24 • Str Puţul lui Zamfir - bl. 20A"
     },
     {
@@ -743,9 +827,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece, Apa Nova.",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.711,
-      "basis_n": 668,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Gheorghe Polizu -"
     },
     {
@@ -755,9 +839,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - Modul Bl. 23"
     },
     {
@@ -767,9 +851,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - 1"
     },
     {
@@ -779,9 +863,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Maşina de Pâine - bl.2, T111, 1 • Str Vaporul lui Assan - bl.4 • Str Irimicului - bl.1, 2, 3"
     },
     {
@@ -791,9 +875,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dinu Vintilă - bl.3, 4, 5 • Str Barbu Văcărescu - bl.1,2; 7"
     },
     {
@@ -803,9 +887,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
     },
     {
@@ -815,9 +899,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl.29, 29A-B, 27, 28"
     },
     {
@@ -827,9 +911,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl. 15, 17 • Ale Circului - bl. 1, 2, 3, 4"
     },
     {
@@ -839,9 +923,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Deda - bl.79 • Şos Ştefan cel Mare - bl.59B, 59B1, 77, 47; 59A • Cal Moşilor - bl.55 Bis, • Str Luncşoara - bl.75, 63, 73 • Str Făinari - bl.69, 71 • Str Rovine - bl.65, 67"
     },
     {
@@ -851,9 +935,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl.38B, 39, 41; 33A, 35A, 36B, 35B, 36A, 41BC, 37, 38, 33B, 35B2 • Str Viitorului - bl.42A, 42B • Str Viesparilor - bl. 33C, 34 • Str Badea Cârţan - bl.37A , 40, 40Bis, imob.Nr.62, 67"
     },
     {
@@ -863,9 +947,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl. 30A, 30B, 27A, 27, 26A, 26, 24A, 24B, 26 • Str Vasile Lascăr - bl. 31A, 31B; imobil 203 • Str Tunari - bl. 24C, 24D • Str Serg. Năstase Pamfil - bl. 29, 32; imobil 38 • Str Ghiocei - bl. 30C"
     },
     {
@@ -875,9 +959,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl.32, 37, 31, 30"
     },
     {
@@ -887,9 +971,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl18,18A,18b,19,22,23,20,15A,14,Imob.nrbv 20 • Str Polonă - bl 17A+B,15 • Str Paul Greceanu - bl 24A, 21A, 21, 20A • Str Aurel Vlaicu - bl 19A,20,Imob nr 166"
     },
     {
@@ -899,9 +983,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Deda - bl.48B • Şos Ştefan cel Mare - bl. 46, 45 ,44, 43 • Str Viitorului - bl.49 • Str Luncşoara - bl.48A, 52, 54 • Str Făinari - bl.50 , 51, 53, 55"
     },
     {
@@ -911,9 +995,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
     },
     {
@@ -923,9 +1007,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.407,
-      "basis_n": 781,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Ştefan cel Mare - bl.6"
     },
     {
@@ -2399,9 +2483,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece ,Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.348,
-      "basis_n": 796,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Regina Maria - bl. 119 • Bld Libertăţii - bl. 113, 114, 115, 116, 117, 118, A1, A2"
     },
     {
@@ -2603,9 +2687,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Progresului - bl. 5A"
     },
     {
@@ -2615,9 +2699,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petre Ispirescu - bl 40, 41, 42A, 42B, 47 • Str Bârca - bl M184, M189, M190, M194 • Str Focşani - bl M178, M183, M193, M195, M196 • Str Iancu Jianu - bl M176, M177, M192 • Cal Rahovei - bl 31, 37, 43-43A, 43B, imobil Lungu Smaranda"
     },
     {
@@ -2627,9 +2711,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Panduri - A, AC, C, D"
     },
     {
@@ -2639,9 +2723,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mihail Sebastian - bl. S30, S32, S33, S34 • Str Ileana Cosânzeana - bl. S31, S35, S36 • Str Făt Frumos - bl. S29"
     },
     {
@@ -2651,9 +2735,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Vedea - bl. 86A, 86B, 91, 92, 93A, 114 • Str Tutunari - bl. 87A, 87B • Cal Ferentari - bl. 94 • Str Zamfir Olaru - bl. 78, 86E, 87C, 87D, 87E • Str Năsăud - bl. 84,130, 86D, 86C"
     },
     {
@@ -2663,9 +2747,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Baltagului - bl. V77, V78, V81 • Ale Botorani - bl. V28, V35, V36, V37, V42, V43, V80, V82, V83, V84 • Cal 13 Septembrie - bl. V38, V39, V40 • Str Mihail Sebastian - bl. V29, V30, V79"
     },
     {
@@ -2675,9 +2759,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Sălaj - bl. 58A, 126A, 128B • Ale Tulcea - bl. 126B, 128 • Cal Ferentari - bl. 125, 123, 124, 124A, 126"
     },
     {
@@ -2687,9 +2771,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Cpt. Ion Gârbea - bl. P2C, P2B • Str Ioniţă Cegan - bl. P11, P12 • Str Ioviţa - bl. P13, P13A, P14 • Şos Panduri - bl. P7, P8, P9, P10, P2, P2A, P3, P3A, P1, P1B, P1A • Int Buturugeni - bl. P1C, P1D • Str Frunte Lată - bl. P14A, P5, P16, P15, P6, P4 • Str Progresului - bl. P52"
     },
     {
@@ -2699,9 +2783,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petre Păun - bl. 69D, 69C • Şos Sălaj - bl. 68, 69A 69B • Str Sg. Turturică - bl. 70A, 70B"
     },
     {
@@ -2711,9 +2795,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petre Ispirescu - bl. P1A, P6 • Str Cobadin - bl. P14, P19A, P19 • Str Ileana Cosânzeana - bl. P1, P2, P7, P8, P9, P10, P11 • Str Făt Frumos - bl. P6, P12, P11A, P13, P15, P16"
     },
     {
@@ -2723,9 +2807,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Rahovei - bl. 12, 13 • Str Năsăud - bl. 20, 21, 23, 24, 25"
     },
     {
@@ -2735,9 +2819,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Naţiunile Unite - bl. 105, 106, 107, 108A, 109, 110 • Str Sapienţei - bl. 100,103A • Bld Libertăţii - bl. 102, 103, 104,Unicredit Bank • Spl Independenţei - bl. 101"
     },
     {
@@ -2747,9 +2831,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Pecineaga - bl. 46, 47A • Str Cartojani - bl. 53A, 55A • Ale Sălaj - bl. 47, 48, 49, 50, 55, 53 • Str Dunavăţ - bl. 49C, 49D, 49E, 51A"
     },
     {
@@ -2759,9 +2843,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mihail Sebastian - 116 – PT propriu"
     },
     {
@@ -2771,9 +2855,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Baltagului - bl. V75, V76A,V76, V67, V73A • Str Mihail Sebastian - bl. V73, V74 • Drm Sării - bl. V62, V63 • Str Lt. col. Constantin Marinescu - bl. V64, V65, V66, V68, V69, V70, V71"
     },
     {
@@ -2783,9 +2867,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Tudor Vladimirescu - bl. T4, T5, T6 • Cal 13 Septembrie - bl. T1B, T1C, T2B, T2C, T3, T3A"
     },
     {
@@ -2795,9 +2879,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae Paulescu - 59 A"
     },
     {
@@ -2807,9 +2891,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Lereşti - bl D1, D2, D3, A2, 37, 38, Sc.126, Cresa Sf. Stelian • Str Antiaeriană - bl A1, A1Prim • Şos Alexandria - bl L21, L22, L23, L24, L25, L26, L27, L28, L29, M1, M2, M3, M4, M5, OD1, PC9, PC10, PC11, PC12"
     },
     {
@@ -2819,9 +2903,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A,122B, • Str Dunavăţ - 57,58,59,60,61A,65,60A,61 • Str Teliţa - 52A,56,66A,120,121,116,122A,119C • Cal Ferentari - 117,119A,70A+B,119B,119D,117A"
     },
     {
@@ -2831,9 +2915,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Alexandria - bl L1, L2, L3,L4, L5, L6, PC1, PC2, PC7, PC6"
     },
     {
@@ -2843,9 +2927,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal 13 Septembrie - bl. 48, 48A, 50, 52-54, 56, 58, 60, 60-62 • Str Mihail Cioranu - bl. 66, 68, 70, 70A, 70B"
     },
     {
@@ -2855,9 +2939,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lacul Plopului - bl. V7, P73 • Cal 13 Septembrie - bl. V1, V3, V4, V5, V6 • Str Şerbota - bl. P74, V8, V9, V19, V20, V21 • Str Sg. maj. Ion Nedeleanu - bl. V22, V23"
     },
     {
@@ -2867,9 +2951,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lacul Plopului - bl. P75 • Str Dorneasca - bl. P78 , P58, P62, P59, P63 • Str Novaci - bl. P78A, P60, P57, P61, P65"
     },
     {
@@ -2879,9 +2963,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Năsăud - bl. 31, 32"
     },
     {
@@ -2891,9 +2975,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Cap. Ivan Anghelache - bl. M29, M30, M31, M32, M33, M34 • Str Sold. Ene Modoran - bl. M93A, M93B • Str Dumbrava Nouă - bl. M78 scara 1, M79 • Str Buzoeni - bl. M38, M39, M40, M41, M76, M77, M78 scara 2 • Str Mărgeanului - bl. M35, M36, M37"
     },
     {
@@ -2903,9 +2987,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Pricopan - bl. Z7, Z8, 11, 12, 13, 14, 16, 17, 18, 19, 20, 33, 34, 35, 36 • Ale Sălaj - bl. Z4, Z5, Z10, 15, 21, 37, 41 • Str Malcoci - bl. 38, 39, 40 • Ale Vicina - bl. 1, Z2, Z3, Z6, Z9"
     },
     {
@@ -2915,9 +2999,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Doina - bl. 12, 17, 18 • Str Spătaru Preda - bl. 11, 19 • Str Sg. Constantin Muşat - bl. 16 • Str Sg. maj. Florea Blejan - bl. 13, 14, 15"
     },
     {
@@ -2927,9 +3011,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Pribeagului - bl 25 • Str Sold. Ene Modoran - bl 10C • Ale Rădăşeni - bl 14, 17, 19, 22, 27, imobil Dan Alexandru • Cal Rahovei - bl 10A, 10B, 16, 20A, 20B"
     },
     {
@@ -2939,9 +3023,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petre Ispirescu - bl. P22B, P22C, P22 • Str Cobadin - bl. P21C1, P21C2, P24 • Str Dumbrava Nouă - bl. P22A,P21B, P25, P41 • Str Moţoc - bl. P21A2, P21A1 • Str Elev Nicolae Popovici - bl. P42 • Str Sg.maj. Vasile Topliceanu - bl. P42B, P42A • Str Sg. maj. Ion Nedeleanu - bl. P40"
     },
     {
@@ -2951,9 +3035,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Posada - bl. 31, 32, 33, 35, 36, 34, Şcoala nr. 131 • Str Teiuş - bl. 10, Şcoala generală nr. 139 ,Policlinica Teius • Şos Alexandria - bl. C11, 4, 5bis, 21, 21bis, 22, 26, 27, 30, imobil nr 7B • Ale Ghimeş - bl. 23, 24, 25,28, 29 • Str Garoafei - bl. 5, 6, 7, 8, 9, Grădiniţa nr. 185"
     },
     {
@@ -2963,9 +3047,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Sg.maj. Vasile Topliceanu - bl. P37, P31, P32, P38, P36, P38A • Str Sg. maj. Ion Nedeleanu - bl. P33, P34, P35, P39"
     },
     {
@@ -2975,9 +3059,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petre Ispirescu - bl. P71A, P72B • Str Lacul Plopului - bl. P64 • Str Dorneasca - bl. P72 • Str Sg.maj. Vasile Topliceanu - bl. P66, P67"
     },
     {
@@ -2987,9 +3071,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
     },
     {
@@ -2999,9 +3083,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Sold. Ene Modoran - bl. M88, M89, M90 • Str Dumbrava Nouă - bl. M5, M16A, M83,M84, M85 • Str Cap. Petre Mişcă - bl. M9, M13, M14, M15, M16 • Str Bârca - bl. M6, M7, M8, M10, M86, M87 • Str Mărgeanului - bl. M11, M11A, M12"
     },
     {
@@ -3011,9 +3095,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ioniţă Cegan - bl. P17, P24A, P25A, P26, P27 • Str Ion Urdăreanu - bl. P22, P23, P28, P29, P40, P41, P42, P45 • Str Ioviţa - bl. P24, P25 • Cal 13 Septembrie - bl. P34, P35, P36, P43, P44 • Şos Panduri - bl. P18, P19, P20, P21, P30, P31, P32, P33, Monitor Oficial Panduri 1"
     },
     {
@@ -3023,9 +3107,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petre Ispirescu - bl 49 • Ale Bărbăteşti - bl 58 • Str Sg. Gheorghe Donici - bl 65, 71, Şcoala Nr. 280 • Str Serg. maj. Gheorghe Iorga - bl 53, 53A, 55, 55A, 59A, 59B • Cal Rahovei - bl 57, 57A, 57B, 59, 67"
     },
     {
@@ -3035,9 +3119,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
     },
     {
@@ -3047,9 +3131,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mihail Sebastian - bl. V85, V86, V 87, V88, V89, V90, V91"
     },
     {
@@ -3059,9 +3143,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Int Aurel Ciurea - bl. S41 • Str Maria Cunţan - bl. S40, S42, S43, S44 • Str Samuil Vulcan - bl. S45"
     },
     {
@@ -3071,9 +3155,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Constantin Lecca - bl 66E • Str Pictor Mihail Dan - bl 62, 67 • Şos Sălaj - bl 34, 62A, 62B • Str Malcoci - bl 36, 45, 46 • Str Vasile Dumitrescu - bl 66C • Str Dunavăţ - bl 63, 66D, 45A, 45B, 45C, 70A • Str Teliţa - bl 66A, 66B, 67A, 70, Policlinica Malcoci • Str Frecăţei - bl 35 • Cal Rahovei - bl 44, 44A, 52, 66"
     },
     {
@@ -3083,9 +3167,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Uranus - bl. U8, 53 • Str Ion Creangă - bl. 87, 89, 91 • Cal 13 Septembrie - bl. 55-57, 59-61, 63, 65-67, 69 ,71, 73-75, 77ABC,79 ,81, 83, 85"
     },
     {
@@ -3095,9 +3179,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Pecineaga - bl.17C, 23, 24 • Str Cap. Preda - bl. 3E, 19, 4 • Str Cap. Ilina - bl. 3B, 3C, 14, 21, 21A, 3D • Str Sold. Vasile Croitoru - bl. 3, 8, 9, 9A, 9B • Str Sold. Ion Cândea - bl. 22, 21B • Str Lt. Ilie Câmpeanu - bl. 2, 18, 18A, 18B, 15, 15A • Str Amurgului - Sectia 19 Politie • Str Slt. Popa - bl. 17, 17A, 17B, 20, 23A REZILIAT 21 – Sc. 1, 2"
     },
     {
@@ -3107,9 +3191,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
     },
     {
@@ -3119,9 +3203,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Petre Ispirescu - bl. M137, M138, M140, M198, M198A, M199, M217, M210, M211, M212, M214, M215, M216, M213 • Str Crăişorului - bl. M136, M143A, M143B • Str Cobadin - bl. M200, M201, M202, M209 • Str Dumbrava Nouă - bl. M207, M208A, M2M141, M142, M197, M206,08 • Str Iancu Jianu - bl. M204, M205, M203"
     },
     {
@@ -3131,9 +3215,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Spătarul Preda - bl. 97A, 129,129A • Cal Ferentari - bl. 126B, 96, 97, 129B • Str Năsăud - bl. 95"
     },
     {
@@ -3143,9 +3227,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Tudor Vladimirescu - bl. 131,133,135 • Cal 13 Septembrie - bl. 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 123, 125, 127, 129 • Str Sabinelor - bl. 113, 115, 119, 121 • Str Sirenelor - bl. 117"
     },
     {
@@ -3155,9 +3239,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dobrun - bl. M67 • Şos Alexandria - bl. L8, L9, L10, L11, PC8 • Str Mărgeanului - bl. M68, M69, M70, M71"
     },
     {
@@ -3167,9 +3251,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Vedea - bl. 82 • Str Tutunari - bl. 76A, 76B, 76C, 76, 90, 90AI, 90AII • Str Prof. Dr. Alexandru Locusteanu - bl. 77A, 77B, 77C, 77D, 80 • Cal Ferentari - bl. 75, 75A, 83, 83A • Str Zamfir Olaru - bl. 81C, 79 • Cal Rahovei - bl. 72, 72A, 73, 81A, 81B"
     },
     {
@@ -3179,9 +3263,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
     },
     {
@@ -3191,9 +3275,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
     },
     {
@@ -3203,9 +3287,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Costineşti - bl. 1, 2, 3, 4, 5, 6, 7, 8, 9 • Str Pucheni - bl. 2, 3 • Şos Alexandria - bl. 1, 12, imobil"
     },
     {
@@ -3215,9 +3299,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Topolniţa - bl. M44, M45, M54 • Str Dobrun - bl. M57, M58 • Str Buzoeni - bl. M43, M46, M47, M48, M72, M73, M74 • Str Mărgeanului - bl. M49, M50 • Str Glicinelor - bl. M51, M52, M53, M55, M56"
     },
     {
@@ -3227,9 +3311,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Cap. Ivan Anghelache - bl. M21, M25, M26, M27 • Str Sold. Ene Modoran - bl. M91, M92, M94 • Str Dumbrava Nouă - bl. M17, M28, M80, M81, M82 • Str Cap. Petre Mişcă - bl. M18, M19, M20, M22 • Str Mărgeanului - bl. M23, M23A, M24"
     },
     {
@@ -3239,9 +3323,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Pecineaga - bl 23A, 23B, 25, 26, 28A, 28C, 29C • Str Cap. Ilina - bl 11B, 13A • Str Vicina - bl 29, 29A, 29B, 32, 33, 37, 38 • Str Oltina - bl 23, 27, 28, 28B • Str Slt. Popa - bl 13B, 13C, 15, 15A, 15B • Str Sg. Scarlat - bl 12 • Cal Rahovei - bl 11, 11A, 11C, 13, 28, 26, 30, 30A, imobil Ioniţă"
     },
     {
@@ -3251,9 +3335,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Craioviţa - bl. A30, A50, A51 • Ale Platanului - bl. A29, A31, A32, A43, A44, A45, A46, A47 • Str Mihail Sebastian - bl. A28, A33, A34, A35 • Drm Sării - bl. A40, A41, A42, A48, A49 • Str Lt. col. Constantin Marinescu - bl. A36, A37, A38, A39"
     },
     {
@@ -3263,9 +3347,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.38,
-      "basis_n": 782,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dumbrava Nouă - bl. S16, S17, S18, S19, S22 • Str Mihail Sebastian - bl. S6, S7, S8, S10, S10A, S11, S12, S13, S14, S20, S21 • Str Novaci - bl. S9, S9A, S15, S23"
     },
     {
@@ -3335,9 +3419,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Lunca Siretului - bl.A39 • Ale Lunca Cernei - bl.A36 • Ale Ariniş - bl. OD1, A40 • Str Drumul Taberei - C15, C16, 417C • Ale Câmpul cu Flori - bl.OD2, D27, C17B, C17A, D26, D25, D24"
     },
     {
@@ -3347,9 +3431,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Meseriaşilor - bl. C80, C91, C92, C93, C94 • Str Sergent Major Cara Anghel - bl. C90 • Str Serg. Gheorghe Lăţea - bl. C51, C52, C53, C81,C82 • Bld Ghencea - bl. C76, C87, C89, C88A, C88B • Str Gârleni - bl. C78, C79, C83, C84, C85,C86"
     },
     {
@@ -3359,9 +3443,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Peştera Scărişoara - bl.MIIB8/3 • Str Paşcani - bl.TD34, TD33, TD32 • Ale Paşcani - bl. TD36, TD49, TD35 • Str Drumul Taberei - bl.TD14, A10, A9, A8, A7, TD15, TD16, TD11, TD12, TD13 • Str Topolovăţ - bl. TD17, TD18, TD19, TD20, TD21, TD22 • Str Târgu Neamţ - bl.D9, MIIB8/4, B37, D4, B36, D3,MIIB8/6, MIIB8/5, TD23, TD24, TD25, TD26"
     },
     {
@@ -3371,9 +3455,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Lunca Cernei - bl.A52 • Bld Timişoara - bl.C13A, C13B, M47, C13 • Ale Câmpul cu Flori - bl.A48, A49, A50, A51, M49, M48"
     },
     {
@@ -3383,9 +3467,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mihaela Ruxandra Marcu - bl. C7,107,108 • Str Drumul Taberei - bl. C2,T8 • Ale Poiana Sibiului - bl. MC1, MC2, C4, E25, C5 • Bld Timişoara - bl. 106A, 106B, C6 • Str Sibiu - bl. E1, E2, E3, T9"
     },
     {
@@ -3395,9 +3479,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Parva - bl.A21, A20, D12 • Str Drumul Taberei - bl.C7, 519, 521 • Ale Băiuţ - bl.D13, A19, D14, M32, M31,M30 • Str Valea Argeşului - M25, M26, M28,M24, M27, 522, 523 Bis, 523, M21, M22, M23"
     },
     {
@@ -3407,9 +3491,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Arutela - bl. M16, D1 • Str Drumul Taberei - bl.M13, M15, M17, M18, M19, C2 • Ale Potaisa - bl.M14, A17, A18 • Ale Valea Bujorului - bl. D9, D10 • Str Valea Argeşului - bl. M12, D11 • Str Râul Doamnei - bl.C3,C4, M20 • Ale Callatis - Bl.D8, D2, A16, A15, A15 Bis"
     },
     {
@@ -3419,9 +3503,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl. T3, T4, T5, T6, OD4 • Str Pravăţ - bl.P7, P8, P9"
     },
     {
@@ -3431,9 +3515,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Spl Independenţei - bl. ISCH"
     },
     {
@@ -3443,9 +3527,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Pravăţ - Institutie • Ale Pravăţ - bl.MIIB8/2, MIIB8/3 • Bld Timişoara - bl.OD6, OD7, T9, IMI- BL 12"
     },
     {
@@ -3455,9 +3539,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Spl Independenţei - CAMIN P7, P8, P9, P10, P11, P12, P13, P14, CANTINA VEST, CANTINA EST"
     },
     {
@@ -3467,9 +3551,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Spl Independenţei - Institutie"
     },
     {
@@ -3479,9 +3563,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Istru - bl. P2, A13, A14D, P3,P4, A3 • Ale Potaisa - bl.P1, M4 • Prl Ghencea - bl.M2; M3, C5, M5, C6 • Str Râul Doamnei - bl.M1 • Ale Râmnicel - bl.M6 • Ale Sandava - bl.A2 • Ale Callatis - bl. A14A, A14B, A14C, A14"
     },
     {
@@ -3491,9 +3575,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Alexandru Ivasiuc - E6"
     },
     {
@@ -3503,9 +3587,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Braşov - bl. D6, A11 • Str Valea Călugărească - bl.D5, Z3, Z2, Z1, D4, A6, Z4 • Ale Valea Călugărească - A10A, A10, • Prl Ghencea - bl.R3, R4 • Str Chilia Veche - bl. TD16, TD17, A8, A7, A9 • Str Valea lui Mihai - bl.6 • Str Valea Roşie - bl.Z9, Z8, Z7, Z6, Z5 • Ale Valea Roşie - bl. A5, MIIB8/5, MIIB8/4"
     },
     {
@@ -3515,9 +3599,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Istru - bl D7 • Str Valea Argeşului - bl A6, C1, A8, A7 • Prl Ghencea - M7, D4 • Ale Callatis - bl. A12, A9, A11, A10 • Ale Valea Salciei - bl D5, M8, D6 • Str Valea Oltului - bl.M9, M10, A4, A5"
     },
     {
@@ -3527,9 +3611,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Obcina Mare - bl.A2, A3, F3, F4,OS2 • Ale Obcina Mică - bl. A4,A5 • Str Drumul Taberei - bl. F2, Z33, Z36, Z37 • Str Râul Dorna - bl. F1, Z48, A1,Z47 • Str Sibiu - bl.OS1, E22, E23"
     },
     {
@@ -3539,9 +3623,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Bucşeneşti - bl.E8, E11, E12, Z8 • Str Braşov - bl.E9, E10, E13, E14, Z27 • Bld Timişoara - bl T7, CC6 • Ale Valea Florilor - bl. E7, Z7, Z9,Z10"
     },
     {
@@ -3551,9 +3635,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Peştera Scărişoara - bl. 701A, B16B • Str Paşcani - • Str Drumul Taberei - bl.TS7,TS8, TS10, TS9, 701B, R1, R2, R3 • Str Târgu Neamţ - bl. B16A, MIIB8/2, A15, A16, A17, A18, TS30, TS31, TD 27, TD 28, TD29, MIIB8/1, 715A, 715B • Str Segarcea - bl.A11, A14, A12, A13, B13, B14"
     },
     {
@@ -3563,9 +3647,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Lunca Siretului - bl. A45, D38, D43, A46, M45A, M45B • Bld Timişoara - bl. C12, M46, M45, D36, M44 • Ale Crăeşti - bl. A47,42, D41 • Ale Dealul Măcinului - bl. D37, M43, A44, D40, D39 • Ale Câmpul cu Flori - bl. M49A, M49B"
     },
     {
@@ -3575,9 +3659,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Romancierilor - bl.Z16, Z17, E19 • Bld Timişoara - bl.C3, OD8 • Str Sănduleşti - bl. Z40, Z11, Z13, Z12, Z14, Z15"
     },
     {
@@ -3587,9 +3671,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Burlă Vasile - imobil 3,17,19, 21 • Str Cpt. Pavel Zăgănescu - imobil 3,4,5,8"
     },
     {
@@ -3599,9 +3683,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Spl Independenţei - CAMIN P1, P2, P3, P4, P5, P6, P20, P21, P22, SALA SPORT, COMPLEX COMERCIAL"
     },
     {
@@ -3611,9 +3695,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Lunca Cernei - Cernei bl D48, D47,M52 • Str Romancierilor - bl.C14 • Str Drumul Taberei - bl M33, M35, M37, M39, M40Bis • Bld Timişoara - bl C13, D44, M50 • Ale Valea Boteni - bl.D46, M51 • Ale Valea Viilor - bl. M34, A53, M36, D49, M38, M40, D50"
     },
     {
@@ -3623,9 +3707,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mircea Vulcănescu -"
     },
     {
@@ -3635,9 +3719,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Sergent Major Cara Anghel - bl. C50, C49, C43, C55, C56,C57, C58, B9 • Str Vlădeasa - bl. C41,C42 • Str Tolbei - bl. C54 • Bld 1 Mai - bl. C1, C2, C3, C4, C5, C6, C7, C8, C9; • Str Serg. Gheorghe Lăţea - bl. C59 • Str Gârleni - bl. C44"
     },
     {
@@ -3647,9 +3731,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl OD1,OD2,TD18 • Ale Vlăsiei - bl. M1, M2, M3 • Str Râul Doamnei - bl.TD5, TS4, TS3, TS2, TS1 • Str Valea lui Mihai - bl TD7, TD6"
     },
     {
@@ -3659,9 +3743,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Bostanilor - bl.13, 14 • Drm Timonierului - • Bld Timişoara -"
     },
     {
@@ -3671,9 +3755,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Paşcani - bl.728A • Str Drumul Taberei - bl. TD1, TD3, TD5, TD42, TD43, TD44, TS37, TS38, TS39, TS40, TS41 • Ale Topoloveni - bl.A1, TD4, TD6, B11,TD2 • Str Cetatea Histria - bl A2, A3, A4, D1, D2, MIIB8/14,MIIB8/15, MIIB8/16 • Str Delineşti - bl.729A"
     },
     {
@@ -3683,9 +3767,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl. OS2, OS4, GIIB4/3, GIIB4/4, GIIB4/5, F3 • Str Braşov - bl. OD1, Z132A, Z132B • Ale Poiana Muntelui - bl.OD3 • Str Crinul de Pădure - bl. G5, G6, G7, F2"
     },
     {
@@ -3695,9 +3779,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - • Ale Bujoreni - bl. P1 • Ale Poiana Cernei - bl. E4, E5, Z4 • Bld Timişoara - bl. Z1, Z2,Z3 • Ale Valea Siretului - bl. P2,P3 • Str Sibiu - bl. OD1,OD2"
     },
     {
@@ -3707,9 +3791,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Int Lt. Gheorghe Caranda - bl. L • Int Drumul Taberei - bl. G4, K • Str Drumul Taberei - bl. I • Bld Timişoara - bl. B2, B3, B4, B5, H4 • Bld G-ral Vasile Milea - bl. B1"
     },
     {
@@ -3719,9 +3803,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Poiana Vadului - bl. OD8 • Ale Poiana Cernei - bl. E6, E26,E27 • Bld Timişoara - bl A, B, C, D, E, F, G, H"
     },
     {
@@ -3731,9 +3815,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Paşcani - bl. D5, MIIB8/7, D6, 728B, D7, D8 MIIB8/10 • Ale Paşcani - bl. MIIB8/8, MIIB8/9 • Str Drumul Taberei - bl. R6, R5, R4, 727A, TD47, A6, TD48, TD46 • Str Târgu Neamţ - bl.R7, B31, D10 • Str Cetatea Histria - bl.MIIB8/13 • Str Delineşti - bl.B35, A5,TD45, MIIB8/11, MIIB8/12"
     },
     {
@@ -3743,9 +3827,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Spl Independenţei - CAMIN P18, P19, P17, P16, P15"
     },
     {
@@ -3755,9 +3839,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Bozieni - bl. 830, 830bis, 832, 833, 834 • Bld 1 Mai - bl.12 • Ale Compozitorilor - bl. 1, 2, 3, 4, F8 • Ale Valea Prahovei - bl. 831, 7S14(apa calda)"
     },
     {
@@ -3767,9 +3851,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Spl Independenţei - CAMIN A, B, C, D"
     },
     {
@@ -3779,9 +3863,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Obcina Mare - bl.Z25, Z27, Z26 • Str Ţincani - bl. 823, Z23, 824, Z24, E32 • Ale Compozitorilor - bl. Z21, Z20, Z28, 821, Z45,F11, F14, OD15, E20, 822, Z22 • Ale Valea Prahovei - bl.9S14,8S14,7S14(incalzire)"
     },
     {
@@ -3791,9 +3875,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Obcina Mare - Institutie • Str Ţincani - bl. F6, F13, F12, F7, Z44, OS3, Z19, Z18 • Str Drumul Taberei - bl. 801, 802, 803, OS4, Z43, F5 • Ale Valea Prahovei - bl.825, 825BIS"
     },
     {
@@ -3803,9 +3887,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Obcina Mică - bl. Z29 • Str Drumul Taberei - bl. 1S14, 2S14 • Str Râul Dorna - bl. Z46, Z30 • Str Sibiu - bl. 4S14, Z18, Z8, Z5, Z6, Z7, 15S14, 17S14, H1, H2, H3, H5, Z9, Z10, Z11, Z12, Z13, Z14, 3S14, 16S14"
     },
     {
@@ -3815,9 +3899,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Valea Călugărească - bl. E1, E3, E2 • Prl Ghencea - bl. A1, A2, R1, R2, D3, TS9, TS10 • Ale Ghencea - bl.A12 • Str Râul Doamnei - bl. TS8 • Str Valea lui Mihai - bl. A3, A4, D1, D2,TD14, TD13, TD12, TD11"
     },
     {
@@ -3827,9 +3911,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl. A1, A2 • Ale Haiducului - bl. A3, A4"
     },
     {
@@ -3839,9 +3923,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl.714, 713, 715 • Str Braşov - bl.716, 717, 718, 719 • Str Valea Călugărească - bl. 1, 2, 3, 4, 5,7, 8, 720 • Str Chilia Veche - bl.710, B11 • Str Valea Roşie - bl.60, 61,62"
     },
     {
@@ -3851,9 +3935,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl. T1, T2, OD3 • Str Pravăţ - bl. P4, P5, P6, Z34, Z35 • Ale Pravăţ - bl. Z5, Z6"
     },
     {
@@ -3863,9 +3947,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Dumbrăviţa - bl.MIIB8/4, 28,T8, P14, 229,ITN • Bld Timişoara - bl. P13, P15, 229Bis, T10, 33, 34, 35, 36"
     },
     {
@@ -3875,9 +3959,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Braşov - bl.1S14, 2S14, 3S14, F1 • Bld Timişoara - bl. F7, C2, GIIC8/14 ,GIIC8/13 • Ale Sănduleşti - bl C1, E16, E15, E17, OD7"
     },
     {
@@ -3887,9 +3971,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lt. Gheorghe Caranda - bl.J • Int Drumul Taberei - bl. E1,E2, F, G, H • Str Mihaela Ruxandra Marcu - bl. B4, B5,A3 • Str Drumul Taberei - bl. A1, A2, B3, D1, D2 • Ale Poiana Mare - bl. B6, B7, B8, B9 • Str Poiana Câmpina - bl. A5, A6, A7, A8 • Bld Timişoara - bl. H1 • Bld G-ral Vasile Milea - bl. A, B, C, A4, B1, B2"
     },
     {
@@ -3899,9 +3983,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Spl Independenţei - P23, P24,P25, P26, P27"
     },
     {
@@ -3911,9 +3995,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Braşov - bl. OD5,P12 • Str Pravăţ - Institutie • Ale Pravăţ - Institutie • Ale Valea Florilor - bl. P11,P10"
     },
     {
@@ -3923,9 +4007,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE GROZAVESTI in vederea inlocuirii racord apa rece, Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nera - bl. F5,OD5 • Str Romancierilor - bl.C4, M17 • Str Drumul Taberei - bl.GII/6, GII/7,GII/8, F4, OS6"
     },
     {
@@ -3935,9 +4019,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Giuleşti - bl. 1, 5 • Str George Vâlsan - bl. 2"
     },
     {
@@ -3947,9 +4031,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dreptăţii - bl. O2, O3 • Bld Iuliu Maniu - bl. 18,19 • Str Roşia Montană - bl. 17, O1A, O1B, M20 • Str Dealul Ţugulea - bl. O1C, M18"
     },
     {
@@ -3959,9 +4043,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Olăneşti - bl. 38, 43 • Str Fraţilor - bl. 85 • Str Vintilă Mihăilescu - bl. 42A • Str Zboina Neagră - bl. 88 • Str Porumbacu - bl. 33, 30, 35, 34, 87, 86, 31 • Str 9 Mai - bl. 24, 36, 37, 25, 25bis • Str Ceahlăul - bl. 28, 29, 32, 38A, 39,27, 26 sc. 1 • Cal Crângaşi - bl. 42, 26 sc. 2+3, 40, 41, 84, 43A"
     },
     {
@@ -3971,9 +4055,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Vintilă Mihăilescu - bl. 60, 61, 72, 70, 62, 63, 63A, 64 • Str Zboina Neagră - bl. 69 • Str Stoian Popescu - Imobil Str. P. Stoian nr. 4 • Str George Vâlsan - bl. 65, 65A • Str Ceahlăul - bl. 66, 71, 67, 68, 73"
     },
     {
@@ -3983,9 +4067,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Giuleşti - bl. A, B20, B, B19, D2, E2, B21, D1, B3, C, B2, B1 • Str Plaviei - Imobil Str. Plaviei nr. 5"
     },
     {
@@ -3995,9 +4079,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
     },
     {
@@ -4007,9 +4091,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mălinului - bl. 3, 4, 12bis • Str Murguţa - bl. 7, 8, 9, 10, 11 • Str Moineşti - • Str Roşiori de Vede - bl. 6 • Int Viforului - bl. 12, 13"
     },
     {
@@ -4019,9 +4103,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ruşeţu - bl. A1+A2, G11, G8, CFR • Int Craiovei - bl. A5 • Bld Constructorilor - bl. A3, A4, G4, G7, G2, G3, 4(G5), G6, G12, G1, G10, F2, 10"
     },
     {
@@ -4031,9 +4115,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lt. Gheorghe Saidac - bl. 24, 25, 35, 20, 26, 27, 34, 33, 36, 28, 23, 12 ICEM, 12A, 29, 30 • Str Nucşoara - bl. 31, 32, 38, 39, 40, 37 • Str Mehadiei - bl. 4 ICEM, 1 ICEM • Cal Crângaşi - bl. 13 ICEM, 11 ICEM, 10, 9 ICEM, 6-7 ICEM, 8 ICEM, 2 ICEM, 3 ICEM, 4A ICEM, 5 ICEM"
     },
     {
@@ -4043,9 +4127,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Arinii Dornei - bl. M28, I8, I4, I7, I3, I9, M27, M29, I6, M30 • Str Arieşul Mare - bl. A32, I11, I12, I10, I5, A31, A33, A34 • Ale Politehnicii - bl. I1, I2"
     },
     {
@@ -4055,9 +4139,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Iuliu Maniu - bl. M16, 13, 13A-A, 13A-B, 14 • Ale Cetăţuia - bl. M17, M18, M19, M22, M21, M24, M20,M23"
     },
     {
@@ -4067,9 +4151,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
     },
     {
@@ -4079,9 +4163,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lujerului - bl. 1A • Ale Agigea - bl. 102A • Str Basmului - bl. 103 • Drm Timonierului - bl. 104, 104A • Str Cupolei - bl. 2A, 2B, 102"
     },
     {
@@ -4091,9 +4175,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112,113 • Str Zboina Neagră - bl. 91-95, 116 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str George Mihail Zamfirescu - bl. 102 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
     },
     {
@@ -4103,9 +4187,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Finta - bl. 1, Imobil Str. Finta nr. 4, Imobil Str. Finta nr. 5 • Str Porumbacu - Colegiul Tehnic Carol I • Str Tabla Butii - Imobil Str. Tabla Butii nr. 80 • Cal Giuleşti - bl. 6, 10, 11"
     },
     {
@@ -4115,9 +4199,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Iuliu Maniu - Locuințe ICAB"
     },
     {
@@ -4127,9 +4211,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Iuliu Maniu - bl. D3, D4, D5, D6, R1, R2, 21P"
     },
     {
@@ -4139,9 +4223,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lavandei - bl. P29, P30, P33, P34, P35, O12C • Str Partiturii - bl. 63 • Str Estacadei - bl. P40, P41 • Str Dezrobirii - Școala nr. 310 • Str Valea Cerbului - bl. N12 • Str Ghirlandei - bl. P36, P37, P39, N13 • Str Grinţieşului - bl. P31, P32, P38 • Str Cernişoara - bl. O11, O12"
     },
     {
@@ -4151,9 +4235,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Bld Iuliu Maniu - bl. 22B A+B, 22B C, 22B D"
     },
     {
@@ -4163,9 +4247,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
     },
     {
@@ -4175,9 +4259,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Giuleşti - bl. Z1, Z2, Z3, OD4 • Str Prunaru - bl. 6, 7, 9, OD5,8"
     },
     {
@@ -4187,9 +4271,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ruşeţu - bl. G15, G14, G13 • Bld Constructorilor - bl. G19+20, H3, J3, G17+18, G16, J1, I, H1, H2, 31, 29, 21, 23, 27, 33"
     },
     {
@@ -4199,9 +4283,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Fabricii - bl. 15E, 15D, 15C, 25/III, 25/IV, 25/V • Bld Iuliu Maniu - bl. 15bis, 15A, 15B • Ale Cetăţuia - bl. 25/I, 25/II"
     },
     {
@@ -4211,9 +4295,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Olăneşti - bl. 76A, 83 • Str Pădureni - bl. 51, 52, 58D, 53A, 53B, 53C, 52 • Str Vintilă Mihăilescu - bl. 78, 54, 55, 56, 57, 58, 59, 77, 80, 79, 44 • Str Zboina Neagră - bl. 81, 74 • Str Ceahlăul - bl. 82, 75, 76 • Cal Crângaşi - bl. 46, 48, 49, 45, 50, 47"
     },
     {
@@ -4223,9 +4307,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Baia de Arieş - bl. 3 sc. 7+8, 7 • Str Baia de Arieş - bl. 5B, 10+10A, 11A+B, 12, 13 • Str Politehnicii - bl. 1, 8, 9, 6 • Ale Politehnicii - bl. 2, 3bis, 4, 5A, 3 sc. 1-6"
     },
     {
@@ -4235,9 +4319,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lavandei - bl. P28 • Str Dobreni - bl. P22, P23 • Int Pitulicii - bl. P24, P25, P26, P27 • Str Dezrobirii - bl. P17, P19 • Bld Uverturii - bl. P16, P21 • Str Cernişoara - bl. P18, P20, O13"
     },
     {
@@ -4247,9 +4331,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lujerului - bl. 22C, 100 • Bld Iuliu Maniu - bl. 17, 17A, 18P, 22A • Int Vagonetului - bl. 101 • Str Cupolei - bl. 105, 106"
     },
     {
@@ -4259,9 +4343,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nucşoara - bl. 15A ICEM, 41, 42 • Str Mehadiei - bl. 21, 22 • Cal Crângaşi - bl. 15 ICEM, 16 • Bld Constructorilor - bl. 20, 17, 18, 19, 20A, 44"
     },
     {
@@ -4271,9 +4355,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
     },
     {
@@ -4283,9 +4367,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
     },
     {
@@ -4295,9 +4379,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
     },
     {
@@ -4307,9 +4391,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dreptăţii - bl. O4, O10 • Str Roşia Montană - bl. O5, O7, 29, 30, 32 • Str Dezrobirii - bl. O8, O8A, O9, 27, 33 • Str Cetatea de Baltă - bl. O6, O7A, 28, 31"
     },
     {
@@ -4319,9 +4403,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str 9 Mai - bl. 20A, 23A, 22A, 10A, 11B • Cal Giuleşti - bl. 12A, 13A, 11A, 14A • Cal Crângaşi - bl. 19A, 18A, 16A, 17A, 15"
     },
     {
@@ -4331,9 +4415,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dreptăţii - bl. P7, P8, P9, P12 • Str Dezrobirii - bl. P3, P4, P5, P6, P14 • Bld Uverturii - bl. O14, O14A, O15 • Str Cetatea de Baltă - bl. P10, P11, P13, P15"
     },
     {
@@ -4343,9 +4427,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
     },
     {
@@ -4355,9 +4439,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae Filimon - bl. 15 sc. 2, 16, 17, 18 • Str George Mihail Zamfirescu - bl. 19A, 22, 22A • Str Ceahlăul - bl. 14, 15 sc. 1, 18, 19 • Cal Crângaşi - bl. 1, 2, 3, 4, 5, 6, 7, 11, 11A, 11B, 12, 13, 20, 21"
     },
     {
@@ -4367,9 +4451,9 @@
       "service": "Oprire ACC",
       "cause": "Oprire CTE Grozavesti in vederea inlocuirii racord apa rece - Apa Nova",
       "estimated_restore": "2026-08-17T12:00",
-      "on_time_probability": 0.315,
-      "basis_n": 1356,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
     }
   ]
