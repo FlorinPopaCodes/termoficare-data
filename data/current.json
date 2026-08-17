@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-17T16:52:20",
+  "scraped_at": "2026-08-17T17:18:01",
   "status": "ok",
   "outages": [
     {
@@ -114,18 +114,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "5 Doamna Ghica",
-      "blocks": 2,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.422,
-      "basis_n": 529,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.11Sud, 12 Sud"
-    },
-    {
-      "sector": 2,
       "pt_name": "ICB",
       "blocks": 2,
       "service": "Deficienta ACC",
@@ -174,18 +162,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "1 Cheile Zanoagei",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.459,
-      "basis_n": 146,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Cristea Mateescu - bl.T4A, T6A, T4B • Str Petre Antonescu - bl.T3A, T3B, T3C • Str Grigore Ionescu - bl.T8A, T7A , T7B, T7C, T6B • Str Brebu - bl.T9B, T9A, T10, T11, T5 • Str Oteşani - bl.T1, T2, T8B"
-    },
-    {
-      "sector": 2,
       "pt_name": "Ramuri Tei",
       "blocks": 13,
       "service": "Deficienta ACC",
@@ -207,18 +183,6 @@
       "basis_n": 331,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Alexandru cel Bun - bl.T21A, T19A, T16; T18, T17A, T21B, T17B, T19B; T20, T22 ; • Str Cristea Mateescu - bl.T15C,T15A,T15B • Str Grigore Ionescu - bl.T26, T14, T13, T28, T27 , T25 • Str Oteşani - bl.T23A, T24A, T24, T23B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Cheile Zanoagei",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.589,
-      "basis_n": 331,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Berechet - bl.T31A • Str Inginerilor Tei - bl.T31B, T30C, T30B, T30A • Bld Ghica Tei - bl.T32, T33, • Str Oteşani - Camin C7 (Bl.T29)"
     },
     {
       "sector": 2,
@@ -267,18 +231,6 @@
       "basis_n": 146,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "7 Doamna Ghica",
-      "blocks": 3,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de oprire CTE SUD si pornire CTE PROGRESU",
-      "estimated_restore": "2026-08-17T23:30",
-      "on_time_probability": 0.422,
-      "basis_n": 529,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sinaia - bl. 16 sc. A-B • Str Pâncota - bl.14, 16 sc. 3-4-5; 15"
     },
     {
       "sector": 2,
@@ -1722,6 +1674,114 @@
     },
     {
       "sector": 4,
+      "pt_name": "4 Lanariei",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Avalanşei - bl. 1, 2, 3 • Bld Gheorghe Şincai - bl. 2, 3, 3TR1, 4, 5, 5A • Str Cuza Vodă - bl. 1A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Tineretului",
+      "blocks": 26,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Tineretului - bl. 18, 19, 37, 38, 39 • Str Albinelor - bl. 32 • Str Piscului - bl. 40, 41, 42, 47 • Str V. V. Stanciu - bl. 31 • Str Trestiana - bl. 17, 20, 23 • Str Vişana - bl. 25, 26, 36, 43, 44, 45 • Str Constantin Rădulescu-Motru - bl. 22-24, 33, 34, 35, 36, 46"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Plugarilor",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Abatorului - bl. 95 • Str Plugarilor - bl. 91, 94 • Str V. V. Stanciu - bl. 88, 90 • Cal Văcăreşti - bl. 85A, 85B, 86, 87 • Ale Bran - bl. 89, 92, 93"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Vacaresti",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stamate Costache - 3C, 3E • Str Pridvorului - bl. 1A, 4, 5, 6 • Cal Văcăreşti - bl. 1B, 1C, 1D, 1E, 2A, 2B, 2C, 3A, 3B"
+    },
+    {
+      "sector": 4,
+      "pt_name": "B 3 Cauzasi",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Pţa Unirii - bl. B3, B4, B5 ,B6, B7 • Str Radu Vodă - bl. B8 • Bld Dimitrie Cantemir - bl. B2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Tineretului",
+      "blocks": 33,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Tohani - bl. 30, 31; Gradinita nr.224 • Bld Tineretului - bl. A2, A3, A4, A5, A6, Z2, Z3, Z4, Z5, Z6, Z7, 5A • Str Mocăncuţei - Imob.vila • Str Poenari - bl. 12, 13 • Str Trestiana - bl. 8A, 8B, 9, 10, 11, 14, 15, 16, 32 • Str Tohani - bl. 29, 33 • Str Constantin Rădulescu-Motru - bl. 21, 27A, 28, 34 • Str Cuza Vodă - bl. 27B"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Vacaresti",
+      "blocks": 21,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Lanariei",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Maria Tănase - bl. 13 • Bld Gheorghe Şincai - bl. 11, 12 • Str Viorele - bl. 15, 17, 18, 20A, 20B, 22, 37, Scoala nr. 97 • Cal Văcăreşti - bl. 23, 24 • Ale Borcea - bl. 14, 16"
+    },
+    {
+      "sector": 4,
+      "pt_name": "V.S.Sud",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de echilibrare hidraulica",
+      "estimated_restore": "2026-08-17T23:00",
+      "on_time_probability": 0.368,
+      "basis_n": 604,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
+    },
+    {
+      "sector": 4,
       "pt_name": "Propriu 1",
       "blocks": 2,
       "service": "Oprire ACC",
@@ -1950,66 +2010,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "3 Drumul Sării",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Baltagului - bl. V77, V78, V81 • Ale Botorani - bl. V28, V35, V36, V37, V42, V43, V80, V82, V83, V84 • Cal 13 Septembrie - bl. V38, V39, V40 • Str Mihail Sebastian - bl. V29, V30, V79"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Alexandria",
-      "blocks": 27,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Lereşti - bl D1, D2, D3, A2, 37, 38, Sc.126, Cresa Sf. Stelian • Str Antiaeriană - bl A1, A1Prim • Şos Alexandria - bl L21, L22, L23, L24, L25, L26, L27, L28, L29, M1, M2, M3, M4, M5, OD1, PC9, PC10, PC11, PC12"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Drumul Sarii",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Lacul Plopului - bl. V7, P73 • Cal 13 Septembrie - bl. V1, V3, V4, V5, V6 • Str Şerbota - bl. P74, V8, V9, V19, V20, V21 • Str Sg. maj. Ion Nedeleanu - bl. V22, V23"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Petre Ispirescu",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Lacul Plopului - bl. P75 • Str Dorneasca - bl. P78 , P58, P62, P59, P63 • Str Novaci - bl. P78A, P60, P57, P61, P65"
-    },
-    {
-      "sector": 5,
-      "pt_name": "7 Margeanului",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M29, M30, M31, M32, M33, M34 • Str Sold. Ene Modoran - bl. M93A, M93B • Str Dumbrava Nouă - bl. M78 scara 1, M79 • Str Buzoeni - bl. M38, M39, M40, M41, M76, M77, M78 scara 2 • Str Mărgeanului - bl. M35, M36, M37"
-    },
-    {
-      "sector": 5,
       "pt_name": "Vicina",
       "blocks": 30,
       "service": "Oprire ACC",
@@ -2022,30 +2022,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "5 Petre Ispirescu",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
-    },
-    {
-      "sector": 5,
-      "pt_name": "9 Margeanului",
-      "blocks": 36,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
       "pt_name": "5 Lira",
       "blocks": 7,
       "service": "Oprire ACC",
@@ -2055,54 +2031,6 @@
       "basis_n": 0,
       "basis_bucket": "overdue",
       "zone_raw": "• Str Mihail Sebastian - bl. V85, V86, V 87, V88, V89, V90, V91"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Soldat Croitoru",
-      "blocks": 29,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Pecineaga - bl.17C, 23, 24 • Str Cap. Preda - bl. 3E, 19, 4 • Str Cap. Ilina - bl. 3B, 3C, 14, 21, 21A, 3D • Str Sold. Vasile Croitoru - bl. 3, 8, 9, 9A, 9B • Str Sold. Ion Cândea - bl. 22, 21B • Str Lt. Ilie Câmpeanu - bl. 2, 18, 18A, 18B, 15, 15A • Str Amurgului - Sectia 19 Politie • Str Slt. Popa - bl. 17, 17A, 17B, 20, 23A REZILIAT 21 – Sc. 1, 2"
-    },
-    {
-      "sector": 5,
-      "pt_name": "11 Margeanului",
-      "blocks": 31,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Petre Ispirescu - bl. M137, M138, M140, M198, M198A, M199, M217, M210, M211, M212, M214, M215, M216, M213 • Str Crăişorului - bl. M136, M143A, M143B • Str Cobadin - bl. M200, M201, M202, M209 • Str Dumbrava Nouă - bl. M207, M208A, M2M141, M142, M197, M206,08 • Str Iancu Jianu - bl. M204, M205, M203"
-    },
-    {
-      "sector": 5,
-      "pt_name": "10 Margeanului",
-      "blocks": 32,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Drumul Sarii",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
     },
     {
       "sector": 5,
@@ -2127,18 +2055,6 @@
       "basis_n": 0,
       "basis_bucket": "overdue",
       "zone_raw": "• Ale Craioviţa - bl. A30, A50, A51 • Ale Platanului - bl. A29, A31, A32, A43, A44, A45, A46, A47 • Str Mihail Sebastian - bl. A28, A33, A34, A35 • Drm Sării - bl. A40, A41, A42, A48, A49 • Str Lt. col. Constantin Marinescu - bl. A36, A37, A38, A39"
-    },
-    {
-      "sector": 5,
-      "pt_name": "7 Sebastian",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Oprire CTE Grozăvești în vederea înlocuirii racord apă rece, Apa - Nova",
-      "estimated_restore": "2026-08-17T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Dumbrava Nouă - bl. S16, S17, S18, S19, S22 • Str Mihail Sebastian - bl. S6, S7, S8, S10, S10A, S11, S12, S13, S14, S20, S21 • Str Novaci - bl. S9, S9A, S15, S23"
     },
     {
       "sector": 5,
