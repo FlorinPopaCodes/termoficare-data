@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-17T23:50:20",
+  "scraped_at": "2026-08-18T00:46:55",
   "status": "ok",
   "outages": [
     {
@@ -2415,18 +2415,6 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "9/4",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-18T01:00",
-      "on_time_probability": 0.3,
-      "basis_n": 80,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Lunca Cernei - Cernei bl D48, D47,M52 • Str Romancierilor - bl.C14 • Str Drumul Taberei - bl M33, M35, M37, M39, M40Bis • Bld Timişoara - bl C13, D44, M50 • Ale Valea Boteni - bl.D46, M51 • Ale Valea Viilor - bl. M34, A53, M36, D49, M38, M40, D50"
     },
     {
       "sector": 6,
