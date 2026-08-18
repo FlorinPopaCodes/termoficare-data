@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T14:47:32",
+  "scraped_at": "2026-08-18T15:24:20",
   "status": "ok",
   "outages": [
     {
@@ -51,6 +51,18 @@
       "basis_n": 78,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mihail Ivanovici Glinka - Nr. ,6,8, 12 • Str Gioacchino Rossini - Nr. 1A.1C. 2,3,4 • Str Frederic Chopin - Nr. 8 • Str Barbu Văcărescu - Nr. 137.139,141 • Str Wolfgang Amadeus Mozart - Nr.2,4,6.7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Colentina Socului - Partial",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-18T20:00",
+      "on_time_probability": 0.5,
+      "basis_n": 11545,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Int Abanosului - bl.2 • Str Dimitrie Grozdea - bl. 63, 82 • Str Baicului - bl.81"
     },
     {
       "sector": 2,
@@ -303,6 +315,174 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Mărășești",
+      "blocks": 16,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.492,
+      "basis_n": 63,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vlad Dracul - bl. B1, B2 • Str Nerva Traian - bl. M70, M71, M66, M69, M68, M65 • Str Emil Gârleanu - bl. A8, A9 • Str Logofătul Tăutu - bl. C3, C4, C5 • Str Lt. col. Dumitru Papazoglu - bl. B5 • Str Alexandru Moruzzi Voievod - bl. B1, A10"
+    },
+    {
+      "sector": 3,
+      "pt_name": "M107",
+      "blocks": 25,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.462,
+      "basis_n": 65,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nerva Traian - bl. K6 • Bld Octavian Goga - bl. M103, M106 • Str Emil Botta - bl. M109, M105, M104, M107, M108 • Bld Unirii - bl. K3, K4, K2, K5 • Str Lucian Blaga - bl. K1"
+    },
+    {
+      "sector": 3,
+      "pt_name": "E1",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.548,
+      "basis_n": 93,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vintilă Vodă - bl. E1 • Bld Unirii - bl. E2, E3,E3A, E3-3, E3A2"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Mărăşeşti",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.462,
+      "basis_n": 93,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Ştefan Octavian Iosif - bl. M51, M54 • Str Panait Cerna - bl. M53, M52 • Str Nerva Traian - bl. M37, M36, M39, M55, M38 • Bld Octavian Goga - bl. M42, M61 • Str Alexandru Vlahuţă - bl. M49, M50"
+    },
+    {
+      "sector": 3,
+      "pt_name": "Ministerul de Finante",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.85,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Mircea Vodă - 44"
+    },
+    {
+      "sector": 3,
+      "pt_name": "5 Mărăşeşti",
+      "blocks": 17,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.47,
+      "basis_n": 66,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Mircea Vodă - bl. M31, M29, M30 • Ale Dimitrie Anghel - bl. M45 • Str Panait Cerna - bl. M44 • Str Nerva Traian - bl. M34, M35 • Str Alexandru Vlahuţă - bl. M46, M47, M48"
+    },
+    {
+      "sector": 3,
+      "pt_name": "BL U114 (UM 02544/B1)",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.756,
+      "basis_n": 41,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Mircea Vodă - 3-5"
+    },
+    {
+      "sector": 3,
+      "pt_name": "C3 Căuzaşi",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.439,
+      "basis_n": 107,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Negru Vodă - C3, C4, C3A • Str Mămulari - C1, C2 • Bld Unirii - A1, A2, A3, A4 • Str Sfânta Vineri - A6, A5"
+    },
+    {
+      "sector": 3,
+      "pt_name": "6 Mărășești",
+      "blocks": 19,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.46,
+      "basis_n": 63,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Mircea Vodă - bl. M11, M14, M20bis, M9,M8, M1, M21, M22, M6, M20 • Str Panait Cerna - bl. M5 • Spl Unirii - bl. M3, M4, M12, M19, M10, M15, M7, M18, M16, M13"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Mărăşeşti",
+      "blocks": 20,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.494,
+      "basis_n": 79,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nerva Traian - bl M64 • Bld Octavian Goga - bl. V53C, M62, M63 • Str Emil Gârleanu - bl. V52C, V53D, A1, F • Str Foişorului - bl. F1C, F2C, F3C, D, E • Str Anastasie Panu - bl. A1, A2, A3"
+    },
+    {
+      "sector": 3,
+      "pt_name": "4 Mărăşeşti",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.418,
+      "basis_n": 55,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Dimitrie Anghel - bl. M59 • Str Panait Cerna - bl. M43, M57, M56, M58, M28 • Str Nerva Traian - Grădinița nr. 81 • Bld Octavian Goga - bl. M60I, M24, M26, M25, M23"
+    },
+    {
+      "sector": 3,
+      "pt_name": "Biblioteca Nationala",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.761,
+      "basis_n": 46,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Unirii - 22"
+    },
+    {
+      "sector": 3,
+      "pt_name": "7 Călăraşi",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.506,
+      "basis_n": 83,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Corneliu Coposu - 105A, 103, 104, 101, 106A, 105A • Str Sfânta Vineri - 105B, 105C, 102"
+    },
+    {
+      "sector": 3,
+      "pt_name": "Tribunalul Bucuresti",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.7,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Unirii - 37"
     },
     {
       "sector": 3,
@@ -882,18 +1062,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "M107",
-      "blocks": 25,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.3,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nerva Traian - bl. K6 • Bld Octavian Goga - bl. M103, M106 • Str Emil Botta - bl. M109, M105, M104, M107, M108 • Bld Unirii - bl. K3, K4, K2, K5 • Str Lucian Blaga - bl. K1"
-    },
-    {
-      "sector": 3,
       "pt_name": "2 Cornul Caprei",
       "blocks": 3,
       "service": "Deficienta ACC",
@@ -978,18 +1146,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "E1",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.425,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vintilă Vodă - bl. E1 • Bld Unirii - bl. E2, E3,E3A, E3-3, E3A2"
-    },
-    {
-      "sector": 3,
       "pt_name": "2 Călăraşi",
       "blocks": 18,
       "service": "Deficienta ACC",
@@ -1011,18 +1167,6 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Int Odobeşti - bl. M7A, M7B, V7, V7A, V8, V9, V10, V12, V13, Z1A, Z2,V11"
-    },
-    {
-      "sector": 3,
-      "pt_name": "5 Mărăşeşti",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.239,
-      "basis_n": 46,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Mircea Vodă - bl. M31, M29, M30 • Ale Dimitrie Anghel - bl. M45 • Str Panait Cerna - bl. M44 • Str Nerva Traian - bl. M34, M35 • Str Alexandru Vlahuţă - bl. M46, M47, M48"
     },
     {
       "sector": 3,
@@ -1218,18 +1362,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "6 Mărășești",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.341,
-      "basis_n": 44,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Mircea Vodă - bl. M11, M14, M20bis, M9,M8, M1, M21, M22, M6, M20 • Str Panait Cerna - bl. M5 • Spl Unirii - bl. M3, M4, M12, M19, M10, M15, M7, M18, M16, M13"
-    },
-    {
-      "sector": 3,
       "pt_name": "4 Labirint",
       "blocks": 5,
       "service": "Deficienta ACC",
@@ -1239,18 +1371,6 @@
       "basis_n": 40,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Matei Basarab - bl. L112, L112A, L113A, L113 • Str Traian - bl. L112B"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Mărăşeşti",
-      "blocks": 20,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.415,
-      "basis_n": 65,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nerva Traian - bl M64 • Bld Octavian Goga - bl. V53C, M62, M63 • Str Emil Gârleanu - bl. V52C, V53D, A1, F • Str Foişorului - bl. F1C, F2C, F3C, D, E • Str Anastasie Panu - bl. A1, A2, A3"
     },
     {
       "sector": 3,
@@ -1323,30 +1443,6 @@
       "basis_n": 65,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Matei Basarab - 64 • Cal Călăraşi - 59, 60, 61, 58"
-    },
-    {
-      "sector": 3,
-      "pt_name": "4 Mărăşeşti",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.294,
-      "basis_n": 51,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Dimitrie Anghel - bl. M59 • Str Panait Cerna - bl. M43, M57, M56, M58, M28 • Str Nerva Traian - Grădinița nr. 81 • Bld Octavian Goga - bl. M60I, M24, M26, M25, M23"
-    },
-    {
-      "sector": 3,
-      "pt_name": "7 Călăraşi",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.333,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Corneliu Coposu - 105A, 103, 104, 101, 106A, 105A • Str Sfânta Vineri - 105B, 105C, 102"
     },
     {
       "sector": 3,
@@ -2118,18 +2214,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "6 Zona II",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Lucrari in punctul termic.",
-      "estimated_restore": "2026-08-18T15:00",
-      "on_time_probability": 0.409,
-      "basis_n": 1474,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
-    },
-    {
-      "sector": 4,
       "pt_name": "7 Zona I",
       "blocks": 9,
       "service": "Oprire ACC",
@@ -2866,7 +2950,7 @@
       "blocks": 6,
       "service": "Oprire ACC",
       "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-18T15:30",
+      "estimated_restore": "2026-08-18T17:30",
       "on_time_probability": 0.356,
       "basis_n": 756,
       "basis_bucket": "sector_cause_slip",
@@ -2915,9 +2999,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Bd.Ghencea)",
       "estimated_restore": "2026-08-18T15:00",
-      "on_time_probability": 0.414,
-      "basis_n": 10357,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Prl Ghencea - bl. D3"
     },
     {
