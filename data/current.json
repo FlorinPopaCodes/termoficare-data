@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T12:55:25",
+  "scraped_at": "2026-08-18T14:15:46",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "7 Dinicu Golescu",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-      "estimated_restore": "2026-08-18T17:00",
-      "on_time_probability": 0.5,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Dinicu Golescu - bl. 5, 6,7"
-    },
     {
       "sector": 1,
       "pt_name": "Sora",
@@ -63,18 +51,6 @@
       "basis_n": 78,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mihail Ivanovici Glinka - Nr. ,6,8, 12 • Str Gioacchino Rossini - Nr. 1A.1C. 2,3,4 • Str Frederic Chopin - Nr. 8 • Str Barbu Văcărescu - Nr. 137.139,141 • Str Wolfgang Amadeus Mozart - Nr.2,4,6.7"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Aviatiei",
-      "blocks": 32,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-18T14:00",
-      "on_time_probability": 0.33,
-      "basis_n": 103,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. G6, 6A, 7E, 7F, 7, 7I, 7K,7M • Str Avionului - bl. 5C, 5E, 5E PRIM, 6B, 6C, 6D • Str Aviaţiei - bl. 4C, 5D, 5G, 4D, 5F,7D, 5A • Şos Pipera - bl. 4A, 4B, 5B • Str Aripilor - bl. 6E,6F • Str Borşa - bl. 5F, 4F, 4G, 4E, 7G, ARMONIA, 7B, 7A, 7H"
     },
     {
       "sector": 2,
@@ -543,18 +519,6 @@
       "basis_n": 1456,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lugojana - bl. 15D • Ale Răcari - bl. 33B, 33A, 30B, 30A, 15C, 36, 37 • Str Râmnicu Vâlcea - bl. 31, 30, 32, 33, 34A, 34 • Ale Slt. Adrian Cârstea - bl. 35, 30, 30B"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Matei Ambrozie - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie acc bl 50",
-      "estimated_restore": "2026-08-18T15:30",
-      "on_time_probability": 0.345,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Suraia - bl. 50,53"
     },
     {
       "sector": 3,
@@ -2324,11 +2288,11 @@
       "sector": 4,
       "pt_name": "B 3 Cauzasi",
       "blocks": 7,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
-      "estimated_restore": "2026-09-15T23:30",
-      "on_time_probability": 0.223,
-      "basis_n": 148,
+      "service": "Oprire ACC",
+      "cause": "Depistare si Remediere avarie retea primara",
+      "estimated_restore": "2026-09-21T23:30",
+      "on_time_probability": 0.375,
+      "basis_n": 1065,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Pţa Unirii - bl. B3, B4, B5 ,B6, B7 • Str Radu Vodă - bl. B8 • Bld Dimitrie Cantemir - bl. B2"
     },
@@ -2336,24 +2300,24 @@
       "sector": 4,
       "pt_name": "V.S.Sud",
       "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
-      "estimated_restore": "2026-09-15T23:30",
-      "on_time_probability": 0.356,
-      "basis_n": 450,
-      "basis_bucket": "sector_cause_slip",
+      "service": "Oprire ACC",
+      "cause": "Depistare si Remediere avarie retea primara",
+      "estimated_restore": "2026-09-21T23:30",
+      "on_time_probability": 0.296,
+      "basis_n": 27,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
     },
     {
       "sector": 4,
       "pt_name": "P 5 A",
       "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
-      "estimated_restore": "2026-09-15T23:30",
-      "on_time_probability": 0.356,
-      "basis_n": 450,
-      "basis_bucket": "sector_cause_slip",
+      "service": "Oprire ACC",
+      "cause": "Depistare si Remediere avarie retea primara",
+      "estimated_restore": "2026-09-21T23:30",
+      "on_time_probability": 0.308,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
     },
     {
