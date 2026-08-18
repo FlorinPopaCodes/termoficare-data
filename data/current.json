@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T12:22:06",
+  "scraped_at": "2026-08-18T12:55:25",
   "status": "ok",
   "outages": [
     {
@@ -174,18 +174,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "5 Pantelimon",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare",
-      "estimated_restore": "2026-09-15T23:00",
-      "on_time_probability": 0.241,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Herţa - bl. 63; 64A; 64B • Str Pescăruşului - Imobil • Şos Pantelimon - bl.59-60, 55, 53, 55A"
-    },
-    {
-      "sector": 2,
       "pt_name": "6 Pantelimon",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -354,6 +342,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "Clinica Sfanta Lucia",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.424,
+      "basis_n": 33,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Spl Unirii - 313A"
+    },
+    {
+      "sector": 3,
       "pt_name": "21 Foișor",
       "blocks": 17,
       "service": "Oprire ACC",
@@ -363,6 +363,18 @@
       "basis_n": 71,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vlaicu Vodă - bl. C8, C9 • Str Vlad Dracul - bl. B12, B13 • Str Vasile Cârlova - bl. A7, A7bis • Str Emil Gârleanu - bl. A6, A4 • Str Lt. col. Dumitru Papazoglu - bl. B10, C6 • Str Anastasie Panu - bl. A12, A5, A16, B7 • Str Alexandru Moruzzi Voievod - bl. A11, A13, B6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "S.M.",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.476,
+      "basis_n": 10091,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Spl Unirii - 455B"
     },
     {
       "sector": 3,
@@ -390,90 +402,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "11 Foișor",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii retea primara Mag. III.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.523,
-      "basis_n": 44,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Zizin - bl. V75C • Str Vlaicu Vodă - bl. V65, V66 • Str Brânduşelor - bl. V70, V75A, V77 • Str Foişorului - bl. F9C, F8C • Str Rarău - bl. V69, V68, V70, V71, F10C, V74"
-    },
-    {
-      "sector": 3,
-      "pt_name": "9 Vitan",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii retea primara Mag. III.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.512,
-      "basis_n": 43,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Zizin - bl. 97, V101C, V101B • Str Vlaicu Vodă - bl. V34C, V100 • Cal Vitan - bl. V34A, V35 • Str Nucului - bl. V100, V101,V101A • Str Banu Udrea - bl. V104, V103, V101C, V99, V97, V102, V95"
-    },
-    {
-      "sector": 3,
-      "pt_name": "13 Foișor",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii retea primara Mag. III.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.431,
-      "basis_n": 58,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vlaicu Vodă - bl. V62, V63, V61 • Str Brânduşelor - bl.V64 • Str Foişorului - bl. F6C, F7C, F5C, F4C • Str Alexandru Moruzzi Voievod - bl. V60, V59, V58"
-    },
-    {
-      "sector": 3,
-      "pt_name": "10 Vitan",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii retea primara Mag. III.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.392,
-      "basis_n": 51,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Zizin - bl. V80B, V80A, V81C, V40 • Str Vlaicu Vodă - bl. V43, V39, V82, V38, V81, V79, V82B, V81A • Cal Vitan - bl. V40, V42, V17, V82A, V42C,V42A • Str Brânduşelor - bl. V78"
-    },
-    {
-      "sector": 3,
-      "pt_name": "19 Foișor",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii retea primara Mag. III.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.388,
-      "basis_n": 49,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Brânduşelor - bl. G4, G4A, H1, H16 • Str Banu Udrea - bl. G5, G6, H5, J2, J1, H6"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Clinica Sfanta Lucia",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii retea primara Mag. III.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.424,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Spl Unirii - 313A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "S.M.",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarii retea primara Mag. III.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.476,
-      "basis_n": 10091,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Spl Unirii - 455B"
-    },
-    {
-      "sector": 3,
       "pt_name": "O.P.",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -495,6 +423,30 @@
       "basis_n": 27,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Spl Unirii - 453"
+    },
+    {
+      "sector": 3,
+      "pt_name": "11 Foișor",
+      "blocks": 14,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.523,
+      "basis_n": 44,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Zizin - bl. V75C • Str Vlaicu Vodă - bl. V65, V66 • Str Brânduşelor - bl. V70, V75A, V77 • Str Foişorului - bl. F9C, F8C • Str Rarău - bl. V69, V68, V70, V71, F10C, V74"
+    },
+    {
+      "sector": 3,
+      "pt_name": "9 Vitan",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.512,
+      "basis_n": 43,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Zizin - bl. 97, V101C, V101B • Str Vlaicu Vodă - bl. V34C, V100 • Cal Vitan - bl. V34A, V35 • Str Nucului - bl. V100, V101,V101A • Str Banu Udrea - bl. V104, V103, V101C, V99, V97, V102, V95"
     },
     {
       "sector": 3,
@@ -522,6 +474,30 @@
     },
     {
       "sector": 3,
+      "pt_name": "13 Foișor",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.431,
+      "basis_n": 58,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vlaicu Vodă - bl. V62, V63, V61 • Str Brânduşelor - bl.V64 • Str Foişorului - bl. F6C, F7C, F5C, F4C • Str Alexandru Moruzzi Voievod - bl. V60, V59, V58"
+    },
+    {
+      "sector": 3,
+      "pt_name": "10 Vitan",
+      "blocks": 17,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.392,
+      "basis_n": 51,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Zizin - bl. V80B, V80A, V81C, V40 • Str Vlaicu Vodă - bl. V43, V39, V82, V38, V81, V79, V82B, V81A • Cal Vitan - bl. V40, V42, V17, V82A, V42C,V42A • Str Brânduşelor - bl. V78"
+    },
+    {
+      "sector": 3,
       "pt_name": "H.B-E.",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -531,6 +507,18 @@
       "basis_n": 22,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Spl Unirii -"
+    },
+    {
+      "sector": 3,
+      "pt_name": "19 Foișor",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara Mag. III.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.388,
+      "basis_n": 49,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Brânduşelor - bl. G4, G4A, H1, H16 • Str Banu Udrea - bl. G5, G6, H5, J2, J1, H6"
     },
     {
       "sector": 3,
@@ -1158,6 +1146,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "SC.1Baba Novac",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.243,
+      "basis_n": 37,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
+    },
+    {
+      "sector": 3,
       "pt_name": "3 Unităţii",
       "blocks": 19,
       "service": "Deficienta ACC",
@@ -1407,18 +1407,6 @@
       "basis_n": 61,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Int Părului - bl. 59, 59bis • Str Complexului - bl. 60, 61 • Str Alexandru Papiu Ilarian - bl. 42, 43"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Baba Novac",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare SACET-Obiectiv 3 si Reabilitarea sistemului de termoficare al Municipiului Bucuresti-Obiectiv 1 Magistrala I Sud.",
-      "estimated_restore": "2026-08-22T23:30",
-      "on_time_probability": 0.327,
-      "basis_n": 750,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
     },
     {
       "sector": 3,
