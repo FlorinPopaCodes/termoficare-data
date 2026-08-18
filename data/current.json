@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T20:51:09",
+  "scraped_at": "2026-08-18T22:37:35",
   "status": "ok",
   "outages": [
     {
@@ -1362,6 +1362,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "15 Răcari",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.238,
+      "basis_n": 42,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lugojana - bl. 15D • Ale Răcari - bl. 33B, 33A, 30B, 30A, 15C, 36, 37 • Str Râmnicu Vâlcea - bl. 31, 30, 32, 33, 34A, 34 • Ale Slt. Adrian Cârstea - bl. 35, 30, 30B"
+    },
+    {
+      "sector": 3,
       "pt_name": "6C4/2",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -1515,18 +1527,6 @@
       "basis_n": 293,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Gheorghe Petraşcu - • Str Câmpia Libertăţii - bl. 6A, B1, B2, B6"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Spital Victor Babes",
-      "blocks": 0,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
-      "estimated_restore": "2026-09-15T23:30",
-      "on_time_probability": 0.413,
-      "basis_n": 293,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu -"
     },
     {
       "sector": 3,
@@ -2034,23 +2034,11 @@
     },
     {
       "sector": 4,
-      "pt_name": "Spinis",
-      "blocks": 26,
-      "service": "Oprire ACC",
-      "cause": "Avarie retea primara",
-      "estimated_restore": "2026-08-18T23:00",
-      "on_time_probability": 0.576,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Spiniş - bl. 19, 24, 43, 45, 48, 104, 105 • Str Râul Şoimului - bl. 25, 26, 27, 28, 46, 47, 49 • Şos Giurgiului - bl. 4A, 4B • Str Grădiştea - bl. 101 • Drm Găzarului - bl. 18, 21, 22, 50 • Str Tătuleşti - bl. 44, 98, 100A, 100B, 103"
-    },
-    {
-      "sector": 4,
       "pt_name": "Propriu 1",
       "blocks": 2,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - (Sos. Oltenitei)",
-      "estimated_restore": "2026-08-18T23:00",
+      "estimated_restore": "2026-08-20T23:00",
       "on_time_probability": 0.462,
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
@@ -2062,7 +2050,7 @@
       "blocks": 2,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - (Sos. Oltenitei)",
-      "estimated_restore": "2026-08-18T23:00",
+      "estimated_restore": "2026-08-20T23:00",
       "on_time_probability": 0.429,
       "basis_n": 28,
       "basis_bucket": "pt_cause_slip",
@@ -2074,7 +2062,7 @@
       "blocks": 14,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - (Sos. Oltenitei)",
-      "estimated_restore": "2026-08-18T23:00",
+      "estimated_restore": "2026-08-20T23:00",
       "on_time_probability": 0.433,
       "basis_n": 30,
       "basis_bucket": "pt_cause_slip",
