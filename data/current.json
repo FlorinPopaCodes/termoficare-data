@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T22:37:35",
+  "scraped_at": "2026-08-18T23:39:08",
   "status": "ok",
   "outages": [
     {
@@ -27,18 +27,6 @@
       "basis_n": 2286,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Institutul Medico-Militar - 22"
-    },
-    {
-      "sector": 2,
-      "pt_name": "7 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
-      "estimated_restore": "2026-09-15T23:00",
-      "on_time_probability": 0.25,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
     },
     {
       "sector": 2,
@@ -99,6 +87,18 @@
       "basis_n": 496,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Teiul Doamnei",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
+      "estimated_restore": "2026-09-15T23:00",
+      "on_time_probability": 0.553,
+      "basis_n": 38,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Alexandru cel Bun - bl.35, 42 • Str Cristea Mateescu - bl.35, 34 • Str Petre Antonescu - bl.28; 29 • Str Grigore Ionescu - bl. 43; 44 • Bld Ghica Tei - bl.41,40 • Str Teiul Doamnei - bl.33,32,31,39,38,37,36,27 • Str Sânzieni - bl.30"
     },
     {
       "sector": 2,
