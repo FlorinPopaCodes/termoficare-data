@@ -1,9 +1,33 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T10:29:15",
+  "scraped_at": "2026-08-18T11:03:32",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "3 Dinicu Golescu",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare retea termica primara prin programul POIM,efctuate de ELSACO",
+      "estimated_restore": "2026-08-19T23:30",
+      "on_time_probability": 0.386,
+      "basis_n": 2286,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Garnizoana",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Lucrari de modernizare retea termica primara prin programul POIM,efctuate de ELSACO",
+      "estimated_restore": "2026-08-19T23:30",
+      "on_time_probability": 0.386,
+      "basis_n": 2286,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Institutul Medico-Militar - 22"
+    },
     {
       "sector": 1,
       "pt_name": "CT Floreasca - Partial",
@@ -2046,6 +2070,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "6 Zona II",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Lucrari in punctul termic.",
+      "estimated_restore": "2026-08-18T15:00",
+      "on_time_probability": 0.409,
+      "basis_n": 1474,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
+    },
+    {
+      "sector": 4,
       "pt_name": "7 Zona I",
       "blocks": 9,
       "service": "Oprire ACC",
@@ -2463,6 +2499,18 @@
       "basis_n": 1633,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Apolodor - Nr .17 - instituţie"
+    },
+    {
+      "sector": 5,
+      "pt_name": "CASA ACADEMIEI",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de modernizare a sistemului de temoficare al Municipiului Bucureṣti efectuate de către SC Construcţii Erbaṣu",
+      "estimated_restore": "2026-09-06T23:00",
+      "on_time_probability": 0.433,
+      "basis_n": 1633,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal 13 Septembrie - Nr. 13 - instituţie"
     },
     {
       "sector": 5,
