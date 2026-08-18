@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T18:21:42",
+  "scraped_at": "2026-08-18T18:54:09",
   "status": "ok",
   "outages": [
     {
@@ -1710,18 +1710,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "6 Zona II",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-08-18T23:30",
-      "on_time_probability": 0.284,
-      "basis_n": 88,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
-    },
-    {
-      "sector": 4,
       "pt_name": "7 Zona I",
       "blocks": 9,
       "service": "Oprire ACC",
@@ -2463,18 +2451,6 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 3 Placare - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-18T18:30",
-      "on_time_probability": 0.27,
-      "basis_n": 37,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 7P, 8P"
     },
     {
       "sector": 6,
