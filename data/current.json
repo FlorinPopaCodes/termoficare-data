@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T19:55:17",
+  "scraped_at": "2026-08-18T20:18:24",
   "status": "ok",
   "outages": [
     {
@@ -255,6 +255,18 @@
       "basis_n": 496,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Vergului - bl.15D • Şos Pantelimon - bl.15ABC"
+    },
+    {
+      "sector": 2,
+      "pt_name": "13 Pantelimon",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza lucrarilor de modernizare",
+      "estimated_restore": "2026-09-15T23:00",
+      "on_time_probability": 0.182,
+      "basis_n": 22,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Pantelimon - bl.41, 46, 47"
     },
     {
       "sector": 2,
