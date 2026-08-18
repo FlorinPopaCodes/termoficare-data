@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-18T11:03:32",
+  "scraped_at": "2026-08-18T11:51:13",
   "status": "ok",
   "outages": [
     {
@@ -34,7 +34,7 @@
       "blocks": 16,
       "service": "Oprire ACC",
       "cause": "Remediere avarie canal distanta",
-      "estimated_restore": "2026-08-18T15:00",
+      "estimated_restore": "2026-08-18T20:00",
       "on_time_probability": 0.474,
       "basis_n": 78,
       "basis_bucket": "pt_cause_slip",
@@ -150,18 +150,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "1 Iancului",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare",
-      "estimated_restore": "2026-09-15T23:00",
-      "on_time_probability": 0.365,
-      "basis_n": 1034,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.208 • Şos Iancului - bl.103A,102C,102B,103B,102D,101A,101B,imob.Nr.43,45 • Şos Pantelimon - bl.102A,207,208A,101,208B,100"
-    },
-    {
-      "sector": 2,
       "pt_name": "2 Voiniceni",
       "blocks": 26,
       "service": "Deficienta ACC",
@@ -267,18 +255,6 @@
       "basis_n": 496,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Avrig - bl.U1"
-    },
-    {
-      "sector": 2,
-      "pt_name": "2 Iancului",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare",
-      "estimated_restore": "2026-09-15T23:00",
-      "on_time_probability": 0.179,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Măgura Vulturului - bl.117B, 117A • Str Slt. Dima Cristescu - bl.105C • Şos Iancului - bl.106C, 106B, 106A, 105B, 105D, 108, 107, imob.Nr.25, 15 • Str Lt. Sachelarie Visarion - Visarion bl.118B, 119, 118A, 117C, imob.Nr.49-51"
     },
     {
       "sector": 2,
@@ -2727,18 +2703,6 @@
       "basis_n": 51,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Paşcani - bl.728A • Str Drumul Taberei - bl. TD1, TD3, TD5, TD42, TD43, TD44, TS37, TS38, TS39, TS40, TS41 • Ale Topoloveni - bl.A1, TD4, TD6, B11,TD2 • Str Cetatea Histria - bl A2, A3, A4, D1, D2, MIIB8/14,MIIB8/15, MIIB8/16 • Str Delineşti - bl.729A"
-    },
-    {
-      "sector": 6,
-      "pt_name": "5/5 - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Aleea Parva.)",
-      "estimated_restore": "2026-08-18T14:00",
-      "on_time_probability": 0.292,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Parva - bl.D12"
     }
   ]
 }
