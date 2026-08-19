@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-19T07:29:07",
+  "scraped_at": "2026-08-19T08:44:01",
   "status": "ok",
   "outages": [
     {
@@ -30,6 +30,54 @@
     },
     {
       "sector": 2,
+      "pt_name": "21 Pantelimon",
+      "blocks": 17,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-08-19T14:00",
+      "on_time_probability": 0.143,
+      "basis_n": 28,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Măgura Vulturului - bl.413; • Str Elev Ştefan Ştefănescu - bl.419, 420, 423, 422A, 420B, 422, 420C, imob.Nr.67-69 • Şos Pantelimon - bl.409B, 409A, 409, 420A, 411, 410, 412, 421"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Teiul Doamnei - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Înlocuire conductă pe rețeaua secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-19T14:00",
+      "on_time_probability": 0.399,
+      "basis_n": 796,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Petre Antonescu - bl.11, 12"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Colentina Socului",
+      "blocks": 25,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-19T12:00",
+      "on_time_probability": 0.519,
+      "basis_n": 81,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Dimitrie Grozdea - BL.75 • Str Stolnicul Vasile - bl. 3; 5; 10 ; 6; 34; 35; 8 • Str Siliştea - bl. 7, 9 • Str Lunca Florilor - BL. 15; 11; 17; • Str Popa Nicolae - BL.; A; 1; 2; 3; 52; 50; 51; B; C; 55 SC.3 • Str Râşnov - BL.55; 62 • Str Ziduri Între Vii - BL.7; 8;"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
+      "estimated_restore": "2026-09-15T23:00",
+      "on_time_probability": 0.286,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
+    },
+    {
+      "sector": 2,
       "pt_name": "Opanez",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -39,6 +87,18 @@
       "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vidin - bl. L5, 51, 50 • Str Opanez - L1, 70 72, C1, 71, 73, 75, 77, 74, 79BIS • Str Aromei - bl. L4; L3 • Str Zambilelor - bl. L2; C2,,16 63, 61; imobil"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Teiul Doamnei",
+      "blocks": 27,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
+      "estimated_restore": "2026-09-15T23:00",
+      "on_time_probability": 0.355,
+      "basis_n": 31,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nada Florilor - bl.14, 13, 5 • Str Petre Antonescu - bl.11, 12, 23, 24, 26, 25 • Str Braşoveni - bl.15, 17, 19, 16, 18, 20, 7, 4, 3 • Str Lăptari Tei - bl. 6 • Str Teiul Doamnei - bl.8, 9, 10, 21, 22, 1, 2"
     },
     {
       "sector": 2,
@@ -54,18 +114,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "3 Petricani",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
-      "estimated_restore": "2026-09-15T23:00",
-      "on_time_probability": 0.172,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
-    },
-    {
-      "sector": 2,
       "pt_name": "13 Lacul Tei",
       "blocks": 11,
       "service": "Deficienta ACC",
@@ -75,6 +123,18 @@
       "basis_n": 498,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Grigore C. Moisil - bl. 13B, 7B, 7 • Bld Lacul Tei - bl. 14, 15A, 18, 16, 17, 13A, imob. nr.89-91, 77 • Str Opanez - bl.15B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Teiul Doamnei",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
+      "estimated_restore": "2026-09-15T23:00",
+      "on_time_probability": 0.564,
+      "basis_n": 39,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Alexandru cel Bun - bl.35, 42 • Str Cristea Mateescu - bl.35, 34 • Str Petre Antonescu - bl.28; 29 • Str Grigore Ionescu - bl. 43; 44 • Bld Ghica Tei - bl.41,40 • Str Teiul Doamnei - bl.33,32,31,39,38,37,36,27 • Str Sânzieni - bl.30"
     },
     {
       "sector": 2,
@@ -231,6 +291,18 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Unităţii",
+      "blocks": 19,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie in punctul termic.",
+      "estimated_restore": "2026-08-19T12:00",
+      "on_time_probability": 0.712,
+      "basis_n": 52,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Traian Popovici - bl. B7, B11, B10 • Şos Mihai Bravu - bl. B13, B13A, B13D, B13B, B13C • Str Lt. Aurel Botea - bl. B5A, B5, B5D, B5B, B5C, B6, B6A, B6B, B8, B9"
     },
     {
       "sector": 3,
