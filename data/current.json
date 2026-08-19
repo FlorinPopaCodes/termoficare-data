@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-19T18:21:25",
+  "scraped_at": "2026-08-19T18:53:59",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "3 Titulescu - Partial",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-20T15:30",
+      "on_time_probability": 0.467,
+      "basis_n": 9502,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Nicolae Titulescu - bl. 10A, 9, 8 SC A+B,10."
+    },
     {
       "sector": 1,
       "pt_name": "6-1 Mai - Partial",
