@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-19T18:53:59",
+  "scraped_at": "2026-08-19T19:19:37",
   "status": "ok",
   "outages": [
     {
@@ -87,6 +87,18 @@
       "basis_n": 701,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Institutul Medico-Militar - 22"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
+      "estimated_restore": "2026-09-15T23:00",
+      "on_time_probability": 0.286,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
     },
     {
       "sector": 2,
