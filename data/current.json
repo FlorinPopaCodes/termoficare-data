@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-19T13:18:48",
+  "scraped_at": "2026-08-19T13:52:06",
   "status": "ok",
   "outages": [
     {
@@ -75,18 +75,6 @@
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vidin - bl.59, 58 Bis, 54, 57, 58, 55, 53, 56 • Str Gheorghe Ţiţeica - bl.54Bis, 52Bis, 56BIS"
-    },
-    {
-      "sector": 2,
-      "pt_name": "21 Pantelimon",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-08-19T14:00",
-      "on_time_probability": 0.143,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Măgura Vulturului - bl.413; • Str Elev Ştefan Ştefănescu - bl.419, 420, 423, 422A, 420B, 422, 420C, imob.Nr.67-69 • Şos Pantelimon - bl.409B, 409A, 409, 420A, 411, 410, 412, 421"
     },
     {
       "sector": 2,
@@ -255,18 +243,6 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Matei Ambrozie - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie canal distanta apa calda de consum la Bl.50,Sc 3",
-      "estimated_restore": "2026-08-19T15:00",
-      "on_time_probability": 0.333,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Suraia - 50 • Ale Berevoieşti - bl. 53,"
     },
     {
       "sector": 3,
@@ -1486,7 +1462,7 @@
       "blocks": 14,
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar - Scoala nr.36 Str.Costila nr.2",
-      "estimated_restore": "2026-08-19T16:00",
+      "estimated_restore": "2026-08-20T23:00",
       "on_time_probability": 0.552,
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
