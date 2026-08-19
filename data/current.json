@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-19T17:50:38",
+  "scraped_at": "2026-08-19T18:21:25",
   "status": "ok",
   "outages": [
     {
@@ -1482,6 +1482,42 @@
     },
     {
       "sector": 4,
+      "pt_name": "Propriu 1",
+      "blocks": 2,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-19T23:30",
+      "on_time_probability": 0.447,
+      "basis_n": 2043,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 52, 53"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Propriu 2",
+      "blocks": 2,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-19T23:30",
+      "on_time_probability": 0.447,
+      "basis_n": 2043,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 55, 56"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenita Nord",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-08-19T23:30",
+      "on_time_probability": 0.447,
+      "basis_n": 2043,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stolnici - bl. 43, 44, 45, 46 • Str Săvineşti - bl. 37, 38A, 38B, 39, 40 • Şos Olteniţei - bl. 31, 33 • Str Vegetaţiei - bl. 32 • Str Cercetătorilor - bl. 35, 48"
+    },
+    {
+      "sector": 4,
       "pt_name": "1 Zona IV",
       "blocks": 14,
       "service": "Oprire ACC",
@@ -1671,42 +1707,6 @@
       "basis_n": 22,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Propriu 1",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - (Sos. Oltenitei)",
-      "estimated_restore": "2026-08-20T23:00",
-      "on_time_probability": 0.341,
-      "basis_n": 2270,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 52, 53"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Propriu 2",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - (Sos. Oltenitei)",
-      "estimated_restore": "2026-08-20T23:00",
-      "on_time_probability": 0.341,
-      "basis_n": 2270,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 55, 56"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Nord",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - (Sos. Oltenitei)",
-      "estimated_restore": "2026-08-20T23:00",
-      "on_time_probability": 0.341,
-      "basis_n": 2270,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stolnici - bl. 43, 44, 45, 46 • Str Săvineşti - bl. 37, 38A, 38B, 39, 40 • Şos Olteniţei - bl. 31, 33 • Str Vegetaţiei - bl. 32 • Str Cercetătorilor - bl. 35, 48"
     },
     {
       "sector": 4,
@@ -2223,42 +2223,6 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4 Roșia Montană - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-19T17:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Dreptăţii - bl. O10 • Str Dezrobirii - bl. O9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "10 Liniei",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-08-19T18:30",
-      "on_time_probability": 0.4,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Liniei - BL 15-16 • Str Apusului - CAMIN TELECONSTRUCTIA • Str Vistiernicul Stavrinos - bl. 55, 56 • Str Băbeşti - bl.57, 57A, CAMIN FIROS • Str Trenului - UNITATE MILITARA, Imobil"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 3 Placare - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-19T17:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 5P"
     }
   ]
 }
