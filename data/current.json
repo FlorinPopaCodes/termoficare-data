@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-19T12:01:43",
+  "scraped_at": "2026-08-19T12:47:09",
   "status": "ok",
   "outages": [
     {
@@ -66,15 +66,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "4 Iancului",
-      "blocks": 6,
+      "pt_name": "Ramuri Tei - Partial",
+      "blocks": 12,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-19T15:30",
-      "on_time_probability": 0.727,
-      "basis_n": 66,
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-19T15:00",
+      "on_time_probability": 0.238,
+      "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Iancului - bl.114A, 113B, 115, 114B, 113A, 113C"
+      "zone_raw": "• Str Vidin - bl.59, 58 Bis, 54, 57, 58, 55, 53, 56 • Str Gheorghe Ţiţeica - bl.54Bis, 52Bis, 56BIS"
     },
     {
       "sector": 2,
@@ -111,18 +111,6 @@
       "basis_n": 81,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Dimitrie Grozdea - BL.75 • Str Stolnicul Vasile - bl. 3; 5; 10 ; 6; 34; 35; 8 • Str Siliştea - bl. 7, 9 • Str Lunca Florilor - BL. 15; 11; 17; • Str Popa Nicolae - BL.; A; 1; 2; 3; 52; 50; 51; B; C; 55 SC.3 • Str Râşnov - BL.55; 62 • Str Ziduri Între Vii - BL.7; 8;"
-    },
-    {
-      "sector": 2,
-      "pt_name": "7 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
-      "estimated_restore": "2026-09-15T23:00",
-      "on_time_probability": 0.286,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
     },
     {
       "sector": 2,
@@ -183,18 +171,6 @@
       "basis_n": 39,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Alexandru cel Bun - bl.35, 42 • Str Cristea Mateescu - bl.35, 34 • Str Petre Antonescu - bl.28; 29 • Str Grigore Ionescu - bl. 43; 44 • Bld Ghica Tei - bl.41,40 • Str Teiul Doamnei - bl.33,32,31,39,38,37,36,27 • Str Sânzieni - bl.30"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Mosilor",
-      "blocks": 25,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
-      "estimated_restore": "2026-09-15T23:00",
-      "on_time_probability": 0.26,
-      "basis_n": 396,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
     },
     {
       "sector": 2,
@@ -294,27 +270,15 @@
     },
     {
       "sector": 3,
-      "pt_name": "2 Unităţii",
-      "blocks": 16,
+      "pt_name": "1 Matei Ambrozie - Partial",
+      "blocks": 2,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie in punctul termic.",
-      "estimated_restore": "2026-08-19T13:30",
-      "on_time_probability": 0.6,
-      "basis_n": 50,
+      "cause": "Remediere avarie canal distanta apa calda de consum la Bl.50,Sc 3",
+      "estimated_restore": "2026-08-19T15:00",
+      "on_time_probability": 0.333,
+      "basis_n": 30,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vulcan Judeţul - bl. B1B, B1C, B3A • Str Traian Popovici - bl. B3D, B4, B4D, B4F, B4A • Şos Mihai Bravu - bl. B2A, B2B, B2C, B1, B1A, B1D, B3B, B3C • Str Caloian Judeţul - bl. B4C, Scoala Generala nr. 80"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Unităţii",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie in punctul termic.",
-      "estimated_restore": "2026-08-19T12:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Traian Popovici - bl. B7, B11, B10 • Şos Mihai Bravu - bl. B13, B13A, B13D, B13B, B13C • Str Lt. Aurel Botea - bl. B5A, B5, B5D, B5B, B5C, B6, B6A, B6B, B8, B9"
+      "zone_raw": "• Ale Suraia - 50 • Ale Berevoieşti - bl. 53,"
     },
     {
       "sector": 3,
@@ -1527,6 +1491,18 @@
       "basis_n": 347,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lucreţiu Pătrăşcanu - Module bl.G3, Y1 • Int Bădeni - Module bl.Y7, Y7bis"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Zona IV",
+      "blocks": 14,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar - Scoala nr.36 Str.Costila nr.2",
+      "estimated_restore": "2026-08-19T16:00",
+      "on_time_probability": 0.552,
+      "basis_n": 29,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Grădiştea - bl. A9, A10 • Ale Reşiţa D - A1, A3, A4, A5, A7, A8 • Str Reşiţa - bl. A2, A6 • Str Uioara - bl. A11, A12, A13, A14"
     },
     {
       "sector": 4,
