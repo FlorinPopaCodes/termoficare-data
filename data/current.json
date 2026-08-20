@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T19:23:08",
+  "scraped_at": "2026-08-20T19:58:51",
   "status": "ok",
   "outages": [
     {
@@ -315,18 +315,6 @@
       "basis_n": 347,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Perişoru - bl. H34, H35, H36 • Ale Giurgeni - bl.F6, F7, F8, F9, F10, F11, F12, F13, F14 • Str Gura Ialomiţei - bl. PC8, PC9, PC10, PC11,H33,H32 PC12, H28, H29, H30, H31 • Str Feteşti - bl. V13, H27"
-    },
-    {
-      "sector": 3,
-      "pt_name": "8C3/2",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic -Ale Barajul Bistriţei",
-      "estimated_restore": "2026-08-20T21:30",
-      "on_time_probability": 0.458,
-      "basis_n": 48,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Vasile Goldiş - bl.1 • Ale Barajul Rovinari - bl.Y12, Y13 • Ale Barajul Bistriţei - bl.4, Y4, Y5 • Bld 1 Decembrie 1918 - bl.2, 3, 5, Y11"
     },
     {
       "sector": 3,
