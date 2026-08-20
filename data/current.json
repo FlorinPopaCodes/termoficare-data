@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T18:24:12",
+  "scraped_at": "2026-08-20T19:23:08",
   "status": "ok",
   "outages": [
     {
@@ -822,6 +822,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "3 Tomis",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.361,
+      "basis_n": 36,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
+    },
+    {
+      "sector": 3,
       "pt_name": "16 Răcari",
       "blocks": 17,
       "service": "Deficienta ACC",
@@ -846,18 +858,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Labirint",
-      "blocks": 7,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.531,
-      "basis_n": 2984,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Matei Basarab - bl. 119bis, L121, L118A, L116A • Str Labirint - bl. L117, L119, L117bis"
-    },
-    {
-      "sector": 3,
       "pt_name": "SC.1Dudesti",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -870,27 +870,15 @@
     },
     {
       "sector": 3,
-      "pt_name": "I3",
-      "blocks": 6,
+      "pt_name": "9C4/2",
+      "blocks": 15,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
       "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.286,
-      "basis_n": 28,
+      "on_time_probability": 0.394,
+      "basis_n": 33,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Miletin - Imobil • Pţa Alba Iulia - bl. I1, I2, I3, I4, I5"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Cornul Caprei",
-      "blocks": 3,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.417,
-      "basis_n": 48,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
+      "zone_raw": "• Str Odobeşti - bl. T1, V35 • Str Lotrioara - bl. M31A, M31B, 31, V32, V30, V33, V34, V36, V37, V38, V39, V40, V41"
     },
     {
       "sector": 3,
@@ -1014,15 +1002,15 @@
     },
     {
       "sector": 3,
-      "pt_name": "5 Cornul Caprei",
-      "blocks": 10,
+      "pt_name": "2 Șulea",
+      "blocks": 6,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
       "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.425,
-      "basis_n": 87,
+      "on_time_probability": 0.382,
+      "basis_n": 34,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lt. Aurel Botea - D24, D22 • Bld Burebista - D15, D16 • Str Caloian Judeţul - D19A, D21A, D20, D19B, D18, D21B"
+      "zone_raw": "• Str Odobeşti - bl. Z1, Z3 • Bld Camil Ressu - bl. N4, N5, Z4, Z5"
     },
     {
       "sector": 3,
@@ -1062,18 +1050,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "4 Labirint",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.171,
-      "basis_n": 41,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Matei Basarab - bl. L112, L112A, L113A, L113 • Str Traian - bl. L112B"
-    },
-    {
-      "sector": 3,
       "pt_name": "9 Laborator",
       "blocks": 17,
       "service": "Deficienta ACC",
@@ -1098,27 +1074,15 @@
     },
     {
       "sector": 3,
-      "pt_name": "5 Călăraşi",
-      "blocks": 5,
+      "pt_name": "1 Nicolae Pascu",
+      "blocks": 14,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
       "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.424,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Matei Basarab - 64 • Cal Călăraşi - 59, 60, 61, 58"
-    },
-    {
-      "sector": 3,
-      "pt_name": "S6",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.35,
-      "basis_n": 60,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Decebal - bl. S11, S9, S10, S7, S4, H3, S6, S5, S7, S8"
+      "on_time_probability": 0.292,
+      "basis_n": 5772,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Sold. Spiridon Matei - bl. 12 • Str Lăcrămioarei - bl. 6 • Str Lt. Nicolae Pascu - bl. 8, R1, R2, 3, 4, 5, 7A, 7A1, 7B, 7B1 • Str Serg. Marin Bonea - bl. 7, 13 • Ale Râmnicu Sărat - bl. 11B, 11B1"
     },
     {
       "sector": 3,
