@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T11:02:48",
+  "scraped_at": "2026-08-20T11:53:23",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "Ct Magheru 7-9",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în centrala termică pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-20T12:00",
+      "on_time_probability": 0.35,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld G-ral Gheorghe Magheru - Bl 7 • Str Cosmonauţilor - Bl 9 ,Bl Plomba"
+    },
     {
       "sector": 1,
       "pt_name": "3 Titulescu",
@@ -918,18 +930,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Tomis",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.361,
-      "basis_n": 36,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
-    },
-    {
-      "sector": 3,
       "pt_name": "16 Răcari",
       "blocks": 17,
       "service": "Deficienta ACC",
@@ -1575,6 +1575,54 @@
       "basis_n": 3239,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Sold. Niculae T. Sebe - bl.S20, S21, S22, S23, S24, V11 • Str Gheorghe Tăttărescu - bl.P1, P2, S13 • Str Murgeni - bl.L23, L25, L26, • Str Bucovina - bl.G1, G2, G3, O1, O2 • Str Copăceni - bl. L20, L21, L22, L24, W3 • Str Constantin Brâncuşi - bl.D12, D13, D14, S14"
+    },
+    {
+      "sector": 4,
+      "pt_name": "6 Zona II",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar - (str. Vatra Dornei nr. 1)",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.575,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
+    },
+    {
+      "sector": 4,
+      "pt_name": "5 Zona II",
+      "blocks": 16,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar - (str. Vatra Dornei nr. 1)",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.5,
+      "basis_n": 32,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Alexandru Obregia - bl. 10-14, 16 • Str Râul Mara - bl. E1, M2 • Str Podarului - bl. F1, F3 • Str Vatra Dornei - bl. A14, E2, E3, E4, E5, F2, F4, F5, M1 • Str Târnava Mică - bl. M3"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Zona II",
+      "blocks": 19,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar - (str. Vatra Dornei nr. 1)",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.667,
+      "basis_n": 30,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Vatra Dornei - Scoala nr.108 • Bld Constantin Brâncoveanu - bl. C4A, C4B, E13, V1A, V3, V4 • Str Dorohoi - bl. EF24, F15 • Str Covasna - bl. E11, E15, E16, F13, F17, F18 • Ale Covasna - bl. E14, EF23, F12, F14, F16"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Posta",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar - (str. Vatra Dornei nr. 1)",
+      "estimated_restore": "2026-08-21T23:00",
+      "on_time_probability": 0.654,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Alexandru Obregia - bl. 18A, 20Bis, A15, R3, R13, II/30, II/31 • Str Vatra Dornei - bl. A16, 18B+C"
     },
     {
       "sector": 4,
