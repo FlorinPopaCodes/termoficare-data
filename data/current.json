@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T16:26:06",
+  "scraped_at": "2026-08-20T17:06:11",
   "status": "ok",
   "outages": [
     {
@@ -15,30 +15,6 @@
       "basis_n": 2288,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Club Steaua",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare Retea Termica Primara prin programul POIM Lot 2 obiectiv 9-Firma Elsaco..",
-      "estimated_restore": "2026-08-20T23:30",
-      "on_time_probability": 0.386,
-      "basis_n": 2288,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Plevnei - 114"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Muzeul Militar",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare Retea Termica Primara prin programul POIM Lot 2 obiectiv 9-Firma Elsaco..",
-      "estimated_restore": "2026-08-20T23:30",
-      "on_time_probability": 0.386,
-      "basis_n": 2288,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mircea Vulcănescu - Muzeul Militar"
     },
     {
       "sector": 1,
@@ -159,6 +135,18 @@
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "8C3/2",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic -Ale Barajul Bistriţei",
+      "estimated_restore": "2026-08-20T21:30",
+      "on_time_probability": 0.458,
+      "basis_n": 48,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Vasile Goldiş - bl.1 • Ale Barajul Rovinari - bl.Y12, Y13 • Ale Barajul Bistriţei - bl.4, Y4, Y5 • Bld 1 Decembrie 1918 - bl.2, 3, 5, Y11"
     },
     {
       "sector": 3,
