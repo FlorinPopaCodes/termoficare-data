@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T10:22:19",
+  "scraped_at": "2026-08-20T11:02:48",
   "status": "ok",
   "outages": [
     {
@@ -23,9 +23,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere/înlocuire buclă de contorizare pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-08-20T11:00",
-      "on_time_probability": 0.652,
-      "basis_n": 728,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Gen. Athanasie Enescu - bl. 49"
     },
     {
@@ -1278,6 +1278,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "SC.2Viisoara - Module Termice",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
+      "estimated_restore": "2026-09-15T23:30",
+      "on_time_probability": 0.487,
+      "basis_n": 347,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Barajul Lotru - Module bl.M4B, M5B, M6B, M7B, • Ale Barajul Cucuteni - Module bl.M4A, M5A, M6A, M7A, M8A, M8B"
+    },
+    {
+      "sector": 3,
       "pt_name": "9 Catelu",
       "blocks": 9,
       "service": "Deficienta ACC",
@@ -1299,6 +1311,18 @@
       "basis_n": 347,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Lăceni - bl. PM83, PM84, PM85 • Str Liviu Rebreanu - bl. PM70, PM71, PM72 • Bld 1 Decembrie 1918 - bl. PM73, PM74, PM75, PM76, PM77, PM78, PM79, PM80, PM81, PM82, U6"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.1Cornisa - Module Termice",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
+      "estimated_restore": "2026-09-15T23:30",
+      "on_time_probability": 0.487,
+      "basis_n": 347,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Barajul Iezeru - Module bl.M1A+B • Ale Barajul Bicaz - Module bl. M2A+B, M3A, M3B, M25A+B, M26 • Bld 1 Decembrie 1918 - Module bl.M27, M28"
     },
     {
       "sector": 3,
@@ -1374,6 +1398,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "SC.4C3/2 - Module Termice",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
+      "estimated_restore": "2026-09-15T23:30",
+      "on_time_probability": 0.487,
+      "basis_n": 347,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Liviu Rebreanu - M9,M10,M11,M12 • Ale Barajul Dunării - M35"
+    },
+    {
+      "sector": 3,
       "pt_name": "7C3/2",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -1407,6 +1443,18 @@
       "basis_n": 347,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Int Vâslei - bl. PM63 • Bld Basarabia - bl. 35, 36 • Ale Frt. Constantin Tudor - bl. 40, 41 • Str Câmpia Libertăţii - bl. PM60, PM61, PM62, 42"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.G2 - Module Termice",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
+      "estimated_restore": "2026-09-15T23:30",
+      "on_time_probability": 0.487,
+      "basis_n": 347,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Pleniţa - Module bl.Y8 • Str Lucreţiu Pătrăşcanu - Module bl.G2, Y2 • Int Bârsei - Module bl.M9bis, M12 • Int Bădeni - Module bl.M9"
     },
     {
       "sector": 3,
@@ -2043,6 +2091,18 @@
       "basis_n": 55,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Secuilor - bl. 21, 22 • Ale Donea Diana Alexandra - bl.19, 32, V18, 19B • Str Rezonanţei - bl. 15+16 • Bld Constantin Brâncoveanu - bl. 29, 30 • Ale Cricovul Dulce - bl. 15, 16, 17, 18, 17-18, N16, N17, N18, N19, N21, Policlinica • Ale Adrian Dan Urucu - bl. 20, 31, N17, Gradinița nr.227"
+    },
+    {
+      "sector": 5,
+      "pt_name": "6 Margeanului - Partial",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-20T15:30",
+      "on_time_probability": 0.504,
+      "basis_n": 6409,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M25, M26, M27 • Str Sold. Ene Modoran - bl. M91, M 90 • Str Dumbrava Nouă - bl. M28, M80 • Str Mărgeanului - bl. M24"
     },
     {
       "sector": 5,
