@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T19:58:51",
+  "scraped_at": "2026-08-20T20:55:31",
   "status": "ok",
   "outages": [
     {
@@ -15,30 +15,6 @@
       "basis_n": 2288,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 1,
-      "pt_name": "3 Dinicu Golescu",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare retea termica primara prin programul POIM,efctuate de ELSACO",
-      "estimated_restore": "2026-08-20T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 194,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Garnizoana",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare retea termica primara prin programul POIM,efctuate de ELSACO",
-      "estimated_restore": "2026-08-20T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 194,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Institutul Medico-Militar - 22"
     },
     {
       "sector": 2,
