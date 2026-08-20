@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T08:21:36",
+  "scraped_at": "2026-08-20T08:53:05",
   "status": "ok",
   "outages": [
     {
@@ -87,6 +87,18 @@
       "basis_n": 194,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Institutul Medico-Militar - 22"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Iancului",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-20T15:30",
+      "on_time_probability": 0.731,
+      "basis_n": 67,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Iancului - bl.114A, 113B, 115, 114B, 113A, 113C"
     },
     {
       "sector": 2,
@@ -2259,6 +2271,18 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "SC 4/5 - Partial",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum. (str.Dezrobirii .)",
+      "estimated_restore": "2026-08-20T13:30",
+      "on_time_probability": 0.414,
+      "basis_n": 10363,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Dezrobirii - bl. 23, 24, 25."
     }
   ]
 }
