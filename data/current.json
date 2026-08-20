@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T07:49:56",
+  "scraped_at": "2026-08-20T08:21:36",
   "status": "ok",
   "outages": [
     {
@@ -99,6 +99,30 @@
       "basis_n": 2112,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Chişinău - bl.M15, M13, M14.sc.1,2, M23 • Str Cernăuţi - bl.M12, M11Bis • Bld Basarabia - bl.M22, M21 • Str Pescăruşului - .bl.M16, M11, M20"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
+      "estimated_restore": "2026-09-15T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Teiul Doamnei",
+      "blocks": 27,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară din cauza lucrărilor de modernizare",
+      "estimated_restore": "2026-09-15T23:00",
+      "on_time_probability": 0.375,
+      "basis_n": 32,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nada Florilor - bl.14, 13, 5 • Str Petre Antonescu - bl.11, 12, 23, 24, 26, 25 • Str Braşoveni - bl.15, 17, 19, 16, 18, 20, 7, 4, 3 • Str Lăptari Tei - bl. 6 • Str Teiul Doamnei - bl.8, 9, 10, 21, 22, 1, 2"
     },
     {
       "sector": 2,
@@ -1515,6 +1539,18 @@
       "basis_n": 347,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lucreţiu Pătrăşcanu - Module bl.G3, Y1 • Int Bădeni - Module bl.Y7, Y7bis"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Scoala I Teodoreanu nr.36 - Sala Sport",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar - Scoala nr.36 Str.Costila nr.2",
+      "estimated_restore": "2026-08-20T23:00",
+      "on_time_probability": 0.466,
+      "basis_n": 5819,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Coştila -"
     },
     {
       "sector": 4,
