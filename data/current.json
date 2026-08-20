@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T20:55:31",
+  "scraped_at": "2026-08-20T22:08:43",
   "status": "ok",
   "outages": [
     {
@@ -18,15 +18,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "4 Socului",
-      "blocks": 11,
+      "pt_name": "4 Socului - Partial",
+      "blocks": 9,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-20T22:00",
-      "on_time_probability": 0.246,
-      "basis_n": 2112,
+      "estimated_restore": "2026-08-21T16:00",
+      "on_time_probability": 0.5,
+      "basis_n": 11551,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Chişinău - bl.M15, M13, M14.sc.1,2, M23 • Str Cernăuţi - bl.M12, M11Bis • Bld Basarabia - bl.M22, M21 • Str Pescăruşului - .bl.M16, M11, M20"
+      "zone_raw": "• Bld Chişinău - bl.M15, M14., M23 • Str Cernăuţi - M11Bis • Bld Basarabia - bl.M22, M21 • Str Pescăruşului - .bl.M16, M11, M20"
     },
     {
       "sector": 2,
