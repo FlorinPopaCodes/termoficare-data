@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T14:17:51",
+  "scraped_at": "2026-08-20T14:49:34",
   "status": "ok",
   "outages": [
     {
@@ -195,18 +195,6 @@
       "basis_n": 2059,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Solidarităţii - Modul bl.M36A • Str Liviu Rebreanu - Module bl.M13, M14, M15, M16, M24, M36 • Ale Barajul Bistriţei - Module bl. G2, G3, G4"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Unităţii",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Lucrari in punctul termic",
-      "estimated_restore": "2026-08-20T13:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Vulcan Judeţul - bl. B1B, B1C, B3A • Str Traian Popovici - bl. B3D, B4, B4D, B4F, B4A • Şos Mihai Bravu - bl. B2A, B2B, B2C, B1, B1A, B1D, B3B, B3C • Str Caloian Judeţul - bl. B4C, Scoala Generala nr. 80"
     },
     {
       "sector": 3,
