@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-20T22:43:17",
+  "scraped_at": "2026-08-20T23:43:46",
   "status": "ok",
   "outages": [
     {
@@ -1498,7 +1498,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar - Scoala nr.36 Str.Costila nr.2",
-      "estimated_restore": "2026-08-20T23:00",
+      "estimated_restore": "2026-08-21T12:00",
       "on_time_probability": 0.466,
       "basis_n": 5819,
       "basis_bucket": "sector_cause_slip",
@@ -1510,7 +1510,7 @@
       "blocks": 14,
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar - Scoala nr.36 Str.Costila nr.2",
-      "estimated_restore": "2026-08-20T23:00",
+      "estimated_restore": "2026-08-21T12:00",
       "on_time_probability": 0.342,
       "basis_n": 2273,
       "basis_bucket": "sector_cause_slip",
