@@ -3,11 +3,11 @@ episode_id,sector,pt_name,utility,slip_count
 42fb00ca2c9f,4,1 Stoian Militaru,ACC,19
 b64f3e0c917a,4,3 Oltenita Placare,ACC,20
 cfb72ce9603c,4,2 Oltenita Placare,ACC,9
-182155e35fb1,2,A2 Basarabia,ACC,0
-90b0417436e0,2,A4 Basarabia,ACC,0
-71580040f60f,3,1Muncii,ACC,0
-62aee8e8c3e7,3,3X,ACC,0
-241da1a33234,3,IOR,ACC,0
+182155e35fb1,2,A2 Basarabia,ACC,1
+90b0417436e0,2,A4 Basarabia,ACC,1
+71580040f60f,3,1Muncii,ACC,1
+62aee8e8c3e7,3,3X,ACC,1
+241da1a33234,3,IOR,ACC,1
 50b7bd5beacf,4,1 Oltenita Placare,ACC,8
 e7c311b60006,4,1 Serban Voda,ACC,8
 bd60e59bcd02,4,17 Dolhasca,ACC,8
@@ -20,52 +20,47 @@ db8ed253bda0,4,2 Oltenitei,ACC,8
 e49d02114622,4,Metalurgiei,ACC,8
 b9fb9589878b,4,Pieptanari,ACC,8
 56fd8445c0f4,4,Sincai,ACC,8
-1c37e0e18743,3,10 C5/2,ACC,8
-1e3e6d1ea996,3,11 C5/2,ACC,8
-6bb7c08d41f7,3,12 C5/2,ACC,8
-0f2a1229a630,3,13 C5/2,ACC,8
-0543eb33eb62,3,16 C5/2,ACC,8
-a41354017e81,3,18 C5/2,ACC,8
+1c37e0e18743,3,10 C5/2,ACC,9
+1e3e6d1ea996,3,11 C5/2,ACC,9
+6bb7c08d41f7,3,12 C5/2,ACC,9
+0f2a1229a630,3,13 C5/2,ACC,9
+0543eb33eb62,3,16 C5/2,ACC,9
+a41354017e81,3,18 C5/2,ACC,9
 9f969f94be16,3,1CORNISA,ACC,4
-0da3f41a51a5,3,1Placare-T,ACC,8
+0da3f41a51a5,3,1Placare-T,ACC,9
 7efe9d59d75a,3,1X,ACC,9
-9178156644db,3,2 Placare-T,ACC,8
-88aecd3e79ad,3,21 C5/2,ACC,8
+9178156644db,3,2 Placare-T,ACC,9
+88aecd3e79ad,3,21 C5/2,ACC,9
 758f2735a4bf,3,23 C5/2,ACC,4
-d8c97a6c3ed5,3,24 C5/2,ACC,8
+d8c97a6c3ed5,3,24 C5/2,ACC,9
 3749d2b75dba,3,24A,ACC,9
 89bb8a9d8b2d,3,2Catelu,ACC,9
 2b2a54a38aca,3,2Stejarului,ACC,9
-4039391ee2c6,3,5 C5/2,ACC,8
 0f7a91191348,3,5Catelu,ACC,9
 6281bc30dbe3,3,6 C5/2,ACC,8
 a45ec7e0e614,3,6Catelu,ACC,9
-3a18f0cfdf9c,3,6Placare-T,ACC,8
+3a18f0cfdf9c,3,6Placare-T,ACC,9
 6a8ab62d6b97,3,7C3/2,ACC,4
-92ece573dd8a,3,8 C5/2,ACC,8
-452fcd834b1a,3,8A,ACC,8
+92ece573dd8a,3,8 C5/2,ACC,9
+452fcd834b1a,3,8A,ACC,9
 184762f2398d,3,8X,ACC,4
-1eb971f13aaf,3,9 C5/2,ACC,8
+1eb971f13aaf,3,9 C5/2,ACC,9
 fb7a7c5c46bf,3,9 Catelu,ACC,9
-92eec3f211ed,3,C4,ACC,4
-75d55936b0f1,3,D 16,ACC,4
+92eec3f211ed,3,C4,ACC,5
+75d55936b0f1,3,D 16,ACC,5
 078ac96dcd3f,3,M1,ACC,9
-8a45157234fc,3,PT Scoala Ilioara,ACC,3
-345950d5e3f2,3,SC.1Cornisa - Module Termice,ACC,3
-380863da5c0e,3,SC.2Viisoara - Module Termice,ACC,3
-ad3117a55608,3,SC.3C3/1 - Module Termice,ACC,4
-ed07481bf119,3,SC.4C3/2 - Module Termice,ACC,3
-6842585cb236,3,SC.6C3/2 - Module Termice,ACC,3
-46ccaa3767bb,3,SC.G2 - Module Termice,ACC,3
-d90a82250544,3,SC.G3 - Module Termice,ACC,3
+345950d5e3f2,3,SC.1Cornisa - Module Termice,ACC,5
+380863da5c0e,3,SC.2Viisoara - Module Termice,ACC,5
+ad3117a55608,3,SC.3C3/1 - Module Termice,ACC,5
+ed07481bf119,3,SC.4C3/2 - Module Termice,ACC,5
+6842585cb236,3,SC.6C3/2 - Module Termice,ACC,5
+46ccaa3767bb,3,SC.G2 - Module Termice,ACC,5
+d90a82250544,3,SC.G3 - Module Termice,ACC,5
 53424aaede76,2,33 Muncii,ACC,4
 448b6460ba43,3,SC.1Baba Novac,ACC,2
-480019164d9e,2,13 Lacul Tei,ACC,4
-e47919dce43b,2,4 Socului,ACC,4
+e47919dce43b,2,4 Socului,ACC,5
 f58a53c4d042,2,1 Carei,ACC,3
 c4569b37d2a9,2,2 Voiniceni,ACC,3
-e6360b0665ff,1,3 Dinicu Golescu,ACC,2
-8dd39db4f9c9,1,Garnizoana,ACC,2
 8c07d8de3319,4,Izvorul Cosbuc,ACC,1
 bbde282bbb5b,5,1 din 13 Septembrie,ACC,2
 a98e04fbe568,5,103A,ACC,2
@@ -81,7 +76,7 @@ ebc11fb9bae0,3,7 Vitan,ACC,1
 7bdf85f316b8,3,F6,ACC,0
 a10fa397ffbf,3,G3,ACC,0
 7d3cca3b0d0f,3,J2 Unirii,ACC,0
-d36dd6dd5915,3,3 Placare-T,ACC,1
+d36dd6dd5915,3,3 Placare-T,ACC,2
 46edab79eb70,4,1 Tineretului,ACC,2
 2f607ed03f52,4,1 Vacaresti,ACC,2
 572a8113b2eb,4,2 Lanariei,ACC,2
@@ -91,13 +86,8 @@ aa6490fb1a9d,4,4 Lanariei,ACC,2
 cee4bd66e802,4,Plugarilor,ACC,2
 73632ebcf250,4,V.S.Sud,ACC,4
 a6b6a30465ac,3,11 Laborator,ACC,1
-c219af56fdc2,3,17 Răcari,ACC,1
-87af98e9dd94,3,2 Cornul Caprei,ACC,1
-8ea387c8061b,3,3 Labirint,ACC,1
 a727e5025882,3,4 Theodor Speranţia,ACC,2
-44becbec5e18,3,5 Călăraşi,ACC,1
 74cc7495cf43,3,7 Călăraşi,ACC,1
-80e1d69f462e,3,9 Laborator,ACC,1
 1a209d592c35,3,E1,ACC,1
 899b7cfd2165,3,M107,ACC,1
 4cd90eabf677,2,3 Socului,ACC,2
@@ -113,7 +103,6 @@ d602ab48fd23,4,4 Tineretului,ACC,2
 adc6e059cc85,3,1 Mărăşeşti,ACC,1
 6eedf5a5af95,3,19 Foișor,ACC,1
 7558828d0f43,3,3 Papiu Ilarian,ACC,1
-cfac7bc0cdb6,4,7 Zona I,ACC,0
 47c22c3ea0fa,5,Facultatea de Medicină Veterinară,ACC,0
 5feeaddd3ece,5,Garajul Parlamentului,ACC,0
 3d3c8b54be84,5,Grădiniţa Nr.268 Scoala Nr.128,ACC,0
@@ -159,18 +148,21 @@ adc31068b601,3,Biblioteca Nationala,ACC,0
 62d81b332ca0,3,C3 Căuzaşi,ACC,0
 ec0b94129f42,3,Ministerul de Finante,ACC,0
 1902f70a9fd2,3,Tribunalul Bucuresti,ACC,0
-440e1734e3ea,1,Club Steaua,ACC,0
-0fb1ea7bf1a6,1,Muzeul Militar,ACC,0
 7e5f5eb777e8,1,"Școala Gimnazială ,,Nicolae Titulescu”",ACC,0
 20f25bddf980,3,4X,ACC,0
-01c53ed221b0,4,1 Zona IV,ACC,1
-f8449f7b9a59,3,2 Tomis,ACC,0
-492f0b7a6ea1,3,1 Tomis,ACC,0
-b41d41b84961,3,1 Șulea Nord,ACC,0
-24ff6a8008ef,3,2 Nicolae Pascu,ACC,0
-f83430208041,3,2 Papiu Ilarian,ACC,0
-ed9b2a7086aa,3,10 Nefamilisti,ACC,0
-79effa96dc60,1,6-1 Mai - Partial,ACC,0
-5ca407a7f5df,1,3 Titulescu - Partial,ACC,0
-27979107ffb1,3,3 Theodor Speranţia,ACC,0
-5e1250792900,2,4 Socului - Partial,ACC,0
+01c53ed221b0,4,1 Zona IV,ACC,2
+5e1250792900,2,4 Socului - Partial,ACC,1
+70b52c955b3c,4,Scoala I Teodoreanu nr.36 - Sala Sport,ACC,1
+bc013935c1fc,4,5 Zona II,ACC,1
+0048ee24a825,4,3 Zona II,ACC,0
+d476e82cc127,4,6 Zona II,ACC,0
+ffa6e78c2d65,4,Posta,ACC,0
+cc231c9ffebc,3,1 Laborator,ACC,0
+c6cdc9aea4f0,3,1 Tomis,ACC,0
+97402d59dfca,3,1 Șulea Nord,ACC,0
+e9f70ece154a,3,16 Răcari,ACC,0
+251a6dfe3e04,3,17 Răcari,ACC,0
+04fe90de3b02,3,2 Papiu Ilarian,ACC,0
+62f6bfa7edd3,3,2 Tomis,ACC,0
+8fff589443e2,3,9 Laborator,ACC,0
+31c16c084f79,3,2 Cornul Caprei,ACC,0
