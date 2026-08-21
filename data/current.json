@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-21T11:55:00",
+  "scraped_at": "2026-08-21T12:25:50",
   "status": "ok",
   "outages": [
     {
@@ -1806,15 +1806,15 @@
     },
     {
       "sector": 5,
-      "pt_name": "Giurgiu Farado",
-      "blocks": 15,
+      "pt_name": "Ct Caporal Balan",
+      "blocks": 7,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-21T12:00",
-      "on_time_probability": 0.558,
-      "basis_n": 77,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Podul Giurgiului - 2, 3, 4, 5, 6, 7, 8, 9, 11, 12,13 • Str Vigoniei - 1, 8, 15 • Şos Giurgiului - 16"
+      "cause": "Remediere avarie retea secundara pe circuitul de apa calda de consum, Strada Anghel Dogaru",
+      "estimated_restore": "2026-08-21T15:45",
+      "on_time_probability": 0.504,
+      "basis_n": 6410,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Stogu - Bloc 11 • Str Sold. Tunsu Petre - Bloc 9, Bloc 12, Bloc 13 ,Bloc 14, Bloc C/7 • Str Anghel Dogaru - Bloc 7"
     },
     {
       "sector": 5,
