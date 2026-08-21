@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-21T13:56:37",
+  "scraped_at": "2026-08-21T15:26:17",
   "status": "ok",
   "outages": [
     {
@@ -99,18 +99,6 @@
       "basis_n": 1034,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Călăraşi",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum .",
-      "estimated_restore": "2026-08-21T14:00",
-      "on_time_probability": 0.407,
-      "basis_n": 81,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Matei Basarab - 72, 86, 73, 74, 85, L122, L120, L118 • Str Theodor D. Speranţia - 78, 83, 84 • Str Agricultori - 80, 81, 82,79, • Cal Călăraşi - 75,76,77"
     },
     {
       "sector": 3,
@@ -231,18 +219,6 @@
       "basis_n": 2059,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lucreţiu Pătrăşcanu - Module bl.G3, Y1 • Int Bădeni - Module bl.Y7, Y7bis"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.6C3/2 - Module Termice",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie racord primar - Str Liviu Rebreanu",
-      "estimated_restore": "2026-08-21T23:00",
-      "on_time_probability": 0.232,
-      "basis_n": 2059,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Solidarităţii - Modul bl.M36A • Str Liviu Rebreanu - Module bl.M13, M14, M15, M16, M24, M36 • Ale Barajul Bistriţei - Module bl. G2, G3, G4"
     },
     {
       "sector": 3,
@@ -990,6 +966,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "SC.6C3/2 - Module Termice",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
+      "estimated_restore": "2026-09-15T23:30",
+      "on_time_probability": 0.49,
+      "basis_n": 349,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Solidarităţii - Modul bl.M36A • Str Liviu Rebreanu - Module bl.M13, M14, M15, M16, M24, M36 • Ale Barajul Bistriţei - Module bl. G2, G3, G4"
+    },
+    {
+      "sector": 3,
       "pt_name": "SC.2Viisoara - Module Termice",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -1035,18 +1023,6 @@
       "basis_n": 349,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Barajul Iezeru - Module bl.M1A+B • Ale Barajul Bicaz - Module bl. M2A+B, M3A, M3B, M25A+B, M26 • Bld 1 Decembrie 1918 - Module bl.M27, M28"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2Stejarului",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare.",
-      "estimated_restore": "2026-09-15T23:30",
-      "on_time_probability": 0.49,
-      "basis_n": 349,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Prof. Dr. Nicolau S. Stefan - bl. O1, O2 • Str Pictor Ion Tuculescu - bl. O7, P3 • Str Gheorghe Petraşcu - bl.O3 ,O4 ,O5 ,O6 • Str Rodul Pământului - bl. P1, P2"
     },
     {
       "sector": 3,
@@ -1971,6 +1947,18 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Giulești - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-21T18:30",
+      "on_time_probability": 0.414,
+      "basis_n": 10365,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str George Vâlsan - bl. 2"
     }
   ]
 }
