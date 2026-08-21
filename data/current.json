@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-21T12:25:50",
+  "scraped_at": "2026-08-21T12:58:19",
   "status": "ok",
   "outages": [
     {
@@ -1803,18 +1803,6 @@
       "basis_n": 55,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Secuilor - bl. 21, 22 • Ale Donea Diana Alexandra - bl.19, 32, V18, 19B • Str Rezonanţei - bl. 15+16 • Bld Constantin Brâncoveanu - bl. 29, 30 • Ale Cricovul Dulce - bl. 15, 16, 17, 18, 17-18, N16, N17, N18, N19, N21, Policlinica • Ale Adrian Dan Urucu - bl. 20, 31, N17, Gradinița nr.227"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Ct Caporal Balan",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea secundara pe circuitul de apa calda de consum, Strada Anghel Dogaru",
-      "estimated_restore": "2026-08-21T15:45",
-      "on_time_probability": 0.504,
-      "basis_n": 6410,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Stogu - Bloc 11 • Str Sold. Tunsu Petre - Bloc 9, Bloc 12, Bloc 13 ,Bloc 14, Bloc C/7 • Str Anghel Dogaru - Bloc 7"
     },
     {
       "sector": 5,
