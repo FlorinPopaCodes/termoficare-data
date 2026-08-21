@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-21T17:04:28",
+  "scraped_at": "2026-08-21T18:23:29",
   "status": "ok",
   "outages": [
     {
@@ -1911,18 +1911,6 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Giulești - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-21T18:30",
-      "on_time_probability": 0.414,
-      "basis_n": 10365,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str George Vâlsan - bl. 2"
     }
   ]
 }
