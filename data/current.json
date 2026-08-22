@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-22T16:57:45",
+  "scraped_at": "2026-08-22T17:17:24",
   "status": "ok",
   "outages": [
     {
@@ -1266,18 +1266,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "B 3 Cauzasi",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Depistare si Remediere avarie retea primara",
-      "estimated_restore": "2026-08-24T12:00",
-      "on_time_probability": 0.37,
-      "basis_n": 1319,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Pţa Unirii - bl. B3, B4, B5 ,B6, B7 • Str Radu Vodă - bl. B8 • Bld Dimitrie Cantemir - bl. B2"
-    },
-    {
-      "sector": 4,
       "pt_name": "1 Tineretului",
       "blocks": 33,
       "service": "Oprire ACC",
@@ -1323,30 +1311,6 @@
       "basis_n": 28,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Maria Tănase - bl. 13 • Bld Gheorghe Şincai - bl. 11, 12 • Str Viorele - bl. 15, 17, 18, 20A, 20B, 22, 37, Scoala nr. 97 • Cal Văcăreşti - bl. 23, 24 • Ale Borcea - bl. 14, 16"
-    },
-    {
-      "sector": 4,
-      "pt_name": "V.S.Sud",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Depistare si Remediere avarie retea primara",
-      "estimated_restore": "2026-08-24T12:00",
-      "on_time_probability": 0.208,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
-    },
-    {
-      "sector": 4,
-      "pt_name": "P 5 A",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Depistare si Remediere avarie retea primara",
-      "estimated_restore": "2026-08-24T12:00",
-      "on_time_probability": 0.136,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
     },
     {
       "sector": 4,
