@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-22T13:17:05",
+  "scraped_at": "2026-08-22T15:20:21",
   "status": "ok",
   "outages": [
     {
@@ -15,18 +15,6 @@
       "basis_n": 2290,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 2,
-      "pt_name": "1 Teiul Doamnei",
-      "blocks": 27,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza lucrarilor de modernizare",
-      "estimated_restore": "2026-09-15T23:30",
-      "on_time_probability": 0.394,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nada Florilor - bl.14, 13, 5 • Str Petre Antonescu - bl.11, 12, 23, 24, 26, 25 • Str Braşoveni - bl.15, 17, 19, 16, 18, 20, 7, 4, 3 • Str Lăptari Tei - bl. 6 • Str Teiul Doamnei - bl.8, 9, 10, 21, 22, 1, 2"
     },
     {
       "sector": 2,
@@ -294,18 +282,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "21 Foișor",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.55,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vlaicu Vodă - bl. C8, C9 • Str Vlad Dracul - bl. B12, B13 • Str Vasile Cârlova - bl. A7, A7bis • Str Emil Gârleanu - bl. A6, A4 • Str Lt. col. Dumitru Papazoglu - bl. B10, C6 • Str Anastasie Panu - bl. A12, A5, A16, B7 • Str Alexandru Moruzzi Voievod - bl. A11, A13, B6"
-    },
-    {
-      "sector": 3,
       "pt_name": "SC.1Dudesti",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -318,30 +294,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "F6",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.535,
-      "basis_n": 3016,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Maximilian Popper - bl. F6 • Bld Unirii - bl. F2, F3, F4 • Str Traian - bl. F1 • Str Ion Pillat - bl. F5"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Mihai Bravu Vest",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.352,
-      "basis_n": 71,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl. 2, 3, 4, 5, 6, 7, 103, 104, 105 • Bld Decebal - bl. S1, S2, S2A+S2B, S3 • Ale Apostol Mărgărit - bl. 106, 107, 108, D.G.A.S.P.C, Centrul de zi Titan-Cercelus9 cresa nr.35 • Str Cerceluş - bl. 10-11"
-    },
-    {
-      "sector": 3,
       "pt_name": "9C4/2",
       "blocks": 15,
       "service": "Deficienta ACC",
@@ -351,18 +303,6 @@
       "basis_n": 34,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Odobeşti - bl. T1, V35 • Str Lotrioara - bl. M31A, M31B, 31, V32, V30, V33, V34, V36, V37, V38, V39, V40, V41"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Vitan",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.348,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Vitan - bl. 2, 3, 9, 10, 7C, 2A, 1, 1A, 1B • Str Lugojana - bl. 12, 11 • Str Dristorului - bl. 6 • Ale Râmnicu Sărat - bl. 2B, 7B,7A,15 • Str Râmnicu Vâlcea - bl. 15, 15B, 15A • Str Baia Mare - bl. 4, 8, 7A1,12A 5, 7, 12B"
     },
     {
       "sector": 3,
@@ -390,18 +330,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Unităţii",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.353,
-      "basis_n": 68,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Traian Popovici - bl. B7, B11, B10 • Şos Mihai Bravu - bl. B13, B13A, B13D, B13B, B13C • Str Lt. Aurel Botea - bl. B5A, B5, B5D, B5B, B5C, B6, B6A, B6B, B8, B9"
-    },
-    {
-      "sector": 3,
       "pt_name": "3 Călăraşi",
       "blocks": 13,
       "service": "Deficienta ACC",
@@ -411,18 +339,6 @@
       "basis_n": 51,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
-    },
-    {
-      "sector": 3,
-      "pt_name": "G3",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.463,
-      "basis_n": 41,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. G2, H1, G3, G2A, G2B, G2C • Str Ion Pillat - bl. G1, G1A • Bld Decebal - bl. H2"
     },
     {
       "sector": 3,
@@ -447,18 +363,6 @@
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sold. Spiridon Matei - bl. 12 • Str Lăcrămioarei - bl. 6 • Str Lt. Nicolae Pascu - bl. 8, R1, R2, 3, 4, 5, 7A, 7A1, 7B, 7B1 • Str Serg. Marin Bonea - bl. 7, 13 • Ale Râmnicu Sărat - bl. 11B, 11B1"
-    },
-    {
-      "sector": 3,
-      "pt_name": "E6",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.394,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. E4, E4A • Str Traian - bl. E5, E6"
     },
     {
       "sector": 3,
