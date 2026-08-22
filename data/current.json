@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-22T21:54:43",
+  "scraped_at": "2026-08-22T22:15:40",
   "status": "ok",
   "outages": [
     {
@@ -111,18 +111,6 @@
       "basis_n": 567,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Berechet - bl.T31A • Str Inginerilor Tei - bl.T31B, T30C, T30B, T30A • Bld Ghica Tei - bl.T32, T33, • Str Oteşani - Camin C7 (Bl.T29)"
-    },
-    {
-      "sector": 2,
-      "pt_name": "2 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.402,
-      "basis_n": 567,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
     },
     {
       "sector": 2,
@@ -1436,7 +1424,7 @@
       "sector": 5,
       "pt_name": "VSNord",
       "blocks": 15,
-      "service": "Deficienta ACC/INC",
+      "service": "Deficienta ACC",
       "cause": "Funcționare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
       "estimated_restore": "2026-08-23T08:00",
       "on_time_probability": 0.358,
@@ -1448,7 +1436,7 @@
       "sector": 5,
       "pt_name": "Tribunal",
       "blocks": 7,
-      "service": "Deficienta ACC/INC",
+      "service": "Deficienta ACC",
       "cause": "Funcționare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
       "estimated_restore": "2026-08-23T08:00",
       "on_time_probability": 0.358,
