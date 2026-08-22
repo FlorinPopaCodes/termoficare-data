@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-22T17:17:24",
+  "scraped_at": "2026-08-22T18:42:34",
   "status": "ok",
   "outages": [
     {
@@ -78,18 +78,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "1 Teiul Doamnei",
-      "blocks": 27,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.402,
-      "basis_n": 567,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Nada Florilor - bl.14, 13, 5 • Str Petre Antonescu - bl.11, 12, 23, 24, 26, 25 • Str Braşoveni - bl.15, 17, 19, 16, 18, 20, 7, 4, 3 • Str Lăptari Tei - bl. 6 • Str Teiul Doamnei - bl.8, 9, 10, 21, 22, 1, 2"
-    },
-    {
-      "sector": 2,
       "pt_name": "Ramuri Tei",
       "blocks": 13,
       "service": "Deficienta ACC",
@@ -135,18 +123,6 @@
       "basis_n": 567,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Petricani",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.402,
-      "basis_n": 567,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
     },
     {
       "sector": 2,
@@ -231,6 +207,18 @@
       "basis_n": 186,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
+    },
+    {
+      "sector": 2,
+      "pt_name": "21 Pantelimon",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-22T23:00",
+      "on_time_probability": 0.402,
+      "basis_n": 567,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Măgura Vulturului - bl.413; • Str Elev Ştefan Ştefănescu - bl.419, 420, 423, 422A, 420B, 422, 420C, imob.Nr.67-69 • Şos Pantelimon - bl.409B, 409A, 409, 420A, 411, 410, 412, 421"
     },
     {
       "sector": 2,
@@ -327,6 +315,18 @@
       "basis_n": 1034,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "MY",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire a CTE PROGRESUL si pornire a CTE SUD",
+      "estimated_restore": "2026-08-22T23:00",
+      "on_time_probability": 0.175,
+      "basis_n": 280,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Textiliştilor - bl. MY1, MY2, MY11, MY12 • Bld Basarabia - bl. MY5, MY6, MY7, MY8 • Str Lucreţiu Pătrăşcanu - bl. MY3, MY4 • Bld 1 Decembrie 1918 - bl. MY9, M10"
     },
     {
       "sector": 3,
@@ -567,6 +567,18 @@
       "basis_n": 243,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Vitan",
+      "blocks": 33,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
+      "estimated_restore": "2026-08-22T23:00",
+      "on_time_probability": 0.175,
+      "basis_n": 280,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Vitan - bl. 42, 30, 41, 31, 21, 20, 51, 52, 22 • Str Mureşana - bl. 43B, 44, 58, 58A, 59 • Str Jieneasca - bl. 46, 47, 34, 33 • Str Căluşari - bl. 43, 43A, 24, 25, 50, 43A • Str Alunului - bl. 57 • Şos Mihai Bravu - bl. 53, 54, 55 • Str Răcari - bl. 38, 39 • Str Alunelului - bl. 45, 40, 32"
     },
     {
       "sector": 3,
