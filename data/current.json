@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-22T20:57:30",
+  "scraped_at": "2026-08-22T21:23:06",
   "status": "ok",
   "outages": [
     {
@@ -1338,18 +1338,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "5 Brancoveanu",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.342,
-      "basis_n": 2276,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Împăratul Traian - bl. B8, B9, B10, B11 • Bld Constantin Brâncoveanu - bl. B3, B4, B5, B7"
-    },
-    {
-      "sector": 4,
       "pt_name": "2 Oltenita Placare",
       "blocks": 9,
       "service": "Oprire ACC",
@@ -1371,18 +1359,6 @@
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - 2A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Prasilei",
-      "blocks": 25,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.414,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sold. Dumitru Minca - bl. 23, 24, 25 • Str Sg. Avram Petcu - Imobil nr.8 • Str Melineşti - bl. 1, 2, 3, 4, 11, 12, 13, 14 • Str Giovanni Boccaccio - bl. 5, 6, 7, 8 • Str Frt. Niculaie Marinescu - bl. A1, A2, A3, A4 • Str Praşilei - bl. 21, 22 • Str Peroni - bl. 9, 10, Imobil nr.45"
     },
     {
       "sector": 4,
@@ -1470,6 +1446,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "Gioconda",
+      "blocks": 0,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul de apă rece",
+      "estimated_restore": "2026-08-23T13:00",
+      "on_time_probability": 0.474,
+      "basis_n": 38,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
+    },
+    {
+      "sector": 5,
       "pt_name": "Giurgiu Farado",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -1539,30 +1527,6 @@
       "basis_n": 39,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Unirii - bl. 12, 13, 14, 15 • Spl Independenţei - bl. 16, 17"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Gioconda",
-      "blocks": 0,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie reţea termică primară Magistrala III Sud",
-      "estimated_restore": "2026-08-22T23:30",
-      "on_time_probability": 0.474,
-      "basis_n": 38,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Institutul Teologioc",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie reţea termică primară Magistrala III Sud",
-      "estimated_restore": "2026-08-22T23:30",
-      "on_time_probability": 0.478,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sf. Ecaterina - Nr. 4 - instituţie"
     },
     {
       "sector": 5,
