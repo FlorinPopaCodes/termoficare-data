@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-22T23:12:36",
+  "scraped_at": "2026-08-22T23:38:20",
   "status": "ok",
   "outages": [
     {
@@ -171,6 +171,18 @@
       "basis_n": 567,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Socului",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T08:00",
+      "on_time_probability": 0.402,
+      "basis_n": 567,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Mozaicului - bl.B1, B2, B3 sc.A+B,C; B5, B4, B7, B8, B9 sc.A,B,C • Bld Chişinău - bl. B6 sc.A,B,C; A7, A7 bis, A8 • Str Cernăuţi - bl. A9 • Str Dimitrie Hârlescu - bl. A6"
     },
     {
       "sector": 2,
