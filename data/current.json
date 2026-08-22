@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-22T20:18:50",
+  "scraped_at": "2026-08-22T20:42:47",
   "status": "ok",
   "outages": [
     {
@@ -486,18 +486,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "9C4/2",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.175,
-      "basis_n": 280,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Odobeşti - bl. T1, V35 • Str Lotrioara - bl. M31A, M31B, 31, V32, V30, V33, V34, V36, V37, V38, V39, V40, V41"
-    },
-    {
-      "sector": 3,
       "pt_name": "SC.3Dudesti",
       "blocks": 2,
       "service": "Deficienta ACC",
@@ -531,30 +519,6 @@
       "basis_n": 243,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Vitan",
-      "blocks": 33,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.175,
-      "basis_n": 280,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Vitan - bl. 42, 30, 41, 31, 21, 20, 51, 52, 22 • Str Mureşana - bl. 43B, 44, 58, 58A, 59 • Str Jieneasca - bl. 46, 47, 34, 33 • Str Căluşari - bl. 43, 43A, 24, 25, 50, 43A • Str Alunului - bl. 57 • Şos Mihai Bravu - bl. 53, 54, 55 • Str Răcari - bl. 38, 39 • Str Alunelului - bl. 45, 40, 32"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Nicolae Pascu",
-      "blocks": 14,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-22T23:00",
-      "on_time_probability": 0.175,
-      "basis_n": 280,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Spiridon Matei - bl. 12 • Str Lăcrămioarei - bl. 6 • Str Lt. Nicolae Pascu - bl. 8, R1, R2, 3, 4, 5, 7A, 7A1, 7B, 7B1 • Str Serg. Marin Bonea - bl. 7, 13 • Ale Râmnicu Sărat - bl. 11B, 11B1"
     },
     {
       "sector": 3,
