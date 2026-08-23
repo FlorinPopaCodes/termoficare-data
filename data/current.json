@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-23T10:44:55",
+  "scraped_at": "2026-08-23T13:39:35",
   "status": "ok",
   "outages": [
     {
@@ -239,9 +239,9 @@
       "service": "Deficienta ACC",
       "cause": "Functionare deficitara din cauza manevrelor de oprire a CTE PROGRESUL si pornire a CTE SUD",
       "estimated_restore": "2026-08-23T12:00",
-      "on_time_probability": 0.163,
-      "basis_n": 306,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Textiliştilor - bl. MY1, MY2, MY11, MY12 • Bld Basarabia - bl. MY5, MY6, MY7, MY8 • Str Lucreţiu Pătrăşcanu - bl. MY3, MY4 • Bld 1 Decembrie 1918 - bl. MY9, M10"
     },
     {
@@ -1374,23 +1374,11 @@
     },
     {
       "sector": 5,
-      "pt_name": "Ct Viilor - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea secundara pe circuitul de apa calda de consum, Strada Viilor",
-      "estimated_restore": "2026-08-23T19:00",
-      "on_time_probability": 0.504,
-      "basis_n": 6413,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Viilor - bl. 103;SC 6"
-    },
-    {
-      "sector": 5,
       "pt_name": "Gioconda - Partial",
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie în punctul termic pe circuitul de apă rece",
-      "estimated_restore": "2026-08-23T13:00",
+      "estimated_restore": "2026-08-23T14:00",
       "on_time_probability": 0.504,
       "basis_n": 6413,
       "basis_bucket": "sector_cause_slip",
