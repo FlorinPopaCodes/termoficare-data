@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-23T23:11:29",
+  "scraped_at": "2026-08-24T00:16:38",
   "status": "ok",
   "outages": [
     {
@@ -159,42 +159,6 @@
       "basis_n": 579,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Chişinău - bl.M7; M8; M9 • Str Cernăuţi - bl. M10, B28, M10A; B27 • Str Herţa - bl.D2, B29, J2, X1, X2, X3, X4; • Str Pescăruşului - bl.B26, D6 ; J1; D5; B25; D4; B24 • Ale Codlea - bl.D3, D1, J3, D7"
-    },
-    {
-      "sector": 2,
-      "pt_name": "6 Pantelimon",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.408,
-      "basis_n": 579,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Dobrina - bl. 49B, 49C; 49D1; 49C1 • Bld Chişinău - bl. 48A; 49 • Şos Pantelimon - bl.45, 48, 54 • Str Renului - bl. 49D"
-    },
-    {
-      "sector": 2,
-      "pt_name": "1 Socului",
-      "blocks": 14,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.408,
-      "basis_n": 579,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Mozaicului - bl.B1, B2, B3 sc.A+B,C; B5, B4, B7, B8, B9 sc.A,B,C • Bld Chişinău - bl. B6 sc.A,B,C; A7, A7 bis, A8 • Str Cernăuţi - bl. A9 • Str Dimitrie Hârlescu - bl. A6"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Socului",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.408,
-      "basis_n": 579,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Chişinău - bl.M15, M13, M14.sc.1,2, M23 • Str Cernăuţi - bl.M12, M11Bis • Bld Basarabia - bl.M22, M21 • Str Pescăruşului - .bl.M16, M11, M20"
     },
     {
       "sector": 2,
