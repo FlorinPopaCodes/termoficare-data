@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-23T14:57:02",
+  "scraped_at": "2026-08-23T16:10:05",
   "status": "ok",
   "outages": [
     {
@@ -615,6 +615,30 @@
       "basis_n": 118,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Stoian Militaru",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Oltenita Placare",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
     },
     {
       "sector": 4,
@@ -1323,30 +1347,6 @@
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - 2A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Stoian Militaru",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.346,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
-    },
-    {
-      "sector": 4,
-      "pt_name": "3 Oltenita Placare",
-      "blocks": 22,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.364,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
     },
     {
       "sector": 4,
