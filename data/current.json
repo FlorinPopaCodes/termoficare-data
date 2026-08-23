@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-23T08:52:23",
+  "scraped_at": "2026-08-23T10:08:50",
   "status": "ok",
   "outages": [
     {
@@ -147,6 +147,42 @@
       "basis_n": 368,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Voiniceni",
+      "blocks": 26,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:00",
+      "on_time_probability": 0.408,
+      "basis_n": 579,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Chişinău - bl.M7; M8; M9 • Str Cernăuţi - bl. M10, B28, M10A; B27 • Str Herţa - bl.D2, B29, J2, X1, X2, X3, X4; • Str Pescăruşului - bl.B26, D6 ; J1; D5; B25; D4; B24 • Ale Codlea - bl.D3, D1, J3, D7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Socului",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:00",
+      "on_time_probability": 0.408,
+      "basis_n": 579,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Mozaicului - bl.B1, B2, B3 sc.A+B,C; B5, B4, B7, B8, B9 sc.A,B,C • Bld Chişinău - bl. B6 sc.A,B,C; A7, A7 bis, A8 • Str Cernăuţi - bl. A9 • Str Dimitrie Hârlescu - bl. A6"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Socului",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:00",
+      "on_time_probability": 0.408,
+      "basis_n": 579,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Chişinău - bl.M15, M13, M14.sc.1,2, M23 • Str Cernăuţi - bl.M12, M11Bis • Bld Basarabia - bl.M22, M21 • Str Pescăruşului - .bl.M16, M11, M20"
     },
     {
       "sector": 2,
@@ -495,18 +531,6 @@
       "basis_n": 753,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Sold. Niculae T. Sebe - bl.S20, S21, S22, S23, S24, V11 • Str Gheorghe Tăttărescu - bl.P1, P2, S13 • Str Murgeni - bl.L23, L25, L26, • Str Bucovina - bl.G1, G2, G3, O1, O2 • Str Copăceni - bl. L20, L21, L22, L24, W3 • Str Constantin Brâncuşi - bl.D12, D13, D14, S14"
-    },
-    {
-      "sector": 4,
-      "pt_name": "V.S.Sud",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire a CTE PROGRESU si pornire a CTE SUD",
-      "estimated_restore": "2026-08-23T23:00",
-      "on_time_probability": 0.483,
-      "basis_n": 118,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
     },
     {
       "sector": 4,
