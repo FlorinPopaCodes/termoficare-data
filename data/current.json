@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-23T08:20:09",
+  "scraped_at": "2026-08-23T08:52:23",
   "status": "ok",
   "outages": [
     {
@@ -1407,18 +1407,6 @@
       "basis_n": 1935,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Podul Giurgiului - bl. 17, 18, Liceul Energetic • Str Toporaşi - bl. 15 • Şos Giurgiului - bl. 5, 6, 7"
-    },
-    {
-      "sector": 5,
-      "pt_name": "VSNord",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-23T23:00",
-      "on_time_probability": 0.706,
-      "basis_n": 68,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Pţa Naţiunile Unite - B1, B2, C • Str Sfintii Apostoli - 3B • Bld Unirii - 1, 1A, 1B, 1C, 2A, 2B, 2C, 3, 4A, 4B • Str Bordea Poenaru - 8-10"
     },
     {
       "sector": 5,
