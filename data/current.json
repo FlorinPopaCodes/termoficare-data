@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-23T10:08:50",
+  "scraped_at": "2026-08-23T10:44:55",
   "status": "ok",
   "outages": [
     {
@@ -159,6 +159,18 @@
       "basis_n": 579,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Chişinău - bl.M7; M8; M9 • Str Cernăuţi - bl. M10, B28, M10A; B27 • Str Herţa - bl.D2, B29, J2, X1, X2, X3, X4; • Str Pescăruşului - bl.B26, D6 ; J1; D5; B25; D4; B24 • Ale Codlea - bl.D3, D1, J3, D7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "6 Pantelimon",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:00",
+      "on_time_probability": 0.408,
+      "basis_n": 579,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Dobrina - bl. 49B, 49C; 49D1; 49C1 • Bld Chişinău - bl. 48A; 49 • Şos Pantelimon - bl.45, 48, 54 • Str Renului - bl. 49D"
     },
     {
       "sector": 2,
