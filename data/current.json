@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-23T13:57:22",
+  "scraped_at": "2026-08-23T14:42:17",
   "status": "ok",
   "outages": [
     {
@@ -231,6 +231,18 @@
       "basis_n": 1035,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "MY",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire a CTE PROGRESUL si pornire a CET SUD",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.163,
+      "basis_n": 306,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Textiliştilor - bl. MY1, MY2, MY11, MY12 • Bld Basarabia - bl. MY5, MY6, MY7, MY8 • Str Lucreţiu Pătrăşcanu - bl. MY3, MY4 • Bld 1 Decembrie 1918 - bl. MY9, M10"
     },
     {
       "sector": 3,
@@ -531,6 +543,102 @@
       "basis_n": 753,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Sold. Niculae T. Sebe - bl.S20, S21, S22, S23, S24, V11 • Str Gheorghe Tăttărescu - bl.P1, P2, S13 • Str Murgeni - bl.L23, L25, L26, • Str Bucovina - bl.G1, G2, G3, O1, O2 • Str Copăceni - bl. L20, L21, L22, L24, W3 • Str Constantin Brâncuşi - bl.D12, D13, D14, S14"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenitei",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Mărţişor - Scoala Gimnaziala Martisor • Şos Olteniţei - bl. 1, 2, 3, 7, 8, 9, G1, G2, G3, G4, G5"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Serban Voda",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Oltenita Placare",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 4, 5, 6 • Str Păduroiu - B24 • Bld Constantin Brâncoveanu - U.M.0221"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Serban Voda",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenita Placare",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Sincai",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Mocăncuţei - Imobil nr.12 • Bld Gheorghe Şincai - bl. 2, 4 • Str Tineretului - bl 5,Z1 • Str Trestiana - bl. 3 • Str Constantin Rădulescu-Motru - bl. 1, 35 • Str Cuza Vodă - bl. 37A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Pieptanari",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.483,
+      "basis_n": 118,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Constantin Mănescu - bl. 6, 7, 8, Comunitatea Musulmană • Bld Pieptănari - bl. 5 • Str Dârste - Imobil nr.3 • Şos Viilor - bl. 4AB • Str Dumitru P. Botez - bl. Plomba 12 • Cal Şerban Vodă - bl. 2, 3A, 3B, 11 • Str Pandele Roşca - Scoala Gimnaziala Princepesa Margareta • Str Nicolae Galea - bl. 10 • Str Scarlat Otulescu - bl. 9"
     },
     {
       "sector": 4,
@@ -1194,18 +1302,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "2 Oltenitei",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.371,
-      "basis_n": 1330,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mărţişor - Scoala Gimnaziala Martisor • Şos Olteniţei - bl. 1, 2, 3, 7, 8, 9, G1, G2, G3, G4, G5"
-    },
-    {
-      "sector": 4,
       "pt_name": "Metalurgiei",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -1215,78 +1311,6 @@
       "basis_n": 30,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - bl. OD1, 2B, 2A, M1, OD2"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Serban Voda",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.321,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Oltenita Placare",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.371,
-      "basis_n": 1330,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 4, 5, 6 • Str Păduroiu - B24 • Bld Constantin Brâncoveanu - U.M.0221"
-    },
-    {
-      "sector": 4,
-      "pt_name": "4 Oltenita Placare",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.371,
-      "basis_n": 1330,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Stoian Militaru",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.435,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Serban Voda",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.308,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.423,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
     },
     {
       "sector": 4,
@@ -1326,18 +1350,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "Sincai",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.417,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mocăncuţei - Imobil nr.12 • Bld Gheorghe Şincai - bl. 2, 4 • Str Tineretului - bl 5,Z1 • Str Trestiana - bl. 3 • Str Constantin Rădulescu-Motru - bl. 1, 35 • Str Cuza Vodă - bl. 37A"
-    },
-    {
-      "sector": 4,
       "pt_name": "17 Dolhasca",
       "blocks": 11,
       "service": "Oprire ACC",
@@ -1349,27 +1361,15 @@
       "zone_raw": "• Str Sg. Gheorghe Tache - bl. 17 • Şos Olteniţei - bl. 1, 2, 3, 13, 14, 16, Parohie • Str Huşi - bl. PA1, PA2 • Str Dolhasca - Vila Serban"
     },
     {
-      "sector": 4,
-      "pt_name": "Pieptanari",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.371,
-      "basis_n": 1330,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Constantin Mănescu - bl. 6, 7, 8, Comunitatea Musulmană • Bld Pieptănari - bl. 5 • Str Dârste - Imobil nr.3 • Şos Viilor - bl. 4AB • Str Dumitru P. Botez - bl. Plomba 12 • Cal Şerban Vodă - bl. 2, 3A, 3B, 11 • Str Pandele Roşca - Scoala Gimnaziala Princepesa Margareta • Str Nicolae Galea - bl. 10 • Str Scarlat Otulescu - bl. 9"
-    },
-    {
       "sector": 5,
       "pt_name": "Gioconda - Partial",
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie în punctul termic pe circuitul de apă rece",
       "estimated_restore": "2026-08-23T14:00",
-      "on_time_probability": 0.504,
-      "basis_n": 6413,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
     },
     {
