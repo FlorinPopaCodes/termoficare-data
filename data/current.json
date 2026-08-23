@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-23T16:10:05",
+  "scraped_at": "2026-08-23T19:48:20",
   "status": "ok",
   "outages": [
     {
@@ -426,6 +426,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "3 Labirint",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
+      "estimated_restore": "2026-08-23T23:30",
+      "on_time_probability": 0.163,
+      "basis_n": 306,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Matei Basarab - bl. 119bis, L121, L118A, L116A • Str Labirint - bl. L117, L119, L117bis"
+    },
+    {
+      "sector": 3,
       "pt_name": "SC.1Dudesti",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -603,18 +615,6 @@
       "basis_n": 118,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-23T23:30",
-      "on_time_probability": 0.483,
-      "basis_n": 118,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
     },
     {
       "sector": 4,
