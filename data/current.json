@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-24T16:29:28",
+  "scraped_at": "2026-08-24T17:57:35",
   "status": "ok",
   "outages": [
     {
@@ -1299,18 +1299,6 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 2/3 - MODULE TERMICE - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "LUCRARE MODERNIZARE",
-      "estimated_restore": "2026-08-24T15:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Drumul Taberei - bl. F4"
     }
   ]
 }
