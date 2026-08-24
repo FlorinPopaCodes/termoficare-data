@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-25T00:19:23",
+  "scraped_at": "2026-08-25T01:15:39",
   "status": "ok",
   "outages": [
     {
@@ -207,18 +207,6 @@
       "basis_n": 194,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Chişinău - bl.A1, A5, A5Bis, A3Bis, A4, A2, A3 • Str Dimitrie Hârlescu - bl.A5A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "A4 Basarabia",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare intarziate din cauza firmei SAEM-Obiectiv 3",
-      "estimated_restore": "2026-08-28T23:00",
-      "on_time_probability": 0.365,
-      "basis_n": 1035,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
     },
     {
       "sector": 3,
