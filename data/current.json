@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-24T07:58:53",
+  "scraped_at": "2026-08-24T09:22:51",
   "status": "ok",
   "outages": [
     {
@@ -15,6 +15,30 @@
       "basis_n": 2290,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4' Pantelimon",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-08-24T14:00",
+      "on_time_probability": 0.304,
+      "basis_n": 46,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Pantelimon - bl.69T"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Stefan cel Mare",
+      "blocks": 19,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul primar",
+      "estimated_restore": "2026-08-24T15:00",
+      "on_time_probability": 0.451,
+      "basis_n": 71,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Ştefan cel Mare - bl18,18A,18b,19,22,23,20,15A,14,Imob.nrbv 20 • Str Polonă - bl 17A+B,15 • Str Paul Greceanu - bl 24A, 21A, 21, 20A • Str Aurel Vlaicu - bl 19A,20,Imob nr 166"
     },
     {
       "sector": 2,
@@ -114,18 +138,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "4 Cheile Zanoagei",
-      "blocks": 26,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.454,
-      "basis_n": 194,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Alexandru cel Bun - BL.T61; T50 sc.1 • Str Deleni - bl.T69, T65, T63; T66, T74, T64 • Str Grigore Ionescu - bl.T71, T75, T72, T59, T60, T73 • Str Maica Domnului - bl.T56, T57, T58, T54, T55, T52, T53, T51, T50 sc.2 • Str Oteşani - bl.T70, T68, T67, T62"
-    },
-    {
-      "sector": 2,
       "pt_name": "1 Mosilor",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -195,6 +207,18 @@
       "basis_n": 1035,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "9 Vitan",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Lipsa alimentare cu apa rece in punctul termic",
+      "estimated_restore": "2026-08-24T12:00",
+      "on_time_probability": 0.285,
+      "basis_n": 1457,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Zizin - bl. 97, V101C, V101B • Str Vlaicu Vodă - bl. V34C, V100 • Cal Vitan - bl. V34A, V35 • Str Nucului - bl. V100, V101,V101A • Str Banu Udrea - bl. V104, V103, V101C, V99, V97, V102, V95"
     },
     {
       "sector": 3,
@@ -423,78 +447,6 @@
       "basis_n": 349,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Unirii - 37"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Labirint",
-      "blocks": 7,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.367,
-      "basis_n": 267,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Matei Basarab - bl. 119bis, L121, L118A, L116A • Str Labirint - bl. L117, L119, L117bis"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Dudesti",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.39,
-      "basis_n": 349,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Drm Murgului - Module bl.51B, 52B, 54, 54A, 55A • Str Liviu Rebreanu - Module bl.51.51A, 52, 53 • Bld Camil Ressu - Modul bl.55"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.3Dudesti",
-      "blocks": 2,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.39,
-      "basis_n": 349,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dristorului - Module bl.63 • Str Complexului - Module bl.62,"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Baba Novac",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.39,
-      "basis_n": 349,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Călăraşi",
-      "blocks": 13,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.39,
-      "basis_n": 349,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
-    },
-    {
-      "sector": 3,
-      "pt_name": "5 Călăraşi",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE SUD.",
-      "estimated_restore": "2026-08-24T23:30",
-      "on_time_probability": 0.163,
-      "basis_n": 307,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Matei Basarab - 64 • Cal Călăraşi - 59, 60, 61, 58"
     },
     {
       "sector": 3,
@@ -1563,6 +1515,18 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3 Uverturii",
+      "blocks": 12,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum. Str. Fabricii",
+      "estimated_restore": "2026-08-24T14:30",
+      "on_time_probability": 0.25,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Fabricii - bl. 15E, 15D, 15C, 25/III, 25/IV, 25/V • Bld Iuliu Maniu - bl. 15bis, 15A, 15B • Ale Cetăţuia - bl. 25/I, 25/II"
     }
   ]
 }
