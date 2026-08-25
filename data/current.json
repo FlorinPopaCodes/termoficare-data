@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-25T19:30:16",
+  "scraped_at": "2026-08-25T20:04:54",
   "status": "ok",
   "outages": [
     {
@@ -1326,6 +1326,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "1 Labirint",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresu.",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.166,
+      "basis_n": 314,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
+    },
+    {
+      "sector": 3,
       "pt_name": "Mihai Bravu Vest",
       "blocks": 18,
       "service": "Deficienta ACC",
@@ -1407,6 +1419,18 @@
       "basis_n": 314,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Theodor D. Speranţia - bl. S24, S25, S26, S27,S28 • Bld Decebal - bl. S12, S12A, S12B, S13, S14, S15"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Vitan",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresu.",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.166,
+      "basis_n": 314,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Vitan - bl. 2, 3, 9, 10, 7C, 2A, 1, 1A, 1B • Str Lugojana - bl. 12, 11 • Str Dristorului - bl. 6 • Ale Râmnicu Sărat - bl. 2B, 7B,7A,15 • Str Râmnicu Vâlcea - bl. 15, 15B, 15A • Str Baia Mare - bl. 4, 8, 7A1,12A 5, 7, 12B"
     },
     {
       "sector": 3,
@@ -1698,6 +1722,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "4 Labirint",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresu.",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.166,
+      "basis_n": 314,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Matei Basarab - bl. L112, L112A, L113A, L113 • Str Traian - bl. L112B"
+    },
+    {
+      "sector": 3,
       "pt_name": "7 Vitan",
       "blocks": 12,
       "service": "Deficienta ACC",
@@ -1966,7 +2002,7 @@
       "blocks": 10,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - Bld.1 Decembrie 1918",
-      "estimated_restore": "2026-08-25T23:00",
+      "estimated_restore": "2026-08-26T15:30",
       "on_time_probability": 0.469,
       "basis_n": 49,
       "basis_bucket": "pt_cause_slip",
@@ -1978,7 +2014,7 @@
       "blocks": 14,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - Bld.1 Decembrie 1918",
-      "estimated_restore": "2026-08-25T23:00",
+      "estimated_restore": "2026-08-26T15:30",
       "on_time_probability": 0.565,
       "basis_n": 23,
       "basis_bucket": "pt_cause_slip",
@@ -1990,7 +2026,7 @@
       "blocks": 8,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - Bld.1 Decembrie 1918",
-      "estimated_restore": "2026-08-25T23:00",
+      "estimated_restore": "2026-08-26T15:30",
       "on_time_probability": 0.594,
       "basis_n": 32,
       "basis_bucket": "pt_cause_slip",
@@ -3207,18 +3243,6 @@
       "basis_n": 2295,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Valea Cascadelor - bl. F1, G2, H3, 13, bloc locuinte Valea Cascadelor nr. 15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1/7",
-      "blocks": 28,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-08-25T19:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Paşcani - bl.728A • Str Drumul Taberei - bl. TD1, TD3, TD5, TD42, TD43, TD44, TS37, TS38, TS39, TS40, TS41 • Ale Topoloveni - bl.A1, TD4, TD6, B11,TD2 • Str Cetatea Histria - bl A2, A3, A4, D1, D2, MIIB8/14,MIIB8/15, MIIB8/16 • Str Delineşti - bl.729A"
     }
   ]
 }
