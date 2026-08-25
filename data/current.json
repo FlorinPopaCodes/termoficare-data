@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-25T16:27:20",
+  "scraped_at": "2026-08-25T17:12:06",
   "status": "ok",
   "outages": [
     {
@@ -162,18 +162,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "6 Doamna Ghica",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-08-25T22:30",
-      "on_time_probability": 0.48,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3, 3Bis, 4, 5, 6, 7"
-    },
-    {
-      "sector": 2,
       "pt_name": "1 Cheile Zanoagei - Partial",
       "blocks": 10,
       "service": "Oprire ACC",
@@ -234,6 +222,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "6 Doamna Ghica",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.549,
+      "basis_n": 384,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3, 3Bis, 4, 5, 6, 7"
+    },
+    {
+      "sector": 2,
       "pt_name": "3 Petricani",
       "blocks": 12,
       "service": "Deficienta ACC",
@@ -291,6 +291,18 @@
       "basis_n": 384,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Chişinău - bl.M15, M13, M14.sc.1,2, M23 • Str Cernăuţi - bl.M12, M11Bis • Bld Basarabia - bl.M22, M21 • Str Pescăruşului - .bl.M16, M11, M20"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Mărăşeşti",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Depistare si remediere avarii retea primara.",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.457,
+      "basis_n": 94,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Ştefan Octavian Iosif - bl. M51, M54 • Str Panait Cerna - bl. M53, M52 • Str Nerva Traian - bl. M37, M36, M39, M55, M38 • Bld Octavian Goga - bl. M42, M61 • Str Alexandru Vlahuţă - bl. M49, M50"
     },
     {
       "sector": 3,
@@ -1323,18 +1335,6 @@
       "basis_n": 314,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Matei Basarab - 72, 86, 73, 74, 85, L122, L120, L118 • Str Theodor D. Speranţia - 78, 83, 84 • Str Agricultori - 80, 81, 82,79, • Cal Călăraşi - 75,76,77"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Mărăşeşti",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de pornire a CTE Progresu.",
-      "estimated_restore": "2026-08-26T23:30",
-      "on_time_probability": 0.166,
-      "basis_n": 314,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Ştefan Octavian Iosif - bl. M51, M54 • Str Panait Cerna - bl. M53, M52 • Str Nerva Traian - bl. M37, M36, M39, M55, M38 • Bld Octavian Goga - bl. M42, M61 • Str Alexandru Vlahuţă - bl. M49, M50"
     },
     {
       "sector": 3,
