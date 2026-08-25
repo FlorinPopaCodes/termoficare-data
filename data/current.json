@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-25T13:47:01",
+  "scraped_at": "2026-08-25T14:17:45",
   "status": "ok",
   "outages": [
     {
@@ -126,18 +126,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "12-1 Mai",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum bl 19A",
-      "estimated_restore": "2026-08-25T14:30",
-      "on_time_probability": 0.585,
-      "basis_n": 41,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dr. Iacob Felix - bl. 18, 17, 17A, 19 • Bld Banul Manta - bl.19A • Str Sava Henţia - imob.Nr.6"
-    },
-    {
-      "sector": 1,
       "pt_name": "Club Steaua",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -191,9 +179,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-08-25T14:00",
-      "on_time_probability": 0.5,
-      "basis_n": 11555,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Slt. Dima Cristescu - bl. 222, 221, 220, • Şos Pantelimon - bl.211, 210, 210A"
     },
     {
@@ -1914,6 +1902,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "12 Giurgiu",
+      "blocks": 2,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-25T23:00",
+      "on_time_probability": 0.67,
+      "basis_n": 188,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Giurgiului - bl. 12, 13"
+    },
+    {
+      "sector": 4,
       "pt_name": "Curcani",
       "blocks": 32,
       "service": "Deficienta ACC",
@@ -3299,9 +3299,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum CD BL.D3",
       "estimated_restore": "2026-08-25T14:00",
-      "on_time_probability": 0.4,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Prl Ghencea - bl. D3"
     },
     {
