@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-25T09:29:00",
+  "scraped_at": "2026-08-25T10:24:57",
   "status": "ok",
   "outages": [
     {
@@ -174,6 +174,30 @@
     },
     {
       "sector": 2,
+      "pt_name": "6 Doamna Ghica",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-25T12:00",
+      "on_time_probability": 0.48,
+      "basis_n": 25,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3, 3Bis, 4, 5, 6, 7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "19 Pantelimon - Partial",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-25T14:00",
+      "on_time_probability": 0.5,
+      "basis_n": 11555,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Slt. Dima Cristescu - bl. 222, 221, 220, • Şos Pantelimon - bl.211, 210, 210A"
+    },
+    {
+      "sector": 2,
       "pt_name": "1 Cheile Zanoagei - Partial",
       "blocks": 10,
       "service": "Oprire ACC",
@@ -231,18 +255,6 @@
       "basis_n": 611,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Doamna Ghica - bl.11Sud, 12 Sud"
-    },
-    {
-      "sector": 2,
-      "pt_name": "6 Doamna Ghica",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-25T12:00",
-      "on_time_probability": 0.549,
-      "basis_n": 384,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3, 3Bis, 4, 5, 6, 7"
     },
     {
       "sector": 2,
@@ -474,15 +486,63 @@
     },
     {
       "sector": 3,
-      "pt_name": "SC.G3 - Module Termice - Partial",
-      "blocks": 2,
+      "pt_name": "SC.G3 - Module Termice",
+      "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar -Int. Bădeni",
       "estimated_restore": "2026-08-25T23:00",
       "on_time_probability": 0.474,
       "basis_n": 10133,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Bădeni - Module bl.Y7, Y7bis"
+      "zone_raw": "• Str Lucreţiu Pătrăşcanu - Module bl.G3, Y1 • Int Bădeni - Module bl.Y7, Y7bis"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Zona V",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-08-25T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 796,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Propriu 1",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-27T23:00",
+      "on_time_probability": 0.444,
+      "basis_n": 27,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 52, 53"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Propriu 2",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-27T23:00",
+      "on_time_probability": 0.414,
+      "basis_n": 29,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 55, 56"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenita Nord",
+      "blocks": 14,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-27T23:00",
+      "on_time_probability": 0.419,
+      "basis_n": 31,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Stolnici - bl. 43, 44, 45, 46 • Str Săvineşti - bl. 37, 38A, 38B, 39, 40 • Şos Olteniţei - bl. 31, 33 • Str Vegetaţiei - bl. 32 • Str Cercetătorilor - bl. 35, 48"
     },
     {
       "sector": 4,
@@ -1047,6 +1107,42 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "SC 2/3 - MODULE TERMICE - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Inlocuit vana inc. si conducta retur primar in modul termic",
+      "estimated_restore": "2026-08-25T14:30",
+      "on_time_probability": 0.296,
+      "basis_n": 1447,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Drumul Taberei - bl. F4"
+    },
+    {
+      "sector": 6,
+      "pt_name": "SC 6/2 - MODULE TERMICE - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie acc in modul termic",
+      "estimated_restore": "2026-08-25T13:00",
+      "on_time_probability": 0.422,
+      "basis_n": 45,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Valea Florilor - bl. Z10"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3/7' - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum CD BL.D3",
+      "estimated_restore": "2026-08-25T14:00",
+      "on_time_probability": 0.4,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Prl Ghencea - bl. D3"
     },
     {
       "sector": 6,
