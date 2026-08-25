@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-25T06:10:47",
+  "scraped_at": "2026-08-25T06:57:02",
   "status": "ok",
   "outages": [
     {
@@ -162,18 +162,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "7 Muncii",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Functionare deficitara din cauza manevrelor de oprire CTE Progresu si pornire CTE Sud",
-      "estimated_restore": "2026-08-25T12:00",
-      "on_time_probability": 0.405,
-      "basis_n": 583,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Carei - bl. A18Bis • Bld Basarabia - bl. A16A, A17, A16, A18, A20, A20A, A19, A18A"
-    },
-    {
-      "sector": 2,
       "pt_name": "4 Socului",
       "blocks": 11,
       "service": "Deficienta ACC",
@@ -291,78 +279,6 @@
       "basis_n": 10123,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Int Bădeni - Module bl.Y7, Y7bis"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.3C3/1 - Module Termice",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare intarziate din cauza firmei SAEM",
-      "estimated_restore": "2026-08-28T23:00",
-      "on_time_probability": 0.557,
-      "basis_n": 420,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Nicolae Grigorescu - Module bl.M4, M5bis • Ale Budacu - Module bl.M3, M5, M6,"
-    },
-    {
-      "sector": 3,
-      "pt_name": "D 16",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare intarziate din cauza firmei SAEM",
-      "estimated_restore": "2026-08-28T23:00",
-      "on_time_probability": 0.557,
-      "basis_n": 420,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Nicolae Grigorescu - bl.V20 • Str Constantin Brâncuşi - bl.D15, D16"
-    },
-    {
-      "sector": 3,
-      "pt_name": "C4",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare intarziate din cauza firmei SAEM",
-      "estimated_restore": "2026-08-28T23:00",
-      "on_time_probability": 0.557,
-      "basis_n": 420,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Pictor Nicolae Grigorescu - bl.L2, L3, L4, L5, L6, L7, V18 • Str Constantin Brâncuşi - bl.R19 • Ale Sibiana - bl.R17 • Ale Buchetului - bl.C4"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1Muncii",
-      "blocks": 28,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare intarziate din cauza firmei SAEM",
-      "estimated_restore": "2026-08-28T23:00",
-      "on_time_probability": 0.328,
-      "basis_n": 753,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Niculae T. Sebe - bl. L11, L12, L32, L35, L36, L37, L40, L40A • Str Sold. Petre M. Tină - bl. L9B, L13, L30, L31, L33, L34, L38, L39, L41 • Str Murgeni - bl. L9A, L27, L28, L29 • Bld Basarabia - bl. L7, L8, L9, L13A, L13B, L13C, L13D"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3X",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare intarziate din cauza firmei SAEM",
-      "estimated_restore": "2026-08-28T23:00",
-      "on_time_probability": 0.328,
-      "basis_n": 753,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Niculae T. Sebe - bl.W2, L42 • Bld Nicolae Grigorescu - bl.W1"
-    },
-    {
-      "sector": 3,
-      "pt_name": "IOR",
-      "blocks": 26,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare intarziate din cauza firmei SAEM",
-      "estimated_restore": "2026-08-28T23:00",
-      "on_time_probability": 0.328,
-      "basis_n": 753,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Niculae T. Sebe - bl.S20, S21, S22, S23, S24, V11 • Str Gheorghe Tăttărescu - bl.P1, P2, S13 • Str Murgeni - bl.L23, L25, L26, • Str Bucovina - bl.G1, G2, G3, O1, O2 • Str Copăceni - bl. L20, L21, L22, L24, W3 • Str Constantin Brâncuşi - bl.D12, D13, D14, S14"
     },
     {
       "sector": 4,
