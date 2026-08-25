@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-25T08:54:56",
+  "scraped_at": "2026-08-25T09:29:00",
   "status": "ok",
   "outages": [
     {
@@ -15,6 +15,114 @@
       "basis_n": 79,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str N. Constantinescu - bl. 15A, 14, 14A, 16, 16A, 13, 15, imob.Nr.60 • Str Lt. D. Darian - Nr.27 • Str George Călinescu - bl. 17, 17A, 19A, 20B, 20A • Str Gen. Andrei Popovici - bl. 8, 7, 8A, 7A, imob.Nr.65, 41 • Str Constantin D. Aricescu - bl. 21, 20 • Str Ştefan Protopopescu - bl. 3, 4, 2"
+    },
+    {
+      "sector": 1,
+      "pt_name": "7-1 Mai",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.5,
+      "basis_n": 64,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Ion Mihalache - bl. 5, 6, 7, 8, 9, 10"
+    },
+    {
+      "sector": 1,
+      "pt_name": "140 – 1 Mai",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.5,
+      "basis_n": 64,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Ion Mihalache - bl. 138, 140, 142"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Agronom Seminţe",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.625,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Constantin Sandu-Aldea - 10"
+    },
+    {
+      "sector": 1,
+      "pt_name": "126-1 Mai",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.475,
+      "basis_n": 59,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Ion Mihalache - bl. 1, 2"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Palazul Mare",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.471,
+      "basis_n": 68,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Gen. Athanasie Enescu - bl. 49, 3, 5, 45, 2, 1"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Sandu Aldea",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.618,
+      "basis_n": 68,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Constantin Sandu-Aldea - bl. 1, 2, 3, 4, 5"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Popişteanu",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.59,
+      "basis_n": 39,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Popişteanu - Str.Alexandru Popisteanu bl.1, 2, 3"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Av. Sanatescu",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.438,
+      "basis_n": 64,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mr. Ştefan Sănătescu - Nr.28 Vilă • Ale Lt. Gheorghe Stâlpeanu - bl.1, 2, 3, 4, 5, 6, 7, 8"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Locuinţe Steaua",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-28T23:30",
+      "on_time_probability": 0.457,
+      "basis_n": 46,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Ion Mihalache - bl. C, E, H, B"
     },
     {
       "sector": 1,
@@ -63,6 +171,18 @@
       "basis_n": 2290,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Cheile Zanoagei - Partial",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-25T19:30",
+      "on_time_probability": 0.5,
+      "basis_n": 11555,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Cristea Mateescu - bl.T4A, T6A, T4B • Str Petre Antonescu - bl.T3B, T3C • Str Grigore Ionescu - bl. T7A , T7B, T7C, T6B • Str Brebu - bl. T5"
     },
     {
       "sector": 2,
