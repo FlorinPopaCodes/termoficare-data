@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-26T14:55:39",
+  "scraped_at": "2026-08-26T15:31:12",
   "status": "ok",
   "outages": [
     {
@@ -39,18 +39,6 @@
       "basis_n": 62,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Mareşal Alexandru Averescu - bl. 1, 2, 3, 4, 5, 6, 7"
-    },
-    {
-      "sector": 1,
-      "pt_name": "6-1 Mai - Partial",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-26T15:00",
-      "on_time_probability": 0.468,
-      "basis_n": 9516,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Turda - bl. 39, 37, 34, 35, 36, 38"
     },
     {
       "sector": 1,
@@ -2734,7 +2722,7 @@
       "blocks": 10,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - Bld.1 Decembrie 1918",
-      "estimated_restore": "2026-08-26T15:30",
+      "estimated_restore": "2026-08-26T17:30",
       "on_time_probability": 0.457,
       "basis_n": 3719,
       "basis_bucket": "sector_cause_slip",
@@ -2746,7 +2734,7 @@
       "blocks": 14,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - Bld.1 Decembrie 1918",
-      "estimated_restore": "2026-08-26T15:30",
+      "estimated_restore": "2026-08-26T17:30",
       "on_time_probability": 0.457,
       "basis_n": 3719,
       "basis_bucket": "sector_cause_slip",
@@ -2758,7 +2746,7 @@
       "blocks": 8,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar - Bld.1 Decembrie 1918",
-      "estimated_restore": "2026-08-26T15:30",
+      "estimated_restore": "2026-08-26T17:30",
       "on_time_probability": 0.457,
       "basis_n": 3719,
       "basis_bucket": "sector_cause_slip",
@@ -3726,15 +3714,15 @@
     },
     {
       "sector": 5,
-      "pt_name": "Garoafei",
-      "blocks": 14,
+      "pt_name": "Tudor Vladimirescu",
+      "blocks": 9,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-26T15:00",
-      "on_time_probability": 0.603,
-      "basis_n": 68,
+      "cause": "Remediere avarie circuit primar - Bd.Tudor Vladimirescu",
+      "estimated_restore": "2026-08-28T23:00",
+      "on_time_probability": 0.541,
+      "basis_n": 61,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Costineşti - bl. 1, 2, 3, 4, 5, 6, 7, 8, 9 • Str Pucheni - bl. 2, 3 • Şos Alexandria - bl. 1, 12, imobil"
+      "zone_raw": "• Bld Tudor Vladimirescu - bl. T4, T5, T6 • Cal 13 Septembrie - bl. T1B, T1C, T2B, T2C, T3, T3A"
     },
     {
       "sector": 5,
