@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-26T13:58:48",
+  "scraped_at": "2026-08-26T14:28:47",
   "status": "ok",
   "outages": [
     {
@@ -910,7 +910,7 @@
       "blocks": 19,
       "service": "Oprire ACC",
       "cause": "Inlocuire conducta recirculatie bl.10B / Str. Istriei",
-      "estimated_restore": "2026-08-26T15:00",
+      "estimated_restore": "2026-08-26T17:30",
       "on_time_probability": 0.351,
       "basis_n": 476,
       "basis_bucket": "sector_cause_slip",
