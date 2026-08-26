@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-26T12:42:35",
+  "scraped_at": "2026-08-26T13:17:06",
   "status": "ok",
   "outages": [
     {
@@ -207,6 +207,18 @@
       "basis_n": 621,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Modul Bl.20",
+      "blocks": 1,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.407,
+      "basis_n": 621,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Heliade Între Vii - bl. 20"
     },
     {
       "sector": 2,
@@ -3054,6 +3066,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "9 Brâncoveanu",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Secuilor - bl. B46 • Str Sg. Gheorghe Tache - bl. B41, B43, B44"
+    },
+    {
+      "sector": 4,
       "pt_name": "3 Zona I",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -3966,18 +3990,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "10/4 - Partial",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Aleea Arinis.)",
-      "estimated_restore": "2026-08-26T12:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Lunca Siretului - bl.A39 • Ale Ariniş - bl. OD1, A40"
-    },
-    {
-      "sector": 6,
       "pt_name": "3 Crivina",
       "blocks": 17,
       "service": "Oprire ACC",
@@ -3995,22 +4007,10 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Dr.Taberei.)",
       "estimated_restore": "2026-08-26T13:00",
-      "on_time_probability": 0.2,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl. F4 II"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1/10",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Vladeasa.)",
-      "estimated_restore": "2026-08-26T15:30",
-      "on_time_probability": 0.484,
-      "basis_n": 62,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sergent Major Cara Anghel - bl. C50, C49, C43, C55, C56,C57, C58, B9 • Str Vlădeasa - bl. C41,C42 • Str Tolbei - bl. C54 • Bld 1 Mai - bl. C1, C2, C3, C4, C5, C6, C7, C8, C9; • Str Serg. Gheorghe Lăţea - bl. C59 • Str Gârleni - bl. C44"
     },
     {
       "sector": 6,
