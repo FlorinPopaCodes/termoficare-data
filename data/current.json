@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-26T15:31:12",
+  "scraped_at": "2026-08-26T16:38:57",
   "status": "ok",
   "outages": [
     {
@@ -966,6 +966,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "10 C5/2",
+      "blocks": 15,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. Fetesti",
+      "estimated_restore": "2026-08-27T23:00",
+      "on_time_probability": 0.432,
+      "basis_n": 1426,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Feteşti - bl. F1, F2, F3,J16, I25 • Str Feteşti - bl.V12,F4,F5 • Str Jean-Alexandru Steriadi - bl. J14, L17,I19 ,I21 • Ale Ciucea - bl. L18, L19, L20"
+    },
+    {
+      "sector": 3,
       "pt_name": "3 Tomis",
       "blocks": 19,
       "service": "Oprire ACC",
@@ -1047,18 +1059,6 @@
       "basis_n": 129,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Prisaca Dornei - bl. N16, N17, • Str Liviu Rebreanu - bl. A4, A5, A6, • Str Cozla - bl. A7, A8, A9, B1A, B1B, F3, F4 • Str Burdujeni - bl. A13, A14, B2, GC5, GC6, N11, N12 , N13, N14, N15"
-    },
-    {
-      "sector": 3,
-      "pt_name": "10 C5/2",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de pornire a CTE Progresu.",
-      "estimated_restore": "2026-08-26T23:30",
-      "on_time_probability": 0.574,
-      "basis_n": 129,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Feteşti - bl. F1, F2, F3,J16, I25 • Str Feteşti - bl.V12,F4,F5 • Str Jean-Alexandru Steriadi - bl. J14, L17,I19 ,I21 • Ale Ciucea - bl. L18, L19, L20"
     },
     {
       "sector": 3,
@@ -3078,6 +3078,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "1 Oltenita Placare",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 4, 5, 6 • Str Păduroiu - B24 • Bld Constantin Brâncoveanu - U.M.0221"
+    },
+    {
+      "sector": 4,
       "pt_name": "Livada Noua",
       "blocks": 17,
       "service": "Deficienta ACC",
@@ -3135,6 +3147,18 @@
       "basis_n": 208,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "19 Dolhasca",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Secuilor - bl. 18, 19, 20, B47"
     },
     {
       "sector": 4,
@@ -3306,6 +3330,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "B 3 Cauzasi",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Pţa Unirii - bl. B3, B4, B5 ,B6, B7 • Str Radu Vodă - bl. B8 • Bld Dimitrie Cantemir - bl. B2"
+    },
+    {
+      "sector": 4,
       "pt_name": "4 Zona I",
       "blocks": 7,
       "service": "Deficienta ACC",
@@ -3363,6 +3399,18 @@
       "basis_n": 67,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Sold. Dumitru Minca - bl. 23, 24, 25 • Str Sg. Avram Petcu - Imobil nr.8 • Str Melineşti - bl. 1, 2, 3, 4, 11, 12, 13, 14 • Str Giovanni Boccaccio - bl. 5, 6, 7, 8 • Str Frt. Niculaie Marinescu - bl. A1, A2, A3, A4 • Str Praşilei - bl. 21, 22 • Str Peroni - bl. 9, 10, Imobil nr.45"
+    },
+    {
+      "sector": 4,
+      "pt_name": "11 Giurgiu",
+      "blocks": 3,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Giurgiului - bl. 5, 11 • Str Petre Ţuţea - Scoala nr.109"
     },
     {
       "sector": 4,
@@ -3582,6 +3630,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "8 Brancoveanu",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Secuilor - bl. B27, B29, B31 • Str Păduroiu - bl. B30 • Str Huşi - bl. B32, B36, B37,B35 • Str Băltiţa - bl. B26, B28, B33, B34, B35"
+    },
+    {
+      "sector": 4,
       "pt_name": "1 Zona IV",
       "blocks": 14,
       "service": "Deficienta ACC",
@@ -3591,6 +3651,18 @@
       "basis_n": 208,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Grădiştea - bl. A9, A10 • Ale Reşiţa D - A1, A3, A4, A5, A7, A8 • Str Reşiţa - bl. A2, A6 • Str Uioara - bl. A11, A12, A13, A14"
+    },
+    {
+      "sector": 4,
+      "pt_name": "P 5 A",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
     },
     {
       "sector": 4,
