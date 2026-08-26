@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-26T11:59:41",
+  "scraped_at": "2026-08-26T12:42:35",
   "status": "ok",
   "outages": [
     {
@@ -246,6 +246,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "2 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.407,
+      "basis_n": 621,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
+    },
+    {
+      "sector": 2,
       "pt_name": "3 Petricani",
       "blocks": 12,
       "service": "Deficienta ACC",
@@ -294,6 +306,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "4 Mosilor",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.407,
+      "basis_n": 621,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Ardeleni - bl. 39A • Cal Moşilor - bl. 47, 47Bis, 49-49A, 51Bis, 53, 55, 45, 45A, 43, 41, 39, 37, 33-35, imob.Nr.257 • Str Făinari - bl.51 sc.C; 51 sc.B • Str Rovine - bl. 51B, 57A. 51 sc.A"
+    },
+    {
+      "sector": 2,
       "pt_name": "1 Mosilor",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -315,6 +339,18 @@
       "basis_n": 621,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Nada Florilor - bl.6, 6 Carpaţi, 2, 1 • Str Braşoveni - bl.5 • Str Ripiceni - bl.4, 3"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Mosilor",
+      "blocks": 25,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.407,
+      "basis_n": 621,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Traian - bl.22B, 24 • Bld Dacia - bl.25B • Cal Moşilor - bl.25A ,23, 20, 20Bis, 22A, 22C, 18,16 ,21, 21A ,19,17 ;imob 215A • Str Mihai Eminescu - BL.25A SC.B • Str Energiei - imob.Nr.7, 10, 11, 12, 14, 16, 18, 20, 22"
     },
     {
       "sector": 2,
@@ -3935,9 +3971,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Aleea Arinis.)",
       "estimated_restore": "2026-08-26T12:30",
-      "on_time_probability": 0.414,
-      "basis_n": 10370,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Lunca Siretului - bl.A39 • Ale Ariniş - bl. OD1, A40"
     },
     {
@@ -3963,18 +3999,6 @@
       "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Drumul Taberei - bl. F4 II"
-    },
-    {
-      "sector": 6,
-      "pt_name": "6/8 - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Bozieni.)",
-      "estimated_restore": "2026-08-26T12:00",
-      "on_time_probability": 0.414,
-      "basis_n": 10370,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Bozieni - bl. 833"
     },
     {
       "sector": 6,
@@ -4023,6 +4047,30 @@
       "basis_n": 2296,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Oboga - bl. 155A, 160 • Bld Iuliu Maniu - bl. 1, 2A, 2B, 3 • Str Vistiernicul Stavrinos - bl. 51, 52A, 53, 53A, 54, 54A, 55A, 152, 153, 155 • Str Băbeşti - bl. 52 • Str Ierbei - bl. 158 • Str Iedului - bl. 149A, 149B • Str Bârsăneşti - bl. 50,150, 151, 154, 156, 157, 159"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Depoul STB Bujoreni",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Modernizare retea primara - firma ENERGETICA SERVICII",
+      "estimated_restore": "2026-08-27T23:30",
+      "on_time_probability": 0.372,
+      "basis_n": 2296,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Timişoara - Instituție"
+    },
+    {
+      "sector": 6,
+      "pt_name": "RATB-ETA - Autobaza Militari",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Modernizare retea primara - firma ENERGETICA SERVICII",
+      "estimated_restore": "2026-08-27T23:30",
+      "on_time_probability": 0.372,
+      "basis_n": 2296,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Preciziei - Instituție"
     },
     {
       "sector": 6,
