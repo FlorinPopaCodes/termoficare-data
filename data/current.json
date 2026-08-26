@@ -1,9 +1,45 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-26T11:08:41",
+  "scraped_at": "2026-08-26T11:59:41",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "Spitalul Elias",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.455,
+      "basis_n": 66,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Mărăşti -"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Nicolae Racotă",
+      "blocks": 21,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.425,
+      "basis_n": 80,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Medelnicerului - imob.Nr. 2, 6,10 • Str Niculae Racotă - bl. 67, 69, 76A, 80, 65, 16-18, 12-14 • Str Paharnicului - bl. 43 • Str Clucerului - imob.Nr. 49, 62-66 • Bld Ion Mihalache - bl. 85, 84 • Str Radu Boiangiu - bl. 38, 39, 42A, 39A, 60 • Bld I. V. Miciurin - bl.80A"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Miciurin",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-08-26T23:30",
+      "on_time_probability": 0.468,
+      "basis_n": 62,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Mareşal Alexandru Averescu - bl. 1, 2, 3, 4, 5, 6, 7"
+    },
     {
       "sector": 1,
       "pt_name": "6-1 Mai - Partial",
@@ -723,6 +759,18 @@
       "basis_n": 621,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Mieilor - bl. 223, 224 • Str Matei Voievod - bl. 231 • Şos Mihai Bravu - bl. 228, 220, 221, 229, 213, 222, 211, 212, 230 • Str Orzari - bl. 210"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Tomis",
+      "blocks": 19,
+      "service": "Oprire ACC",
+      "cause": "Inlocuire conducta recirculatie bl.10B / Str. Istriei",
+      "estimated_restore": "2026-08-26T15:00",
+      "on_time_probability": 0.351,
+      "basis_n": 476,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
     },
     {
       "sector": 3,
@@ -3006,6 +3054,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "3 Zona II",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Vatra Dornei - Scoala nr.108 • Bld Constantin Brâncoveanu - bl. C4A, C4B, E13, V1A, V3, V4 • Str Dorohoi - bl. EF24, F15 • Str Covasna - bl. E11, E15, E16, F13, F17, F18 • Ale Covasna - bl. E14, EF23, F12, F14, F16"
+    },
+    {
+      "sector": 4,
       "pt_name": "2 Oltenita Placare",
       "blocks": 9,
       "service": "Deficienta ACC",
@@ -3303,6 +3363,18 @@
       "basis_n": 69,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Straja - bl. 30, 31, 32, 40, 65, 66 • Str Spiniş - bl. 52, 53, 54 • Str Moldoveni - bl. 55, 59, 60, 61 • Str Almaşu Mare - bl. 51, 56, 57, 58 • Str Argeşelu - bl. 33, 34, 35, 37, 39, 67 • Drm Găzarului - bl. 29 • Str Reşiţa - bl. 36, 38"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Zona IV",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresul",
+      "estimated_restore": "2026-08-26T23:00",
+      "on_time_probability": 0.697,
+      "basis_n": 208,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Grădiştea - bl. A9, A10 • Ale Reşiţa D - A1, A3, A4, A5, A7, A8 • Str Reşiţa - bl. A2, A6 • Str Uioara - bl. A11, A12, A13, A14"
     },
     {
       "sector": 4,
@@ -3867,18 +3939,6 @@
       "basis_n": 10370,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Lunca Siretului - bl.A39 • Ale Ariniş - bl. OD1, A40"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 4/5 - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-26T14:30",
-      "on_time_probability": 0.414,
-      "basis_n": 10370,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dezrobirii - bl. 24"
     },
     {
       "sector": 6,
