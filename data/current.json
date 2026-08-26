@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-26T09:38:21",
+  "scraped_at": "2026-08-26T10:30:15",
   "status": "ok",
   "outages": [
     {
@@ -75,6 +75,18 @@
       "basis_n": 2290,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Ion Maiorescu",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-26T18:30",
+      "on_time_probability": 0.511,
+      "basis_n": 88,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Mihai Bravu - bl.P21-21A, P22, P22A, P23-24"
     },
     {
       "sector": 2,
@@ -3783,6 +3795,18 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "10/4 - Partial",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Aleea Arinis.)",
+      "estimated_restore": "2026-08-26T12:30",
+      "on_time_probability": 0.414,
+      "basis_n": 10370,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Lunca Siretului - bl.A39 • Ale Ariniş - bl. OD1, A40"
     },
     {
       "sector": 6,
