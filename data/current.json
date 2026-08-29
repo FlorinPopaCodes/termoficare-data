@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-30T00:23:36",
+  "scraped_at": "2026-08-30T02:27:47",
   "status": "ok",
   "outages": [
     {
@@ -154,7 +154,7 @@
       "blocks": 16,
       "service": "Oprire ACC",
       "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-      "estimated_restore": "2026-08-30T02:00",
+      "estimated_restore": "2026-08-30T05:00",
       "on_time_probability": 0.246,
       "basis_n": 2115,
       "basis_bucket": "sector_cause_slip",
