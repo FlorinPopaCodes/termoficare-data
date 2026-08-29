@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-29T18:36:16",
+  "scraped_at": "2026-08-29T21:50:35",
   "status": "ok",
   "outages": [
     {
@@ -138,6 +138,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "201 Mihai Bravu",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-08-30T16:00",
+      "on_time_probability": 0.625,
+      "basis_n": 72,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Mihai Bravu - bl. 205, 203, 204, 200, • Cal Călăraşilor - bl. 201, 202"
+    },
+    {
+      "sector": 2,
       "pt_name": "1 Carei",
       "blocks": 16,
       "service": "Oprire ACC",
@@ -198,18 +210,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "P10 Foisor",
-      "blocks": 1,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de pornire a CTE PROGRESU",
-      "estimated_restore": "2026-08-29T23:30",
-      "on_time_probability": 0.591,
-      "basis_n": 440,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Oborul Nou - P10"
-    },
-    {
-      "sector": 2,
       "pt_name": "8 Doamna Ghica",
       "blocks": 3,
       "service": "Deficienta ACC",
@@ -243,18 +243,6 @@
       "basis_n": 211,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Sinaia - bl. 16 sc. A-B • Str Pâncota - bl.14, 16 sc. 3-4-5; 15"
-    },
-    {
-      "sector": 2,
-      "pt_name": "P7A Foisor",
-      "blocks": 1,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de pornire a CTE PROGRESU",
-      "estimated_restore": "2026-08-29T23:30",
-      "on_time_probability": 0.591,
-      "basis_n": 440,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - P7A"
     },
     {
       "sector": 2,
@@ -330,6 +318,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "20 Pantelimon",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-29T23:30",
+      "on_time_probability": 0.591,
+      "basis_n": 440,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Amiral Ioan Murgescu - bl.401 • Şos Pantelimon - bl.404-405, 400, 402A, 403A, 402, 403 • Str Baicului - bl.401A"
+    },
+    {
+      "sector": 2,
       "pt_name": "A4 Basarabia",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -378,6 +378,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "19 Pantelimon",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-29T23:30",
+      "on_time_probability": 0.591,
+      "basis_n": 440,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
+    },
+    {
+      "sector": 2,
       "pt_name": "4 Socului",
       "blocks": 11,
       "service": "Deficienta ACC",
@@ -402,6 +414,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "4 Pantelimon",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-29T23:30",
+      "on_time_probability": 0.591,
+      "basis_n": 440,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Chişinău - bl. Concordia,bl 50 • Ale Hobiţa - bl. 302BAC, 303 • Ale Ilia - bl. 56; Pelican; 58C; 58A; 57 sc.2 • Şos Pantelimon - bl. 52, 61, 68, 65, 69A, 62, 51, 67, 69P+6"
+    },
+    {
+      "sector": 2,
       "pt_name": "5 Socului",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -423,6 +447,18 @@
       "basis_n": 211,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Carei - bl. MR7 • Bld Basarabia - bl.MR3, MR2, MR1"
+    },
+    {
+      "sector": 2,
+      "pt_name": "23 Baicului",
+      "blocks": 23,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE PROGRESU",
+      "estimated_restore": "2026-08-29T23:30",
+      "on_time_probability": 0.591,
+      "basis_n": 440,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
     },
     {
       "sector": 2,
@@ -1362,6 +1398,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "G3",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresu.",
+      "estimated_restore": "2026-08-29T23:30",
+      "on_time_probability": 0.13,
+      "basis_n": 392,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Unirii - bl. G2, H1, G3, G2A, G2B, G2C • Str Ion Pillat - bl. G1, G1A • Bld Decebal - bl. H2"
+    },
+    {
+      "sector": 3,
       "pt_name": "2 Șulea",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -1383,6 +1431,18 @@
       "basis_n": 392,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fuiorului - bl. H16A, H16B, H17, Y3 • Ale Fuiorului - bl. H16A, H16B, H17, Y3 • Str Firidei - bl. H15, H19 • Ale Lotrioara - bl. H25, N10 • Str Rotundă - bl. H19B • Bld Camil Ressu - bl. H14, H26, N8, N9, N11, N12"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Mărăşeşti",
+      "blocks": 20,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresu.",
+      "estimated_restore": "2026-08-29T23:30",
+      "on_time_probability": 0.13,
+      "basis_n": 392,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Nerva Traian - bl M64 • Bld Octavian Goga - bl. V53C, M62, M63 • Str Emil Gârleanu - bl. V52C, V53D, A1, F • Str Foişorului - bl. F1C, F2C, F3C, D, E • Str Anastasie Panu - bl. A1, A2, A3"
     },
     {
       "sector": 3,
