@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-08-31T16:41:05",
+  "scraped_at": "2026-08-31T22:40:13",
   "status": "ok",
   "outages": [
     {
@@ -366,18 +366,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "23 Baicului",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-31T19:30",
-      "on_time_probability": 0.404,
-      "basis_n": 141,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
-    },
-    {
-      "sector": 2,
       "pt_name": "Mecanica Fina",
       "blocks": 9,
       "service": "Oprire ACC",
@@ -510,18 +498,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "3 Colentina Socului - Partial",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-31T22:30",
-      "on_time_probability": 0.5,
-      "basis_n": 11561,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Popa Nicolae - BL.; A; 1; 2; 3"
-    },
-    {
-      "sector": 2,
       "pt_name": "U2 Avrig",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -555,18 +531,6 @@
       "basis_n": 798,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - bl.P3, P30A, 4, 4Bis, P14, P12, P15Bis, P15, P13 • Str Pictor Oscar Obedeanu - imob.Nr.18 • Ale Avrig - bl.P4, P5, P6, P18Bis, P30, P18, P19Bis, P19"
-    },
-    {
-      "sector": 2,
-      "pt_name": "17-18 Petricani",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de pornire a CTE PROGRESU",
-      "estimated_restore": "2026-08-31T23:30",
-      "on_time_probability": 0.471,
-      "basis_n": 255,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
       "sector": 2,
@@ -666,18 +630,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "1 Carei",
-      "blocks": 16,
-      "service": "Deficienta ACC",
-      "cause": "Manevre de pornire a CTE PROGRESU",
-      "estimated_restore": "2026-08-31T23:30",
-      "on_time_probability": 0.471,
-      "basis_n": 255,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Carei - bl. A11, B30, A12, B32, B31 • Bld Chişinău - bl. A12Bis, A14, A13 • Str Cernăuţi - bl. A15, A15Bis, D8 • Bld Basarabia - bl. M28, M29A, M29, M27A, M27"
-    },
-    {
-      "sector": 2,
       "pt_name": "17 Pantelimon",
       "blocks": 5,
       "service": "Deficienta ACC",
@@ -747,6 +699,18 @@
       "basis_n": 255,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Vergului - bl.15D • Şos Pantelimon - bl.15ABC"
+    },
+    {
+      "sector": 3,
+      "pt_name": "8X",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Bj. Cucuteni.)",
+      "estimated_restore": "2026-09-01T14:00",
+      "on_time_probability": 0.232,
+      "basis_n": 2103,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Pictor Nicolae Grigorescu - bl.Y9, Y9A, Y9B, Y9C,Y9D • Ale Barajul Cucuteni - bl.A11, A12, A12bis"
     },
     {
       "sector": 3,
@@ -867,30 +831,6 @@
       "basis_n": 2103,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Liviu Rebreanu - bl. PM22, Z22 • Ale Cioplea - bl. 1, 5, Camin ALCAZ, Camin ANL • Bld 1 Decembrie 1918 - bl. 2, 3, 10, 11, T1, T2, Z23"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Călăraşi",
-      "blocks": 13,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-09-02T23:30",
-      "on_time_probability": 0.466,
-      "basis_n": 88,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
-    },
-    {
-      "sector": 3,
-      "pt_name": "5 Călăraşi",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-09-02T23:30",
-      "on_time_probability": 0.563,
-      "basis_n": 64,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Matei Basarab - 64 • Cal Călăraşi - 59, 60, 61, 58"
     },
     {
       "sector": 3,
@@ -1746,6 +1686,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "3 Tomis",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Manevre de pornire a CTE Progresu.",
+      "estimated_restore": "2026-08-31T23:30",
+      "on_time_probability": 0.317,
+      "basis_n": 360,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
+    },
+    {
+      "sector": 3,
       "pt_name": "SC.4Catelu",
       "blocks": 1,
       "service": "Deficienta ACC",
@@ -1822,7 +1774,7 @@
       "blocks": 7,
       "service": "Oprire ACC",
       "cause": "Remediere avarie retea primara .",
-      "estimated_restore": "2026-08-31T23:30",
+      "estimated_restore": "2026-09-02T15:00",
       "on_time_probability": 0.593,
       "basis_n": 27,
       "basis_bucket": "pt_cause_slip",
@@ -1834,7 +1786,7 @@
       "blocks": 19,
       "service": "Oprire ACC",
       "cause": "Remediere avarie retea primara .",
-      "estimated_restore": "2026-08-31T23:30",
+      "estimated_restore": "2026-09-02T15:00",
       "on_time_probability": 0.731,
       "basis_n": 26,
       "basis_bucket": "pt_cause_slip",
@@ -2286,22 +2238,10 @@
     },
     {
       "sector": 5,
-      "pt_name": "2 Ferentari - Partial",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-08-31T17:30",
-      "on_time_probability": 0.386,
-      "basis_n": 57,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Prof. Dr. Alexandru Locusteanu - bl. 77A, 77B, 77C, 77D, 80 • Str Zamfir Olaru - bl. 79 • Cal Rahovei - bl. 81A, 81B"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Drumul Sării",
       "blocks": 19,
       "service": "Oprire ACC",
-      "cause": "Lucrari POIM Lot 5 Obiectiv 14",
+      "cause": "Lucrari modernizare retea termica primara program POIM Lot 5 Obiectiv 14",
       "estimated_restore": "2026-09-03T23:00",
       "on_time_probability": 0.571,
       "basis_n": 28,
@@ -2313,7 +2253,7 @@
       "pt_name": "4 Drumul Sarii",
       "blocks": 15,
       "service": "Oprire ACC",
-      "cause": "Lucrari POIM Lot 5 Obiectiv 14",
+      "cause": "Lucrari modernizare retea termica primara program POIM Lot 5 Obiectiv 14",
       "estimated_restore": "2026-09-03T23:00",
       "on_time_probability": 0.5,
       "basis_n": 24,
@@ -2325,7 +2265,7 @@
       "pt_name": "6 Petre Ispirescu",
       "blocks": 10,
       "service": "Oprire ACC",
-      "cause": "Lucrari POIM Lot 5 Obiectiv 14",
+      "cause": "Lucrari modernizare retea termica primara program POIM Lot 5 Obiectiv 14",
       "estimated_restore": "2026-09-03T23:00",
       "on_time_probability": 0.333,
       "basis_n": 21,
@@ -2337,7 +2277,7 @@
       "pt_name": "7 Petre Ispirescu",
       "blocks": 6,
       "service": "Oprire ACC",
-      "cause": "Lucrari POIM Lot 5 Obiectiv 14",
+      "cause": "Lucrari modernizare retea termica primara program POIM Lot 5 Obiectiv 14",
       "estimated_restore": "2026-09-03T23:00",
       "on_time_probability": 0.462,
       "basis_n": 26,
@@ -2349,7 +2289,7 @@
       "pt_name": "1 Drumul Sarii",
       "blocks": 14,
       "service": "Oprire ACC",
-      "cause": "Lucrari POIM Lot 5 Obiectiv 14",
+      "cause": "Lucrari modernizare retea termica primara program POIM Lot 5 Obiectiv 14",
       "estimated_restore": "2026-09-03T23:00",
       "on_time_probability": 0.433,
       "basis_n": 30,
@@ -2631,18 +2571,6 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 3 Placare",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul primar",
-      "estimated_restore": "2026-08-31T18:30",
-      "on_time_probability": 0.394,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Moineşti - bl. 135, 136, 201, 202, 203, 204, 205, 206 • Bld Iuliu Maniu - bl. 5P, 6P, 7P, 8P"
     },
     {
       "sector": 6,
