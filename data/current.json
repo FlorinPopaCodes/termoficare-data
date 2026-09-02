@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-02T22:46:18",
+  "scraped_at": "2026-09-03T01:09:58",
   "status": "ok",
   "outages": [
     {
@@ -466,7 +466,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-02T23:00",
+      "estimated_restore": "2026-09-03T23:00",
       "on_time_probability": 0.5,
       "basis_n": 11568,
       "basis_bucket": "sector_cause_slip",
@@ -994,7 +994,7 @@
       "blocks": 6,
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-09-02T23:30",
+      "estimated_restore": "2026-09-03T12:00",
       "on_time_probability": 0.548,
       "basis_n": 93,
       "basis_bucket": "pt_cause_slip",
@@ -1006,7 +1006,7 @@
       "blocks": 11,
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-09-02T23:30",
+      "estimated_restore": "2026-09-03T12:00",
       "on_time_probability": 0.435,
       "basis_n": 108,
       "basis_bucket": "pt_cause_slip",
@@ -1018,7 +1018,7 @@
       "blocks": 9,
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-09-02T23:30",
+      "estimated_restore": "2026-09-03T12:00",
       "on_time_probability": 0.506,
       "basis_n": 83,
       "basis_bucket": "pt_cause_slip",
@@ -1030,7 +1030,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-09-02T23:30",
+      "estimated_restore": "2026-09-03T12:00",
       "on_time_probability": 0.683,
       "basis_n": 41,
       "basis_bucket": "pt_cause_slip",
@@ -1923,6 +1923,18 @@
       "basis_n": 1362,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Odobeşti - bl. V16, V15 • Ale Ianca - bl. V18, V17"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Mărăşeşti",
+      "blocks": 20,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.409,
+      "basis_n": 66,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nerva Traian - bl M64 • Bld Octavian Goga - bl. V53C, M62, M63 • Str Emil Gârleanu - bl. V52C, V53D, A1, F • Str Foişorului - bl. F1C, F2C, F3C, D, E • Str Anastasie Panu - bl. A1, A2, A3"
     },
     {
       "sector": 3,
