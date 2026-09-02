@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-02T01:01:21",
+  "scraped_at": "2026-09-02T07:26:39",
   "status": "ok",
   "outages": [
     {
@@ -375,18 +375,6 @@
       "basis_n": 2292,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 2,
-      "pt_name": "17-18 Petricani",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.276,
-      "basis_n": 105,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
       "sector": 2,
@@ -1170,18 +1158,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "U1",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud, alimentare din CTE Progresul, din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.194,
-      "basis_n": 31,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Baba Novac - bl. R1, T1, T2, U1"
-    },
-    {
-      "sector": 3,
       "pt_name": "1XA",
       "blocks": 1,
       "service": "Deficienta ACC",
@@ -1635,6 +1611,18 @@
       "basis_n": 1361,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Perişoru - bl. H34, H35, H36 • Ale Giurgeni - bl.F6, F7, F8, F9, F10, F11, F12, F13, F14 • Str Gura Ialomiţei - bl. PC8, PC9, PC10, PC11,H33,H32 PC12, H28, H29, H30, H31 • Str Feteşti - bl. V13, H27"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Tomis",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.455,
+      "basis_n": 22,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
     },
     {
       "sector": 3,
