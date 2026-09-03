@@ -16,7 +16,7 @@ d90a82250544,3,SC.G3 - Module Termice,ACC,14
 bbde282bbb5b,5,1 din 13 Septembrie,ACC,2
 bf9f6cbc6465,5,2 din 13 Septembrie,ACC,2
 c69d7180dff6,5,3 din 13 Septembrie,ACC,2
-cee4bd66e802,4,Plugarilor,ACC,10
+cee4bd66e802,4,Plugarilor,ACC,11
 47c22c3ea0fa,5,Facultatea de Medicină Veterinară,ACC,0
 5feeaddd3ece,5,Garajul Parlamentului,ACC,0
 3d3c8b54be84,5,Grădiniţa Nr.268 Scoala Nr.128,ACC,0
@@ -33,7 +33,6 @@ d476e82cc127,4,6 Zona II,ACC,7
 50a1852b5980,3,5 C3/2,ACC,11
 f4e32f10c6b8,3,7C3/2,ACC,11
 97fbac7859ab,3,8C3/2,ACC,11
-701239e048e0,2,4 Socului,ACC,11
 a35e41fb0a62,3,1L. Patrascanu,ACC,11
 8b4e6f012057,3,1 C3/1,ACC,10
 c5cd3d07b3b3,3,1 C5/1,ACC,10
@@ -93,7 +92,7 @@ b1153196152a,3,SC.2Catelu-module,ACC,8
 99ae54493c42,4,2 Oltenita Placare,ACC,5
 31dc7c17a55c,2,5 Socului,ACC,8
 fcbf39750dd1,2,8 Muncii,ACC,8
-f540527e421b,2,33 Muncii,ACC,7
+f540527e421b,2,33 Muncii,ACC,8
 f246337416b9,5,Tudor Vladimirescu,ACC,1
 0f6155233b1c,3,16 C5/2,ACC,8
 aa0d85a338f9,3,2 Baia de Arama,ACC,8
@@ -157,15 +156,6 @@ bc3402b15d82,1,Palatul CFR,ACC,0
 fb4fd96e6163,1,Sora,ACC,0
 c560e6e6f5f5,1,Spitalul Militar Central,ACC,0
 22f4685946d2,1,Veronica Micle,ACC,0
-2dcf49a64466,2,1 Mosilor,ACC,0
-ba59566ebc8c,2,2 Mosilor,ACC,0
-92cf76412993,2,3 Mosilor,ACC,0
-8d87351bb5c0,2,4 Mosilor,ACC,0
-e592517274cb,2,6 Mosilor,ACC,0
-ff1de84dcae7,2,7 Mosilor,ACC,0
-100cef0dbb5b,2,AUTOCENTER,ACC,0
-170e686c5532,2,Ion Maiorescu,ACC,0
-f54f914c36e4,2,Mecanica Fina,ACC,0
 a117c4ba2abb,3,10 Vitan,ACC,0
 43a3ce2e78f6,3,11 Foișor,ACC,0
 4dd60f17d8ec,3,12 Foișor,ACC,0
@@ -173,48 +163,28 @@ e2d1141c3028,3,13 Foișor,ACC,0
 d7c353d6ab5e,3,15 Foișor,ACC,0
 cc469bd003b3,3,19 Foișor,ACC,0
 9afe72241136,3,21 Foișor,ACC,0
-0c869d7cda2e,3,7 Călăraşi,ACC,0
 b9af70325236,3,9 Vitan,ACC,0
-f481dee86e7b,3,C3 Căuzaşi,ACC,0
-03d8332a5cbf,3,E1,ACC,0
-f63537ad7df7,3,Tribunalul Bucuresti,ACC,0
-e40cb38812a6,5,1 Alexandria,ACC,0
-d614e0f72f2a,5,1 Drumul Sarii,ACC,0
-a17e9b96603f,5,2 Alexandria,ACC,0
-b5db4646bab5,5,3 Drumul Sării,ACC,0
-dc7052e49f4b,5,4 Drumul Sarii,ACC,0
-f5ec87c18518,5,6 Margeanului,ACC,0
+e40cb38812a6,5,1 Alexandria,ACC,2
+a17e9b96603f,5,2 Alexandria,ACC,2
+f5ec87c18518,5,6 Margeanului,ACC,2
 59816a513c54,5,6 Petre Ispirescu,ACC,0
-5655c5f58099,5,7 Margeanului,ACC,0
-0ad39180c5d0,5,7 Petre Ispirescu,ACC,0
-437c71f3a0d6,5,8 Alexandria,ACC,0
-55dd8ef073f0,5,8 Margeanului,ACC,0
-c8876137e370,5,Garoafei,ACC,0
-4ded7b35ed7b,5,Soldat Croitoru,ACC,0
-7a1ee64be958,5,Teiuş,ACC,0
-10af1f12f967,6,1 Crivina,ACC,0
-8e3e4a724cac,6,1 Giulești,ACC,0
+5655c5f58099,5,7 Margeanului,ACC,2
+437c71f3a0d6,5,8 Alexandria,ACC,2
+55dd8ef073f0,5,8 Margeanului,ACC,2
+c8876137e370,5,Garoafei,ACC,2
+4ded7b35ed7b,5,Soldat Croitoru,ACC,2
+7a1ee64be958,5,Teiuş,ACC,2
 85c55ad8b9fb,6,1 Veteranilor,ACC,0
-d3c92c5c6210,6,10 Giulești,ACC,0
-740ce2c10092,6,2 Crivina,ACC,0
 c5288829d4dc,6,2 Veteranilor,ACC,0
-667e42c3fb54,6,3 Crivina,ACC,0
 a567ee3384b0,6,3 Uverturii,ACC,0
-3e4fc5c581dd,6,4 Crivina,ACC,0
 4b8342a27e8b,6,5 Crivina,ACC,0
 cae4257e01c6,6,5 Desișului,ACC,0
 7cc4104d14ee,6,7 Crivina,ACC,0
-2f6840514038,6,7 Giulești,ACC,0
-6607506ad053,6,8 Crivina,ACC,0
 cb42c95eab1b,6,9 Crivina,ACC,0
-57dbf173ff09,6,B Giulești,ACC,0
-29139b022e92,6,G3 Giulești,ACC,0
-173cd54c1888,6,J Giulești,ACC,0
 b851a93378a0,6,MILITARI - 4 Placare,ACC,0
 1fad8ed25152,6,MILITARI - 6 Placare,ACC,0
 2f0064f1ca85,6,MILITARI - 7 Placare,ACC,0
 e7b7bf49ecea,6,MILITARI - 8 Placare,ACC,0
-946555d9ffbc,6,Prunaru,ACC,0
 18c040c1bee2,6,SC 4/5,ACC,0
 3c8fc5872f91,6,SC 6/7,ACC,0
 7503bca4b6e2,6,UM 02296,ACC,0
@@ -225,3 +195,20 @@ fb19289527c9,1,CAROL KNAPPE,ACC,0
 8bbdc2a0ac7e,5,2 Petre Ispirescu,ACC,0
 e2002749cd62,5,3 Petre Ispirescu,ACC,0
 009a865ae4e8,3,3 Tomis,ACC,0
+518bea088560,3,2 Șulea,ACC,0
+a70c49d42fe8,3,U1,ACC,0
+b541ba0abe1e,2,1 Socului,ACC,0
+74cdb1d54a33,2,17-18 Petricani,ACC,0
+4f59581a42b1,3,1 Matei Ambrozie,ACC,0
+b282798d1dc0,3,12Tomis,ACC,0
+13a3f3262143,3,13 Tomis,ACC,0
+dc7230d2a798,3,14 Tomis,ACC,0
+a424473f667f,3,15 Răcari,ACC,0
+f588532a9c4d,3,2 Nicolae Pascu,ACC,0
+448699d1d8f2,4,Spinis,ACC,0
+c23bdd091855,2,11 Pantelimon,ACC,0
+4845b79233ce,2,14 Pantelimon,ACC,0
+6c22aa001611,2,16 Vergului,ACC,0
+2651b9ffbae6,2,4 Colentina Socului,ACC,0
+d9237f670c5a,2,7 Pantelimon,ACC,0
+ec1ee08acd56,2,Cosmos Extindere,ACC,0
