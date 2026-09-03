@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-03T20:12:25",
+  "scraped_at": "2026-09-03T22:49:45",
   "status": "ok",
   "outages": [
     {
@@ -10,7 +10,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar",
-      "estimated_restore": "2026-09-03T23:30",
+      "estimated_restore": "2026-09-04T23:30",
       "on_time_probability": 0.468,
       "basis_n": 9526,
       "basis_bucket": "sector_cause_slip",
@@ -270,6 +270,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "2 Teiul Doamnei - Partial",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-04T15:30",
+      "on_time_probability": 0.499,
+      "basis_n": 11578,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Teiul Doamnei - bl.33,32,31,39,38,37,36,27"
+    },
+    {
+      "sector": 2,
       "pt_name": "21 Pantelimon",
       "blocks": 17,
       "service": "Oprire ACC",
@@ -495,6 +507,18 @@
       "basis_n": 4561,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Dobrina - bl. 49B, 49C; 49D1; 49C1 • Bld Chişinău - bl. 48A; 49 • Şos Pantelimon - bl.45, 48, 54 • Str Renului - bl. 49D"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Cosmos Vechi",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.273,
+      "basis_n": 77,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Pantelimon - bl.7, B2, 3, 8, 10, 5, 11, 12, 13, B9, 6, O"
     },
     {
       "sector": 2,
@@ -2127,42 +2151,6 @@
       "basis_n": 61,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sf. Ecaterina - Nr. 4 - instituţie"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Petre Ispirescu",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare retea termica primara program POIM Lot 5 Obiectiv 14",
-      "estimated_restore": "2026-09-03T23:00",
-      "on_time_probability": 0.381,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P22B, P22C, P22 • Str Cobadin - bl. P21C1, P21C2, P24 • Str Dumbrava Nouă - bl. P22A,P21B, P25, P41 • Str Moţoc - bl. P21A2, P21A1 • Str Elev Nicolae Popovici - bl. P42 • Str Sg.maj. Vasile Topliceanu - bl. P42B, P42A • Str Sg. maj. Ion Nedeleanu - bl. P40"
-    },
-    {
-      "sector": 5,
-      "pt_name": "6 Petre Ispirescu",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare retea termica primara program POIM Lot 5 Obiectiv 14",
-      "estimated_restore": "2026-09-03T23:00",
-      "on_time_probability": 0.333,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sg.maj. Vasile Topliceanu - bl. P37, P31, P32, P38, P36, P38A • Str Sg. maj. Ion Nedeleanu - bl. P33, P34, P35, P39"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Petre Ispirescu",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare retea termica primara program POIM Lot 5 Obiectiv 14",
-      "estimated_restore": "2026-09-03T23:00",
-      "on_time_probability": 0.423,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
     },
     {
       "sector": 5,
