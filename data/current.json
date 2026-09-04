@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-04T22:02:10",
+  "scraped_at": "2026-09-05T00:25:27",
   "status": "ok",
   "outages": [
     {
@@ -347,9 +347,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-09-04T23:30",
-      "on_time_probability": 0.583,
-      "basis_n": 84,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dimitrie Marinescu - imob Nr.48, 50, 52, 54 • Str Lt. Victor Manu - bl.A, F, G1, H1 • Str Maior Ion Coravu - bl.G3, G2, H2"
     },
     {
@@ -359,9 +359,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-09-04T23:30",
-      "on_time_probability": 0.582,
-      "basis_n": 55,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lt. Victor Manu - vila 71"
     },
     {
@@ -371,9 +371,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-09-04T23:30",
-      "on_time_probability": 0.553,
-      "basis_n": 76,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Vatra Luminoasă - bl. 1 • Str Lt. Victor Manu - bl. C1, C2, E1 • Str Ciurea - bl. Y2, A1, A2, A3, Y1, E2"
     },
     {
@@ -383,9 +383,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-09-04T23:30",
-      "on_time_probability": 0.643,
-      "basis_n": 84,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dimitrie Marinescu - Bl. C2 • Str Vatra Luminoasă - bl.W1, W2, C1,imob.Nr.62, 79, 81, 83, 85, 87,64, 89, 97, 91-93, 91, 95 • Str Lt. Bazar Romulus Niculescu - imob.Nr. 42, 28, 32 ,44 • Str Mr. Laurenţiu Claudian - imob.Nr.42, 40, 53 • Str Constantin Tănase - imob.Nr.1, 5, 3, 9, 17, 13, 19"
     },
     {
@@ -423,6 +423,18 @@
       "basis_n": 2116,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
+    },
+    {
+      "sector": 2,
+      "pt_name": "H1 Victor Manu",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.452,
+      "basis_n": 135,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Dimitrie Marinescu - imob Nr.48, 50, 52, 54 • Str Lt. Victor Manu - bl.A, F, G1, H1 • Str Maior Ion Coravu - bl.G3, G2, H2"
     },
     {
       "sector": 2,
@@ -646,7 +658,7 @@
       "blocks": 28,
       "service": "Oprire ACC",
       "cause": "Remediere avarie retea primara.",
-      "estimated_restore": "2026-09-04T23:00",
+      "estimated_restore": "2026-09-06T23:00",
       "on_time_probability": 0.232,
       "basis_n": 2104,
       "basis_bucket": "sector_cause_slip",
@@ -658,7 +670,7 @@
       "blocks": 3,
       "service": "Oprire ACC",
       "cause": "Remediere avarie retea primara.",
-      "estimated_restore": "2026-09-04T23:00",
+      "estimated_restore": "2026-09-06T23:00",
       "on_time_probability": 0.232,
       "basis_n": 2104,
       "basis_bucket": "sector_cause_slip",
@@ -670,7 +682,7 @@
       "blocks": 26,
       "service": "Oprire ACC",
       "cause": "Remediere avarie retea primara.",
-      "estimated_restore": "2026-09-04T23:00",
+      "estimated_restore": "2026-09-06T23:00",
       "on_time_probability": 0.232,
       "basis_n": 2104,
       "basis_bucket": "sector_cause_slip",
@@ -1482,18 +1494,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Tomis",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.415,
-      "basis_n": 41,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
-    },
-    {
-      "sector": 3,
       "pt_name": "SC.4Catelu",
       "blocks": 1,
       "service": "Deficienta ACC",
@@ -1542,18 +1542,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "1 Mărăşeşti",
-      "blocks": 20,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.418,
-      "basis_n": 67,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nerva Traian - bl M64 • Bld Octavian Goga - bl. V53C, M62, M63 • Str Emil Gârleanu - bl. V52C, V53D, A1, F • Str Foişorului - bl. F1C, F2C, F3C, D, E • Str Anastasie Panu - bl. A1, A2, A3"
-    },
-    {
-      "sector": 3,
       "pt_name": "6C4/2",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -1563,6 +1551,18 @@
       "basis_n": 1363,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Stănila - bl. H12, H9, H11, H7, H10 • Ale Rotundă - Y1, H8, H6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Vacaresti - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum Pridvorului nr.23",
+      "estimated_restore": "2026-09-07T15:30",
+      "on_time_probability": 0.468,
+      "basis_n": 5888,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Pridvorului - 18"
     },
     {
       "sector": 4,
@@ -1715,9 +1715,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.429,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Sg. Niţu Vasile - bl. 10, 11V, 25, 26 • Str Rezonanţei - bl. 7, 8, 12V, 13V, 14V, N26 • Bld Constantin Brâncoveanu - bl. 27, 28 • Ale Cricovul Sărat - bl. 11, 12, 13, 14, N27"
     },
     {
@@ -1727,9 +1727,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
     },
     {
@@ -1739,9 +1739,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Secuilor - bl. 2, 3, 4, 5; Scoala Gimnaziala nr.96 • Str Sg. Niţu Vasile - bl. 1, 1V, 2, 3V, 4V, 5V, 6V, 8V, 9V, Complex Comercial • Ale Mirea Mioara Luiza - bl. 6. 7, Biserica • Ale Cricovul Sărat - bl. 8, 9, 10"
     },
     {
@@ -1751,9 +1751,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Secuilor - bl. 18, 19, 20, B47"
     },
     {
@@ -1763,9 +1763,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.343,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Mărţişor - Imobil nr.1 • Şos Olteniţei - bl. 4, 5, 6, 10, 11, 12, G6, G7 Turn • Str Prinosului - Imobil nr.2"
     },
     {
@@ -1775,9 +1775,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Secuilor - bl. B46 • Str Sg. Gheorghe Tache - bl. B41, B43, B44"
     },
     {
@@ -1787,9 +1787,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Împăratul Traian - bl. B8, B9, B10, B11 • Bld Constantin Brâncoveanu - bl. B3, B4, B5, B7"
     },
     {
@@ -1799,9 +1799,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.414,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
     },
     {
@@ -1811,9 +1811,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Sold. Dumitru Minca - bl. 23, 24, 25 • Str Sg. Avram Petcu - Imobil nr.8 • Str Melineşti - bl. 1, 2, 3, 4, 11, 12, 13, 14 • Str Giovanni Boccaccio - bl. 5, 6, 7, 8 • Str Frt. Niculaie Marinescu - bl. A1, A2, A3, A4 • Str Praşilei - bl. 21, 22 • Str Peroni - bl. 9, 10, Imobil nr.45"
     },
     {
@@ -1823,9 +1823,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Secuilor - bl. B17A • Str Păduroiu - bl. B22A, B23, B24, B25 • Str Pomârla - bl. B20, B21, B22 • Bld Constantin Brâncoveanu - bl. B14, B15, B16, B17 • Str Băltiţa - bl. B18 ,B19"
     },
     {
@@ -1835,9 +1835,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Secuilor - bl. B27, B29, B31 • Str Păduroiu - bl. B30 • Str Huşi - bl. B32, B36, B37,B35 • Str Băltiţa - bl. B26, B28, B33, B34, B35"
     },
     {
@@ -1847,9 +1847,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar -str.Nitu Vasile ✕ Constantin Brancoveanu",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.55,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Secuilor - bl. 21, 22 • Ale Donea Diana Alexandra - bl.19, 32, V18, 19B • Str Rezonanţei - bl. 15+16 • Bld Constantin Brâncoveanu - bl. 29, 30 • Ale Cricovul Dulce - bl. 15, 16, 17, 18, 17-18, N16, N17, N18, N19, N21, Policlinica • Ale Adrian Dan Urucu - bl. 20, 31, N17, Gradinița nr.227"
     },
     {
@@ -1859,9 +1859,9 @@
       "service": "Oprire ACC",
       "cause": "Avarie retea primara str Mirea Mioara Luiza nr 1",
       "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 1422,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Secuilor - bl. 24, 35, N24, N25 • Str Secuilor - bl. 34, 23 • Str Sg. Niţu Vasile - bl. 36 • Ale Mirea Mioara Luiza - bl. N7, N20, N22, N23, 20V, 33 • Ale Donea Diana Alexandra - bl. 19 • Ale Cricovul Dulce - bl. N21, 19V"
     },
     {
