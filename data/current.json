@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-04T01:00:27",
+  "scraped_at": "2026-09-04T10:12:12",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "Radu Beller",
+      "blocks": 25,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-04T14:00",
+      "on_time_probability": 0.309,
+      "basis_n": 81,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str N. Constantinescu - bl. 15A, 14, 14A, 16, 16A, 13, 15, imob.Nr.60 • Str Lt. D. Darian - Nr.27 • Str George Călinescu - bl. 17, 17A, 19A, 20B, 20A • Str Gen. Andrei Popovici - bl. 8, 7, 8A, 7A, imob.Nr.65, 41 • Str Constantin D. Aricescu - bl. 21, 20 • Str Ştefan Protopopescu - bl. 3, 4, 2"
+    },
     {
       "sector": 1,
       "pt_name": "CAROL KNAPPE",
@@ -270,15 +282,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "2 Teiul Doamnei - Partial",
-      "blocks": 8,
+      "pt_name": "3 Fundeni",
+      "blocks": 17,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-04T15:30",
-      "on_time_probability": 0.499,
-      "basis_n": 11578,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Teiul Doamnei - bl.33,32,31,39,38,37,36,27"
+      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-04T12:30",
+      "on_time_probability": 0.561,
+      "basis_n": 98,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Maior Vasile Băcilă - bl.33, 33A, 34, 34A, 32, 32A, 31A • Str Pescarilor - bl.36, • Str Răscoala 1907 - bl.31 • Str Radovanu - bl.37, 38, 39, 41, 42, 43, 44, 45"
     },
     {
       "sector": 2,
@@ -402,18 +414,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "2 Mosilor",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea primară",
-      "estimated_restore": "2026-09-04T23:00",
-      "on_time_probability": 0.532,
-      "basis_n": 94,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
-    },
-    {
-      "sector": 2,
       "pt_name": "17-18 Petricani",
       "blocks": 15,
       "service": "Deficienta ACC",
@@ -507,6 +507,18 @@
       "basis_n": 4561,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Dobrina - bl. 49B, 49C; 49D1; 49C1 • Bld Chişinău - bl. 48A; 49 • Şos Pantelimon - bl.45, 48, 54 • Str Renului - bl. 49D"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Spitalul Malaxa",
+      "blocks": 1,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.359,
+      "basis_n": 14574,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Vergului -"
     },
     {
       "sector": 2,
@@ -618,6 +630,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "1 Hatisului",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.302,
+      "basis_n": 43,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Dobroeşti - bl. H16, H17, H15, H3, H2, H1 • Str Hăţişului - bl. H8, H4, H7, H11, H13, H14, H12, H10, H5, H6, H9"
+    },
+    {
+      "sector": 2,
       "pt_name": "16 Vergului",
       "blocks": 16,
       "service": "Deficienta ACC",
@@ -639,6 +663,18 @@
       "basis_n": 4561,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Vergului - bl.15D • Şos Pantelimon - bl.15ABC"
+    },
+    {
+      "sector": 3,
+      "pt_name": "M107 - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum,bl. M106",
+      "estimated_restore": "2026-09-04T15:00",
+      "on_time_probability": 0.474,
+      "basis_n": 10147,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Octavian Goga - bl. M106"
     },
     {
       "sector": 3,
@@ -1542,18 +1578,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "10 Matei Ambrozie",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.336,
-      "basis_n": 1362,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Odobeşti - bl. V16, V15 • Ale Ianca - bl. V18, V17"
-    },
-    {
-      "sector": 3,
       "pt_name": "6C4/2",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -1563,6 +1587,18 @@
       "basis_n": 1362,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Stănila - bl. H12, H9, H11, H7, H10 • Ale Rotundă - Y1, H8, H6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "7 Berceni Oltenita",
+      "blocks": 26,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-09-04T12:30",
+      "on_time_probability": 0.435,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Slt. Erou Gheorghe Ionescu - bl. 126, 136 • Ale Sg maj Emil Holuţ - bl. 161, 162 • Str Sg. Ion Iriceanu - bl. 131, 132, 157, 158, 160 • Str Panselelor - bl. 133, 134, 134Bis, 135, 163, 164, 165 • Str Şoldanului - bl. 137, 159, 166, 167, 168 • Str Cap. Constantin Vasilescu - bl. 138 • Şos Berceni - bl. 127, 128, 129, 130"
     },
     {
       "sector": 4,
@@ -1974,6 +2010,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "2 Rahova - Partial",
+      "blocks": 12,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-04T15:30",
+      "on_time_probability": 0.2,
+      "basis_n": 30,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Bârca - bl M184, M189, M190, M194 • Str Focşani - bl M178, M183, M193, M195,M196 • Str Iancu Jianu - bl M176, M177, M192"
+    },
+    {
+      "sector": 5,
       "pt_name": "VSNord",
       "blocks": 15,
       "service": "Oprire ACC",
@@ -2307,6 +2355,18 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "SC 4/3 -MODULE TERMICE - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în modulul termic pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-04T14:00",
+      "on_time_probability": 0.147,
+      "basis_n": 34,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Braşov - bl. OD1 modul 1"
     },
     {
       "sector": 6,
