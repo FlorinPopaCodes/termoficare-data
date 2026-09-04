@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-04T19:18:29",
+  "scraped_at": "2026-09-04T22:02:10",
   "status": "ok",
   "outages": [
     {
@@ -10,7 +10,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar",
-      "estimated_restore": "2026-09-04T23:30",
+      "estimated_restore": "2026-09-05T23:30",
       "on_time_probability": 0.442,
       "basis_n": 3450,
       "basis_bucket": "sector_cause_slip",
@@ -262,7 +262,7 @@
       "blocks": 0,
       "service": "Oprire ACC",
       "cause": "Lucrari modernizare Retea Termica Primara prin programul POIM Lot 2, obiectiv 9. Firma Elsaco",
-      "estimated_restore": "2026-09-04T23:30",
+      "estimated_restore": "2026-09-05T23:30",
       "on_time_probability": 0.387,
       "basis_n": 2292,
       "basis_bucket": "sector_cause_slip",
@@ -390,18 +390,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "17-18 Petricani",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.283,
-      "basis_n": 106,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
-    },
-    {
-      "sector": 2,
       "pt_name": "A2 Basarabia",
       "blocks": 13,
       "service": "Oprire ACC",
@@ -430,7 +418,7 @@
       "blocks": 3,
       "service": "Oprire ACC",
       "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-04T23:00",
+      "estimated_restore": "2026-09-05T23:30",
       "on_time_probability": 0.246,
       "basis_n": 2116,
       "basis_bucket": "sector_cause_slip",
@@ -546,18 +534,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "U2 Avrig",
-      "blocks": 1,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.449,
-      "basis_n": 107,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Avrig - bl.U2"
-    },
-    {
-      "sector": 2,
       "pt_name": "14 Pantelimon",
       "blocks": 16,
       "service": "Deficienta ACC",
@@ -663,18 +639,6 @@
       "basis_n": 10162,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Pădurea Craiului - bl. H2, H3 • Str Liviu Rebreanu - • Str Lunca Bradului -"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Baba Novac - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Inlocuire conducta CD - ACC bl. 37A+B sc. 1-2-3-4 / str. Eufrosina Popescu.",
-      "estimated_restore": "2026-09-04T22:00",
-      "on_time_probability": 0.261,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Eufrosina Popescu - Module bl. 37A, 37B"
     },
     {
       "sector": 3,
@@ -1518,6 +1482,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "3 Tomis",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.415,
+      "basis_n": 41,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
+    },
+    {
+      "sector": 3,
       "pt_name": "SC.4Catelu",
       "blocks": 1,
       "service": "Deficienta ACC",
@@ -1563,6 +1539,18 @@
       "basis_n": 1363,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fuiorului - bl. H16A, H16B, H17, Y3 • Ale Fuiorului - bl. H16A, H16B, H17, Y3 • Str Firidei - bl. H15, H19 • Ale Lotrioara - bl. H25, N10 • Str Rotundă - bl. H19B • Bld Camil Ressu - bl. H14, H26, N8, N9, N11, N12"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Mărăşeşti",
+      "blocks": 20,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.418,
+      "basis_n": 67,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nerva Traian - bl M64 • Bld Octavian Goga - bl. V53C, M62, M63 • Str Emil Gârleanu - bl. V52C, V53D, A1, F • Str Foişorului - bl. F1C, F2C, F3C, D, E • Str Anastasie Panu - bl. A1, A2, A3"
     },
     {
       "sector": 3,
@@ -1882,7 +1870,7 @@
       "blocks": 5,
       "service": "Oprire ACC",
       "cause": "Remediere avarie retea primara str. Vatra Dornei",
-      "estimated_restore": "2026-09-04T23:00",
+      "estimated_restore": "2026-09-08T23:00",
       "on_time_probability": 0.359,
       "basis_n": 1422,
       "basis_bucket": "sector_cause_slip",
@@ -1906,7 +1894,7 @@
       "blocks": 5,
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-09-04T23:00",
+      "estimated_restore": "2026-09-08T23:00",
       "on_time_probability": 0.4,
       "basis_n": 30,
       "basis_bucket": "pt_cause_slip",
@@ -1918,7 +1906,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-09-04T23:00",
+      "estimated_restore": "2026-09-08T23:00",
       "on_time_probability": 0.483,
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
@@ -1930,7 +1918,7 @@
       "blocks": 11,
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara-Bulevardul C-tin. Brancoveanu.",
-      "estimated_restore": "2026-09-04T23:00",
+      "estimated_restore": "2026-09-08T23:00",
       "on_time_probability": 0.381,
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
