@@ -25,7 +25,7 @@
   <polyline points="303.2,74.4 315.2,120.5 327.2,116.8 339.1,116.4 351.1,112.1 363.1,112.6 375,34.8" fill="none" stroke-width="2" stroke="#d95926"/>
   <polyline points="446.8,128 458.8,136.4 470.7,122.7 482.7,117.8 494.7,111.6 506.6,115.6 518.6,121.2" fill="none" stroke-width="2" stroke="#d95926"/>
   <polyline points="590.4,134.9 602.4,121.6 614.3,120.7 626.3,107.8 638.2,109.5 650.2,106.6 662.2,112.2" fill="none" stroke-width="2" stroke="#d95926"/>
-  <polyline points="40,139.4 52,127.8 63.9,142.6 75.9,133.7 87.9,132.8 99.8,122.5 111.8,125.1 123.8,138 135.7,128.5 147.7,119.8 159.6,135.4 171.6,120.3 183.6,125.1 195.5,126.8 207.5,114.5 219.5,110.7 231.4,125.9 243.4,133.3 255.4,125.8 267.3,133.6 279.3,141.1 291.3,115.1 303.2,120.2 315.2,111.6 327.2,103.6 339.1,100.3 351.1,112.4 363.1,114.2 375,120.3 387,123.9 398.9,116.3 410.9,110.2 422.9,114.5 434.8,125 446.8,127 458.8,123.4 470.7,110.8 482.7,114.2 494.7,105.6 506.6,105.7 518.6,115 530.6,120.1 542.5,119.7 554.5,118 566.5,142.6 578.4,122.3 590.4,126.3 602.4,112.9 614.3,104.1 626.3,105 638.2,99.5 650.2,101.3 662.2,102.1 674.1,121.4 686.1,121.7 698.1,115.3 710,118.8 722,74.4" fill="none" stroke-width="2" stroke="#3987e5"/>
+  <polyline points="40,139.4 52,127.8 63.9,142.6 75.9,133.7 87.9,132.8 99.8,122.5 111.8,125.1 123.8,138 135.7,128.5 147.7,119.8 159.6,135.4 171.6,120.3 183.6,125.1 195.5,126.8 207.5,114.5 219.5,110.7 231.4,125.9 243.4,133.3 255.4,125.8 267.3,133.6 279.3,141.1 291.3,115.1 303.2,120.2 315.2,111.6 327.2,103.6 339.1,100.3 351.1,112.4 363.1,114.2 375,120.3 387,123.9 398.9,116.3 410.9,110.2 422.9,114.5 434.8,125 446.8,127 458.8,123.4 470.7,110.8 482.7,114.2 494.7,105.6 506.6,105.7 518.6,115 530.6,120.1 542.5,119.7 554.5,118 566.5,142.6 578.4,122.3 590.4,126.3 602.4,112.9 614.3,104.1 626.3,105 638.2,99.5 650.2,101.3 662.2,102.1 674.1,121.4 686.1,121.7 698.1,115.3 710,118.9 722,69.8" fill="none" stroke-width="2" stroke="#3987e5"/>
   <circle cx="40" cy="160.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2021-12: heating 13% on time (2339 estimates)</title></circle>
   <circle cx="52" cy="134.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-01: heating 30% on time (3821 estimates)</title></circle>
   <circle cx="63.9" cy="141.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-02: heating 26% on time (5017 estimates)</title></circle>
@@ -117,9 +117,9 @@
   <circle cx="674.1" cy="121.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-05: hot water 39% on time (4164 estimates)</title></circle>
   <circle cx="686.1" cy="121.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-06: hot water 39% on time (2098 estimates)</title></circle>
   <circle cx="698.1" cy="115.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-07: hot water 43% on time (1893 estimates)</title></circle>
-  <circle cx="710" cy="118.8" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-08: hot water 41% on time (4799 estimates, provisional)</title></circle>
-  <circle cx="722" cy="74.4" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-09: hot water 70% on time (54 estimates, provisional)</title></circle>
-  <text x="731" y="77.4" class="label">ACC</text>
+  <circle cx="710" cy="118.9" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-08: hot water 41% on time (4842 estimates, provisional)</title></circle>
+  <circle cx="722" cy="69.8" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-09: hot water 73% on time (98 estimates, provisional)</title></circle>
+  <text x="731" y="72.8" class="label">ACC</text>
   <rect x="442" y="8" width="10" height="10" rx="2" fill="#d95926"/>
   <text x="456" y="16" class="axis">heating (INC)</text>
   <rect x="542" y="8" width="10" height="10" rx="2" fill="#3987e5"/>

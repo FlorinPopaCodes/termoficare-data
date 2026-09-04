@@ -16,7 +16,6 @@ d90a82250544,3,SC.G3 - Module Termice,ACC,14
 bbde282bbb5b,5,1 din 13 Septembrie,ACC,2
 bf9f6cbc6465,5,2 din 13 Septembrie,ACC,2
 c69d7180dff6,5,3 din 13 Septembrie,ACC,2
-cee4bd66e802,4,Plugarilor,ACC,11
 47c22c3ea0fa,5,Facultatea de Medicină Veterinară,ACC,0
 5feeaddd3ece,5,Garajul Parlamentului,ACC,0
 3d3c8b54be84,5,Grădiniţa Nr.268 Scoala Nr.128,ACC,0
@@ -62,7 +61,7 @@ ca32a008166d,3,4XA,ACC,10
 3dbdf143814c,3,5 C5/2,ACC,10
 a0a1851c1396,3,5Placare-T,ACC,10
 e12c1e948d32,3,5X,ACC,10
-be1684c1dd30,3,6 C5/2,ACC,10
+be1684c1dd30,3,6 C5/2,ACC,12
 f34ae4b0dafc,3,6C4/2,ACC,9
 80b58f35aa0b,3,6Placare-T,ACC,10
 dda9e6b69438,3,6X,ACC,10
@@ -92,7 +91,7 @@ b1153196152a,3,SC.2Catelu-module,ACC,8
 99ae54493c42,4,2 Oltenita Placare,ACC,5
 31dc7c17a55c,2,5 Socului,ACC,8
 fcbf39750dd1,2,8 Muncii,ACC,8
-f540527e421b,2,33 Muncii,ACC,8
+f540527e421b,2,33 Muncii,ACC,9
 f246337416b9,5,Tudor Vladimirescu,ACC,1
 0f6155233b1c,3,16 C5/2,ACC,8
 aa0d85a338f9,3,2 Baia de Arama,ACC,8
@@ -114,15 +113,6 @@ d395acabf2b5,4,8 Brancoveanu,ACC,3
 a5726235c848,4,9 Brâncoveanu,ACC,3
 3fe3bfdfb0d5,4,Pieptanari,ACC,3
 b7eb1d029553,4,Prasilei,ACC,3
-3995d77ab716,1,126-1 Mai,ACC,2
-fd3041bcc9d2,1,140 – 1 Mai,ACC,2
-79a4815be3cb,1,7-1 Mai,ACC,2
-1c337768babe,1,Av. Sanatescu,ACC,2
-4a315c706616,1,Depozit Medicamente,ACC,2
-fa7664aa7457,1,Locuinţe Steaua,ACC,2
-4dc69f0ed8ed,1,Palazul Mare,ACC,2
-449e89ede335,1,Popişteanu,ACC,2
-75b13d0fc7d2,1,Sandu Aldea,ACC,2
 44f43d900dbd,3,1Catelu,ACC,5
 1b61a47d2f53,3,1X,ACC,5
 4e209e4db339,3,1XA,ACC,5
@@ -136,7 +126,6 @@ a04077213a2f,3,Spital Victor Babes,ACC,5
 a411e29e2c58,3,4C4/2,ACC,5
 df9d7ffb1d93,3,9C4/2,ACC,5
 b2f35884689f,2,10 Pantelimon,ACC,3
-0849542e1626,3,10 Matei Ambrozie,ACC,4
 831cfa2641ed,1,10-22 Duca,ACC,0
 9dbe1a3eec8d,1,146 Grivita,ACC,0
 a18dfdbe9213,1,148 Grivita,ACC,0
@@ -156,18 +145,9 @@ bc3402b15d82,1,Palatul CFR,ACC,0
 fb4fd96e6163,1,Sora,ACC,0
 c560e6e6f5f5,1,Spitalul Militar Central,ACC,0
 22f4685946d2,1,Veronica Micle,ACC,0
-a117c4ba2abb,3,10 Vitan,ACC,0
-43a3ce2e78f6,3,11 Foișor,ACC,0
-4dd60f17d8ec,3,12 Foișor,ACC,0
-e2d1141c3028,3,13 Foișor,ACC,0
-d7c353d6ab5e,3,15 Foișor,ACC,0
-cc469bd003b3,3,19 Foișor,ACC,0
-9afe72241136,3,21 Foișor,ACC,0
-b9af70325236,3,9 Vitan,ACC,0
 e40cb38812a6,5,1 Alexandria,ACC,2
 a17e9b96603f,5,2 Alexandria,ACC,2
 f5ec87c18518,5,6 Margeanului,ACC,2
-59816a513c54,5,6 Petre Ispirescu,ACC,0
 5655c5f58099,5,7 Margeanului,ACC,2
 437c71f3a0d6,5,8 Alexandria,ACC,2
 55dd8ef073f0,5,8 Margeanului,ACC,2
@@ -176,11 +156,7 @@ c8876137e370,5,Garoafei,ACC,2
 7a1ee64be958,5,Teiuş,ACC,2
 85c55ad8b9fb,6,1 Veteranilor,ACC,0
 c5288829d4dc,6,2 Veteranilor,ACC,0
-a567ee3384b0,6,3 Uverturii,ACC,0
-4b8342a27e8b,6,5 Crivina,ACC,0
 cae4257e01c6,6,5 Desișului,ACC,0
-7cc4104d14ee,6,7 Crivina,ACC,0
-cb42c95eab1b,6,9 Crivina,ACC,0
 b851a93378a0,6,MILITARI - 4 Placare,ACC,0
 1fad8ed25152,6,MILITARI - 6 Placare,ACC,0
 2f0064f1ca85,6,MILITARI - 7 Placare,ACC,0
@@ -189,26 +165,45 @@ e7b7bf49ecea,6,MILITARI - 8 Placare,ACC,0
 3c8fc5872f91,6,SC 6/7,ACC,0
 7503bca4b6e2,6,UM 02296,ACC,0
 af96dc22c4e9,6,UM 0276 (0333),ACC,0
-de8d892ea486,2,5 Lacul Tei,ACC,0
-0b250bf720b7,2,ICB,ACC,0
-fb19289527c9,1,CAROL KNAPPE,ACC,0
-8bbdc2a0ac7e,5,2 Petre Ispirescu,ACC,0
-e2002749cd62,5,3 Petre Ispirescu,ACC,0
-009a865ae4e8,3,3 Tomis,ACC,0
-518bea088560,3,2 Șulea,ACC,0
+fb19289527c9,1,CAROL KNAPPE,ACC,1
 a70c49d42fe8,3,U1,ACC,0
 b541ba0abe1e,2,1 Socului,ACC,0
 74cdb1d54a33,2,17-18 Petricani,ACC,0
-4f59581a42b1,3,1 Matei Ambrozie,ACC,0
-b282798d1dc0,3,12Tomis,ACC,0
-13a3f3262143,3,13 Tomis,ACC,0
-dc7230d2a798,3,14 Tomis,ACC,0
-a424473f667f,3,15 Răcari,ACC,0
-f588532a9c4d,3,2 Nicolae Pascu,ACC,0
-448699d1d8f2,4,Spinis,ACC,0
 c23bdd091855,2,11 Pantelimon,ACC,0
 4845b79233ce,2,14 Pantelimon,ACC,0
 6c22aa001611,2,16 Vergului,ACC,0
 2651b9ffbae6,2,4 Colentina Socului,ACC,0
-d9237f670c5a,2,7 Pantelimon,ACC,0
 ec1ee08acd56,2,Cosmos Extindere,ACC,0
+91ddfa11d083,2,4 Socului,ACC,0
+5e3b8f64d557,3,SC.1Baba Novac - Partial,ACC,0
+ab8f3c93dc40,4,2 Giurgiu - Partial,ACC,0
+02177911a8ea,4,2 Oltenita Nord,ACC,0
+00f36c427c94,4,Propriu 1,ACC,0
+a2e37bafea4a,4,Propriu 2,ACC,0
+989c4fdb364a,4,Tudor Gociu,ACC,0
+362b639e2458,1,Radu Beller,ACC,1
+ae68137e86bd,4,P 5 A,ACC,0
+a80005d2fb4a,4,V.S.Sud,ACC,0
+014a53764cc9,5,103A,ACC,0
+ad213b47b998,5,Gioconda,ACC,0
+ec87647dbfb5,5,Institutul Teologioc,ACC,0
+dbd3f4f8dbe3,5,Tribunal,ACC,0
+13f76191d1a2,5,VSNord,ACC,0
+c85ed8ac072c,2,18 Pantelimon,ACC,0
+a6891fa321a3,2,19 Pantelimon,ACC,0
+f13b4ed41573,2,20 Pantelimon,ACC,0
+509b6007baac,2,21 Pantelimon,ACC,0
+df883abb83cb,2,22 Pantelimon,ACC,0
+290a41c240f0,2,23 Baicului,ACC,0
+9b37de0870f8,2,C1 Vatra Luminoasa,ACC,0
+cb9d4b9253a4,2,E2 Vatra Luminoasa,ACC,0
+9662630e700a,2,H1 Victor Manu,ACC,0
+b652c04f77d6,2,Vila 71A,ACC,0
+68663ef81d3e,2,Cosmos Vechi,ACC,0
+9557a9a04a47,2,1 Hatisului,ACC,0
+5b31a1382e9e,2,3 Fundeni,ACC,0
+e9f95c6cdbcc,2,Spitalul Malaxa,ACC,0
+2340ea3ef0d3,3,M107 - Partial,ACC,0
+af88c82de000,4,7 Berceni Oltenita,ACC,0
+5fd804232201,5,2 Rahova - Partial,ACC,0
+f33156367e0d,6,SC 4/3 -MODULE TERMICE - Partial,ACC,0
