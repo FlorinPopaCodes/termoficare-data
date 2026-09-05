@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-05T20:37:16",
+  "scraped_at": "2026-09-05T22:28:30",
   "status": "ok",
   "outages": [
     {
@@ -10,7 +10,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar",
-      "estimated_restore": "2026-09-05T23:30",
+      "estimated_restore": "2026-09-07T23:30",
       "on_time_probability": 0.334,
       "basis_n": 1037,
       "basis_bucket": "sector_cause_slip",
@@ -27,18 +27,6 @@
       "basis_n": 565,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Școala Gimnazială ,,Nicolae Titulescu”",
-      "blocks": 0,
-      "service": "Oprire ACC",
-      "cause": "Lucrari modernizare Retea Termica Primara prin programul POIM Lot 2, obiectiv 9. Firma Elsaco",
-      "estimated_restore": "2026-09-05T23:30",
-      "on_time_probability": 0.261,
-      "basis_n": 705,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Nicolae Titulescu -"
     },
     {
       "sector": 2,
