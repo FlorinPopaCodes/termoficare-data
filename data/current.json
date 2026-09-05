@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-05T15:39:42",
+  "scraped_at": "2026-09-05T18:32:00",
   "status": "ok",
   "outages": [
     {
@@ -369,8 +369,8 @@
       "pt_name": "33 Muncii",
       "blocks": 3,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-05T23:30",
+      "cause": "La punerea in functiune a aparut o noua avarie circuit primar",
+      "estimated_restore": "2026-09-07T23:30",
       "on_time_probability": 0.246,
       "basis_n": 2116,
       "basis_bucket": "sector_cause_slip",
@@ -402,6 +402,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "Cosmos Extindere",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.267,
+      "basis_n": 217,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Sold. Zambilă Ioniţă - bl. 33C, 7C, 7D • Şos Pantelimon - bl. A3, A2, A1, A4, 7A+7B, B1, B2 • Str Azotului - bl. 33D"
+    },
+    {
+      "sector": 2,
       "pt_name": "6 Pantelimon",
       "blocks": 10,
       "service": "Deficienta ACC",
@@ -423,6 +435,18 @@
       "basis_n": 14577,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Vergului -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Cosmos Vechi",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.273,
+      "basis_n": 77,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Pantelimon - bl.7, B2, 3, 8, 10, 5, 11, 12, 13, B9, 6, O"
     },
     {
       "sector": 2,
@@ -627,18 +651,6 @@
       "basis_n": 1363,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Ozana - bl. I32, J53 • Ale Lipăneşti - bl. 10, M1, J12, J17, J18, J19, J20, J21, J22, • Ale Iosif Hodoş - bl. J15, J43, J50, PC5-PC6 • Str Jean-Alexandru Steriadi - bl. M3, PC4 • Str Câmpineanca - bl. T1, T2, T3, T4, T4bis • Str Sg. Dumitru Pene - bl. J11, J51 • Bld 1 Decembrie 1918 - bl. J41, J42 • Str Ceairului - bl. M2, J10"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2Catelu",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud, alimentare din CTE Progresul, din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.337,
-      "basis_n": 1363,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Tropicelor - • Str Gruiul Argeşului - bl. 31A, 31B, MC5 • Str Câmpia Libertăţii - bl. 1C3, MC1, MC2, MC3, MC4, MC6"
     },
     {
       "sector": 3,
@@ -1011,18 +1023,6 @@
       "basis_n": 1363,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Sold. Ghiţă Şerban - bl. 8A, 8B, 8C, 8D, 8E • Str Plt. Petre D. Ionescu - bl. 6A, 6B, 7, 7bis, 9, 10, 11, 12 • Bld 1 Decembrie 1918 - bl. U20"
-    },
-    {
-      "sector": 3,
-      "pt_name": "6Catelu",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud, alimentare din CTE Progresul, din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.337,
-      "basis_n": 1363,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Gheorghe Petraşcu - • Str Câmpia Libertăţii - bl. 6A, B1, B2, B6"
     },
     {
       "sector": 3,
