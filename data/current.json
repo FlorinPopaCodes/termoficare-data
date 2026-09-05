@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-05T22:28:30",
+  "scraped_at": "2026-09-06T02:09:31",
   "status": "ok",
   "outages": [
     {
@@ -1182,6 +1182,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "3 Tomis",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.429,
+      "basis_n": 42,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
+    },
+    {
+      "sector": 3,
       "pt_name": "SC.4Catelu",
       "blocks": 1,
       "service": "Deficienta ACC",
@@ -1215,6 +1227,30 @@
       "basis_n": 1363,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Odobeşti - bl. T1, V35 • Str Lotrioara - bl. M31A, M31B, 31, V32, V30, V33, V34, V36, V37, V38, V39, V40, V41"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Șulea",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.4,
+      "basis_n": 35,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Odobeşti - bl. M7A, M7B, V7, V7A, V8, V9, V10, V12, V13, Z1A, Z2,V11"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Șulea",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.436,
+      "basis_n": 39,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Odobeşti - bl. Z1, Z3 • Bld Camil Ressu - bl. N4, N5, Z4, Z5"
     },
     {
       "sector": 3,
