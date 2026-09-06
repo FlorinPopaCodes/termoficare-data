@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-06T16:06:44",
+  "scraped_at": "2026-09-06T19:13:39",
   "status": "ok",
   "outages": [
     {
@@ -1254,6 +1254,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "1 Șulea Nord",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.5,
+      "basis_n": 24,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Odobeşti - bl. N2B, N3B • Str Liviu Rebreanu - bl. N6 • Bld Camil Ressu - bl. N1, N2, N3"
+    },
+    {
+      "sector": 3,
       "pt_name": "2 Șulea",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -1911,6 +1923,54 @@
       "basis_n": 80,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Uverturii",
+      "blocks": 13,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-06T23:30",
+      "on_time_probability": 0.364,
+      "basis_n": 121,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - bl. M16, 13, 13A-A, 13A-B, 14 • Ale Cetăţuia - bl. M17, M18, M19, M22, M21, M24, M20,M23"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Virtuții",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-06T23:30",
+      "on_time_probability": 0.441,
+      "basis_n": 136,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
+    },
+    {
+      "sector": 6,
+      "pt_name": "7 Virtuții",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-06T23:30",
+      "on_time_probability": 0.283,
+      "basis_n": 152,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "8 Virtuții",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-06T23:30",
+      "on_time_probability": 0.367,
+      "basis_n": 120,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
     }
   ]
 }
