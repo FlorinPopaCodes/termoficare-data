@@ -12,19 +12,19 @@ e49d02114622,4,Metalurgiei,ACC,16
 75d55936b0f1,3,D 16,ACC,13
 ad3117a55608,3,SC.3C3/1 - Module Termice,ACC,13
 d90a82250544,3,SC.G3 - Module Termice,ACC,14
-8c07d8de3319,4,Izvorul Cosbuc,ACC,1
-bbde282bbb5b,5,1 din 13 Septembrie,ACC,2
-bf9f6cbc6465,5,2 din 13 Septembrie,ACC,2
-c69d7180dff6,5,3 din 13 Septembrie,ACC,2
-47c22c3ea0fa,5,Facultatea de Medicină Veterinară,ACC,0
-5feeaddd3ece,5,Garajul Parlamentului,ACC,0
-3d3c8b54be84,5,Grădiniţa Nr.268 Scoala Nr.128,ACC,0
-0c07c49d5fcc,5,Hotel CONTINENTAL,ACC,0
-e961c318d991,5,MApN,ACC,0
-4f990e08fcf6,5,Ministerul Finanţelor,ACC,0
-b81c8f2ad538,5,Palatul Parlamentului,ACC,0
-c620ee08393d,5,SRI PARCHET,ACC,0
-64e3f3d4d87b,5,CASA ACADEMIEI,ACC,0
+8c07d8de3319,4,Izvorul Cosbuc,ACC,3
+bbde282bbb5b,5,1 din 13 Septembrie,ACC,3
+bf9f6cbc6465,5,2 din 13 Septembrie,ACC,3
+c69d7180dff6,5,3 din 13 Septembrie,ACC,3
+47c22c3ea0fa,5,Facultatea de Medicină Veterinară,ACC,1
+5feeaddd3ece,5,Garajul Parlamentului,ACC,1
+3d3c8b54be84,5,Grădiniţa Nr.268 Scoala Nr.128,ACC,1
+0c07c49d5fcc,5,Hotel CONTINENTAL,ACC,1
+e961c318d991,5,MApN,ACC,1
+4f990e08fcf6,5,Ministerul Finanţelor,ACC,1
+b81c8f2ad538,5,Palatul Parlamentului,ACC,1
+c620ee08393d,5,SRI PARCHET,ACC,1
+64e3f3d4d87b,5,CASA ACADEMIEI,ACC,1
 d476e82cc127,4,6 Zona II,ACC,8
 7b6fc775cad5,2,2 Voiniceni,ACC,12
 2f1f96563580,3,MY,ACC,13
@@ -91,7 +91,7 @@ b1153196152a,3,SC.2Catelu-module,ACC,8
 31dc7c17a55c,2,5 Socului,ACC,8
 fcbf39750dd1,2,8 Muncii,ACC,8
 f540527e421b,2,33 Muncii,ACC,12
-f246337416b9,5,Tudor Vladimirescu,ACC,1
+f246337416b9,5,Tudor Vladimirescu,ACC,2
 0f6155233b1c,3,16 C5/2,ACC,8
 aa0d85a338f9,3,2 Baia de Arama,ACC,8
 e2fd5df9c591,3,21 C5/2,ACC,8
@@ -132,11 +132,11 @@ c23bdd091855,2,11 Pantelimon,ACC,0
 989c4fdb364a,4,Tudor Gociu,ACC,0
 ae68137e86bd,4,P 5 A,ACC,0
 a80005d2fb4a,4,V.S.Sud,ACC,0
-014a53764cc9,5,103A,ACC,0
-ad213b47b998,5,Gioconda,ACC,0
-ec87647dbfb5,5,Institutul Teologioc,ACC,0
-dbd3f4f8dbe3,5,Tribunal,ACC,0
-13f76191d1a2,5,VSNord,ACC,0
+014a53764cc9,5,103A,ACC,1
+ad213b47b998,5,Gioconda,ACC,1
+ec87647dbfb5,5,Institutul Teologioc,ACC,1
+dbd3f4f8dbe3,5,Tribunal,ACC,1
+13f76191d1a2,5,VSNord,ACC,1
 c85ed8ac072c,2,18 Pantelimon,ACC,0
 a6891fa321a3,2,19 Pantelimon,ACC,0
 f13b4ed41573,2,20 Pantelimon,ACC,0
@@ -146,14 +146,11 @@ df883abb83cb,2,22 Pantelimon,ACC,0
 e9f95c6cdbcc,2,Spitalul Malaxa,ACC,0
 250bc94e0d61,3,8 C4/2 - Partial,ACC,0
 d677b8e301ed,4,2 Vacaresti - Partial,ACC,0
-ec64e43b2966,3,10 Matei Ambrozie,ACC,0
 80a66ca792e4,2,Cosmos Extindere,ACC,0
 faecfe527dc3,2,Cosmos Vechi,ACC,0
 6aa679b78dc9,2,14 Pantelimon,ACC,0
 f8b735c1a643,2,4 Colentina Socului,ACC,0
 8138bf2bba5b,2,U1 Avrig,ACC,0
 b0c98328241d,2,U2 Avrig,ACC,0
-75162c62fe90,3,2 Șulea,ACC,0
-acca5babe785,3,3 Tomis,ACC,0
-4d538ce85834,3,3 Șulea,ACC,0
-8eb090cd371f,3,2 Tomis,ACC,0
+88b34e76b850,2,1 Carei,ACC,0
+04512f0e00ff,2,17-18 Petricani,ACC,0
