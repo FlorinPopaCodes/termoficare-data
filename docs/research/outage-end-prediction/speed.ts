@@ -25,14 +25,12 @@ const FIRST_YEAR = "2022";
 interface Cell {
   within: number[];
   eligible: number[]; // per horizon: episodes observed long enough to settle it
-  durations: number[];
   gaps: number[];
 }
 
 const newCell = (): Cell => ({
   within: HORIZONS.map(() => 0),
   eligible: HORIZONS.map(() => 0),
-  durations: [],
   gaps: [],
 });
 
@@ -54,36 +52,19 @@ const CENSOR_TS = episodes.reduce((a, e) => (e.last_seen_ts > a ? e.last_seen_ts
 let stillOpen = 0;
 
 for (const e of episodes) {
-  const c = cell(`${e.first_seen_ts.slice(0, 7)} ${e.utility}`);
   const restored = e.first_absent_ts;
+  if (restored === null) stillOpen++;
+  const month = Number(e.first_seen_ts.slice(5, 7));
+  if (month < FROM_MONTH || month > TO_MONTH || e.first_seen_ts < FIRST_YEAR) continue;
+  const c = cell(`${e.first_seen_ts.slice(0, 4)} ${e.utility}`);
   const observedFor = hours(e.first_seen_ts, CENSOR_TS);
   HORIZONS.forEach((h, i) => {
     if (restored === null && observedFor < h) return;
     c.eligible[i]++;
     if (restored !== null && hours(e.first_seen_ts, restored) <= h) c.within[i]++;
   });
-  if (restored === null) {
-    stillOpen++;
-    continue;
-  }
-  c.durations.push(hours(e.first_seen_ts, restored));
+  if (restored === null) continue;
   c.gaps.push(hours(e.last_seen_ts, restored));
-}
-
-// Roll months up to years so a single hot August cannot carry a yearly claim, over the
-// same months of each year so the years are comparable.
-const rollup = new Map<string, Cell>();
-for (const [key, c] of byYear) {
-  const [month, utility] = key.split(" ");
-  const m = Number(month.slice(5, 7));
-  if (m < FROM_MONTH || m > TO_MONTH || month < FIRST_YEAR) continue;
-  const yearKey = `${month.slice(0, 4)} ${utility}`;
-  const r = rollup.get(yearKey) ?? newCell();
-  c.within.forEach((v, i) => r.within[i] += v);
-  c.eligible.forEach((v, i) => r.eligible[i] += v);
-  r.durations.push(...c.durations);
-  r.gaps.push(...c.gaps);
-  rollup.set(yearKey, r);
 }
 
 console.log(`Censor time (last sighting in the archive): ${CENSOR_TS}`);
@@ -91,7 +72,7 @@ console.log(`${stillOpen} episodes still open; each horizon drops the ones it ca
 
 console.log(`| year | util | episodes | ${HORIZONS.map((h) => `≤${h}h`).join(" | ")} |`);
 console.log(`|---|---|---|${HORIZONS.map(() => "---").join("|")}|`);
-for (const [key, c] of [...rollup.entries()].sort()) {
+for (const [key, c] of [...byYear.entries()].sort()) {
   const [year, utility] = key.split(" ");
   const pct = c.within
     .map((v, i) => {
@@ -109,7 +90,7 @@ for (const [key, c] of [...rollup.entries()].sort()) {
 console.log("\n### Restoration bracket (first_absent − last_seen)\n");
 console.log("| year | util | n | p50 | p90 | p99 |");
 console.log("|---|---|---|---|---|---|");
-for (const [key, c] of [...rollup.entries()].sort()) {
+for (const [key, c] of [...byYear.entries()].sort()) {
   const [year, utility] = key.split(" ");
   const gaps = c.gaps.sort((a, b) => a - b);
   console.log(
