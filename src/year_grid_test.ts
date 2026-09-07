@@ -1,65 +1,32 @@
-import { assertEquals, assertStringIncludes } from "@std/assert";
+import { assertStringIncludes } from "@std/assert";
 import { renderYearGrid } from "./year_grid.ts";
 
 Deno.test("no data is distinct from an explicit zero", () => {
-  const svg = renderYearGrid(2024, {
-    value: (date) => {
-      if (date === "2024-03-01") return null;
-      if (date === "2024-03-02") return 0;
-      return 5;
-    },
-    color: (value) => {
-      if (value === null) return "#nodata";
-      if (value === 0) return "#zero";
-      return "#some";
-    },
-    tooltip: (date, value) => `${date}=${value === null ? "none" : value}`,
-    title: "test title",
-    legend: { zeroColor: "#000000", gradientStops: ["#111111", "#222222"] },
-  });
+  const svg = renderYearGrid(
+    2024,
+    new Map(),
+    new Set(["2024-03-02"]),
+    { min: 1, max: 5 },
+    "test title",
+  );
 
-  assertStringIncludes(svg, `fill="#nodata" rx="2"><title>2024-03-01=none</title>`);
-  assertStringIncludes(svg, `fill="#zero" rx="2"><title>2024-03-02=0</title>`);
+  assertStringIncludes(svg, `fill="#484f58" rx="2"><title>2024-03-01: no data</title>`);
+  assertStringIncludes(svg, `fill="#161b22" rx="2"><title>2024-03-02: 0 active episodes</title>`);
 });
 
-Deno.test("caller-supplied color scale is honored, not a per-year min-max", () => {
-  const svg = renderYearGrid(2024, {
-    value: (date) => (date === "2024-07-04" ? 42 : 1),
-    color: (value) => (value === 42 ? "#distinctive" : "#8b949e"),
-    tooltip: (date, value) => `${date}: ${value}`,
-    title: "test title",
-    legend: { zeroColor: "#000000", gradientStops: ["#111111", "#222222"] },
-  });
+Deno.test("the supplied color range is honored, not a per-year min-max", () => {
+  const counts = new Map([["2024-07-04", 42]]);
+  const svg = renderYearGrid(2024, counts, new Set(), { min: 42, max: 100 }, "test title");
 
-  assertStringIncludes(svg, `fill="#distinctive" rx="2"><title>2024-07-04: 42</title>`);
+  // 42 is the supplied minimum (lightest), even though it is this year's maximum.
+  assertStringIncludes(svg, `fill="#fef0d9" rx="2"><title>2024-07-04: 42 active episodes</title>`);
 });
 
-Deno.test("legend renders a noData swatch and label when configured", () => {
-  const svg = renderYearGrid(2024, {
-    value: () => 1,
-    color: () => "#some",
-    tooltip: (date, value) => `${date}: ${value}`,
-    title: "test title",
-    legend: {
-      zeroColor: "#000000",
-      gradientStops: ["#111111", "#222222"],
-      noData: { color: "#484f58", label: "No data" },
-    },
-  });
+Deno.test("legend distinguishes unknown days from zero and positive counts", () => {
+  const svg = renderYearGrid(2024, new Map(), new Set(), { min: 1, max: 1 }, "test title");
 
   assertStringIncludes(svg, `class="legend">No data</text>`);
   assertStringIncludes(svg, `fill="#484f58" rx="2"/>`);
-});
-
-Deno.test("legend omits the noData swatch and label when not configured", () => {
-  const svg = renderYearGrid(2024, {
-    value: () => 1,
-    color: () => "#some",
-    tooltip: (date, value) => `${date}: ${value}`,
-    title: "test title",
-    legend: { zeroColor: "#000000", gradientStops: ["#111111", "#222222"] },
-  });
-
-  assertEquals(svg.includes("No data</text>"), false);
-  assertEquals(svg.includes(`fill="#484f58" rx="2"/>`), false);
+  assertStringIncludes(svg, `fill="#161b22" rx="2"/>`);
+  assertStringIncludes(svg, `fill="url(#legend-gradient)" rx="2"/>`);
 });
