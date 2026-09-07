@@ -195,12 +195,7 @@ for (const month of months) {
 // Expected calibration error: how far the predicted probability sits from the realised
 // frequency, averaged over prediction deciles and weighted by their size.
 function ece(a: Acc): number {
-  let sum = 0;
-  for (const b of a.bins) {
-    if (b.n === 0) continue;
-    sum += b.n * Math.abs(b.p / b.n - b.y / b.n);
-  }
-  return sum / a.n;
+  return a.bins.reduce((sum, b) => sum + Math.abs(b.p - b.y), 0) / a.n;
 }
 
 // The realised hit rate over the whole eval window, and what a predictor that somehow knew
@@ -219,13 +214,7 @@ console.log(
 // leans. Calibration error cannot see this -- two bins wrong in opposite directions
 // average out there and do not average out here.
 function bias(a: Acc): number {
-  let p = 0;
-  let y = 0;
-  for (const b of a.bins) {
-    p += b.p;
-    y += b.y;
-  }
-  return (p - y) / a.n;
+  return a.bins.reduce((sum, b) => sum + (b.p - b.y), 0) / a.n;
 }
 
 console.log("| model | scored | Brier | log loss | calibration error | bias | skill |");

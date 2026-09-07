@@ -15,7 +15,6 @@ export interface Episode {
   last_seen_ts: string;
   first_absent_ts: string | null; // null = still open at end of archive
   cause_class: string; // "" = never carried an estimate
-  n_postings: number;
 }
 
 export interface Posting {
@@ -34,12 +33,6 @@ export function hours(from: string, to: string): number {
   return (Date.parse(`${to}Z`) - Date.parse(`${from}Z`)) / 3600e3;
 }
 
-// Estimates are minute-precision; widen to seconds so they compare as fixed-width strings
-// against snapshot timestamps (src/on_time.ts does the same).
-export function deadline(estimate: string): string {
-  return estimate.length === 16 ? `${estimate}:00` : estimate;
-}
-
 export function loadEpisodes(): Episode[] {
   const rows = parseRows(Deno.readTextFileSync(`${WORK}/episodes.csv`));
   return rows.slice(1).map((r) => ({
@@ -50,8 +43,7 @@ export function loadEpisodes(): Episode[] {
     first_seen_ts: r[4],
     last_seen_ts: r[5],
     first_absent_ts: r[6] === "" ? null : r[6],
-    cause_class: r[9],
-    n_postings: Number(r[10]),
+    cause_class: r[7],
   }));
 }
 

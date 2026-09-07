@@ -70,10 +70,7 @@ const EPISODE_OUT = [
   "first_seen_ts",
   "last_seen_ts",
   "first_absent_ts", // "" = still open at end of archive (right-censored)
-  "n_bridged_gaps",
-  "bridged_seconds",
   "cause_class", // "" = never carried an estimate
-  "n_postings",
 ];
 const POSTING_OUT = [
   "episode_id",
@@ -93,8 +90,7 @@ let open = 0;
 let noEstimate = 0;
 
 for (const e of rowsOf("data/derived/episodes")) {
-  const [episode_id, sector, pt_name, utility, first_seen, last_seen, first_absent, , gaps, secs] =
-    e;
+  const [episode_id, sector, pt_name, utility, first_seen, last_seen, first_absent] = e;
   const list = postings.get(episode_id) ?? [];
   if (first_absent === "") open++;
   if (list.length === 0) noEstimate++;
@@ -106,10 +102,7 @@ for (const e of rowsOf("data/derived/episodes")) {
     first_seen,
     last_seen,
     first_absent,
-    gaps,
-    secs,
     list[0]?.[4] ?? "",
-    list.length,
   ]);
   for (const p of list) {
     postingOut += formatRow([

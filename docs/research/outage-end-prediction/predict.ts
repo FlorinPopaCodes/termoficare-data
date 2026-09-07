@@ -32,24 +32,15 @@ const LAST = Deno.args[1] ?? "2026-06";
 
 const episodes = loadEpisodes();
 const postings = loadPostings();
-const episodeById = new Map(episodes.map((e) => [e.episode_id, e]));
 
 function slipBucket(slip: number): string {
   return slip >= 3 ? "3+" : String(slip);
 }
 
-// How far ahead the deadline was set, coarsened. A covariate on top of an already-thin
-// cell, not a series in its own right.
-function leadBucket(leadHours: number): string {
-  if (leadHours <= 6) return "<=6h";
-  if (leadHours <= 24) return "<=24h";
-  return ">24h";
-}
-
-// How long the outage had already been running when the deadline went up.
-function ageBucket(age: number): string {
-  if (age <= 6) return "<=6h";
-  if (age <= 24) return "<=24h";
+// Coarsen posted lead and elapsed age into the same hour ranges.
+function hoursBucket(hours: number): string {
+  if (hours <= 6) return "<=6h";
+  if (hours <= 24) return "<=24h";
   return ">24h";
 }
 
@@ -63,9 +54,9 @@ interface Ctx {
 
 const KEY: Record<string, (c: Ctx) => string> = {
   "utility x cause x slip x lead x age": (c) =>
-    `${c.utility}|${c.cause_class}|${slipBucket(c.slip)}|${leadBucket(c.lead)}|${ageBucket(c.age)}`,
+    `${c.utility}|${c.cause_class}|${slipBucket(c.slip)}|${hoursBucket(c.lead)}|${hoursBucket(c.age)}`,
   "utility x cause x slip x lead": (c) =>
-    `${c.utility}|${c.cause_class}|${slipBucket(c.slip)}|${leadBucket(c.lead)}`,
+    `${c.utility}|${c.cause_class}|${slipBucket(c.slip)}|${hoursBucket(c.lead)}`,
   "utility x cause x slip": (c) => `${c.utility}|${c.cause_class}|${slipBucket(c.slip)}`,
   "utility x cause": (c) => `${c.utility}|${c.cause_class}`,
   "utility": (c) => c.utility,
@@ -235,10 +226,8 @@ interface Acc {
   n: number;
   absErr: number[];
   pinball50: number;
-  pinball50n: number;
   pinball80: number;
   covered80: number;
-  covered80n: number;
   deadline80: number[];
   unbounded80: number; // the model declined to name an 80% deadline
 }
@@ -247,10 +236,8 @@ const newAcc = (): Acc => ({
   n: 0,
   absErr: [],
   pinball50: 0,
-  pinball50n: 0,
   pinball80: 0,
   covered80: 0,
-  covered80n: 0,
   deadline80: [],
   unbounded80: 0,
 });
@@ -274,14 +261,12 @@ function score(name: string, actual: number, p50: number | null, p80: number | n
   if (p50 !== null) {
     a.absErr.push(Math.abs(actual - p50));
     a.pinball50 += pinball(actual, p50, 0.5);
-    a.pinball50n++;
   }
   if (p80 === null) {
     a.unbounded80++;
     return;
   }
   a.pinball80 += pinball(actual, p80, 0.8);
-  a.covered80n++;
   if (actual <= p80) a.covered80++;
   a.deadline80.push(p80);
 }
@@ -304,8 +289,7 @@ for (const month of months) {
 
   const evalSet = postings.filter((p) => p.posted_ts.slice(0, 7) === month);
   for (const p of evalSet) {
-    const episode = episodeById.get(p.episode_id)!;
-    const age = hours(episode.first_seen_ts, p.posted_ts);
+    const age = hours(p.episode_first_seen_ts, p.posted_ts);
     const actual = hours(p.posted_ts, p.restored_ts);
     if (actual < 0) continue; // restoration observed before this estimate went up
     const lead = hours(p.posted_ts, p.estimated_restore);
@@ -363,9 +347,9 @@ for (const name of ["CMTEB's posted deadline", ...MODELS.map((m) => m.name)]) {
   const deadlines = [...a.deadline80].sort((x, y) => x - y);
   console.log(
     `| ${name} | ${a.n} | ${quantile(errs, 0.5).toFixed(1)}h | ` +
-      `${quantile(errs, 0.9).toFixed(1)}h | ${(a.pinball50 / a.pinball50n).toFixed(2)} | ` +
-      `${(a.pinball80 / a.covered80n).toFixed(2)} | ` +
-      `${(a.covered80 / a.covered80n * 100).toFixed(1)}% | ` +
+      `${quantile(errs, 0.9).toFixed(1)}h | ${(a.pinball50 / a.absErr.length).toFixed(2)} | ` +
+      `${(a.pinball80 / a.deadline80.length).toFixed(2)} | ` +
+      `${(a.covered80 / a.deadline80.length * 100).toFixed(1)}% | ` +
       `${deadlines.length === 0 ? "-" : quantile(deadlines, 0.5).toFixed(1) + "h"} | ` +
       `${a.unbounded80} |`,
   );

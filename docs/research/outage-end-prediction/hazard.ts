@@ -43,7 +43,6 @@ export interface HazardTable {
   grid: Grid;
   atRisk: number[];
   events: number[];
-  n: number; // observations contributing, censored included
 }
 
 export function bucketOf(grid: Grid, at: number): number {
@@ -56,14 +55,12 @@ export function bucketOf(grid: Grid, at: number): number {
 export function fit(grid: Grid, observations: Iterable<Observation>): HazardTable {
   const atRisk = grid.edges.map(() => 0);
   const events = grid.edges.map(() => 0);
-  let n = 0;
   for (const o of observations) {
-    n++;
     const last = bucketOf(grid, o.at);
     for (let i = bucketOf(grid, o.entry ?? 0); i <= last; i++) atRisk[i]++;
     if (o.restored) events[last]++;
   }
-  return { grid, atRisk, events, n };
+  return { grid, atRisk, events };
 }
 
 // Width of bucket i. The last one is unbounded; hold its hazard flat at the rate the
