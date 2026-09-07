@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-07T01:20:13",
+  "scraped_at": "2026-09-07T07:32:48",
   "status": "ok",
   "outages": [
     {
@@ -27,18 +27,6 @@
       "basis_n": 565,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Petricani",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.296,
-      "basis_n": 216,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
     },
     {
       "sector": 2,
@@ -1218,18 +1206,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Tomis",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.429,
-      "basis_n": 42,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Plut. Ion Nedelcu - bl. 1, 3, C14, B3, B1, 1A • Str Fizicienilor - bl. 2A, 1B, 10A • Str Istriei - bl. 3A, 2B, 3B, 2, 10, 10B • Bld Camil Ressu - bl. A12, A13, A14, C13, C15,C16, C17"
-    },
-    {
-      "sector": 3,
       "pt_name": "SC.4Catelu",
       "blocks": 1,
       "service": "Deficienta ACC",
@@ -1239,18 +1215,6 @@
       "basis_n": 1365,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Câmpia Libertăţii - Module bl.21"
-    },
-    {
-      "sector": 3,
-      "pt_name": "15 Foișor",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.467,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Zizin - bl. G1 • Str Brânduşelor - bl. G3 • Str Banu Udrea - bl. G7, G8"
     },
     {
       "sector": 3,
@@ -1278,66 +1242,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Șulea",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.4,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Odobeşti - bl. M7A, M7B, V7, V7A, V8, V9, V10, V12, V13, Z1A, Z2,V11"
-    },
-    {
-      "sector": 3,
-      "pt_name": "11 Laborator",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.395,
-      "basis_n": 43,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Laborator - bl. S18, 39A, 40, 39, 38 • Str Râmnicu Vâlcea - bl. S19, S20, S16, S15, S17"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Șulea Nord",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.5,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Odobeşti - bl. N2B, N3B • Str Liviu Rebreanu - bl. N6 • Bld Camil Ressu - bl. N1, N2, N3"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Călăraşi",
-      "blocks": 13,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.374,
-      "basis_n": 107,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Șulea",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.436,
-      "basis_n": 39,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Odobeşti - bl. Z1, Z3 • Bld Camil Ressu - bl. N4, N5, Z4, Z5"
-    },
-    {
-      "sector": 3,
       "pt_name": "4C4/2",
       "blocks": 15,
       "service": "Deficienta ACC",
@@ -1347,66 +1251,6 @@
       "basis_n": 1365,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fuiorului - bl. H16A, H16B, H17, Y3 • Ale Fuiorului - bl. H16A, H16B, H17, Y3 • Str Firidei - bl. H15, H19 • Ale Lotrioara - bl. H25, N10 • Str Rotundă - bl. H19B • Bld Camil Ressu - bl. H14, H26, N8, N9, N11, N12"
-    },
-    {
-      "sector": 3,
-      "pt_name": "10 Matei Ambrozie",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.3,
-      "basis_n": 5899,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Odobeşti - bl. V16, V15 • Ale Ianca - bl. V18, V17"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Tomis",
-      "blocks": 28,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.357,
-      "basis_n": 42,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tomis - bl. A5BIS, B5, B6, C1, C5, H3, H4, H5, H6, H8, H9, H10 • Drm Murgului - bl. B4, B2BIS, C3, H1, H2 • Str Istriei - bl. C2 • Bld Râmnicu Sărat - bl. H7, H9 • Bld Camil Ressu - bl. A4, A5, A6, B4BIS, B5BIS, B6BIS, C4"
-    },
-    {
-      "sector": 3,
-      "pt_name": "9 Laborator",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.387,
-      "basis_n": 31,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Drm Murgului - bl. S33A, S33 • Str Laborator - bl. S22, S31A, S31B • Str Râmnicu Vâlcea - bl. 4, 4A, S30A, S30, S31, S34A, S35, S35A, S34 • Bld Camil Ressu - bl. 1, 2, 3"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Tomis",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.308,
-      "basis_n": 39,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Plut. Ion Nedelcu - H11, H12 • Str Istriei - bl. C6, H16, H18 • Int Sold. Dumitru Drăgan - bl. 8A, 8A1, 8A2 • Bld Râmnicu Sărat - bl. H13, H14, H15, H17 • Bld Camil Ressu - bl. A7, A7BIS, A8, A8BIS, A9, A10, A11, C10, C11, C12"
-    },
-    {
-      "sector": 3,
-      "pt_name": "15 Răcari",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE SUD,alimentare din CTE PROGRESU,din punct de vedere hidraulic -PARAMETRII INSUFICIENTI",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.267,
-      "basis_n": 45,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lugojana - bl. 15D • Ale Răcari - bl. 33B, 33A, 30B, 30A, 15C, 36, 37 • Str Râmnicu Vâlcea - bl. 31, 30, 32, 33, 34A, 34 • Ale Slt. Adrian Cârstea - bl. 35, 30, 30B"
     },
     {
       "sector": 3,
@@ -1762,7 +1606,7 @@
       "blocks": 9,
       "service": "Oprire ACC",
       "cause": "Lucrări de modernizare a sistemului de temoficare al Municipiului Bucureṣti efectuate de către SC Construcţii Erbaṣu",
-      "estimated_restore": "2026-09-07T12:00",
+      "estimated_restore": "2026-09-09T23:30",
       "on_time_probability": 0.354,
       "basis_n": 452,
       "basis_bucket": "sector_cause_slip",
