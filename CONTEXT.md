@@ -27,11 +27,8 @@ _Avoid_: map, gazetteer
 The `(street, block)` pair a resident starts from, parsed out of an observation's `zone_raw` and matched street-type-insensitively — `Str Tohani` and `Ale Tohani` are one street. A block token indexes when it bears a digit or is a single letter; the staircases enumerated after a block (`bl. 71 sc. A, B, C`) belong to that one building and are not addresses of their own. 10,205 addresses have appeared in the outage record.
 _Avoid_: building, location
 
-**Street index**:
-Street → the thermal points serving it, 1,182 streets. Fed by every segment of `zone_raw`, including those naming a street with no block list. Serves the lookup miss, where a street's points are the only context available.
-
 **Lookup miss**:
-An address the index has never seen. Per [ADR 0003](docs/adr/0003-claim-only-what-the-record-positively-shows.md) it says no outage has been _published_ for this address — never that the address has had no outage, and never that the address is unserved.
+An entered address that cannot be matched to an address in the index. It establishes nothing about whether an outage was published, whether service was interrupted, or whether the address is served, consistent with [ADR 0003](docs/adr/0003-claim-only-what-the-record-positively-shows.md).
 _Avoid_: not found, no data
 
 ### Scraping
