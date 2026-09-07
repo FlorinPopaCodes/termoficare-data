@@ -22,7 +22,6 @@ import {
   ACTIVE_EPISODE_HEADER,
   ACTIVE_EPISODES_PATH,
   aggregateRates,
-  currentSlipCount,
   type EpisodeHistory,
   ESTIMATE_SCORE_HEADER,
   ESTIMATE_SCORES_DIR,
@@ -220,16 +219,6 @@ interface Incident {
   openCauseRuns: Map<string, Run>;
 }
 
-// Values Set preserves this snapshot's first-appearance order for the key's rows, which
-// is what gives run-opening order "for free" per the implementation sketch.
-interface KeyGroup {
-  sector: string;
-  pt_name: string;
-  service: string;
-  estimates: Set<string>;
-  causes: Set<string>;
-}
-
 // U+0001 is not a character CMTEB's HTML can produce, so joining with it can't
 // false-collide two distinct (sector, pt_name, service) triples the way plain
 // concatenation could (e.g. sector "1"/pt_name "2 Test" vs sector "12"/pt_name " Test").
@@ -305,42 +294,19 @@ interface UtilityGroup {
   members: UtilityMember[];
 }
 
-// One current episode's in-progress span while sweeping a key's incidents.
-interface EpisodeBuilder {
-  members: Incident[];
-  first_seen_ts: string;
-  last_seen_ts: string;
-  spanEndTs: string | null; // max first_absent_ts over the CURRENT span; null = infinity
-  spanHasOprire: boolean; // whether the CURRENT span contains an Oprire-severity incident
-  n_bridged_gaps: number;
-  bridged_seconds: number;
-}
-
-function startEpisode(member: UtilityMember): EpisodeBuilder {
+function startEpisode(group: UtilityGroup, member: UtilityMember): Episode {
   const { incident } = member;
-  return {
-    members: [incident],
-    first_seen_ts: incident.first_seen_ts,
-    last_seen_ts: incident.last_seen_ts,
-    spanEndTs: incident.first_absent_ts,
-    spanHasOprire: member.isOprire,
-    n_bridged_gaps: 0,
-    bridged_seconds: 0,
-  };
-}
-
-function finishEpisode(group: UtilityGroup, b: EpisodeBuilder): Episode {
   return {
     episode_id: "",
     sector: group.sector,
     pt_name: group.pt_name,
     utility: group.utility,
-    members: b.members,
-    first_seen_ts: b.first_seen_ts,
-    last_seen_ts: b.last_seen_ts,
-    first_absent_ts: b.spanEndTs,
-    n_bridged_gaps: b.n_bridged_gaps,
-    bridged_seconds: b.bridged_seconds,
+    members: [incident],
+    first_seen_ts: incident.first_seen_ts,
+    last_seen_ts: incident.last_seen_ts,
+    first_absent_ts: incident.first_absent_ts,
+    n_bridged_gaps: 0,
+    bridged_seconds: 0,
   };
 }
 
@@ -356,46 +322,50 @@ function maxOpenEndedTs(a: string | null, b: string | null): string | null {
 // far contains an Oprire, and the gap is <= 24h) or closes the episode.
 function buildEpisodes(group: UtilityGroup): Episode[] {
   const episodes: Episode[] = [];
-  let current: EpisodeBuilder | undefined;
+  let current: Episode | undefined;
+  let spanHasOprire = false;
 
   for (const member of group.members) {
     const { incident: inc, isOprire } = member;
 
     if (current === undefined) {
-      current = startEpisode(member);
+      current = startEpisode(group, member);
+      spanHasOprire = isOprire;
       continue;
     }
 
-    if (current.spanEndTs === null || inc.first_seen_ts <= current.spanEndTs) {
+    if (current.first_absent_ts === null || inc.first_seen_ts <= current.first_absent_ts) {
       current.members.push(inc);
-      current.spanEndTs = maxOpenEndedTs(current.spanEndTs, inc.first_absent_ts);
-      current.spanHasOprire ||= isOprire;
+      current.first_absent_ts = maxOpenEndedTs(current.first_absent_ts, inc.first_absent_ts);
+      spanHasOprire ||= isOprire;
       if (inc.last_seen_ts > current.last_seen_ts) current.last_seen_ts = inc.last_seen_ts;
       continue;
     }
 
     // Append "Z" so naive local timestamps are treated as a fixed offset -- deterministic
     // (DST-edge wall-clock skew is an accepted caveat).
-    const gapSeconds = (Date.parse(`${inc.first_seen_ts}Z`) - Date.parse(`${current.spanEndTs}Z`)) /
+    const gapSeconds =
+      (Date.parse(`${inc.first_seen_ts}Z`) - Date.parse(`${current.first_absent_ts}Z`)) /
       1000;
 
-    if (gapSeconds <= 86400 && current.spanHasOprire) {
+    if (gapSeconds <= 86400 && spanHasOprire) {
       current.n_bridged_gaps++;
       current.bridged_seconds += gapSeconds;
       current.members.push(inc);
-      current.spanEndTs = inc.first_absent_ts;
+      current.first_absent_ts = inc.first_absent_ts;
       // Resets to the new span: this is the recovery-tail rule -- Oprire -> gap ->
       // Deficienta bridges, but that Deficienta must not itself re-bridge the next gap.
-      current.spanHasOprire = isOprire;
+      spanHasOprire = isOprire;
       if (inc.last_seen_ts > current.last_seen_ts) current.last_seen_ts = inc.last_seen_ts;
       continue;
     }
 
-    episodes.push(finishEpisode(group, current));
-    current = startEpisode(member);
+    episodes.push(current);
+    current = startEpisode(group, member);
+    spanHasOprire = isOprire;
   }
 
-  if (current !== undefined) episodes.push(finishEpisode(group, current));
+  if (current !== undefined) episodes.push(current);
   return episodes;
 }
 
@@ -452,23 +422,10 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
 
     usableDays.add(snap.ts.slice(0, 10));
 
-    const groups = new Map<string, KeyGroup>();
-    for (const obs of snap.observations) {
-      const key = keyOf(obs.sector, obs.pt_name, obs.service);
-      let group = groups.get(key);
-      if (group === undefined) {
-        group = {
-          sector: obs.sector,
-          pt_name: obs.pt_name,
-          service: obs.service,
-          estimates: new Set(),
-          causes: new Set(),
-        };
-        groups.set(key, group);
-      }
-      group.estimates.add(obs.estimated_restore);
-      group.causes.add(obs.cause);
-    }
+    const groups = Map.groupBy(
+      snap.observations,
+      (obs) => keyOf(obs.sector, obs.pt_name, obs.service),
+    );
 
     // Absent this (parseable) snapshot = closed. An "empty" snapshot has no groups at
     // all, so this closes every open incident -- exactly decision #8's rule.
@@ -479,7 +436,8 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
       }
     }
 
-    for (const [key, group] of groups) {
+    for (const [key, rows] of groups) {
+      const group = rows[0];
       let incident = open.get(key);
       if (incident === undefined) {
         incident = {
@@ -502,34 +460,45 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
         incident.last_seen_ts = snap.ts;
       }
       // Collision merge: presence counts once per key per snapshot no matter how many
-      // rows shared the key; the Sets above already merged their distinct estimate/cause
-      // values.
+      // rows shared the key. Sets preserve first-appearance order for distinct values.
       incident.snapshots_present++;
-      advanceRuns(incident.estimateRuns, incident.openEstimateRuns, group.estimates, snap.ts);
-      advanceRuns(incident.causeRuns, incident.openCauseRuns, group.causes, snap.ts);
+      advanceRuns(
+        incident.estimateRuns,
+        incident.openEstimateRuns,
+        new Set(rows.map((o) => o.estimated_restore)),
+        snap.ts,
+      );
+      advanceRuns(
+        incident.causeRuns,
+        incident.openCauseRuns,
+        new Set(rows.map((o) => o.cause)),
+        snap.ts,
+      );
     }
   }
 
   const ids = await Promise.all(incidents.map(incidentId));
   incidents.forEach((incident, i) => (incident.incident_id = ids[i]));
 
-  const files = new Map<string, string>();
+  const fileChunks = new Map<string, string[]>();
+  const append = (dir: string, month: string, row: CsvValue[]) =>
+    fileChunks.get(monthPath(dir, month))!.push(formatRow(row));
   let estimateRuns = 0;
   let causeRuns = 0;
   let openIncidents = 0;
 
   // Partitioned by the INCIDENT's first_seen_ts month: an incident and all of its runs
-  // land in one file even if a run extends into a later month. Buckets are created (and
-  // thus files emitted) only for months that actually opened an incident.
-  interface MonthBucket {
-    incidents: CsvValue[][];
-    estimates: CsvValue[][];
-    causes: CsvValue[][];
-    episodes: CsvValue[][];
-    episodeIncidents: CsvValue[][];
-    estimateScores: CsvValue[][];
-  }
-  const byMonth = new Map<string, MonthBucket>();
+  // land in one file even if a run extends into a later month. Headers are created only
+  // for months that actually opened an incident, including files with no data rows.
+  const monthlyHeaders: [string, string[]][] = [
+    [INCIDENTS_DIR, INCIDENT_HEADER],
+    [ESTIMATES_DIR, ESTIMATE_HEADER],
+    [CAUSES_DIR, CAUSE_HEADER],
+    [EPISODES_DIR, EPISODE_HEADER],
+    [EPISODE_INCIDENTS_DIR, EPISODE_INCIDENT_HEADER],
+    [ESTIMATE_SCORES_DIR, ESTIMATE_SCORE_HEADER],
+  ];
+  const months = new Set<string>();
 
   for (const incident of incidents) {
     if (incident.first_absent_ts === null) openIncidents++;
@@ -537,20 +506,14 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     causeRuns += incident.causeRuns.length;
 
     const month = incident.first_seen_ts.slice(0, 7);
-    let bucket = byMonth.get(month);
-    if (bucket === undefined) {
-      bucket = {
-        incidents: [],
-        estimates: [],
-        causes: [],
-        episodes: [],
-        episodeIncidents: [],
-        estimateScores: [],
-      };
-      byMonth.set(month, bucket);
+    if (!months.has(month)) {
+      months.add(month);
+      for (const [dir, header] of monthlyHeaders) {
+        fileChunks.set(monthPath(dir, month), [formatRow(header)]);
+      }
     }
 
-    bucket.incidents.push([
+    append(INCIDENTS_DIR, month, [
       incident.incident_id,
       incident.sector,
       incident.pt_name,
@@ -561,10 +524,20 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
       incident.snapshots_present,
     ]);
     for (const run of incident.estimateRuns) {
-      bucket.estimates.push([incident.incident_id, run.value, run.first_seen_ts, run.last_seen_ts]);
+      append(ESTIMATES_DIR, month, [
+        incident.incident_id,
+        run.value,
+        run.first_seen_ts,
+        run.last_seen_ts,
+      ]);
     }
     for (const run of incident.causeRuns) {
-      bucket.causes.push([incident.incident_id, run.value, run.first_seen_ts, run.last_seen_ts]);
+      append(CAUSES_DIR, month, [
+        incident.incident_id,
+        run.value,
+        run.first_seen_ts,
+        run.last_seen_ts,
+      ]);
     }
   }
 
@@ -608,7 +581,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
   const pendingEstimates: PendingEstimate[] = [];
 
   // An episode and all its link rows land in the month of the EPISODE's first_seen_ts,
-  // which always belongs to some member incident -- so that month's bucket already exists
+  // which always belongs to some member incident -- so that month's headers already exist
   // from the incidents loop above, even when every one of this month's incidents joined
   // episodes begun in an earlier month (a header-only episodes/episode_incidents file).
   for (const episode of episodes) {
@@ -616,12 +589,11 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
     bridgedGaps += episode.n_bridged_gaps;
 
     const month = episode.first_seen_ts.slice(0, 7);
-    const bucket = byMonth.get(month);
-    if (bucket === undefined) {
+    if (!months.has(month)) {
       throw new Error(`episode ${episode.episode_id}: no bucket for month ${month}`);
     }
 
-    bucket.episodes.push([
+    append(EPISODES_DIR, month, [
       episode.episode_id,
       episode.sector,
       episode.pt_name,
@@ -634,27 +606,28 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
       episode.bridged_seconds,
     ]);
     for (const member of episode.members) {
-      bucket.episodeIncidents.push([episode.episode_id, member.incident_id]);
+      append(EPISODE_INCIDENTS_DIR, month, [episode.episode_id, member.incident_id]);
     }
 
-    // Ended episodes score their estimates (into the opening month's bucket, like the
+    // Ended episodes score their estimates (into the opening month's file, like the
     // episode row itself); open ones join the active index the scrape pass joins against.
     const history = episodeHistory(episode);
     if (episode.first_absent_ts === null) {
+      const pending = pendingPostings(history);
       activeRows.push([
         episode.episode_id,
         episode.sector,
         episode.pt_name,
         episode.utility,
-        currentSlipCount(history),
+        Math.max(0, pending.length - 1),
       ]);
-      for (const posted_ts of pendingPostings(history)) {
+      for (const posted_ts of pending) {
         pendingEstimates.push({ utility: episode.utility, posted_ts });
       }
     } else {
       for (const score of scoreEpisode(history)) {
         allScores.push(score);
-        bucket.estimateScores.push([
+        append(ESTIMATE_SCORES_DIR, month, [
           score.episode_id,
           score.sector,
           score.pt_name,
@@ -672,20 +645,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
 
   const render = (header: string[], rows: CsvValue[][]) =>
     formatRow(header) + rows.map(formatRow).join("");
-  for (const [month, bucket] of byMonth) {
-    files.set(monthPath(INCIDENTS_DIR, month), render(INCIDENT_HEADER, bucket.incidents));
-    files.set(monthPath(ESTIMATES_DIR, month), render(ESTIMATE_HEADER, bucket.estimates));
-    files.set(monthPath(CAUSES_DIR, month), render(CAUSE_HEADER, bucket.causes));
-    files.set(monthPath(EPISODES_DIR, month), render(EPISODE_HEADER, bucket.episodes));
-    files.set(
-      monthPath(EPISODE_INCIDENTS_DIR, month),
-      render(EPISODE_INCIDENT_HEADER, bucket.episodeIncidents),
-    );
-    files.set(
-      monthPath(ESTIMATE_SCORES_DIR, month),
-      render(ESTIMATE_SCORE_HEADER, bucket.estimateScores),
-    );
-  }
+  const files = new Map([...fileChunks].map(([path, chunks]) => [path, chunks.join("")]));
   files.set(RATES_PATH, render(RATE_HEADER, aggregateRates(allScores)));
   files.set(ACTIVE_EPISODES_PATH, render(ACTIVE_EPISODE_HEADER, activeRows));
 
@@ -704,7 +664,7 @@ export async function deriveDatasets(snapshots: Iterable<FoundationSnapshot>): P
       openIncidents,
       estimateRuns,
       causeRuns,
-      months: byMonth.size,
+      months: months.size,
       episodes: episodes.length,
       openEpisodes,
       bridgedGaps,

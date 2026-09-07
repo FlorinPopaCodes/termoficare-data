@@ -1,22 +1,13 @@
 // Episode-outage heatmaps: GitHub-style year grids where each day-cell shows how many
 // episodes of one utility (INC or ACC) were active at any point that day. No I/O --
-// a thin config of the generic year_grid renderer, with a color scale that is global
+// the year_grid renderer uses a color scale that is global
 // across all years per utility, so equal color means equal badness whichever year
 // you're looking at.
 
 import { renderYearGrid } from "./year_grid.ts";
-import {
-  type CountRange,
-  EMPTY_COLOR,
-  getColorForCount,
-  GRADIENT_STOP_HEXES,
-} from "./color_scale.ts";
+import { type CountRange } from "./color_scale.ts";
 
 export const IMAGES_DIR = "images";
-
-// Neutral grey, distinct from EMPTY_COLOR's near-black -- "we don't know" must not read as
-// "we know it was zero."
-const BLIND_COLOR = "#484f58";
 
 const UTILITIES = ["INC", "ACC"] as const;
 
@@ -88,28 +79,13 @@ export function renderEpisodeHeatmaps(
     const range = utilityRange(counts);
 
     for (let year = minYear; year <= maxYear; year++) {
-      const svg = renderYearGrid(year, {
-        value: (date) => {
-          const count = counts.get(date) ?? 0;
-          // A nonzero count wins over blindness: an episode spanning a blind day is still
-          // known-active. Grey only ever replaces a would-be zero.
-          if (count > 0) return count;
-          return usableDays.has(date) ? 0 : null;
-        },
-        color: (value) => value === null ? BLIND_COLOR : getColorForCount(value, range),
-        tooltip: (date, value) => {
-          if (value === null) return `${date}: no data`;
-          return `${date}: ${value} active episode${value === 1 ? "" : "s"}`;
-        },
-        title: `${year} - ${episodesInYear(episodes, utility, year)} ${
-          UTILITY_NOUN[utility]
-        } episodes`,
-        legend: {
-          zeroColor: EMPTY_COLOR,
-          gradientStops: GRADIENT_STOP_HEXES,
-          noData: { color: BLIND_COLOR, label: "No data" },
-        },
-      });
+      const svg = renderYearGrid(
+        year,
+        counts,
+        usableDays,
+        range,
+        `${year} - ${episodesInYear(episodes, utility, year)} ${UTILITY_NOUN[utility]} episodes`,
+      );
       svgs.set(`${IMAGES_DIR}/episodes-${utility.toLowerCase()}-${year}.svg`, svg);
     }
   }

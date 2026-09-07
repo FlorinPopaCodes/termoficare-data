@@ -91,12 +91,7 @@ interface Posting {
 // The newest cause on the page when the estimate appeared -- the same pairing a reader
 // of the status page saw next to it.
 function causeAt(causes: ValueRun[], ts: string): string {
-  let current = causes[0]?.value ?? "";
-  for (const run of causes) {
-    if (run.first_seen_ts > ts) break;
-    current = run.value;
-  }
-  return current;
+  return causes.findLast((run) => run.first_seen_ts <= ts)?.value ?? causes[0]?.value ?? "";
 }
 
 // The episode's distinct posted estimates in first-posting order: re-posting an earlier
@@ -149,11 +144,6 @@ export function scoreEpisode(episode: EpisodeHistory): EstimateScore[] {
     restored_ts: restored,
     hit: restored <= deadline(p.value),
   }));
-}
-
-// Slip count an open episode's current estimate carries into the active-episode index.
-export function currentSlipCount(episode: EpisodeHistory): number {
-  return Math.max(0, postings(episode).length - 1);
 }
 
 // Posting timestamps of an open episode's distinct claims -- estimates whose outcomes are

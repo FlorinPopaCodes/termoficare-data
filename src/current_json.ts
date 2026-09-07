@@ -31,11 +31,7 @@ export function toCurrentJson(
         service: o.service,
         cause: o.cause,
         estimated_restore: o.estimated_restore,
-        ...(p === null ? {} : {
-          on_time_probability: p.on_time_probability,
-          basis_n: p.basis_n,
-          basis_bucket: p.basis_bucket,
-        }),
+        ...p,
         zone_raw: o.zone_raw,
       };
     }),

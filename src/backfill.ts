@@ -114,7 +114,6 @@ export const SPOT_CHECKS: SpotCheck[] = [
 interface Bucket {
   observations: string[];
   log: string[];
-  started: boolean;
   stats: MonthStats;
 }
 
@@ -141,7 +140,6 @@ export async function buildDataset(
       bucket = {
         observations: [],
         log: [],
-        started: false,
         stats: { snapshots: 0, observations: 0, loggedObservations: 0 },
       };
       buckets.set(month, bucket);
@@ -152,10 +150,11 @@ export async function buildDataset(
     // byte-identical to one the live loop wrote -- including the header-only file a month
     // of nothing but empty snapshots produces.
     bucket.observations.push(
-      appendPayload(bucket.started, OBSERVATION_HEADER, artifacts.observations),
+      appendPayload(bucket.stats.snapshots > 0, OBSERVATION_HEADER, artifacts.observations),
     );
-    bucket.log.push(appendPayload(bucket.started, SNAPSHOT_LOG_HEADER, [artifacts.logRow]));
-    bucket.started = true;
+    bucket.log.push(
+      appendPayload(bucket.stats.snapshots > 0, SNAPSHOT_LOG_HEADER, [artifacts.logRow]),
+    );
 
     const rows = artifacts.observations.length;
     bucket.stats.snapshots++;

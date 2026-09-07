@@ -1,30 +1,20 @@
-// Generic GitHub-style year-grid SVG renderer. No I/O. Owns all SVG markup; callers plug in
-// per-cell value/color/tooltip and the title/legend text. Output depends on the ambient
+// Episode year-grid SVG renderer. No I/O. Counts and the utility's global color range
+// come from episode_heatmap.ts. Output depends on the ambient
 // timezone (day-cell keys go through toISOString), so callers that need reproducible bytes
 // must fix TZ -- the Flat workflow and the tests both run under UTC.
 
+import {
+  type CountRange,
+  EMPTY_COLOR,
+  getColorForCount,
+  GRADIENT_STOP_HEXES,
+} from "./color_scale.ts";
+
+// Unknown days must not read as days with an observed zero.
+const BLIND_COLOR = "#484f58";
 const CELL_SIZE = 11;
 const CELL_GAP = 3;
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-// A cell's value for one day: a number, or null meaning "no data for this day"
-// (distinct from an explicit zero).
-export type CellValue = number | null;
-
-export interface YearGridConfig {
-  value: (date: string) => CellValue;
-  color: (value: CellValue) => string;
-  tooltip: (date: string, value: CellValue) => string;
-  title: string;
-  legend: {
-    zeroColor: string;
-    gradientStops: string[];
-    // Present only for heatmaps that distinguish "known zero" from "no data" (e.g. blind
-    // days). Adds one legend entry left of "Less"; omitted entirely leaves the legend
-    // byte-identical to a caller that never heard of noData.
-    noData?: { color: string; label: string };
-  };
-}
 
 function getWeekNumber(date: Date): number {
   const startOfYear = new Date(date.getFullYear(), 0, 1);
@@ -41,7 +31,13 @@ function getDayOfWeek(date: Date): number {
   return day === 0 ? 6 : day - 1;
 }
 
-export function renderYearGrid(year: number, config: YearGridConfig): string {
+export function renderYearGrid(
+  year: number,
+  counts: Map<string, number>,
+  usableDays: Set<string>,
+  range: CountRange,
+  title: string,
+): string {
   // Calculate dimensions
   const leftPadding = 30;
   const topPadding = 20;
@@ -91,8 +87,13 @@ export function renderYearGrid(year: number, config: YearGridConfig): string {
 
   for (const d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
     const dateStr = d.toISOString().substring(0, 10);
-    const value = config.value(dateStr);
-    const color = config.color(value);
+    const count = counts.get(dateStr) ?? 0;
+    // An episode spanning a blind day is known-active; only a would-be zero turns grey.
+    const value = count > 0 ? count : usableDays.has(dateStr) ? 0 : null;
+    const color = value === null ? BLIND_COLOR : getColorForCount(value, range);
+    const tooltip = value === null
+      ? `${dateStr}: no data`
+      : `${dateStr}: ${value} active episode${value === 1 ? "" : "s"}`;
 
     const week = getWeekNumber(d);
     const dayOfWeek = getDayOfWeek(d);
@@ -102,17 +103,17 @@ export function renderYearGrid(year: number, config: YearGridConfig): string {
 
     svg +=
       `  <rect x="${x}" y="${y}" width="${CELL_SIZE}" height="${CELL_SIZE}" fill="${color}" rx="2">`;
-    svg += `<title>${config.tooltip(dateStr, value)}</title></rect>\n`;
+    svg += `<title>${tooltip}</title></rect>\n`;
   }
 
   // Title at bottom left
   const bottomY = height - 15;
-  svg += `  <text x="${leftPadding}" y="${bottomY}" class="title">${config.title}</text>\n`;
+  svg += `  <text x="${leftPadding}" y="${bottomY}" class="title">${title}</text>\n`;
 
   // Legend at bottom right: a swatch for zero, then a continuous gradient bar
   const legendX = width - 150;
   const legendY = bottomY - 10;
-  const stops = config.legend.gradientStops;
+  const stops = GRADIENT_STOP_HEXES;
   svg += `  <defs>
     <linearGradient id="legend-gradient" x1="0" y1="0" x2="1" y2="0">
 ${
@@ -123,17 +124,14 @@ ${
   }
     </linearGradient>
   </defs>\n`;
-  const noData = config.legend.noData;
-  if (noData !== undefined) {
-    svg += `  <text x="${legendX - 72}" y="${bottomY}" class="legend">${noData.label}</text>\n`;
-    svg += `  <rect x="${
-      legendX - 30
-    }" y="${legendY}" width="11" height="11" fill="${noData.color}" rx="2"/>\n`;
-  }
+  svg += `  <text x="${legendX - 72}" y="${bottomY}" class="legend">No data</text>\n`;
+  svg += `  <rect x="${
+    legendX - 30
+  }" y="${legendY}" width="11" height="11" fill="${BLIND_COLOR}" rx="2"/>\n`;
   svg += `  <text x="${legendX}" y="${bottomY}" class="legend">Less</text>\n`;
   svg += `  <rect x="${
     legendX + 30
-  }" y="${legendY}" width="11" height="11" fill="${config.legend.zeroColor}" rx="2"/>\n`;
+  }" y="${legendY}" width="11" height="11" fill="${EMPTY_COLOR}" rx="2"/>\n`;
   svg += `  <rect x="${
     legendX + 44
   }" y="${legendY}" width="53" height="11" fill="url(#legend-gradient)" rx="2"/>\n`;
