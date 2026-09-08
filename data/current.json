@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-08T01:00:07",
+  "scraped_at": "2026-09-08T07:29:57",
   "status": "ok",
   "outages": [
     {
@@ -159,18 +159,6 @@
       "basis_n": 4561,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Chişinău - bl.M7; M8; M9 • Str Cernăuţi - bl. M10, B28, M10A; B27 • Str Herţa - bl.D2, B29, J2, X1, X2, X3, X4; • Str Pescăruşului - bl.B26, D6 ; J1; D5; B25; D4; B24 • Ale Codlea - bl.D3, D1, J3, D7"
-    },
-    {
-      "sector": 2,
-      "pt_name": "5 Pantelimon",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.351,
-      "basis_n": 259,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Herţa - bl. 63; 64A; 64B • Str Pescăruşului - Imobil • Şos Pantelimon - bl.59-60, 55, 53, 55A"
     },
     {
       "sector": 2,
@@ -375,18 +363,6 @@
       "basis_n": 4561,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Vergului - bl.15D • Şos Pantelimon - bl.15ABC"
-    },
-    {
-      "sector": 2,
-      "pt_name": "13 Pantelimon",
-      "blocks": 3,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.394,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Pantelimon - bl.41, 46, 47"
     },
     {
       "sector": 3,
@@ -1770,18 +1746,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "Izvorul Cosbuc",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare a sistemului de temoficare al Municipiului Bucureṣti efectuate de către SC Construcţii Erbaṣu",
-      "estimated_restore": "2026-09-09T23:30",
-      "on_time_probability": 0.248,
-      "basis_n": 505,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Regina Maria - bl. 119 • Bld Libertăţii - bl. 113, 114, 115, 116, 117, 118, A1, A2"
-    },
-    {
-      "sector": 4,
       "pt_name": "Metalurgiei",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -1962,18 +1926,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "1 Uverturii",
-      "blocks": 20,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-08T12:00",
-      "on_time_probability": 0.216,
-      "basis_n": 74,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Arinii Dornei - bl. M28, I8, I4, I7, I3, I9, M27, M29, I6, M30 • Str Arieşul Mare - bl. A32, I11, I12, I10, I5, A31, A33, A34 • Ale Politehnicii - bl. I1, I2"
-    },
-    {
-      "sector": 6,
       "pt_name": "2 Uverturii",
       "blocks": 13,
       "service": "Deficienta ACC",
@@ -2019,6 +1971,18 @@
       "basis_n": 119,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Baia de Arieş - bl. 3 sc. 7+8, 7 • Str Baia de Arieş - bl. 5B, 10+10A, 11A+B, 12, 13 • Str Politehnicii - bl. 1, 8, 9, 6 • Ale Politehnicii - bl. 2, 3bis, 4, 5A, 3 sc. 1-6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 5 Placare",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-08T12:00",
+      "on_time_probability": 0.34,
+      "basis_n": 153,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lujerului - bl. 22C, 100 • Bld Iuliu Maniu - bl. 17, 17A, 18P, 22A • Int Vagonetului - bl. 101 • Str Cupolei - bl. 105, 106"
     },
     {
       "sector": 6,
