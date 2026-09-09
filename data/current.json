@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-09T01:26:53",
+  "scraped_at": "2026-09-09T03:24:36",
   "status": "ok",
   "outages": [
     {
@@ -459,6 +459,18 @@
       "basis_n": 1365,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Feteşti - bl. I26 • Str Jean-Alexandru Steriadi - bl. M9, M10, M11, P20bis • Ale Ciucea - bl. P15, P16, P17, P18, P19, P19bis, P20"
+    },
+    {
+      "sector": 3,
+      "pt_name": "8C3/2",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud, alimentare din CTE Progresul, din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.338,
+      "basis_n": 1365,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Vasile Goldiş - bl.1 • Ale Barajul Rovinari - bl.Y12, Y13 • Ale Barajul Bistriţei - bl.4, Y4, Y5 • Bld 1 Decembrie 1918 - bl.2, 3, 5, Y11"
     },
     {
       "sector": 3,
