@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-09T03:24:36",
+  "scraped_at": "2026-09-09T07:56:15",
   "status": "ok",
   "outages": [
     {
@@ -1218,6 +1218,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "1 Tomis",
+      "blocks": 28,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE SUD, alimentare din CTE PROGRESU, din punct de vedere hidraulic -PARAMETRII INSUFICIENTI.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.372,
+      "basis_n": 43,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Tomis - bl. A5BIS, B5, B6, C1, C5, H3, H4, H5, H6, H8, H9, H10 • Drm Murgului - bl. B4, B2BIS, C3, H1, H2 • Str Istriei - bl. C2 • Bld Râmnicu Sărat - bl. H7, H9 • Bld Camil Ressu - bl. A4, A5, A6, B4BIS, B5BIS, B6BIS, C4"
+    },
+    {
+      "sector": 3,
       "pt_name": "2 Tomis",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -1518,30 +1530,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "V.S.Sud",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Avaria a fost finalizata,punctele termice in curs de incarcare si punere in functiune.",
-      "estimated_restore": "2026-09-09T08:00",
-      "on_time_probability": 0.463,
-      "basis_n": 95,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
-    },
-    {
-      "sector": 4,
-      "pt_name": "P 5 A",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Avaria a fost finalizata,punctele termice in curs de incarcare si punere in functiune.",
-      "estimated_restore": "2026-09-09T08:00",
-      "on_time_probability": 0.459,
-      "basis_n": 98,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
-    },
-    {
-      "sector": 4,
       "pt_name": "Tudor Gociu",
       "blocks": 17,
       "service": "Oprire ACC",
@@ -1736,9 +1724,9 @@
       "sector": 5,
       "pt_name": "VSNord",
       "blocks": 15,
-      "service": "Oprire ACC",
+      "service": "Deficienta ACC",
       "cause": "Avaria a fost finalizată, punctele termice sunt în curs de încărcare si punere in funcţiune",
-      "estimated_restore": "2026-09-09T08:00",
+      "estimated_restore": "2026-09-09T12:00",
       "on_time_probability": 0.5,
       "basis_n": 32,
       "basis_bucket": "pt_cause_slip",
@@ -1746,39 +1734,15 @@
     },
     {
       "sector": 5,
-      "pt_name": "Tribunal",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Avaria a fost finalizată, punctele termice sunt în curs de încărcare si punere in funcţiune",
-      "estimated_restore": "2026-09-09T08:00",
-      "on_time_probability": 0.425,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - bl. 12, 13, 14, 15 • Spl Independenţei - bl. 16, 17"
-    },
-    {
-      "sector": 5,
       "pt_name": "Gioconda",
       "blocks": 0,
-      "service": "Oprire ACC",
+      "service": "Deficienta ACC",
       "cause": "Avaria a fost finalizată, punctele termice sunt în curs de încărcare si punere in funcţiune",
-      "estimated_restore": "2026-09-09T08:00",
+      "estimated_restore": "2026-09-09T12:00",
       "on_time_probability": 0.487,
       "basis_n": 39,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Institutul Teologioc",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Avaria a fost finalizată, punctele termice sunt în curs de încărcare si punere in funcţiune",
-      "estimated_restore": "2026-09-09T08:00",
-      "on_time_probability": 0.5,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sf. Ecaterina - Nr. 4 - instituţie"
     },
     {
       "sector": 5,
