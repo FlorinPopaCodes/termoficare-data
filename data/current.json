@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-10T01:06:17",
+  "scraped_at": "2026-09-10T03:11:56",
   "status": "ok",
   "outages": [
     {
@@ -15,66 +15,6 @@
       "basis_n": 103,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. G6, 6A, 7E, 7F, 7, 7I, 7K,7M • Str Avionului - bl. 5C, 5E, 5E PRIM, 6B, 6C, 6D • Str Aviaţiei - bl. 4C, 5D, 5G, 4D, 5F,7D, 5A • Şos Pipera - bl. 4A, 4B, 5B • Str Aripilor - bl. 6E,6F • Str Borşa - bl. 5F, 4F, 4G, 4E, 7G, ARMONIA, 7B, 7A, 7H"
-    },
-    {
-      "sector": 1,
-      "pt_name": "J Grivita",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.31,
-      "basis_n": 58,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. K, L2, L3, J, L1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "I Grivita",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.357,
-      "basis_n": 56,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. I"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Prefabricate",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.327,
-      "basis_n": 55,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "A Grant",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.305,
-      "basis_n": 59,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. A, B, C"
-    },
-    {
-      "sector": 1,
-      "pt_name": "6 ACM",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.383,
-      "basis_n": 60,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Constantin Stere - Imobil Nr.10 • Cal Griviţei - bl. 4, 5, 6, 7, imob.Nr. 7 • Str Lainici - Imobil Nr.5"
     },
     {
       "sector": 1,
@@ -1623,6 +1563,18 @@
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - 2A"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Ct Eroilor 2",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la punctul termic - (str./Bd.)",
+      "estimated_restore": "2026-09-10T04:00",
+      "on_time_probability": 0.502,
+      "basis_n": 6441,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Dr. Carol Davila - bl. B2/4 • Bld Eroilor - Bl. C2, A2, A4"
     },
     {
       "sector": 5,
