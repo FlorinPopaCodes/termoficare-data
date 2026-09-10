@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-10T03:11:56",
+  "scraped_at": "2026-09-10T07:39:27",
   "status": "ok",
   "outages": [
     {
@@ -102,18 +102,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "A2 Basarabia",
-      "blocks": 13,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.328,
-      "basis_n": 4562,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Basarabia - bl.A1, A2, A3, B1, B2, C1, C2, D1, D2, D3, D4, E1, F1"
-    },
-    {
-      "sector": 2,
       "pt_name": "A4 Basarabia",
       "blocks": 8,
       "service": "Deficienta ACC",
@@ -207,6 +195,18 @@
       "basis_n": 88,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sold. Zambilă Ioniţă - bl. 33B, 33A • Str Sold. Gheorghe Răduţă - • Str Sold. Florea Lazăr - bl. 8B, 8C • Şos Pantelimon - bl. 8, 7, C1, 5Ext., 4, 1, 2, 3 • Str Aurului - bl. M1, M2, M3, M4"
+    },
+    {
+      "sector": 2,
+      "pt_name": "19 Pantelimon",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.289,
+      "basis_n": 114,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
     },
     {
       "sector": 2,
@@ -1563,18 +1563,6 @@
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - 2A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Ct Eroilor 2",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la punctul termic - (str./Bd.)",
-      "estimated_restore": "2026-09-10T04:00",
-      "on_time_probability": 0.502,
-      "basis_n": 6441,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dr. Carol Davila - bl. B2/4 • Bld Eroilor - Bl. C2, A2, A4"
     },
     {
       "sector": 5,
