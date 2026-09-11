@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-11T18:11:41",
+  "scraped_at": "2026-09-11T21:30:14",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC B9",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-09-11T23:00",
+      "on_time_probability": 0.435,
+      "basis_n": 46,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Băiculeşti - bl. B9"
+    },
     {
       "sector": 1,
       "pt_name": "7-1 Mai",
@@ -111,6 +123,18 @@
       "basis_n": 565,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "17-18 Petricani",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.309,
+      "basis_n": 110,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
       "sector": 2,
@@ -543,18 +567,6 @@
       "basis_n": 42,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Unirii - 37"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Dristor Insulă - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie CD-ACC bl.11 sc. A+B / str. Dristorului.",
-      "estimated_restore": "2026-09-11T18:30",
-      "on_time_probability": 0.475,
-      "basis_n": 10168,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dristorului - 11"
     },
     {
       "sector": 3,
@@ -1542,42 +1554,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "4 Oltenita Placare",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Avariile au fost finalizate. PT - urile sunt in curs de incarcare.",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.358,
-      "basis_n": 1432,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
-    },
-    {
-      "sector": 4,
-      "pt_name": "19 Dolhasca",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Avariile au fost finalizate. PT - urile sunt in curs de incarcare.",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.358,
-      "basis_n": 1432,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Secuilor - bl. 18, 19, 20, B47"
-    },
-    {
-      "sector": 4,
-      "pt_name": "9 Brâncoveanu",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Avariile au fost finalizate. PT - urile sunt in curs de incarcare.",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.358,
-      "basis_n": 1432,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Secuilor - bl. B46 • Str Sg. Gheorghe Tache - bl. B41, B43, B44"
-    },
-    {
-      "sector": 4,
       "pt_name": "5 Brancoveanu",
       "blocks": 8,
       "service": "Oprire ACC",
@@ -1587,42 +1563,6 @@
       "basis_n": 1432,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Împăratul Traian - bl. B8, B9, B10, B11 • Bld Constantin Brâncoveanu - bl. B3, B4, B5, B7"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Prasilei",
-      "blocks": 25,
-      "service": "Oprire ACC",
-      "cause": "Avariile au fost finalizate. PT - urile sunt in curs de incarcare.",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.358,
-      "basis_n": 1432,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Dumitru Minca - bl. 23, 24, 25 • Str Sg. Avram Petcu - Imobil nr.8 • Str Melineşti - bl. 1, 2, 3, 4, 11, 12, 13, 14 • Str Giovanni Boccaccio - bl. 5, 6, 7, 8 • Str Frt. Niculaie Marinescu - bl. A1, A2, A3, A4 • Str Praşilei - bl. 21, 22 • Str Peroni - bl. 9, 10, Imobil nr.45"
-    },
-    {
-      "sector": 4,
-      "pt_name": "6 Brancoveanu",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Avariile au fost finalizate. PT - urile sunt in curs de incarcare.",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.358,
-      "basis_n": 1432,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Secuilor - bl. B17A • Str Păduroiu - bl. B22A, B23, B24, B25 • Str Pomârla - bl. B20, B21, B22 • Bld Constantin Brâncoveanu - bl. B14, B15, B16, B17 • Str Băltiţa - bl. B18 ,B19"
-    },
-    {
-      "sector": 4,
-      "pt_name": "8 Brancoveanu",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Avariile au fost finalizate. PT - urile sunt in curs de incarcare.",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.358,
-      "basis_n": 1432,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Secuilor - bl. B27, B29, B31 • Str Păduroiu - bl. B30 • Str Huşi - bl. B32, B36, B37,B35 • Str Băltiţa - bl. B26, B28, B33, B34, B35"
     },
     {
       "sector": 4,
@@ -1782,54 +1722,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "9 Margeanului",
-      "blocks": 36,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-11T19:30",
-      "on_time_probability": 0.562,
-      "basis_n": 73,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Sălaj",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.582,
-      "basis_n": 91,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Păun - bl. 69D, 69C • Şos Sălaj - bl. 68, 69A 69B • Str Sg. Turturică - bl. 70A, 70B"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Sălaj",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-09-11T23:30",
-      "on_time_probability": 0.58,
-      "basis_n": 81,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pecineaga - bl. 46, 47A • Str Cartojani - bl. 53A, 55A • Ale Sălaj - bl. 47, 48, 49, 50, 55, 53 • Str Dunavăţ - bl. 49C, 49D, 49E, 51A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Panduri - Partial",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-11T19:30",
-      "on_time_probability": 0.501,
-      "basis_n": 6451,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Ioniţă Cegan - bl. P11, P12 • Str Ioviţa - bl. P13, P13A, P14 • Şos Panduri - bl. P7, P8, P9, P10, P3, P3A • Str Frunte Lată - bl. P14A, P5, P16, P15, P6, P4"
-    },
-    {
-      "sector": 5,
       "pt_name": "Modul Toporaşi",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -1839,42 +1731,6 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Uverturii - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-11T18:30",
-      "on_time_probability": 0.244,
-      "basis_n": 41,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Arieşul Mare - bl. A34"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Giulești - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-11T18:30",
-      "on_time_probability": 0.415,
-      "basis_n": 10442,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Prunaru - bl. 9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4 Roșia Montană",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-11T19:30",
-      "on_time_probability": 0.484,
-      "basis_n": 95,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. O4, O10 • Str Roşia Montană - bl. O5, O7, 29, 30, 32 • Str Dezrobirii - bl. O8, O8A, O9, 27, 33 • Str Cetatea de Baltă - bl. O6, O7A, 28, 31"
     }
   ]
 }
