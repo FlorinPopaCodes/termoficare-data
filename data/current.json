@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-12T12:36:29",
+  "scraped_at": "2026-09-12T16:08:43",
   "status": "ok",
   "outages": [
     {
@@ -1947,6 +1947,18 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Îndesirii - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-12T16:00",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
+      "zone_raw": "• Str Mărgelelor - bl.304"
     }
   ]
 }
