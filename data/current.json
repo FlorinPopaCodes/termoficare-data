@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-13T20:29:13",
+  "scraped_at": "2026-09-13T22:39:32",
   "status": "ok",
   "outages": [
     {
@@ -147,6 +147,18 @@
       "basis_n": 565,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Petricani",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.3,
+      "basis_n": 217,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
     },
     {
       "sector": 2,
@@ -486,6 +498,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "19 Pantelimon",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.296,
+      "basis_n": 115,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
+    },
+    {
+      "sector": 2,
       "pt_name": "4 Socului",
       "blocks": 11,
       "service": "Deficienta ACC",
@@ -495,6 +519,18 @@
       "basis_n": 80,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Chişinău - bl.M15, M13, M14.sc.1,2, M23 • Str Cernăuţi - bl.M12, M11Bis • Bld Basarabia - bl.M22, M21 • Str Pescăruşului - .bl.M16, M11, M20"
+    },
+    {
+      "sector": 2,
+      "pt_name": "9 Pantelimon",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.323,
+      "basis_n": 96,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Pantelimon - bl.31, 32, 5, 6, 30, 5A, D2, D1,5F"
     },
     {
       "sector": 2,
@@ -555,6 +591,18 @@
       "basis_n": 142,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - bl.P3, P30A, 4, 4Bis, P14, P12, P15Bis, P15, P13 • Str Pictor Oscar Obedeanu - imob.Nr.18 • Ale Avrig - bl.P4, P5, P6, P18Bis, P30, P18, P19Bis, P19"
+    },
+    {
+      "sector": 2,
+      "pt_name": "23 Baicului",
+      "blocks": 23,
+      "service": "Deficienta ACC",
+      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
+      "estimated_restore": "2026-09-18T23:30",
+      "on_time_probability": 0.307,
+      "basis_n": 176,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
     },
     {
       "sector": 2,
@@ -2218,7 +2266,7 @@
       "blocks": 12,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2230,7 +2278,7 @@
       "blocks": 5,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2242,7 +2290,7 @@
       "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2254,7 +2302,7 @@
       "blocks": 15,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2266,7 +2314,7 @@
       "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2278,7 +2326,7 @@
       "blocks": 9,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2290,7 +2338,7 @@
       "blocks": 6,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2302,7 +2350,7 @@
       "blocks": 22,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2314,7 +2362,7 @@
       "blocks": 8,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2326,7 +2374,7 @@
       "blocks": 14,
       "service": "Oprire ACC",
       "cause": "Lucrari de reabilitare a sistemului de termoficare - LOT 4, Obiective 18,19, 22 Inlocuire conducta DN 500,aproximativ 60 ml.",
-      "estimated_restore": "2026-09-13T23:30",
+      "estimated_restore": "2026-09-14T23:30",
       "on_time_probability": 0.249,
       "basis_n": 506,
       "basis_bucket": "sector_cause_slip",
@@ -2406,6 +2454,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "3/7",
+      "blocks": 35,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-09-13T23:30",
+      "on_time_probability": 0.293,
+      "basis_n": 1477,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Peştera Scărişoara - bl.MIIB8/3 • Str Paşcani - bl.TD34, TD33, TD32 • Ale Paşcani - bl. TD36, TD49, TD35 • Str Drumul Taberei - bl.TD14, A10, A9, A8, A7, TD15, TD16, TD11, TD12, TD13 • Str Topolovăţ - bl. TD17, TD18, TD19, TD20, TD21, TD22 • Str Târgu Neamţ - bl.D9, MIIB8/4, B37, D4, B36, D3,MIIB8/6, MIIB8/5, TD23, TD24, TD25, TD26"
+    },
+    {
+      "sector": 6,
       "pt_name": "13/4",
       "blocks": 12,
       "service": "Deficienta ACC",
@@ -2415,6 +2475,18 @@
       "basis_n": 1477,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Lunca Cernei - bl.A52 • Bld Timişoara - bl.C13A, C13B, M47, C13 • Ale Câmpul cu Flori - bl.A48, A49, A50, A51, M49, M48"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/6",
+      "blocks": 24,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-09-13T23:30",
+      "on_time_probability": 0.293,
+      "basis_n": 1477,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Arutela - bl. M16, D1 • Str Drumul Taberei - bl.M13, M15, M17, M18, M19, C2 • Ale Potaisa - bl.M14, A17, A18 • Ale Valea Bujorului - bl. D9, D10 • Str Valea Argeşului - bl. M12, D11 • Str Râul Doamnei - bl.C3,C4, M20 • Ale Callatis - Bl.D8, D2, A16, A15, A15 Bis"
     },
     {
       "sector": 6,
@@ -2454,6 +2526,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "2/7",
+      "blocks": 32,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-09-13T23:30",
+      "on_time_probability": 0.293,
+      "basis_n": 1477,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Peştera Scărişoara - bl. 701A, B16B • Str Paşcani - • Str Drumul Taberei - bl.TS7,TS8, TS10, TS9, 701B, R1, R2, R3 • Str Târgu Neamţ - bl. B16A, MIIB8/2, A15, A16, A17, A18, TS30, TS31, TD 27, TD 28, TD29, MIIB8/1, 715A, 715B • Str Segarcea - bl.A11, A14, A12, A13, B13, B14"
+    },
+    {
+      "sector": 6,
       "pt_name": "12/4",
       "blocks": 21,
       "service": "Deficienta ACC",
@@ -2490,6 +2574,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "1/7'",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-09-13T23:30",
+      "on_time_probability": 0.293,
+      "basis_n": 1477,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Drumul Taberei - bl OD1,OD2,TD18 • Ale Vlăsiei - bl. M1, M2, M3 • Str Râul Doamnei - bl.TD5, TS4, TS3, TS2, TS1 • Str Valea lui Mihai - bl TD7, TD6"
+    },
+    {
+      "sector": 6,
       "pt_name": "NEFAMILISTI",
       "blocks": 11,
       "service": "Deficienta ACC",
@@ -2499,6 +2595,18 @@
       "basis_n": 1477,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Bostanilor - bl.13, 14 • Drm Timonierului - • Bld Timişoara -"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1/7",
+      "blocks": 28,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-09-13T23:30",
+      "on_time_probability": 0.293,
+      "basis_n": 1477,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Paşcani - bl.728A • Str Drumul Taberei - bl. TD1, TD3, TD5, TD42, TD43, TD44, TS37, TS38, TS39, TS40, TS41 • Ale Topoloveni - bl.A1, TD4, TD6, B11,TD2 • Str Cetatea Histria - bl A2, A3, A4, D1, D2, MIIB8/14,MIIB8/15, MIIB8/16 • Str Delineşti - bl.729A"
     },
     {
       "sector": 6,
