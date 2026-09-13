@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-14T00:41:29",
+  "scraped_at": "2026-09-14T02:30:43",
   "status": "ok",
   "outages": [
     {
@@ -2055,42 +2055,6 @@
       "basis_n": 1369,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Perişoru - bl. H34, H35, H36 • Ale Giurgeni - bl.F6, F7, F8, F9, F10, F11, F12, F13, F14 • Str Gura Ialomiţei - bl. PC8, PC9, PC10, PC11,H33,H32 PC12, H28, H29, H30, H31 • Str Feteşti - bl. V13, H27"
-    },
-    {
-      "sector": 4,
-      "pt_name": "V.S.Sud",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-14T08:00",
-      "on_time_probability": 0.213,
-      "basis_n": 47,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Izvorul Cosbuc",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-14T08:00",
-      "on_time_probability": 0.486,
-      "basis_n": 107,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Regina Maria - bl. 119 • Bld Libertăţii - bl. 113, 114, 115, 116, 117, 118, A1, A2"
-    },
-    {
-      "sector": 4,
-      "pt_name": "P 5 A",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-14T08:00",
-      "on_time_probability": 0.143,
-      "basis_n": 56,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
     },
     {
       "sector": 4,
