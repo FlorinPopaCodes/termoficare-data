@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-13T13:13:26",
+  "scraped_at": "2026-09-13T17:23:12",
   "status": "ok",
   "outages": [
     {
@@ -27,18 +27,6 @@
       "basis_n": 47,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. K, L2, L3, J, L1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Hrisovului",
-      "blocks": 3,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-13T23:30",
-      "on_time_probability": 0.478,
-      "basis_n": 46,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pecetei - bl. L2 • Str Hrisovului - bl. 1, 2"
     },
     {
       "sector": 1,
@@ -126,54 +114,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "17-19 Bucurestii Noi",
-      "blocks": 2,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-13T23:30",
-      "on_time_probability": 0.455,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Bucureştii Noi - bl. 17, 19"
-    },
-    {
-      "sector": 1,
-      "pt_name": "D Chibrit",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-13T23:30",
-      "on_time_probability": 0.314,
-      "basis_n": 86,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. C, B, A, H, N1 • Str Carpaţi - bl. 242 • Bld Ion Mihalache - bl. F, E1, E2, G, D • Str Puţul lui Crăciun - imob.Nr.5 • Str Soveja - Nr.73"
-    },
-    {
-      "sector": 1,
-      "pt_name": "N Chibrit",
-      "blocks": 7,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-13T23:30",
-      "on_time_probability": 0.284,
-      "basis_n": 81,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. M, N, P, R, S • Str Bucegi - imob. Nr.54, 52"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Popişteanu",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-13T23:30",
-      "on_time_probability": 0.391,
-      "basis_n": 64,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Popişteanu - Str.Alexandru Popisteanu bl.1, 2, 3"
-    },
-    {
-      "sector": 1,
       "pt_name": "6 ACM",
       "blocks": 7,
       "service": "Deficienta ACC",
@@ -207,6 +147,18 @@
       "basis_n": 565,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "4 Iancului",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-14T15:00",
+      "on_time_probability": 0.716,
+      "basis_n": 67,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Iancului - bl.114A, 113B, 115, 114B, 113A, 113C"
     },
     {
       "sector": 2,
@@ -1911,6 +1863,42 @@
       "basis_n": 1369,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Perişoru - bl. H34, H35, H36 • Ale Giurgeni - bl.F6, F7, F8, F9, F10, F11, F12, F13, F14 • Str Gura Ialomiţei - bl. PC8, PC9, PC10, PC11,H33,H32 PC12, H28, H29, H30, H31 • Str Feteşti - bl. V13, H27"
+    },
+    {
+      "sector": 4,
+      "pt_name": "V.S.Sud",
+      "blocks": 11,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-13T23:30",
+      "on_time_probability": 0.213,
+      "basis_n": 47,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Izvorul Cosbuc",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-13T23:30",
+      "on_time_probability": 0.486,
+      "basis_n": 107,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Regina Maria - bl. 119 • Bld Libertăţii - bl. 113, 114, 115, 116, 117, 118, A1, A2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "P 5 A",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-13T23:30",
+      "on_time_probability": 0.143,
+      "basis_n": 56,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Dimitrie Cantemir - bl. P1, P2, P3 • Str Bibescu Vodă - bl. P4, P5, P5A"
     },
     {
       "sector": 4,
