@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-14T22:04:31",
+  "scraped_at": "2026-09-15T01:27:47",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "6-1 Mai",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-14T23:30",
-      "on_time_probability": 0.433,
-      "basis_n": 67,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Turda - bl. 39, 37, 34, 35, 36, 38 • Str Gala Galaction - imob.Nr.89, 90, 88 • Str Abrud - bl. 12C • Bld Ion Mihalache - bl. 12A, 13A, 14, 11 • Str Ing. Zablovschi - bl. 12B, 13B, imob.Nr.6A"
-    },
     {
       "sector": 1,
       "pt_name": "Creşa Popişteanu",
@@ -207,30 +195,6 @@
       "basis_n": 79,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Doamna Ghica - bl.11Sud, 12 Sud"
-    },
-    {
-      "sector": 2,
-      "pt_name": "7 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.398,
-      "basis_n": 93,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Carol I - bl. 2Bis • Cal Moşilor - bl. 2, 4Bis, 6, 8, 10, 12, 14 sc.2-3-4; • Str Zece Mese - bl.14 sc.1"
-    },
-    {
-      "sector": 2,
-      "pt_name": "6 Mosilor",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.358,
-      "basis_n": 81,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
     },
     {
       "sector": 2,
@@ -2307,78 +2271,6 @@
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - 2A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Sălaj",
-      "blocks": 14,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametrii pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-15T14:00",
-      "on_time_probability": 0.425,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pecineaga - bl. 46, 47A • Str Cartojani - bl. 53A, 55A • Ale Sălaj - bl. 47, 48, 49, 50, 55, 53 • Str Dunavăţ - bl. 49C, 49D, 49E, 51A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Salaj",
-      "blocks": 25,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametrii pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-15T14:00",
-      "on_time_probability": 0.39,
-      "basis_n": 3002,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A,122B, • Str Dunavăţ - 57,58,59,60,61A,65,60A,61 • Str Teliţa - 52A,56,66A,120,121,116,122A,119C • Cal Ferentari - 117,119A,70A+B,119B,119D,117A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Vicina",
-      "blocks": 30,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametrii pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-15T14:00",
-      "on_time_probability": 0.421,
-      "basis_n": 38,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Pricopan - bl. Z7, Z8, 11, 12, 13, 14, 16, 17, 18, 19, 20, 33, 34, 35, 36 • Ale Sălaj - bl. Z4, Z5, Z10, 15, 21, 37, 41 • Str Malcoci - bl. 38, 39, 40 • Ale Vicina - bl. 1, Z2, Z3, Z6, Z9"
-    },
-    {
-      "sector": 5,
-      "pt_name": "6 Petre Ispirescu",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametrii pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-15T14:00",
-      "on_time_probability": 0.447,
-      "basis_n": 76,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sg.maj. Vasile Topliceanu - bl. P37, P31, P32, P38, P36, P38A • Str Sg. maj. Ion Nedeleanu - bl. P33, P34, P35, P39"
-    },
-    {
-      "sector": 5,
-      "pt_name": "6 Rahova",
-      "blocks": 26,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametrii pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-15T14:00",
-      "on_time_probability": 0.357,
-      "basis_n": 42,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Constantin Lecca - bl 66E • Str Pictor Mihail Dan - bl 62, 67 • Şos Sălaj - bl 34, 62A, 62B • Str Malcoci - bl 36, 45, 46 • Str Vasile Dumitrescu - bl 66C • Str Dunavăţ - bl 63, 66D, 45A, 45B, 45C, 70A • Str Teliţa - bl 66A, 66B, 67A, 70, Policlinica Malcoci • Str Frecăţei - bl 35 • Cal Rahovei - bl 44, 44A, 52, 66"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Rahova",
-      "blocks": 35,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametrii pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-15T14:00",
-      "on_time_probability": 0.543,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pecineaga - bl 23A, 23B, 25, 26, 28A, 28C, 29C • Str Cap. Ilina - bl 11B, 13A • Str Vicina - bl 29, 29A, 29B, 32, 33, 37, 38 • Str Oltina - bl 23, 27, 28, 28B • Str Slt. Popa - bl 13B, 13C, 15, 15A, 15B • Str Sg. Scarlat - bl 12 • Cal Rahovei - bl 11, 11A, 11C, 13, 28, 26, 30, 30A, imobil Ioniţă"
     },
     {
       "sector": 5,
