@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-14T02:30:43",
+  "scraped_at": "2026-09-14T04:38:24",
   "status": "ok",
   "outages": [
     {
@@ -1107,78 +1107,6 @@
       "basis_n": 66,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Int Părului - bl. 59, 59bis • Str Complexului - bl. 60, 61 • Str Alexandru Papiu Ilarian - bl. 42, 43"
-    },
-    {
-      "sector": 3,
-      "pt_name": "E1",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Izolare tronson CM1/1 Dacian - FC5 - CM7, pentru depistare si remediere avarii.",
-      "estimated_restore": "2026-09-14T11:00",
-      "on_time_probability": 0.543,
-      "basis_n": 94,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vintilă Vodă - bl. E1 • Bld Unirii - bl. E2, E3,E3A, E3-3, E3A2"
-    },
-    {
-      "sector": 3,
-      "pt_name": "BL U114 (UM 02544/B1)",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Izolare tronson CM1/1 Dacian - FC5 - CM7, pentru depistare si remediere avarii.",
-      "estimated_restore": "2026-09-14T11:00",
-      "on_time_probability": 0.738,
-      "basis_n": 42,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Mircea Vodă - 3-5"
-    },
-    {
-      "sector": 3,
-      "pt_name": "C3 Căuzaşi",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Izolare tronson CM1/1 Dacian - FC5 - CM7, pentru depistare si remediere avarii.",
-      "estimated_restore": "2026-09-14T11:00",
-      "on_time_probability": 0.431,
-      "basis_n": 109,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Negru Vodă - C3, C4, C3A • Str Mămulari - C1, C2 • Bld Unirii - A1, A2, A3, A4 • Str Sfânta Vineri - A6, A5"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Biblioteca Nationala",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Izolare tronson CM1/1 Dacian - FC5 - CM7, pentru depistare si remediere avarii.",
-      "estimated_restore": "2026-09-14T11:00",
-      "on_time_probability": 0.745,
-      "basis_n": 47,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - 22"
-    },
-    {
-      "sector": 3,
-      "pt_name": "7 Călăraşi",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Izolare tronson CM1/1 Dacian - FC5 - CM7, pentru depistare si remediere avarii.",
-      "estimated_restore": "2026-09-14T11:00",
-      "on_time_probability": 0.5,
-      "basis_n": 84,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Corneliu Coposu - 105A, 103, 104, 101, 106A, 105A • Str Sfânta Vineri - 105B, 105C, 102"
-    },
-    {
-      "sector": 3,
-      "pt_name": "Tribunalul Bucuresti",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Izolare tronson CM1/1 Dacian - FC5 - CM7, pentru depistare si remediere avarii.",
-      "estimated_restore": "2026-09-14T11:00",
-      "on_time_probability": 0.667,
-      "basis_n": 42,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Unirii - 37"
     },
     {
       "sector": 3,
