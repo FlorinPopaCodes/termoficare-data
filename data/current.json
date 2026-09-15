@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-15T01:27:47",
+  "scraped_at": "2026-09-15T08:35:25",
   "status": "ok",
   "outages": [
     {
@@ -557,16 +557,16 @@
       "zone_raw": "• Şos Pantelimon - bl.41, 46, 47"
     },
     {
-      "sector": 2,
-      "pt_name": "4' Pantelimon",
-      "blocks": 1,
-      "service": "Deficienta ACC",
-      "cause": "Oprire CTE Sud alimentare din CTE Progresul din punct de vedere hidraulic parametrii insuficienti.",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.494,
-      "basis_n": 77,
+      "sector": 3,
+      "pt_name": "C3 Căuzaşi",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Avarie CP - PT.",
+      "estimated_restore": "2026-09-15T12:00",
+      "on_time_probability": 0.436,
+      "basis_n": 110,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Pantelimon - bl.69T"
+      "zone_raw": "• Ale Negru Vodă - C3, C4, C3A • Str Mămulari - C1, C2 • Bld Unirii - A1, A2, A3, A4 • Str Sfânta Vineri - A6, A5"
     },
     {
       "sector": 3,
@@ -2274,6 +2274,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "5 Lira",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul primar",
+      "estimated_restore": "2026-09-15T09:00",
+      "on_time_probability": 0.448,
+      "basis_n": 58,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mihail Sebastian - bl. V85, V86, V 87, V88, V89, V90, V91"
+    },
+    {
+      "sector": 5,
       "pt_name": "5 Margeanului",
       "blocks": 22,
       "service": "Oprire ACC",
@@ -2295,6 +2307,66 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 7 Placare",
+      "blocks": 17,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit apa rece in punctul termic",
+      "estimated_restore": "2026-09-15T15:30",
+      "on_time_probability": 0.519,
+      "basis_n": 52,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Azurului - bl. 113B • Ale Poarta Albă - bl. 109A, 110, 110A • Str Basmului - bl. 108A • Drm Timonierului - bl. 1, 2, 109, 111, 111A, 111B, 113C, 113D • Str Centurii - bl. 112, 113, 113A • Str Cupolei - bl. 108"
+    },
+    {
+      "sector": 6,
+      "pt_name": "4 Roșia Montană - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-15T14:30",
+      "on_time_probability": 0.15,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Cetatea de Baltă - bl. O7A"
+    },
+    {
+      "sector": 6,
+      "pt_name": "15 Apusului",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-09-15T13:30",
+      "on_time_probability": 0.517,
+      "basis_n": 29,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lacul Zănoaga - bl. M6, M7, M8, M9 • Str Apusului - bl. D2, D3, D4, M5 • Str Ghirlandei - bl. D1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "12 Maratonului",
+      "blocks": 20,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-15T15:30",
+      "on_time_probability": 0.451,
+      "basis_n": 51,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Maratonului - bl. N6 • Str Apusului - bl. 47, 48, 49, 69, 70, 71, 50 • Str Mărgelelor - bl. N2, N3 • Int Flotei - bl. N4 • Ale Ghirlandei - bl. N1, N5, N5A, 43, 44, 45, 46 • Str Castranova - Casa Ilie"
+    },
+    {
+      "sector": 6,
+      "pt_name": "SC 1/3 - MODULE TERMICE - Partial",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "AVARIE RETEA PRIMARA",
+      "estimated_restore": "2026-09-15T15:30",
+      "on_time_probability": 0.415,
+      "basis_n": 10453,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Timişoara - bl.C3, OD8 • Str Sănduleşti - bl. Z40, Z11, Z13, Z12"
     },
     {
       "sector": 6,
