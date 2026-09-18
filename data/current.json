@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-18T22:48:13",
+  "scraped_at": "2026-09-19T01:04:14",
   "status": "ok",
   "outages": [
     {
@@ -39,18 +39,6 @@
       "basis_n": 2120,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "21 C5/2",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-18T21:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Poştaşului - bl. 1, 9, 10, 11 • Str Gura Ialomiţei - bl. 8 • Ale Buhuşi - bl. 2, 3, 4, 5, 6, 7, 11"
     },
     {
       "sector": 3,
@@ -159,18 +147,6 @@
       "basis_n": 30,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Stoian Militaru",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza manevrelor de pornire CET Sud si oprire CET Progresu",
-      "estimated_restore": "2026-09-19T23:30",
-      "on_time_probability": 0.333,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
     },
     {
       "sector": 4,
