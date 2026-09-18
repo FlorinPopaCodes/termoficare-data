@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-18T16:51:33",
+  "scraped_at": "2026-09-18T20:22:04",
   "status": "ok",
   "outages": [
     {
@@ -54,18 +54,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "13 Tomis - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Înlocuire bucla de contorizare la bl 21f sc3",
-      "estimated_restore": "2026-09-18T18:30",
-      "on_time_probability": 0.285,
-      "basis_n": 1462,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Râmnicu Sărat - b .20F • Str Schitului -"
-    },
-    {
-      "sector": 3,
       "pt_name": "21 C5/2",
       "blocks": 12,
       "service": "Oprire ACC",
@@ -75,18 +63,6 @@
       "basis_n": 70,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Poştaşului - bl. 1, 9, 10, 11 • Str Gura Ialomiţei - bl. 8 • Ale Buhuşi - bl. 2, 3, 4, 5, 6, 7, 11"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Baba Novac",
-      "blocks": 11,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-18T23:30",
-      "on_time_probability": 0.367,
-      "basis_n": 49,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
     },
     {
       "sector": 3,
@@ -198,18 +174,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "1 Tineretului - Partial",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum - str. Trestiana bl. 14",
-      "estimated_restore": "2026-09-18T20:30",
-      "on_time_probability": 0.466,
-      "basis_n": 5926,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Tineretului - bl. A2, A3, A4, A5, A6, Z2, Z3, Z4, Z5, Z6 • Str Poenari - bl. 12,13 • Str Trestiana - bl. 9, 10, 11, 14, 15"
-    },
-    {
-      "sector": 4,
       "pt_name": "2 Serban Voda",
       "blocks": 5,
       "service": "Deficienta ACC",
@@ -219,6 +183,18 @@
       "basis_n": 30,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Oltenita Placare",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza manevrelor de pornire CET Sud si oprire CET Progresu",
+      "estimated_restore": "2026-09-18T23:00",
+      "on_time_probability": 0.391,
+      "basis_n": 238,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
     },
     {
       "sector": 4,
@@ -303,18 +279,6 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 9 Placare - Partial",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-18T18:30",
-      "on_time_probability": 0.414,
-      "basis_n": 10475,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mohorului - bl. 141, 145A • Int Crainicului - bl. Z8, Z9, Z10, Z11"
     }
   ]
 }
