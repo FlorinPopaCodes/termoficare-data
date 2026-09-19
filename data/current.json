@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-19T16:06:54",
+  "scraped_at": "2026-09-19T19:27:07",
   "status": "ok",
   "outages": [
     {
@@ -15,30 +15,6 @@
       "basis_n": 567,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Colentina Socului",
-      "blocks": 25,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-      "estimated_restore": "2026-09-19T18:00",
-      "on_time_probability": 0.519,
-      "basis_n": 81,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dimitrie Grozdea - BL.75 • Str Stolnicul Vasile - bl. 3; 5; 10 ; 6; 34; 35; 8 • Str Siliştea - bl. 7, 9 • Str Lunca Florilor - BL. 15; 11; 17; • Str Popa Nicolae - BL.; A; 1; 2; 3; 52; 50; 51; B; C; 55 SC.3 • Str Râşnov - BL.55; 62 • Str Ziduri Între Vii - BL.7; 8;"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Colentina Socului",
-      "blocks": 13,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-      "estimated_restore": "2026-09-19T18:00",
-      "on_time_probability": 0.518,
-      "basis_n": 83,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Abanosului - bl.2, 5 • Str Doamna Ghica - bl.70, 69 • Str Dimitrie Grozdea - bl.64, 63, 82 • Ale Bistricioara - bl.65, 66, 68, 67 • Str Baicului - bl.81, 83"
     },
     {
       "sector": 2,
