@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-19T19:27:07",
+  "scraped_at": "2026-09-19T21:41:25",
   "status": "ok",
   "outages": [
     {
@@ -87,42 +87,6 @@
       "basis_n": 25,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Brăiliţa - bl. D9B, D9A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Serban Voda",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza manevrelor de pornire CET Sud si oprire CET Progresu",
-      "estimated_restore": "2026-09-19T23:30",
-      "on_time_probability": 0.3,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Serban Voda",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza manevrelor de pornire CET Sud si oprire CET Progresu",
-      "estimated_restore": "2026-09-19T23:30",
-      "on_time_probability": 0.141,
-      "basis_n": 64,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Sincai",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza manevrelor de pornire CET Sud si oprire CET Progresu",
-      "estimated_restore": "2026-09-19T23:30",
-      "on_time_probability": 0.154,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mocăncuţei - Imobil nr.12 • Bld Gheorghe Şincai - bl. 2, 4 • Str Tineretului - bl 5,Z1 • Str Trestiana - bl. 3 • Str Constantin Rădulescu-Motru - bl. 1, 35 • Str Cuza Vodă - bl. 37A"
     },
     {
       "sector": 4,
