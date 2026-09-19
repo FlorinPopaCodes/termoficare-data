@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-19T01:04:14",
+  "scraped_at": "2026-09-19T12:05:02",
   "status": "ok",
   "outages": [
     {
@@ -15,6 +15,18 @@
       "basis_n": 567,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "6 Mosilor",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie racord primar",
+      "estimated_restore": "2026-09-22T23:30",
+      "on_time_probability": 0.5,
+      "basis_n": 108,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
     },
     {
       "sector": 2,
@@ -36,7 +48,7 @@
       "cause": "Remediere avarie circuit primar",
       "estimated_restore": "2026-09-19T23:00",
       "on_time_probability": 0.245,
-      "basis_n": 2120,
+      "basis_n": 2127,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
     },
@@ -47,8 +59,8 @@
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara.",
       "estimated_restore": "2026-09-24T23:30",
-      "on_time_probability": 0.455,
-      "basis_n": 44,
+      "on_time_probability": 0.292,
+      "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Vitan - bl. V6"
     },
@@ -59,8 +71,8 @@
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara.",
       "estimated_restore": "2026-09-24T23:30",
-      "on_time_probability": 0.535,
-      "basis_n": 71,
+      "on_time_probability": 0.207,
+      "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vlad Judeţul - bl. V12, V13, V14A, V11 • Cal Vitan - bl. V14B, V16B, V16A, V15 • Str Agatha Bârsescu - bl. V19 • Str Brăiliţa - bl. V17, V10, V18"
     },
@@ -71,8 +83,8 @@
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara.",
       "estimated_restore": "2026-09-24T23:30",
-      "on_time_probability": 0.51,
-      "basis_n": 51,
+      "on_time_probability": 0.4,
+      "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Vitan - bl. V21A, V21B, V2, V1 • Ale Blăjel - bl. V3, V4 • Str Breaza - bl. V22A, V22B"
     },
@@ -83,8 +95,8 @@
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara.",
       "estimated_restore": "2026-09-24T23:30",
-      "on_time_probability": 0.491,
-      "basis_n": 53,
+      "on_time_probability": 0.259,
+      "basis_n": 27,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Vitan - bl. V50B, V50A, V51 • Str Alexandru Moruzzi Voievod - bl. V54B, V54A, V56, V57, V54, V55, V57B"
     },
@@ -95,8 +107,8 @@
       "service": "Oprire ACC",
       "cause": "Depistare si remediere avarie retea primara.",
       "estimated_restore": "2026-09-24T23:30",
-      "on_time_probability": 0.507,
-      "basis_n": 67,
+      "on_time_probability": 0.48,
+      "basis_n": 25,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Brăiliţa - bl. D9B, D9A"
     },
@@ -179,8 +191,8 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie racord primar",
       "estimated_restore": "2026-09-25T23:00",
-      "on_time_probability": 0.466,
-      "basis_n": 5926,
+      "on_time_probability": 0.34,
+      "basis_n": 2324,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Spiniş -"
     },
@@ -191,8 +203,8 @@
       "service": "Oprire ACC",
       "cause": "La punerea in functiune a punctului termic a survenit o noua avarie retea primara",
       "estimated_restore": "2026-09-21T15:30",
-      "on_time_probability": 0.347,
-      "basis_n": 1506,
+      "on_time_probability": 0.343,
+      "basis_n": 1523,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
     },
