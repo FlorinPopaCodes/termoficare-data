@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "scrape health",
-  "message": "pipeline-down",
-  "color": "red"
+  "message": "ok",
+  "color": "green"
 }
