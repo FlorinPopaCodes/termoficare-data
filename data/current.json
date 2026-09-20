@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-20T00:00:17",
+  "scraped_at": "2026-09-20T12:46:46",
   "status": "ok",
   "outages": [
     {
@@ -90,6 +90,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "2 Oltenita Placare",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-20T18:00",
+      "on_time_probability": 0.35,
+      "basis_n": 243,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
+    },
+    {
+      "sector": 4,
       "pt_name": "Modul Termic - Grădinița nr.228",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -107,8 +119,8 @@
       "service": "Oprire ACC",
       "cause": "La punerea in functiune a punctului termic a survenit o noua avarie retea primara",
       "estimated_restore": "2026-09-21T15:30",
-      "on_time_probability": 0.343,
-      "basis_n": 1523,
+      "on_time_probability": 0.339,
+      "basis_n": 1541,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
     },
@@ -130,7 +142,7 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Conducta apa rece sparta in modulul termic.",
-      "estimated_restore": "2026-09-20T12:00",
+      "estimated_restore": "2026-09-20T13:00",
       "on_time_probability": 0.29,
       "basis_n": 1495,
       "basis_bucket": "sector_cause_slip",
