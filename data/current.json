@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-20T12:46:46",
+  "scraped_at": "2026-09-20T16:49:12",
   "status": "ok",
   "outages": [
     {
@@ -90,18 +90,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-20T18:00",
-      "on_time_probability": 0.35,
-      "basis_n": 243,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
-    },
-    {
-      "sector": 4,
       "pt_name": "Modul Termic - Grădinița nr.228",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -126,6 +114,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "Giurgiu Farado - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Depistare și remediere avarie rețea secundară pe circuitul de apă caldă de consum (Şos Giurgiului)",
+      "estimated_restore": "2026-09-21T15:30",
+      "on_time_probability": 0.501,
+      "basis_n": 6463,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Giurgiului - 16"
+    },
+    {
+      "sector": 5,
       "pt_name": "Modul Toporaşi",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -135,18 +135,6 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 1/3 - MODULE TERMICE - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Conducta apa rece sparta in modulul termic.",
-      "estimated_restore": "2026-09-20T13:00",
-      "on_time_probability": 0.29,
-      "basis_n": 1495,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Timişoara - bl.C3"
     }
   ]
 }

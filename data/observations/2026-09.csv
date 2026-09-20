@@ -18444,3 +18444,14 @@ snapshot_ts,sector,pt_name,blocks,service,cause,estimated_restore,zone_raw
 2026-09-20T12:46:46,4,6 Zona II,5,Oprire ACC,La punerea in functiune a punctului termic a survenit o noua avarie retea primara,2026-09-21T15:30,"• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
 2026-09-20T12:46:46,5,Modul Toporaşi,1,Oprire ACC,Revizie tehnică - CTE Progresu,2026-10-01T23:00,• Str Toporaşi - 1
 2026-09-20T12:46:46,6,SC 1/3 - MODULE TERMICE - Partial,1,Oprire ACC,Conducta apa rece sparta in modulul termic.,2026-09-20T13:00,• Bld Timişoara - bl.C3
+2026-09-20T16:49:12,1,Ct Luterana,5,Oprire ACC,Sistare furnizare gaze naturale /Centrala Termica Luterana.,2026-10-01T20:00,"• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+2026-09-20T16:49:12,2,6 Mosilor,8,Oprire ACC,Remediere avarie racord primar,2026-09-22T23:30,"• Str Cercului - bl.5-7 • Cal Moşilor - bl. 9, 3, 1Bis, 1 ( nr. 145 ), 11, 11B, 15; 1 ( nr. 189)"
+2026-09-20T16:49:12,3,16 Foișor,1,Oprire ACC,Depistare si remediere avarie retea primara.,2026-09-24T23:30,• Cal Vitan - bl. V6
+2026-09-20T16:49:12,3,7 Vitan,12,Oprire ACC,Depistare si remediere avarie retea primara.,2026-09-24T23:30,"• Str Vlad Judeţul - bl. V12, V13, V14A, V11 • Cal Vitan - bl. V14B, V16B, V16A, V15 • Str Agatha Bârsescu - bl. V19 • Str Brăiliţa - bl. V17, V10, V18"
+2026-09-20T16:49:12,3,6 Vitan,8,Oprire ACC,Depistare si remediere avarie retea primara.,2026-09-24T23:30,"• Cal Vitan - bl. V21A, V21B, V2, V1 • Ale Blăjel - bl. V3, V4 • Str Breaza - bl. V22A, V22B"
+2026-09-20T16:49:12,3,14 Foișor,11,Oprire ACC,Depistare si remediere avarie retea primara.,2026-09-24T23:30,"• Cal Vitan - bl. V50B, V50A, V51 • Str Alexandru Moruzzi Voievod - bl. V54B, V54A, V56, V57, V54, V55, V57B"
+2026-09-20T16:49:12,3,4 Dudești,2,Oprire ACC,Depistare si remediere avarie retea primara.,2026-09-24T23:30,"• Str Brăiliţa - bl. D9B, D9A"
+2026-09-20T16:49:12,4,Modul Termic - Grădinița nr.228,1,Oprire ACC,Remediere avarie racord primar,2026-09-25T23:00,• Str Spiniş -
+2026-09-20T16:49:12,4,6 Zona II,5,Oprire ACC,La punerea in functiune a punctului termic a survenit o noua avarie retea primara,2026-09-21T15:30,"• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
+2026-09-20T16:49:12,5,Giurgiu Farado - Partial,1,Oprire ACC,Depistare și remediere avarie rețea secundară pe circuitul de apă caldă de consum (Şos Giurgiului),2026-09-21T15:30,• Şos Giurgiului - 16
+2026-09-20T16:49:12,5,Modul Toporaşi,1,Oprire ACC,Revizie tehnică - CTE Progresu,2026-10-01T23:00,• Str Toporaşi - 1
