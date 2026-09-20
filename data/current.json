@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-20T20:08:37",
+  "scraped_at": "2026-09-20T22:26:09",
   "status": "ok",
   "outages": [
     {
@@ -87,18 +87,6 @@
       "basis_n": 25,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Brăiliţa - bl. D9B, D9A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-20T23:30",
-      "on_time_probability": 0.35,
-      "basis_n": 243,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
     },
     {
       "sector": 4,
