@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-21T22:23:54",
+  "scraped_at": "2026-09-22T01:40:34",
   "status": "ok",
   "outages": [
     {
@@ -135,18 +135,6 @@
       "basis_n": 25,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Brăiliţa - bl. D9B, D9A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-21T23:30",
-      "on_time_probability": 0.355,
-      "basis_n": 245,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
     },
     {
       "sector": 4,
@@ -459,30 +447,6 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "8 Ghirlandei",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie racord primar - (str.Ghirlandei.)",
-      "estimated_restore": "2026-09-22T23:30",
-      "on_time_probability": 0.507,
-      "basis_n": 69,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lavandei - bl. P29, P30, P33, P34, P35, O12C • Str Partiturii - bl. 63 • Str Estacadei - bl. P40, P41 • Str Dezrobirii - Școala nr. 310 • Str Valea Cerbului - bl. N12 • Str Ghirlandei - bl. P36, P37, P39, N13 • Str Grinţieşului - bl. P31, P32, P38 • Str Cernişoara - bl. O11, O12"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Lavandei",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie racord primar - (str.Ghirlandei.)",
-      "estimated_restore": "2026-09-22T23:30",
-      "on_time_probability": 0.625,
-      "basis_n": 64,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lavandei - bl. P28 • Str Dobreni - bl. P22, P23 • Int Pitulicii - bl. P24, P25, P26, P27 • Str Dezrobirii - bl. P17, P19 • Bld Uverturii - bl. P16, P21 • Str Cernişoara - bl. P18, P20, O13"
     },
     {
       "sector": 6,
