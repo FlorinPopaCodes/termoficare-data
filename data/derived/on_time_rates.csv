@@ -11626,7 +11626,7 @@ pt_cause_slip,4,2 Oltenita Placare,maneuvers,0,1,3
 pt_cause_slip,4,2 Oltenita Placare,maneuvers,1,0,3
 pt_cause_slip,4,2 Oltenita Placare,maneuvers,2,1,2
 pt_cause_slip,4,2 Oltenita Placare,maneuvers,3+,0,6
-pt_cause_slip,4,2 Oltenita Placare,missing_params,0,85,243
+pt_cause_slip,4,2 Oltenita Placare,missing_params,0,87,245
 pt_cause_slip,4,2 Oltenita Placare,missing_params,1,13,40
 pt_cause_slip,4,2 Oltenita Placare,missing_params,2,3,16
 pt_cause_slip,4,2 Oltenita Placare,missing_params,3+,5,26
@@ -18374,8 +18374,8 @@ pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,maneuvers,0,2,4
 pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,missing_params,0,4,7
 pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,missing_params,1,1,3
 pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,missing_params,2,2,3
-pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,other,0,0,7
-pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,other,1,3,3
+pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,other,0,0,8
+pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,other,1,3,4
 pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,planned_works,0,2,8
 pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,planned_works,1,1,1
 pt_cause_slip,6,SC 1/3 - MODULE TERMICE - Partial,planned_works,2,1,1
@@ -19099,7 +19099,7 @@ sector_cause_slip,4,,maneuvers,0,147,262
 sector_cause_slip,4,,maneuvers,1,52,126
 sector_cause_slip,4,,maneuvers,2,26,100
 sector_cause_slip,4,,maneuvers,3+,63,232
-sector_cause_slip,4,,missing_params,0,2406,7764
+sector_cause_slip,4,,missing_params,0,2408,7766
 sector_cause_slip,4,,missing_params,1,916,2047
 sector_cause_slip,4,,missing_params,2,276,932
 sector_cause_slip,4,,missing_params,3+,327,1356
@@ -19151,8 +19151,8 @@ sector_cause_slip,6,,missing_params,0,4058,12773
 sector_cause_slip,6,,missing_params,1,2040,4556
 sector_cause_slip,6,,missing_params,2,651,1900
 sector_cause_slip,6,,missing_params,3+,622,3462
-sector_cause_slip,6,,other,0,433,1495
-sector_cause_slip,6,,other,1,210,518
+sector_cause_slip,6,,other,0,433,1496
+sector_cause_slip,6,,other,1,210,519
 sector_cause_slip,6,,other,2,60,119
 sector_cause_slip,6,,other,3+,30,74
 sector_cause_slip,6,,planned_works,0,858,2310
@@ -19171,19 +19171,19 @@ cause_slip,,,maneuvers,0,757,2043
 cause_slip,,,maneuvers,1,513,1240
 cause_slip,,,maneuvers,2,252,710
 cause_slip,,,maneuvers,3+,426,1504
-cause_slip,,,missing_params,0,16652,49351
+cause_slip,,,missing_params,0,16654,49353
 cause_slip,,,missing_params,1,9517,20706
 cause_slip,,,missing_params,2,3702,9725
 cause_slip,,,missing_params,3+,4055,16656
-cause_slip,,,other,0,2225,6136
-cause_slip,,,other,1,845,2106
+cause_slip,,,other,0,2225,6137
+cause_slip,,,other,1,845,2107
 cause_slip,,,other,2,240,698
 cause_slip,,,other,3+,138,567
 cause_slip,,,planned_works,0,5373,14538
 cause_slip,,,planned_works,1,1419,3908
 cause_slip,,,planned_works,2,386,1446
 cause_slip,,,planned_works,3+,638,1968
-slip,,,,0,54361,135968
-slip,,,,1,22286,51771
+slip,,,,0,54363,135971
+slip,,,,1,22286,51772
 slip,,,,2,8428,22718
 slip,,,,3+,9390,35992
