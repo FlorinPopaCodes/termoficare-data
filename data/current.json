@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-22T18:41:06",
+  "scraped_at": "2026-09-22T22:09:18",
   "status": "ok",
   "outages": [
     {
@@ -306,18 +306,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "21 C5/2",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie racord primar",
-      "estimated_restore": "2026-09-24T23:00",
-      "on_time_probability": 0.429,
-      "basis_n": 1437,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Poştaşului - bl. 1, 9, 10, 11 • Str Gura Ialomiţei - bl. 8 • Ale Buhuşi - bl. 2, 3, 4, 5, 6, 7, 11"
-    },
-    {
-      "sector": 3,
       "pt_name": "16 Foișor",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -594,18 +582,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "7 Margeanului",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.359,
-      "basis_n": 849,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M29, M30, M31, M32, M33, M34 • Str Sold. Ene Modoran - bl. M93A, M93B • Str Dumbrava Nouă - bl. M78 scara 1, M79 • Str Buzoeni - bl. M38, M39, M40, M41, M76, M77, M78 scara 2 • Str Mărgeanului - bl. M35, M36, M37"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Petre Ispirescu",
       "blocks": 16,
       "service": "Oprire ACC",
@@ -687,18 +663,6 @@
       "basis_n": 849,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
-    },
-    {
-      "sector": 5,
-      "pt_name": "8 Margeanului",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.359,
-      "basis_n": 849,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Topolniţa - bl. M44, M45, M54 • Str Dobrun - bl. M57, M58 • Str Buzoeni - bl. M43, M46, M47, M48, M72, M73, M74 • Str Mărgeanului - bl. M49, M50 • Str Glicinelor - bl. M51, M52, M53, M55, M56"
     },
     {
       "sector": 5,
@@ -831,18 +795,6 @@
       "basis_n": 91,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Spl Independenţei - P23, P24,P25, P26, P27"
-    },
-    {
-      "sector": 6,
-      "pt_name": "10 Aragonitului - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-22T18:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Apusului - bl. N21"
     },
     {
       "sector": 6,
