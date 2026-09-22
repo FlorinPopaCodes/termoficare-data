@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-22T22:09:18",
+  "scraped_at": "2026-09-23T01:05:02",
   "status": "ok",
   "outages": [
     {
@@ -711,66 +711,6 @@
       "basis_n": 91,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Sălaj",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar : Strada Malcoci - Strada Dunavat",
-      "estimated_restore": "2026-09-23T20:00",
-      "on_time_probability": 0.587,
-      "basis_n": 92,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Păun - bl. 69D, 69C • Şos Sălaj - bl. 68, 69A 69B • Str Sg. Turturică - bl. 70A, 70B"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Sălaj",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar : Strada Malcoci - Strada Dunavat",
-      "estimated_restore": "2026-09-23T20:00",
-      "on_time_probability": 0.585,
-      "basis_n": 82,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pecineaga - bl. 46, 47A • Str Cartojani - bl. 53A, 55A • Ale Sălaj - bl. 47, 48, 49, 50, 55, 53 • Str Dunavăţ - bl. 49C, 49D, 49E, 51A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Salaj",
-      "blocks": 25,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar : Strada Malcoci - Strada Dunavat",
-      "estimated_restore": "2026-09-23T20:00",
-      "on_time_probability": 0.674,
-      "basis_n": 46,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A,122B, • Str Dunavăţ - 57,58,59,60,61A,65,60A,61 • Str Teliţa - 52A,56,66A,120,121,116,122A,119C • Cal Ferentari - 117,119A,70A+B,119B,119D,117A"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Vicina",
-      "blocks": 30,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar : Strada Malcoci - Strada Dunavat",
-      "estimated_restore": "2026-09-23T20:00",
-      "on_time_probability": 0.61,
-      "basis_n": 77,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Pricopan - bl. Z7, Z8, 11, 12, 13, 14, 16, 17, 18, 19, 20, 33, 34, 35, 36 • Ale Sălaj - bl. Z4, Z5, Z10, 15, 21, 37, 41 • Str Malcoci - bl. 38, 39, 40 • Ale Vicina - bl. 1, Z2, Z3, Z6, Z9"
-    },
-    {
-      "sector": 5,
-      "pt_name": "6 Rahova",
-      "blocks": 26,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar : Strada Malcoci - Strada Dunavat",
-      "estimated_restore": "2026-09-23T20:00",
-      "on_time_probability": 0.645,
-      "basis_n": 76,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Constantin Lecca - bl 66E • Str Pictor Mihail Dan - bl 62, 67 • Şos Sălaj - bl 34, 62A, 62B • Str Malcoci - bl 36, 45, 46 • Str Vasile Dumitrescu - bl 66C • Str Dunavăţ - bl 63, 66D, 45A, 45B, 45C, 70A • Str Teliţa - bl 66A, 66B, 67A, 70, Policlinica Malcoci • Str Frecăţei - bl 35 • Cal Rahovei - bl 44, 44A, 52, 66"
     },
     {
       "sector": 5,
