@@ -1,6 +1,6 @@
 episode_id,sector,pt_name,utility,slip_count
 0a0f8f6ef8a3,5,Modul Toporaşi,ACC,3
-d476e82cc127,4,6 Zona II,ACC,13
+d476e82cc127,4,6 Zona II,ACC,14
 cf5dbb55b94e,1,Ct Luterana,ACC,4
 605449801872,4,Modul Termic - Grădinița nr.228,ACC,1
 71ffa34a5f98,3,14 Foișor,ACC,1
@@ -8,30 +8,58 @@ bac3a3d0f406,3,16 Foișor,ACC,1
 31467b8fa75a,3,4 Dudești,ACC,1
 3f0aeaee5411,3,6 Vitan,ACC,1
 75f66059a540,3,7 Vitan,ACC,1
-2dba32d8a8f1,2,6 Mosilor,ACC,0
-2e64001550a1,5,Giurgiu Farado - Partial,ACC,0
-704013a9b161,1,CT Floreasca - Partial,ACC,0
-e87b7a6f84e0,2,7 Colentina - Partial,ACC,0
 4f3edf6d680b,2,A2 Basarabia,ACC,0
 7e17902686ac,2,A4 Basarabia,ACC,0
 090cec6f371c,3,1Muncii,ACC,0
-f78e75170ef0,3,21 C5/2,ACC,0
+f78e75170ef0,3,21 C5/2,ACC,2
 d0b0f41365d1,3,IOR,ACC,0
-decf8073376d,4,Modul Termic - Colegiul National Octav Onicescu,ACC,0
-37345759235c,4,Posta,ACC,0
 99c11b9097fc,5,1 Salaj,ACC,0
-e8c8918447dd,5,2 Panduri - Partial,ACC,0
 097466cdf9eb,5,2 Sălaj,ACC,0
 5be47014ecad,5,3 Sălaj,ACC,0
 8646076f3d97,5,6 Rahova,ACC,0
 6d847b6e4b6c,5,Vicina,ACC,0
-86822a502f30,6,1/10 - Partial,ACC,0
-f041ba62d0ff,6,11 Mărgelelor,ACC,0
-cda960f51265,6,11/4,ACC,0
-b02ba207a811,6,2 Virtuții - Partial,ACC,0
-b67418a21314,6,8 Ghirlandei,ACC,0
 f64c79170bff,6,Ansamblul QUADRA PLACE I,ACC,0
 9cd6a65b1d0e,6,Liceul Mircea Eliade,ACC,0
 05f7e79c7841,6,"Liceul Teoretic ""Tudor Vladimirescu""",ACC,0
 56696db2dcae,6,MILITARI - 6 Placare,ACC,0
-03f4a1efdc28,6,SC 2/3 - MODULE TERMICE - Partial,ACC,0
+6320e2b76a82,4,P 5 A,ACC,0
+98fd788fc236,4,V.S.Sud,ACC,0
+144edb6d208a,5,1 Petre Ispirescu,ACC,0
+b851d0069791,5,10 Margeanului,ACC,0
+a40200517fde,5,11 Margeanului,ACC,0
+d59197a6518c,5,2 Petre Ispirescu,ACC,0
+f41fa20a2a14,5,3 Petre Ispirescu,ACC,0
+bdc1f9f907ed,5,5 Margeanului,ACC,0
+e71a5fb05cf1,5,6 Margeanului,ACC,0
+66c5479ba643,5,6 Petre Ispirescu,ACC,0
+b78f7d6db241,5,7 Margeanului,ACC,0
+eb1b380b5f07,5,8 Margeanului,ACC,0
+d0b8da725f4e,5,9 Margeanului,ACC,0
+eb574f051e0b,5,Gioconda,ACC,0
+da6c14c9cc7c,5,Marinescu,ACC,0
+14e8a3c4536d,5,Tribunal,ACC,0
+8335b25bc16f,5,Turnescu,ACC,0
+8dfd6640af82,5,VSNord,ACC,0
+b2549ec9b31b,6,"CSA Steaua - Sala Sport ""Mihai Viteazu"" UM 01026 (2301)",ACC,0
+f147718a1f3c,6,Campus Studenți Noul Local UPB,ACC,0
+89c2cc0dd071,6,Complex Studentesc LEU - Cămine + Fac.Electrotehnică,ACC,0
+26939caf7a49,6,S.C. AMA (ELMEF PROD),ACC,0
+ec65a1ac0da3,6,UM 02296,ACC,0
+fe3f08d54f23,6,UM 02630,ACC,0
+831a8ff34ece,1,1 Aviatiei,ACC,0
+6a0941d6daa8,1,2 Aviatiei,ACC,0
+1d5d70759fdb,1,3 Aviatiei,ACC,0
+3e8b1bede27e,1,4 Aviatiei,ACC,0
+2ca1b239032a,1,5 Aviatiei,ACC,0
+c6cdf3d01e00,1,6 Aviatiei,ACC,0
+99eb20008b1a,2,1 Hatisului,ACC,0
+5d92e8484223,2,4 Socului,ACC,0
+8ca9f3825058,2,Ramuri Tei - Partial,ACC,0
+6cde97ff5c17,5,4 Rahova - Partial,ACC,0
+150bceaea5fd,6,1/7,ACC,0
+8e3a82fd9d04,6,10 Aragonitului - Partial,ACC,0
+16c6599bcfe2,6,2 Uverturii,ACC,0
+bae4611b7258,6,2/7',ACC,0
+e8de32c142c9,6,4 Virtuții - Partial,ACC,0
+b7d28dd3f7fe,6,J Giulești - Partial,ACC,0
+d016ed2dfce7,6,SC 4/3 -MODULE TERMICE - Partial,ACC,0
