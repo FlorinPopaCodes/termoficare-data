@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-23T21:37:19",
+  "scraped_at": "2026-09-24T00:46:20",
   "status": "ok",
   "outages": [
     {
@@ -267,6 +267,18 @@
       "basis_n": 72,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "5X",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Avarie circuit primar PT",
+      "estimated_restore": "2026-09-24T15:30",
+      "on_time_probability": 0.28,
+      "basis_n": 50,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lucreţiu Pătrăşcanu - bl. T1 • Str Constantin Brâncuşi - bl. A13, A13bis • Ale Barajul Uzului - bl. Y14, Y15, Y16 • Ale Barajul Sadului - bl. T2, M4A2, M4A3, Y10 • Ale Barajul Cucuteni - bl. A14"
     },
     {
       "sector": 3,
@@ -630,11 +642,23 @@
     },
     {
       "sector": 5,
+      "pt_name": "10 Margeanului",
+      "blocks": 32,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-09-24T15:30",
+      "on_time_probability": 0.531,
+      "basis_n": 64,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
+    },
+    {
+      "sector": 5,
       "pt_name": "VSNord",
       "blocks": 15,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-23T23:30",
+      "estimated_restore": "2026-09-24T10:00",
       "on_time_probability": 0.429,
       "basis_n": 35,
       "basis_bucket": "pt_cause_slip",
@@ -646,7 +670,7 @@
       "blocks": 0,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-23T23:30",
+      "estimated_restore": "2026-09-24T10:00",
       "on_time_probability": 0.29,
       "basis_n": 31,
       "basis_bucket": "pt_cause_slip",
@@ -675,102 +699,6 @@
       "basis_n": 66,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Prof.dr. Gheorghe Marinescu - imob.Nr.19, 15 • Str Dr. Ion Radovici - imobil.Nr.10, 12 • Str Dr. Nicolae Turnescu - Turnescu imobil.Nr.9, 15, 13"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Petre Ispirescu",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.361,
-      "basis_n": 851,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P1A, P6 • Str Cobadin - bl. P14, P19A, P19 • Str Ileana Cosânzeana - bl. P1, P2, P7, P8, P9, P10, P11 • Str Făt Frumos - bl. P6, P12, P11A, P13, P15, P16"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Petre Ispirescu",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.361,
-      "basis_n": 851,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P22B, P22C, P22 • Str Cobadin - bl. P21C1, P21C2, P24 • Str Dumbrava Nouă - bl. P22A,P21B, P25, P41 • Str Moţoc - bl. P21A2, P21A1 • Str Elev Nicolae Popovici - bl. P42 • Str Sg.maj. Vasile Topliceanu - bl. P42B, P42A • Str Sg. maj. Ion Nedeleanu - bl. P40"
-    },
-    {
-      "sector": 5,
-      "pt_name": "6 Petre Ispirescu",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.361,
-      "basis_n": 851,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sg.maj. Vasile Topliceanu - bl. P37, P31, P32, P38, P36, P38A • Str Sg. maj. Ion Nedeleanu - bl. P33, P34, P35, P39"
-    },
-    {
-      "sector": 5,
-      "pt_name": "5 Margeanului",
-      "blocks": 22,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.361,
-      "basis_n": 851,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Ene Modoran - bl. M88, M89, M90 • Str Dumbrava Nouă - bl. M5, M16A, M83,M84, M85 • Str Cap. Petre Mişcă - bl. M9, M13, M14, M15, M16 • Str Bârca - bl. M6, M7, M8, M10, M86, M87 • Str Mărgeanului - bl. M11, M11A, M12"
-    },
-    {
-      "sector": 5,
-      "pt_name": "9 Margeanului",
-      "blocks": 36,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.361,
-      "basis_n": 851,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Petre Ispirescu",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.361,
-      "basis_n": 851,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
-    },
-    {
-      "sector": 5,
-      "pt_name": "11 Margeanului",
-      "blocks": 31,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.361,
-      "basis_n": 851,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. M137, M138, M140, M198, M198A, M199, M217, M210, M211, M212, M214, M215, M216, M213 • Str Crăişorului - bl. M136, M143A, M143B • Str Cobadin - bl. M200, M201, M202, M209 • Str Dumbrava Nouă - bl. M207, M208A, M2M141, M142, M197, M206,08 • Str Iancu Jianu - bl. M204, M205, M203"
-    },
-    {
-      "sector": 5,
-      "pt_name": "10 Margeanului",
-      "blocks": 32,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti, Lot 5- Obiectiv 14. Reintregire conducta si montare conducta provizorat, tronson CR2-CDN1.",
-      "estimated_restore": "2026-09-24T18:00",
-      "on_time_probability": 0.361,
-      "basis_n": 851,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
     },
     {
       "sector": 5,
