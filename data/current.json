@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-23T17:32:54",
+  "scraped_at": "2026-09-23T21:37:19",
   "status": "ok",
   "outages": [
     {
@@ -130,7 +130,7 @@
       "blocks": 2,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-23T19:30",
+      "estimated_restore": "2026-09-24T18:00",
       "on_time_probability": 0.499,
       "basis_n": 11619,
       "basis_bucket": "sector_cause_slip",
@@ -267,30 +267,6 @@
       "basis_n": 72,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "15 C5/2 - Partial",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum Str. Plt.Petre Ionescu",
-      "estimated_restore": "2026-09-23T20:30",
-      "on_time_probability": 0.25,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sold. Ghiţă Şerban - bl. X11, X12, X17 • Str Sold. Stelian N. Mihale - bl. X10, X16 • Str Plt. Petre D. Ionescu - bl. X13, X14, X15, X18, X19,X20"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Baba Novac",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea primara/ str. Pictor Ion Tuculescu.",
-      "estimated_restore": "2026-09-23T19:00",
-      "on_time_probability": 0.58,
-      "basis_n": 50,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
     },
     {
       "sector": 3,
@@ -630,18 +606,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Lucrari POIM",
-      "estimated_restore": "2026-09-24T16:00",
-      "on_time_probability": 0.409,
-      "basis_n": 1485,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
-    },
-    {
-      "sector": 4,
       "pt_name": "Modul Termic - Grădinița nr.228",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -666,15 +630,27 @@
     },
     {
       "sector": 5,
-      "pt_name": "4 Rahova - Partial",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-09-23T19:30",
-      "on_time_probability": 0.197,
-      "basis_n": 61,
+      "pt_name": "VSNord",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-23T23:30",
+      "on_time_probability": 0.429,
+      "basis_n": 35,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cap. Ilina - bl 11B, 13A • Str Slt. Popa - bl 13B, 13C • Str Sg. Scarlat - bl 12 • Cal Rahovei - bl 11, 11A, 11C, 13"
+      "zone_raw": "• Pţa Naţiunile Unite - B1, B2, C • Str Sfintii Apostoli - 3B • Bld Unirii - 1, 1A, 1B, 1C, 2A, 2B, 2C, 3, 4A, 4B • Str Bordea Poenaru - 8-10"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Gioconda",
+      "blocks": 0,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-23T23:30",
+      "on_time_probability": 0.29,
+      "basis_n": 31,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Pţa Naţiunile Unite - Bloc Turn"
     },
     {
       "sector": 5,
