@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-24T00:46:20",
+  "scraped_at": "2026-09-24T07:43:20",
   "status": "ok",
   "outages": [
     {
@@ -651,18 +651,6 @@
       "basis_n": 64,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
-    },
-    {
-      "sector": 5,
-      "pt_name": "VSNord",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-09-24T10:00",
-      "on_time_probability": 0.429,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Pţa Naţiunile Unite - B1, B2, C • Str Sfintii Apostoli - 3B • Bld Unirii - 1, 1A, 1B, 1C, 2A, 2B, 2C, 3, 4A, 4B • Str Bordea Poenaru - 8-10"
     },
     {
       "sector": 5,
