@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-25T00:48:24",
+  "scraped_at": "2026-09-25T03:09:19",
   "status": "ok",
   "outages": [
     {
@@ -231,30 +231,6 @@
       "basis_n": 143,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
-    },
-    {
-      "sector": 2,
-      "pt_name": "A2 Basarabia",
-      "blocks": 13,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea primara",
-      "estimated_restore": "2026-09-25T23:00",
-      "on_time_probability": 0.532,
-      "basis_n": 62,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Basarabia - bl.A1, A2, A3, B1, B2, C1, C2, D1, D2, D3, D4, E1, F1"
-    },
-    {
-      "sector": 2,
-      "pt_name": "A4 Basarabia",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea primara",
-      "estimated_restore": "2026-09-25T23:00",
-      "on_time_probability": 0.611,
-      "basis_n": 72,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Murgeni - bl. O1 • Bld Basarabia - bl. A4, B3, D5, E2, F2, L10, L10A"
     },
     {
       "sector": 3,
