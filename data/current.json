@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-09-26T08:30:14",
+  "scraped_at": "2026-09-26T13:05:52",
   "status": "ok",
   "outages": [
     {
@@ -99,6 +99,30 @@
       "basis_n": 86,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Corneliu Coposu - 105A, 103, 104, 101, 106A, 105A • Str Sfânta Vineri - 105B, 105C, 102"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Serban Voda",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-26T23:00",
+      "on_time_probability": 0.37,
+      "basis_n": 146,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-09-26T23:00",
+      "on_time_probability": 0.322,
+      "basis_n": 202,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
     },
     {
       "sector": 4,
