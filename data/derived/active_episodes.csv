@@ -1,24 +1,19 @@
 episode_id,sector,pt_name,utility,slip_count
 0a0f8f6ef8a3,5,Modul Toporaşi,ACC,3
-d476e82cc127,4,6 Zona II,ACC,14
+d476e82cc127,4,6 Zona II,ACC,15
 cf5dbb55b94e,1,Ct Luterana,ACC,4
-14a9c18a8274,1,11 Dorobanti,ACC,0
-e5002509ba53,1,Casata,ACC,0
-03a6fc069c55,1,Cosmonautilor,ACC,0
+14a9c18a8274,1,11 Dorobanti,ACC,1
+e5002509ba53,1,Casata,ACC,1
+03a6fc069c55,1,Cosmonautilor,ACC,1
 211a729a1bc9,3,3X,ACC,0
-3df51a15e9b0,1,13-1 Mai,ACC,0
-4a7b7d7fdf23,1,146 Grivita,ACC,0
-b541d310ba8c,1,148 Grivita,ACC,0
-b97bb7093017,1,150 Grivita,ACC,0
-c4e8b451f139,1,3 Titulescu - Partial,ACC,0
-20242d8f965a,1,3-11 Duca,ACC,0
-15f5a0158800,1,K Grivita,ACC,0
+4a7b7d7fdf23,1,146 Grivita,ACC,1
+b541d310ba8c,1,148 Grivita,ACC,1
+b97bb7093017,1,150 Grivita,ACC,1
+20242d8f965a,1,3-11 Duca,ACC,1
 426561e0ec75,2,17 Pantelimon,ACC,0
-e808b643d671,2,2 Teiul Doamnei - Partial,ACC,0
 42655008f2d0,2,24 Delfinului,ACC,0
 f07697a6a8e8,2,4' Pantelimon,ACC,0
-151b5fabb24e,2,Ramuri Tei - Partial,ACC,0
-ddae2241ed4a,3,14 Tomis,ACC,0
+ddae2241ed4a,3,14 Tomis,ACC,1
 e516ce81a3df,5,1 Alexandria,ACC,0
 c4c57c85c0dc,5,1 Drumul Sarii,ACC,0
 8c2c766b636b,5,1 Giurgiu,ACC,0
@@ -55,14 +50,123 @@ fcec538911b8,5,6 Sălaj,ACC,0
 c6a90419ac90,5,8 Margeanului,ACC,0
 9d3ab2bb7069,5,9 Farado,ACC,0
 a36153d60771,5,9 Margeanului,ACC,0
-eb9d62ab93e9,5,Ct Paunasul Codrilor,ACC,0
 97e8482e0488,5,Doina,ACC,0
 d8b9363032d6,5,Garoafei,ACC,0
-32c5f5b17aef,5,Gioconda,ACC,0
+32c5f5b17aef,5,Gioconda,ACC,1
 4297e9bbb3d6,5,Giurgiu Farado,ACC,0
 937d2ef340dc,5,Soldat Croitoru,ACC,0
 42c1f04c69c5,5,Teiuş,ACC,0
-ba6774a9c1fa,5,VSNord - Partial,ACC,0
 9cbf58697222,5,Vicina,ACC,0
-df29a7e314af,6,1 Virtuții - Partial,ACC,0
-79dabf114443,6,SC 1/3 - MODULE TERMICE - Partial,ACC,0
+79dabf114443,6,SC 1/3 - MODULE TERMICE - Partial,ACC,1
+ea523eaaf599,4,1 Bis Zona I,ACC,0
+db7177692ac2,4,1 Nitu Vasile,ACC,0
+b6d1d72631e5,4,1 Oltenita Placare,ACC,0
+1e9fdb7e7d48,4,1 Serban Voda,ACC,0
+221c4599f59c,4,1 Stoian Militaru,ACC,0
+d92a8effb3ca,4,1 Zona I,ACC,0
+02144c2c1ae5,4,1 Zona II,ACC,0
+36f456948e59,4,1 Zona IV,ACC,0
+3f3b5cfc72d9,4,1 Zona V,ACC,0
+7c2911b3aa3f,4,11 Giurgiu,ACC,0
+6145df0c31db,4,12 Giurgiu,ACC,0
+4933c3dd5996,4,17 Dolhasca,ACC,0
+cf3be3cc2c83,4,19 Dolhasca,ACC,0
+ad19f7400a05,4,2 A Metalurgiei,ACC,0
+5c1d5fffe08b,4,2 Giurgiu,ACC,0
+7d22c277029f,4,2 Nitu Vasile,ACC,0
+35303458547c,4,2 Oltenita Placare,ACC,0
+bd3e53089d0b,4,2 Oltenitei,ACC,0
+562f906997c0,4,2 Serban Voda,ACC,0
+6babe80d67d3,4,2 Stoian Militaru,ACC,0
+b7f85f3b4ddd,4,2 Vifornita,ACC,0
+2931003fc812,4,2 Zona I,ACC,0
+f079dfd1802d,4,2 Zona II,ACC,0
+e03e00e510ae,4,2 Zona V,ACC,0
+afdf1ae5127f,4,3 Bis Zona I,ACC,0
+7296e63c8dfc,4,3 Nitu Vasile,ACC,0
+0d27fb1d9530,4,3 Oltenita Placare,ACC,0
+cc04029182bc,4,3 Zona I,ACC,0
+7e8130b67b29,4,3 Zona II,ACC,0
+2a3fef656465,4,3 Zona V,ACC,0
+cbb17c87661d,4,4 Nitu Vasile,ACC,0
+3ee4a03c1c13,4,4 Oltenita Placare,ACC,0
+b2f197b2704d,4,4 Vifornita,ACC,0
+c63033bb2ad4,4,4 Zona I,ACC,0
+e132125731b3,4,4 Zona II,ACC,0
+db6e29b19f59,4,5 Brancoveanu,ACC,0
+40c0daad5840,4,5 Metalurgiei,ACC,0
+7bb5b48ceffa,4,5 Oltenita,ACC,0
+85e9d570a4bb,4,5 Zona I,ACC,0
+4f831598bcab,4,5 Zona II,ACC,0
+86eccfbd99d6,4,6 Brancoveanu,ACC,0
+c21dd86c414c,4,6 Vifornita,ACC,0
+7966de493d0e,4,6 Zona I,ACC,0
+66af630c284f,4,7 Zona I,ACC,0
+abf4a81485b1,4,8 Brancoveanu,ACC,0
+1fe11a2e5e9c,4,9 Brâncoveanu,ACC,0
+21423ed93796,4,Almașul Mare,ACC,0
+1c2b314c60c2,4,Curcani,ACC,0
+6f7be6d5f24f,4,Dealul Cernei,ACC,0
+942f7d5a6c02,4,Dumitru Petrescu,ACC,0
+f7f82a86f712,4,Huedin,ACC,0
+2735b01634aa,4,Livada Noua,ACC,0
+343931b52c91,4,Luica,ACC,0
+62138ada6320,4,Metalurgiei,ACC,0
+c5f269530688,4,Modul Termic - Colegiul National Octav Onicescu,ACC,0
+8342a3390da7,4,Modul Termic - Cresa Unicornul Fermecat,ACC,0
+ba46165d0ac4,4,Modul Termic - Grădinița Nr.225,ACC,0
+5282c37d2be3,4,Modul Termic - Grădinița nr.167,ACC,0
+82114ea41121,4,Modul Termic - Grădinița nr.228,ACC,0
+7a8dfa637ba2,4,Modul Termic - Grădinița nr.243,ACC,0
+7805c8121607,4,Modul Termic - Spitalul Alexandru Obregia ( Creșa 25 ) / Stationar de zi,ACC,0
+5b3985428af3,4,Modul Termic - Școala Gimnaziala Ionel Teodoreanu,ACC,0
+670491b4d67f,4,Modul Termic - Școala nr.119,ACC,0
+c9144c349fa2,4,Modul Termic - Școala nr.129,ACC,0
+dd9bdeb88ac9,4,Modul Termic - Școala nr.99,ACC,0
+f186f9182047,4,Moldovita,ACC,0
+f91325ffb58e,4,Pieptanari,ACC,0
+74292c938cc9,4,Posta,ACC,0
+339bddc0bbbc,4,Prasilei,ACC,0
+32f4ef3ca096,4,Sabaoani,ACC,0
+7ae558f92dc1,4,Sincai,ACC,0
+cbcd8daa8464,4,Spinis,ACC,0
+720c2bca7788,4,Tudor Gociu,ACC,0
+a46adfafcfd5,4,Uioara,ACC,0
+129cb923180e,4,Urziceni,ACC,0
+f9e400413b7b,5,2 Drumul Sarii,ACC,0
+74dac5a501e0,5,3 Sebastian,ACC,0
+3dc8e50c648c,5,4 Petre Ispirescu,ACC,0
+ea1dc9ae04d2,5,5 Lira,ACC,0
+41abb0027065,5,5 Petre Ispirescu,ACC,0
+a770e702fa3d,5,6 Sebastian,ACC,0
+45ffefcf2f1a,5,7 Sebastian,ACC,0
+abb98db3c992,5,Intrarea Drumul Taberei,ACC,0
+84c2fed5944a,5,Nabucului,ACC,0
+144c0e2db133,5,"bloc 1, bloc 2 (cod PT: 50039)",ACC,0
+3c13796765f6,1,1 Titulescu,ACC,0
+5868b7704c37,1,5-1 Mai,ACC,0
+56cc0372f1d9,1,MODUL TERMIC E13,ACC,0
+f115ab07f7a9,1,MODUL TERMIC F13 sc.A+B,ACC,0
+dadfec625776,1,MODUL TERMIC F13 sc.C+D,ACC,0
+cc5b49a1c9d7,1,MODUL TERMIC Vila 25,ACC,0
+cee798ed34cb,1,MODUL TERMIC Vila 27,ACC,0
+30305025c0b1,1,MODUL TERMIC Vila 30,ACC,0
+430a9c6579ff,2,A2 Basarabia,ACC,0
+49ad9ddad781,2,A4 Basarabia,ACC,0
+14dc7d76feb6,2,U1 Avrig,ACC,0
+185695e6efba,2,U2 Avrig,ACC,0
+b14816fa45a0,3,1Muncii,ACC,0
+62e54786c500,3,5 Mărăşeşti,ACC,0
+86abe456b87e,3,IOR,ACC,0
+2fb17f5cd67e,3,SC.G2 - Module Termice - Partial,ACC,0
+33b4d48af7e3,4,P 5 A,ACC,0
+1157e50b90ea,4,V.S.Sud,ACC,0
+60da4562e937,5,103A,ACC,0
+26a05c88a33e,5,3 din 13 Septembrie - Partial,ACC,0
+ac99ec41e82e,5,Tribunal,ACC,0
+746b9dd08e5b,5,VSNord,ACC,0
+cb2b9a641437,6,10 Aragonitului - Partial,ACC,0
+e0006844309d,6,2 Politehnicii,ACC,0
+370d42c0bd78,6,2 Veteranilor,ACC,0
+9bb882a0df2d,6,B Giulești,ACC,0
+f1b4576fb704,6,MILITARI - 7 Placare - Partial,ACC,0
