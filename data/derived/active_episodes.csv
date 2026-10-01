@@ -2,12 +2,7 @@ episode_id,sector,pt_name,utility,slip_count
 0a0f8f6ef8a3,5,Modul Toporaşi,ACC,3
 d476e82cc127,4,6 Zona II,ACC,15
 cf5dbb55b94e,1,Ct Luterana,ACC,4
-e5002509ba53,1,Casata,ACC,2
-211a729a1bc9,3,3X,ACC,0
-4a7b7d7fdf23,1,146 Grivita,ACC,2
-b541d310ba8c,1,148 Grivita,ACC,2
-b97bb7093017,1,150 Grivita,ACC,2
-20242d8f965a,1,3-11 Duca,ACC,2
+211a729a1bc9,3,3X,ACC,1
 426561e0ec75,2,17 Pantelimon,ACC,0
 42655008f2d0,2,24 Delfinului,ACC,0
 f07697a6a8e8,2,4' Pantelimon,ACC,0
@@ -49,7 +44,6 @@ c6a90419ac90,5,8 Margeanului,ACC,0
 a36153d60771,5,9 Margeanului,ACC,0
 97e8482e0488,5,Doina,ACC,0
 d8b9363032d6,5,Garoafei,ACC,0
-32c5f5b17aef,5,Gioconda,ACC,1
 4297e9bbb3d6,5,Giurgiu Farado,ACC,0
 937d2ef340dc,5,Soldat Croitoru,ACC,0
 42c1f04c69c5,5,Teiuş,ACC,0
@@ -139,29 +133,23 @@ a770e702fa3d,5,6 Sebastian,ACC,0
 abb98db3c992,5,Intrarea Drumul Taberei,ACC,0
 84c2fed5944a,5,Nabucului,ACC,0
 144c0e2db133,5,"bloc 1, bloc 2 (cod PT: 50039)",ACC,0
-56cc0372f1d9,1,MODUL TERMIC E13,ACC,0
-f115ab07f7a9,1,MODUL TERMIC F13 sc.A+B,ACC,0
-dadfec625776,1,MODUL TERMIC F13 sc.C+D,ACC,0
-cc5b49a1c9d7,1,MODUL TERMIC Vila 25,ACC,0
-cee798ed34cb,1,MODUL TERMIC Vila 27,ACC,0
-30305025c0b1,1,MODUL TERMIC Vila 30,ACC,0
+56cc0372f1d9,1,MODUL TERMIC E13,ACC,1
+f115ab07f7a9,1,MODUL TERMIC F13 sc.A+B,ACC,1
+dadfec625776,1,MODUL TERMIC F13 sc.C+D,ACC,1
+cc5b49a1c9d7,1,MODUL TERMIC Vila 25,ACC,1
+cee798ed34cb,1,MODUL TERMIC Vila 27,ACC,1
+30305025c0b1,1,MODUL TERMIC Vila 30,ACC,1
 430a9c6579ff,2,A2 Basarabia,ACC,0
 49ad9ddad781,2,A4 Basarabia,ACC,0
 b14816fa45a0,3,1Muncii,ACC,0
 86abe456b87e,3,IOR,ACC,0
-33b4d48af7e3,4,P 5 A,ACC,0
-1157e50b90ea,4,V.S.Sud,ACC,0
-60da4562e937,5,103A,ACC,0
-ac99ec41e82e,5,Tribunal,ACC,0
-746b9dd08e5b,5,VSNord,ACC,0
 462c19529471,1,2 Aviatiei,ACC,0
-619f1aa2c97a,1,MODUL TERMIC Vila 23,ACC,0
-97386df84f3a,1,MODUL TERMIC Vila 24,ACC,0
-e1752fcebd37,1,MODUL TERMIC Vila 26A,ACC,0
-f4c03decb12c,1,MODUL TERMIC Vila 26B,ACC,0
-dad0129d7ddb,1,MODUL TERMIC Vila 28,ACC,0
-7c0b7c942e13,1,MODUL TERMIC Vila 29,ACC,0
-9a1a73a8d998,2,17-18 Petricani - Partial,ACC,0
+619f1aa2c97a,1,MODUL TERMIC Vila 23,ACC,1
+97386df84f3a,1,MODUL TERMIC Vila 24,ACC,1
+e1752fcebd37,1,MODUL TERMIC Vila 26A,ACC,1
+f4c03decb12c,1,MODUL TERMIC Vila 26B,ACC,1
+dad0129d7ddb,1,MODUL TERMIC Vila 28,ACC,1
+7c0b7c942e13,1,MODUL TERMIC Vila 29,ACC,1
 40f5fbf9c63f,4,1 Tineretului,ACC,0
 6e53db430e0e,4,1 Vacaresti,ACC,0
 c64309076641,4,2 Lanariei,ACC,0
@@ -174,24 +162,44 @@ fe5ef11e6e8c,4,3 Tineretului,ACC,0
 830202c5214b,4,Norilor,ACC,0
 00e27040a223,4,Palatul National al Copiilor,ACC,0
 6b73f3292ec8,4,Plugarilor,ACC,0
-66955c8b2562,5,Facultatea de Medicină Veterinară,ACC,0
-670a759997af,5,Garajul Parlamentului,ACC,0
-9dedd114980b,5,Hotel CONTINENTAL,ACC,0
-caa12ac17808,5,Institutul Teologioc,ACC,0
-f53384c2ae55,5,Ministerul Finanţelor,ACC,0
-1eafff4c921c,5,Palatul Parlamentului,ACC,0
 369607a573bd,6,9/4,ACC,0
-ec4deed98b52,1,2’-1 Mai,ACC,0
-14152a1cc46d,1,3 P-Ţa Victoriei,ACC,0
-e7965b49da5a,2,22 Pantelimon,ACC,0
-c5b5cec6e91b,2,3 Vaselor - Partial,ACC,0
-26d5fb8374a0,2,6 Doamna Ghica,ACC,0
-c92906bb7667,3,1 C3/1 - Partial,ACC,0
-e380ce44e785,3,10 Nefamilisti,ACC,0
-6d15290a9034,3,2 Vitan,ACC,0
-c474fd631d12,3,3 Placare-T - Partial,ACC,0
-a432726372cd,3,6 Vitan,ACC,0
-c3037fc2525b,5,Ct Ferentari Depou,ACC,0
-f42ab9806f75,5,Ct Salaj - Partial,ACC,0
-32f57da24372,6,2/6 - Partial,ACC,0
-9dd3f83b7657,6,MFA,ACC,0
+e7965b49da5a,2,22 Pantelimon,ACC,2
+2758d7c9cee6,3,1 Labirint,ACC,0
+678571b292e4,3,3 Labirint,ACC,0
+49ebc672c87a,3,4 Labirint,ACC,0
+0661f1e0bd23,6,5 Crivina,ACC,0
+cf1c55475315,6,7 Crivina,ACC,0
+5858aac5f50b,6,9 Crivina,ACC,0
+9f4f3bba4df0,2,18 Pantelimon,ACC,0
+c43f25f0952b,2,19 Pantelimon,ACC,0
+4369f9863c0c,2,20 Pantelimon,ACC,0
+0dae0e4df096,2,21 Pantelimon,ACC,0
+fee143ed4d4d,2,23 Baicului,ACC,0
+a622d1fc9d5c,3,14 Foișor,ACC,0
+0b2485361ea0,1,8-1 Mai,ACC,0
+9f0370ab7e7e,1,B Dinicu Golescu - Partial,ACC,0
+ee6f8b18463a,1,MODUL TERMIC D9,ACC,0
+8d7a4b96395d,1,MODUL TERMIC E3,ACC,0
+913beb1af9ed,1,MODUL TERMIC E9,ACC,0
+25523b60da4b,1,MODUL TERMIC F3,ACC,0
+edaa2b030754,1,MODUL TERMIC G3,ACC,0
+825176572353,1,MODUL TERMIC H3,ACC,0
+28cf47f6511d,1,MODUL TERMIC I3,ACC,0
+0541ff7e67b2,1,MODUL TERMIC J3,ACC,0
+831017488475,1,MODUL TERMIC K3,ACC,0
+e35a3236cd92,1,MODUL TERMIC L3,ACC,0
+50eed7a78bb8,1,MODUL TERMIC M3,ACC,0
+acb0c53e2c7f,1,MODUL TERMIC P11,ACC,0
+a9718899451d,1,MODUL TERMIC Vila 17,ACC,0
+0001287dcf88,1,MODUL TERMIC Vila 18-19,ACC,0
+9d801f92b295,1,MODUL TERMIC Vila 22,ACC,0
+31e4132d554f,1,Modul Termic D13,ACC,0
+0d69fd22565e,1,Scoala Poligrafica,ACC,0
+db4116abc1ac,2,3 Socului,ACC,0
+83ceae714a08,2,4 Iancului,ACC,0
+258c906f6ec9,3,12Tomis,ACC,0
+ab83225638a3,6,10 Aragonitului - Partial,ACC,0
+6477e0c7c1cf,6,10 Liniei - Partial,ACC,0
+1e2fbe2cc4c5,6,10/4,ACC,0
+bff43de51d06,6,5/5 - Partial,ACC,0
+32ae86feef13,6,MILITARI - 7 Placare - Partial,ACC,0
