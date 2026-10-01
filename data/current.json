@@ -1,9 +1,33 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-01T18:50:10",
+  "scraped_at": "2026-10-01T23:41:10",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "7 Dinicu Golescu",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-10-02T08:00",
+      "on_time_probability": 0.5,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 5, 6,7"
+    },
+    {
+      "sector": 1,
+      "pt_name": "3 Dinicu Golescu",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+      "estimated_restore": "2026-10-02T08:00",
+      "on_time_probability": 0.477,
+      "basis_n": 65,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Dinicu Golescu - bl. 1, 2, 3, 4"
+    },
     {
       "sector": 1,
       "pt_name": "MODUL TERMIC P11",
@@ -171,18 +195,6 @@
       "basis_n": 66,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Pantelimon - bl.69T"
-    },
-    {
-      "sector": 3,
-      "pt_name": "14 Foișor",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea primara",
-      "estimated_restore": "2026-10-01T23:00",
-      "on_time_probability": 0.481,
-      "basis_n": 54,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Vitan - bl. V50B, V50A, V51 • Str Alexandru Moruzzi Voievod - bl. V54B, V54A, V56, V57, V54, V55, V57B"
     },
     {
       "sector": 3,
@@ -1306,10 +1318,10 @@
       "blocks": 4,
       "service": "Oprire ACC",
       "cause": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la centrala termică",
-      "estimated_restore": "2026-10-01T19:00",
-      "on_time_probability": 0.45,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
+      "estimated_restore": "2026-10-01T23:00",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dr. Carol Davila - bl. B2/4 • Bld Eroilor - Bl. C2, A2, A4"
     },
     {
@@ -1942,47 +1954,11 @@
       "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Revizie tehnică - CTE Progresu",
-      "estimated_restore": "2026-10-01T23:00",
+      "estimated_restore": "2026-11-01T23:00",
       "on_time_probability": 0.511,
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "5/5 - Partial",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str.Dr Taberei",
-      "estimated_restore": "2026-10-01T19:30",
-      "on_time_probability": 0.32,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Drumul Taberei - bl.C7, 519, 521 • Str Valea Argeşului - 522, 523 Bis, 523"
-    },
-    {
-      "sector": 6,
-      "pt_name": "10 Aragonitului - Partial",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-01T14:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Aleşd - bl. N22, N23 • Str Apusului - bl. N21"
-    },
-    {
-      "sector": 6,
-      "pt_name": "10 Liniei - Partial",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-01T14:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Vistiernicul Stavrinos - bl. 55, 56 • Str Băbeşti - bl.57"
     },
     {
       "sector": 6,
