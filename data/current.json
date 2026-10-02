@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-01T23:41:10",
+  "scraped_at": "2026-10-02T03:13:19",
   "status": "ok",
   "outages": [
     {
@@ -1311,18 +1311,6 @@
       "basis_n": 1488,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Ct Eroilor 2",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la centrala termică",
-      "estimated_restore": "2026-10-01T23:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Dr. Carol Davila - bl. B2/4 • Bld Eroilor - Bl. C2, A2, A4"
     },
     {
       "sector": 5,
