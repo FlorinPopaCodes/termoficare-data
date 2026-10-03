@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-03T17:48:43",
+  "scraped_at": "2026-10-03T21:26:22",
   "status": "ok",
   "outages": [
     {
@@ -1182,18 +1182,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "6 Sebastian",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.5,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mihail Sebastian - bl. S30, S32, S33, S34 • Str Ileana Cosânzeana - bl. S31, S35, S36 • Str Făt Frumos - bl. S29"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Ferentari",
       "blocks": 19,
       "service": "Oprire ACC",
@@ -1266,18 +1254,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "bloc 1, bloc 2 (cod PT: 50039)",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.439,
-      "basis_n": 1670,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mihail Sebastian - 116 – PT propriu"
-    },
-    {
-      "sector": 5,
       "pt_name": "2 Alexandria",
       "blocks": 27,
       "service": "Oprire ACC",
@@ -1311,18 +1287,6 @@
       "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Alexandria - bl L1, L2, L3,L4, L5, L6, PC1, PC2, PC7, PC6"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Petre Ispirescu",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.583,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lacul Plopului - bl. P75 • Str Dorneasca - bl. P78 , P58, P62, P59, P63 • Str Novaci - bl. P78A, P60, P57, P61, P65"
     },
     {
       "sector": 5,
@@ -1422,18 +1386,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "5 Petre Ispirescu",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.458,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
-    },
-    {
-      "sector": 5,
       "pt_name": "5 Margeanului",
       "blocks": 22,
       "service": "Oprire ACC",
@@ -1467,18 +1419,6 @@
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Sebastian",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.696,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Aurel Ciurea - bl. S41 • Str Maria Cunţan - bl. S40, S42, S43, S44 • Str Samuil Vulcan - bl. S45"
     },
     {
       "sector": 5,
@@ -1626,18 +1566,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "7 Sebastian",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.577,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dumbrava Nouă - bl. S16, S17, S18, S19, S22 • Str Mihail Sebastian - bl. S6, S7, S8, S10, S10A, S11, S12, S13, S14, S20, S21 • Str Novaci - bl. S9, S9A, S15, S23"
-    },
-    {
-      "sector": 5,
       "pt_name": "Modul Toporaşi",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -1647,6 +1575,18 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 3 Placare",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.336,
+      "basis_n": 149,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Moineşti - bl. 135, 136, 201, 202, 203, 204, 205, 206 • Bld Iuliu Maniu - bl. 5P, 6P, 7P, 8P"
     },
     {
       "sector": 6,
@@ -1662,6 +1602,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "1 Uverturii",
+      "blocks": 20,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.218,
+      "basis_n": 78,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Arinii Dornei - bl. M28, I8, I4, I7, I3, I9, M27, M29, I6, M30 • Str Arieşul Mare - bl. A32, I11, I12, I10, I5, A31, A33, A34 • Ale Politehnicii - bl. I1, I2"
+    },
+    {
+      "sector": 6,
       "pt_name": "2 Uverturii",
       "blocks": 13,
       "service": "Deficienta ACC",
@@ -1674,6 +1626,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "3 Virtuții",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.371,
+      "basis_n": 132,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
+    },
+    {
+      "sector": 6,
       "pt_name": "2 Îndesirii",
       "blocks": 15,
       "service": "Deficienta ACC",
@@ -1683,6 +1647,18 @@
       "basis_n": 283,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Int Jarului - bl. 52, M27 • Str Apusului - bl. 42, M26 • Bld Iuliu Maniu - bl. 38, 39, 40, 41, H, I, J, K, G, G1, G2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "11 Liniei",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.39,
+      "basis_n": 146,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Moineşti - bl. 16, 20 • Str Mohorului - bl. 17 • Str Moineşti - bl. 14, 15, 18 • Str Vistiernicul Stavrinos - bl. 135A • Str Valea Lungă - bl. 19, 21, 22"
     },
     {
       "sector": 6,
@@ -1722,6 +1698,30 @@
     },
     {
       "sector": 6,
+      "pt_name": "MILITARI - 8 Placare",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.31,
+      "basis_n": 155,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Liniei - bl. 6C • Str Azurului - bl. 114A, 118A • Str Răsăritului - bl. 1, 4C, 5C, 7C, 116, 117, 118 • Str Velei - bl. 2, 3 • Str George Calboreanu - bl. 115, 119, 120, 122"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Veteranilor",
+      "blocks": 13,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.34,
+      "basis_n": 53,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Partizanilor - bl.M3 • Str Veteranilor - bl. M6, M16, 6, 7 • Bld Uverturii - bl. M8, 11 • Str Dealul Ţugulea - bl. 8, 12, 13, 14, 15, 16, Școala Gimnazială nr. 156"
+    },
+    {
+      "sector": 6,
       "pt_name": "2 Politehnicii",
       "blocks": 15,
       "service": "Deficienta ACC",
@@ -1734,6 +1734,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "7 Virtuții",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.272,
+      "basis_n": 158,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
+    },
+    {
+      "sector": 6,
       "pt_name": "MILITARI - 2 Placare",
       "blocks": 18,
       "service": "Deficienta ACC",
@@ -1743,6 +1755,30 @@
       "basis_n": 155,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "8 Virtuții",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.358,
+      "basis_n": 123,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Virtuții",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET ENERGO.",
+      "estimated_restore": "2026-10-03T23:30",
+      "on_time_probability": 0.355,
+      "basis_n": 76,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
     },
     {
       "sector": 6,
