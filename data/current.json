@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-03T03:13:37",
+  "scraped_at": "2026-10-03T08:18:27",
   "status": "ok",
   "outages": [
     {
@@ -1230,6 +1230,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "6 Sebastian",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
+      "estimated_restore": "2026-10-03T23:00",
+      "on_time_probability": 0.5,
+      "basis_n": 22,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mihail Sebastian - bl. S30, S32, S33, S34 • Str Ileana Cosânzeana - bl. S31, S35, S36 • Str Făt Frumos - bl. S29"
+    },
+    {
+      "sector": 5,
       "pt_name": "3 Ferentari",
       "blocks": 19,
       "service": "Oprire ACC",
@@ -1338,6 +1350,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "4 Petre Ispirescu",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
+      "estimated_restore": "2026-10-03T23:00",
+      "on_time_probability": 0.583,
+      "basis_n": 24,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lacul Plopului - bl. P75 • Str Dorneasca - bl. P78 , P58, P62, P59, P63 • Str Novaci - bl. P78A, P60, P57, P61, P65"
+    },
+    {
+      "sector": 5,
       "pt_name": "4 Chirigiu",
       "blocks": 2,
       "service": "Oprire ACC",
@@ -1434,6 +1458,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "5 Petre Ispirescu",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
+      "estimated_restore": "2026-10-03T23:00",
+      "on_time_probability": 0.458,
+      "basis_n": 24,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
+    },
+    {
+      "sector": 5,
       "pt_name": "5 Margeanului",
       "blocks": 22,
       "service": "Oprire ACC",
@@ -1467,6 +1503,18 @@
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
+    },
+    {
+      "sector": 5,
+      "pt_name": "3 Sebastian",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
+      "estimated_restore": "2026-10-03T23:00",
+      "on_time_probability": 0.696,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Aurel Ciurea - bl. S41 • Str Maria Cunţan - bl. S40, S42, S43, S44 • Str Samuil Vulcan - bl. S45"
     },
     {
       "sector": 5,
@@ -1611,6 +1659,18 @@
       "basis_n": 1661,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Pecineaga - bl 23A, 23B, 25, 26, 28A, 28C, 29C • Str Cap. Ilina - bl 11B, 13A • Str Vicina - bl 29, 29A, 29B, 32, 33, 37, 38 • Str Oltina - bl 23, 27, 28, 28B • Str Slt. Popa - bl 13B, 13C, 15, 15A, 15B • Str Sg. Scarlat - bl 12 • Cal Rahovei - bl 11, 11A, 11C, 13, 28, 26, 30, 30A, imobil Ioniţă"
+    },
+    {
+      "sector": 5,
+      "pt_name": "7 Sebastian",
+      "blocks": 20,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
+      "estimated_restore": "2026-10-03T23:00",
+      "on_time_probability": 0.577,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Dumbrava Nouă - bl. S16, S17, S18, S19, S22 • Str Mihail Sebastian - bl. S6, S7, S8, S10, S10A, S11, S12, S13, S14, S20, S21 • Str Novaci - bl. S9, S9A, S15, S23"
     },
     {
       "sector": 5,
