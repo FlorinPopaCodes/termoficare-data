@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-02T23:59:45",
+  "scraped_at": "2026-10-03T03:13:37",
   "status": "ok",
   "outages": [
     {
@@ -15,102 +15,6 @@
       "basis_n": 567,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "21 Pantelimon",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-03T08:00",
-      "on_time_probability": 0.342,
-      "basis_n": 114,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Măgura Vulturului - bl.413; • Str Elev Ştefan Ştefănescu - bl.419, 420, 423, 422A, 420B, 422, 420C, imob.Nr.67-69 • Şos Pantelimon - bl.409B, 409A, 409, 420A, 411, 410, 412, 421"
-    },
-    {
-      "sector": 2,
-      "pt_name": "18 Pantelimon",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-03T08:00",
-      "on_time_probability": 0.241,
-      "basis_n": 141,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Fântânica - bl.204, 203, imob.Nr.14A • Şos Pantelimon - bl.206, 205sc.A,B, 400B, 400A, 400C • Ale Cislău - bl.10, 9A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "22 Pantelimon",
-      "blocks": 21,
-      "service": "Oprire ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-03T08:00",
-      "on_time_probability": 0.435,
-      "basis_n": 2842,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Măgura Vulturului - bl.430, 434, 446, 435 • Str Elev Ştefan Ştefănescu - bl.444, 449, 450, 451, 445, 452, 443, imob.Nr.41 • Str Avrig - bl.440,441,442 • Str Ritmului - bl.431, 433, 432, 439, 438, 439A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "20 Pantelimon",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-03T08:00",
-      "on_time_probability": 0.351,
-      "basis_n": 97,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Amiral Ioan Murgescu - bl.401 • Şos Pantelimon - bl.404-405, 400, 402A, 403A, 402, 403 • Str Baicului - bl.401A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "17 Pantelimon",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-03T08:00",
-      "on_time_probability": 0.282,
-      "basis_n": 202,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Hobiţa - bl.300, 301 • Str Fântânica - • Şos Pantelimon - bl.66, 70, 200-201-202"
-    },
-    {
-      "sector": 2,
-      "pt_name": "19 Pantelimon",
-      "blocks": 18,
-      "service": "Oprire ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-03T08:00",
-      "on_time_probability": 0.308,
-      "basis_n": 117,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "23 Baicului",
-      "blocks": 23,
-      "service": "Oprire ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-03T08:00",
-      "on_time_probability": 0.311,
-      "basis_n": 177,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tâmpa - bl.1B, 1C, 3C,11 • Str Fântânica - bl.7B, 8 • Str Baicului - bl. 2, 4, 5B, 1A, 5A; 3A • Str Costache Conachi - bl.6C, 5E, 6B, 5C, 6A, 5D, 7A • Ale Cislău - bl.3B, 3D, 3E, 9B, 9C"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4' Pantelimon",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-03T08:00",
-      "on_time_probability": 0.506,
-      "basis_n": 79,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Pantelimon - bl.69T"
     },
     {
       "sector": 2,
@@ -1326,18 +1230,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "6 Sebastian",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.5,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mihail Sebastian - bl. S30, S32, S33, S34 • Str Ileana Cosânzeana - bl. S31, S35, S36 • Str Făt Frumos - bl. S29"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Ferentari",
       "blocks": 19,
       "service": "Oprire ACC",
@@ -1347,18 +1239,6 @@
       "basis_n": 22,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vedea - bl. 86A, 86B, 91, 92, 93A, 114 • Str Tutunari - bl. 87A, 87B • Cal Ferentari - bl. 94 • Str Zamfir Olaru - bl. 78, 86E, 87C, 87D, 87E • Str Năsăud - bl. 84,130, 86D, 86C"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Drumul Sării",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.586,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Baltagului - bl. V77, V78, V81 • Ale Botorani - bl. V28, V35, V36, V37, V42, V43, V80, V82, V83, V84 • Cal 13 Septembrie - bl. V38, V39, V40 • Str Mihail Sebastian - bl. V29, V30, V79"
     },
     {
       "sector": 5,
@@ -1422,18 +1302,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "bloc 1, bloc 2 (cod PT: 50039)",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.436,
-      "basis_n": 1661,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mihail Sebastian - 116 – PT propriu"
-    },
-    {
-      "sector": 5,
       "pt_name": "2 Alexandria",
       "blocks": 27,
       "service": "Oprire ACC",
@@ -1467,30 +1335,6 @@
       "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Alexandria - bl L1, L2, L3,L4, L5, L6, PC1, PC2, PC7, PC6"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Drumul Sarii",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.52,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lacul Plopului - bl. V7, P73 • Cal 13 Septembrie - bl. V1, V3, V4, V5, V6 • Str Şerbota - bl. P74, V8, V9, V19, V20, V21 • Str Sg. maj. Ion Nedeleanu - bl. V22, V23"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Petre Ispirescu",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.583,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lacul Plopului - bl. P75 • Str Dorneasca - bl. P78 , P58, P62, P59, P63 • Str Novaci - bl. P78A, P60, P57, P61, P65"
     },
     {
       "sector": 5,
@@ -1590,30 +1434,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "7 Petre Ispirescu",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.481,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P71A, P72B • Str Lacul Plopului - bl. P64 • Str Dorneasca - bl. P72 • Str Sg.maj. Vasile Topliceanu - bl. P66, P67"
-    },
-    {
-      "sector": 5,
-      "pt_name": "5 Petre Ispirescu",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.458,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Conţeşti - bl. P83 • Str Dorneasca - bl. P79, P80, Liceul Odobleja • Str Mihail Sebastian - bl. S4, S5 • Str Sg. maj. Ion Nedeleanu - bl. P76"
-    },
-    {
-      "sector": 5,
       "pt_name": "5 Margeanului",
       "blocks": 22,
       "service": "Oprire ACC",
@@ -1647,18 +1467,6 @@
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Sebastian",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.696,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Aurel Ciurea - bl. S41 • Str Maria Cunţan - bl. S40, S42, S43, S44 • Str Samuil Vulcan - bl. S45"
     },
     {
       "sector": 5,
@@ -1758,18 +1566,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "1 Drumul Sarii",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.452,
-      "basis_n": 31,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
-    },
-    {
-      "sector": 5,
       "pt_name": "Garoafei",
       "blocks": 14,
       "service": "Oprire ACC",
@@ -1818,18 +1614,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "7 Sebastian",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de modernizare pe rețeaua termică primară. Lucrări POIM, LOT 3, OBIECTIV 13",
-      "estimated_restore": "2026-10-03T23:00",
-      "on_time_probability": 0.577,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dumbrava Nouă - bl. S16, S17, S18, S19, S22 • Str Mihail Sebastian - bl. S6, S7, S8, S10, S10A, S11, S12, S13, S14, S20, S21 • Str Novaci - bl. S9, S9A, S15, S23"
-    },
-    {
-      "sector": 5,
       "pt_name": "Modul Toporaşi",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -1846,7 +1630,7 @@
       "blocks": 30,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie racord primar",
-      "estimated_restore": "2026-10-03T08:00",
+      "estimated_restore": "2026-10-03T23:30",
       "on_time_probability": 0.404,
       "basis_n": 57,
       "basis_bucket": "pt_cause_slip",
@@ -1858,7 +1642,7 @@
       "blocks": 14,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie racord primar",
-      "estimated_restore": "2026-10-03T08:00",
+      "estimated_restore": "2026-10-03T23:30",
       "on_time_probability": 0.365,
       "basis_n": 63,
       "basis_bucket": "pt_cause_slip",
@@ -1870,7 +1654,7 @@
       "blocks": 25,
       "service": "Oprire ACC",
       "cause": "Depistare și remediere avarie racord primar",
-      "estimated_restore": "2026-10-03T08:00",
+      "estimated_restore": "2026-10-03T23:30",
       "on_time_probability": 0.406,
       "basis_n": 69,
       "basis_bucket": "pt_cause_slip",
