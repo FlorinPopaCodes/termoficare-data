@@ -2,44 +2,30 @@ episode_id,sector,pt_name,utility,slip_count
 0a0f8f6ef8a3,5,Modul Toporaşi,ACC,4
 d476e82cc127,4,6 Zona II,ACC,15
 cf5dbb55b94e,1,Ct Luterana,ACC,5
-e516ce81a3df,5,1 Alexandria,ACC,0
+e516ce81a3df,5,1 Alexandria,ACC,1
 8c2c766b636b,5,1 Giurgiu,ACC,0
-1f9a9d2c7058,5,1 Petre Ispirescu,ACC,0
-a6089fe8ab13,5,1 Rahova,ACC,0
-996c3e655d55,5,1 Salaj,ACC,0
-446cea72aeae,5,10 Margeanului,ACC,0
-7a2b6f270c1f,5,11 Margeanului,ACC,0
-cd2ee660c28b,5,2 Alexandria,ACC,0
-1b0568a7cfb4,5,2 Ferentari,ACC,0
-b53be4e409d7,5,2 Petre Ispirescu,ACC,0
-baa497a69741,5,2 Rahova,ACC,0
-5eff5680a32f,5,2 Sălaj,ACC,0
-cb0e700bce04,5,3 Ferentari,ACC,0
-dda9188a5687,5,3 Petre Ispirescu,ACC,0
-4c2fbcec1dde,5,3 Rahova,ACC,0
-8d0c18c83964,5,3 Sălaj,ACC,0
-b4aef4669f65,5,4 Chirigiu,ACC,0
-cd5211582784,5,4 Rahova,ACC,0
-ac9631a161ab,5,4 Sălaj,ACC,0
-c63b9fb54b40,5,5 Chirigiu,ACC,0
-fe7d160bab33,5,5 Margeanului,ACC,0
-ed0220278fa8,5,6 Chirigiu,ACC,0
+1f9a9d2c7058,5,1 Petre Ispirescu,ACC,1
+a6089fe8ab13,5,1 Rahova,ACC,1
+cd2ee660c28b,5,2 Alexandria,ACC,1
+1b0568a7cfb4,5,2 Ferentari,ACC,1
+cb0e700bce04,5,3 Ferentari,ACC,1
+4c2fbcec1dde,5,3 Rahova,ACC,1
+b4aef4669f65,5,4 Chirigiu,ACC,1
+cd5211582784,5,4 Rahova,ACC,1
+c63b9fb54b40,5,5 Chirigiu,ACC,1
+fe7d160bab33,5,5 Margeanului,ACC,1
+ed0220278fa8,5,6 Chirigiu,ACC,1
 0d5beeef26d1,5,6 Farado,ACC,0
-821e89baa644,5,6 Margeanului,ACC,0
-872b9f399715,5,6 Petre Ispirescu,ACC,0
-b2cf2fb04d73,5,6 Rahova,ACC,0
-fcec538911b8,5,6 Sălaj,ACC,0
-83284916137a,5,7 Margeanului,ACC,0
-967ef80ee065,5,8 Alexandria,ACC,0
-c6a90419ac90,5,8 Margeanului,ACC,0
+872b9f399715,5,6 Petre Ispirescu,ACC,1
+fcec538911b8,5,6 Sălaj,ACC,1
+83284916137a,5,7 Margeanului,ACC,1
+967ef80ee065,5,8 Alexandria,ACC,1
 9d3ab2bb7069,5,9 Farado,ACC,0
-a36153d60771,5,9 Margeanului,ACC,0
-97e8482e0488,5,Doina,ACC,0
-d8b9363032d6,5,Garoafei,ACC,0
+97e8482e0488,5,Doina,ACC,1
+d8b9363032d6,5,Garoafei,ACC,1
 4297e9bbb3d6,5,Giurgiu Farado,ACC,0
-937d2ef340dc,5,Soldat Croitoru,ACC,0
-42c1f04c69c5,5,Teiuş,ACC,0
-9cbf58697222,5,Vicina,ACC,0
+937d2ef340dc,5,Soldat Croitoru,ACC,1
+42c1f04c69c5,5,Teiuş,ACC,1
 ea523eaaf599,4,1 Bis Zona I,ACC,0
 db7177692ac2,4,1 Nitu Vasile,ACC,0
 b6d1d72631e5,4,1 Oltenita Placare,ACC,0
@@ -115,15 +101,7 @@ cbcd8daa8464,4,Spinis,ACC,0
 720c2bca7788,4,Tudor Gociu,ACC,0
 a46adfafcfd5,4,Uioara,ACC,0
 129cb923180e,4,Urziceni,ACC,0
-74dac5a501e0,5,3 Sebastian,ACC,0
-3dc8e50c648c,5,4 Petre Ispirescu,ACC,0
-41abb0027065,5,5 Petre Ispirescu,ACC,0
-a770e702fa3d,5,6 Sebastian,ACC,0
-45ffefcf2f1a,5,7 Sebastian,ACC,0
-430a9c6579ff,2,A2 Basarabia,ACC,1
-49ad9ddad781,2,A4 Basarabia,ACC,1
-b14816fa45a0,3,1Muncii,ACC,1
-86abe456b87e,3,IOR,ACC,1
+a770e702fa3d,5,6 Sebastian,ACC,1
 40f5fbf9c63f,4,1 Tineretului,ACC,1
 6e53db430e0e,4,1 Vacaresti,ACC,1
 c64309076641,4,2 Lanariei,ACC,1
@@ -136,9 +114,6 @@ fe5ef11e6e8c,4,3 Tineretului,ACC,1
 830202c5214b,4,Norilor,ACC,1
 00e27040a223,4,Palatul National al Copiilor,ACC,1
 6b73f3292ec8,4,Plugarilor,ACC,1
-2758d7c9cee6,3,1 Labirint,ACC,2
-678571b292e4,3,3 Labirint,ACC,2
-49ebc672c87a,3,4 Labirint,ACC,2
-0661f1e0bd23,6,5 Crivina,ACC,2
-cf1c55475315,6,7 Crivina,ACC,2
-5858aac5f50b,6,9 Crivina,ACC,2
+2758d7c9cee6,3,1 Labirint,ACC,3
+678571b292e4,3,3 Labirint,ACC,3
+49ebc672c87a,3,4 Labirint,ACC,3
