@@ -2,30 +2,10 @@ episode_id,sector,pt_name,utility,slip_count
 0a0f8f6ef8a3,5,Modul Toporaşi,ACC,4
 d476e82cc127,4,6 Zona II,ACC,15
 cf5dbb55b94e,1,Ct Luterana,ACC,5
-e516ce81a3df,5,1 Alexandria,ACC,1
 8c2c766b636b,5,1 Giurgiu,ACC,0
-1f9a9d2c7058,5,1 Petre Ispirescu,ACC,1
-a6089fe8ab13,5,1 Rahova,ACC,1
-cd2ee660c28b,5,2 Alexandria,ACC,1
-1b0568a7cfb4,5,2 Ferentari,ACC,1
-cb0e700bce04,5,3 Ferentari,ACC,1
-4c2fbcec1dde,5,3 Rahova,ACC,1
-b4aef4669f65,5,4 Chirigiu,ACC,1
-cd5211582784,5,4 Rahova,ACC,1
-c63b9fb54b40,5,5 Chirigiu,ACC,1
-fe7d160bab33,5,5 Margeanului,ACC,1
-ed0220278fa8,5,6 Chirigiu,ACC,1
 0d5beeef26d1,5,6 Farado,ACC,0
-872b9f399715,5,6 Petre Ispirescu,ACC,1
-fcec538911b8,5,6 Sălaj,ACC,1
-83284916137a,5,7 Margeanului,ACC,1
-967ef80ee065,5,8 Alexandria,ACC,1
 9d3ab2bb7069,5,9 Farado,ACC,0
-97e8482e0488,5,Doina,ACC,1
-d8b9363032d6,5,Garoafei,ACC,1
 4297e9bbb3d6,5,Giurgiu Farado,ACC,0
-937d2ef340dc,5,Soldat Croitoru,ACC,1
-42c1f04c69c5,5,Teiuş,ACC,1
 ea523eaaf599,4,1 Bis Zona I,ACC,0
 db7177692ac2,4,1 Nitu Vasile,ACC,0
 b6d1d72631e5,4,1 Oltenita Placare,ACC,0
@@ -101,7 +81,6 @@ cbcd8daa8464,4,Spinis,ACC,0
 720c2bca7788,4,Tudor Gociu,ACC,0
 a46adfafcfd5,4,Uioara,ACC,0
 129cb923180e,4,Urziceni,ACC,0
-a770e702fa3d,5,6 Sebastian,ACC,1
 40f5fbf9c63f,4,1 Tineretului,ACC,1
 6e53db430e0e,4,1 Vacaresti,ACC,1
 c64309076641,4,2 Lanariei,ACC,1
@@ -114,6 +93,41 @@ fe5ef11e6e8c,4,3 Tineretului,ACC,1
 830202c5214b,4,Norilor,ACC,1
 00e27040a223,4,Palatul National al Copiilor,ACC,1
 6b73f3292ec8,4,Plugarilor,ACC,1
-2758d7c9cee6,3,1 Labirint,ACC,3
-678571b292e4,3,3 Labirint,ACC,3
-49ebc672c87a,3,4 Labirint,ACC,3
+2758d7c9cee6,3,1 Labirint,ACC,4
+678571b292e4,3,3 Labirint,ACC,4
+49ebc672c87a,3,4 Labirint,ACC,4
+f02cefc80ac2,5,1 Panduri,ACC,1
+2d374e19dfc3,5,1 din 13 Septembrie,ACC,1
+dddf9222ab85,5,103A,ACC,1
+b636d8bf5276,5,2 Drumul Sarii,ACC,1
+bfa1777ab40b,5,2 Panduri,ACC,1
+680fdbdda816,5,2 din 13 Septembrie,ACC,1
+a2742327c73b,5,5 Lira,ACC,1
+e7a31a2fc315,5,Intrarea Drumul Taberei,ACC,1
+e2bbc9507fea,5,Tudor Vladimirescu,ACC,1
+ad5a5caa3100,5,VSNord,ACC,2
+7e23b4757a0b,5,Gioconda,ACC,1
+b97a8d6ee31a,5,Nabucului,ACC,1
+b6463c59b245,1,2 Aviatiei,ACC,0
+c0d06b150323,1,3 Aviatiei,ACC,0
+2ab55f79238d,1,3 Titulescu,ACC,0
+74560f6543cc,1,4 Aviatiei,ACC,0
+634dafe52165,1,5 Aviatiei,ACC,0
+cffb0641646d,1,6 Aviatiei,ACC,0
+058a0acb3822,1,B Dinicu Golescu,ACC,0
+d6678a866477,1,Club Steaua,ACC,0
+3ee1381edef6,1,Iacob Negruzzi,ACC,0
+4fc8f26bc64f,1,Muzeul Militar,ACC,0
+72fa4dba6622,1,"Școala Gimnazială ,,Nicolae Titulescu”",ACC,0
+47dae1a491fc,2,17-18 Petricani - Partial,ACC,0
+f1bc89330191,2,Aleea Circului,ACC,0
+de3f1f252587,2,D18 Mihai Bravu,ACC,0
+0da90021dfb1,3,12Tomis,ACC,0
+e2ba4ab5e823,3,2 Tomis - Partial,ACC,0
+8507f2d90541,3,SC.1Baba Novac - Partial,ACC,0
+e8c37678d19e,6,1 Veteranilor - Partial,ACC,0
+1a423dbb1c63,6,5 Virtuții,ACC,0
+8344e49357a5,6,5/5 - Partial,ACC,1
+a5adb7ab3348,6,6/8 - Partial,ACC,0
+c2bff9fe3f0d,6,MILITARI - 3 Placare - Partial,ACC,0
+17e64b5bfa4f,6,SC 4/3 -MODULE TERMICE - Partial,ACC,0
