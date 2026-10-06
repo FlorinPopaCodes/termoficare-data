@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-06T18:54:35",
+  "scraped_at": "2026-10-06T23:39:23",
   "status": "ok",
   "outages": [
     {
@@ -27,6 +27,18 @@
       "basis_n": 57,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Pajurei - Vila 24"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC E13",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-10-07T23:30",
+      "on_time_probability": 0.526,
+      "basis_n": 57,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Băiculeşti - E13"
     },
     {
       "sector": 1,
@@ -138,18 +150,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "10-22 Duca",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare Retea Termica Primara prin programul POIM, Lot 2,Obiectiv 9 efectuate de Firma Elsaco.",
-      "estimated_restore": "2026-10-08T23:30",
-      "on_time_probability": 0.382,
-      "basis_n": 2321,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lt.Col. Paul Ionescu - Imobil nr. 3 • Bld Gheorghe Duca - bl. 10-22, 4, 8, 17, 26, 24, 15, 6"
-    },
-    {
-      "sector": 1,
       "pt_name": "3 Titulescu",
       "blocks": 12,
       "service": "Oprire ACC",
@@ -171,18 +171,6 @@
       "basis_n": 2321,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Dinicu Golescu - 38"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Veronica Micle",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare Retea Termica Primara prin programul POIM, Lot 2,Obiectiv 9 efectuate de Firma Elsaco.",
-      "estimated_restore": "2026-10-08T23:30",
-      "on_time_probability": 0.382,
-      "basis_n": 2321,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Veronica Micle - bl. M5, M6, 1C, imob. nr. 40, 38, 36Bis • Str Dr. Iacob Felix - bl. M4, A1, B1, C2,imob. nr. 53, 12 • Şos Nicolae Titulescu - bl. 12, 11B, 11A • Str Bradului - bl. C2"
     },
     {
       "sector": 1,
@@ -219,54 +207,6 @@
       "basis_n": 2321,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Mircea Vulcănescu - Muzeul Militar"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Iacob Negruzzi",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare Retea Termica Primara prin programul POIM, Lot 2,Obiectiv 9 efectuate de Firma Elsaco.",
-      "estimated_restore": "2026-10-08T23:30",
-      "on_time_probability": 0.382,
-      "basis_n": 2321,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Iacob Negruzzi - imob.Nr.45"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Școala Gimnazială ,,Nicolae Titulescu”",
-      "blocks": 0,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare Retea Termica Primara prin programul POIM, Lot 2,Obiectiv 9 efectuate de Firma Elsaco.",
-      "estimated_restore": "2026-10-08T23:30",
-      "on_time_probability": 0.382,
-      "basis_n": 2321,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 1,
-      "pt_name": "9 Titulescu",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare Retea Termica Primara prin programul POIM, Lot 2,Obiectiv 9 efectuate de Firma Elsaco.",
-      "estimated_restore": "2026-10-08T23:30",
-      "on_time_probability": 0.382,
-      "basis_n": 2321,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Nicolae Titulescu - bl. 23, 20, 21A, 21, 22"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari de modernizare Retea Termica Primara prin programul POIM, Lot 2,Obiectiv 9 efectuate de Firma Elsaco.",
-      "estimated_restore": "2026-10-08T23:30",
-      "on_time_probability": 0.382,
-      "basis_n": 2321,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Gheorghe Polizu -"
     },
     {
       "sector": 1,
@@ -339,42 +279,6 @@
       "basis_n": 89,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
-    },
-    {
-      "sector": 3,
-      "pt_name": "4Placare-T - Partial",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-06T19:30",
-      "on_time_probability": 0.391,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vlăhiţa - bl. PM8, M3K • Str Patrioţilor - bl.PM6, PM7"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Labirint",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-10-06T23:30",
-      "on_time_probability": 0.231,
-      "basis_n": 39,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
-    },
-    {
-      "sector": 3,
-      "pt_name": "4 Labirint",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum.",
-      "estimated_restore": "2026-10-06T23:30",
-      "on_time_probability": 0.192,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Matei Basarab - bl. L112, L112A, L113A, L113 • Str Traian - bl. L112B"
     },
     {
       "sector": 4,
