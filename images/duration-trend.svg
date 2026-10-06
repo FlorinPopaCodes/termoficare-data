@@ -205,8 +205,8 @@
   <circle cx="687" cy="221.1" r="3" stroke="#0d1117" stroke-width="1.5" fill="#a6c8f3"><title>2026-07: hot water p99 454h (1281 episodes)</title></circle>
   <circle cx="698.7" cy="216.1" r="3" fill="#0d1117" stroke-width="2" stroke="#a6c8f3"><title>2026-08: hot water p99 572h (2378 episodes, provisional)</title></circle>
   <circle cx="710.3" cy="234" r="3" fill="#0d1117" stroke-width="2" stroke="#a6c8f3"><title>2026-09: hot water p99 250h (1169 episodes, provisional)</title></circle>
-  <circle cx="722" cy="278.7" r="3" fill="#0d1117" stroke-width="2" stroke="#a6c8f3"><title>2026-10: hot water p99 32h (115 episodes, provisional)</title></circle>
-  <polyline points="46,279.3 57.7,279.3 69.3,264.3 81,272.2 92.6,265 104.3,268.1 115.9,251.8 127.6,237.7 139.2,261 150.9,271.7 162.6,260.2 174.2,275.5 185.9,276.1 197.5,273.8 209.2,274.9 220.8,269 232.5,262.6 244.1,250.3 255.8,266.5 267.4,257.4 279.1,219.1 290.8,261 302.4,269.8 314.1,271.2 325.7,267.3 337.4,273.3 349,265 360.7,266.9 372.3,265 384,259.3 395.7,262.6 407.3,252 419,248.2 430.6,262.9 442.3,262 453.9,263.9 465.6,267.7 477.2,254.6 488.9,275.5 500.6,265.4 512.2,265.4 523.9,257.4 535.5,252.4 547.2,250.3 558.8,229.3 570.5,252.7 582.1,267.7 593.8,257.7 605.4,271.7 617.1,234.6 628.8,262.2 640.4,261.4 652.1,260.1 663.7,257.2 675.4,241.4 687,230 698.7,245.2 710.3,253.1 722,300.4" fill="none" stroke-width="1.5" stroke="#6fa6ec"/>
+  <circle cx="722" cy="278.7" r="3" fill="#0d1117" stroke-width="2" stroke="#a6c8f3"><title>2026-10: hot water p99 32h (141 episodes, provisional)</title></circle>
+  <polyline points="46,279.3 57.7,279.3 69.3,264.3 81,272.2 92.6,265 104.3,268.1 115.9,251.8 127.6,237.7 139.2,261 150.9,271.7 162.6,260.2 174.2,275.5 185.9,276.1 197.5,273.8 209.2,274.9 220.8,269 232.5,262.6 244.1,250.3 255.8,266.5 267.4,257.4 279.1,219.1 290.8,261 302.4,269.8 314.1,271.2 325.7,267.3 337.4,273.3 349,265 360.7,266.9 372.3,265 384,259.3 395.7,262.6 407.3,252 419,248.2 430.6,262.9 442.3,262 453.9,263.9 465.6,267.7 477.2,254.6 488.9,275.5 500.6,265.4 512.2,265.4 523.9,257.4 535.5,252.4 547.2,250.3 558.8,229.3 570.5,252.7 582.1,267.7 593.8,257.7 605.4,271.7 617.1,234.6 628.8,262.2 640.4,261.4 652.1,260.1 663.7,257.2 675.4,241.4 687,230 698.7,245.2 710.3,253.1 722,289.4" fill="none" stroke-width="1.5" stroke="#6fa6ec"/>
   <circle cx="46" cy="279.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2021-12: hot water p90 31h (619 episodes)</title></circle>
   <circle cx="57.7" cy="279.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-01: hot water p90 31h (1478 episodes)</title></circle>
   <circle cx="69.3" cy="264.3" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2022-02: hot water p90 62h (1642 episodes)</title></circle>
@@ -265,8 +265,8 @@
   <circle cx="687" cy="230" r="3" stroke="#0d1117" stroke-width="1.5" fill="#6fa6ec"><title>2026-07: hot water p90 301h (1281 episodes)</title></circle>
   <circle cx="698.7" cy="245.2" r="3" fill="#0d1117" stroke-width="2" stroke="#6fa6ec"><title>2026-08: hot water p90 149h (2378 episodes, provisional)</title></circle>
   <circle cx="710.3" cy="253.1" r="3" fill="#0d1117" stroke-width="2" stroke="#6fa6ec"><title>2026-09: hot water p90 104h (1169 episodes, provisional)</title></circle>
-  <circle cx="722" cy="300.4" r="3" fill="#0d1117" stroke-width="2" stroke="#6fa6ec"><title>2026-10: hot water p90 12h (115 episodes, provisional)</title></circle>
-  <polyline points="46,308.7 57.7,308.7 69.3,301.8 81,315 92.6,311.6 104.3,323.8 115.9,306.2 127.6,278 139.2,303.9 150.9,323.8 162.6,315 174.2,315 185.9,315 197.5,315 209.2,315 220.8,315 232.5,315 244.1,308.7 255.8,315 267.4,303.9 279.1,278.6 290.8,315 302.4,318.9 314.1,308.7 325.7,301.8 337.4,315 349,308.7 360.7,311.6 372.3,311.6 384,318.9 395.7,306.2 407.3,298.2 419,298.2 430.6,318.9 442.3,308.7 453.9,306.2 465.6,308.7 477.2,308.7 488.9,308.7 500.6,306.2 512.2,311.6 523.9,318.9 535.5,298.2 547.2,301.8 558.8,283.1 570.5,308.7 582.1,311.6 593.8,308.7 605.4,315 617.1,298.8 628.8,301.5 640.4,306.5 652.1,301.1 663.7,320.2 675.4,304.6 687,289.2 698.7,290.1 710.3,307.8 722,313.7" fill="none" stroke-width="2" stroke="#3987e5"/>
+  <circle cx="722" cy="289.4" r="3" fill="#0d1117" stroke-width="2" stroke="#6fa6ec"><title>2026-10: hot water p90 20h (141 episodes, provisional)</title></circle>
+  <polyline points="46,308.7 57.7,308.7 69.3,301.8 81,315 92.6,311.6 104.3,323.8 115.9,306.2 127.6,278 139.2,303.9 150.9,323.8 162.6,315 174.2,315 185.9,315 197.5,315 209.2,315 220.8,315 232.5,315 244.1,308.7 255.8,315 267.4,303.9 279.1,278.6 290.8,315 302.4,318.9 314.1,308.7 325.7,301.8 337.4,315 349,308.7 360.7,311.6 372.3,311.6 384,318.9 395.7,306.2 407.3,298.2 419,298.2 430.6,318.9 442.3,308.7 453.9,306.2 465.6,308.7 477.2,308.7 488.9,308.7 500.6,306.2 512.2,311.6 523.9,318.9 535.5,298.2 547.2,301.8 558.8,283.1 570.5,308.7 582.1,311.6 593.8,308.7 605.4,315 617.1,298.8 628.8,301.5 640.4,306.5 652.1,301.1 663.7,320.2 675.4,304.6 687,289.2 698.7,290.1 710.3,307.8 722,312.3" fill="none" stroke-width="2" stroke="#3987e5"/>
   <circle cx="46" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2021-12: hot water p50 8h (619 episodes)</title></circle>
   <circle cx="57.7" cy="308.7" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-01: hot water p50 8h (1478 episodes)</title></circle>
   <circle cx="69.3" cy="301.8" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-02: hot water p50 11h (1642 episodes)</title></circle>
@@ -325,10 +325,10 @@
   <circle cx="687" cy="289.2" r="3" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-07: hot water p50 20h (1281 episodes)</title></circle>
   <circle cx="698.7" cy="290.1" r="3" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-08: hot water p50 19h (2378 episodes, provisional)</title></circle>
   <circle cx="710.3" cy="307.8" r="3" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-09: hot water p50 8h (1169 episodes, provisional)</title></circle>
-  <circle cx="722" cy="313.7" r="3" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-10: hot water p50 6h (115 episodes, provisional)</title></circle>
+  <circle cx="722" cy="312.3" r="3" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-10: hot water p50 7h (141 episodes, provisional)</title></circle>
   <text x="730" y="281.7" class="label" fill="#a6c8f3">p99</text>
-  <text x="730" y="303.4" class="label" fill="#6fa6ec">p90</text>
-  <text x="730" y="316.7" class="label" fill="#3987e5">p50</text>
+  <text x="730" y="292.7" class="label" fill="#6fa6ec">p90</text>
+  <text x="730" y="315.3" class="label" fill="#3987e5">p50</text>
   <circle cx="652" cy="13" r="3" fill="#0d1117" stroke-width="2" stroke="#8b949e"/>
   <text x="661" y="16" class="axis">provisional</text>
   <text x="46" y="384" class="title">How long outages last: median, p90 and p99 by month begun</text>
