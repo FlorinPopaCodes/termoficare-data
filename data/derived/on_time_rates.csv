@@ -156,7 +156,7 @@ pt_cause_slip,1,10-22 Duca,missing_params,1,8,16
 pt_cause_slip,1,10-22 Duca,missing_params,2,5,8
 pt_cause_slip,1,10-22 Duca,missing_params,3+,0,1
 pt_cause_slip,1,10-22 Duca,other,0,1,3
-pt_cause_slip,1,10-22 Duca,planned_works,0,3,14
+pt_cause_slip,1,10-22 Duca,planned_works,0,4,15
 pt_cause_slip,1,10-22 Duca,planned_works,1,2,7
 pt_cause_slip,1,10-22 Duca,planned_works,2,0,2
 pt_cause_slip,1,10-22 Duca,planned_works,3+,1,5
@@ -588,8 +588,8 @@ pt_cause_slip,1,3 Aviatiei,balancing,0,5,35
 pt_cause_slip,1,3 Aviatiei,balancing,1,7,25
 pt_cause_slip,1,3 Aviatiei,balancing,2,4,20
 pt_cause_slip,1,3 Aviatiei,balancing,3+,8,62
-pt_cause_slip,1,3 Aviatiei,breakdown,0,28,104
-pt_cause_slip,1,3 Aviatiei,breakdown,1,11,44
+pt_cause_slip,1,3 Aviatiei,breakdown,0,28,105
+pt_cause_slip,1,3 Aviatiei,breakdown,1,11,45
 pt_cause_slip,1,3 Aviatiei,breakdown,2,4,15
 pt_cause_slip,1,3 Aviatiei,breakdown,3+,3,13
 pt_cause_slip,1,3 Aviatiei,maneuvers,2,0,1
@@ -983,7 +983,7 @@ pt_cause_slip,1,9 Titulescu,missing_params,2,7,20
 pt_cause_slip,1,9 Titulescu,missing_params,3+,5,19
 pt_cause_slip,1,9 Titulescu,other,0,1,7
 pt_cause_slip,1,9 Titulescu,other,1,1,1
-pt_cause_slip,1,9 Titulescu,planned_works,0,3,13
+pt_cause_slip,1,9 Titulescu,planned_works,0,4,14
 pt_cause_slip,1,9 Titulescu,planned_works,1,2,6
 pt_cause_slip,1,9 Titulescu,planned_works,2,0,2
 pt_cause_slip,1,9 Titulescu,planned_works,3+,1,1
@@ -1537,7 +1537,7 @@ pt_cause_slip,1,Iacob Negruzzi,missing_params,1,1,8
 pt_cause_slip,1,Iacob Negruzzi,missing_params,2,3,5
 pt_cause_slip,1,Iacob Negruzzi,other,0,1,2
 pt_cause_slip,1,Iacob Negruzzi,other,1,1,1
-pt_cause_slip,1,Iacob Negruzzi,planned_works,0,6,9
+pt_cause_slip,1,Iacob Negruzzi,planned_works,0,7,10
 pt_cause_slip,1,Iacob Negruzzi,planned_works,1,1,1
 pt_cause_slip,1,Inst. Geologic al Romaniei - I.G.R. Muzeul Geologic National,breakdown,0,5,13
 pt_cause_slip,1,Inst. Geologic al Romaniei - I.G.R. Muzeul Geologic National,breakdown,1,4,8
@@ -2970,7 +2970,7 @@ pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,brea
 pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,missing_params,1,2,4
 pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,missing_params,2,2,2
 pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,other,0,0,2
-pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,planned_works,0,0,3
+pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,planned_works,0,1,4
 pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,planned_works,1,0,2
 pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,planned_works,2,0,1
 pt_cause_slip,1,Univ. Politeh.Buc. - Activ. Economice- Univ. Pol.- Polizu 1,planned_works,3+,1,1
@@ -2988,7 +2988,7 @@ pt_cause_slip,1,Veronica Micle,missing_params,2,7,13
 pt_cause_slip,1,Veronica Micle,missing_params,3+,5,10
 pt_cause_slip,1,Veronica Micle,other,0,1,3
 pt_cause_slip,1,Veronica Micle,other,1,1,1
-pt_cause_slip,1,Veronica Micle,planned_works,0,3,13
+pt_cause_slip,1,Veronica Micle,planned_works,0,4,14
 pt_cause_slip,1,Veronica Micle,planned_works,1,2,7
 pt_cause_slip,1,Veronica Micle,planned_works,2,1,2
 pt_cause_slip,1,Veronica Micle,planned_works,3+,1,1
@@ -3022,7 +3022,7 @@ pt_cause_slip,1,"Școala Gimnazială ,,Nicolae Titulescu”",breakdown,2,0,4
 pt_cause_slip,1,"Școala Gimnazială ,,Nicolae Titulescu”",breakdown,3+,3,5
 pt_cause_slip,1,"Școala Gimnazială ,,Nicolae Titulescu”",missing_params,0,2,2
 pt_cause_slip,1,"Școala Gimnazială ,,Nicolae Titulescu”",other,0,1,2
-pt_cause_slip,1,"Școala Gimnazială ,,Nicolae Titulescu”",planned_works,0,4,7
+pt_cause_slip,1,"Școala Gimnazială ,,Nicolae Titulescu”",planned_works,0,5,8
 pt_cause_slip,1,"Școala Gimnazială ,,Nicolae Titulescu”",planned_works,1,1,1
 pt_cause_slip,2,1 Carei,balancing,0,12,22
 pt_cause_slip,2,1 Carei,balancing,1,7,9
@@ -4199,7 +4199,7 @@ pt_cause_slip,2,3 Fundeni,balancing,0,33,40
 pt_cause_slip,2,3 Fundeni,balancing,1,10,16
 pt_cause_slip,2,3 Fundeni,balancing,2,5,11
 pt_cause_slip,2,3 Fundeni,balancing,3+,4,21
-pt_cause_slip,2,3 Fundeni,breakdown,0,55,99
+pt_cause_slip,2,3 Fundeni,breakdown,0,56,100
 pt_cause_slip,2,3 Fundeni,breakdown,1,16,37
 pt_cause_slip,2,3 Fundeni,breakdown,2,7,14
 pt_cause_slip,2,3 Fundeni,breakdown,3+,8,26
@@ -4859,7 +4859,7 @@ pt_cause_slip,2,6 Doamna Ghica,balancing,0,21,37
 pt_cause_slip,2,6 Doamna Ghica,balancing,1,9,18
 pt_cause_slip,2,6 Doamna Ghica,balancing,2,4,10
 pt_cause_slip,2,6 Doamna Ghica,balancing,3+,6,24
-pt_cause_slip,2,6 Doamna Ghica,breakdown,0,47,77
+pt_cause_slip,2,6 Doamna Ghica,breakdown,0,47,78
 pt_cause_slip,2,6 Doamna Ghica,breakdown,1,12,25
 pt_cause_slip,2,6 Doamna Ghica,breakdown,2,3,12
 pt_cause_slip,2,6 Doamna Ghica,breakdown,3+,8,25
@@ -5299,8 +5299,8 @@ pt_cause_slip,2,Aleea Circului,balancing,0,10,21
 pt_cause_slip,2,Aleea Circului,balancing,1,2,5
 pt_cause_slip,2,Aleea Circului,balancing,2,0,2
 pt_cause_slip,2,Aleea Circului,balancing,3+,2,5
-pt_cause_slip,2,Aleea Circului,breakdown,0,46,79
-pt_cause_slip,2,Aleea Circului,breakdown,1,12,24
+pt_cause_slip,2,Aleea Circului,breakdown,0,46,80
+pt_cause_slip,2,Aleea Circului,breakdown,1,12,25
 pt_cause_slip,2,Aleea Circului,breakdown,2,10,13
 pt_cause_slip,2,Aleea Circului,breakdown,3+,1,14
 pt_cause_slip,2,Aleea Circului,maneuvers,0,1,2
@@ -5730,7 +5730,7 @@ pt_cause_slip,2,Ilarie Chendi,missing_params,2,10,27
 pt_cause_slip,2,Ilarie Chendi,missing_params,3+,21,63
 pt_cause_slip,2,Ilarie Chendi,other,0,0,4
 pt_cause_slip,2,Ilarie Chendi,other,1,2,2
-pt_cause_slip,2,Ilarie Chendi,planned_works,0,4,26
+pt_cause_slip,2,Ilarie Chendi,planned_works,0,4,27
 pt_cause_slip,2,Ilarie Chendi,planned_works,1,5,11
 pt_cause_slip,2,Ilarie Chendi,planned_works,2,1,5
 pt_cause_slip,2,Ilarie Chendi,planned_works,3+,1,8
@@ -6543,7 +6543,7 @@ pt_cause_slip,3,1 Labirint,balancing,0,14,32
 pt_cause_slip,3,1 Labirint,balancing,1,5,11
 pt_cause_slip,3,1 Labirint,balancing,2,5,9
 pt_cause_slip,3,1 Labirint,balancing,3+,8,36
-pt_cause_slip,3,1 Labirint,breakdown,0,38,77
+pt_cause_slip,3,1 Labirint,breakdown,0,38,78
 pt_cause_slip,3,1 Labirint,breakdown,1,8,24
 pt_cause_slip,3,1 Labirint,breakdown,2,5,13
 pt_cause_slip,3,1 Labirint,breakdown,3+,8,14
@@ -6551,9 +6551,9 @@ pt_cause_slip,3,1 Labirint,maneuvers,0,0,2
 pt_cause_slip,3,1 Labirint,maneuvers,1,2,3
 pt_cause_slip,3,1 Labirint,maneuvers,2,1,1
 pt_cause_slip,3,1 Labirint,missing_params,0,24,77
-pt_cause_slip,3,1 Labirint,missing_params,1,13,46
-pt_cause_slip,3,1 Labirint,missing_params,2,11,30
-pt_cause_slip,3,1 Labirint,missing_params,3+,9,39
+pt_cause_slip,3,1 Labirint,missing_params,1,13,47
+pt_cause_slip,3,1 Labirint,missing_params,2,11,31
+pt_cause_slip,3,1 Labirint,missing_params,3+,9,43
 pt_cause_slip,3,1 Labirint,other,0,2,9
 pt_cause_slip,3,1 Labirint,other,1,2,2
 pt_cause_slip,3,1 Labirint,other,2,0,1
@@ -8187,7 +8187,7 @@ pt_cause_slip,3,3 Labirint,balancing,0,12,19
 pt_cause_slip,3,3 Labirint,balancing,1,3,8
 pt_cause_slip,3,3 Labirint,balancing,2,4,9
 pt_cause_slip,3,3 Labirint,balancing,3+,4,22
-pt_cause_slip,3,3 Labirint,breakdown,0,39,66
+pt_cause_slip,3,3 Labirint,breakdown,0,39,67
 pt_cause_slip,3,3 Labirint,breakdown,1,9,22
 pt_cause_slip,3,3 Labirint,breakdown,2,5,9
 pt_cause_slip,3,3 Labirint,breakdown,3+,5,8
@@ -8195,9 +8195,9 @@ pt_cause_slip,3,3 Labirint,maneuvers,0,0,3
 pt_cause_slip,3,3 Labirint,maneuvers,1,2,4
 pt_cause_slip,3,3 Labirint,maneuvers,2,2,2
 pt_cause_slip,3,3 Labirint,missing_params,0,16,51
-pt_cause_slip,3,3 Labirint,missing_params,1,10,19
-pt_cause_slip,3,3 Labirint,missing_params,2,2,10
-pt_cause_slip,3,3 Labirint,missing_params,3+,5,17
+pt_cause_slip,3,3 Labirint,missing_params,1,10,20
+pt_cause_slip,3,3 Labirint,missing_params,2,2,11
+pt_cause_slip,3,3 Labirint,missing_params,3+,6,21
 pt_cause_slip,3,3 Labirint,other,0,3,13
 pt_cause_slip,3,3 Labirint,other,1,1,1
 pt_cause_slip,3,3 Labirint,other,2,0,1
@@ -8484,7 +8484,7 @@ pt_cause_slip,3,4 Labirint,balancing,0,7,21
 pt_cause_slip,3,4 Labirint,balancing,1,3,11
 pt_cause_slip,3,4 Labirint,balancing,2,5,11
 pt_cause_slip,3,4 Labirint,balancing,3+,4,20
-pt_cause_slip,3,4 Labirint,breakdown,0,28,61
+pt_cause_slip,3,4 Labirint,breakdown,0,28,62
 pt_cause_slip,3,4 Labirint,breakdown,1,5,17
 pt_cause_slip,3,4 Labirint,breakdown,2,4,7
 pt_cause_slip,3,4 Labirint,breakdown,3+,5,7
@@ -8492,9 +8492,9 @@ pt_cause_slip,3,4 Labirint,maneuvers,0,0,2
 pt_cause_slip,3,4 Labirint,maneuvers,1,1,2
 pt_cause_slip,3,4 Labirint,maneuvers,2,1,1
 pt_cause_slip,3,4 Labirint,missing_params,0,9,43
-pt_cause_slip,3,4 Labirint,missing_params,1,14,30
-pt_cause_slip,3,4 Labirint,missing_params,2,5,18
-pt_cause_slip,3,4 Labirint,missing_params,3+,5,26
+pt_cause_slip,3,4 Labirint,missing_params,1,14,31
+pt_cause_slip,3,4 Labirint,missing_params,2,5,19
+pt_cause_slip,3,4 Labirint,missing_params,3+,5,30
 pt_cause_slip,3,4 Labirint,other,0,2,7
 pt_cause_slip,3,4 Labirint,other,1,2,3
 pt_cause_slip,3,4 Labirint,other,3+,1,1
@@ -8633,8 +8633,8 @@ pt_cause_slip,3,4Placare-T,planned_works,0,2,14
 pt_cause_slip,3,4Placare-T,planned_works,1,2,3
 pt_cause_slip,3,4Placare-T,planned_works,2,0,3
 pt_cause_slip,3,4Placare-T,planned_works,3+,1,2
-pt_cause_slip,3,4Placare-T - Partial,breakdown,0,9,23
-pt_cause_slip,3,4Placare-T - Partial,breakdown,1,1,6
+pt_cause_slip,3,4Placare-T - Partial,breakdown,0,9,24
+pt_cause_slip,3,4Placare-T - Partial,breakdown,1,1,7
 pt_cause_slip,3,4Placare-T - Partial,breakdown,2,0,2
 pt_cause_slip,3,4Placare-T - Partial,breakdown,3+,0,1
 pt_cause_slip,3,4Placare-T - Partial,other,0,0,1
@@ -12530,7 +12530,7 @@ pt_cause_slip,4,6 Zona II,planned_works,3+,1,3
 pt_cause_slip,4,6 Zona II - Partial,breakdown,0,0,1
 pt_cause_slip,4,7 Berceni Oltenita,balancing,0,2,8
 pt_cause_slip,4,7 Berceni Oltenita,balancing,1,1,1
-pt_cause_slip,4,7 Berceni Oltenita,breakdown,0,10,24
+pt_cause_slip,4,7 Berceni Oltenita,breakdown,0,10,25
 pt_cause_slip,4,7 Berceni Oltenita,breakdown,1,4,12
 pt_cause_slip,4,7 Berceni Oltenita,breakdown,2,2,6
 pt_cause_slip,4,7 Berceni Oltenita,breakdown,3+,2,5
@@ -14575,7 +14575,7 @@ pt_cause_slip,5,6 Sebastian,other,1,0,2
 pt_cause_slip,5,6 Sebastian,planned_works,0,11,23
 pt_cause_slip,5,6 Sebastian,planned_works,1,4,5
 pt_cause_slip,5,6 Sebastian,planned_works,2,1,1
-pt_cause_slip,5,6 Sebastian - Partial,breakdown,0,3,11
+pt_cause_slip,5,6 Sebastian - Partial,breakdown,0,3,12
 pt_cause_slip,5,6 Sebastian - Partial,breakdown,1,0,2
 pt_cause_slip,5,6 Sebastian - Partial,breakdown,2,0,1
 pt_cause_slip,5,6 Sebastian - Partial,breakdown,3+,0,1
@@ -14847,6 +14847,7 @@ pt_cause_slip,5,Ct Ferentari Depou,breakdown,1,1,6
 pt_cause_slip,5,Ct Ferentari Depou,breakdown,2,2,2
 pt_cause_slip,5,Ct Ferentari Depou,other,0,0,1
 pt_cause_slip,5,Ct Ferentari Depou,other,1,1,1
+pt_cause_slip,5,Ct Ferentari Depou,planned_works,0,0,1
 pt_cause_slip,5,Ct Ferentari Depou - Partial,breakdown,0,3,7
 pt_cause_slip,5,Ct Ferentari Depou - Partial,planned_works,0,2,2
 pt_cause_slip,5,Ct Gemeni 1,breakdown,0,0,1
@@ -15355,7 +15356,7 @@ pt_cause_slip,5,Soldat Croitoru,planned_works,0,10,26
 pt_cause_slip,5,Soldat Croitoru,planned_works,1,1,5
 pt_cause_slip,5,Soldat Croitoru,planned_works,2,0,1
 pt_cause_slip,5,Soldat Croitoru,planned_works,3+,2,2
-pt_cause_slip,5,Soldat Croitoru - Partial,breakdown,0,9,47
+pt_cause_slip,5,Soldat Croitoru - Partial,breakdown,0,9,48
 pt_cause_slip,5,Soldat Croitoru - Partial,breakdown,1,1,10
 pt_cause_slip,5,Soldat Croitoru - Partial,breakdown,2,0,3
 pt_cause_slip,5,Soldat Croitoru - Partial,breakdown,3+,1,2
@@ -15771,7 +15772,7 @@ pt_cause_slip,6,1/7 - Partial,breakdown,0,5,23
 pt_cause_slip,6,1/7 - Partial,breakdown,1,1,11
 pt_cause_slip,6,1/7 - Partial,breakdown,2,0,3
 pt_cause_slip,6,1/7 - Partial,breakdown,3+,0,1
-pt_cause_slip,6,1/7 - Partial,other,0,2,10
+pt_cause_slip,6,1/7 - Partial,other,0,2,11
 pt_cause_slip,6,1/7 - Partial,other,1,0,1
 pt_cause_slip,6,1/7 - Partial,other,2,0,1
 pt_cause_slip,6,1/7',balancing,0,3,7
@@ -16152,7 +16153,7 @@ pt_cause_slip,6,2 Crivina,other,3+,1,3
 pt_cause_slip,6,2 Crivina,planned_works,0,5,17
 pt_cause_slip,6,2 Crivina,planned_works,1,1,3
 pt_cause_slip,6,2 Crivina,planned_works,2,2,3
-pt_cause_slip,6,2 Crivina - Partial,breakdown,0,4,16
+pt_cause_slip,6,2 Crivina - Partial,breakdown,0,4,17
 pt_cause_slip,6,2 Crivina - Partial,breakdown,1,0,3
 pt_cause_slip,6,2 Crivina - Partial,other,0,1,1
 pt_cause_slip,6,2 Placare,balancing,0,0,2
@@ -17077,8 +17078,8 @@ pt_cause_slip,6,6/8,other,3+,1,1
 pt_cause_slip,6,6/8,planned_works,0,9,18
 pt_cause_slip,6,6/8,planned_works,1,4,4
 pt_cause_slip,6,6/8,planned_works,2,1,1
-pt_cause_slip,6,6/8 - Partial,breakdown,0,4,19
-pt_cause_slip,6,6/8 - Partial,breakdown,1,0,4
+pt_cause_slip,6,6/8 - Partial,breakdown,0,4,20
+pt_cause_slip,6,6/8 - Partial,breakdown,1,0,5
 pt_cause_slip,6,6/8 - Partial,other,0,1,5
 pt_cause_slip,6,6/8 - Partial,other,1,0,1
 pt_cause_slip,6,6/8 - Partial,planned_works,0,0,2
@@ -18326,7 +18327,7 @@ pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,missing_params,0,2,13
 pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,missing_params,1,2,10
 pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,missing_params,2,6,9
 pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,missing_params,3+,0,5
-pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,other,0,2,5
+pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,other,0,2,6
 pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,other,1,0,2
 pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,other,2,0,1
 pt_cause_slip,6,SC 1/2 - MODULE TERMICE - Partial,other,3+,0,2
@@ -18763,7 +18764,7 @@ pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,missing_params,3+,3,11
 pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,other,0,0,2
 pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,other,1,1,1
 pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,other,3+,0,2
-pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,planned_works,0,0,13
+pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,planned_works,0,1,14
 pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,planned_works,1,1,12
 pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,planned_works,2,2,4
 pt_cause_slip,6,SC 7/2 - MODULE TERMICE - Partial,planned_works,3+,0,2
@@ -19029,8 +19030,8 @@ sector_cause_slip,1,,balancing,0,418,1511
 sector_cause_slip,1,,balancing,1,258,935
 sector_cause_slip,1,,balancing,2,151,584
 sector_cause_slip,1,,balancing,3+,275,1403
-sector_cause_slip,1,,breakdown,0,4509,9632
-sector_cause_slip,1,,breakdown,1,1553,3480
+sector_cause_slip,1,,breakdown,0,4509,9633
+sector_cause_slip,1,,breakdown,1,1553,3481
 sector_cause_slip,1,,breakdown,2,346,1039
 sector_cause_slip,1,,breakdown,3+,307,1060
 sector_cause_slip,1,,maneuvers,0,0,34
@@ -19045,7 +19046,7 @@ sector_cause_slip,1,,other,0,475,734
 sector_cause_slip,1,,other,1,88,140
 sector_cause_slip,1,,other,2,19,37
 sector_cause_slip,1,,other,3+,4,13
-sector_cause_slip,1,,planned_works,0,887,2321
+sector_cause_slip,1,,planned_works,0,893,2327
 sector_cause_slip,1,,planned_works,1,204,729
 sector_cause_slip,1,,planned_works,2,85,202
 sector_cause_slip,1,,planned_works,3+,50,193
@@ -19053,8 +19054,8 @@ sector_cause_slip,2,,balancing,0,1255,2749
 sector_cause_slip,2,,balancing,1,933,1658
 sector_cause_slip,2,,balancing,2,268,766
 sector_cause_slip,2,,balancing,3+,543,2033
-sector_cause_slip,2,,breakdown,0,5814,11656
-sector_cause_slip,2,,breakdown,1,1795,3869
+sector_cause_slip,2,,breakdown,0,5815,11659
+sector_cause_slip,2,,breakdown,1,1795,3870
 sector_cause_slip,2,,breakdown,2,808,1690
 sector_cause_slip,2,,breakdown,3+,522,2131
 sector_cause_slip,2,,maneuvers,0,267,747
@@ -19069,7 +19070,7 @@ sector_cause_slip,2,,other,0,319,802
 sector_cause_slip,2,,other,1,152,359
 sector_cause_slip,2,,other,2,74,195
 sector_cause_slip,2,,other,3+,41,154
-sector_cause_slip,2,,planned_works,0,1167,3529
+sector_cause_slip,2,,planned_works,0,1167,3530
 sector_cause_slip,2,,planned_works,1,379,1038
 sector_cause_slip,2,,planned_works,2,107,400
 sector_cause_slip,2,,planned_works,3+,131,509
@@ -19077,8 +19078,8 @@ sector_cause_slip,3,,balancing,0,770,1859
 sector_cause_slip,3,,balancing,1,497,993
 sector_cause_slip,3,,balancing,2,312,627
 sector_cause_slip,3,,balancing,3+,384,1335
-sector_cause_slip,3,,breakdown,0,4849,10239
-sector_cause_slip,3,,breakdown,1,1716,3755
+sector_cause_slip,3,,breakdown,0,4849,10243
+sector_cause_slip,3,,breakdown,1,1716,3756
 sector_cause_slip,3,,breakdown,2,623,1443
 sector_cause_slip,3,,breakdown,3+,491,2178
 sector_cause_slip,3,,maneuvers,0,61,489
@@ -19086,9 +19087,9 @@ sector_cause_slip,3,,maneuvers,1,118,436
 sector_cause_slip,3,,maneuvers,2,98,271
 sector_cause_slip,3,,maneuvers,3+,180,840
 sector_cause_slip,3,,missing_params,0,1946,6079
-sector_cause_slip,3,,missing_params,1,1638,3053
-sector_cause_slip,3,,missing_params,2,574,1189
-sector_cause_slip,3,,missing_params,3+,532,1438
+sector_cause_slip,3,,missing_params,1,1638,3056
+sector_cause_slip,3,,missing_params,2,574,1192
+sector_cause_slip,3,,missing_params,3+,533,1450
 sector_cause_slip,3,,other,0,416,1467
 sector_cause_slip,3,,other,1,167,477
 sector_cause_slip,3,,other,2,37,159
@@ -19101,7 +19102,7 @@ sector_cause_slip,4,,balancing,0,222,617
 sector_cause_slip,4,,balancing,1,94,184
 sector_cause_slip,4,,balancing,2,48,100
 sector_cause_slip,4,,balancing,3+,73,220
-sector_cause_slip,4,,breakdown,0,2767,5947
+sector_cause_slip,4,,breakdown,0,2767,5948
 sector_cause_slip,4,,breakdown,1,801,2336
 sector_cause_slip,4,,breakdown,2,418,1114
 sector_cause_slip,4,,breakdown,3+,522,1541
@@ -19125,7 +19126,7 @@ sector_cause_slip,5,,balancing,0,736,1586
 sector_cause_slip,5,,balancing,1,210,521
 sector_cause_slip,5,,balancing,2,69,289
 sector_cause_slip,5,,balancing,3+,152,510
-sector_cause_slip,5,,breakdown,0,3244,6488
+sector_cause_slip,5,,breakdown,0,3244,6490
 sector_cause_slip,5,,breakdown,1,679,1969
 sector_cause_slip,5,,breakdown,2,282,776
 sector_cause_slip,5,,breakdown,3+,325,853
@@ -19141,7 +19142,7 @@ sector_cause_slip,5,,other,0,325,873
 sector_cause_slip,5,,other,1,92,318
 sector_cause_slip,5,,other,2,23,85
 sector_cause_slip,5,,other,3+,17,58
-sector_cause_slip,5,,planned_works,0,737,1709
+sector_cause_slip,5,,planned_works,0,737,1710
 sector_cause_slip,5,,planned_works,1,177,429
 sector_cause_slip,5,,planned_works,2,19,91
 sector_cause_slip,5,,planned_works,3+,48,94
@@ -19149,8 +19150,8 @@ sector_cause_slip,6,,balancing,0,502,1316
 sector_cause_slip,6,,balancing,1,231,654
 sector_cause_slip,6,,balancing,2,128,332
 sector_cause_slip,6,,balancing,3+,132,574
-sector_cause_slip,6,,breakdown,0,4349,10528
-sector_cause_slip,6,,breakdown,1,1259,3520
+sector_cause_slip,6,,breakdown,0,4349,10530
+sector_cause_slip,6,,breakdown,1,1259,3521
 sector_cause_slip,6,,breakdown,2,404,1392
 sector_cause_slip,6,,breakdown,3+,407,1459
 sector_cause_slip,6,,maneuvers,0,62,198
@@ -19161,11 +19162,11 @@ sector_cause_slip,6,,missing_params,0,4059,12866
 sector_cause_slip,6,,missing_params,1,2040,4558
 sector_cause_slip,6,,missing_params,2,651,1900
 sector_cause_slip,6,,missing_params,3+,622,3462
-sector_cause_slip,6,,other,0,433,1499
+sector_cause_slip,6,,other,0,433,1501
 sector_cause_slip,6,,other,1,210,519
 sector_cause_slip,6,,other,2,60,119
 sector_cause_slip,6,,other,3+,30,74
-sector_cause_slip,6,,planned_works,0,858,2328
+sector_cause_slip,6,,planned_works,0,859,2329
 sector_cause_slip,6,,planned_works,1,273,550
 sector_cause_slip,6,,planned_works,2,62,173
 sector_cause_slip,6,,planned_works,3+,43,176
@@ -19173,8 +19174,8 @@ cause_slip,,,balancing,0,3903,9638
 cause_slip,,,balancing,1,2223,4945
 cause_slip,,,balancing,2,976,2698
 cause_slip,,,balancing,3+,1559,6075
-cause_slip,,,breakdown,0,25532,54490
-cause_slip,,,breakdown,1,7803,18929
+cause_slip,,,breakdown,0,25533,54503
+cause_slip,,,breakdown,1,7803,18933
 cause_slip,,,breakdown,2,2881,7454
 cause_slip,,,breakdown,3+,2574,9222
 cause_slip,,,maneuvers,0,757,2044
@@ -19182,18 +19183,18 @@ cause_slip,,,maneuvers,1,513,1241
 cause_slip,,,maneuvers,2,252,710
 cause_slip,,,maneuvers,3+,426,1504
 cause_slip,,,missing_params,0,16670,49498
-cause_slip,,,missing_params,1,9524,20730
-cause_slip,,,missing_params,2,3712,9737
-cause_slip,,,missing_params,3+,4057,16658
-cause_slip,,,other,0,2246,6175
+cause_slip,,,missing_params,1,9524,20733
+cause_slip,,,missing_params,2,3712,9740
+cause_slip,,,missing_params,3+,4058,16670
+cause_slip,,,other,0,2246,6177
 cause_slip,,,other,1,848,2112
 cause_slip,,,other,2,240,699
 cause_slip,,,other,3+,138,567
-cause_slip,,,planned_works,0,5390,14624
+cause_slip,,,planned_works,0,5397,14633
 cause_slip,,,planned_works,1,1443,3960
 cause_slip,,,planned_works,2,386,1451
 cause_slip,,,planned_works,3+,638,1968
-slip,,,,0,54498,136469
-slip,,,,1,22354,51917
-slip,,,,2,8447,22749
-slip,,,,3+,9392,35994
+slip,,,,0,54506,136493
+slip,,,,1,22354,51924
+slip,,,,2,8447,22752
+slip,,,,3+,9393,36006
