@@ -301,8 +301,8 @@
   <rect x="576" y="104" width="11" height="11" fill="#fec382" rx="2"><title>2026-10-04: 201 active episodes</title></rect>
   <rect x="590" y="20" width="11" height="11" fill="#fed196" rx="2"><title>2026-10-05: 149 active episodes</title></rect>
   <rect x="590" y="34" width="11" height="11" fill="#fed297" rx="2"><title>2026-10-06: 147 active episodes</title></rect>
-  <rect x="590" y="48" width="11" height="11" fill="#fed6a1" rx="2"><title>2026-10-07: 125 active episodes</title></rect>
-  <rect x="590" y="62" width="11" height="11" fill="#484f58" rx="2"><title>2026-10-08: no data</title></rect>
+  <rect x="590" y="48" width="11" height="11" fill="#fdcf90" rx="2"><title>2026-10-07: 161 active episodes</title></rect>
+  <rect x="590" y="62" width="11" height="11" fill="#fed399" rx="2"><title>2026-10-08: 142 active episodes</title></rect>
   <rect x="590" y="76" width="11" height="11" fill="#484f58" rx="2"><title>2026-10-09: no data</title></rect>
   <rect x="590" y="90" width="11" height="11" fill="#484f58" rx="2"><title>2026-10-10: no data</title></rect>
   <rect x="590" y="104" width="11" height="11" fill="#484f58" rx="2"><title>2026-10-11: no data</title></rect>
@@ -387,7 +387,7 @@
   <rect x="758" y="34" width="11" height="11" fill="#484f58" rx="2"><title>2026-12-29: no data</title></rect>
   <rect x="758" y="48" width="11" height="11" fill="#484f58" rx="2"><title>2026-12-30: no data</title></rect>
   <rect x="758" y="62" width="11" height="11" fill="#484f58" rx="2"><title>2026-12-31: no data</title></rect>
-  <text x="30" y="133" class="title">2026 - 15521 hot water episodes</text>
+  <text x="30" y="133" class="title">2026 - 15578 hot water episodes</text>
   <defs>
     <linearGradient id="legend-gradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#fef0d9"/>

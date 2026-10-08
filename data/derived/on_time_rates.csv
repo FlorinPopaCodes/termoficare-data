@@ -512,7 +512,7 @@ pt_cause_slip,1,2 Prefabricate - Partial,other,0,0,1
 pt_cause_slip,1,2 Titulescu,balancing,0,1,6
 pt_cause_slip,1,2 Titulescu,balancing,1,3,4
 pt_cause_slip,1,2 Titulescu,balancing,3+,0,2
-pt_cause_slip,1,2 Titulescu,breakdown,0,18,32
+pt_cause_slip,1,2 Titulescu,breakdown,0,19,33
 pt_cause_slip,1,2 Titulescu,breakdown,1,4,11
 pt_cause_slip,1,2 Titulescu,breakdown,2,1,4
 pt_cause_slip,1,2 Titulescu,breakdown,3+,1,1
@@ -1945,7 +1945,7 @@ pt_cause_slip,1,MODUL TERMIC D9,planned_works,2,0,1
 pt_cause_slip,1,MODUL TERMIC E13,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC E13,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC E13,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC E13,breakdown,0,30,57
+pt_cause_slip,1,MODUL TERMIC E13,breakdown,0,31,58
 pt_cause_slip,1,MODUL TERMIC E13,breakdown,1,9,16
 pt_cause_slip,1,MODUL TERMIC E13,breakdown,2,0,1
 pt_cause_slip,1,MODUL TERMIC E13,breakdown,3+,0,1
@@ -1990,7 +1990,7 @@ pt_cause_slip,1,MODUL TERMIC E9,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC F13 sc.A+B,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC F13 sc.A+B,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC F13 sc.A+B,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC F13 sc.A+B,breakdown,0,31,56
+pt_cause_slip,1,MODUL TERMIC F13 sc.A+B,breakdown,0,32,57
 pt_cause_slip,1,MODUL TERMIC F13 sc.A+B,breakdown,1,9,16
 pt_cause_slip,1,MODUL TERMIC F13 sc.A+B,breakdown,2,0,2
 pt_cause_slip,1,MODUL TERMIC F13 sc.A+B,breakdown,3+,0,1
@@ -2307,7 +2307,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 22,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 23,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 23,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 23,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC Vila 23,breakdown,0,33,65
+pt_cause_slip,1,MODUL TERMIC Vila 23,breakdown,0,34,66
 pt_cause_slip,1,MODUL TERMIC Vila 23,breakdown,1,8,13
 pt_cause_slip,1,MODUL TERMIC Vila 23,breakdown,2,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 23,breakdown,3+,0,1
@@ -2321,7 +2321,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 23,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 24,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 24,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 24,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC Vila 24,breakdown,0,32,57
+pt_cause_slip,1,MODUL TERMIC Vila 24,breakdown,0,33,58
 pt_cause_slip,1,MODUL TERMIC Vila 24,breakdown,1,8,15
 pt_cause_slip,1,MODUL TERMIC Vila 24,breakdown,2,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 24,breakdown,3+,0,1
@@ -2335,7 +2335,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 24,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 25,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 25,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 25,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC Vila 25,breakdown,0,30,55
+pt_cause_slip,1,MODUL TERMIC Vila 25,breakdown,0,31,56
 pt_cause_slip,1,MODUL TERMIC Vila 25,breakdown,1,9,16
 pt_cause_slip,1,MODUL TERMIC Vila 25,breakdown,2,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 25,breakdown,3+,0,1
@@ -2349,7 +2349,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 25,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 26A,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 26A,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 26A,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC Vila 26A,breakdown,0,33,56
+pt_cause_slip,1,MODUL TERMIC Vila 26A,breakdown,0,34,57
 pt_cause_slip,1,MODUL TERMIC Vila 26A,breakdown,1,8,15
 pt_cause_slip,1,MODUL TERMIC Vila 26A,breakdown,2,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 26A,breakdown,3+,0,1
@@ -2363,7 +2363,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 26A,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 26B,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 26B,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 26B,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC Vila 26B,breakdown,0,32,56
+pt_cause_slip,1,MODUL TERMIC Vila 26B,breakdown,0,33,57
 pt_cause_slip,1,MODUL TERMIC Vila 26B,breakdown,1,8,15
 pt_cause_slip,1,MODUL TERMIC Vila 26B,breakdown,2,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 26B,breakdown,3+,0,1
@@ -2377,7 +2377,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 26B,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 27,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 27,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 27,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC Vila 27,breakdown,0,28,49
+pt_cause_slip,1,MODUL TERMIC Vila 27,breakdown,0,29,50
 pt_cause_slip,1,MODUL TERMIC Vila 27,breakdown,1,9,14
 pt_cause_slip,1,MODUL TERMIC Vila 27,breakdown,2,0,3
 pt_cause_slip,1,MODUL TERMIC Vila 27,breakdown,3+,0,1
@@ -2391,7 +2391,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 27,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 28,balancing,0,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 28,balancing,1,0,3
 pt_cause_slip,1,MODUL TERMIC Vila 28,balancing,2,1,2
-pt_cause_slip,1,MODUL TERMIC Vila 28,breakdown,0,30,54
+pt_cause_slip,1,MODUL TERMIC Vila 28,breakdown,0,31,55
 pt_cause_slip,1,MODUL TERMIC Vila 28,breakdown,1,8,15
 pt_cause_slip,1,MODUL TERMIC Vila 28,breakdown,2,0,3
 pt_cause_slip,1,MODUL TERMIC Vila 28,breakdown,3+,0,1
@@ -2405,7 +2405,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 28,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 29,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 29,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 29,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC Vila 29,breakdown,0,27,46
+pt_cause_slip,1,MODUL TERMIC Vila 29,breakdown,0,28,47
 pt_cause_slip,1,MODUL TERMIC Vila 29,breakdown,1,8,13
 pt_cause_slip,1,MODUL TERMIC Vila 29,breakdown,2,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 29,breakdown,3+,0,1
@@ -2432,7 +2432,7 @@ pt_cause_slip,1,MODUL TERMIC Vila 3,planned_works,1,1,4
 pt_cause_slip,1,MODUL TERMIC Vila 30,balancing,0,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 30,balancing,1,0,2
 pt_cause_slip,1,MODUL TERMIC Vila 30,balancing,2,1,1
-pt_cause_slip,1,MODUL TERMIC Vila 30,breakdown,0,29,52
+pt_cause_slip,1,MODUL TERMIC Vila 30,breakdown,0,30,53
 pt_cause_slip,1,MODUL TERMIC Vila 30,breakdown,1,8,15
 pt_cause_slip,1,MODUL TERMIC Vila 30,breakdown,2,0,1
 pt_cause_slip,1,MODUL TERMIC Vila 30,breakdown,3+,0,1
@@ -3474,7 +3474,7 @@ pt_cause_slip,2,14 Pantelimon,planned_works,0,12,26
 pt_cause_slip,2,14 Pantelimon,planned_works,1,2,4
 pt_cause_slip,2,14 Pantelimon,planned_works,2,0,1
 pt_cause_slip,2,14 Pantelimon,planned_works,3+,2,12
-pt_cause_slip,2,14 Pantelimon - Partial,breakdown,0,6,24
+pt_cause_slip,2,14 Pantelimon - Partial,breakdown,0,6,25
 pt_cause_slip,2,14 Pantelimon - Partial,breakdown,1,2,6
 pt_cause_slip,2,14 Pantelimon - Partial,breakdown,2,2,2
 pt_cause_slip,2,14 Pantelimon - Partial,breakdown,3+,1,1
@@ -4761,7 +4761,7 @@ pt_cause_slip,2,5 Mosilor,balancing,0,6,19
 pt_cause_slip,2,5 Mosilor,balancing,1,7,13
 pt_cause_slip,2,5 Mosilor,balancing,2,5,8
 pt_cause_slip,2,5 Mosilor,balancing,3+,5,12
-pt_cause_slip,2,5 Mosilor,breakdown,0,54,96
+pt_cause_slip,2,5 Mosilor,breakdown,0,54,97
 pt_cause_slip,2,5 Mosilor,breakdown,1,17,36
 pt_cause_slip,2,5 Mosilor,breakdown,2,6,13
 pt_cause_slip,2,5 Mosilor,breakdown,3+,4,15
@@ -4961,7 +4961,7 @@ pt_cause_slip,2,7 Colentina,balancing,0,13,35
 pt_cause_slip,2,7 Colentina,balancing,1,10,19
 pt_cause_slip,2,7 Colentina,balancing,2,4,7
 pt_cause_slip,2,7 Colentina,balancing,3+,5,11
-pt_cause_slip,2,7 Colentina,breakdown,0,30,55
+pt_cause_slip,2,7 Colentina,breakdown,0,30,56
 pt_cause_slip,2,7 Colentina,breakdown,1,11,21
 pt_cause_slip,2,7 Colentina,breakdown,2,6,7
 pt_cause_slip,2,7 Colentina,breakdown,3+,2,14
@@ -5519,7 +5519,7 @@ pt_cause_slip,2,Ct B1 Dimitrov,breakdown,0,18,40
 pt_cause_slip,2,Ct B1 Dimitrov,breakdown,1,3,6
 pt_cause_slip,2,Ct B1 Dimitrov,breakdown,2,1,1
 pt_cause_slip,2,Ct B1 Dimitrov,other,0,1,2
-pt_cause_slip,2,Ct B1 Dimitrov,planned_works,0,3,4
+pt_cause_slip,2,Ct B1 Dimitrov,planned_works,0,3,5
 pt_cause_slip,2,Ct B1 Dimitrov - Partial,breakdown,0,1,5
 pt_cause_slip,2,Ct B1 Dimitrov - Partial,breakdown,1,0,1
 pt_cause_slip,2,Ct B1 Dimitrov - Partial,other,0,0,1
@@ -5528,7 +5528,7 @@ pt_cause_slip,2,Ct Republicii,breakdown,0,2,2
 pt_cause_slip,2,Ct. A1 Dimitrov,breakdown,0,15,22
 pt_cause_slip,2,Ct. A1 Dimitrov,breakdown,1,1,2
 pt_cause_slip,2,Ct. A1 Dimitrov,other,0,1,1
-pt_cause_slip,2,Ct. A1 Dimitrov,planned_works,0,0,1
+pt_cause_slip,2,Ct. A1 Dimitrov,planned_works,0,0,2
 pt_cause_slip,2,D11 Mihai Bravu,balancing,0,1,11
 pt_cause_slip,2,D11 Mihai Bravu,balancing,1,4,10
 pt_cause_slip,2,D11 Mihai Bravu,balancing,2,4,6
@@ -9054,7 +9054,7 @@ pt_cause_slip,3,6Placare-T,balancing,0,1,3
 pt_cause_slip,3,6Placare-T,balancing,1,3,4
 pt_cause_slip,3,6Placare-T,balancing,2,0,1
 pt_cause_slip,3,6Placare-T,balancing,3+,0,5
-pt_cause_slip,3,6Placare-T,breakdown,0,15,25
+pt_cause_slip,3,6Placare-T,breakdown,0,15,26
 pt_cause_slip,3,6Placare-T,breakdown,1,8,11
 pt_cause_slip,3,6Placare-T,breakdown,2,2,3
 pt_cause_slip,3,6Placare-T,breakdown,3+,1,16
@@ -10080,7 +10080,7 @@ pt_cause_slip,3,M1,balancing,0,1,3
 pt_cause_slip,3,M1,balancing,1,2,4
 pt_cause_slip,3,M1,balancing,2,1,1
 pt_cause_slip,3,M1,balancing,3+,3,5
-pt_cause_slip,3,M1,breakdown,0,19,49
+pt_cause_slip,3,M1,breakdown,0,19,50
 pt_cause_slip,3,M1,breakdown,1,10,18
 pt_cause_slip,3,M1,breakdown,2,2,4
 pt_cause_slip,3,M1,breakdown,3+,1,12
@@ -15645,7 +15645,7 @@ pt_cause_slip,6,1 Veteranilor,breakdown,1,24,38
 pt_cause_slip,6,1 Veteranilor,breakdown,2,4,12
 pt_cause_slip,6,1 Veteranilor,breakdown,3+,1,6
 pt_cause_slip,6,1 Veteranilor,maneuvers,0,2,2
-pt_cause_slip,6,1 Veteranilor,missing_params,0,43,127
+pt_cause_slip,6,1 Veteranilor,missing_params,0,43,128
 pt_cause_slip,6,1 Veteranilor,missing_params,1,23,35
 pt_cause_slip,6,1 Veteranilor,missing_params,2,1,7
 pt_cause_slip,6,1 Veteranilor,other,0,4,8
@@ -15666,7 +15666,7 @@ pt_cause_slip,6,1 Virtuții,breakdown,1,9,31
 pt_cause_slip,6,1 Virtuții,breakdown,2,6,18
 pt_cause_slip,6,1 Virtuții,breakdown,3+,1,9
 pt_cause_slip,6,1 Virtuții,maneuvers,0,2,2
-pt_cause_slip,6,1 Virtuții,missing_params,0,60,144
+pt_cause_slip,6,1 Virtuții,missing_params,0,60,145
 pt_cause_slip,6,1 Virtuții,missing_params,1,28,37
 pt_cause_slip,6,1 Virtuții,missing_params,2,3,7
 pt_cause_slip,6,1 Virtuții,missing_params,3+,9,13
@@ -15783,7 +15783,7 @@ pt_cause_slip,6,1/7',breakdown,1,2,9
 pt_cause_slip,6,1/7',breakdown,2,2,3
 pt_cause_slip,6,1/7',breakdown,3+,2,4
 pt_cause_slip,6,1/7',maneuvers,0,1,2
-pt_cause_slip,6,1/7',missing_params,0,20,61
+pt_cause_slip,6,1/7',missing_params,0,20,62
 pt_cause_slip,6,1/7',missing_params,1,11,20
 pt_cause_slip,6,1/7',missing_params,2,1,4
 pt_cause_slip,6,1/7',missing_params,3+,0,7
@@ -15889,7 +15889,7 @@ pt_cause_slip,6,10 Liniei,planned_works,1,1,2
 pt_cause_slip,6,10 Liniei - Partial,breakdown,0,2,5
 pt_cause_slip,6,10 Liniei - Partial,other,0,0,1
 pt_cause_slip,6,10 Nefamilisti,breakdown,0,2,2
-pt_cause_slip,6,10/4,balancing,0,3,7
+pt_cause_slip,6,10/4,balancing,0,3,8
 pt_cause_slip,6,10/4,balancing,1,1,2
 pt_cause_slip,6,10/4,balancing,2,0,1
 pt_cause_slip,6,10/4,breakdown,0,16,33
@@ -16020,8 +16020,8 @@ pt_cause_slip,6,12 Maratonului - Partial,breakdown,3+,0,1
 pt_cause_slip,6,12 Maratonului - Partial,other,0,1,2
 pt_cause_slip,6,12 Maratonului - Partial,planned_works,0,0,1
 pt_cause_slip,6,12 Maratonului - Partial,planned_works,1,0,1
-pt_cause_slip,6,12/4,balancing,0,2,6
-pt_cause_slip,6,12/4,balancing,1,1,2
+pt_cause_slip,6,12/4,balancing,0,2,7
+pt_cause_slip,6,12/4,balancing,1,1,3
 pt_cause_slip,6,12/4,balancing,2,0,1
 pt_cause_slip,6,12/4,breakdown,0,20,49
 pt_cause_slip,6,12/4,breakdown,1,9,12
@@ -16046,7 +16046,7 @@ pt_cause_slip,6,13 Liniei,breakdown,1,4,16
 pt_cause_slip,6,13 Liniei,breakdown,2,0,4
 pt_cause_slip,6,13 Liniei,breakdown,3+,4,6
 pt_cause_slip,6,13 Liniei,maneuvers,0,2,2
-pt_cause_slip,6,13 Liniei,missing_params,0,44,148
+pt_cause_slip,6,13 Liniei,missing_params,0,44,149
 pt_cause_slip,6,13 Liniei,missing_params,1,21,47
 pt_cause_slip,6,13 Liniei,missing_params,2,6,18
 pt_cause_slip,6,13 Liniei,missing_params,3+,8,24
@@ -16056,8 +16056,8 @@ pt_cause_slip,6,13 Liniei,planned_works,0,11,24
 pt_cause_slip,6,13 Liniei,planned_works,1,0,1
 pt_cause_slip,6,13 Liniei - Partial,breakdown,0,4,8
 pt_cause_slip,6,13 Liniei - Partial,other,0,0,1
-pt_cause_slip,6,13/4,balancing,0,2,6
-pt_cause_slip,6,13/4,balancing,1,1,2
+pt_cause_slip,6,13/4,balancing,0,2,7
+pt_cause_slip,6,13/4,balancing,1,1,3
 pt_cause_slip,6,13/4,balancing,2,0,1
 pt_cause_slip,6,13/4,balancing,3+,0,1
 pt_cause_slip,6,13/4,breakdown,0,17,35
@@ -16254,7 +16254,7 @@ pt_cause_slip,6,2 Virtuții,breakdown,1,8,32
 pt_cause_slip,6,2 Virtuții,breakdown,2,3,16
 pt_cause_slip,6,2 Virtuții,breakdown,3+,4,11
 pt_cause_slip,6,2 Virtuții,maneuvers,0,2,2
-pt_cause_slip,6,2 Virtuții,missing_params,0,27,78
+pt_cause_slip,6,2 Virtuții,missing_params,0,27,79
 pt_cause_slip,6,2 Virtuții,missing_params,1,18,32
 pt_cause_slip,6,2 Virtuții,missing_params,2,12,16
 pt_cause_slip,6,2 Virtuții,missing_params,3+,6,12
@@ -16340,7 +16340,7 @@ pt_cause_slip,6,2/6,breakdown,0,14,35
 pt_cause_slip,6,2/6,breakdown,1,3,5
 pt_cause_slip,6,2/6,breakdown,3+,2,6
 pt_cause_slip,6,2/6,maneuvers,0,1,2
-pt_cause_slip,6,2/6,missing_params,0,21,62
+pt_cause_slip,6,2/6,missing_params,0,21,63
 pt_cause_slip,6,2/6,missing_params,1,12,22
 pt_cause_slip,6,2/6,missing_params,2,5,6
 pt_cause_slip,6,2/6,missing_params,3+,1,12
@@ -16351,7 +16351,7 @@ pt_cause_slip,6,2/6,other,3+,1,1
 pt_cause_slip,6,2/6,planned_works,0,2,6
 pt_cause_slip,6,2/6,planned_works,1,3,3
 pt_cause_slip,6,2/6,planned_works,2,1,1
-pt_cause_slip,6,2/6 - Partial,breakdown,0,3,20
+pt_cause_slip,6,2/6 - Partial,breakdown,0,3,21
 pt_cause_slip,6,2/6 - Partial,breakdown,1,2,6
 pt_cause_slip,6,2/6 - Partial,other,0,2,3
 pt_cause_slip,6,2/7,balancing,0,4,9
@@ -16387,7 +16387,7 @@ pt_cause_slip,6,2/7',breakdown,1,6,14
 pt_cause_slip,6,2/7',breakdown,2,2,7
 pt_cause_slip,6,2/7',breakdown,3+,6,8
 pt_cause_slip,6,2/7',maneuvers,0,0,2
-pt_cause_slip,6,2/7',missing_params,0,23,56
+pt_cause_slip,6,2/7',missing_params,0,23,57
 pt_cause_slip,6,2/7',missing_params,1,8,18
 pt_cause_slip,6,2/7',missing_params,2,3,4
 pt_cause_slip,6,2/7',missing_params,3+,0,3
@@ -16627,7 +16627,7 @@ pt_cause_slip,6,3/7',breakdown,2,0,7
 pt_cause_slip,6,3/7',breakdown,3+,7,11
 pt_cause_slip,6,3/7',maneuvers,0,1,4
 pt_cause_slip,6,3/7',maneuvers,1,1,1
-pt_cause_slip,6,3/7',missing_params,0,14,55
+pt_cause_slip,6,3/7',missing_params,0,14,56
 pt_cause_slip,6,3/7',missing_params,1,13,20
 pt_cause_slip,6,3/7',missing_params,2,0,1
 pt_cause_slip,6,3/7',missing_params,3+,0,2
@@ -16768,7 +16768,7 @@ pt_cause_slip,6,4/10,breakdown,1,5,13
 pt_cause_slip,6,4/10,breakdown,2,3,4
 pt_cause_slip,6,4/10,maneuvers,0,0,2
 pt_cause_slip,6,4/10,maneuvers,1,0,1
-pt_cause_slip,6,4/10,missing_params,0,30,115
+pt_cause_slip,6,4/10,missing_params,0,30,116
 pt_cause_slip,6,4/10,missing_params,1,15,37
 pt_cause_slip,6,4/10,missing_params,2,6,13
 pt_cause_slip,6,4/10,missing_params,3+,5,21
@@ -16839,7 +16839,7 @@ pt_cause_slip,6,4/7',breakdown,1,4,10
 pt_cause_slip,6,4/7',breakdown,2,0,1
 pt_cause_slip,6,4/7',breakdown,3+,1,3
 pt_cause_slip,6,4/7',maneuvers,0,1,2
-pt_cause_slip,6,4/7',missing_params,0,22,70
+pt_cause_slip,6,4/7',missing_params,0,22,71
 pt_cause_slip,6,4/7',missing_params,1,9,20
 pt_cause_slip,6,4/7',missing_params,2,3,8
 pt_cause_slip,6,4/7',missing_params,3+,0,4
@@ -17046,7 +17046,7 @@ pt_cause_slip,6,6/2,breakdown,2,6,7
 pt_cause_slip,6,6/2,breakdown,3+,1,3
 pt_cause_slip,6,6/2,maneuvers,0,0,3
 pt_cause_slip,6,6/2,maneuvers,1,0,2
-pt_cause_slip,6,6/2,missing_params,0,38,137
+pt_cause_slip,6,6/2,missing_params,0,38,138
 pt_cause_slip,6,6/2,missing_params,1,21,48
 pt_cause_slip,6,6/2,missing_params,2,6,19
 pt_cause_slip,6,6/2,missing_params,3+,6,48
@@ -17067,7 +17067,7 @@ pt_cause_slip,6,6/8,breakdown,0,22,37
 pt_cause_slip,6,6/8,breakdown,1,5,11
 pt_cause_slip,6,6/8,breakdown,2,0,1
 pt_cause_slip,6,6/8,maneuvers,0,0,4
-pt_cause_slip,6,6/8,missing_params,0,31,70
+pt_cause_slip,6,6/8,missing_params,0,31,71
 pt_cause_slip,6,6/8,missing_params,1,8,15
 pt_cause_slip,6,6/8,missing_params,2,3,6
 pt_cause_slip,6,6/8,missing_params,3+,1,3
@@ -17095,7 +17095,7 @@ pt_cause_slip,6,7 Crivina,breakdown,3+,2,10
 pt_cause_slip,6,7 Crivina,maneuvers,0,0,1
 pt_cause_slip,6,7 Crivina,maneuvers,1,0,1
 pt_cause_slip,6,7 Crivina,maneuvers,2,1,1
-pt_cause_slip,6,7 Crivina,missing_params,0,44,123
+pt_cause_slip,6,7 Crivina,missing_params,0,44,124
 pt_cause_slip,6,7 Crivina,missing_params,1,17,47
 pt_cause_slip,6,7 Crivina,missing_params,2,7,19
 pt_cause_slip,6,7 Crivina,missing_params,3+,12,56
@@ -17168,7 +17168,7 @@ pt_cause_slip,6,7 Virtuții,breakdown,2,2,11
 pt_cause_slip,6,7 Virtuții,breakdown,3+,3,20
 pt_cause_slip,6,7 Virtuții,maneuvers,0,2,3
 pt_cause_slip,6,7 Virtuții,maneuvers,1,1,1
-pt_cause_slip,6,7 Virtuții,missing_params,0,43,160
+pt_cause_slip,6,7 Virtuții,missing_params,0,43,161
 pt_cause_slip,6,7 Virtuții,missing_params,1,30,70
 pt_cause_slip,6,7 Virtuții,missing_params,2,13,35
 pt_cause_slip,6,7 Virtuții,missing_params,3+,15,55
@@ -17863,7 +17863,7 @@ pt_cause_slip,6,MILITARI - 2 Placare,breakdown,0,29,69
 pt_cause_slip,6,MILITARI - 2 Placare,breakdown,1,9,25
 pt_cause_slip,6,MILITARI - 2 Placare,breakdown,2,2,11
 pt_cause_slip,6,MILITARI - 2 Placare,breakdown,3+,7,21
-pt_cause_slip,6,MILITARI - 2 Placare,missing_params,0,49,157
+pt_cause_slip,6,MILITARI - 2 Placare,missing_params,0,49,158
 pt_cause_slip,6,MILITARI - 2 Placare,missing_params,1,23,46
 pt_cause_slip,6,MILITARI - 2 Placare,missing_params,2,5,16
 pt_cause_slip,6,MILITARI - 2 Placare,missing_params,3+,7,40
@@ -17885,7 +17885,7 @@ pt_cause_slip,6,MILITARI - 3 Placare,breakdown,0,13,34
 pt_cause_slip,6,MILITARI - 3 Placare,breakdown,1,3,9
 pt_cause_slip,6,MILITARI - 3 Placare,breakdown,2,0,2
 pt_cause_slip,6,MILITARI - 3 Placare,breakdown,3+,2,3
-pt_cause_slip,6,MILITARI - 3 Placare,missing_params,0,50,151
+pt_cause_slip,6,MILITARI - 3 Placare,missing_params,0,50,152
 pt_cause_slip,6,MILITARI - 3 Placare,missing_params,1,25,41
 pt_cause_slip,6,MILITARI - 3 Placare,missing_params,2,4,8
 pt_cause_slip,6,MILITARI - 3 Placare,missing_params,3+,2,14
@@ -18007,7 +18007,7 @@ pt_cause_slip,6,MILITARI - 8 Placare,breakdown,0,25,45
 pt_cause_slip,6,MILITARI - 8 Placare,breakdown,1,6,13
 pt_cause_slip,6,MILITARI - 8 Placare,breakdown,2,2,7
 pt_cause_slip,6,MILITARI - 8 Placare,breakdown,3+,3,12
-pt_cause_slip,6,MILITARI - 8 Placare,missing_params,0,48,156
+pt_cause_slip,6,MILITARI - 8 Placare,missing_params,0,48,157
 pt_cause_slip,6,MILITARI - 8 Placare,missing_params,1,21,38
 pt_cause_slip,6,MILITARI - 8 Placare,missing_params,2,2,8
 pt_cause_slip,6,MILITARI - 8 Placare,missing_params,3+,2,9
@@ -18025,7 +18025,7 @@ pt_cause_slip,6,MILITARI - 9 Placare,breakdown,0,30,65
 pt_cause_slip,6,MILITARI - 9 Placare,breakdown,1,7,22
 pt_cause_slip,6,MILITARI - 9 Placare,breakdown,2,2,14
 pt_cause_slip,6,MILITARI - 9 Placare,breakdown,3+,8,20
-pt_cause_slip,6,MILITARI - 9 Placare,missing_params,0,61,180
+pt_cause_slip,6,MILITARI - 9 Placare,missing_params,0,61,181
 pt_cause_slip,6,MILITARI - 9 Placare,missing_params,1,23,51
 pt_cause_slip,6,MILITARI - 9 Placare,missing_params,2,8,21
 pt_cause_slip,6,MILITARI - 9 Placare,missing_params,3+,9,52
@@ -18575,7 +18575,7 @@ pt_cause_slip,6,SC 4/3 -MODULE TERMICE - Partial,missing_params,2,2,6
 pt_cause_slip,6,SC 4/3 -MODULE TERMICE - Partial,missing_params,3+,0,2
 pt_cause_slip,6,SC 4/3 -MODULE TERMICE - Partial,other,0,0,7
 pt_cause_slip,6,SC 4/3 -MODULE TERMICE - Partial,other,1,0,2
-pt_cause_slip,6,SC 4/3 -MODULE TERMICE - Partial,planned_works,0,0,15
+pt_cause_slip,6,SC 4/3 -MODULE TERMICE - Partial,planned_works,0,0,16
 pt_cause_slip,6,SC 4/3 -MODULE TERMICE - Partial,planned_works,1,0,1
 pt_cause_slip,6,SC 4/5,balancing,0,2,4
 pt_cause_slip,6,SC 4/5,balancing,3+,1,1
@@ -19030,7 +19030,7 @@ sector_cause_slip,1,,balancing,0,418,1511
 sector_cause_slip,1,,balancing,1,258,935
 sector_cause_slip,1,,balancing,2,151,584
 sector_cause_slip,1,,balancing,3+,275,1403
-sector_cause_slip,1,,breakdown,0,4509,9633
+sector_cause_slip,1,,breakdown,0,4521,9645
 sector_cause_slip,1,,breakdown,1,1553,3481
 sector_cause_slip,1,,breakdown,2,346,1039
 sector_cause_slip,1,,breakdown,3+,307,1060
@@ -19054,7 +19054,7 @@ sector_cause_slip,2,,balancing,0,1255,2749
 sector_cause_slip,2,,balancing,1,933,1658
 sector_cause_slip,2,,balancing,2,268,766
 sector_cause_slip,2,,balancing,3+,543,2033
-sector_cause_slip,2,,breakdown,0,5815,11659
+sector_cause_slip,2,,breakdown,0,5815,11662
 sector_cause_slip,2,,breakdown,1,1795,3870
 sector_cause_slip,2,,breakdown,2,808,1690
 sector_cause_slip,2,,breakdown,3+,522,2131
@@ -19070,7 +19070,7 @@ sector_cause_slip,2,,other,0,319,802
 sector_cause_slip,2,,other,1,152,359
 sector_cause_slip,2,,other,2,74,195
 sector_cause_slip,2,,other,3+,41,154
-sector_cause_slip,2,,planned_works,0,1167,3530
+sector_cause_slip,2,,planned_works,0,1167,3532
 sector_cause_slip,2,,planned_works,1,379,1038
 sector_cause_slip,2,,planned_works,2,107,400
 sector_cause_slip,2,,planned_works,3+,131,509
@@ -19078,7 +19078,7 @@ sector_cause_slip,3,,balancing,0,770,1859
 sector_cause_slip,3,,balancing,1,497,993
 sector_cause_slip,3,,balancing,2,312,627
 sector_cause_slip,3,,balancing,3+,384,1335
-sector_cause_slip,3,,breakdown,0,4849,10243
+sector_cause_slip,3,,breakdown,0,4849,10245
 sector_cause_slip,3,,breakdown,1,1716,3756
 sector_cause_slip,3,,breakdown,2,623,1443
 sector_cause_slip,3,,breakdown,3+,491,2178
@@ -19146,11 +19146,11 @@ sector_cause_slip,5,,planned_works,0,737,1710
 sector_cause_slip,5,,planned_works,1,177,429
 sector_cause_slip,5,,planned_works,2,19,91
 sector_cause_slip,5,,planned_works,3+,48,94
-sector_cause_slip,6,,balancing,0,502,1316
-sector_cause_slip,6,,balancing,1,231,654
+sector_cause_slip,6,,balancing,0,502,1319
+sector_cause_slip,6,,balancing,1,231,656
 sector_cause_slip,6,,balancing,2,128,332
 sector_cause_slip,6,,balancing,3+,132,574
-sector_cause_slip,6,,breakdown,0,4349,10530
+sector_cause_slip,6,,breakdown,0,4349,10531
 sector_cause_slip,6,,breakdown,1,1259,3521
 sector_cause_slip,6,,breakdown,2,404,1392
 sector_cause_slip,6,,breakdown,3+,407,1459
@@ -19158,7 +19158,7 @@ sector_cause_slip,6,,maneuvers,0,62,198
 sector_cause_slip,6,,maneuvers,1,15,32
 sector_cause_slip,6,,maneuvers,2,3,6
 sector_cause_slip,6,,maneuvers,3+,2,7
-sector_cause_slip,6,,missing_params,0,4059,12866
+sector_cause_slip,6,,missing_params,0,4059,12884
 sector_cause_slip,6,,missing_params,1,2040,4558
 sector_cause_slip,6,,missing_params,2,651,1900
 sector_cause_slip,6,,missing_params,3+,622,3462
@@ -19166,15 +19166,15 @@ sector_cause_slip,6,,other,0,433,1501
 sector_cause_slip,6,,other,1,210,519
 sector_cause_slip,6,,other,2,60,119
 sector_cause_slip,6,,other,3+,30,74
-sector_cause_slip,6,,planned_works,0,859,2329
+sector_cause_slip,6,,planned_works,0,859,2330
 sector_cause_slip,6,,planned_works,1,273,550
 sector_cause_slip,6,,planned_works,2,62,173
 sector_cause_slip,6,,planned_works,3+,43,176
-cause_slip,,,balancing,0,3903,9638
-cause_slip,,,balancing,1,2223,4945
+cause_slip,,,balancing,0,3903,9641
+cause_slip,,,balancing,1,2223,4947
 cause_slip,,,balancing,2,976,2698
 cause_slip,,,balancing,3+,1559,6075
-cause_slip,,,breakdown,0,25533,54503
+cause_slip,,,breakdown,0,25545,54521
 cause_slip,,,breakdown,1,7803,18933
 cause_slip,,,breakdown,2,2881,7454
 cause_slip,,,breakdown,3+,2574,9222
@@ -19182,7 +19182,7 @@ cause_slip,,,maneuvers,0,757,2044
 cause_slip,,,maneuvers,1,513,1241
 cause_slip,,,maneuvers,2,252,710
 cause_slip,,,maneuvers,3+,426,1504
-cause_slip,,,missing_params,0,16670,49498
+cause_slip,,,missing_params,0,16670,49516
 cause_slip,,,missing_params,1,9524,20733
 cause_slip,,,missing_params,2,3712,9740
 cause_slip,,,missing_params,3+,4058,16670
@@ -19190,11 +19190,11 @@ cause_slip,,,other,0,2246,6177
 cause_slip,,,other,1,848,2112
 cause_slip,,,other,2,240,699
 cause_slip,,,other,3+,138,567
-cause_slip,,,planned_works,0,5397,14633
+cause_slip,,,planned_works,0,5397,14636
 cause_slip,,,planned_works,1,1443,3960
 cause_slip,,,planned_works,2,386,1451
 cause_slip,,,planned_works,3+,638,1968
-slip,,,,0,54506,136493
-slip,,,,1,22354,51924
+slip,,,,0,54518,136535
+slip,,,,1,22354,51926
 slip,,,,2,8447,22752
 slip,,,,3+,9393,36006
