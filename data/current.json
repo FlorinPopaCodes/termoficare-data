@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-08T02:33:58",
+  "scraped_at": "2026-10-08T05:54:24",
   "status": "ok",
   "outages": [
     {
@@ -99,30 +99,6 @@
       "basis_n": 567,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Ct. A1 Dimitrov",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari Apa Nova - lipsa alimentare cu apa rece la Centralele Termice A 1 si B1 Dimitrov.",
-      "estimated_restore": "2026-10-08T03:00",
-      "on_time_probability": 0.331,
-      "basis_n": 3530,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Ferdinand I - Bl . A1"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Ct B1 Dimitrov",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Lucrari Apa Nova - lipsa alimentare cu apa rece la Centralele Termice A 1 si B1 Dimitrov.",
-      "estimated_restore": "2026-10-08T03:00",
-      "on_time_probability": 0.331,
-      "basis_n": 3530,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Căminului - Bl. F, D, sc.1-6, D,sc. 7-13 • Str Amiral Ioan Murgescu - Vila Rugina • Str Spătarul Nicolae Milescu - Vila Ciovlica • Bld Gării Obor - Bl.B1, B2, B3"
     },
     {
       "sector": 2,
