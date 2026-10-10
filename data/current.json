@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-10T14:35:31",
+  "scraped_at": "2026-10-10T19:22:29",
   "status": "ok",
   "outages": [
     {
@@ -1038,15 +1038,15 @@
     },
     {
       "sector": 6,
-      "pt_name": "2 Îndesirii",
+      "pt_name": "3 Virtuții",
       "blocks": 15,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET Energo",
       "estimated_restore": "2026-10-10T23:30",
-      "on_time_probability": 0.308,
-      "basis_n": 286,
+      "on_time_probability": 0.363,
+      "basis_n": 135,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Jarului - bl. 52, M27 • Str Apusului - bl. 42, M26 • Bld Iuliu Maniu - bl. 38, 39, 40, 41, H, I, J, K, G, G1, G2"
+      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
     },
     {
       "sector": 6,
