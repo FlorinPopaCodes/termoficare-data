@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-10T19:22:29",
+  "scraped_at": "2026-10-10T23:12:15",
   "status": "ok",
   "outages": [
     {
@@ -1035,78 +1035,6 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3 Virtuții",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET Energo",
-      "estimated_restore": "2026-10-10T23:30",
-      "on_time_probability": 0.363,
-      "basis_n": 135,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Virtuții",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET Energo",
-      "estimated_restore": "2026-10-10T23:30",
-      "on_time_probability": 0.415,
-      "basis_n": 147,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 9 Placare",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET Energo",
-      "estimated_restore": "2026-10-10T23:30",
-      "on_time_probability": 0.339,
-      "basis_n": 183,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 2 Placare",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET Energo",
-      "estimated_restore": "2026-10-10T23:30",
-      "on_time_probability": 0.313,
-      "basis_n": 160,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Virtuții",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET Energo",
-      "estimated_restore": "2026-10-10T23:30",
-      "on_time_probability": 0.346,
-      "basis_n": 81,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "5 Virtuții",
-      "blocks": 10,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum din cauza CET Energo",
-      "estimated_restore": "2026-10-10T23:30",
-      "on_time_probability": 0.371,
-      "basis_n": 116,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
     }
   ]
 }
