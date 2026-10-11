@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-11T02:32:09",
+  "scraped_at": "2026-10-11T22:32:00",
   "status": "ok",
   "outages": [
     {
@@ -1035,6 +1035,174 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 3 Placare",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.329,
+      "basis_n": 152,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Moineşti - bl. 135, 136, 201, 202, 203, 204, 205, 206 • Bld Iuliu Maniu - bl. 5P, 6P, 7P, 8P"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Veteranilor",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.341,
+      "basis_n": 129,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Peştera Dâmbovicioara - bl. M12, Colegiul Economic Costin C. Kirițescu • Str Partizanilor - bl. M3A. M10, M11, M3 • Bld Iuliu Maniu - bl. 3, 4, 5 • Str Veteranilor - bl. M13, M14, M15 • Bld Uverturii - bl. 1, 9, 10"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3 Virtuții",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.368,
+      "basis_n": 136,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Îndesirii",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.31,
+      "basis_n": 287,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Jarului - bl. 52, M27 • Str Apusului - bl. 42, M26 • Bld Iuliu Maniu - bl. 38, 39, 40, 41, H, I, J, K, G, G1, G2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 6 Placare",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.279,
+      "basis_n": 61,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - bl. D3, D4, D5, D6, R1, R2, 21P"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1 Virtuții",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.419,
+      "basis_n": 148,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 3A Placare",
+      "blocks": 12,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.348,
+      "basis_n": 184,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Odgonului - bl. 132, 134 • Str Moineşti - bl. 127, 130, 134A • Str Ion Manolescu - bl. 123, 124, 128, 129, 131 • Str George Calboreanu - bl. 125, 126"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 9 Placare",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.342,
+      "basis_n": 184,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 8 Placare",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.306,
+      "basis_n": 157,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Liniei - bl. 6C • Str Azurului - bl. 114A, 118A • Str Răsăritului - bl. 1, 4C, 5C, 7C, 116, 117, 118 • Str Velei - bl. 2, 3 • Str George Calboreanu - bl. 115, 119, 120, 122"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Veteranilor",
+      "blocks": 13,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.333,
+      "basis_n": 54,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Partizanilor - bl.M3 • Str Veteranilor - bl. M6, M16, 6, 7 • Bld Uverturii - bl. M8, 11 • Str Dealul Ţugulea - bl. 8, 12, 13, 14, 15, 16, Școala Gimnazială nr. 156"
+    },
+    {
+      "sector": 6,
+      "pt_name": "7 Virtuții",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.265,
+      "basis_n": 162,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 2 Placare",
+      "blocks": 18,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.317,
+      "basis_n": 161,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Virtuții",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.354,
+      "basis_n": 82,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
+    },
+    {
+      "sector": 6,
+      "pt_name": "5 Virtuții",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-11T23:30",
+      "on_time_probability": 0.376,
+      "basis_n": 117,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
     }
   ]
 }
