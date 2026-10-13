@@ -1,45 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-13T23:44:56",
+  "scraped_at": "2026-10-14T02:56:30",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "4 Aviatiei",
-      "blocks": 33,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-10-14T23:30",
-      "on_time_probability": 0.29,
-      "basis_n": 93,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Măguricea - bl. 13D, 13E, 7P • Str Nicolae G. Caramfil - bl. 11C, 11A, 11B • Str G-ral Ştefan Burileanu - bl. 11I, 12J, 12K, 13M, 13N • Str Cpt. Alexandru Şerbănescu - bl. 7M, 7L, 7N • Str Elena Caragiani - bl. 12D • Str Smaranda Brăescu - bl. 11G, 12I, 12H, 12A, 11H • Str Prometeu - bl. 12G, 12E, 12F, 13F, 13G • Str Feleacu - bl. 13B, 11E, 12B, 12C, 13A, 13C, 11D, 11F"
-    },
-    {
-      "sector": 1,
-      "pt_name": "3 Aviatiei",
-      "blocks": 27,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-10-14T23:30",
-      "on_time_probability": 0.267,
-      "basis_n": 105,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Căpâlna - bl. 15M, 14D+14E, 15B, 15J, 15K, 15A, 15L, 16H, 16I • Str Cpt. Alexandru Şerbănescu - bl. 14B, SERBANESCU 12-14, 14C, 16A, 16C • Str Avionului - bl. 16J, 15H, 15D, 15F, 15E • Str Aripilor - bl. 15C , STAR • Str Siriului - bl. 16J, 16F, 16E • Str Prometeu - bl. 14F, 16G, 16D"
-    },
-    {
-      "sector": 1,
-      "pt_name": "5 Aviatiei",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-10-14T23:30",
-      "on_time_probability": 0.293,
-      "basis_n": 99,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cpt. Alexandru Şerbănescu - bl. 17A, 17B, 18A, 19A, 19B, 19F, 19G • Str Siriului - bl. 17C, 17D, 18B, 19D, 19E"
-    },
     {
       "sector": 1,
       "pt_name": "Ct Luterana",
@@ -438,6 +402,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "2 Zona I",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum in urma punerii in functiune a PT",
+      "estimated_restore": "2026-10-14T12:00",
+      "on_time_probability": 0.447,
+      "basis_n": 2047,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Străduinţei - bl. R4, R20 • Ale Niculiţel - bl. 1, 2, D4, E4, E5, E6, P1, P2 • Str Aliorului - bl. D5, D6 • Str Emil Racoviţă - bl. I11, R3, R21, U2"
+    },
+    {
+      "sector": 4,
       "pt_name": "6 Zona II",
       "blocks": 5,
       "service": "Deficienta ACC",
@@ -471,6 +447,18 @@
       "basis_n": 22,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - bl. 10-14, 16 • Str Râul Mara - bl. E1, M2 • Str Podarului - bl. F1, F3 • Str Vatra Dornei - bl. A14, E2, E3, E4, E5, F2, F4, F5, M1 • Str Târnava Mică - bl. M3"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Zona I",
+      "blocks": 10,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum in urma punerii in functiune a PT",
+      "estimated_restore": "2026-10-14T12:00",
+      "on_time_probability": 0.447,
+      "basis_n": 2047,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Ornamentului - bl. E7 • Ale Râul Sadului - bl. R22 • Str Emil Racoviţă - bl. I13, R6, R9, R23, U3 • Str Turnu Măgurele - bl. A14, A15, S1"
     },
     {
       "sector": 4,
@@ -663,6 +651,18 @@
       "basis_n": 2047,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Zona I",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum in urma punerii in functiune a PT",
+      "estimated_restore": "2026-10-14T12:00",
+      "on_time_probability": 0.364,
+      "basis_n": 22,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
     },
     {
       "sector": 4,
