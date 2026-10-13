@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-13T10:55:04",
+  "scraped_at": "2026-10-13T18:25:03",
   "status": "ok",
   "outages": [
     {
@@ -42,18 +42,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "Nicolae Racotă",
-      "blocks": 21,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-10-13T13:30",
-      "on_time_probability": 0.383,
-      "basis_n": 2334,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Medelnicerului - imob.Nr. 2, 6,10 • Str Niculae Racotă - bl. 67, 69, 76A, 80, 65, 16-18, 12-14 • Str Paharnicului - bl. 43 • Str Clucerului - imob.Nr. 49, 62-66 • Bld Ion Mihalache - bl. 85, 84 • Str Radu Boiangiu - bl. 38, 39, 42A, 39A, 60 • Bld I. V. Miciurin - bl.80A"
-    },
-    {
-      "sector": 1,
       "pt_name": "Ct Luterana",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -72,7 +60,7 @@
       "cause": "Modernizare firma Energetica",
       "estimated_restore": "2026-10-16T23:00",
       "on_time_probability": 0.33,
-      "basis_n": 3533,
+      "basis_n": 3534,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Avrig - bl.U2"
     },
@@ -84,7 +72,7 @@
       "cause": "Modernizare firma Energetica",
       "estimated_restore": "2026-10-16T23:00",
       "on_time_probability": 0.33,
-      "basis_n": 3533,
+      "basis_n": 3534,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Avrig - bl.U1"
     },
@@ -99,30 +87,6 @@
       "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - bl.P3, P30A, 4, 4Bis, P14, P12, P15Bis, P15, P13 • Str Pictor Oscar Obedeanu - imob.Nr.18 • Ale Avrig - bl.P4, P5, P6, P18Bis, P30, P18, P19Bis, P19"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Cheile Zanoagei",
-      "blocks": 26,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-10-13T15:00",
-      "on_time_probability": 0.379,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Alexandru cel Bun - BL.T61; T50 sc.1 • Str Deleni - bl.T69, T65, T63; T66, T74, T64 • Str Grigore Ionescu - bl.T71, T75, T72, T59, T60, T73 • Str Maica Domnului - bl.T56, T57, T58, T54, T55, T52, T53, T51, T50 sc.2 • Str Oteşani - bl.T70, T68, T67, T62"
-    },
-    {
-      "sector": 2,
-      "pt_name": "2 Teiul Doamnei - Partial",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-13T15:30",
-      "on_time_probability": 0.3,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cristea Mateescu - bl.35, 34 • Str Petre Antonescu - bl.28; 29 • Str Grigore Ionescu - bl. 43; 44 • Str Teiul Doamnei - bl.33,32,31,27 • Str Sânzieni - bl.30"
     },
     {
       "sector": 2,
@@ -162,6 +126,174 @@
     },
     {
       "sector": 3,
+      "pt_name": "3 Labirint",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.167,
+      "basis_n": 24,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Matei Basarab - bl. 119bis, L121, L118A, L116A • Str Labirint - bl. L117, L119, L117bis"
+    },
+    {
+      "sector": 3,
+      "pt_name": "I3",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 3253,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Miletin - Imobil • Pţa Alba Iulia - bl. I1, I2, I3, I4, I5"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Cornul Caprei",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 3253,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Labirint",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.048,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
+    },
+    {
+      "sector": 3,
+      "pt_name": "S14",
+      "blocks": 11,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 3253,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Theodor D. Speranţia - bl. S24, S25, S26, S27,S28 • Bld Decebal - bl. S12, S12A, S12B, S13, S14, S15"
+    },
+    {
+      "sector": 3,
+      "pt_name": "2 Călăraşi",
+      "blocks": 18,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 3253,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Matei Basarab - 72, 86, 73, 74, 85, L122, L120, L118 • Str Theodor D. Speranţia - 78, 83, 84 • Str Agricultori - 80, 81, 82,79, • Cal Călăraşi - 75,76,77"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Călăraşi",
+      "blocks": 13,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 3253,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Călăraşi - . 44, 38, 39, 45, 46, 56, 57, 55, 53, 53BIS, 42, 54 • Str Orzari - 47"
+    },
+    {
+      "sector": 3,
+      "pt_name": "5 Cornul Caprei",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.25,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lt. Aurel Botea - D24, D22 • Bld Burebista - D15, D16 • Str Caloian Judeţul - D19A, D21A, D20, D19B, D18, D21B"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Theodor Speranţia",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.19,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Theodor D. Speranţia - bl. S22 • Bld Decebal - bl. S16 • Cal Călăraşi - bl. S18, S20, S21"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Călăraşi",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 3253,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Călăraşi - Cal. Călăraşi bl. 50, 70, 68, 65, 49, 71, 67, 66,"
+    },
+    {
+      "sector": 3,
+      "pt_name": "4 Theodor Speranţia",
+      "blocks": 32,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Voroneţ - bl. A15+A15bis, A22, D8, D7, D6, D5A, D4, D5, D2, D3, D1 • Str Meşterul Manole - bl. D17, D10, D9, D11, D15 • Str Negoiu - bl. D18, D16, D14, D12 • Str Ion Păunescu-Paltin - bl. D13 • Str Dristorului - bl. A21, B14, A23, B13, A20, B7, B14, B20 • Int Arenei - bl. B2, B3"
+    },
+    {
+      "sector": 3,
+      "pt_name": "4 Labirint",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 3253,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Matei Basarab - bl. L112, L112A, L113A, L113 • Str Traian - bl. L112B"
+    },
+    {
+      "sector": 3,
+      "pt_name": "5 Călăraşi",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Matei Basarab - 64 • Cal Călăraşi - 59, 60, 61, 58"
+    },
+    {
+      "sector": 3,
+      "pt_name": "S6",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Izolare RT CS 4 DECEBAL - CL 2/ FL 4 - 9 MB, pentru executie lucrari firma.",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.348,
+      "basis_n": 3253,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Decebal - bl. S11, S9, S10, S7, S4, H3, S6, S5, S7, S8"
+    },
+    {
+      "sector": 3,
       "pt_name": "2 Unităţii",
       "blocks": 16,
       "service": "Oprire ACC",
@@ -174,18 +306,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "11 Foișor",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Lucrari in PT.",
-      "estimated_restore": "2026-10-13T13:00",
-      "on_time_probability": 0.348,
-      "basis_n": 3251,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Zizin - bl. V75C • Str Vlaicu Vodă - bl. V65, V66 • Str Brânduşelor - bl. V70, V75A, V77 • Str Foişorului - bl. F9C, F8C • Str Rarău - bl. V69, V68, V70, V71, F10C, V74"
-    },
-    {
-      "sector": 3,
       "pt_name": "3X",
       "blocks": 3,
       "service": "Oprire ACC",
@@ -195,30 +315,6 @@
       "basis_n": 63,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sold. Niculae T. Sebe - bl.W2, L42 • Bld Nicolae Grigorescu - bl.W1"
-    },
-    {
-      "sector": 3,
-      "pt_name": "24A",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar - Str.Intr.Reconstructiei",
-      "estimated_restore": "2026-10-13T23:00",
-      "on_time_probability": 0.558,
-      "basis_n": 52,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Baba Novac - bl. 24A, 24B, 24C"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Baba Novac",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie retea primara, str. Intrarea Reconstructiei.",
-      "estimated_restore": "2026-10-13T23:30",
-      "on_time_probability": 0.569,
-      "basis_n": 51,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pictor Ion Tuculescu - Module bl.21A, 25, 37C,22 • Str Eufrosina Popescu - Module bl. 37A, 37B • Int Reconstrucţiei - Modulebl.24, 26, 27, 28 • Str Baba Novac - Module bl.23,"
     },
     {
       "sector": 3,
@@ -390,18 +486,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "1 Bis Zona I",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare ,lucrari POIM ,Lot 4, Obiective 17,19,21",
-      "estimated_restore": "2026-10-13T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 457,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Slt. p.m. Dragoş Mladinovici - bl. I15 • Ale Terasei - bl. R12A, R12B • Bld Alexandru Obregia - bl. I2A, I2B, I2C, I1, I4, M1, M2, M5, M6, M7, M8, R13A, R13B, R14, Scoala nr.194, Gradinita nr.29 • Str Emil Racoviţă - bl. R1, R18,U1"
-    },
-    {
-      "sector": 4,
       "pt_name": "2 Nitu Vasile",
       "blocks": 17,
       "service": "Oprire ACC",
@@ -570,18 +654,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "2 Zona I",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare ,lucrari POIM ,Lot 4, Obiective 17,19,21",
-      "estimated_restore": "2026-10-13T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 457,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Străduinţei - bl. R4, R20 • Ale Niculiţel - bl. 1, 2, D4, E4, E5, E6, P1, P2 • Str Aliorului - bl. D5, D6 • Str Emil Racoviţă - bl. I11, R3, R21, U2"
-    },
-    {
-      "sector": 4,
       "pt_name": "5 Oltenita",
       "blocks": 10,
       "service": "Oprire ACC",
@@ -738,18 +810,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "4 Zona I",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare ,lucrari POIM ,Lot 4, Obiective 17,19,21",
-      "estimated_restore": "2026-10-13T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 457,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Slt. p.m. Dragoş Mladinovici - bl. R11, R15, R16, R17 • Str Străduinţei - bl. A197 • Bld Alexandru Obregia - bl. A18, I5"
-    },
-    {
-      "sector": 4,
       "pt_name": "6 Vifornita",
       "blocks": 17,
       "service": "Oprire ACC",
@@ -771,18 +831,6 @@
       "basis_n": 457,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Alexandru Obregia - bl. 18A, 20Bis, A15, R3, R13, II/30, II/31 • Str Vatra Dornei - bl. A16, 18B+C"
-    },
-    {
-      "sector": 4,
-      "pt_name": "6 Zona I",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare ,lucrari POIM ,Lot 4, Obiective 17,19,21",
-      "estimated_restore": "2026-10-13T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 457,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Someşul Cald - bl. D10, PE5 • Ale Râul Sadului - bl. PE4 • Str Aliorului - bl. A6, A7, A8, A9, A10, S2 • Str Turnu Măgurele - bl. A17, S2 • Ale Ciceu - bl. A113, I66"
     },
     {
       "sector": 4,
@@ -882,18 +930,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "7 Zona I",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare ,lucrari POIM ,Lot 4, Obiective 17,19,21",
-      "estimated_restore": "2026-10-13T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 457,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Someşul Cald - bl. O2 • Str Aliorului - bl. D13 • Bld Alexandru Obregia - bl. 35, 35A, O1 • Str Turnu Măgurele - bl. A16 • Ale Ciceu - bl. D11, D12, E10"
-    },
-    {
-      "sector": 4,
       "pt_name": "1 Stoian Militaru",
       "blocks": 6,
       "service": "Oprire ACC",
@@ -963,18 +999,6 @@
       "basis_n": 457,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Reşiţa - bl. D17 • Str Huedin - bl. A13, D18, D19, D20 • Str Izvorul Mureşului - bl. 10, A4 • Str Izvorul Crişului - bl. A5, A6, A7, A8, A14, A15, A16, D16, D21"
-    },
-    {
-      "sector": 4,
-      "pt_name": "5 Zona I",
-      "blocks": 9,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare ,lucrari POIM ,Lot 4, Obiective 17,19,21",
-      "estimated_restore": "2026-10-13T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 457,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Străduinţei - bl. O4 • Str Aliorului - bl. E11, Gradinita 101 Dalmatieni • Bld Alexandru Obregia - bl. O3 • Ale Ciceu - bl. 5B, E12, E13, E14, R10"
     },
     {
       "sector": 4,
@@ -1109,18 +1133,6 @@
       "zone_raw": "• Str Reşiţa - bl. A18, A19 • Str Izvorul Rece - bl. A10 • Str Izvorul Mureşului - bl. A9 ,D5, D6, D7, D23 • Str Izvorul Crişului - bl. D3, D4 • Str Trotuşului - bl. A17, D8"
     },
     {
-      "sector": 4,
-      "pt_name": "1 Zona I",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Reabilitarea sistemului de termoficare ,lucrari POIM ,Lot 4, Obiective 17,19,21",
-      "estimated_restore": "2026-10-13T23:00",
-      "on_time_probability": 0.359,
-      "basis_n": 457,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
-    },
-    {
       "sector": 5,
       "pt_name": "3 Drumul Sării",
       "blocks": 19,
@@ -1131,6 +1143,18 @@
       "basis_n": 30,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Baltagului - bl. V77, V78, V81 • Ale Botorani - bl. V28, V35, V36, V37, V42, V43, V80, V82, V83, V84 • Cal 13 Septembrie - bl. V38, V39, V40 • Str Mihail Sebastian - bl. V29, V30, V79"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Petre Ispirescu",
+      "blocks": 18,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.414,
+      "basis_n": 29,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Petre Ispirescu - bl. P1A, P6 • Str Cobadin - bl. P14, P19A, P19 • Str Ileana Cosânzeana - bl. P1, P2, P7, P8, P9, P10, P11 • Str Făt Frumos - bl. P6, P12, P11A, P13, P15, P16"
     },
     {
       "sector": 5,
@@ -1182,6 +1206,30 @@
     },
     {
       "sector": 5,
+      "pt_name": "5 Margeanului",
+      "blocks": 22,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.5,
+      "basis_n": 24,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Sold. Ene Modoran - bl. M88, M89, M90 • Str Dumbrava Nouă - bl. M5, M16A, M83,M84, M85 • Str Cap. Petre Mişcă - bl. M9, M13, M14, M15, M16 • Str Bârca - bl. M6, M7, M8, M10, M86, M87 • Str Mărgeanului - bl. M11, M11A, M12"
+    },
+    {
+      "sector": 5,
+      "pt_name": "9 Margeanului",
+      "blocks": 36,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.455,
+      "basis_n": 22,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Sold. Ene Modoran - bl. M162, M169, M174, M179, M185, M191 • Str Dumbrava Nouă - bl. M109, M109A, M165 • Str Bârnova - bl. M110, M 111A, M111B, M111C, M113B, M113C, M163, M164, M187 • Str Bârca - bl. M103, M105, M106, M107, M107A, M108, M160, M161, M179A, M186, M104 • Str Focşani - bl. M181, M182, M188 • Str Mărgeanului - bl. M100, M101, M102 • Str Iancu Jianu - bl. M180"
+    },
+    {
+      "sector": 5,
       "pt_name": "2 Petre Ispirescu",
       "blocks": 12,
       "service": "Oprire ACC",
@@ -1191,6 +1239,30 @@
       "basis_n": 28,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
+    },
+    {
+      "sector": 5,
+      "pt_name": "11 Margeanului",
+      "blocks": 31,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.308,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Petre Ispirescu - bl. M137, M138, M140, M198, M198A, M199, M217, M210, M211, M212, M214, M215, M216, M213 • Str Crăişorului - bl. M136, M143A, M143B • Str Cobadin - bl. M200, M201, M202, M209 • Str Dumbrava Nouă - bl. M207, M208A, M2M141, M142, M197, M206,08 • Str Iancu Jianu - bl. M204, M205, M203"
+    },
+    {
+      "sector": 5,
+      "pt_name": "10 Margeanului",
+      "blocks": 32,
+      "service": "Oprire ACC",
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.32,
+      "basis_n": 25,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Crăişorului - bl. M134B, M135A, M135B, M135C • Str Sold. Mihail Ilie - bl. M122B, M123A, M123B, M123C, M127, M128, M129, M130, M131, M132, M132A • Str Dumbrava Nouă - bl. M121, M122A , M133, M134A • Str Bârnova - bl. M115, M116, M117, M118, M119, M120, M120A • Str Mărgeanului - bl. M112, M113, M114, M124, M125, M126"
     },
     {
       "sector": 5,
@@ -1206,27 +1278,15 @@
     },
     {
       "sector": 5,
-      "pt_name": "Ct Baciului - Partial",
-      "blocks": 1,
+      "pt_name": "6 Margeanului",
+      "blocks": 19,
       "service": "Oprire ACC",
-      "cause": "Remediere avarie canal distanta",
-      "estimated_restore": "2026-10-13T13:30",
-      "on_time_probability": 0.5,
-      "basis_n": 6492,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Baciului - Bl 14"
-    },
-    {
-      "sector": 5,
-      "pt_name": "5 Margeanului",
-      "blocks": 22,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-10-13T13:00",
-      "on_time_probability": 0.5,
-      "basis_n": 24,
+      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
+      "estimated_restore": "2026-10-16T23:00",
+      "on_time_probability": 0.476,
+      "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sold. Ene Modoran - bl. M88, M89, M90 • Str Dumbrava Nouă - bl. M5, M16A, M83,M84, M85 • Str Cap. Petre Mişcă - bl. M9, M13, M14, M15, M16 • Str Bârca - bl. M6, M7, M8, M10, M86, M87 • Str Mărgeanului - bl. M11, M11A, M12"
+      "zone_raw": "• Str Cap. Ivan Anghelache - bl. M21, M25, M26, M27 • Str Sold. Ene Modoran - bl. M91, M92, M94 • Str Dumbrava Nouă - bl. M17, M28, M80, M81, M82 • Str Cap. Petre Mişcă - bl. M18, M19, M20, M22 • Str Mărgeanului - bl. M23, M23A, M24"
     },
     {
       "sector": 5,
@@ -1350,27 +1410,15 @@
     },
     {
       "sector": 6,
-      "pt_name": "4/7' - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. Brasov",
-      "estimated_restore": "2026-10-13T14:30",
-      "on_time_probability": 0.413,
-      "basis_n": 10546,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Braşov - bl 719 • Str Valea Călugărească - bl. 720"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 9 Placare",
-      "blocks": 19,
+      "pt_name": "G3 Giulești - Partial",
+      "blocks": 1,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-13T12:30",
-      "on_time_probability": 0.462,
-      "basis_n": 65,
+      "estimated_restore": "2026-10-13T18:30",
+      "on_time_probability": 0.429,
+      "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
+      "zone_raw": "• Bld Constructorilor - bl. G4"
     },
     {
       "sector": 6,
@@ -1443,54 +1491,6 @@
       "basis_n": 48,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Baia de Arieş - bl. 3 sc. 7+8, 7 • Str Baia de Arieş - bl. 5B, 10+10A, 11A+B, 12, 13 • Str Politehnicii - bl. 1, 8, 9, 6 • Ale Politehnicii - bl. 2, 3bis, 4, 5A, 3 sc. 1-6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "STUDENTI 2",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul primar",
-      "estimated_restore": "2026-10-13T15:30",
-      "on_time_probability": 0.402,
-      "basis_n": 97,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Spl Independenţei - CAMIN P18, P19, P17, P16, P15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1/7'",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Dr. Taberei.)",
-      "estimated_restore": "2026-10-13T14:00",
-      "on_time_probability": 0.353,
-      "basis_n": 34,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Drumul Taberei - bl OD1,OD2,TD18 • Ale Vlăsiei - bl. M1, M2, M3 • Str Râul Doamnei - bl.TD5, TS4, TS3, TS2, TS1 • Str Valea lui Mihai - bl TD7, TD6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 7/2 - MODULE TERMICE - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în modul termic pe circuitul primar",
-      "estimated_restore": "2026-10-13T14:00",
-      "on_time_probability": 0.333,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Timişoara - bl.OD6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "6 Roșia Montană",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-13T13:30",
-      "on_time_probability": 0.493,
-      "basis_n": 71,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. P7, P8, P9, P12 • Str Dezrobirii - bl. P3, P4, P5, P6, P14 • Bld Uverturii - bl. O14, O14A, O15 • Str Cetatea de Baltă - bl. P10, P11, P13, P15"
     },
     {
       "sector": 6,
