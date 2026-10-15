@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-15T00:55:59",
+  "scraped_at": "2026-10-15T07:34:22",
   "status": "ok",
   "outages": [
     {
@@ -414,27 +414,15 @@
     },
     {
       "sector": 4,
-      "pt_name": "9 Brâncoveanu",
-      "blocks": 4,
+      "pt_name": "4 Zona II",
+      "blocks": 28,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum in urma punerii in functiune a PT",
       "estimated_restore": "2026-10-15T23:30",
       "on_time_probability": 0.314,
       "basis_n": 956,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Secuilor - bl. B46 • Str Sg. Gheorghe Tache - bl. B41, B43, B44"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Giurgiu",
-      "blocks": 7,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum in urma punerii in functiune a PT",
-      "estimated_restore": "2026-10-15T23:30",
-      "on_time_probability": 0.429,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tufişului - Scoala nr.188 • Şos Giurgiului - bl. B, C, E, F, K • Str Şoimuş - bl. L"
+      "zone_raw": "• Ale Stupilor - bl. A8, A12, A13, Gradinita nr.175, Scoala nr.98 • Str Turnu Măgurele - bl. C2, C3 • Bld Constantin Brâncoveanu - bl. VB, V5, V6, V7, V8 • Ale Dorohoi - bl. A10, A11, A20, A24, E19, E20, E21, F20 ,F21 • Ale Covasna - bl. A6, A7, A9, A19, E18, E25, E27, F19, F26"
     },
     {
       "sector": 4,
