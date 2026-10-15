@@ -1,88 +1,56 @@
 episode_id,sector,pt_name,utility,slip_count
 0a0f8f6ef8a3,5,Modul Toporaşi,ACC,4
 cf5dbb55b94e,1,Ct Luterana,ACC,5
-b6d1d72631e5,4,1 Oltenita Placare,ACC,2
-1e9fdb7e7d48,4,1 Serban Voda,ACC,2
-221c4599f59c,4,1 Stoian Militaru,ACC,2
-3f3b5cfc72d9,4,1 Zona V,ACC,2
-cf3be3cc2c83,4,19 Dolhasca,ACC,2
-5c1d5fffe08b,4,2 Giurgiu,ACC,2
-35303458547c,4,2 Oltenita Placare,ACC,2
-bd3e53089d0b,4,2 Oltenitei,ACC,2
-562f906997c0,4,2 Serban Voda,ACC,2
-6babe80d67d3,4,2 Stoian Militaru,ACC,2
-0d27fb1d9530,4,3 Oltenita Placare,ACC,2
-3ee4a03c1c13,4,4 Oltenita Placare,ACC,2
-e132125731b3,4,4 Zona II,ACC,2
-db6e29b19f59,4,5 Brancoveanu,ACC,2
-7bb5b48ceffa,4,5 Oltenita,ACC,2
-86eccfbd99d6,4,6 Brancoveanu,ACC,2
-abf4a81485b1,4,8 Brancoveanu,ACC,2
-1fe11a2e5e9c,4,9 Brâncoveanu,ACC,2
-2735b01634aa,4,Livada Noua,ACC,2
-f91325ffb58e,4,Pieptanari,ACC,2
-339bddc0bbbc,4,Prasilei,ACC,2
-7ae558f92dc1,4,Sincai,ACC,2
+b6d1d72631e5,4,1 Oltenita Placare,ACC,3
+1e9fdb7e7d48,4,1 Serban Voda,ACC,3
+221c4599f59c,4,1 Stoian Militaru,ACC,3
+3f3b5cfc72d9,4,1 Zona V,ACC,4
+35303458547c,4,2 Oltenita Placare,ACC,3
+bd3e53089d0b,4,2 Oltenitei,ACC,3
+562f906997c0,4,2 Serban Voda,ACC,3
+6babe80d67d3,4,2 Stoian Militaru,ACC,3
+0d27fb1d9530,4,3 Oltenita Placare,ACC,3
+3ee4a03c1c13,4,4 Oltenita Placare,ACC,4
+e132125731b3,4,4 Zona II,ACC,4
+7bb5b48ceffa,4,5 Oltenita,ACC,3
+86eccfbd99d6,4,6 Brancoveanu,ACC,4
+f91325ffb58e,4,Pieptanari,ACC,3
+7ae558f92dc1,4,Sincai,ACC,3
+720c2bca7788,4,Tudor Gociu,ACC,4
 7c1b271328d3,2,A2 Basarabia,ACC,0
 d1dade52af65,2,A4 Basarabia,ACC,0
 1ec24e81e38b,3,1Muncii,ACC,0
 742ad3f85135,3,IOR,ACC,0
-ec8494b752cb,3,SC.1Baba Novac,ACC,2
 9837eb402a8d,3,3X,ACC,0
-a04532494f83,6,5 Desișului,ACC,0
-8077d4345fda,6,SC 4/5,ACC,0
 9d4ddd78d144,1,3 Aviatiei,ACC,1
 f2917c3745f9,1,4 Aviatiei,ACC,1
 4c40b7d8c529,1,5 Aviatiei,ACC,1
-5f318dfa6538,2,2 Teiul Doamnei - Partial,ACC,1
 ca46b7892957,2,3 Vaselor,ACC,0
 d189b7d2d07f,2,U1 Avrig,ACC,0
 f9ebb5850f46,2,U2 Avrig,ACC,0
-cd10b4869444,3,2 Unităţii,ACC,0
 3a1cd0047411,5,1 Drumul Sarii,ACC,0
-9941a7ef4f84,5,1 Salaj,ACC,0
 4d72ed33aa40,5,2 Petre Ispirescu,ACC,0
-e126af5fdd40,5,2 Sălaj,ACC,0
 937ab5c643fa,5,3 Drumul Sării,ACC,0
 d36b4ad0d5ab,5,3 Petre Ispirescu,ACC,0
-d35b066d662d,5,3 Sălaj,ACC,0
 64dbab6dd7b8,5,4 Drumul Sarii,ACC,0
-0991c309f7d1,5,5 Margeanului,ACC,1
 acb2f7d4f7c6,5,6 Petre Ispirescu,ACC,0
-a8a75eaf1488,5,6 Rahova,ACC,0
 ad8c74707d73,5,7 Petre Ispirescu,ACC,0
-8ffc17618f69,5,Vicina,ACC,0
 848aaf78b0ac,6,1 Uverturii,ACC,1
 e3818d4b7624,6,2 Politehnicii,ACC,1
 627e2388617a,6,2 Uverturii,ACC,1
 d6308eb034db,6,Ansamblul QUADRA PLACE II,ACC,1
 a911cab69e2b,6,Depou Metrou Ciurel,ACC,1
 e53860e05ff0,6,PT Loc. ICAB,ACC,1
-3ef14740ce91,6,SC 7/2 - MODULE TERMICE - Partial,ACC,1
-693a8687e948,6,STUDENTI 2,ACC,1
 90a84889b483,3,1 Călăraşi,ACC,0
 1b279b54986b,3,1 Labirint,ACC,0
-3ec8d0837356,3,2 Cornul Caprei,ACC,0
 3d8be51c33bf,3,2 Călăraşi,ACC,0
 7e3f064589e7,3,3 Călăraşi,ACC,0
 5d009c7e966f,3,3 Labirint,ACC,0
 143917a36f18,3,3 Theodor Speranţia,ACC,0
 2bff8bfefac3,3,4 Labirint,ACC,0
-7d64839bd1c3,3,4 Theodor Speranţia,ACC,0
-984f1e4cae17,3,5 Cornul Caprei,ACC,0
 20577a59d54d,3,5 Călăraşi,ACC,0
-06bcf47df8c8,3,I3,ACC,0
-4d5a9b7cf5d2,3,S14,ACC,0
-702dafc08b0c,3,S6,ACC,0
-ec8413a3c4ab,5,1 Petre Ispirescu,ACC,0
-7d54ca6d276e,5,10 Margeanului,ACC,0
-7c78123458e0,5,11 Margeanului,ACC,0
-7f825e648b3d,5,6 Margeanului,ACC,0
-2a9f8516f7f7,5,9 Margeanului,ACC,0
 08ea4feb3852,1,1 Aviatiei,ACC,0
 ab380150840d,1,2 Aviatiei,ACC,1
-558b3e2e63ab,1,3 P-Ţa Victoriei,ACC,0
-4bd53dfc09cc,1,5-1 Mai,ACC,0
 c8a51f7ab6fb,1,6 Aviatiei,ACC,0
 c72fb9146b6d,1,Beller Bitolia,ACC,0
 4fa9eaa24b49,1,Floreasca,ACC,0
@@ -90,13 +58,7 @@ f17076140bf3,1,Perla,ACC,0
 ad1a957e8a69,1,Radu Beller,ACC,0
 b65681c1e0a6,2,2 Stefan cel Mare,ACC,0
 e0f1558827ae,2,3 Stefan cel Mare,ACC,0
-5587e788cea9,2,4 Cheile Zanoagei - Partial,ACC,0
 2d6907d1ef12,2,Aleea Circului,ACC,0
 409426bb0a02,2,Barbu Vacarescu,ACC,0
 7e4f74282711,2,Modul Bl. 6 Stefan cel Mare,ACC,0
-aef044e57b5a,3,13 Tomis - Partial,ACC,0
-a7bae3dcda77,3,7 Călăraşi,ACC,0
 d037ce98481f,5,103A,ACC,0
-b154ce611e3e,6,6 Roșia Montană - Partial,ACC,0
-47e091cda99f,6,6/8 - Partial,ACC,0
-5bb9f616c967,6,9/4,ACC,0
