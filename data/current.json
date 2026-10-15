@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-16T00:34:58",
+  "scraped_at": "2026-10-16T02:50:42",
   "status": "ok",
   "outages": [
     {
@@ -618,30 +618,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "3 Drumul Sării",
-      "blocks": 19,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
-      "estimated_restore": "2026-10-16T23:00",
-      "on_time_probability": 0.6,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Baltagului - bl. V77, V78, V81 • Ale Botorani - bl. V28, V35, V36, V37, V42, V43, V80, V82, V83, V84 • Cal 13 Septembrie - bl. V38, V39, V40 • Str Mihail Sebastian - bl. V29, V30, V79"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Drumul Sarii",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
-      "estimated_restore": "2026-10-16T23:00",
-      "on_time_probability": 0.538,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lacul Plopului - bl. V7, P73 • Cal 13 Septembrie - bl. V1, V3, V4, V5, V6 • Str Şerbota - bl. P74, V8, V9, V19, V20, V21 • Str Sg. maj. Ion Nedeleanu - bl. V22, V23"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Petre Ispirescu",
       "blocks": 16,
       "service": "Oprire ACC",
@@ -654,30 +630,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "6 Petre Ispirescu",
-      "blocks": 10,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
-      "estimated_restore": "2026-10-16T23:00",
-      "on_time_probability": 0.348,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sg.maj. Vasile Topliceanu - bl. P37, P31, P32, P38, P36, P38A • Str Sg. maj. Ion Nedeleanu - bl. P33, P34, P35, P39"
-    },
-    {
-      "sector": 5,
-      "pt_name": "7 Petre Ispirescu",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
-      "estimated_restore": "2026-10-16T23:00",
-      "on_time_probability": 0.5,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Petre Ispirescu - bl. P71A, P72B • Str Lacul Plopului - bl. P64 • Str Dorneasca - bl. P72 • Str Sg.maj. Vasile Topliceanu - bl. P66, P67"
-    },
-    {
-      "sector": 5,
       "pt_name": "2 Petre Ispirescu",
       "blocks": 12,
       "service": "Oprire ACC",
@@ -687,18 +639,6 @@
       "basis_n": 28,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Dumbrava Nouă - bl. P3, P47 • Str Moţoc - bl. P48, P56, P53, P54, P55 • Str Elev Nicolae Popovici - bl. P51, P49, P50 • Str Novaci - bl. P55, P52"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 Drumul Sarii",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Lucrări de reabilitare a sistemului de termoficare al Municipiului Bucuresti executate de către Asocierea Energomontaj SA (lider) - SC Elsaco Electronic SRL - SC Sicor SRL și IPCT Instalatii SRL",
-      "estimated_restore": "2026-10-16T23:00",
-      "on_time_probability": 0.469,
-      "basis_n": 32,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
     },
     {
       "sector": 5,
