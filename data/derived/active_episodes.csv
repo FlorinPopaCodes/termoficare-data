@@ -1,64 +1,68 @@
 episode_id,sector,pt_name,utility,slip_count
 0a0f8f6ef8a3,5,Modul Toporaşi,ACC,4
 cf5dbb55b94e,1,Ct Luterana,ACC,5
-b6d1d72631e5,4,1 Oltenita Placare,ACC,3
-1e9fdb7e7d48,4,1 Serban Voda,ACC,3
-221c4599f59c,4,1 Stoian Militaru,ACC,3
-3f3b5cfc72d9,4,1 Zona V,ACC,4
-35303458547c,4,2 Oltenita Placare,ACC,3
-bd3e53089d0b,4,2 Oltenitei,ACC,3
-562f906997c0,4,2 Serban Voda,ACC,3
-6babe80d67d3,4,2 Stoian Militaru,ACC,3
-0d27fb1d9530,4,3 Oltenita Placare,ACC,3
-3ee4a03c1c13,4,4 Oltenita Placare,ACC,4
-e132125731b3,4,4 Zona II,ACC,4
-7bb5b48ceffa,4,5 Oltenita,ACC,3
-86eccfbd99d6,4,6 Brancoveanu,ACC,4
-f91325ffb58e,4,Pieptanari,ACC,3
-7ae558f92dc1,4,Sincai,ACC,3
-720c2bca7788,4,Tudor Gociu,ACC,4
+b6d1d72631e5,4,1 Oltenita Placare,ACC,6
+1e9fdb7e7d48,4,1 Serban Voda,ACC,6
+221c4599f59c,4,1 Stoian Militaru,ACC,5
+3f3b5cfc72d9,4,1 Zona V,ACC,6
+35303458547c,4,2 Oltenita Placare,ACC,6
+bd3e53089d0b,4,2 Oltenitei,ACC,6
+562f906997c0,4,2 Serban Voda,ACC,6
+6babe80d67d3,4,2 Stoian Militaru,ACC,6
+0d27fb1d9530,4,3 Oltenita Placare,ACC,6
+3ee4a03c1c13,4,4 Oltenita Placare,ACC,6
+86eccfbd99d6,4,6 Brancoveanu,ACC,6
+f91325ffb58e,4,Pieptanari,ACC,6
+7ae558f92dc1,4,Sincai,ACC,6
 7c1b271328d3,2,A2 Basarabia,ACC,0
 d1dade52af65,2,A4 Basarabia,ACC,0
 1ec24e81e38b,3,1Muncii,ACC,0
 742ad3f85135,3,IOR,ACC,0
 9837eb402a8d,3,3X,ACC,0
-9d4ddd78d144,1,3 Aviatiei,ACC,1
-f2917c3745f9,1,4 Aviatiei,ACC,1
-4c40b7d8c529,1,5 Aviatiei,ACC,1
 ca46b7892957,2,3 Vaselor,ACC,0
 d189b7d2d07f,2,U1 Avrig,ACC,0
 f9ebb5850f46,2,U2 Avrig,ACC,0
-3a1cd0047411,5,1 Drumul Sarii,ACC,0
 4d72ed33aa40,5,2 Petre Ispirescu,ACC,0
-937ab5c643fa,5,3 Drumul Sării,ACC,0
 d36b4ad0d5ab,5,3 Petre Ispirescu,ACC,0
-64dbab6dd7b8,5,4 Drumul Sarii,ACC,0
-acb2f7d4f7c6,5,6 Petre Ispirescu,ACC,0
-ad8c74707d73,5,7 Petre Ispirescu,ACC,0
-848aaf78b0ac,6,1 Uverturii,ACC,1
-e3818d4b7624,6,2 Politehnicii,ACC,1
-627e2388617a,6,2 Uverturii,ACC,1
-d6308eb034db,6,Ansamblul QUADRA PLACE II,ACC,1
-a911cab69e2b,6,Depou Metrou Ciurel,ACC,1
-e53860e05ff0,6,PT Loc. ICAB,ACC,1
-90a84889b483,3,1 Călăraşi,ACC,0
-1b279b54986b,3,1 Labirint,ACC,0
-3d8be51c33bf,3,2 Călăraşi,ACC,0
-7e3f064589e7,3,3 Călăraşi,ACC,0
-5d009c7e966f,3,3 Labirint,ACC,0
-143917a36f18,3,3 Theodor Speranţia,ACC,0
-2bff8bfefac3,3,4 Labirint,ACC,0
-20577a59d54d,3,5 Călăraşi,ACC,0
-08ea4feb3852,1,1 Aviatiei,ACC,0
-ab380150840d,1,2 Aviatiei,ACC,1
-c8a51f7ab6fb,1,6 Aviatiei,ACC,0
-c72fb9146b6d,1,Beller Bitolia,ACC,0
-4fa9eaa24b49,1,Floreasca,ACC,0
-f17076140bf3,1,Perla,ACC,0
-ad1a957e8a69,1,Radu Beller,ACC,0
-b65681c1e0a6,2,2 Stefan cel Mare,ACC,0
+848aaf78b0ac,6,1 Uverturii,ACC,2
+e3818d4b7624,6,2 Politehnicii,ACC,2
+627e2388617a,6,2 Uverturii,ACC,2
+e53860e05ff0,6,PT Loc. ICAB,ACC,2
 e0f1558827ae,2,3 Stefan cel Mare,ACC,0
 2d6907d1ef12,2,Aleea Circului,ACC,0
 409426bb0a02,2,Barbu Vacarescu,ACC,0
-7e4f74282711,2,Modul Bl. 6 Stefan cel Mare,ACC,0
-d037ce98481f,5,103A,ACC,0
+d381a641b80c,4,1 Zona IV,ACC,2
+3c59f1cd38e4,4,3 Zona V,ACC,2
+62dae5c874de,4,5 Brancoveanu,ACC,2
+53121e5c8097,4,6 Vifornita,ACC,2
+411a0415549a,4,Curcani,ACC,2
+da43fd54394e,4,Urziceni,ACC,2
+1f13016caf99,4,2 Vifornita,ACC,2
+35f4450b4ee6,4,2 Zona V,ACC,2
+2f73c3109701,4,Dealul Cernei,ACC,2
+2ff710d9e3ed,4,Huedin,ACC,2
+5a3f97a51c19,4,8 Brancoveanu,ACC,2
+e72a6a479d76,4,Spinis,ACC,1
+5e06b1737f36,4,Uioara,ACC,1
+c11e7d330f7f,6,ISCH,ACC,0
+16e6e4108c2d,6,REGIE 2,ACC,0
+497823e5b0a5,6,REGIE 3,ACC,0
+7fb1c7e9c09f,6,REGIE 4,ACC,0
+fc33188f02bb,6,STUDENTI 2,ACC,0
+babae5d82a01,6,ZAGANESCU,ACC,0
+e7cafd8f8b2b,1,2 P-ta Victoriei,ACC,0
+3817c90708b6,2,4 Colentina,ACC,0
+6028dbde7b11,4,1 Bis Zona I,ACC,0
+32c964fc9644,4,1 Nitu Vasile,ACC,0
+a4b1e00af020,4,1 Zona II,ACC,0
+98832a5876d8,4,2 Giurgiu,ACC,0
+52c3e7752382,4,2 Nitu Vasile,ACC,0
+1a383bbd437d,4,3 Nitu Vasile,ACC,0
+b035e4f83747,4,3 Zona II,ACC,0
+89492d77500e,4,4 Zona II,ACC,0
+a8caa56feeb2,4,6 Zona II,ACC,0
+504246040914,4,Posta,ACC,0
+0d56f259205a,4,Prasilei,ACC,0
+259daad7c392,4,Tudor Gociu,ACC,0
+95e25526eec9,5,5 Margeanului - Partial,ACC,0
+28ff00424058,6,10 Aragonitului,ACC,0
