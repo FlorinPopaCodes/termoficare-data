@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-19T00:10:40",
+  "scraped_at": "2026-10-19T02:07:28",
   "status": "ok",
   "outages": [
     {
@@ -27,102 +27,6 @@
       "basis_n": 10264,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Voroneţ - bl. D6"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Bis Zona I",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-19T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Slt. p.m. Dragoş Mladinovici - bl. I15 • Ale Terasei - bl. R12A, R12B • Bld Alexandru Obregia - bl. I2A, I2B, I2C, I1, I4, M1, M2, M5, M6, M7, M8, R13A, R13B, R14, Scoala nr.194, Gradinita nr.29 • Str Emil Racoviţă - bl. R1, R18,U1"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Serban Voda",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-19T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
-    },
-    {
-      "sector": 4,
-      "pt_name": "4 Oltenita Placare",
-      "blocks": 7,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-19T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Nitu Vasile",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-19T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Secuilor - bl. 2, 3, 4, 5; Scoala Gimnaziala nr.96 • Str Sg. Niţu Vasile - bl. 1, 1V, 2, 3V, 4V, 5V, 6V, 8V, 9V, Complex Comercial • Ale Mirea Mioara Luiza - bl. 6. 7, Biserica • Ale Cricovul Sărat - bl. 8, 9, 10"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Stoian Militaru",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-19T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Oltenita Placare",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-19T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Stoian Militaru",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-19T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
-    },
-    {
-      "sector": 4,
-      "pt_name": "3 Oltenita Placare",
-      "blocks": 22,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-19T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
     },
     {
       "sector": 4,
