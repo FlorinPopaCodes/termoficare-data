@@ -7802,3 +7802,13 @@ snapshot_ts,sector,pt_name,blocks,service,cause,estimated_restore,zone_raw
 2026-10-18T01:46:19,3,4 Theodor Speranţia - Partial,1,Oprire ACC,Avarie CD-ACC bl.D6 / str. Voronet.,2026-10-19T15:30,• Str Voroneţ - bl. D6
 2026-10-18T01:46:19,5,Modul Toporaşi,1,Oprire ACC,Revizie tehnică - CTE Progresu,2026-11-01T23:00,• Str Toporaşi - 1
 2026-10-18T01:46:19,6,ISCH,1,Oprire ACC,Remediere avarie retea primara,2026-10-19T23:30,• Spl Independenţei - bl. ISCH
+2026-10-18T12:20:24,1,Ct Luterana,5,Oprire ACC,Sistare furnizare gaze naturale /Centrala Termica Luterana.,2026-11-01T20:00,"• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+2026-10-18T12:20:24,3,4 Theodor Speranţia - Partial,1,Oprire ACC,Avarie CD-ACC bl.D6 / str. Voronet.,2026-10-19T15:30,• Str Voroneţ - bl. D6
+2026-10-18T12:20:24,4,2 Serban Voda,5,Deficienta ACC,Funcționare deficitară a apei calde de consum,2026-10-18T23:30,"• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
+2026-10-18T12:20:24,4,2 Stoian Militaru,15,Deficienta ACC,Funcționare deficitară a apei calde de consum,2026-10-18T23:30,"• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
+2026-10-18T12:20:24,4,5 Brancoveanu,8,Deficienta ACC,Funcționare deficitară a apei calde de consum,2026-10-18T23:30,"• Str Împăratul Traian - bl. B8, B9, B10, B11 • Bld Constantin Brâncoveanu - bl. B3, B4, B5, B7"
+2026-10-18T12:20:24,4,1 Stoian Militaru,6,Deficienta ACC,Funcționare deficitară a apei calde de consum,2026-10-18T23:30,"• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
+2026-10-18T12:20:24,4,3 Oltenita Placare,22,Deficienta ACC,Funcționare deficitară a apei calde de consum,2026-10-18T23:30,"• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
+2026-10-18T12:20:24,4,Curcani,32,Oprire ACC,Remediere avarie în punctul termic Str. Lamotesti nr.1,2026-10-19T08:00,"• Str Semenic - bl. 20 • Str Huedin - bl. 1, 2, 3, 6, 7, 11, III/21A • Str Izvorul Oltului - bl. 4, 21, 22, III/25 • Str Lamoteşti - bl. 4, 5, 10, 11A, 11B, 12, 13, 14, 15, 62, III/21B • Bld Constantin Brâncoveanu - bl. 8, 9, 18, 19 • Ale Crevedia - bl. 16, 17 • Str Cetatea Veche - bl. III/4, III/5A, III/5B"
+2026-10-18T12:20:24,5,Modul Toporaşi,1,Oprire ACC,Revizie tehnică - CTE Progresu,2026-11-01T23:00,• Str Toporaşi - 1
+2026-10-18T12:20:24,6,ISCH,1,Oprire ACC,Remediere avarie retea primara,2026-10-19T23:30,• Spl Independenţei - bl. ISCH

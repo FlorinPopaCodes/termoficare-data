@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-18T01:46:19",
+  "scraped_at": "2026-10-18T12:20:24",
   "status": "ok",
   "outages": [
     {
@@ -24,9 +24,81 @@
       "cause": "Avarie CD-ACC bl.D6 / str. Voronet.",
       "estimated_restore": "2026-10-19T15:30",
       "on_time_probability": 0.473,
-      "basis_n": 10259,
+      "basis_n": 10264,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Voroneţ - bl. D6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Serban Voda",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-10-18T23:30",
+      "on_time_probability": 0.348,
+      "basis_n": 800,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-10-18T23:30",
+      "on_time_probability": 0.348,
+      "basis_n": 800,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "5 Brancoveanu",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-10-18T23:30",
+      "on_time_probability": 0.348,
+      "basis_n": 800,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Împăratul Traian - bl. B8, B9, B10, B11 • Bld Constantin Brâncoveanu - bl. B3, B4, B5, B7"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Stoian Militaru",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-10-18T23:30",
+      "on_time_probability": 0.348,
+      "basis_n": 800,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Oltenita Placare",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde de consum",
+      "estimated_restore": "2026-10-18T23:30",
+      "on_time_probability": 0.348,
+      "basis_n": 800,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Curcani",
+      "blocks": 32,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic Str. Lamotesti nr.1",
+      "estimated_restore": "2026-10-19T08:00",
+      "on_time_probability": 0.563,
+      "basis_n": 32,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Semenic - bl. 20 • Str Huedin - bl. 1, 2, 3, 6, 7, 11, III/21A • Str Izvorul Oltului - bl. 4, 21, 22, III/25 • Str Lamoteşti - bl. 4, 5, 10, 11A, 11B, 12, 13, 14, 15, 62, III/21B • Bld Constantin Brâncoveanu - bl. 8, 9, 18, 19 • Ale Crevedia - bl. 16, 17 • Str Cetatea Veche - bl. III/4, III/5A, III/5B"
     },
     {
       "sector": 5,
