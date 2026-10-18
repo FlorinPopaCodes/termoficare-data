@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-18T12:20:24",
+  "scraped_at": "2026-10-18T16:23:47",
   "status": "ok",
   "outages": [
     {
@@ -51,18 +51,6 @@
       "basis_n": 800,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
-    },
-    {
-      "sector": 4,
-      "pt_name": "5 Brancoveanu",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum",
-      "estimated_restore": "2026-10-18T23:30",
-      "on_time_probability": 0.348,
-      "basis_n": 800,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Împăratul Traian - bl. B8, B9, B10, B11 • Bld Constantin Brâncoveanu - bl. B3, B4, B5, B7"
     },
     {
       "sector": 4,
