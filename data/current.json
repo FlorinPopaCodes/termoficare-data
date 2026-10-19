@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-19T02:07:28",
+  "scraped_at": "2026-10-19T09:10:24",
   "status": "ok",
   "outages": [
     {
@@ -17,6 +17,18 @@
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
     },
     {
+      "sector": 2,
+      "pt_name": "3 Colentina - Partial",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-10-19T13:00",
+      "on_time_probability": 0.498,
+      "basis_n": 11684,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Maşina de Pâine - bl. R30, OD39 • Şos Colentina - BL.R24, R26, R25"
+    },
+    {
       "sector": 3,
       "pt_name": "4 Theodor Speranţia - Partial",
       "blocks": 1,
@@ -30,11 +42,83 @@
     },
     {
       "sector": 4,
+      "pt_name": "2 Serban Voda",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă",
+      "estimated_restore": "2026-10-19T23:30",
+      "on_time_probability": 0.374,
+      "basis_n": 147,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mitropolitul Dosoftei - Imobil nr.6 • Cal Şerban Vodă - bl. 13, 14, 15, Imobil nr.168"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Oltenita Placare",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă",
+      "estimated_restore": "2026-10-19T23:30",
+      "on_time_probability": 0.396,
+      "basis_n": 240,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Alunişului - bl. 12C • Str Împăratul Traian - bl. B1A, B12 • Bld Constantin Brâncoveanu - bl. 12A, 12B, B1, B2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Stoian Militaru",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă",
+      "estimated_restore": "2026-10-19T23:30",
+      "on_time_probability": 0.328,
+      "basis_n": 204,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 17, 18 • Str Padeşu - bl. 4, 5, 9, 10, 14, 15 • Str Pictor Ştefan Dimitrescu - bl. 3, 7, 8, 11, 12, 13 • Str Laloşu - bl. 6"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Serban Voda",
+      "blocks": 4,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă",
+      "estimated_restore": "2026-10-19T23:30",
+      "on_time_probability": 0.382,
+      "basis_n": 186,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Simion - Imobil nr. 42 • Str G-ral Candiano Popescu - bl. 2 • Cal Şerban Vodă - bl. 1, 2, 2B"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Stoian Militaru",
+      "blocks": 6,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă",
+      "estimated_restore": "2026-10-19T23:30",
+      "on_time_probability": 0.387,
+      "basis_n": 155,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Oltenita Placare",
+      "blocks": 22,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă",
+      "estimated_restore": "2026-10-19T23:30",
+      "on_time_probability": 0.392,
+      "basis_n": 143,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Olteniţei - bl. 2A, 2B, 2C, 2D, 3C, 3D, 3E, 4A, 4B, 4C, 4D, 5A, 5B, 5C, 5D, 5E • Str Gheorghe Adamescu - bl. 4E • Str Pometului - Imobil nr.41 • Str Laloşu - bl. 3A, 3B, 2E"
+    },
+    {
+      "sector": 4,
       "pt_name": "Curcani",
       "blocks": 32,
-      "service": "Oprire ACC",
+      "service": "Oprire ACC/INC",
       "cause": "Remediere avarie în punctul termic Str. Lamotesti nr.1",
-      "estimated_restore": "2026-10-19T08:00",
+      "estimated_restore": "2026-10-19T15:30",
       "on_time_probability": 0.563,
       "basis_n": 32,
       "basis_bucket": "pt_cause_slip",
