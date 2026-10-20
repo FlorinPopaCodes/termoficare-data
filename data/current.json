@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-20T15:10:11",
+  "scraped_at": "2026-10-20T19:57:47",
   "status": "ok",
   "outages": [
     {
@@ -114,6 +114,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "P16 Mihai Bravu",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-20T23:30",
+      "on_time_probability": 0.374,
+      "basis_n": 147,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Mihai Bravu - bl.P16-P16A, P16Bis • Bld Ferdinand I - bl.P32, P31, P33, P17 • Str Avrig - bl.P33A • Str Ziduri Între Vii - imob.Nr.11"
+    },
+    {
+      "sector": 2,
       "pt_name": "Barbu Vacarescu",
       "blocks": 6,
       "service": "Deficienta ACC",
@@ -135,18 +147,6 @@
       "basis_n": 130,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Judeţului - bl.18, 19, 20, 17, 20 NOU • Bld Lacul Tei - bl.19NOU"
-    },
-    {
-      "sector": 2,
-      "pt_name": "ICB",
-      "blocks": 2,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.194,
-      "basis_n": 93,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Lacul Tei -"
     },
     {
       "sector": 2,
@@ -174,30 +174,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "5 Lacul Tei",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.307,
-      "basis_n": 215,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tuzla - bl.11, 11A • Str Grigore C. Moisil - bl.9, 10, 8, 6A, 6 • Bld Lacul Tei - bl.5A2, 5, 5A1, 4, 6B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "1 Cheile Zanoagei",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.426,
-      "basis_n": 310,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Cristea Mateescu - bl.T4A, T6A, T4B • Str Petre Antonescu - bl.T3A, T3B, T3C • Str Grigore Ionescu - bl.T8A, T7A , T7B, T7C, T6B • Str Brebu - bl.T9B, T9A, T10, T11, T5 • Str Oteşani - bl.T1, T2, T8B"
-    },
-    {
-      "sector": 2,
       "pt_name": "4 Stefan cel Mare",
       "blocks": 22,
       "service": "Deficienta ACC",
@@ -207,42 +183,6 @@
       "basis_n": 160,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Ştefan cel Mare - bl.38B, 39, 41; 33A, 35A, 36B, 35B, 36A, 41BC, 37, 38, 33B, 35B2 • Str Viitorului - bl.42A, 42B • Str Viesparilor - bl. 33C, 34 • Str Badea Cârţan - bl.37A , 40, 40Bis, imob.Nr.62, 67"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Stefan cel Mare",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.354,
-      "basis_n": 48,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Ştefan cel Mare - bl. 30A, 30B, 27A, 27, 26A, 26, 24A, 24B, 26 • Str Vasile Lascăr - bl. 31A, 31B; imobil 203 • Str Tunari - bl. 24C, 24D • Str Serg. Năstase Pamfil - bl. 29, 32; imobil 38 • Str Ghiocei - bl. 30C"
-    },
-    {
-      "sector": 2,
-      "pt_name": "17-18 Petricani",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.319,
-      "basis_n": 113,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
-    },
-    {
-      "sector": 2,
-      "pt_name": "4 Cheile Zanoagei",
-      "blocks": 26,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.278,
-      "basis_n": 248,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Alexandru cel Bun - BL.T61; T50 sc.1 • Str Deleni - bl.T69, T65, T63; T66, T74, T64 • Str Grigore Ionescu - bl.T71, T75, T72, T59, T60, T73 • Str Maica Domnului - bl.T56, T57, T58, T54, T55, T52, T53, T51, T50 sc.2 • Str Oteşani - bl.T70, T68, T67, T62"
     },
     {
       "sector": 2,
@@ -258,78 +198,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "U2 Avrig",
-      "blocks": 1,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.459,
-      "basis_n": 111,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Avrig - bl.U2"
-    },
-    {
-      "sector": 2,
-      "pt_name": "U1 Avrig",
-      "blocks": 1,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.381,
-      "basis_n": 84,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Avrig - bl.U1"
-    },
-    {
-      "sector": 2,
-      "pt_name": "C16 Mihai Bravu",
-      "blocks": 5,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.235,
-      "basis_n": 51,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl. C16, C17, C18, C, C19 • Str Avrig - bl. E2"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Vaselor",
-      "blocks": 18,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.459,
-      "basis_n": 146,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl.P3, P30A, 4, 4Bis, P14, P12, P15Bis, P15, P13 • Str Pictor Oscar Obedeanu - imob.Nr.18 • Ale Avrig - bl.P4, P5, P6, P18Bis, P30, P18, P19Bis, P19"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Mecanica Fina",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-20T23:30",
-      "on_time_probability": 0.388,
-      "basis_n": 67,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Popa Lazăr - bl. Aversa • Şos Pantelimon - bl. P2, 5D, 5C, 5A, 5B, • Bld Ferdinand I - bl. E1- E4, G1- G3, imob.Nr.125"
-    },
-    {
-      "sector": 2,
-      "pt_name": "18 Pantelimon - Partial",
-      "blocks": 3,
-      "service": "Oprire INC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire",
-      "estimated_restore": "2026-10-23T15:30",
-      "on_time_probability": 0.498,
-      "basis_n": 11685,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Pantelimon - bl. 400B, 400A, 400C"
-    },
-    {
-      "sector": 2,
       "pt_name": "201 Mihai Bravu",
       "blocks": 5,
       "service": "Oprire ACC/INC",
@@ -342,6 +210,30 @@
     },
     {
       "sector": 3,
+      "pt_name": "C3 Căuzaşi",
+      "blocks": 11,
+      "service": "Oprire ACC/INC",
+      "cause": "Depistare si remediere avarie retea primara.",
+      "estimated_restore": "2026-10-23T23:00",
+      "on_time_probability": 0.438,
+      "basis_n": 112,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Negru Vodă - C3, C4, C3A • Str Mămulari - C1, C2 • Bld Unirii - A1, A2, A3, A4 • Str Sfânta Vineri - A6, A5"
+    },
+    {
+      "sector": 3,
+      "pt_name": "7 Călăraşi",
+      "blocks": 9,
+      "service": "Oprire ACC/INC",
+      "cause": "Depistare si remediere avarie retea primara.",
+      "estimated_restore": "2026-10-23T23:00",
+      "on_time_probability": 0.5,
+      "basis_n": 88,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Corneliu Coposu - 105A, 103, 104, 101, 106A, 105A • Str Sfânta Vineri - 105B, 105C, 102"
+    },
+    {
+      "sector": 3,
       "pt_name": "2 Cornul Caprei",
       "blocks": 3,
       "service": "Oprire ACC/INC",
@@ -351,30 +243,6 @@
       "basis_n": 90,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 C3/1 - Partial",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-20T15:30",
-      "on_time_probability": 0.473,
-      "basis_n": 10265,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Horbotei - bl. M1, M2, T3, T4, G5, M10 • Int Bădeni - bl. M61"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Placare-T - Partial",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-20T15:30",
-      "on_time_probability": 0.286,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mizil - bl. 3A, G17, 3 • Str Prevederii - bl. G15,G16"
     },
     {
       "sector": 3,
@@ -678,6 +546,15 @@
     },
     {
       "sector": 4,
+      "pt_name": "Ct Marasesti 9-10 - Partial",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie retea secundara pe circuitul de apa calda de consum, Strada Diditel",
+      "estimated_restore": null,
+      "zone_raw": "• Str Drumea Rădulescu - Vila 27,29 • Str Didiţel - Vila 18,24,28,29,30"
+    },
+    {
+      "sector": 4,
       "pt_name": "2 Nitu Vasile",
       "blocks": 17,
       "service": "Deficienta ACC",
@@ -762,6 +639,18 @@
     },
     {
       "sector": 4,
+      "pt_name": "5 Brancoveanu",
+      "blocks": 8,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-20T23:00",
+      "on_time_probability": 0.366,
+      "basis_n": 82,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Împăratul Traian - bl. B8, B9, B10, B11 • Bld Constantin Brâncoveanu - bl. B3, B4, B5, B7"
+    },
+    {
+      "sector": 4,
       "pt_name": "3 Zona II",
       "blocks": 19,
       "service": "Deficienta ACC",
@@ -771,6 +660,18 @@
       "basis_n": 85,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Vatra Dornei - Scoala nr.108 • Bld Constantin Brâncoveanu - bl. C4A, C4B, E13, V1A, V3, V4 • Str Dorohoi - bl. EF24, F15 • Str Covasna - bl. E11, E15, E16, F13, F17, F18 • Ale Covasna - bl. E14, EF23, F12, F14, F16"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Oltenita Placare",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum",
+      "estimated_restore": "2026-10-20T23:00",
+      "on_time_probability": 0.355,
+      "basis_n": 248,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Stoian Militaru - bl. 7B • Şos Olteniţei - bl. 6A , 7A, 11C • Str Alunişului - bl. 11A, 11B • Str Radului - bl. 8A, 10A • Str Dr. Anton Colorian - bl. 9A"
     },
     {
       "sector": 4,
@@ -894,18 +795,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "Huedin",
-      "blocks": 17,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-10-20T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Straja - bl. 52 • Str Moldoveni - bl. B15, B21 • Str Grădiştea - bl. 48, B5 • Str Reşiţa - bl. 49, 50, 51, Biserica Sf. Daniel • Str Huedin - bl. A26, 34, M1/2 • Ale Huedin - bl. 2, 3, 4, 5 • Str Uioara - bl. 33"
-    },
-    {
-      "sector": 4,
       "pt_name": "V.S.Sud",
       "blocks": 11,
       "service": "Oprire ACC/INC",
@@ -987,54 +876,6 @@
       "basis_n": 94,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Toporaşi - 1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3 Dreptății",
-      "blocks": 10,
-      "service": "Oprire ACC/INC",
-      "cause": "Izolare tronson CD2 pentru depistare și remediere avarie racord primar - conductă DN 300mm",
-      "estimated_restore": "2026-10-21T23:30",
-      "on_time_probability": 0.481,
-      "basis_n": 79,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. O2, O3 • Bld Iuliu Maniu - bl. 18,19 • Str Roşia Montană - bl. 17, O1A, O1B, M20 • Str Dealul Ţugulea - bl. O1C, M18"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4 Roșia Montană",
-      "blocks": 15,
-      "service": "Oprire ACC/INC",
-      "cause": "Izolare tronson CD2 pentru depistare și remediere avarie racord primar - conductă DN 300mm",
-      "estimated_restore": "2026-10-21T23:30",
-      "on_time_probability": 0.479,
-      "basis_n": 96,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. O4, O10 • Str Roşia Montană - bl. O5, O7, 29, 30, 32 • Str Dezrobirii - bl. O8, O8A, O9, 27, 33 • Str Cetatea de Baltă - bl. O6, O7A, 28, 31"
-    },
-    {
-      "sector": 6,
-      "pt_name": "6 Roșia Montană",
-      "blocks": 17,
-      "service": "Oprire ACC/INC",
-      "cause": "Izolare tronson CD2 pentru depistare și remediere avarie racord primar - conductă DN 300mm",
-      "estimated_restore": "2026-10-21T23:30",
-      "on_time_probability": 0.486,
-      "basis_n": 72,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. P7, P8, P9, P12 • Str Dezrobirii - bl. P3, P4, P5, P6, P14 • Bld Uverturii - bl. O14, O14A, O15 • Str Cetatea de Baltă - bl. P10, P11, P13, P15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3/7'",
-      "blocks": 22,
-      "service": "Oprire ACC",
-      "cause": "Inlocuire conducta apa rece incinta PT",
-      "estimated_restore": "2026-10-20T17:30",
-      "on_time_probability": 0.286,
-      "basis_n": 1528,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Valea Călugărească - bl. E1, E3, E2 • Prl Ghencea - bl. A1, A2, R1, R2, D3, TS9, TS10 • Ale Ghencea - bl.A12 • Str Râul Doamnei - bl. TS8 • Str Valea lui Mihai - bl. A3, A4, D1, D2,TD14, TD13, TD12, TD11"
     },
     {
       "sector": 6,
