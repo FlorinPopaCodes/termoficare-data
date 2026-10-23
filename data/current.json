@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-23T03:09:09",
+  "scraped_at": "2026-10-23T07:42:34",
   "status": "ok",
   "outages": [
     {
@@ -174,42 +174,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "2 Cheile Zanoagei",
-      "blocks": 23,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-23T23:30",
-      "on_time_probability": 0.468,
-      "basis_n": 124,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Alexandru cel Bun - bl.T21A, T19A, T16; T18, T17A, T21B, T17B, T19B; T20, T22 ; • Str Cristea Mateescu - bl.T15C,T15A,T15B • Str Grigore Ionescu - bl.T26, T14, T13, T28, T27 , T25 • Str Oteşani - bl.T23A, T24A, T24, T23B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Cheile Zanoagei",
-      "blocks": 8,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-23T23:30",
-      "on_time_probability": 0.419,
-      "basis_n": 375,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Berechet - bl.T31A • Str Inginerilor Tei - bl.T31B, T30C, T30B, T30A • Bld Ghica Tei - bl.T32, T33, • Str Oteşani - Camin C7 (Bl.T29)"
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Petricani",
-      "blocks": 12,
-      "service": "Deficienta ACC",
-      "cause": "Lipsă parametri pentru livrare apă caldă de consum",
-      "estimated_restore": "2026-10-23T23:30",
-      "on_time_probability": 0.303,
-      "basis_n": 218,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
-    },
-    {
-      "sector": 2,
       "pt_name": "4 Cheile Zanoagei",
       "blocks": 26,
       "service": "Deficienta ACC",
@@ -258,6 +222,18 @@
     },
     {
       "sector": 3,
+      "pt_name": "1 Labirint",
+      "blocks": 5,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametrii pentru livrare apă caldă de consum .",
+      "estimated_restore": "2026-10-23T23:30",
+      "on_time_probability": 0.312,
+      "basis_n": 77,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Matei Basarab - bl. L111A, L109, L108, L109bis, L110"
+    },
+    {
+      "sector": 3,
       "pt_name": "Mihai Bravu Vest",
       "blocks": 18,
       "service": "Deficienta ACC",
@@ -282,15 +258,27 @@
     },
     {
       "sector": 3,
-      "pt_name": "11 Laborator",
-      "blocks": 10,
+      "pt_name": "S14",
+      "blocks": 11,
       "service": "Deficienta ACC",
       "cause": "Lipsa parametrii pentru livrare apă caldă de consum .",
       "estimated_restore": "2026-10-23T23:30",
-      "on_time_probability": 0.49,
-      "basis_n": 51,
+      "on_time_probability": 0.475,
+      "basis_n": 61,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Laborator - bl. S18, 39A, 40, 39, 38 • Str Râmnicu Vâlcea - bl. S19, S20, S16, S15, S17"
+      "zone_raw": "• Str Theodor D. Speranţia - bl. S24, S25, S26, S27,S28 • Bld Decebal - bl. S12, S12A, S12B, S13, S14, S15"
+    },
+    {
+      "sector": 3,
+      "pt_name": "17 Răcari",
+      "blocks": 15,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametrii pentru livrare apă caldă de consum .",
+      "estimated_restore": "2026-10-23T23:30",
+      "on_time_probability": 0.379,
+      "basis_n": 29,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Miraj - bl. 60, 61, 68 • Ale Florin Ciungan - bl. 64, 66, 65, 67, 69 • Ale Răcari - bl. 75, 74, 71, 71A, 70 • Ale Marius Emanoil Buteică - bl. 72, 63, 62"
     },
     {
       "sector": 3,
