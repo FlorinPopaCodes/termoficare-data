@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-10-23T00:31:06",
+  "scraped_at": "2026-10-23T03:09:09",
   "status": "ok",
   "outages": [
     {
@@ -402,42 +402,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "14 Tomis",
-      "blocks": 29,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-10-23T23:00",
-      "on_time_probability": 0.304,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Moreni - bl. 6G, 6G1 • Ale Lăcrămioarei - bl. 8D, 9B, 9D, 9A, 9, 9C • Str Danubiu - bl. 6D1, 6D, 6C, 6F, 6H, 6C1, 6E • Str Sold. Iosif Ion - bl. 7A, 6A1, 7B, 6C2, 7A1 • Ale Râmnicu Sărat - bl. 7D, 7C, 6B2 • Str Schitului - bl. 6B1, 6F1, 7D2, 7D3, 7D1, 7C1"
-    },
-    {
-      "sector": 3,
-      "pt_name": "12Tomis",
-      "blocks": 26,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-10-23T23:00",
-      "on_time_probability": 0.488,
-      "basis_n": 43,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Tudor Gheorghe Bogdan - bl. 21G, 21, 21F, 20B, 20B1, 20A, 22C, • Str Istriei - bl. 21E, 21C, 21D, • Str Danubiu - bl. 20E, 17, 20H, 20G • Bld Râmnicu Sărat - bl. 21B, 21A, 16, 20, 20J • Str Râmnicu Vâlcea - bl. 20C, 23, 22A, 20D, 22B, 16, 17"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Nicolae Pascu",
-      "blocks": 17,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-10-23T23:00",
-      "on_time_probability": 0.473,
-      "basis_n": 10271,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lăcrămioarei - bl. 1-2, 6, 18, 19, 3-4, 16, 15, 17, 20, 14 • Str Fizicienilor - bl. 12-13, 11, 9-10"
-    },
-    {
-      "sector": 3,
       "pt_name": "2 Vitan",
       "blocks": 33,
       "service": "Oprire ACC/INC",
@@ -459,18 +423,6 @@
       "basis_n": 41,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Istriei - bl. 3A, 3E, 3D, 19D, 3E1, 19C, 3E2, C7 • Str Sold. Iosif Ion - bl. 3B • Ale Râmnicu Sărat - bl. 3C, 19, 19A, 20I, 20F, 19B, imob. Parohie • Str Segovia - bl. C8 • Str Schitului -"
-    },
-    {
-      "sector": 3,
-      "pt_name": "15 Răcari",
-      "blocks": 17,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-10-23T23:00",
-      "on_time_probability": 0.341,
-      "basis_n": 44,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lugojana - bl. 15D • Ale Răcari - bl. 33B, 33A, 30B, 30A, 15C, 36, 37 • Str Râmnicu Vâlcea - bl. 31, 30, 32, 33, 34A, 34 • Ale Slt. Adrian Cârstea - bl. 35, 30, 30B"
     },
     {
       "sector": 4,
