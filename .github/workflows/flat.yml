@@ -1,33 +1,44 @@
-name: Flat Data - Termoficare Bucuresti
+name: CMTEB connectivity diagnostic
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
-  schedule:
-    - cron: '*/15 * * * *'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  scheduled:
-    runs-on: macos-latest
+  connectivity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
-      - name: Check out repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Compare DNS answers
+        run: |
+          echo 'Default resolver'
+          dig +time=3 +tries=1 +short cmteb.ro
+          echo 'Cloudflare resolver'
+          dig @1.1.1.1 +time=3 +tries=1 +short cmteb.ro
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
+      - name: Fetch new JSON feed with default DNS
+        id: default
+        continue-on-error: true
+        run: |
+          curl --fail --show-error --silent --location --connect-timeout 10 --max-time 25 --output /tmp/opriri-default.json --write-out 'HTTP %{http_code}; remote IP %{remote_ip}; total %{time_total}s\n' https://cmteb.ro/data/opriri.json
+          jq '{versiune, generat, avarii: (.avarii | length), puncteTermice: (.puncteTermice | length)}' /tmp/opriri-default.json
 
-      - name: Fetch termoficare status
-        uses: githubocto/flat@v3
-        with:
-          http_url: https://www.cmteb.ro/functionare_sistem_termoficare.php
-          downloaded_filename: data/termoficare.html
-          postprocess: postprocess.ts
+      - name: Fetch using address returned by Cloudflare DNS
+        id: cloudflare
+        continue-on-error: true
+        run: |
+          address=$(dig @1.1.1.1 +time=3 +tries=1 +short A cmteb.ro | tail -n 1)
+          test -n "$address"
+          curl --fail --show-error --silent --location --connect-timeout 10 --max-time 25 --resolve "cmteb.ro:443:$address" --output /tmp/opriri-cloudflare.json --write-out 'HTTP %{http_code}; remote IP %{remote_ip}; total %{time_total}s\n' https://cmteb.ro/data/opriri.json
+          jq '{versiune, generat, avarii: (.avarii | length), puncteTermice: (.puncteTermice | length)}' /tmp/opriri-cloudflare.json
+
+      - name: Verify results
+        env:
+          DEFAULT_RESULT: ${{ steps.default.outcome }}
+          CLOUDFLARE_RESULT: ${{ steps.cloudflare.outcome }}
+        run: |
+          echo "Default DNS: $DEFAULT_RESULT; Cloudflare DNS: $CLOUDFLARE_RESULT"
+          test "$DEFAULT_RESULT" = success
+          test "$CLOUDFLARE_RESULT" = success
