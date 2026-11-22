@@ -122,14 +122,27 @@ Deno.test("zero-incident banner is empty, not error", () => {
 });
 
 Deno.test("backend failure page — no tables, no banner — is error", () => {
-  const html = `<html><body><div class='container'>chrome only</div></body>
-    </html>Eroare de conexiune: Failed connect to avarii-api.cmteb.ro:443; No route to host`;
+  const html = `<html><body><h1>Info clienţi &bull; Funcționare sistem termoficare</h1>
+    </body></html>Eroare de conexiune: Failed connect to avarii-api.cmteb.ro:443; No route to host`;
 
   const result = parse(html);
 
   assertEquals(result.status, "error");
   assertEquals(result.observations, []);
   assertEquals(result.error, null);
+});
+
+Deno.test("a page without the status-page heading is parse_error, not a backend failure", () => {
+  // CMTEB's home page: same title and nav as the status page, but not the status page
+  const html = `<html><head><title>CMTEB :: principalul furnizor</title></head><body>
+    <h1>Compania Municipala Termoenergetica Bucuresti - prima pagina</h1>
+    <a href='functionare_sistem_termoficare.php'>Funcționare sistem termoficare</a></body></html>`;
+
+  const result = parse(html);
+
+  assertEquals(result.status, "parse_error");
+  assertEquals(result.observations, []);
+  assertEquals(result.error, "not the status page: CMTEB :: principalul furnizor");
 });
 
 Deno.test("table present but rows unreadable is parse_error, never empty", () => {

@@ -38,11 +38,11 @@ Deno.test("historical fixtures carry provenance; the synthetic one is marked as 
   }
 });
 
-Deno.test("the synthetic fixture is the corpus's only parse_error, with zero observations", () => {
+Deno.test("every parse_error fixture yields zero observations, the synthetic one included", () => {
   const failing = manifest.filter((e) => goldenStatus(e) === "parse_error");
 
-  assertEquals(failing.map((e) => e.file), ["synthetic-parse-error.html"]);
-  assertEquals(JSON.parse(renderFixture(failing[0])).outages, []);
+  assertEquals(failing.some((e) => e.file === "synthetic-parse-error.html"), true);
+  for (const entry of failing) assertEquals(JSON.parse(renderFixture(entry)).outages, []);
 });
 
 Deno.test("parsing is deterministic — same fixture, same bytes", () => {

@@ -25,6 +25,9 @@ export interface ParseResult {
 
 const NODE_ELEMENT = 1;
 
+// "Info clienţi • Funcționare sistem termoficare"; both comma and cedilla ț occur in Romanian text.
+const STATUS_PAGE_HEADING = /Func[țţ]ionare sistem termoficare/;
+
 interface Queryable {
   querySelectorAll(selector: string): ArrayLike<unknown>;
 }
@@ -176,14 +179,18 @@ export function parseSnapshot(html: string, snapshotTs: string): ParseResult {
     const tables = elements(doc, "table.raport");
     if (tables.length === 0) {
       // A zero-incident page still renders the flag-galben banner; a backend failure
-      // renders neither it nor any table.
-      const banner = doc.querySelector(".flag-galben");
-      return {
-        status: banner !== null ? "empty" : "error",
-        snapshot_ts: snapshotTs,
-        observations: [],
-        error: null,
-      };
+      // renders neither it nor any table, but keeps the page's own heading. Without that
+      // heading this isn't the status page at all (say, the URL now redirects elsewhere),
+      // which needs a parser fix rather than reading as the source being down.
+      if (doc.querySelector(".flag-galben") !== null) {
+        return { status: "empty", snapshot_ts: snapshotTs, observations: [], error: null };
+      }
+      if (!elements(doc, "h1").some((h) => STATUS_PAGE_HEADING.test(h.textContent ?? ""))) {
+        return failed(
+          `not the status page: ${collapse(doc.querySelector("title")?.textContent ?? "")}`,
+        );
+      }
+      return { status: "error", snapshot_ts: snapshotTs, observations: [], error: null };
     }
 
     const observations = parseRows(tables[0], snapshotTs);
