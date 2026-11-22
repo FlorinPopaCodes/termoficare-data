@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-22T11:30:09",
+  "scraped_at": "2026-11-22T12:45:17",
   "status": "ok",
   "outages": [
     {
@@ -39,18 +39,6 @@
       "basis_n": 25,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Bucurestii Noi",
-      "blocks": 17,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-22T23:30",
-      "on_time_probability": 0.209,
-      "basis_n": 1471,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Surorilor - bl. A2 • Str Subcetate - bl. A10 • Str Străbună - bl. A1 • Str Şaradei - bl. A9 ,imobil nr.80 • Str Munteniei - • Str Lăstărişului - bl. B2 • Str Crinului - bl. A3, A4, A5 • Str Bârlogeni - imobil Nr.38 • Bld Bucureştii Noi - bl. B1, B3 • Str Pieţii - bl. A8, A6, A7"
     },
     {
       "sector": 1,
