@@ -15,114 +15,117 @@
   <text x="34" y="70.5" text-anchor="end" class="axis">75%</text>
   <line x1="40" y1="30" x2="722" y2="30" stroke="#21262d"/>
   <text x="34" y="33" text-anchor="end" class="axis">100%</text>
-  <text x="51.8" y="194" text-anchor="middle" class="axis">2022</text>
-  <text x="192.9" y="194" text-anchor="middle" class="axis">2023</text>
-  <text x="334" y="194" text-anchor="middle" class="axis">2024</text>
-  <text x="475.1" y="194" text-anchor="middle" class="axis">2025</text>
-  <text x="616.2" y="194" text-anchor="middle" class="axis">2026</text>
-  <polyline points="40,160.9 51.8,134.9 63.5,141.3 75.3,136 87,88.1" fill="none" stroke-width="2" stroke="#d95926"/>
-  <polyline points="145.8,30 157.6,83.6 169.3,133 181.1,131.8 192.9,127.3 204.6,120.1 216.4,106.6 228.1,105.5" fill="none" stroke-width="2" stroke="#d95926"/>
-  <polyline points="298.7,74.4 310.4,120.5 322.2,116.8 334,116.4 345.7,112.1 357.5,112.6 369.2,34.8" fill="none" stroke-width="2" stroke="#d95926"/>
-  <polyline points="439.8,128 451.6,136.4 463.3,122.7 475.1,117.8 486.8,111.6 498.6,115.6 510.3,121.2" fill="none" stroke-width="2" stroke="#d95926"/>
-  <polyline points="580.9,134.9 592.7,121.6 604.4,120.7 616.2,107.8 627.9,109.5 639.7,106.6 651.4,112.2" fill="none" stroke-width="2" stroke="#d95926"/>
-  <polyline points="40,139.4 51.8,127.8 63.5,142.6 75.3,133.7 87,132.8 98.8,122.5 110.6,125.1 122.3,138 134.1,128.5 145.8,119.8 157.6,135.4 169.3,120.3 181.1,125.1 192.9,126.8 204.6,114.5 216.4,110.7 228.1,125.9 239.9,133.3 251.7,125.8 263.4,133.6 275.2,141.1 286.9,115.1 298.7,120.2 310.4,111.6 322.2,103.6 334,100.3 345.7,112.4 357.5,114.2 369.2,120.3 381,123.9 392.8,116.3 404.5,110.2 416.3,114.5 428,125 439.8,127 451.6,123.4 463.3,110.8 475.1,114.2 486.8,105.6 498.6,105.7 510.3,115 522.1,120.1 533.9,119.7 545.6,118 557.4,142.6 569.1,122.3 580.9,126.3 592.7,112.9 604.4,104.1 616.2,105 627.9,99.5 639.7,101.3 651.4,102.2 663.2,121.4 675,121.7 686.7,115.3 698.5,127.7 710.2,120.6 722,139.7" fill="none" stroke-width="2" stroke="#3987e5"/>
+  <text x="51.6" y="194" text-anchor="middle" class="axis">2022</text>
+  <text x="190.3" y="194" text-anchor="middle" class="axis">2023</text>
+  <text x="329" y="194" text-anchor="middle" class="axis">2024</text>
+  <text x="467.7" y="194" text-anchor="middle" class="axis">2025</text>
+  <text x="606.4" y="194" text-anchor="middle" class="axis">2026</text>
+  <polyline points="40,160.9 51.6,134.9 63.1,141.3 74.7,136 86.2,88.1" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="144,30 155.6,83.6 167.2,133 178.7,131.8 190.3,127.3 201.8,120.1 213.4,106.6 224.9,105.5" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="294.3,74.4 305.9,120.5 317.4,116.8 329,116.4 340.5,112.1 352.1,112.6 363.7,34.8" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="433,128 444.6,136.4 456.1,122.7 467.7,117.8 479.3,111.6 490.8,115.6 502.4,121.2" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="571.7,134.9 583.3,121.6 594.8,120.7 606.4,107.8 618,109.5 629.5,106.6 641.1,112.2" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="710.4,124.2 722,127.3" fill="none" stroke-width="2" stroke="#d95926"/>
+  <polyline points="40,139.4 51.6,127.8 63.1,142.6 74.7,133.7 86.2,132.8 97.8,122.5 109.4,125.1 120.9,138 132.5,128.5 144,119.8 155.6,135.4 167.2,120.3 178.7,125.1 190.3,126.8 201.8,114.5 213.4,110.7 224.9,125.9 236.5,133.3 248.1,125.8 259.6,133.6 271.2,141.1 282.7,115.1 294.3,120.2 305.9,111.6 317.4,103.6 329,100.3 340.5,112.4 352.1,114.2 363.7,120.3 375.2,123.9 386.8,116.3 398.3,110.2 409.9,114.5 421.5,125 433,127 444.6,123.4 456.1,110.8 467.7,114.2 479.3,105.6 490.8,105.7 502.4,115 513.9,120.1 525.5,119.7 537.1,118 548.6,142.6 560.2,122.3 571.7,126.3 583.3,112.9 594.8,104.1 606.4,105 618,99.5 629.5,101.3 641.1,102.2 652.6,121.4 664.2,121.7 675.8,115.3 687.3,127.7 698.9,120.6 710.4,132.1 722,119" fill="none" stroke-width="2" stroke="#3987e5"/>
   <circle cx="40" cy="160.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2021-12: heating 13% on time (2339 estimates)</title></circle>
-  <circle cx="51.8" cy="134.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-01: heating 30% on time (3821 estimates)</title></circle>
-  <circle cx="63.5" cy="141.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-02: heating 26% on time (5017 estimates)</title></circle>
-  <circle cx="75.3" cy="136" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-03: heating 29% on time (3536 estimates)</title></circle>
-  <circle cx="87" cy="88.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-04: heating 61% on time (31 estimates)</title></circle>
-  <circle cx="145.8" cy="30" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-09: heating 100% on time (23 estimates)</title></circle>
-  <circle cx="157.6" cy="83.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-10: heating 64% on time (126 estimates)</title></circle>
-  <circle cx="169.3" cy="133" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-11: heating 31% on time (5023 estimates)</title></circle>
-  <circle cx="181.1" cy="131.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-12: heating 32% on time (2983 estimates)</title></circle>
-  <circle cx="192.9" cy="127.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-01: heating 35% on time (1798 estimates)</title></circle>
-  <circle cx="204.6" cy="120.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-02: heating 40% on time (2464 estimates)</title></circle>
-  <circle cx="216.4" cy="106.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-03: heating 49% on time (1954 estimates)</title></circle>
-  <circle cx="228.1" cy="105.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-04: heating 50% on time (624 estimates)</title></circle>
-  <circle cx="298.7" cy="74.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-10: heating 70% on time (250 estimates)</title></circle>
-  <circle cx="310.4" cy="120.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-11: heating 40% on time (4510 estimates)</title></circle>
-  <circle cx="322.2" cy="116.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-12: heating 42% on time (4531 estimates)</title></circle>
-  <circle cx="334" cy="116.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-01: heating 42% on time (2423 estimates)</title></circle>
-  <circle cx="345.7" cy="112.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-02: heating 45% on time (2001 estimates)</title></circle>
-  <circle cx="357.5" cy="112.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-03: heating 45% on time (1284 estimates)</title></circle>
-  <circle cx="369.2" cy="34.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-04: heating 97% on time (31 estimates)</title></circle>
-  <circle cx="416.3" cy="38.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-08: heating 94% on time (35 estimates)</title></circle>
-  <circle cx="439.8" cy="128" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-10: heating 35% on time (1545 estimates)</title></circle>
-  <circle cx="451.6" cy="136.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-11: heating 29% on time (4832 estimates)</title></circle>
-  <circle cx="463.3" cy="122.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-12: heating 38% on time (2753 estimates)</title></circle>
-  <circle cx="475.1" cy="117.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-01: heating 41% on time (2945 estimates)</title></circle>
-  <circle cx="486.8" cy="111.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-02: heating 46% on time (1559 estimates)</title></circle>
-  <circle cx="498.6" cy="115.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-03: heating 43% on time (3057 estimates)</title></circle>
-  <circle cx="510.3" cy="121.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-04: heating 39% on time (1952 estimates)</title></circle>
-  <circle cx="580.9" cy="134.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-10: heating 30% on time (1919 estimates)</title></circle>
-  <circle cx="592.7" cy="121.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-11: heating 39% on time (2256 estimates)</title></circle>
-  <circle cx="604.4" cy="120.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-12: heating 40% on time (2052 estimates)</title></circle>
-  <circle cx="616.2" cy="107.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-01: heating 48% on time (3889 estimates)</title></circle>
-  <circle cx="627.9" cy="109.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-02: heating 47% on time (2847 estimates)</title></circle>
-  <circle cx="639.7" cy="106.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-03: heating 49% on time (3047 estimates)</title></circle>
-  <circle cx="651.4" cy="112.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-04: heating 45% on time (573 estimates)</title></circle>
-  <circle cx="722" cy="115.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-10: heating 43% on time (65 estimates)</title></circle>
+  <circle cx="51.6" cy="134.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-01: heating 30% on time (3821 estimates)</title></circle>
+  <circle cx="63.1" cy="141.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-02: heating 26% on time (5017 estimates)</title></circle>
+  <circle cx="74.7" cy="136" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-03: heating 29% on time (3536 estimates)</title></circle>
+  <circle cx="86.2" cy="88.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-04: heating 61% on time (31 estimates)</title></circle>
+  <circle cx="144" cy="30" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-09: heating 100% on time (23 estimates)</title></circle>
+  <circle cx="155.6" cy="83.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-10: heating 64% on time (126 estimates)</title></circle>
+  <circle cx="167.2" cy="133" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-11: heating 31% on time (5023 estimates)</title></circle>
+  <circle cx="178.7" cy="131.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2022-12: heating 32% on time (2983 estimates)</title></circle>
+  <circle cx="190.3" cy="127.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-01: heating 35% on time (1798 estimates)</title></circle>
+  <circle cx="201.8" cy="120.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-02: heating 40% on time (2464 estimates)</title></circle>
+  <circle cx="213.4" cy="106.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-03: heating 49% on time (1954 estimates)</title></circle>
+  <circle cx="224.9" cy="105.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-04: heating 50% on time (624 estimates)</title></circle>
+  <circle cx="294.3" cy="74.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-10: heating 70% on time (250 estimates)</title></circle>
+  <circle cx="305.9" cy="120.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-11: heating 40% on time (4510 estimates)</title></circle>
+  <circle cx="317.4" cy="116.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2023-12: heating 42% on time (4531 estimates)</title></circle>
+  <circle cx="329" cy="116.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-01: heating 42% on time (2423 estimates)</title></circle>
+  <circle cx="340.5" cy="112.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-02: heating 45% on time (2001 estimates)</title></circle>
+  <circle cx="352.1" cy="112.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-03: heating 45% on time (1284 estimates)</title></circle>
+  <circle cx="363.7" cy="34.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-04: heating 97% on time (31 estimates)</title></circle>
+  <circle cx="409.9" cy="38.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-08: heating 94% on time (35 estimates)</title></circle>
+  <circle cx="433" cy="128" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-10: heating 35% on time (1545 estimates)</title></circle>
+  <circle cx="444.6" cy="136.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-11: heating 29% on time (4832 estimates)</title></circle>
+  <circle cx="456.1" cy="122.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2024-12: heating 38% on time (2753 estimates)</title></circle>
+  <circle cx="467.7" cy="117.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-01: heating 41% on time (2945 estimates)</title></circle>
+  <circle cx="479.3" cy="111.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-02: heating 46% on time (1559 estimates)</title></circle>
+  <circle cx="490.8" cy="115.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-03: heating 43% on time (3057 estimates)</title></circle>
+  <circle cx="502.4" cy="121.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-04: heating 39% on time (1952 estimates)</title></circle>
+  <circle cx="571.7" cy="134.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-10: heating 30% on time (1919 estimates)</title></circle>
+  <circle cx="583.3" cy="121.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-11: heating 39% on time (2256 estimates)</title></circle>
+  <circle cx="594.8" cy="120.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2025-12: heating 40% on time (2052 estimates)</title></circle>
+  <circle cx="606.4" cy="107.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-01: heating 48% on time (3889 estimates)</title></circle>
+  <circle cx="618" cy="109.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-02: heating 47% on time (2847 estimates)</title></circle>
+  <circle cx="629.5" cy="106.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-03: heating 49% on time (3047 estimates)</title></circle>
+  <circle cx="641.1" cy="112.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-04: heating 45% on time (573 estimates)</title></circle>
+  <circle cx="710.4" cy="124.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#d95926"><title>2026-10: heating 37% on time (538 estimates)</title></circle>
+  <circle cx="722" cy="127.3" r="4" fill="#0d1117" stroke-width="2" stroke="#d95926"><title>2026-11: heating 35% on time (4343 estimates, provisional)</title></circle>
   <circle cx="40" cy="139.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2021-12: hot water 27% on time (887 estimates)</title></circle>
-  <circle cx="51.8" cy="127.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-01: hot water 35% on time (2496 estimates)</title></circle>
-  <circle cx="63.5" cy="142.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-02: hot water 25% on time (3658 estimates)</title></circle>
-  <circle cx="75.3" cy="133.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-03: hot water 31% on time (2377 estimates)</title></circle>
-  <circle cx="87" cy="132.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-04: hot water 31% on time (2982 estimates)</title></circle>
-  <circle cx="98.8" cy="122.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-05: hot water 38% on time (2069 estimates)</title></circle>
-  <circle cx="110.6" cy="125.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-06: hot water 37% on time (1933 estimates)</title></circle>
-  <circle cx="122.3" cy="138" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-07: hot water 28% on time (5071 estimates)</title></circle>
-  <circle cx="134.1" cy="128.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-08: hot water 34% on time (2058 estimates)</title></circle>
-  <circle cx="145.8" cy="119.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-09: hot water 40% on time (3913 estimates)</title></circle>
-  <circle cx="157.6" cy="135.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-10: hot water 30% on time (4412 estimates)</title></circle>
-  <circle cx="169.3" cy="120.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-11: hot water 40% on time (4828 estimates)</title></circle>
-  <circle cx="181.1" cy="125.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-12: hot water 37% on time (1711 estimates)</title></circle>
-  <circle cx="192.9" cy="126.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-01: hot water 35% on time (1424 estimates)</title></circle>
-  <circle cx="204.6" cy="114.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-02: hot water 44% on time (2182 estimates)</title></circle>
-  <circle cx="216.4" cy="110.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-03: hot water 46% on time (2084 estimates)</title></circle>
-  <circle cx="228.1" cy="125.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-04: hot water 36% on time (2254 estimates)</title></circle>
-  <circle cx="239.9" cy="133.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-05: hot water 31% on time (6389 estimates)</title></circle>
-  <circle cx="251.7" cy="125.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-06: hot water 36% on time (3266 estimates)</title></circle>
-  <circle cx="263.4" cy="133.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-07: hot water 31% on time (3445 estimates)</title></circle>
-  <circle cx="275.2" cy="141.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-08: hot water 26% on time (3310 estimates)</title></circle>
-  <circle cx="286.9" cy="115.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-09: hot water 43% on time (2663 estimates)</title></circle>
-  <circle cx="298.7" cy="120.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-10: hot water 40% on time (2465 estimates)</title></circle>
-  <circle cx="310.4" cy="111.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-11: hot water 46% on time (3641 estimates)</title></circle>
-  <circle cx="322.2" cy="103.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-12: hot water 51% on time (3428 estimates)</title></circle>
-  <circle cx="334" cy="100.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-01: hot water 53% on time (1556 estimates)</title></circle>
-  <circle cx="345.7" cy="112.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-02: hot water 45% on time (2061 estimates)</title></circle>
-  <circle cx="357.5" cy="114.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-03: hot water 44% on time (1513 estimates)</title></circle>
-  <circle cx="369.2" cy="120.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-04: hot water 40% on time (3993 estimates)</title></circle>
-  <circle cx="381" cy="123.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-05: hot water 37% on time (3460 estimates)</title></circle>
-  <circle cx="392.8" cy="116.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-06: hot water 42% on time (1953 estimates)</title></circle>
-  <circle cx="404.5" cy="110.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-07: hot water 47% on time (2107 estimates)</title></circle>
-  <circle cx="416.3" cy="114.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-08: hot water 44% on time (4894 estimates)</title></circle>
-  <circle cx="428" cy="125" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-09: hot water 37% on time (3035 estimates)</title></circle>
-  <circle cx="439.8" cy="127" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-10: hot water 35% on time (3171 estimates)</title></circle>
-  <circle cx="451.6" cy="123.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-11: hot water 38% on time (3753 estimates)</title></circle>
-  <circle cx="463.3" cy="110.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-12: hot water 46% on time (1937 estimates)</title></circle>
-  <circle cx="475.1" cy="114.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-01: hot water 44% on time (2355 estimates)</title></circle>
-  <circle cx="486.8" cy="105.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-02: hot water 50% on time (1328 estimates)</title></circle>
-  <circle cx="498.6" cy="105.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-03: hot water 50% on time (2514 estimates)</title></circle>
-  <circle cx="510.3" cy="115" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-04: hot water 43% on time (2345 estimates)</title></circle>
-  <circle cx="522.1" cy="120.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-05: hot water 40% on time (2474 estimates)</title></circle>
-  <circle cx="533.9" cy="119.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-06: hot water 40% on time (3204 estimates)</title></circle>
-  <circle cx="545.6" cy="118" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-07: hot water 41% on time (1984 estimates)</title></circle>
-  <circle cx="557.4" cy="142.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-08: hot water 25% on time (5217 estimates)</title></circle>
-  <circle cx="569.1" cy="122.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-09: hot water 38% on time (3301 estimates)</title></circle>
-  <circle cx="580.9" cy="126.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-10: hot water 36% on time (3951 estimates)</title></circle>
-  <circle cx="592.7" cy="112.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-11: hot water 45% on time (1779 estimates)</title></circle>
-  <circle cx="604.4" cy="104.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-12: hot water 51% on time (1303 estimates)</title></circle>
-  <circle cx="616.2" cy="105" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-01: hot water 50% on time (3124 estimates)</title></circle>
-  <circle cx="627.9" cy="99.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-02: hot water 54% on time (2089 estimates)</title></circle>
-  <circle cx="639.7" cy="101.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-03: hot water 52% on time (2588 estimates)</title></circle>
-  <circle cx="651.4" cy="102.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-04: hot water 52% on time (3066 estimates)</title></circle>
-  <circle cx="663.2" cy="121.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-05: hot water 39% on time (4164 estimates)</title></circle>
-  <circle cx="675" cy="121.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-06: hot water 39% on time (2098 estimates)</title></circle>
-  <circle cx="686.7" cy="115.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-07: hot water 43% on time (1893 estimates)</title></circle>
-  <circle cx="698.5" cy="127.7" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-08: hot water 35% on time (5687 estimates, provisional)</title></circle>
-  <circle cx="710.2" cy="120.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-09: hot water 40% on time (2100 estimates)</title></circle>
-  <circle cx="722" cy="139.7" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-10: hot water 27% on time (1567 estimates, provisional)</title></circle>
-  <text x="731" y="118.4" class="label">INC</text>
-  <text x="731" y="142.7" class="label">ACC</text>
+  <circle cx="51.6" cy="127.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-01: hot water 35% on time (2496 estimates)</title></circle>
+  <circle cx="63.1" cy="142.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-02: hot water 25% on time (3658 estimates)</title></circle>
+  <circle cx="74.7" cy="133.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-03: hot water 31% on time (2377 estimates)</title></circle>
+  <circle cx="86.2" cy="132.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-04: hot water 31% on time (2982 estimates)</title></circle>
+  <circle cx="97.8" cy="122.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-05: hot water 38% on time (2069 estimates)</title></circle>
+  <circle cx="109.4" cy="125.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-06: hot water 37% on time (1933 estimates)</title></circle>
+  <circle cx="120.9" cy="138" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-07: hot water 28% on time (5071 estimates)</title></circle>
+  <circle cx="132.5" cy="128.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-08: hot water 34% on time (2058 estimates)</title></circle>
+  <circle cx="144" cy="119.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-09: hot water 40% on time (3913 estimates)</title></circle>
+  <circle cx="155.6" cy="135.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-10: hot water 30% on time (4412 estimates)</title></circle>
+  <circle cx="167.2" cy="120.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-11: hot water 40% on time (4828 estimates)</title></circle>
+  <circle cx="178.7" cy="125.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2022-12: hot water 37% on time (1711 estimates)</title></circle>
+  <circle cx="190.3" cy="126.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-01: hot water 35% on time (1424 estimates)</title></circle>
+  <circle cx="201.8" cy="114.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-02: hot water 44% on time (2182 estimates)</title></circle>
+  <circle cx="213.4" cy="110.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-03: hot water 46% on time (2084 estimates)</title></circle>
+  <circle cx="224.9" cy="125.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-04: hot water 36% on time (2254 estimates)</title></circle>
+  <circle cx="236.5" cy="133.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-05: hot water 31% on time (6389 estimates)</title></circle>
+  <circle cx="248.1" cy="125.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-06: hot water 36% on time (3266 estimates)</title></circle>
+  <circle cx="259.6" cy="133.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-07: hot water 31% on time (3445 estimates)</title></circle>
+  <circle cx="271.2" cy="141.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-08: hot water 26% on time (3310 estimates)</title></circle>
+  <circle cx="282.7" cy="115.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-09: hot water 43% on time (2663 estimates)</title></circle>
+  <circle cx="294.3" cy="120.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-10: hot water 40% on time (2465 estimates)</title></circle>
+  <circle cx="305.9" cy="111.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-11: hot water 46% on time (3641 estimates)</title></circle>
+  <circle cx="317.4" cy="103.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2023-12: hot water 51% on time (3428 estimates)</title></circle>
+  <circle cx="329" cy="100.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-01: hot water 53% on time (1556 estimates)</title></circle>
+  <circle cx="340.5" cy="112.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-02: hot water 45% on time (2061 estimates)</title></circle>
+  <circle cx="352.1" cy="114.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-03: hot water 44% on time (1513 estimates)</title></circle>
+  <circle cx="363.7" cy="120.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-04: hot water 40% on time (3993 estimates)</title></circle>
+  <circle cx="375.2" cy="123.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-05: hot water 37% on time (3460 estimates)</title></circle>
+  <circle cx="386.8" cy="116.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-06: hot water 42% on time (1953 estimates)</title></circle>
+  <circle cx="398.3" cy="110.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-07: hot water 47% on time (2107 estimates)</title></circle>
+  <circle cx="409.9" cy="114.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-08: hot water 44% on time (4894 estimates)</title></circle>
+  <circle cx="421.5" cy="125" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-09: hot water 37% on time (3035 estimates)</title></circle>
+  <circle cx="433" cy="127" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-10: hot water 35% on time (3171 estimates)</title></circle>
+  <circle cx="444.6" cy="123.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-11: hot water 38% on time (3753 estimates)</title></circle>
+  <circle cx="456.1" cy="110.8" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2024-12: hot water 46% on time (1937 estimates)</title></circle>
+  <circle cx="467.7" cy="114.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-01: hot water 44% on time (2355 estimates)</title></circle>
+  <circle cx="479.3" cy="105.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-02: hot water 50% on time (1328 estimates)</title></circle>
+  <circle cx="490.8" cy="105.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-03: hot water 50% on time (2514 estimates)</title></circle>
+  <circle cx="502.4" cy="115" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-04: hot water 43% on time (2345 estimates)</title></circle>
+  <circle cx="513.9" cy="120.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-05: hot water 40% on time (2474 estimates)</title></circle>
+  <circle cx="525.5" cy="119.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-06: hot water 40% on time (3204 estimates)</title></circle>
+  <circle cx="537.1" cy="118" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-07: hot water 41% on time (1984 estimates)</title></circle>
+  <circle cx="548.6" cy="142.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-08: hot water 25% on time (5217 estimates)</title></circle>
+  <circle cx="560.2" cy="122.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-09: hot water 38% on time (3301 estimates)</title></circle>
+  <circle cx="571.7" cy="126.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-10: hot water 36% on time (3951 estimates)</title></circle>
+  <circle cx="583.3" cy="112.9" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-11: hot water 45% on time (1779 estimates)</title></circle>
+  <circle cx="594.8" cy="104.1" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2025-12: hot water 51% on time (1303 estimates)</title></circle>
+  <circle cx="606.4" cy="105" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-01: hot water 50% on time (3124 estimates)</title></circle>
+  <circle cx="618" cy="99.5" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-02: hot water 54% on time (2089 estimates)</title></circle>
+  <circle cx="629.5" cy="101.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-03: hot water 52% on time (2588 estimates)</title></circle>
+  <circle cx="641.1" cy="102.2" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-04: hot water 52% on time (3066 estimates)</title></circle>
+  <circle cx="652.6" cy="121.4" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-05: hot water 39% on time (4164 estimates)</title></circle>
+  <circle cx="664.2" cy="121.7" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-06: hot water 39% on time (2098 estimates)</title></circle>
+  <circle cx="675.8" cy="115.3" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-07: hot water 43% on time (1893 estimates)</title></circle>
+  <circle cx="687.3" cy="127.7" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-08: hot water 35% on time (5687 estimates, provisional)</title></circle>
+  <circle cx="698.9" cy="120.6" r="4" stroke="#0d1117" stroke-width="1.5" fill="#3987e5"><title>2026-09: hot water 40% on time (2100 estimates)</title></circle>
+  <circle cx="710.4" cy="132.1" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-10: hot water 32% on time (2029 estimates, provisional)</title></circle>
+  <circle cx="722" cy="119" r="4" fill="#0d1117" stroke-width="2" stroke="#3987e5"><title>2026-11: hot water 41% on time (2676 estimates, provisional)</title></circle>
+  <text x="731" y="134" class="label">INC</text>
+  <text x="731" y="122" class="label">ACC</text>
   <rect x="442" y="8" width="10" height="10" rx="2" fill="#d95926"/>
   <text x="456" y="16" class="axis">heating (INC)</text>
   <rect x="542" y="8" width="10" height="10" rx="2" fill="#3987e5"/>
