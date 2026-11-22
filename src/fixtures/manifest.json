@@ -66,6 +66,12 @@
     "why": "Recent full-spread 7-table page"
   },
   {
+    "file": "2026-10-23_new-site-starea-sistemului.html",
+    "sha": "d45a75d87f74dfa3c34a9e0dfa3fc5955637018b",
+    "scraped_at": "2026-10-24T01:03:53",
+    "why": "Old URL redirected to the new site; not the status page -> parse_error"
+  },
+  {
     "file": "synthetic-parse-error.html",
     "sha": null,
     "scraped_at": "2026-07-01T12:00:00",

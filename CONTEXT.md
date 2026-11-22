@@ -34,7 +34,7 @@ _Avoid_: not found, no data
 ### Scraping
 
 **Snapshot**:
-One scrape of the CMTEB status page at a point in time. A snapshot is usable when it parsed cleanly (including "no disruptions listed"); an errored snapshot carries no evidence either way.
+One scrape of the CMTEB status page at a point in time. A snapshot is usable when it parsed cleanly (including "no disruptions listed"); an errored snapshot carries no evidence either way. An error is the status page itself reporting a backend failure; a page that isn't the status page at all (a redirect elsewhere) is a parse error, since it needs a parser fix rather than meaning the source is down.
 
 **Observation**:
 One disruption row read from a single snapshot: a thermal point × service entry with its affected blocks, cause, and estimated restore time.
