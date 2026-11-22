@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-22T20:30:07",
+  "scraped_at": "2026-11-22T21:15:08",
   "status": "ok",
   "outages": [
     {
@@ -159,6 +159,18 @@
       "basis_n": 42,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. O4 • Str Aliorului - bl. E11, Gradinita 101 Dalmatieni • Bld Alexandru Obregia - bl. O3 • Ale Ciceu - bl. 5B, E12, E13, E14, R10"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Zona I",
+      "blocks": 17,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apa calda de consum - lucrari POIM , lotul 4 obiectivul 17",
+      "estimated_restore": "2026-11-22T23:30",
+      "on_time_probability": 0.302,
+      "basis_n": 116,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
     },
     {
       "sector": 4,
