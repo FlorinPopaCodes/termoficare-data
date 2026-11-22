@@ -52,6 +52,13 @@ function compare(a: ThermalPoint, b: ThermalPoint): number {
   return a.longitude - b.longitude;
 }
 
+// The page emits coordinates as PHP serializes floats: 14 significant digits until
+// 2026-11, full double precision since. Rounding back to 14 keeps the row keys stable
+// across that switch; the digits it drops are under a micrometre.
+function coord(x: number): number {
+  return Number(x.toPrecision(14));
+}
+
 export function parseRegistry(html: string): ThermalPoint[] {
   const points: ThermalPoint[] = [];
   for (const name of FEATURE_ARRAYS) {
@@ -60,7 +67,11 @@ export function parseRegistry(html: string): ThermalPoint[] {
     const open = html.indexOf("[", marker);
     if (open === -1) throw new Error(`passedFeatures_${name} has no array`);
     for (const f of JSON.parse(readArray(html, open))) {
-      points.push({ name: f.denumire, latitude: f.latitudine, longitude: f.longitudine });
+      points.push({
+        name: f.denumire,
+        latitude: coord(f.latitudine),
+        longitude: coord(f.longitudine),
+      });
     }
   }
   if (points.length === 0) throw new Error("registry parsed to zero points");

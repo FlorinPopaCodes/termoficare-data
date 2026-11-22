@@ -41,6 +41,15 @@ Deno.test("only name and coordinates are kept", () => {
   ]);
 });
 
+Deno.test("coordinates are rounded to 14 significant digits", () => {
+  const html = page({
+    verde: `[${feature("1 Alexandria", 44.405420487109296, 26.061514776771872)}]`,
+  });
+  assertEquals(parseRegistry(html), [
+    { name: "1 Alexandria", latitude: 44.405420487109, longitude: 26.061514776772 },
+  ]);
+});
+
 Deno.test("rows sort by the (name, latitude, longitude) triple", () => {
   // `P.D.` names two points 3.71 km apart, so name alone does not order them.
   const html = page({
