@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-22T23:45:07",
+  "scraped_at": "2026-11-23T00:30:05",
   "status": "ok",
   "outages": [
     {
@@ -182,7 +182,7 @@
       "on_time_probability": 0.313,
       "basis_n": 150,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Peştera Dâmbovicioara - bl. M12, Colegiul Economic Costin C. Kirițescu • Str Partizanilor - bl. M3A. M10, M11, M3 • Bld Iuliu Maniu - bl. 3, 4, 5 • Str Veteranilor - bl. M13, M14, M15 • Bld Uverturii - bl. 1, 9, 10"
+      "zone_raw": "• Str Peştera Dâmbovicioara - bl. Colegiul Economic Costin C. Kirițescu • Str Partizanilor - bl. M3A. M10, M11, M3, M12 • Bld Iuliu Maniu - bl. 3, 4, 5 • Str Veteranilor - bl. M13, M14, M15 • Bld Uverturii - bl. 1, 9, 10"
     },
     {
       "sector": 6,
