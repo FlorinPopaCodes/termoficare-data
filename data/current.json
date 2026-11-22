@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-22T21:15:08",
+  "scraped_at": "2026-11-22T21:30:13",
   "status": "ok",
   "outages": [
     {
@@ -210,18 +210,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "6 Zona II",
-      "blocks": 5,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire - lucrari POIM , lotul 4 obiectivul 17.",
-      "estimated_restore": "2026-11-22T23:00",
-      "on_time_probability": 0.29,
-      "basis_n": 93,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Râul Mara - bl. M4, M5, Vila Antonescu • Bld Constantin Brâncoveanu - bl. M6 • Str Cimpoierilor - Sc British College,Vila Raduica"
-    },
-    {
-      "sector": 4,
       "pt_name": "3 Zona II",
       "blocks": 19,
       "service": "Deficienta INC",
@@ -267,18 +255,6 @@
       "basis_n": 1506,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
-    },
-    {
-      "sector": 5,
-      "pt_name": "Ct Viilor",
-      "blocks": 13,
-      "service": "Oprire ACC/INC",
-      "cause": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la centrala termică",
-      "estimated_restore": "2026-11-22T22:00",
-      "on_time_probability": 0.522,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Echinocţiului - Vila 3 • Şos Viilor - bl. 101, 102, 103; • Str Mitropolitul Dosoftei - Vila 37A,39A • Str Sg. Lazăr Gafton - Vila 3,4,9,13,15,17,19"
     },
     {
       "sector": 6,
