@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "scrape health",
-  "message": "derived-stale",
-  "color": "yellow"
+  "message": "ok",
+  "color": "green"
 }
