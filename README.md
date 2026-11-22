@@ -73,4 +73,4 @@ A **scraper**, a machine outside GitHub Actions because CMTEB blocks GitHub's IP
 To run a scraper, give the machine push access to this repository and a `gh` login that can write repository variables, then schedule:
 
 - `SCRAPER_NAME=<name> deno task scrape` every 15 minutes
-- `deno task registry` once a day
+- `deno task registry` once a day, from a separate clone so the two never share a working tree
