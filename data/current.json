@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-22T09:17:46",
+  "scraped_at": "2026-11-22T09:49:17",
   "status": "ok",
   "outages": [
     {
@@ -54,18 +54,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "MODUL TERMIC Vila 23",
-      "blocks": 1,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-22T10:00",
-      "on_time_probability": 0.277,
-      "basis_n": 1511,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Pajurei - Vila 23"
-    },
-    {
-      "sector": 1,
       "pt_name": "2 Bucurestii Noi",
       "blocks": 17,
       "service": "Deficienta INC",
@@ -83,8 +71,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrari de modernizare Retea Termica Primara ; lucrari programate in cadrul Poim Lotul 2 obiectiv 9 executate de firma Elsaco",
       "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.382,
-      "basis_n": 2339,
+      "on_time_probability": 0.285,
+      "basis_n": 736,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Dinicu Golescu - 38"
     },
