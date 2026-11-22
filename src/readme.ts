@@ -36,7 +36,7 @@ export function generateReadme(imageFiles: string[]): string {
 
 [![Scrape health](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FFlorinPopaCodes%2Ftermoficare-data%2Fmain%2Fdata%2Fhealth.json)](https://github.com/FlorinPopaCodes/termoficare-data/issues?q=is%3Aissue+label%3Ascrape-health)
 
-Automated tracking of Bucharest district heating system status using [GitHub Flat Data](https://githubnext.com/projects/flat-data).
+Automated tracking of Bucharest district heating system status, kept as [flat data](https://githubnext.com/projects/flat-data) in git.
 
 ## Outages
 
@@ -86,7 +86,12 @@ Use [Flat Viewer](https://flatgithub.com/FlorinPopaCodes/termoficare-data) to br
 
 ## How It Works
 
-This repository uses the [Flat GitHub Action](https://github.com/githubocto/flat) to periodically fetch the heating status page and commit any changes to this repository.
+A **scraper**, a machine outside GitHub Actions because CMTEB blocks GitHub's IP ranges ([ADR 0004](docs/adr/0004-scraping-runs-outside-github-actions.md)), fetches the heating status page every 15 minutes and commits any changes to this repository. GitHub Actions then derives the outage datasets daily and watches scrape health.
+
+To run a scraper, give the machine push access to this repository and a \`gh\` login that can write repository variables, then schedule:
+
+- \`SCRAPER_NAME=<name> deno task scrape\` every 15 minutes
+- \`deno task registry\` once a day, from a separate clone so the two never share a working tree
 `;
 
   return readme;

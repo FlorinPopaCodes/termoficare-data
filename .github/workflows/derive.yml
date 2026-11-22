@@ -41,7 +41,8 @@ jobs:
             echo "no changes"
           else
             git commit -m "Derive: regenerate derived datasets"
-            # Flat pushes every 15 minutes; rebase absorbs that race.
+            # Scrapers push every 15 minutes, to files this job never touches;
+            # rebase absorbs that race.
             git pull --rebase origin main
             git push origin main
           fi

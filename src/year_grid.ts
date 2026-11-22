@@ -1,7 +1,7 @@
 // Episode year-grid SVG renderer. No I/O. Counts and the utility's global color range
 // come from episode_heatmap.ts. Output depends on the ambient
 // timezone (day-cell keys go through toISOString), so callers that need reproducible bytes
-// must fix TZ -- the Flat workflow and the tests both run under UTC.
+// must fix TZ -- the derive task and the tests both run under UTC.
 
 import {
   type CountRange,

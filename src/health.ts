@@ -35,7 +35,7 @@ export interface ScrapeLogRow {
 // All timestamps epoch ms UTC; null = no such event exists.
 export interface HealthFacts {
   now: number;
-  lastFlatSuccessAt: number | null; // last successful flat.yml run start
+  lastHeartbeatAt: number | null; // newest successful fetch across all scrapers
   scrapeLog: ScrapeLogRow[]; // trailing rows, oldest -> newest (~2 months)
   lastHtmlChangeAt: number | null; // last commit touching data/termoficare.html
   lastDeriveSuccessAt: number | null; // last successful derive.yml run, or last commit
@@ -46,20 +46,32 @@ export interface HealthFacts {
 
 const HOUR_MS = 60 * 60 * 1000;
 
-// Spec #9 assumed a punctual 15-min cron and set this to 1h. Measured, GitHub throttles
-// the schedule trigger to a median gap of 76 min and a max of 4.4h (see
-// docs/research/2026-07-17-external-scheduler-for-15min-cron.md), so 6h clears the
-// observed worst case with margin while still alerting the same day a workflow genuinely
-// stops running.
-export const PIPELINE_DOWN_HOURS = 6;
+// Scrapers fetch on a punctual 15-min timer (ADR 0004), so 4h is ~16 missed fetches: never
+// a single hiccup. Detection latency is dominated by the health workflow's own GitHub schedule,
+// which is throttled to a median gap of 76 min (see
+// docs/research/2026-07-17-external-scheduler-for-15min-cron.md).
+export const PIPELINE_DOWN_HOURS = 4;
 export const SOURCE_DOWN_HOURS = 12;
 export const FROZEN_PAGE_HOURS = 72;
 export const DERIVED_STALE_HOURS = 48;
 
-// Detects what the postprocess structurally cannot: a workflow that isn't running at all.
+export const HEARTBEAT_PREFIX = "SCRAPER_HEARTBEAT_";
+
+// Each scraper keeps its own repository variable (ISO timestamp of its last fetch that
+// reached the repo); the pipeline is alive as long as any one of them is. An unparseable
+// value is no evidence of life, so it is skipped rather than allowed to mask an outage.
+export function newestHeartbeat(vars: Record<string, string>): number | null {
+  const times = Object.entries(vars)
+    .filter(([name]) => name.startsWith(HEARTBEAT_PREFIX))
+    .map(([, value]) => Date.parse(value))
+    .filter((t) => !Number.isNaN(t));
+  return times.length > 0 ? Math.max(...times) : null;
+}
+
+// Detects what the postprocess structurally cannot: no scraper fetching at all.
 function isPipelineDown(facts: HealthFacts): boolean {
-  if (facts.lastFlatSuccessAt === null) return true;
-  return facts.now - facts.lastFlatSuccessAt > PIPELINE_DOWN_HOURS * HOUR_MS;
+  if (facts.lastHeartbeatAt === null) return true;
+  return facts.now - facts.lastHeartbeatAt > PIPELINE_DOWN_HOURS * HOUR_MS;
 }
 
 // Positive evidence, not silence-based -- reported even while the pipeline looks down.
@@ -179,11 +191,11 @@ const CLOSING_LINE = "Opened automatically by the health workflow; it will comme
 function issueParagraph(c: ConditionId, facts: HealthFacts): string {
   switch (c) {
     case "pipeline-down": {
-      if (facts.lastFlatSuccessAt === null) {
-        return `No successful Flat run has ever been recorded; threshold ${PIPELINE_DOWN_HOURS}h.`;
+      if (facts.lastHeartbeatAt === null) {
+        return `No scraper heartbeat has ever been recorded; threshold ${PIPELINE_DOWN_HOURS}h.`;
       }
-      return `Last successful Flat run at ${iso(facts.lastFlatSuccessAt)}, ` +
-        `${hoursAgo(facts.now, facts.lastFlatSuccessAt)}h ago, threshold ${PIPELINE_DOWN_HOURS}h.`;
+      return `Newest scraper heartbeat at ${iso(facts.lastHeartbeatAt)}, ` +
+        `${hoursAgo(facts.now, facts.lastHeartbeatAt)}h ago, threshold ${PIPELINE_DOWN_HOURS}h.`;
     }
     case "parser-broken": {
       const last = facts.scrapeLog[facts.scrapeLog.length - 1];

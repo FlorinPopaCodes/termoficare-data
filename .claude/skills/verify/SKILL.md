@@ -6,21 +6,23 @@ description: How to verify changes in this repo (the scrape → parse → derive
 # Verify: termoficare-data
 
 There is no server or UI. The repo has **three scheduled runtime surfaces**, each a
-Deno script a GitHub workflow runs:
+Deno script run on a schedule:
 
-1. **Flat postprocess** (`postprocess.ts`, `flat.yml`) — after each scrape, parses
+1. **Scrape** (`scripts/scrape.ts` + `postprocess.ts`, run on a scraper machine outside
+   GitHub per ADR 0004) — fetches the page, then postprocess parses
    `data/termoficare.html` into observation + scrape-log rows and
-   `data/current.json`, then regenerates `README.md`.
+   `data/current.json` and regenerates `README.md`; the result is pushed to main and
+   the scraper's `SCRAPER_HEARTBEAT_<NAME>` repository variable is set.
 2. **Daily derive** (`scripts/derive.ts`, `derive.yml`) — regenerates
    `data/derived/{incidents,estimates,causes,episodes,episode_incidents}` wholesale
    from the foundation CSVs.
 3. **Health cron** (`scripts/health.ts`, `health.yml`) — collects cadence facts
-   (workflow runs, scrape log, git), evaluates alert conditions, opens/closes
+   (scraper heartbeats, workflow runs, scrape log, git), evaluates alert conditions, opens/closes
    `scrape-health` issues, and writes the `data/health.json` badge.
 
-`flat.yml` and `health.yml` both request a `*/15 * * * *` cron, but GitHub throttles
-scheduled runs to roughly hourly in practice (median gap 76 min — see `health.yml`'s
-header comment and `docs/research/2026-07-17-external-scheduler-for-15min-cron.md`).
+Scrapers run on a punctual 15-minute timer. `health.yml` requests a `*/15 * * * *`
+cron, but GitHub throttles scheduled runs to roughly hourly in practice (median gap
+76 min — see `health.yml`'s header comment and `docs/research/2026-07-17-external-scheduler-for-15min-cron.md`).
 
 Cheap whole-repo gates, in order of cost:
 
@@ -34,7 +36,11 @@ foundation CSVs) and `scripts/import-history.sh` (one-off import of a downloaded
 archive into git history) are historical tools, run deliberately and rarely — not
 part of verifying a change.
 
-## Surface 1: Flat postprocess
+## Surface 1: scrape postprocess
+
+**⚠️ Never run `deno task scrape` as a verification step.** It is the production
+action: it pushes to `origin/main` and sets a live heartbeat variable. Verify the
+postprocess half on its own:
 
 ```bash
 deno run -A postprocess.ts    # parses the snapshot + regenerates README.md

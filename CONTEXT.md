@@ -116,5 +116,13 @@ _Avoid_: league table, leaderboard
 
 ### Scrape health
 
+**Scraper**:
+A named machine that fetches the CMTEB status page every 15 minutes and publishes the resulting snapshot to the repo. There may be more than one; they are interchangeable.
+_Avoid_: bot, Flat, runner
+
+**Heartbeat**:
+A scraper's record of its most recent fetch that made it into the repo; fetching without being able to publish does not count. The pipeline counts as down when no scraper's heartbeat is recent enough.
+_Avoid_: ping, last run
+
 **Failure**:
 The scraper or pipeline breaking (stale page, zero-parse, workflow error). Never used for heating or hot-water disruptions — those are episodes.

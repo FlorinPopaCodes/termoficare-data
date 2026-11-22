@@ -1,9 +1,9 @@
-#!/usr/bin/env -S deno run --allow-read --allow-write --allow-run=git,gh
+#!/usr/bin/env -S deno run --allow-read --allow-write --allow-run=git,gh --allow-env=REPO_VARS
 //
-// Collects cadence facts (workflow-run history + foundation data) and turns them into
-// alert state per src/health.ts. Owns detection/alerting for the whole pipeline: the
-// tracker of open GitHub issues (label scrape-health) is the durable alert state,
-// data/health.json is just the shields.io badge endpoint.
+// Collects cadence facts (scraper heartbeats, workflow-run history, foundation data) and
+// turns them into alert state per src/health.ts. Owns detection/alerting for the whole
+// pipeline: the tracker of open GitHub issues (label scrape-health) is the durable alert
+// state, data/health.json is just the shields.io badge endpoint.
 //
 //   deno task health              # collects, evaluates, opens/closes issues, writes health.json
 //   deno task health --dry-run    # collects + evaluates + prints the plan; mutates nothing
@@ -18,6 +18,7 @@ import {
   type HealthFacts,
   issueBody,
   issueTitle,
+  newestHeartbeat,
   type OpenIssue,
   planIssueActions,
   recoveryComment,
@@ -62,6 +63,18 @@ async function latestDeriveConclusion(): Promise<string | null> {
   return workflow_runs[0]?.conclusion ?? null;
 }
 
+// Scrapers' heartbeat variables. In Actions the workflow passes every repository variable
+// as REPO_VARS (`toJSON(vars)`), because GITHUB_TOKEN cannot list variables via the API;
+// run locally, gh lists them with the operator's own credentials.
+async function repoVariables(): Promise<Record<string, string>> {
+  const fromWorkflow = Deno.env.get("REPO_VARS");
+  if (fromWorkflow !== undefined) return JSON.parse(fromWorkflow);
+  const list: { name: string; value: string }[] = JSON.parse(
+    await run("gh", ["variable", "list", "--json", "name,value"]),
+  );
+  return Object.fromEntries(list.map((v) => [v.name, v.value]));
+}
+
 // git log's committer-date ISO output; "" (empty log, i.e. the path never existed) means
 // no such event.
 async function lastCommitTouching(path: string): Promise<number | null> {
@@ -99,8 +112,8 @@ async function scrapeLog(): Promise<ScrapeLogRow[]> {
 }
 
 async function collectFacts(): Promise<HealthFacts> {
-  const [lastFlatSuccessAt, lastDerive, conclusion, log, lastHtmlChangeAt] = await Promise.all([
-    lastWorkflowSuccessAt("flat.yml"),
+  const [repoVars, lastDerive, conclusion, log, lastHtmlChangeAt] = await Promise.all([
+    repoVariables(),
     lastDeriveSuccessAt(),
     latestDeriveConclusion(),
     scrapeLog(),
@@ -108,7 +121,7 @@ async function collectFacts(): Promise<HealthFacts> {
   ]);
   return {
     now: Date.now(),
-    lastFlatSuccessAt,
+    lastHeartbeatAt: newestHeartbeat(repoVars),
     scrapeLog: log,
     lastHtmlChangeAt,
     lastDeriveSuccessAt: lastDerive,

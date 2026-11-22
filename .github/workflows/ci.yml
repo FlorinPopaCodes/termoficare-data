@@ -1,6 +1,6 @@
 name: CI
 
-# The scrape bot (flat.yml) pushes to main every 15 minutes and those commits only ever
+# Scrapers (ADR 0004) push to main every 15 minutes and those commits only ever
 # touch data/ and images/; ignoring exactly those paths keeps CI off the ~96 daily scrape
 # commits. paths-ignore fails open, so any new code path is covered by default.
 on:
@@ -37,7 +37,7 @@ jobs:
           cache: true
 
       - name: Typecheck (and verify deno.lock is up to date)
-        run: deno check --frozen src/ scripts/backfill.ts scripts/derive.ts scripts/health.ts postprocess.ts
+        run: deno check --frozen src/ scripts/backfill.ts scripts/derive.ts scripts/health.ts scripts/registry.ts scripts/scrape.ts scripts/publish.ts postprocess.ts
 
       # Must go through the task, not a bare `deno test`: the task sets TZ=UTC, and the
       # episode-heatmap golden buckets days by local date, so an unpinned zone fails the run.

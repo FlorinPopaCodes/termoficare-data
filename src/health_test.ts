@@ -6,6 +6,7 @@ import {
   issueBody,
   type IssuePlan,
   issueTitle,
+  newestHeartbeat,
   type OpenIssue,
   planIssueActions,
   recoveryComment,
@@ -21,7 +22,7 @@ const NOW = Date.parse("2026-07-17T12:00:00Z");
 function buildFacts(overrides: Partial<HealthFacts> = {}): HealthFacts {
   return {
     now: NOW,
-    lastFlatSuccessAt: NOW - HOUR,
+    lastHeartbeatAt: NOW - HOUR,
     scrapeLog: [{ ts: NOW - HOUR, status: "ok" }],
     lastHtmlChangeAt: NOW - HOUR,
     lastDeriveSuccessAt: NOW - HOUR,
@@ -32,24 +33,45 @@ function buildFacts(overrides: Partial<HealthFacts> = {}): HealthFacts {
 
 // -- pipeline-down --------------------------------------------------------
 
-Deno.test("pipeline-down: 5h59m since last flat success is inactive", () => {
-  const facts = buildFacts({ lastFlatSuccessAt: NOW - (5 * HOUR + 59 * MINUTE) });
+Deno.test("pipeline-down: 3h59m since the newest heartbeat is inactive", () => {
+  const facts = buildFacts({ lastHeartbeatAt: NOW - (3 * HOUR + 59 * MINUTE) });
   assertEquals(evaluate(facts).includes("pipeline-down"), false);
 });
 
-Deno.test("pipeline-down: exactly 6h since last flat success is inactive (strict >)", () => {
-  const facts = buildFacts({ lastFlatSuccessAt: NOW - 6 * HOUR });
+Deno.test("pipeline-down: exactly 4h since the newest heartbeat is inactive (strict >)", () => {
+  const facts = buildFacts({ lastHeartbeatAt: NOW - 4 * HOUR });
   assertEquals(evaluate(facts).includes("pipeline-down"), false);
 });
 
-Deno.test("pipeline-down: 6h01m since last flat success is active", () => {
-  const facts = buildFacts({ lastFlatSuccessAt: NOW - (6 * HOUR + MINUTE) });
+Deno.test("pipeline-down: 4h01m since the newest heartbeat is active", () => {
+  const facts = buildFacts({ lastHeartbeatAt: NOW - (4 * HOUR + MINUTE) });
   assertEquals(evaluate(facts).includes("pipeline-down"), true);
 });
 
-Deno.test("pipeline-down: null lastFlatSuccessAt is active", () => {
-  const facts = buildFacts({ lastFlatSuccessAt: null });
+Deno.test("pipeline-down: no heartbeat at all is active", () => {
+  const facts = buildFacts({ lastHeartbeatAt: null });
   assertEquals(evaluate(facts).includes("pipeline-down"), true);
+});
+
+// -- newestHeartbeat ------------------------------------------------------
+
+Deno.test("newestHeartbeat: picks the newest scraper heartbeat, ignoring other variables", () => {
+  const vars = {
+    SCRAPER_HEARTBEAT_HOME_BOX: "2026-07-17T09:15:00Z",
+    SCRAPER_HEARTBEAT_LAPTOP: "2026-07-17T11:45:00Z",
+    SOME_OTHER_VARIABLE: "2026-07-17T23:00:00Z",
+  };
+  assertEquals(newestHeartbeat(vars), Date.parse("2026-07-17T11:45:00Z"));
+});
+
+Deno.test("newestHeartbeat: an unparseable value is skipped, not allowed to mask an outage", () => {
+  const vars = { SCRAPER_HEARTBEAT_HOME_BOX: "2026-07-17T09:15:00Z", SCRAPER_HEARTBEAT_X: "?" };
+  assertEquals(newestHeartbeat(vars), Date.parse("2026-07-17T09:15:00Z"));
+  assertEquals(newestHeartbeat({ SCRAPER_HEARTBEAT_X: "?" }), null);
+});
+
+Deno.test("newestHeartbeat: null when no scraper has ever recorded one", () => {
+  assertEquals(newestHeartbeat({ SOME_OTHER_VARIABLE: "x" }), null);
 });
 
 // -- parser-broken ----------------------------------------------------------
@@ -71,7 +93,7 @@ Deno.test("parser-broken: parse_error followed by a later ok is inactive", () =>
 
 Deno.test("parser-broken while pipeline-down: both active, not suppressed", () => {
   const facts = buildFacts({
-    lastFlatSuccessAt: null,
+    lastHeartbeatAt: null,
     scrapeLog: [{ ts: NOW - HOUR, status: "parse_error" }],
   });
   const active = evaluate(facts);
@@ -105,7 +127,7 @@ Deno.test("source-down: error streak broken by a later ok is inactive", () => {
 
 Deno.test("source-down suppressed while pipeline-down: only pipeline-down reported", () => {
   const facts = buildFacts({
-    lastFlatSuccessAt: null,
+    lastHeartbeatAt: null,
     scrapeLog: [{ ts: NOW - 20 * HOUR, status: "error" }],
   });
   const active = evaluate(facts);
@@ -146,7 +168,7 @@ Deno.test("frozen-page: last row error is inactive", () => {
 });
 
 Deno.test("frozen-page suppressed while pipeline-down", () => {
-  const facts = buildFacts({ lastFlatSuccessAt: null, lastHtmlChangeAt: NOW - 72 * HOUR });
+  const facts = buildFacts({ lastHeartbeatAt: null, lastHtmlChangeAt: NOW - 72 * HOUR });
   const active = evaluate(facts);
   assertEquals(active.includes("pipeline-down"), true);
   assertEquals(active.includes("frozen-page"), false);
@@ -205,7 +227,7 @@ Deno.test("evaluate returns active conditions in CONDITIONS order", () => {
   // only take one value at a time, and both are suppressed by pipeline-down anyway -- so
   // the richest reachable combination is pipeline-down + parser-broken + derived-stale.
   const facts = buildFacts({
-    lastFlatSuccessAt: null,
+    lastHeartbeatAt: null,
     scrapeLog: [{ ts: NOW - HOUR, status: "parse_error" }],
     lastDeriveSuccessAt: null,
     latestDeriveConclusion: "failure",
@@ -324,12 +346,12 @@ Deno.test("issueTitle names the condition", () => {
   assertEquals(issueTitle("derived-stale"), "Scrape health: derived-stale");
 });
 
-Deno.test("issueBody for pipeline-down cites the last success time, hours-ago, and threshold", () => {
-  const facts = buildFacts({ lastFlatSuccessAt: NOW - (6 * HOUR + 30 * MINUTE) });
+Deno.test("issueBody for pipeline-down cites the newest heartbeat, hours-ago, and threshold", () => {
+  const facts = buildFacts({ lastHeartbeatAt: NOW - (4 * HOUR + 30 * MINUTE) });
   const body = issueBody("pipeline-down", facts);
-  assertEquals(body.includes("2026-07-17T05:30Z"), true);
-  assertEquals(body.includes("6.5h"), true);
-  assertEquals(body.includes("6h"), true);
+  assertEquals(body.includes("Newest scraper heartbeat at 2026-07-17T07:30Z"), true);
+  assertEquals(body.includes("4.5h ago"), true);
+  assertEquals(body.includes("threshold 4h"), true);
   assertEquals(
     body.includes(
       "Opened automatically by the health workflow; it will comment and close this issue when the condition clears.",

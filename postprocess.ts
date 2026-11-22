@@ -1,4 +1,4 @@
-// Postprocess entrypoint for the Flat Data action.
+// Postprocess step of each scrape (scripts/scrape.ts), run on the freshly fetched snapshot.
 // Thin orchestrator: skips all writes when the snapshot is unchanged, otherwise appends
 // the scrape's structured artifacts, then regenerates the README from the pure module.
 
@@ -85,8 +85,8 @@ async function writeStructuredArtifacts() {
   console.log(`Status: ${artifacts.status}, observations: ${artifacts.observations.length}`);
 }
 
-async function main() {
-  // An unchanged snapshot is noise, not an observation: skip every write so Flat has
+export async function postprocess() {
+  // An unchanged snapshot is noise, not an observation: skip every write so the scrape has
   // nothing to commit and the CSVs don't accumulate duplicate rows.
   if (!(await htmlChanged())) {
     console.log("Snapshot unchanged — skipping all writes");
@@ -116,4 +116,4 @@ async function main() {
   console.log("Done!");
 }
 
-main();
+if (import.meta.main) await postprocess();
