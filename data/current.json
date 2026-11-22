@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-22T13:00:08",
+  "scraped_at": "2026-11-22T18:45:08",
   "status": "ok",
   "outages": [
     {
@@ -75,6 +75,78 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 4,
+      "pt_name": "5 Metalurgiei",
+      "blocks": 7,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apa calda de consum - lucrari POIM , lotul 4 obiectivul 17",
+      "estimated_restore": "2026-11-22T23:30",
+      "on_time_probability": 0.27,
+      "basis_n": 63,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Alexandru Obregia - bl. R7, II/32, II/34, II/33, R8, R9, R15"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Nitu Vasile",
+      "blocks": 16,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apa calda de consum - lucrari POIM , lotul 4 obiectivul 17",
+      "estimated_restore": "2026-11-22T23:30",
+      "on_time_probability": 0.294,
+      "basis_n": 126,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Secuilor - bl. 24, 35, N24, N25 • Str Secuilor - bl. 34, 23 • Str Sg. Niţu Vasile - bl. 36 • Ale Mirea Mioara Luiza - bl. N7, N20, N22, N23, 20V, 33 • Ale Donea Diana Alexandra - bl. 19 • Ale Cricovul Dulce - bl. N21, 19V"
+    },
+    {
+      "sector": 4,
+      "pt_name": "1 Bis Zona I",
+      "blocks": 19,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apa calda de consum - lucrari POIM , lotul 4 obiectivul 17",
+      "estimated_restore": "2026-11-22T23:30",
+      "on_time_probability": 0.33,
+      "basis_n": 176,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Slt. p.m. Dragoş Mladinovici - bl. I15 • Ale Terasei - bl. R12A, R12B • Bld Alexandru Obregia - bl. I2A, I2B, I2C, I1, I4, M1, M2, M5, M6, M7, M8, R13A, R13B, R14, Scoala nr.194, Gradinita nr.29 • Str Emil Racoviţă - bl. R1, R18,U1"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Zona I",
+      "blocks": 14,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apa calda de consum - lucrari POIM , lotul 4 obiectivul 17",
+      "estimated_restore": "2026-11-22T23:30",
+      "on_time_probability": 0.284,
+      "basis_n": 102,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Străduinţei - bl. R4, R20 • Ale Niculiţel - bl. 1, 2, D4, E4, E5, E6, P1, P2 • Str Aliorului - bl. D5, D6 • Str Emil Racoviţă - bl. I11, R3, R21, U2"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Zona II",
+      "blocks": 28,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apa calda de consum - lucrari POIM , lotul 4 obiectivul 17",
+      "estimated_restore": "2026-11-22T23:30",
+      "on_time_probability": 0.282,
+      "basis_n": 131,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Stupilor - bl. A8, A12, A13, Gradinita nr.175, Scoala nr.98 • Str Turnu Măgurele - bl. C2, C3 • Bld Constantin Brâncoveanu - bl. VB, V5, V6, V7, V8 • Ale Dorohoi - bl. A10, A11, A20, A24, E19, E20, E21, F20 ,F21 • Ale Covasna - bl. A6, A7, A9, A19, E18, E25, E27, F19, F26"
+    },
+    {
+      "sector": 4,
+      "pt_name": "5 Zona I",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Lipsa parametri pentru livrare apa calda de consum - lucrari POIM , lotul 4 obiectivul 17",
+      "estimated_restore": "2026-11-22T23:30",
+      "on_time_probability": 0.286,
+      "basis_n": 42,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Străduinţei - bl. O4 • Str Aliorului - bl. E11, Gradinita 101 Dalmatieni • Bld Alexandru Obregia - bl. O3 • Ale Ciceu - bl. 5B, E12, E13, E14, R10"
     },
     {
       "sector": 4,
