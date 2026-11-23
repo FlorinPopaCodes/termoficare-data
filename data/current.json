@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T11:00:08",
+  "scraped_at": "2026-11-23T11:15:08",
   "status": "ok",
   "outages": [
     {
@@ -30,15 +30,15 @@
     },
     {
       "sector": 1,
-      "pt_name": "MODUL TERMIC A12",
+      "pt_name": "MODUL TERMIC Vila 12A",
       "blocks": 1,
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie circuit primar -",
       "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.476,
-      "basis_n": 21,
+      "on_time_probability": 0.471,
+      "basis_n": 51,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Hrisovului - Vila A12"
+      "zone_raw": "• Str Făurei - Vila 12A"
     },
     {
       "sector": 1,
@@ -147,18 +147,6 @@
       "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Grigore C. Moisil - bl.8. 9."
-    },
-    {
-      "sector": 2,
-      "pt_name": "3 Petricani - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-23T11:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Luntrei - bl.8"
     },
     {
       "sector": 2,
@@ -330,6 +318,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "6/8",
+      "blocks": 15,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie racord primar - str. Bozieni",
+      "estimated_restore": "2026-11-23T23:30",
+      "on_time_probability": 0.579,
+      "basis_n": 38,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Bozieni - bl. 830, 830bis, 832, 833, 834 • Bld 1 Mai - bl.12 • Ale Compozitorilor - bl. 1, 2, 3, 4, F8 • Ale Valea Prahovei - bl. 831, 7S14(apa calda)"
+    },
+    {
+      "sector": 6,
       "pt_name": "MILITARI - 9 Placare - Partial",
       "blocks": 4,
       "service": "Oprire INC",
@@ -411,18 +411,6 @@
       "basis_n": 154,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 9 Placare",
-      "blocks": 19,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T18:00",
-      "on_time_probability": 0.434,
-      "basis_n": 53,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
     },
     {
       "sector": 6,
