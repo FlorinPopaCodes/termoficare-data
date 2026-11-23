@@ -1,57 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T16:00:08",
+  "scraped_at": "2026-11-23T17:30:08",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "Locuinţe Steaua",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.431,
-      "basis_n": 51,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Ion Mihalache - bl. C, E, H, B"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC B3",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar -",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.5,
-      "basis_n": 60,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Hrisovului - bl. B3"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC C3",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar -",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.527,
-      "basis_n": 55,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Hrisovului - bl. C3"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC Vila 12A",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar -",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.471,
-      "basis_n": 51,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Făurei - Vila 12A"
-    },
     {
       "sector": 1,
       "pt_name": "6 Aviatiei",
@@ -66,18 +18,6 @@
     },
     {
       "sector": 1,
-      "pt_name": "Palatul CFR",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Lucrari de modernizare Retea Termica Primara ; lucrari programate in cadrul Poim Lotul 2 obiectiv 9 executate de firma Elsaco",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.289,
-      "basis_n": 755,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Dinicu Golescu - 38"
-    },
-    {
-      "sector": 1,
       "pt_name": "Ct Luterana",
       "blocks": 5,
       "service": "Oprire ACC",
@@ -87,18 +27,6 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Vila 71A",
-      "blocks": 0,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar",
-      "estimated_restore": "2026-11-23T20:00",
-      "on_time_probability": 0.552,
-      "basis_n": 58,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lt. Victor Manu - vila 71"
     },
     {
       "sector": 2,
@@ -246,38 +174,14 @@
     },
     {
       "sector": 6,
-      "pt_name": "SC 4/3 -MODULE TERMICE - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie în modulul termic pe circuitul primar",
-      "estimated_restore": "2026-11-23T18:00",
-      "on_time_probability": 0.175,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Poiana Muntelui - bl. OD3"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4 Crivina - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-23T13:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal Crângaşi - bl. 46"
-    },
-    {
-      "sector": 6,
       "pt_name": "MILITARI - 4 Placare - Partial",
       "blocks": 11,
       "service": "Oprire INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire - (Ale. Zorelelor.)",
-      "estimated_restore": "2026-11-23T15:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.19,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Răsăritului - bl. 9M • Ale Zorelelor - bl. 8A, 9A, 10M, 11M, 12M, 13M, 43, 44, 45 • Str Centurii - bl. 15M"
     },
     {
