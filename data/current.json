@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T23:00:07",
+  "scraped_at": "2026-11-24T00:00:08",
   "status": "ok",
   "outages": [
     {
@@ -147,78 +147,6 @@
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Răsăritului - bl. 9M • Ale Zorelelor - bl. 8A, 9A, 10M, 11M, 12M, 13M, 43, 44, 45 • Str Centurii - bl. 15M"
-    },
-    {
-      "sector": 6,
-      "pt_name": "11 Mărgelelor",
-      "blocks": 21,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.38,
-      "basis_n": 108,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lacul Zănoaga - bl. 1, 2, 3 • Str Apusului - bl. N27, N28, N29 • Str Mărgelelor - bl. N30, N31, N32, N34, N35, N36, N37 • Ale Petrăcheşti - bl. N33 • Str Ghirlandei - bl. 72,73, 74, 75, 76, 77"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Veteranilor",
-      "blocks": 15,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.535,
-      "basis_n": 43,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Peştera Dâmbovicioara - bl. Colegiul Economic Costin C. Kirițescu • Str Partizanilor - bl. M3A. M10, M11, M3, M12 • Bld Iuliu Maniu - bl. 3, 4, 5 • Str Veteranilor - bl. M13, M14, M15 • Bld Uverturii - bl. 1, 9, 10"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Virtuții",
-      "blocks": 18,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.409,
-      "basis_n": 154,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
-    },
-    {
-      "sector": 6,
-      "pt_name": "12 Maratonului",
-      "blocks": 20,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.324,
-      "basis_n": 74,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Maratonului - bl. N6 • Str Apusului - bl. 47, 48, 49, 69, 70, 71, 50 • Str Mărgelelor - bl. N2, N3 • Int Flotei - bl. N4 • Ale Ghirlandei - bl. N1, N5, N5A, 43, 44, 45, 46 • Str Castranova - Casa Ilie"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 2 Placare",
-      "blocks": 18,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.304,
-      "basis_n": 171,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Virtuții",
-      "blocks": 22,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T23:30",
-      "on_time_probability": 0.374,
-      "basis_n": 91,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
     }
   ]
 }
