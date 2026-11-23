@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T09:30:08",
+  "scraped_at": "2026-11-23T10:15:08",
   "status": "ok",
   "outages": [
     {
@@ -150,6 +150,30 @@
     },
     {
       "sector": 4,
+      "pt_name": "3 Bis Zona I",
+      "blocks": 9,
+      "service": "Oprire ACC/INC",
+      "cause": "Racordare provizorat DN 200, DN 120, DN 100 - Lucreaza FIRMA CONSIX",
+      "estimated_restore": "2026-11-23T18:00",
+      "on_time_probability": 0.32,
+      "basis_n": 903,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Ornamentului - bl. D7, E8 ,E9 • Ale Râul Târgului - bl. D8, D9 • Ale Râul Sadului - bl. A11, A12, R7 • Str Aliorului - bl. R8"
+    },
+    {
+      "sector": 4,
+      "pt_name": "3 Zona I",
+      "blocks": 10,
+      "service": "Oprire ACC/INC",
+      "cause": "Racordare provizorat DN 200, DN 120, DN 100 - Lucreaza FIRMA CONSIX",
+      "estimated_restore": "2026-11-23T18:00",
+      "on_time_probability": 0.32,
+      "basis_n": 903,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Ornamentului - bl. E7 • Ale Râul Sadului - bl. R22 • Str Emil Racoviţă - bl. I13, R6, R9, R23, U3 • Str Turnu Măgurele - bl. A14, A15, S1"
+    },
+    {
+      "sector": 4,
       "pt_name": "4 Tineretului",
       "blocks": 23,
       "service": "Oprire ACC/INC",
@@ -233,6 +257,18 @@
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
     },
     {
+      "sector": 5,
+      "pt_name": "1 Salaj",
+      "blocks": 25,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie în punctul termic pe circuitul primar",
+      "estimated_restore": "2026-11-23T12:00",
+      "on_time_probability": 0.688,
+      "basis_n": 48,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Pricopan - 51 • Şos Sălaj - 50A,122B, • Str Dunavăţ - 57,58,59,60,61A,65,60A,61 • Str Teliţa - 52A,56,66A,120,121,116,122A,119C • Cal Ferentari - 117,119A,70A+B,119B,119D,117A"
+    },
+    {
       "sector": 6,
       "pt_name": "SC 4/3 -MODULE TERMICE - Partial",
       "blocks": 1,
@@ -275,9 +311,9 @@
       "service": "Deficienta INC",
       "cause": "Lipsa parametri pentru livrare încălzire.",
       "estimated_restore": "2026-11-23T10:00",
-      "on_time_probability": 0.345,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Floare Roşie - bl. 51, 53, 54, 55, 58, 67, 68 • Bld Iuliu Maniu - bl. 34, 35, 36, 37 • Str Cernişoara - bl. L"
     },
     {
@@ -287,9 +323,9 @@
       "service": "Deficienta INC",
       "cause": "Lipsa parametri pentru livrare încălzire.",
       "estimated_restore": "2026-11-23T10:00",
-      "on_time_probability": 0.324,
-      "basis_n": 74,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Int Maratonului - bl. N6 • Str Apusului - bl. 47, 48, 49, 69, 70, 71, 50 • Str Mărgelelor - bl. N2, N3 • Int Flotei - bl. N4 • Ale Ghirlandei - bl. N1, N5, N5A, 43, 44, 45, 46 • Str Castranova - Casa Ilie"
     },
     {
@@ -299,9 +335,9 @@
       "service": "Deficienta INC",
       "cause": "Lipsa parametri pentru livrare încălzire.",
       "estimated_restore": "2026-11-23T10:00",
-      "on_time_probability": 0.105,
-      "basis_n": 38,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
     }
   ]
