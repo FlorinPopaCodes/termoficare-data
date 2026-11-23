@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T10:15:08",
+  "scraped_at": "2026-11-23T10:30:08",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "6 Aviatiei",
+      "blocks": 20,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie racord primar -",
+      "estimated_restore": "2026-11-23T23:30",
+      "on_time_probability": 0.32,
+      "basis_n": 122,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nicolae G. Caramfil - bl. 21H, 21B, 21A, 21C, 22 B • Str G-ral Ştefan Burileanu - bl. 20A, 20C, 20B, 21E • Str Cpt. Alexandru Şerbănescu - bl. 20-I, 20J, 22H, 20E, 20D • Str Smaranda Brăescu - bl. 20H, 20F, 21 I, 21G, 22D, 21F"
+    },
     {
       "sector": 1,
       "pt_name": "9 Titulescu",
@@ -75,6 +87,18 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Vila 71A",
+      "blocks": 0,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-11-23T20:00",
+      "on_time_probability": 0.552,
+      "basis_n": 58,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lt. Victor Manu - vila 71"
     },
     {
       "sector": 2,
