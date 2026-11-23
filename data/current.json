@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T09:00:08",
+  "scraped_at": "2026-11-23T09:15:07",
   "status": "ok",
   "outages": [
     {
@@ -44,61 +44,13 @@
       "sector": 1,
       "pt_name": "MODUL TERMIC A12",
       "blocks": 1,
-      "service": "Deficienta ACC/INC",
+      "service": "Deficienta INC",
       "cause": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-23T12:00",
+      "on_time_probability": 0.276,
+      "basis_n": 1049,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Hrisovului - Vila A12"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Bucurestii Noi",
-      "blocks": 17,
-      "service": "Deficienta ACC/INC",
-      "cause": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Surorilor - bl. A2 • Str Subcetate - bl. A10 • Str Străbună - bl. A1 • Str Şaradei - bl. A9 ,imobil nr.80 • Str Munteniei - • Str Lăstărişului - bl. B2 • Str Crinului - bl. A3, A4, A5 • Str Bârlogeni - imobil Nr.38 • Bld Bucureştii Noi - bl. B1, B3 • Str Pieţii - bl. A8, A6, A7"
-    },
-    {
-      "sector": 1,
-      "pt_name": "J Grivita",
-      "blocks": 5,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal Griviţei - bl. K, L2, L3, J, L1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "I Grivita",
-      "blocks": 1,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal Griviţei - bl. I"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Prefabricate",
-      "blocks": 6,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
     },
     {
       "sector": 1,
@@ -173,6 +125,18 @@
       "zone_raw": "• Ale Lunguleţu - bl.V1, V2, V3"
     },
     {
+      "sector": 3,
+      "pt_name": "SC.1Dudesti - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Inlocuire conducta retur primar in modul termic bl. 51",
+      "estimated_restore": "2026-11-23T14:00",
+      "on_time_probability": 0.313,
+      "basis_n": 32,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Liviu Rebreanu - Module bl.51"
+    },
+    {
       "sector": 4,
       "pt_name": "4 Nitu Vasile",
       "blocks": 16,
@@ -243,6 +207,18 @@
       "basis_n": 1509,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "SC 4/3 -MODULE TERMICE - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie în modulul termic pe circuitul primar",
+      "estimated_restore": "2026-11-23T15:00",
+      "on_time_probability": 0.175,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Poiana Muntelui - bl. OD3"
     },
     {
       "sector": 6,
