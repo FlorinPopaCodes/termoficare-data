@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T15:45:08",
+  "scraped_at": "2026-11-23T16:00:08",
   "status": "ok",
   "outages": [
     {
@@ -111,30 +111,6 @@
       "basis_n": 20,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Grigore C. Moisil - bl.8. 9."
-    },
-    {
-      "sector": 2,
-      "pt_name": "Ilarie Chendi - Partial",
-      "blocks": 3,
-      "service": "Oprire INC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire -bl.V2",
-      "estimated_restore": "2026-11-23T15:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Lunguleţu - bl.V1, V2, V3"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Dudesti - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Inlocuire conducta retur primar in modul termic bl. 51",
-      "estimated_restore": "2026-11-23T14:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Liviu Rebreanu - Module bl.51"
     },
     {
       "sector": 4,
