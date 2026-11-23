@@ -1,19 +1,23 @@
 episode_id,sector,pt_name,utility,slip_count
 26efeb1d47a0,1,Ct Luterana,ACC,8
-108e108858d1,4,4 Nitu Vasile,INC,13
-5f0b868ec969,4,1 Bis Zona I,INC,8
-e6f25c7f499d,4,17 Dolhasca,INC,5
-445f38310575,4,3 Zona II,INC,5
-a60bbe96ac87,4,1 Zona I,INC,5
-5722ef266002,4,2 Zona I,INC,4
-9d0914e7fb19,4,5 Zona I,INC,4
+108e108858d1,4,4 Nitu Vasile,INC,14
+5f0b868ec969,4,1 Bis Zona I,INC,9
+e6f25c7f499d,4,17 Dolhasca,INC,6
+a60bbe96ac87,4,1 Zona I,INC,6
+5722ef266002,4,2 Zona I,INC,5
+9d0914e7fb19,4,5 Zona I,INC,5
 15a611a9f50b,1,Palatul CFR,ACC,1
 21ae64655953,1,Palatul CFR,INC,1
-11801323b0a7,1,2 Bucurestii Noi,INC,7
-108a59e3bb15,1,2 Prefabricate,INC,7
-29c4cef8d98b,1,I Grivita,INC,7
-20d79a87b513,1,J Grivita,INC,7
-e10c60debbde,1,MODUL TERMIC A2,INC,6
-35d0b18e3c9e,6,10 Aragonitului,INC,1
-8e0a2c3dfcd4,4,6 Zona II,INC,0
+108a59e3bb15,1,2 Prefabricate,INC,8
+29c4cef8d98b,1,I Grivita,INC,8
+20d79a87b513,1,J Grivita,INC,8
+35d0b18e3c9e,6,10 Aragonitului,INC,2
 f40f896b6ff8,6,MILITARI - 4 Placare - Partial,INC,0
+30c36a4617c5,1,2 Bucurestii Noi,ACC,1
+1736303698c1,1,2 Bucurestii Noi,INC,1
+0b2f44da2c19,1,MODUL TERMIC A12,ACC,1
+f5c31577f93e,1,MODUL TERMIC A12,INC,1
+249b944edadd,6,1 Veteranilor,INC,1
+2475debbcdef,6,12 Maratonului,INC,1
+610585daaa23,6,MILITARI - 9 Placare,INC,1
+71a45b980a50,6,SC 8/9,INC,1
