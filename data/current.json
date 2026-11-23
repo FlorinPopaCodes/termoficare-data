@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T13:30:06",
+  "scraped_at": "2026-11-23T14:15:08",
   "status": "ok",
   "outages": [
     {
@@ -15,18 +15,6 @@
       "basis_n": 51,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Ion Mihalache - bl. C, E, H, B"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC A12",
-      "blocks": 1,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-23T16:00",
-      "on_time_probability": 0.276,
-      "basis_n": 1049,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Hrisovului - Vila A12"
     },
     {
       "sector": 1,
@@ -143,9 +131,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Inlocuire conducta retur primar in modul termic bl. 51",
       "estimated_restore": "2026-11-23T14:00",
-      "on_time_probability": 0.313,
-      "basis_n": 32,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Liviu Rebreanu - Module bl.51"
     },
     {
@@ -176,9 +164,9 @@
       "sector": 4,
       "pt_name": "4 Tineretului",
       "blocks": 23,
-      "service": "Oprire ACC/INC",
+      "service": "Oprire ACC",
       "cause": "Remediere avarie în punctul termic pe circuitul primar",
-      "estimated_restore": "2026-11-23T14:00",
+      "estimated_restore": "2026-11-23T15:30",
       "on_time_probability": 0.457,
       "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
@@ -255,6 +243,18 @@
       "basis_n": 1509,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
+    },
+    {
+      "sector": 5,
+      "pt_name": "Ct Viilor",
+      "blocks": 13,
+      "service": "Deficienta ACC/INC",
+      "cause": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la punctul termic - (str./Bd.)",
+      "estimated_restore": "2026-11-23T17:30",
+      "on_time_probability": 0.56,
+      "basis_n": 25,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Echinocţiului - Vila 3 • Şos Viilor - bl. 101, 102, 103; • Str Mitropolitul Dosoftei - Vila 37A,39A • Str Sg. Lazăr Gafton - Vila 3,4,9,13,15,17,19"
     },
     {
       "sector": 6,
