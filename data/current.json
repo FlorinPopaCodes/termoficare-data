@@ -1,9 +1,45 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T05:45:08",
+  "scraped_at": "2026-11-23T09:00:08",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "9 Titulescu",
+      "blocks": 5,
+      "service": "Oprire ACC/INC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum si incalzire.",
+      "estimated_restore": "2026-11-23T12:00",
+      "on_time_probability": 0.378,
+      "basis_n": 2380,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Nicolae Titulescu - bl. 23, 20, 21A, 21, 22"
+    },
+    {
+      "sector": 1,
+      "pt_name": "2 Banu Manta",
+      "blocks": 10,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+      "estimated_restore": "2026-11-23T12:00",
+      "on_time_probability": 0.5,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Nicolae Titulescu - bl. 24, 24A, imob.Nr.60, 58 • Bld Banul Manta - bl. 27, 26, 28, 29, imobil Nr.24 • Str Gen. G. Constantinide - bl. 24C"
+    },
+    {
+      "sector": 1,
+      "pt_name": "2-1 Mai",
+      "blocks": 9,
+      "service": "Oprire ACC",
+      "cause": "Mentenanță schimbătoare de căldură în centrala termică pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-23T11:00",
+      "on_time_probability": 0.378,
+      "basis_n": 2380,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Turda - bl.10A3 • Bld Ion Mihalache - bl.10A1,10A2,10,9,6,8 • Str Sfânta Maria - bl.10A4,9A"
+    },
     {
       "sector": 1,
       "pt_name": "MODUL TERMIC A12",
@@ -11,9 +47,9 @@
       "service": "Deficienta ACC/INC",
       "cause": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0.276,
-      "basis_n": 1049,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Hrisovului - Vila A12"
     },
     {
@@ -23,9 +59,9 @@
       "service": "Deficienta ACC/INC",
       "cause": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0.276,
-      "basis_n": 1049,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Surorilor - bl. A2 • Str Subcetate - bl. A10 • Str Străbună - bl. A1 • Str Şaradei - bl. A9 ,imobil nr.80 • Str Munteniei - • Str Lăstărişului - bl. B2 • Str Crinului - bl. A3, A4, A5 • Str Bârlogeni - imobil Nr.38 • Bld Bucureştii Noi - bl. B1, B3 • Str Pieţii - bl. A8, A6, A7"
     },
     {
@@ -35,9 +71,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0.227,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. K, L2, L3, J, L1"
     },
     {
@@ -47,9 +83,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0.292,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. I"
     },
     {
@@ -59,9 +95,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
       "estimated_restore": "2026-11-23T09:00",
-      "on_time_probability": 0.12,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
     },
     {
@@ -87,6 +123,54 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Colentina",
+      "blocks": 7,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-23T13:00",
+      "on_time_probability": 0.536,
+      "basis_n": 56,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Elena - bl.OD7C; OD7B • Str Litovoi Voievod - bl. OD7A • Şos Colentina - bl.3, 5S; 6; 58"
+    },
+    {
+      "sector": 2,
+      "pt_name": "5 Lacul Tei - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum.",
+      "estimated_restore": "2026-11-23T18:30",
+      "on_time_probability": 0.2,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Grigore C. Moisil - bl.8. 9."
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Petricani - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-23T11:00",
+      "on_time_probability": 0.375,
+      "basis_n": 40,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Luntrei - bl.8"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Ilarie Chendi - Partial",
+      "blocks": 3,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire -bl.V2",
+      "estimated_restore": "2026-11-23T15:30",
+      "on_time_probability": 0.496,
+      "basis_n": 11782,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Lunguleţu - bl.V1, V2, V3"
     },
     {
       "sector": 4,
@@ -159,6 +243,18 @@
       "basis_n": 1509,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "4 Crivina - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-23T13:30",
+      "on_time_probability": 0.411,
+      "basis_n": 10834,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Crângaşi - bl. 46"
     },
     {
       "sector": 6,
