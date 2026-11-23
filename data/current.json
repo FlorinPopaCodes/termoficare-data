@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T10:45:07",
+  "scraped_at": "2026-11-23T11:00:08",
   "status": "ok",
   "outages": [
     {
@@ -83,9 +83,9 @@
       "service": "Oprire ACC",
       "cause": "Mentenanță schimbătoare de căldură în centrala termică pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-11-23T11:00",
-      "on_time_probability": 0.378,
-      "basis_n": 2380,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Turda - bl.10A3 • Bld Ion Mihalache - bl.10A1,10A2,10,9,6,8 • Str Sfânta Maria - bl.10A4,9A"
     },
     {
@@ -155,9 +155,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-11-23T11:00",
-      "on_time_probability": 0.375,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Luntrei - bl.8"
     },
     {
@@ -414,18 +414,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "SC 8/9",
-      "blocks": 12,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T18:00",
-      "on_time_probability": 0.345,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Floare Roşie - bl. 51, 53, 54, 55, 58, 67, 68 • Bld Iuliu Maniu - bl. 34, 35, 36, 37 • Str Cernişoara - bl. L"
-    },
-    {
-      "sector": 6,
       "pt_name": "MILITARI - 9 Placare",
       "blocks": 19,
       "service": "Deficienta INC",
@@ -483,18 +471,6 @@
       "basis_n": 171,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "10 Aragonitului",
-      "blocks": 20,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire.",
-      "estimated_restore": "2026-11-23T18:00",
-      "on_time_probability": 0.105,
-      "basis_n": 38,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
     },
     {
       "sector": 6,
