@@ -1,9 +1,33 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-23T20:00:08",
+  "scraped_at": "2026-11-23T21:45:07",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC Vila 27",
+      "blocks": 1,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2026-11-24T10:00",
+      "on_time_probability": 0.343,
+      "basis_n": 5109,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Int Dridu - Vila 27"
+    },
+    {
+      "sector": 1,
+      "pt_name": "2 Bucurestii Noi",
+      "blocks": 17,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2026-11-24T10:00",
+      "on_time_probability": 0.35,
+      "basis_n": 20,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Surorilor - bl. A2 • Str Subcetate - bl. A10 • Str Străbună - bl. A1 • Str Şaradei - bl. A9 ,imobil nr.80 • Str Munteniei - • Str Lăstărişului - bl. B2 • Str Crinului - bl. A3, A4, A5 • Str Bârlogeni - imobil Nr.38 • Bld Bucureştii Noi - bl. B1, B3 • Str Pieţii - bl. A8, A6, A7"
+    },
     {
       "sector": 1,
       "pt_name": "6 Aviatiei",
@@ -27,30 +51,6 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 4,
-      "pt_name": "3 Bis Zona I",
-      "blocks": 9,
-      "service": "Oprire ACC/INC",
-      "cause": "Racordare provizorat DN 200, DN 120, DN 100 - Lucreaza FIRMA CONSIX",
-      "estimated_restore": "2026-11-24T15:00",
-      "on_time_probability": 0.32,
-      "basis_n": 903,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Ornamentului - bl. D7, E8 ,E9 • Ale Râul Târgului - bl. D8, D9 • Ale Râul Sadului - bl. A11, A12, R7 • Str Aliorului - bl. R8"
-    },
-    {
-      "sector": 4,
-      "pt_name": "3 Zona I",
-      "blocks": 10,
-      "service": "Oprire ACC/INC",
-      "cause": "Racordare provizorat DN 200, DN 120, DN 100 - Lucreaza FIRMA CONSIX",
-      "estimated_restore": "2026-11-24T15:00",
-      "on_time_probability": 0.32,
-      "basis_n": 903,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Ornamentului - bl. E7 • Ale Râul Sadului - bl. R22 • Str Emil Racoviţă - bl. I13, R6, R9, R23, U3 • Str Turnu Măgurele - bl. A14, A15, S1"
     },
     {
       "sector": 4,
