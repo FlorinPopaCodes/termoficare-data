@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T14:30:07",
+  "scraped_at": "2026-11-24T15:00:08",
   "status": "ok",
   "outages": [
     {
@@ -150,26 +150,14 @@
     },
     {
       "sector": 3,
-      "pt_name": "24A",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic - str.Baba Novac",
-      "estimated_restore": "2026-11-24T16:30",
-      "on_time_probability": 0.564,
-      "basis_n": 55,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Baba Novac - bl. 24A, 24B, 24C"
-    },
-    {
-      "sector": 3,
       "pt_name": "11 Foișor - Partial",
       "blocks": 3,
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum BL V77-V75A",
       "estimated_restore": "2026-11-24T15:00",
-      "on_time_probability": 0.474,
-      "basis_n": 10415,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Zizin - bl. V75C • Str Brânduşelor - bl. V75A, V77"
     },
     {
@@ -275,9 +263,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-11-24T15:00",
-      "on_time_probability": 0.498,
-      "basis_n": 6590,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Verigei - bl. 1"
     },
     {
@@ -287,9 +275,9 @@
       "service": "Oprire ACC",
       "cause": "Înlocuire conducta apa rece în plasa punctului termic",
       "estimated_restore": "2026-11-24T15:00",
-      "on_time_probability": 0.377,
-      "basis_n": 904,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Lereşti - bl D1, D2, D3, A2, 37, 38, Sc.126, Cresa Sf. Stelian • Str Antiaeriană - bl A1, A1Prim • Şos Alexandria - bl L21, L22, L23, L24, L25, L26, L27, L28, L29, M1, M2, M3, M4, M5, OD1, PC9, PC10, PC11, PC12"
     },
     {
