@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T12:15:08",
+  "scraped_at": "2026-11-24T12:30:08",
   "status": "ok",
   "outages": [
     {
@@ -363,6 +363,18 @@
       "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Platanului - bl. A43, A44, A45, A46, A47 • Drm Sării - bl. A49, A40 • Str Lt. col. Constantin Marinescu - bl. A36, A37, A39"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/6 - Partial",
+      "blocks": 6,
+      "service": "Oprire INC",
+      "cause": "Avarie racord PT",
+      "estimated_restore": "2026-11-24T15:30",
+      "on_time_probability": 0.143,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Drumul Taberei - bl.M13, C2 • Ale Potaisa - bl A17, A18 • Str Valea Argeşului - bl. M12, D11"
     },
     {
       "sector": 6,
