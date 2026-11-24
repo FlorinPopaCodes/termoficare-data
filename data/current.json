@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T16:15:09",
+  "scraped_at": "2026-11-24T16:45:08",
   "status": "ok",
   "outages": [
     {
@@ -219,18 +219,6 @@
       "basis_n": 1509,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
-    },
-    {
-      "sector": 5,
-      "pt_name": "2 Alexandria",
-      "blocks": 27,
-      "service": "Oprire ACC",
-      "cause": "Înlocuire conducta apa rece în plasa punctului termic",
-      "estimated_restore": "2026-11-24T16:30",
-      "on_time_probability": 0.377,
-      "basis_n": 904,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Lereşti - bl D1, D2, D3, A2, 37, 38, Sc.126, Cresa Sf. Stelian • Str Antiaeriană - bl A1, A1Prim • Şos Alexandria - bl L21, L22, L23, L24, L25, L26, L27, L28, L29, M1, M2, M3, M4, M5, OD1, PC9, PC10, PC11, PC12"
     },
     {
       "sector": 5,
