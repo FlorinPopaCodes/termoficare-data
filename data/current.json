@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T09:00:10",
+  "scraped_at": "2026-11-24T09:15:09",
   "status": "ok",
   "outages": [
     {
@@ -87,6 +87,18 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "9 Placare-T - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum Ale Fizicienilor",
+      "estimated_restore": "2026-11-24T14:00",
+      "on_time_probability": 0.333,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Fizicienilor - bl. D3A, D3B"
     },
     {
       "sector": 3,
