@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T18:00:06",
+  "scraped_at": "2026-11-24T18:15:08",
   "status": "ok",
   "outages": [
     {
@@ -27,6 +27,18 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Mosilor",
+      "blocks": 8,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.316,
+      "basis_n": 98,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
     },
     {
       "sector": 2,
