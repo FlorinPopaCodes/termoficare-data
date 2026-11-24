@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T11:45:08",
+  "scraped_at": "2026-11-24T12:00:07",
   "status": "ok",
   "outages": [
     {
@@ -70,10 +70,10 @@
       "blocks": 1,
       "service": "Deficienta ACC/INC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-24T10:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-24T16:00",
+      "on_time_probability": 0.343,
+      "basis_n": 5109,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Int Dridu - Vila 27"
     },
     {
@@ -347,9 +347,9 @@
       "service": "Oprire ACC",
       "cause": "Mentenanță pentru schimbătoarele de căldură în punctul termic pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-11-24T12:00",
-      "on_time_probability": 0.265,
-      "basis_n": 34,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal 13 Septembrie - bl. 48, 48A, 50, 52-54, 56, 58, 60, 60-62 • Str Mihail Cioranu - bl. 66, 68, 70, 70A, 70B"
     },
     {
