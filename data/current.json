@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T12:00:07",
+  "scraped_at": "2026-11-24T12:15:08",
   "status": "ok",
   "outages": [
     {
@@ -339,18 +339,6 @@
       "basis_n": 47,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mihail Sebastian - bl. S30, S32, S33, S34 • Str Ileana Cosânzeana - bl. S31, S35, S36 • Str Făt Frumos - bl. S29"
-    },
-    {
-      "sector": 5,
-      "pt_name": "1 din 13 Septembrie",
-      "blocks": 12,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță pentru schimbătoarele de căldură în punctul termic pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-24T12:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal 13 Septembrie - bl. 48, 48A, 50, 52-54, 56, 58, 60, 60-62 • Str Mihail Cioranu - bl. 66, 68, 70, 70A, 70B"
     },
     {
       "sector": 5,
