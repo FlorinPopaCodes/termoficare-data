@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T10:00:05",
+  "scraped_at": "2026-11-24T10:30:06",
   "status": "ok",
   "outages": [
     {
@@ -189,7 +189,7 @@
       "pt_name": "6 Zona I - Partial",
       "blocks": 1,
       "service": "Oprire ACC",
-      "cause": "Inlocui conducta apa calda pe canal distanta",
+      "cause": "Inlocuit conducta apa calda pe canal distanta",
       "estimated_restore": "2026-11-24T14:00",
       "on_time_probability": 0.319,
       "basis_n": 907,
@@ -279,6 +279,18 @@
       "basis_n": 1509,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
+    },
+    {
+      "sector": 5,
+      "pt_name": "6 Sebastian",
+      "blocks": 8,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-24T14:00",
+      "on_time_probability": 0.617,
+      "basis_n": 47,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mihail Sebastian - bl. S30, S32, S33, S34 • Str Ileana Cosânzeana - bl. S31, S35, S36 • Str Făt Frumos - bl. S29"
     },
     {
       "sector": 5,
