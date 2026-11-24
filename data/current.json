@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T13:45:08",
+  "scraped_at": "2026-11-24T14:30:07",
   "status": "ok",
   "outages": [
     {
@@ -162,30 +162,6 @@
     },
     {
       "sector": 3,
-      "pt_name": "14 Tomis - Partial",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum BL 7 D1",
-      "estimated_restore": "2026-11-24T14:00",
-      "on_time_probability": 0.474,
-      "basis_n": 10415,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Schitului - bl. 7D2, 7D3, 7D1"
-    },
-    {
-      "sector": 3,
-      "pt_name": "9 Placare-T - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum Ale Fizicienilor",
-      "estimated_restore": "2026-11-24T14:00",
-      "on_time_probability": 0.333,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Fizicienilor - bl. D3A, D3B"
-    },
-    {
-      "sector": 3,
       "pt_name": "11 Foișor - Partial",
       "blocks": 3,
       "service": "Oprire ACC",
@@ -215,9 +191,9 @@
       "service": "Oprire ACC",
       "cause": "Inlocuit conducta apa calda pe canal distanta",
       "estimated_restore": "2026-11-24T14:00",
-      "on_time_probability": 0.319,
-      "basis_n": 907,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Ale Ciceu - bl. A13"
     },
     {
@@ -306,18 +282,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "6 Sebastian",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-24T14:00",
-      "on_time_probability": 0.617,
-      "basis_n": 47,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mihail Sebastian - bl. S30, S32, S33, S34 • Str Ileana Cosânzeana - bl. S31, S35, S36 • Str Făt Frumos - bl. S29"
-    },
-    {
-      "sector": 5,
       "pt_name": "2 Alexandria",
       "blocks": 27,
       "service": "Oprire ACC",
@@ -395,9 +359,9 @@
       "service": "Oprire ACC",
       "cause": "Lucrari CD bl.TD3- TD4",
       "estimated_restore": "2026-11-24T14:00",
-      "on_time_probability": 0.368,
-      "basis_n": 2349,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl. TD3 • Ale Topoloveni - bl.TD4"
     },
     {
