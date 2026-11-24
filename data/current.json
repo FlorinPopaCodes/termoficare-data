@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T16:45:08",
+  "scraped_at": "2026-11-24T17:15:07",
   "status": "ok",
   "outages": [
     {
@@ -39,18 +39,6 @@
       "basis_n": 53,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Făurei - Vila 12A"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Locuinţe Steaua",
-      "blocks": 4,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar",
-      "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.442,
-      "basis_n": 52,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Ion Mihalache - bl. C, E, H, B"
     },
     {
       "sector": 1,
