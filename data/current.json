@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T10:30:06",
+  "scraped_at": "2026-11-24T11:00:07",
   "status": "ok",
   "outages": [
     {
@@ -102,6 +102,54 @@
     },
     {
       "sector": 2,
+      "pt_name": "ICB",
+      "blocks": 2,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.211,
+      "basis_n": 95,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Lacul Tei -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Cheile Zanoagei",
+      "blocks": 19,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.43,
+      "basis_n": 321,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Cristea Mateescu - bl.T4A, T6A, T4B • Str Petre Antonescu - bl.T3A, T3B, T3C • Str Grigore Ionescu - bl.T8A, T7A , T7B, T7C, T6B • Str Brebu - bl.T9B, T9A, T10, T11, T5 • Str Oteşani - bl.T1, T2, T8B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Cheile Zanoagei",
+      "blocks": 23,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.397,
+      "basis_n": 297,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Alexandru cel Bun - bl.T21A, T19A, T16; T18, T17A, T21B, T17B, T19B; T20, T22 ; • Str Cristea Mateescu - bl.T15C,T15A,T15B • Str Grigore Ionescu - bl.T26, T14, T13, T28, T27 , T25 • Str Oteşani - bl.T23A, T24A, T24, T23B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "Galvani Tei",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.373,
+      "basis_n": 193,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Johannes K. Kepler - bl.K/4/1; 2 • Bld Lacul Tei - bl.7, 8, 5, 6 • Str Păstorului - bl.4, 3, 4Bis"
+    },
+    {
+      "sector": 2,
       "pt_name": "2 Mosilor",
       "blocks": 8,
       "service": "Oprire ACC/INC",
@@ -123,6 +171,18 @@
       "basis_n": 70,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
+    },
+    {
+      "sector": 3,
+      "pt_name": "24A",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Avarie Apa Nova - lipsa apă rece la punctul termic - str.Baba Novac",
+      "estimated_restore": "2026-11-24T16:30",
+      "on_time_probability": 0.564,
+      "basis_n": 55,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Baba Novac - bl. 24A, 24B, 24C"
     },
     {
       "sector": 3,
@@ -279,6 +339,18 @@
       "basis_n": 1509,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
+    },
+    {
+      "sector": 5,
+      "pt_name": "1 Giurgiu - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-24T15:00",
+      "on_time_probability": 0.498,
+      "basis_n": 6590,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Verigei - bl. 1"
     },
     {
       "sector": 5,
