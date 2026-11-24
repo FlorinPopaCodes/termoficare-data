@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T21:30:08",
+  "scraped_at": "2026-11-24T21:45:07",
   "status": "ok",
   "outages": [
     {
@@ -34,10 +34,10 @@
       "blocks": 1,
       "service": "Deficienta ACC/INC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-24T20:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.343,
+      "basis_n": 5109,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Int Dridu - Vila 27"
     },
     {
@@ -75,18 +75,6 @@
       "basis_n": 151,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Delfinului - bl.D30, D21, D16, D20, D18, D19, D11, D17 • Ale Dobrina - bl. D10, D12 • Str Ciocârliei - bl.D25, D27, D26, D28, D13, D29, D15, D8, D14, D9, D24 • Şos Fundeni - bl.D22, D23"
-    },
-    {
-      "sector": 2,
-      "pt_name": "5 Pantelimon",
-      "blocks": 8,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.357,
-      "basis_n": 263,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Herţa - bl. 63; 64A; 64B • Str Pescăruşului - Imobil • Şos Pantelimon - bl.59-60, 55, 53, 55A"
     },
     {
       "sector": 2,
@@ -294,18 +282,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "14 Păcii",
-      "blocks": 7,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.435,
-      "basis_n": 138,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. A, A1, A2, B, C • Str Valea Cascadelor - bl. A3, A4"
-    },
-    {
-      "sector": 6,
       "pt_name": "11 Liniei",
       "blocks": 10,
       "service": "Deficienta INC",
@@ -363,54 +339,6 @@
       "basis_n": 10840,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Râul Dorna - bl. Z30"
-    },
-    {
-      "sector": 6,
-      "pt_name": "11 Liniei",
-      "blocks": 10,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar - (Bd.Iuliu Maniu)",
-      "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.438,
-      "basis_n": 89,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Moineşti - bl. 16, 20 • Str Mohorului - bl. 17 • Str Moineşti - bl. 14, 15, 18 • Str Vistiernicul Stavrinos - bl. 135A • Str Valea Lungă - bl. 19, 21, 22"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 6/7",
-      "blocks": 6,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar - (Bd.Iuliu Maniu)",
-      "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.539,
-      "basis_n": 76,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Partiturii - bl. 62 • Str Cernişoara - bl. 56, 57, 59, 60, 61"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 9 Placare",
-      "blocks": 19,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar - (Bd.Iuliu Maniu)",
-      "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.435,
-      "basis_n": 69,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 2 Placare",
-      "blocks": 18,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar - (Bd.Iuliu Maniu)",
-      "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.4,
-      "basis_n": 75,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
     },
     {
       "sector": 6,
