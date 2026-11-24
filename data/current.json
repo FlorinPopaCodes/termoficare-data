@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T15:00:08",
+  "scraped_at": "2026-11-24T15:30:07",
   "status": "ok",
   "outages": [
     {
@@ -149,42 +149,6 @@
       "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
     },
     {
-      "sector": 3,
-      "pt_name": "11 Foișor - Partial",
-      "blocks": 3,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum BL V77-V75A",
-      "estimated_restore": "2026-11-24T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Zizin - bl. V75C • Str Brânduşelor - bl. V75A, V77"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Dealul Cernei - Partial",
-      "blocks": 1,
-      "service": "Oprire INC",
-      "cause": "Înlocuit conducta pe rețeaua secundară pe circuitul de încălzire",
-      "estimated_restore": "2026-11-24T13:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Cetatea Veche - bl. 39"
-    },
-    {
-      "sector": 4,
-      "pt_name": "6 Zona I - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Inlocuit conducta apa calda pe canal distanta",
-      "estimated_restore": "2026-11-24T14:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Ciceu - bl. A13"
-    },
-    {
       "sector": 4,
       "pt_name": "4 Nitu Vasile",
       "blocks": 16,
@@ -258,26 +222,14 @@
     },
     {
       "sector": 5,
-      "pt_name": "1 Giurgiu - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-24T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Verigei - bl. 1"
-    },
-    {
-      "sector": 5,
       "pt_name": "2 Alexandria",
       "blocks": 27,
       "service": "Oprire ACC",
       "cause": "Înlocuire conducta apa rece în plasa punctului termic",
-      "estimated_restore": "2026-11-24T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-24T16:30",
+      "on_time_probability": 0.377,
+      "basis_n": 904,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Lereşti - bl D1, D2, D3, A2, 37, 38, Sc.126, Cresa Sf. Stelian • Str Antiaeriană - bl A1, A1Prim • Şos Alexandria - bl L21, L22, L23, L24, L25, L26, L27, L28, L29, M1, M2, M3, M4, M5, OD1, PC9, PC10, PC11, PC12"
     },
     {
@@ -467,9 +419,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie racord primar",
       "estimated_restore": "2026-11-24T15:30",
-      "on_time_probability": 0.5,
-      "basis_n": 40,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Bostanilor - bl.13, 14 • Drm Timonierului - • Bld Timişoara -"
     },
     {
