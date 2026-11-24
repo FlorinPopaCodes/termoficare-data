@@ -1,9 +1,45 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T08:45:08",
+  "scraped_at": "2026-11-24T09:00:10",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC B3",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.516,
+      "basis_n": 62,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Hrisovului - bl. B3"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC C3",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.544,
+      "basis_n": 57,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Hrisovului - bl. C3"
+    },
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC Vila 12A",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.491,
+      "basis_n": 53,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Făurei - Vila 12A"
+    },
     {
       "sector": 1,
       "pt_name": "Locuinţe Steaua",
@@ -51,6 +87,30 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 3,
+      "pt_name": "M107 - Partial",
+      "blocks": 6,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-24T13:00",
+      "on_time_probability": 0.474,
+      "basis_n": 10415,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Nerva Traian - bl. K6 • Bld Unirii - bl. K3, K4, K2, K5 • Str Lucian Blaga - bl. K1"
+    },
+    {
+      "sector": 3,
+      "pt_name": "11 Foișor - Partial",
+      "blocks": 3,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum BL V77-V75A",
+      "estimated_restore": "2026-11-24T15:00",
+      "on_time_probability": 0.474,
+      "basis_n": 10415,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Zizin - bl. V75C • Str Brânduşelor - bl. V75A, V77"
     },
     {
       "sector": 4,
@@ -135,6 +195,54 @@
       "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Platanului - bl. A43, A44, A45, A46, A47 • Drm Sării - bl. A49, A40 • Str Lt. col. Constantin Marinescu - bl. A36, A37, A39"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Ansamblul QUADRA PLACE II",
+      "blocks": 3,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrare de modernizare si redimensionare retea primara",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.368,
+      "basis_n": 2349,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Fabricii - Ansamblu Rezindențial"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Depou Metrou Ciurel",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrare de modernizare si redimensionare retea primara",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.368,
+      "basis_n": 2349,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Fabricii - Instituție"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",
+      "blocks": 3,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrare de modernizare si redimensionare retea primara",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.368,
+      "basis_n": 2349,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Fabricii - Instituție"
+    },
+    {
+      "sector": 6,
+      "pt_name": "5 Virtuții",
+      "blocks": 10,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrare de modernizare si redimensionare retea primara",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.222,
+      "basis_n": 27,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
     },
     {
       "sector": 6,
