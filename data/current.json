@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T09:15:09",
+  "scraped_at": "2026-11-24T09:30:07",
   "status": "ok",
   "outages": [
     {
@@ -87,6 +87,30 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Mosilor",
+      "blocks": 8,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-11-24T23:30",
+      "on_time_probability": 0.545,
+      "basis_n": 101,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Moşilor - bl.62, 58Bis, 54, 48Bis, 56, 60A • Şos Mihai Bravu - bl. 60C, 60B"
+    },
+    {
+      "sector": 2,
+      "pt_name": "33 Muncii",
+      "blocks": 3,
+      "service": "Oprire ACC/INC",
+      "cause": "Depistare si remediere avarie retea primara",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.614,
+      "basis_n": 70,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
     },
     {
       "sector": 3,
@@ -198,6 +222,18 @@
     },
     {
       "sector": 5,
+      "pt_name": "2 Alexandria",
+      "blocks": 27,
+      "service": "Oprire ACC",
+      "cause": "Înlocuire conducta apa rece în plasa punctului termic",
+      "estimated_restore": "2026-11-24T15:00",
+      "on_time_probability": 0.377,
+      "basis_n": 904,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Lereşti - bl D1, D2, D3, A2, 37, 38, Sc.126, Cresa Sf. Stelian • Str Antiaeriană - bl A1, A1Prim • Şos Alexandria - bl L21, L22, L23, L24, L25, L26, L27, L28, L29, M1, M2, M3, M4, M5, OD1, PC9, PC10, PC11, PC12"
+    },
+    {
+      "sector": 5,
       "pt_name": "Intrarea Drumul Taberei - Partial",
       "blocks": 10,
       "service": "Oprire INC",
@@ -207,6 +243,18 @@
       "basis_n": 24,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Platanului - bl. A43, A44, A45, A46, A47 • Drm Sării - bl. A49, A40 • Str Lt. col. Constantin Marinescu - bl. A36, A37, A39"
+    },
+    {
+      "sector": 6,
+      "pt_name": "8 Ghirlandei - Partial",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str./Bd.)",
+      "estimated_restore": "2026-11-24T14:30",
+      "on_time_probability": 0.405,
+      "basis_n": 37,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lavandei - bl. P33, P34 • Str Estacadei - bl. P40, P41"
     },
     {
       "sector": 6,
@@ -255,18 +303,6 @@
       "basis_n": 27,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
-    },
-    {
-      "sector": 6,
-      "pt_name": "8 Ghirlandei - Partial",
-      "blocks": 20,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Estacadei)",
-      "estimated_restore": "2026-11-24T14:30",
-      "on_time_probability": 0.405,
-      "basis_n": 37,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lavandei - bl. P33, P34 • Str Estacadei - bl. P40, P41"
     },
     {
       "sector": 6,
