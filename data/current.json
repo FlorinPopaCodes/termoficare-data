@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T00:30:17",
+  "scraped_at": "2026-11-25T01:30:39",
   "status": "ok",
   "outages": [
     {
@@ -30,18 +30,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "8 Doamna Ghica",
-      "blocks": 3,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire.",
-      "estimated_restore": "2026-11-25T10:00",
-      "on_time_probability": 0.494,
-      "basis_n": 162,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Pâncota - bl.11 Nord, 12 Nord,13 Nord"
-    },
-    {
-      "sector": 2,
       "pt_name": "3 Petricani",
       "blocks": 12,
       "service": "Deficienta ACC/INC",
@@ -63,6 +51,18 @@
       "basis_n": 112,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sinaia - bl. 16 sc. A-B • Str Pâncota - bl.14, 16 sc. 3-4-5; 15"
+    },
+    {
+      "sector": 2,
+      "pt_name": "33 Muncii",
+      "blocks": 3,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-25T10:00",
+      "on_time_probability": 0.494,
+      "basis_n": 85,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
     },
     {
       "sector": 2,
@@ -147,18 +147,6 @@
       "basis_n": 229,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Medic Constantin Zlătescu - • Şos Mihai Bravu - bl.D25, D26 sc.A, D27 sc.A, B, D28, D27B • Str Ilarie Chendi - imob.Nr.44 • Ale Lunguleţu - bl.V1, V2, D14, V3 sc.B"
-    },
-    {
-      "sector": 2,
-      "pt_name": "33 Muncii",
-      "blocks": 3,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.614,
-      "basis_n": 70,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
     },
     {
       "sector": 4,
