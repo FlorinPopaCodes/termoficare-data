@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-24T00:00:08",
+  "scraped_at": "2026-11-24T06:15:08",
   "status": "ok",
   "outages": [
     {
@@ -15,18 +15,6 @@
       "basis_n": 5109,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Int Dridu - Vila 27"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Bucurestii Noi",
-      "blocks": 17,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-24T10:00",
-      "on_time_probability": 0.35,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Surorilor - bl. A2 • Str Subcetate - bl. A10 • Str Străbună - bl. A1 • Str Şaradei - bl. A9 ,imobil nr.80 • Str Munteniei - • Str Lăstărişului - bl. B2 • Str Crinului - bl. A3, A4, A5 • Str Bârlogeni - imobil Nr.38 • Bld Bucureştii Noi - bl. B1, B3 • Str Pieţii - bl. A8, A6, A7"
     },
     {
       "sector": 1,
@@ -143,9 +131,9 @@
       "service": "Oprire INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire - (Ale. Zorelelor.)",
       "estimated_restore": "2026-11-24T23:30",
-      "on_time_probability": 0.19,
-      "basis_n": 21,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.368,
+      "basis_n": 3653,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Răsăritului - bl. 9M • Ale Zorelelor - bl. 8A, 9A, 10M, 11M, 12M, 13M, 43, 44, 45 • Str Centurii - bl. 15M"
     }
   ]
