@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T12:15:08",
+  "scraped_at": "2026-11-25T12:30:07",
   "status": "ok",
   "outages": [
     {
@@ -375,18 +375,6 @@
       "basis_n": 1509,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
-    },
-    {
-      "sector": 5,
-      "pt_name": "4 Sălaj - Partial",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-25T15:00",
-      "on_time_probability": 0.497,
-      "basis_n": 6593,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Sălaj - bl. 58A, 126A, 128B • Ale Tulcea - bl. 126B,"
     },
     {
       "sector": 5,
