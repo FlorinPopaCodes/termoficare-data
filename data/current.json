@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T00:00:07",
+  "scraped_at": "2026-11-26T00:15:08",
   "status": "ok",
   "outages": [
     {
@@ -327,18 +327,6 @@
       "basis_n": 559,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Uverturii",
-      "blocks": 13,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. M16, 13, 13A-A, 13A-B, 14 • Ale Cetăţuia - bl. M17, M18, M19, M22, M21, M24, M20,M23"
     },
     {
       "sector": 6,
