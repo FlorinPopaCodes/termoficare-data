@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T15:15:08",
+  "scraped_at": "2026-11-25T15:45:08",
   "status": "ok",
   "outages": [
     {
@@ -179,22 +179,10 @@
       "service": "Oprire ACC",
       "cause": "Înlocuit conducta cd alimentare cu apa rece modul bl 51",
       "estimated_restore": "2026-11-25T15:30",
-      "on_time_probability": 0.294,
-      "basis_n": 34,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Liviu Rebreanu - Module bl.51. sc 3si 4"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Matei Ambrozie",
-      "blocks": 30,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie canal distanta bl 31B galerie comuna cu reteaua primara",
-      "estimated_restore": "2026-11-25T15:00",
       "on_time_probability": 0,
       "basis_n": 0,
       "basis_bucket": "overdue",
-      "zone_raw": "• Ale Ţăndărei - bl. 52, 30B • Ale Suraia - bl. 21B, 21, 32, 30, 31B, 50 • Str Fizicienilor - bl. 21A, 11A, 51, 11, 20A, 30A • Str Istriei - bl. 41, 42 • Str Danubiu - bl. 52A, 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Str Schitului - bl. 57, 20b, 43, 20, 11B, 40 • Ale Berevoieşti - bl. 53, 54"
+      "zone_raw": "• Str Liviu Rebreanu - Module bl.51. sc 3si 4"
     },
     {
       "sector": 4,
@@ -639,18 +627,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Drumul Taberei - bl. OS2, OS4, GIIB4/3, GIIB4/4, GIIB4/5, F3 • Str Braşov - bl. OD1, Z132A, Z132B • Ale Poiana Muntelui - bl.OD3 • Str Crinul de Pădure - bl. G5, G6, G7, F2"
-    },
-    {
-      "sector": 6,
-      "pt_name": "SC 1/2 - MODULE TERMICE",
-      "blocks": 10,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Drumul Taberei - • Ale Bujoreni - bl. P1 • Ale Poiana Cernei - bl. E4, E5, Z4 • Bld Timişoara - bl. Z1, Z2,Z3 • Ale Valea Siretului - bl. P2,P3 • Str Sibiu - bl. OD1,OD2"
     },
     {
       "sector": 6,
@@ -1110,26 +1086,14 @@
     },
     {
       "sector": 6,
-      "pt_name": "SC 2/3 - MODULE TERMICE - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit incalzire si acc",
-      "estimated_restore": "2026-11-25T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Romancierilor - bl.C4"
-    },
-    {
-      "sector": 6,
       "pt_name": "5/8 - Partial",
       "blocks": 1,
       "service": "Oprire INC",
       "cause": "AVARIE CD",
       "estimated_restore": "2026-11-25T15:30",
-      "on_time_probability": 0.412,
-      "basis_n": 10850,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Râul Dorna - bl. Z30"
     },
     {
