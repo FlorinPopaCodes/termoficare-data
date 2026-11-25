@@ -1,21 +1,9 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T12:00:08",
+  "scraped_at": "2026-11-25T12:15:08",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC A12",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum si incalzire",
-      "estimated_restore": "2026-11-25T12:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Hrisovului - Vila A12"
-    },
     {
       "sector": 1,
       "pt_name": "Palatul CFR",
@@ -279,6 +267,42 @@
       "basis_n": 54,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Ţăndărei - bl. 52, 30B • Ale Suraia - bl. 21B, 21, 32, 30, 31B, 50 • Str Fizicienilor - bl. 21A, 11A, 51, 11, 20A, 30A • Str Istriei - bl. 41, 42 • Str Danubiu - bl. 52A, 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Str Schitului - bl. 57, 20b, 43, 20, 11B, 40 • Ale Berevoieşti - bl. 53, 54"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Ct Marasesti 6",
+      "blocks": 9,
+      "service": "Oprire ACC/INC",
+      "cause": "Avarie furnizor de energie electrica- lipsa alimentare cu energie electrica la Centrala Termica, Strada Dimitrie Cantemir",
+      "estimated_restore": "2026-11-25T16:30",
+      "on_time_probability": 0.24,
+      "basis_n": 25,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mihnea Vodă - Vila 2 • Str Oiţelor - Vila 18, Vila 22 • Str Radu Vodă - Vila 16A • Bld Dimitrie Cantemir - Bl. 4, 5, 6, 7, 8"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Ct Marasesti 11",
+      "blocks": 4,
+      "service": "Oprire ACC/INC",
+      "cause": "Avarie furnizor de energie electrica- lipsa alimentare cu energie electrica la Centrala Termica, Strada Dimitrie Cantemir",
+      "estimated_restore": "2026-11-25T16:30",
+      "on_time_probability": 0.28,
+      "basis_n": 25,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Dimitrie Cantemir - Bl 9,10,11 • Bld Mărăşeşti - Bl 1"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Ct Marasesti 3",
+      "blocks": 4,
+      "service": "Oprire ACC/INC",
+      "cause": "Avarie furnizor de energie electrica- lipsa alimentare cu energie electrica la Centrala Termica, Strada Dimitrie Cantemir",
+      "estimated_restore": "2026-11-25T16:30",
+      "on_time_probability": 0.464,
+      "basis_n": 6065,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Dimitrie Cantemir - Bl 3B, 3C, • Cal Şerban Vodă - Bl 2, • Str Leon Vodă - Vila Tache"
     },
     {
       "sector": 4,
