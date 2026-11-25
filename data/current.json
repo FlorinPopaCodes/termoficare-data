@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T16:00:07",
+  "scraped_at": "2026-11-25T16:30:08",
   "status": "ok",
   "outages": [
     {
@@ -171,18 +171,6 @@
       "basis_n": 54,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Barajul Uzului - bl. L23A, L23B • Ale Barajul Bicaz - bl. G1, M31, M32A, M32B, M33, M33A"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Dudesti - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Înlocuit conducta cd alimentare cu apa rece modul bl 51",
-      "estimated_restore": "2026-11-25T15:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Liviu Rebreanu - Module bl.51. sc 3si 4"
     },
     {
       "sector": 4,
