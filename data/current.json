@@ -1,9 +1,33 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T05:45:08",
+  "scraped_at": "2026-11-25T07:15:08",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "J Grivita",
+      "blocks": 5,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire .",
+      "estimated_restore": "2026-11-25T09:00",
+      "on_time_probability": 0.373,
+      "basis_n": 51,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Griviţei - bl. K, L2, L3, J, L1"
+    },
+    {
+      "sector": 1,
+      "pt_name": "1 Bucurestii Noi",
+      "blocks": 15,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire .",
+      "estimated_restore": "2026-11-25T09:00",
+      "on_time_probability": 0.386,
+      "basis_n": 70,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Subcetate - bl.72, imobil. Nr.70 • Str Panciu - imob. Nr.11, Nr.1 • Str Ardealului - bl.C2, C3 • Bld Bucureştii Noi - bl.C1, A11, A12, 68, 70, 72, 11,13 • Str Aurel Băeşu - bl. A13"
+    },
     {
       "sector": 1,
       "pt_name": "MODUL TERMIC Vila 27",
@@ -30,42 +54,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "3 Petricani",
-      "blocks": 12,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire.",
-      "estimated_restore": "2026-11-25T10:00",
-      "on_time_probability": 0.306,
-      "basis_n": 222,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
-    },
-    {
-      "sector": 2,
-      "pt_name": "7 Doamna Ghica",
-      "blocks": 3,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire.",
-      "estimated_restore": "2026-11-25T10:00",
-      "on_time_probability": 0.455,
-      "basis_n": 112,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sinaia - bl. 16 sc. A-B • Str Pâncota - bl.14, 16 sc. 3-4-5; 15"
-    },
-    {
-      "sector": 2,
-      "pt_name": "33 Muncii",
-      "blocks": 3,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-25T10:00",
-      "on_time_probability": 0.556,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Basarabia - bl.31, 32, 33"
-    },
-    {
-      "sector": 2,
       "pt_name": "11 Pantelimon",
       "blocks": 9,
       "service": "Deficienta INC",
@@ -75,18 +63,6 @@
       "basis_n": 84,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Logofătul Dan - • Ale Vergului - bl. 21, 19, 20, 18, 17, 16, 15 • Şos Pantelimon - bl.1, 2"
-    },
-    {
-      "sector": 2,
-      "pt_name": "5 Pantelimon",
-      "blocks": 8,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-25T10:00",
-      "on_time_probability": 0.607,
-      "basis_n": 89,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Herţa - bl. 63; 64A; 64B • Str Pescăruşului - Imobil • Şos Pantelimon - bl.59-60, 55, 53, 55A"
     },
     {
       "sector": 2,
@@ -126,18 +102,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "3 Iancului",
-      "blocks": 31,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-25T10:00",
-      "on_time_probability": 0.417,
-      "basis_n": 132,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Măgura Vulturului - bl.116A; • Str Elev Ştefan Ştefănescu - bl.462, 463, 464, 465, imob.Nr.10Bis, 10B • Şos Iancului - bl.110A, 109B , 109A , 112C, 110B, 112A ,imob.Nr.7A, 23 • Str Lt. Sachelarie Visarion - bl.111B, 112B, 111A, 112A, 466,imob.Nr.11, 15, 39, 13A, 37, 17A; • Str Avrig - bl.460, 461 • Ale Zarandului - bl.467, 468, 469"
-    },
-    {
-      "sector": 2,
       "pt_name": "15 ABC",
       "blocks": 2,
       "service": "Deficienta INC",
@@ -147,18 +111,6 @@
       "basis_n": 37,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Vergului - bl.15D • Şos Pantelimon - bl.15ABC"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Ilarie Chendi",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-25T10:00",
-      "on_time_probability": 0.38,
-      "basis_n": 229,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Medic Constantin Zlătescu - • Şos Mihai Bravu - bl.D25, D26 sc.A, D27 sc.A, B, D28, D27B • Str Ilarie Chendi - imob.Nr.44 • Ale Lunguleţu - bl.V1, V2, D14, V3 sc.B"
     },
     {
       "sector": 4,
