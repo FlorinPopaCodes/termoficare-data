@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T23:45:08",
+  "scraped_at": "2026-11-26T00:00:07",
   "status": "ok",
   "outages": [
     {
@@ -354,6 +354,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "1 Virtuții",
+      "blocks": 18,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CET VEST",
+      "estimated_restore": "2026-11-26T08:00",
+      "on_time_probability": 0.39,
+      "basis_n": 559,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
+    },
+    {
+      "sector": 6,
       "pt_name": "MILITARI - 9 Placare",
       "blocks": 19,
       "service": "Deficienta INC",
@@ -375,6 +387,18 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Baia de Arieş - bl. 3 sc. 7+8, 7 • Str Baia de Arieş - bl. 5B, 10+10A, 11A+B, 12, 13 • Str Politehnicii - bl. 1, 8, 9, 6 • Ale Politehnicii - bl. 2, 3bis, 4, 5A, 3 sc. 1-6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "7 Virtuții",
+      "blocks": 4,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CET VEST",
+      "estimated_restore": "2026-11-26T08:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
     },
     {
       "sector": 6,
@@ -411,6 +435,18 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Azurului - bl. 113B • Ale Poarta Albă - bl. 109A, 110, 110A • Str Basmului - bl. 108A • Drm Timonierului - bl. 1, 2, 109, 111, 111A, 111B, 113C, 113D • Str Centurii - bl. 112, 113, 113A • Str Cupolei - bl. 108"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Virtuții",
+      "blocks": 22,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CET VEST",
+      "estimated_restore": "2026-11-26T08:00",
+      "on_time_probability": 0.39,
+      "basis_n": 559,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
     },
     {
       "sector": 6,
@@ -507,42 +543,6 @@
       "basis_n": 0,
       "basis_bucket": "overdue",
       "zone_raw": "• Str Drumul Taberei - bl. T1, T2, OD3 • Str Pravăţ - bl. P4, P5, P6, Z34, Z35 • Ale Pravăţ - bl. Z5, Z6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Virtuții",
-      "blocks": 18,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.39,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Virtuții",
-      "blocks": 4,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Virtuții",
-      "blocks": 22,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.39,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
     },
     {
       "sector": 6,
