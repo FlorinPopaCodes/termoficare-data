@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T00:15:08",
+  "scraped_at": "2026-11-26T01:00:08",
   "status": "ok",
   "outages": [
     {
@@ -39,102 +39,6 @@
       "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 C3/1",
-      "blocks": 20,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar - Bd. Nicolae Grigorescu",
-      "estimated_restore": "2026-11-26T10:00",
-      "on_time_probability": 0.545,
-      "basis_n": 44,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Horbotei - bl. M1, M2, T3, T4, G5, M10 • Int Bârsei - bl. G3, G4, G6, G7, G8 • Int Bădeni - bl. G1, G2, T5, T6, M13, M13A, M18, M19, M61"
-    },
-    {
-      "sector": 3,
-      "pt_name": "M14",
-      "blocks": 5,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar - Bd. Nicolae Grigorescu",
-      "estimated_restore": "2026-11-26T10:00",
-      "on_time_probability": 0.455,
-      "basis_n": 44,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Horbotei - bl. M11 • Str Constantin Brâncuşi - bl. T4-T5, M12, M13, M14"
-    },
-    {
-      "sector": 3,
-      "pt_name": "5X",
-      "blocks": 11,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar - Bd. Nicolae Grigorescu",
-      "estimated_restore": "2026-11-26T10:00",
-      "on_time_probability": 0.302,
-      "basis_n": 53,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lucreţiu Pătrăşcanu - bl. T1 • Str Constantin Brâncuşi - bl. A13, A13bis • Ale Barajul Uzului - bl. Y14, Y15, Y16 • Ale Barajul Sadului - bl. T2, M4A2, M4A3, Y10 • Ale Barajul Cucuteni - bl. A14"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Cornisa - Module Termice",
-      "blocks": 8,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar - Bd. Nicolae Grigorescu",
-      "estimated_restore": "2026-11-26T10:00",
-      "on_time_probability": 0.474,
-      "basis_n": 10420,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Barajul Iezeru - Module bl.M1A+B • Ale Barajul Bicaz - Module bl. M2A+B, M3A, M3B, M25A+B, M26 • Bld 1 Decembrie 1918 - Module bl.M27, M28"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1L. Patrascanu",
-      "blocks": 10,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar - Bd. Nicolae Grigorescu",
-      "estimated_restore": "2026-11-26T10:00",
-      "on_time_probability": 0.49,
-      "basis_n": 49,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Muncii - bl. M8 • Bld Basarabia - bl. M11, M14, M15, MC17A • Str Lucreţiu Pătrăşcanu - bl. G1, MC18,MC18A, MC18B, MC19"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.G2 - Module Termice",
-      "blocks": 6,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar - Bd. Nicolae Grigorescu",
-      "estimated_restore": "2026-11-26T10:00",
-      "on_time_probability": 0.474,
-      "basis_n": 10420,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Pleniţa - Module bl.Y8 • Str Lucreţiu Pătrăşcanu - Module bl.G2, Y2 • Int Bârsei - Module bl.M9bis, M12 • Int Bădeni - Module bl.M9"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.G3 - Module Termice",
-      "blocks": 4,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar - Bd. Nicolae Grigorescu",
-      "estimated_restore": "2026-11-26T10:00",
-      "on_time_probability": 0.474,
-      "basis_n": 10420,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lucreţiu Pătrăşcanu - Module bl.G3, Y1 • Int Bădeni - Module bl.Y7, Y7bis"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1CORNISA",
-      "blocks": 8,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar - Bd. Nicolae Grigorescu",
-      "estimated_restore": "2026-11-26T10:00",
-      "on_time_probability": 0.444,
-      "basis_n": 54,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Barajul Uzului - bl. L23A, L23B • Ale Barajul Bicaz - bl. G1, M31, M32A, M32B, M33, M33A"
     },
     {
       "sector": 4,
@@ -318,18 +222,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "4 Virtuții",
-      "blocks": 16,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.39,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
-    },
-    {
-      "sector": 6,
       "pt_name": "3 Virtuții",
       "blocks": 15,
       "service": "Deficienta INC",
@@ -366,18 +258,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "2 Politehnicii",
-      "blocks": 15,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Baia de Arieş - bl. 3 sc. 7+8, 7 • Str Baia de Arieş - bl. 5B, 10+10A, 11A+B, 12, 13 • Str Politehnicii - bl. 1, 8, 9, 6 • Ale Politehnicii - bl. 2, 3bis, 4, 5A, 3 sc. 1-6"
-    },
-    {
-      "sector": 6,
       "pt_name": "7 Virtuții",
       "blocks": 4,
       "service": "Deficienta INC",
@@ -399,30 +279,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
-    },
-    {
-      "sector": 6,
-      "pt_name": "10 Aragonitului",
-      "blocks": 20,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 7 Placare",
-      "blocks": 17,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Azurului - bl. 113B • Ale Poarta Albă - bl. 109A, 110, 110A • Str Basmului - bl. 108A • Drm Timonierului - bl. 1, 2, 109, 111, 111A, 111B, 113C, 113D • Str Centurii - bl. 112, 113, 113A • Str Cupolei - bl. 108"
     },
     {
       "sector": 6,
@@ -483,54 +339,6 @@
       "basis_n": 23,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Iuliu Maniu - Instituție"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3/2",
-      "blocks": 8,
-      "service": "Oprire ACC/INC",
-      "cause": "Reparatii conducta tronson CD4-CD8 Dr.Taberei 34",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Drumul Taberei - bl. T3, T4, T5, T6, OD4 • Str Pravăţ - bl.P7, P8, P9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2/8",
-      "blocks": 19,
-      "service": "Oprire ACC/INC",
-      "cause": "Reparatii conducta tronson CD4-CD8 Dr.Taberei 34",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Obcina Mare - bl.A2, A3, F3, F4,OS2 • Ale Obcina Mică - bl. A4,A5 • Str Drumul Taberei - bl. F2, Z33, Z36, Z37 • Str Râul Dorna - bl. F1, Z48, A1,Z47 • Str Sibiu - bl.OS1, E22, E23"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1/8",
-      "blocks": 19,
-      "service": "Oprire ACC/INC",
-      "cause": "Reparatii conducta tronson CD4-CD8 Dr.Taberei 34",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Obcina Mare - Institutie • Str Ţincani - bl. F6, F13, F12, F7, Z44, OS3, Z19, Z18 • Str Drumul Taberei - bl. 801, 802, 803, OS4, Z43, F5 • Ale Valea Prahovei - bl.825, 825BIS"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2/2",
-      "blocks": 10,
-      "service": "Oprire ACC/INC",
-      "cause": "Reparatii conducta tronson CD4-CD8 Dr.Taberei 34",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Drumul Taberei - bl. T1, T2, OD3 • Str Pravăţ - bl. P4, P5, P6, Z34, Z35 • Ale Pravăţ - bl. Z5, Z6"
     },
     {
       "sector": 6,
