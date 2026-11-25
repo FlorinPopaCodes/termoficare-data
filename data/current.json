@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T21:15:08",
+  "scraped_at": "2026-11-25T21:30:08",
   "status": "ok",
   "outages": [
     {
@@ -690,6 +690,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "MILITARI - 8 Placare",
+      "blocks": 17,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CET VEST",
+      "estimated_restore": "2026-11-25T23:30",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Liniei - bl. 6C • Str Azurului - bl. 114A, 118A • Str Răsăritului - bl. 1, 4C, 5C, 7C, 116, 117, 118 • Str Velei - bl. 2, 3 • Str George Calboreanu - bl. 115, 119, 120, 122"
+    },
+    {
+      "sector": 6,
       "pt_name": "7 Lavandei",
       "blocks": 14,
       "service": "Deficienta INC",
@@ -723,6 +735,18 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 7 Placare",
+      "blocks": 17,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CET VEST",
+      "estimated_restore": "2026-11-25T23:30",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Azurului - bl. 113B • Ale Poarta Albă - bl. 109A, 110, 110A • Str Basmului - bl. 108A • Drm Timonierului - bl. 1, 2, 109, 111, 111A, 111B, 113C, 113D • Str Centurii - bl. 112, 113, 113A • Str Cupolei - bl. 108"
     },
     {
       "sector": 6,
@@ -1086,18 +1110,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "MILITARI - 3 Placare",
-      "blocks": 12,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Moineşti - bl. 135, 136, 201, 202, 203, 204, 205, 206 • Bld Iuliu Maniu - bl. 5P, 6P, 7P, 8P"
-    },
-    {
-      "sector": 6,
       "pt_name": "4 Virtuții",
       "blocks": 16,
       "service": "Deficienta ACC/INC",
@@ -1182,18 +1194,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "MILITARI - 8 Placare",
-      "blocks": 17,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Liniei - bl. 6C • Str Azurului - bl. 114A, 118A • Str Răsăritului - bl. 1, 4C, 5C, 7C, 116, 117, 118 • Str Velei - bl. 2, 3 • Str George Calboreanu - bl. 115, 119, 120, 122"
-    },
-    {
-      "sector": 6,
       "pt_name": "12 Maratonului",
       "blocks": 20,
       "service": "Deficienta ACC/INC",
@@ -1203,18 +1203,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Int Maratonului - bl. N6 • Str Apusului - bl. 47, 48, 49, 69, 70, 71, 50 • Str Mărgelelor - bl. N2, N3 • Int Flotei - bl. N4 • Ale Ghirlandei - bl. N1, N5, N5A, 43, 44, 45, 46 • Str Castranova - Casa Ilie"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3 Uverturii",
-      "blocks": 12,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Fabricii - bl. 15E, 15D, 15C, 25/III, 25/IV, 25/V • Bld Iuliu Maniu - bl. 15bis, 15A, 15B • Ale Cetăţuia - bl. 25/I, 25/II"
     },
     {
       "sector": 6,
@@ -1263,18 +1251,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lujerului - bl. 22C, 100 • Bld Iuliu Maniu - bl. 17, 17A, 18P, 22A • Int Vagonetului - bl. 101 • Str Cupolei - bl. 105, 106"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 7 Placare",
-      "blocks": 17,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Azurului - bl. 113B • Ale Poarta Albă - bl. 109A, 110, 110A • Str Basmului - bl. 108A • Drm Timonierului - bl. 1, 2, 109, 111, 111A, 111B, 113C, 113D • Str Centurii - bl. 112, 113, 113A • Str Cupolei - bl. 108"
     },
     {
       "sector": 6,
