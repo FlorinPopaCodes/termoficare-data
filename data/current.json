@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T11:30:09",
+  "scraped_at": "2026-11-25T11:45:08",
   "status": "ok",
   "outages": [
     {
@@ -147,6 +147,18 @@
       "basis_n": 37,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Vergului - bl.15D • Şos Pantelimon - bl.15ABC"
+    },
+    {
+      "sector": 3,
+      "pt_name": "15 C5/2 - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-25T14:00",
+      "on_time_probability": 0.304,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Plt. Petre D. Ionescu - bl. 6 • Str Plt. Radu Gheorghe - bl. 16"
     },
     {
       "sector": 3,
@@ -447,6 +459,54 @@
       "basis_n": 905,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3/2",
+      "blocks": 8,
+      "service": "Oprire ACC/INC",
+      "cause": "Reparatii conducta tronson CD4-CD8 Dr.Taberei 34",
+      "estimated_restore": "2026-11-25T23:30",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Drumul Taberei - bl. T3, T4, T5, T6, OD4 • Str Pravăţ - bl.P7, P8, P9"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/8",
+      "blocks": 19,
+      "service": "Oprire ACC/INC",
+      "cause": "Reparatii conducta tronson CD4-CD8 Dr.Taberei 34",
+      "estimated_restore": "2026-11-25T23:30",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Obcina Mare - bl.A2, A3, F3, F4,OS2 • Ale Obcina Mică - bl. A4,A5 • Str Drumul Taberei - bl. F2, Z33, Z36, Z37 • Str Râul Dorna - bl. F1, Z48, A1,Z47 • Str Sibiu - bl.OS1, E22, E23"
+    },
+    {
+      "sector": 6,
+      "pt_name": "1/8",
+      "blocks": 19,
+      "service": "Oprire ACC/INC",
+      "cause": "Reparatii conducta tronson CD4-CD8 Dr.Taberei 34",
+      "estimated_restore": "2026-11-25T23:30",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Obcina Mare - Institutie • Str Ţincani - bl. F6, F13, F12, F7, Z44, OS3, Z19, Z18 • Str Drumul Taberei - bl. 801, 802, 803, OS4, Z43, F5 • Ale Valea Prahovei - bl.825, 825BIS"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/2",
+      "blocks": 10,
+      "service": "Oprire ACC/INC",
+      "cause": "Reparatii conducta tronson CD4-CD8 Dr.Taberei 34",
+      "estimated_restore": "2026-11-25T23:30",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Drumul Taberei - bl. T1, T2, OD3 • Str Pravăţ - bl. P4, P5, P6, Z34, Z35 • Ale Pravăţ - bl. Z5, Z6"
     },
     {
       "sector": 6,
