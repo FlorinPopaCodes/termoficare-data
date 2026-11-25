@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T13:30:08",
+  "scraped_at": "2026-11-25T14:30:08",
   "status": "ok",
   "outages": [
     {
@@ -71,22 +71,22 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-11-25T14:00",
-      "on_time_probability": 0.506,
-      "basis_n": 87,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Matei Voievod - bl. O1, O2, O3, D18, MATEI VOIEVOD • Str Medic Constantin Zlătescu - bl.V5, V4 • Şos Mihai Bravu - bl.D22, V6, D23, D20, D21, D24, D19, D18 SC.C"
     },
     {
       "sector": 3,
-      "pt_name": "15 C5/2 - Partial",
-      "blocks": 2,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-25T14:00",
-      "on_time_probability": 0.304,
-      "basis_n": 23,
+      "pt_name": "2 Cornul Caprei",
+      "blocks": 3,
+      "service": "Oprire ACC/INC",
+      "cause": "Depistare si remediere avarie retea primara",
+      "estimated_restore": "2026-11-26T23:00",
+      "on_time_probability": 0.413,
+      "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Plt. Petre D. Ionescu - bl. 6 • Str Plt. Radu Gheorghe - bl. 16"
+      "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
     },
     {
       "sector": 3,
@@ -207,6 +207,18 @@
       "basis_n": 54,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Ţăndărei - bl. 52, 30B • Ale Suraia - bl. 21B, 21, 32, 30, 31B, 50 • Str Fizicienilor - bl. 21A, 11A, 51, 11, 20A, 30A • Str Istriei - bl. 41, 42 • Str Danubiu - bl. 52A, 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Str Schitului - bl. 57, 20b, 43, 20, 11B, 40 • Ale Berevoieşti - bl. 53, 54"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Vacaresti",
+      "blocks": 21,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar",
+      "estimated_restore": "2026-11-26T23:00",
+      "on_time_probability": 0.326,
+      "basis_n": 95,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
     },
     {
       "sector": 4,
