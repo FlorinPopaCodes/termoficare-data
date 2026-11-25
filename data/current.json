@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T07:15:08",
+  "scraped_at": "2026-11-25T07:30:11",
   "status": "ok",
   "outages": [
     {
@@ -255,54 +255,6 @@
       "basis_n": 27,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4 Virtuții",
-      "blocks": 16,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar - (sos.Virtutii )",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.276,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3 Virtuții",
-      "blocks": 15,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar - (sos.Virtutii )",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.308,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Virtuții",
-      "blocks": 18,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar - (sos.Virtutii )",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.273,
-      "basis_n": 33,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Virtuții",
-      "blocks": 22,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar - (sos.Virtutii )",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.229,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
     },
     {
       "sector": 6,
