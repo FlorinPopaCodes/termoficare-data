@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T12:30:07",
+  "scraped_at": "2026-11-25T13:30:08",
   "status": "ok",
   "outages": [
     {
@@ -54,18 +54,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "1 Iancului",
-      "blocks": 15,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-25T14:00",
-      "on_time_probability": 0.565,
-      "basis_n": 92,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.208 • Şos Iancului - bl.103A,102C,102B,103B,102D,101A,101B,imob.Nr.43,45 • Şos Pantelimon - bl.102A,207,208A,101,208B,100"
-    },
-    {
-      "sector": 2,
       "pt_name": "3 Iancului",
       "blocks": 31,
       "service": "Oprire INC",
@@ -87,54 +75,6 @@
       "basis_n": 87,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Matei Voievod - bl. O1, O2, O3, D18, MATEI VOIEVOD • Str Medic Constantin Zlătescu - bl.V5, V4 • Şos Mihai Bravu - bl.D22, V6, D23, D20, D21, D24, D19, D18 SC.C"
-    },
-    {
-      "sector": 2,
-      "pt_name": "11 Pantelimon",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-25T14:00",
-      "on_time_probability": 0.583,
-      "basis_n": 84,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Logofătul Dan - • Ale Vergului - bl. 21, 19, 20, 18, 17, 16, 15 • Şos Pantelimon - bl.1, 2"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Cosmos Extindere",
-      "blocks": 11,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-25T14:00",
-      "on_time_probability": 0.356,
-      "basis_n": 87,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sold. Zambilă Ioniţă - bl. 33C, 7C, 7D • Şos Pantelimon - bl. A3, A2, A1, A4, 7A+7B, B1, B2 • Str Azotului - bl. 33D"
-    },
-    {
-      "sector": 2,
-      "pt_name": "7 Pantelimon",
-      "blocks": 8,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-25T14:00",
-      "on_time_probability": 0.684,
-      "basis_n": 38,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Delfinului - bl.40, 42 • Şos Fundeni - bl.38, 39 • Şos Pantelimon - bl.12, 44, 43"
-    },
-    {
-      "sector": 2,
-      "pt_name": "15 ABC",
-      "blocks": 2,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-25T14:00",
-      "on_time_probability": 0.676,
-      "basis_n": 37,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Vergului - bl.15D • Şos Pantelimon - bl.15ABC"
     },
     {
       "sector": 3,
@@ -267,42 +207,6 @@
       "basis_n": 54,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Ţăndărei - bl. 52, 30B • Ale Suraia - bl. 21B, 21, 32, 30, 31B, 50 • Str Fizicienilor - bl. 21A, 11A, 51, 11, 20A, 30A • Str Istriei - bl. 41, 42 • Str Danubiu - bl. 52A, 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Str Schitului - bl. 57, 20b, 43, 20, 11B, 40 • Ale Berevoieşti - bl. 53, 54"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Ct Marasesti 6",
-      "blocks": 9,
-      "service": "Oprire ACC/INC",
-      "cause": "Avarie furnizor de energie electrica- lipsa alimentare cu energie electrica la Centrala Termica, Strada Dimitrie Cantemir",
-      "estimated_restore": "2026-11-25T16:30",
-      "on_time_probability": 0.24,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mihnea Vodă - Vila 2 • Str Oiţelor - Vila 18, Vila 22 • Str Radu Vodă - Vila 16A • Bld Dimitrie Cantemir - Bl. 4, 5, 6, 7, 8"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Ct Marasesti 11",
-      "blocks": 4,
-      "service": "Oprire ACC/INC",
-      "cause": "Avarie furnizor de energie electrica- lipsa alimentare cu energie electrica la Centrala Termica, Strada Dimitrie Cantemir",
-      "estimated_restore": "2026-11-25T16:30",
-      "on_time_probability": 0.28,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Dimitrie Cantemir - Bl 9,10,11 • Bld Mărăşeşti - Bl 1"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Ct Marasesti 3",
-      "blocks": 4,
-      "service": "Oprire ACC/INC",
-      "cause": "Avarie furnizor de energie electrica- lipsa alimentare cu energie electrica la Centrala Termica, Strada Dimitrie Cantemir",
-      "estimated_restore": "2026-11-25T16:30",
-      "on_time_probability": 0.464,
-      "basis_n": 6065,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dimitrie Cantemir - Bl 3B, 3C, • Cal Şerban Vodă - Bl 2, • Str Leon Vodă - Vila Tache"
     },
     {
       "sector": 4,
@@ -522,6 +426,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "1 Veteranilor",
+      "blocks": 15,
+      "service": "Deficienta INC",
+      "cause": "Oprire programată CTE VEST",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Peştera Dâmbovicioara - bl. Colegiul Economic Costin C. Kirițescu • Str Partizanilor - bl. M3A. M10, M11, M3, M12 • Bld Iuliu Maniu - bl. 3, 4, 5 • Str Veteranilor - bl. M13, M14, M15 • Bld Uverturii - bl. 1, 9, 10"
+    },
+    {
+      "sector": 6,
       "pt_name": "3 Virtuții",
       "blocks": 15,
       "service": "Deficienta INC",
@@ -543,6 +459,18 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lujerului - bl. 1A • Ale Agigea - bl. 102A • Str Basmului - bl. 103 • Drm Timonierului - bl. 104, 104A • Str Cupolei - bl. 2A, 2B, 102"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 6 Placare",
+      "blocks": 8,
+      "service": "Deficienta INC",
+      "cause": "Oprire programată CTE VEST",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - bl. D3, D4, D5, D6, R1, R2, 21P"
     },
     {
       "sector": 6,
@@ -570,6 +498,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "MILITARI - 3A Placare",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Oprire programată CTE VEST",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Odgonului - bl. 132, 134 • Str Moineşti - bl. 127, 130, 134A • Str Ion Manolescu - bl. 123, 124, 128, 129, 131 • Str George Calboreanu - bl. 125, 126"
+    },
+    {
+      "sector": 6,
       "pt_name": "MILITARI - 8 Placare",
       "blocks": 17,
       "service": "Deficienta INC",
@@ -579,6 +519,18 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Liniei - bl. 6C • Str Azurului - bl. 114A, 118A • Str Răsăritului - bl. 1, 4C, 5C, 7C, 116, 117, 118 • Str Velei - bl. 2, 3 • Str George Calboreanu - bl. 115, 119, 120, 122"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Veteranilor",
+      "blocks": 13,
+      "service": "Deficienta INC",
+      "cause": "Oprire programată CTE VEST",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Partizanilor - bl.M3 • Str Veteranilor - bl. M6, M16, 6, 7 • Bld Uverturii - bl. M8, 11 • Str Dealul Ţugulea - bl. 8, 12, 13, 14, 15, 16, Școala Gimnazială nr. 156"
     },
     {
       "sector": 6,
@@ -654,18 +606,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "1 Veteranilor",
-      "blocks": 15,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie în punctul termic pe circuitul primar",
-      "estimated_restore": "2026-11-25T15:30",
-      "on_time_probability": 0.411,
-      "basis_n": 73,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Peştera Dâmbovicioara - bl. Colegiul Economic Costin C. Kirițescu • Str Partizanilor - bl. M3A. M10, M11, M3, M12 • Bld Iuliu Maniu - bl. 3, 4, 5 • Str Veteranilor - bl. M13, M14, M15 • Bld Uverturii - bl. 1, 9, 10"
-    },
-    {
-      "sector": 6,
       "pt_name": "12 Liniei - Partial",
       "blocks": 2,
       "service": "Oprire INC",
@@ -675,6 +615,18 @@
       "basis_n": 29,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Moineşti - Grădinița Paradisul Piticilor, Școala Nr. 309"
+    },
+    {
+      "sector": 6,
+      "pt_name": "10/4",
+      "blocks": 14,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Lunca Siretului - bl.A39 • Ale Lunca Cernei - bl.A36 • Ale Ariniş - bl. OD1, A40 • Str Drumul Taberei - C15, C16, 417C • Ale Câmpul cu Flori - bl.OD2, D27, C17B, C17A, D26, D25, D24"
     },
     {
       "sector": 6,
@@ -690,6 +642,54 @@
     },
     {
       "sector": 6,
+      "pt_name": "13/4",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Lunca Cernei - bl.A52 • Bld Timişoara - bl.C13A, C13B, M47, C13 • Ale Câmpul cu Flori - bl.A48, A49, A50, A51, M49, M48"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/6",
+      "blocks": 24,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Arutela - bl. M16, D1 • Str Drumul Taberei - bl.M13, M15, M17, M18, M19, C2 • Ale Potaisa - bl.M14, A17, A18 • Ale Valea Bujorului - bl. D9, D10 • Str Valea Argeşului - bl. M12, D11 • Str Râul Doamnei - bl.C3,C4, M20 • Ale Callatis - Bl.D8, D2, A16, A15, A15 Bis"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/7'",
+      "blocks": 27,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Braşov - bl. D6, A11 • Str Valea Călugărească - bl.D5, Z3, Z2, Z1, D4, A6, Z4 • Ale Valea Călugărească - A10A, A10, • Prl Ghencea - bl.R3, R4 • Str Chilia Veche - bl. TD16, TD17, A8, A7, A9 • Str Valea lui Mihai - bl.6 • Str Valea Roşie - bl.Z9, Z8, Z7, Z6, Z5 • Ale Valea Roşie - bl. A5, MIIB8/5, MIIB8/4"
+    },
+    {
+      "sector": 6,
+      "pt_name": "4/6",
+      "blocks": 20,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Istru - bl D7 • Str Valea Argeşului - bl A6, C1, A8, A7 • Prl Ghencea - M7, D4 • Ale Callatis - bl. A12, A9, A11, A10 • Ale Valea Salciei - bl D5, M8, D6 • Str Valea Oltului - bl.M9, M10, A4, A5"
+    },
+    {
+      "sector": 6,
       "pt_name": "2/10",
       "blocks": 15,
       "service": "Deficienta INC",
@@ -699,6 +699,30 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vlădeasa - bl.C32,C33 • Bld 1 Mai - bl C11, C12, C13, C14, C15, C16, C17 • Str Constantin Titel Petrescu - bl.C20, C21, C22, C29, C30, C31"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2/7",
+      "blocks": 32,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Peştera Scărişoara - bl. 701A, B16B • Str Paşcani - • Str Drumul Taberei - bl.TS7,TS8, TS10, TS9, 701B, R1, R2, R3 • Str Târgu Neamţ - bl. B16A, MIIB8/2, A15, A16, A17, A18, TS30, TS31, TD 27, TD 28, TD29, MIIB8/1, 715A, 715B • Str Segarcea - bl.A11, A14, A12, A13, B13, B14"
+    },
+    {
+      "sector": 6,
+      "pt_name": "12/4",
+      "blocks": 21,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Lunca Siretului - bl. A45, D38, D43, A46, M45A, M45B • Bld Timişoara - bl. C12, M46, M45, D36, M44 • Ale Crăeşti - bl. A47,42, D41 • Ale Dealul Măcinului - bl. D37, M43, A44, D40, D39 • Ale Câmpul cu Flori - bl. M49A, M49B"
     },
     {
       "sector": 6,
@@ -726,6 +750,30 @@
     },
     {
       "sector": 6,
+      "pt_name": "1/7",
+      "blocks": 28,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Paşcani - bl.728A • Str Drumul Taberei - bl. TD1, TD3, TD5, TD42, TD43, TD44, TS37, TS38, TS39, TS40, TS41 • Ale Topoloveni - bl.A1, TD4, TD6, B11,TD2 • Str Cetatea Histria - bl A2, A3, A4, D1, D2, MIIB8/14,MIIB8/15, MIIB8/16 • Str Delineşti - bl.729A"
+    },
+    {
+      "sector": 6,
+      "pt_name": "7/2",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Poiana Vadului - bl. OD8 • Ale Poiana Cernei - bl. E6, E26,E27 • Bld Timişoara - bl A, B, C, D, E, F, G, H"
+    },
+    {
+      "sector": 6,
       "pt_name": "3/10",
       "blocks": 35,
       "service": "Deficienta INC",
@@ -735,6 +783,18 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Vlădeasa - bl. C67, C77, C68, C74 SCARA B, C75, C34, C48 • Str Serg. Gheorghe Lăţea - bl. C70, C71, C47, C36, C60, C37, C35, C61, C69, C74-SCARA A • Bld Ghencea - bl.C66, C65, C64, C63, C24, C25, C26 • Str Gârleni - bl. C45, C46, C72, C73 • Str Constantin Titel Petrescu - bl. C23, C62, C38, C40,C39"
+    },
+    {
+      "sector": 6,
+      "pt_name": "4/7",
+      "blocks": 27,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Paşcani - bl. D5, MIIB8/7, D6, 728B, D7, D8 MIIB8/10 • Ale Paşcani - bl. MIIB8/8, MIIB8/9 • Str Drumul Taberei - bl. R6, R5, R4, 727A, TD47, A6, TD48, TD46 • Str Târgu Neamţ - bl.R7, B31, D10 • Str Cetatea Histria - bl.MIIB8/13 • Str Delineşti - bl.B35, A5,TD45, MIIB8/11, MIIB8/12"
     },
     {
       "sector": 6,
@@ -750,6 +810,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "6/8",
+      "blocks": 15,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Bozieni - bl. 830, 830bis, 832, 833, 834 • Bld 1 Mai - bl.12 • Ale Compozitorilor - bl. 1, 2, 3, 4, F8 • Ale Valea Prahovei - bl. 831, 7S14(apa calda)"
+    },
+    {
+      "sector": 6,
       "pt_name": "4/8",
       "blocks": 20,
       "service": "Deficienta INC",
@@ -759,18 +831,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Obcina Mare - bl.Z25, Z27, Z26 • Str Ţincani - bl. 823, Z23, 824, Z24, E32 • Ale Compozitorilor - bl. Z21, Z20, Z28, 821, Z45,F11, F14, OD15, E20, 822, Z22 • Ale Valea Prahovei - bl.9S14,8S14,7S14(incalzire)"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1/8",
-      "blocks": 19,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CTE Vest",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Obcina Mare - Institutie • Str Ţincani - bl. F6, F13, F12, F7, Z44, OS3, Z19, Z18 • Str Drumul Taberei - bl. 801, 802, 803, OS4, Z43, F5 • Ale Valea Prahovei - bl.825, 825BIS"
     },
     {
       "sector": 6,
@@ -810,15 +870,27 @@
     },
     {
       "sector": 6,
-      "pt_name": "2/2",
-      "blocks": 10,
+      "pt_name": "4/7'",
+      "blocks": 21,
       "service": "Deficienta INC",
       "cause": "Oprire programata CTE Vest",
       "estimated_restore": "2026-11-25T23:00",
       "on_time_probability": 0.282,
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Drumul Taberei - bl. T1, T2, OD3 • Str Pravăţ - bl. P4, P5, P6, Z34, Z35 • Ale Pravăţ - bl. Z5, Z6"
+      "zone_raw": "• Str Drumul Taberei - bl.714, 713, 715 • Str Braşov - bl.716, 717, 718, 719 • Str Valea Călugărească - bl. 1, 2, 3, 4, 5,7, 8, 720 • Str Chilia Veche - bl.710, B11 • Str Valea Roşie - bl.60, 61,62"
+    },
+    {
+      "sector": 6,
+      "pt_name": "6/2",
+      "blocks": 13,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CTE Vest",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Dumbrăviţa - bl.MIIB8/4, 28,T8, P14, 229,ITN • Bld Timişoara - bl. P13, P15, 229Bis, T10, 33, 34, 35, 36"
     },
     {
       "sector": 6,
@@ -831,30 +903,6 @@
       "basis_n": 2350,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Romancierilor - bl.C4"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MT PLAVAT",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit incalzire si acc",
-      "estimated_restore": "2026-11-25T13:00",
-      "on_time_probability": 0.368,
-      "basis_n": 2350,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Alexandru Ivasiuc - E6"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1/7'",
-      "blocks": 14,
-      "service": "Oprire ACC",
-      "cause": "Inlocuit conducta acc cd bl TS3",
-      "estimated_restore": "2026-11-25T14:30",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Drumul Taberei - bl OD1,OD2,TD18 • Ale Vlăsiei - bl. M1, M2, M3 • Str Râul Doamnei - bl.TD5, TS4, TS3, TS2, TS1 • Str Valea lui Mihai - bl TD7, TD6"
     },
     {
       "sector": 6,
