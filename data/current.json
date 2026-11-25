@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T21:30:08",
+  "scraped_at": "2026-11-25T22:00:08",
   "status": "ok",
   "outages": [
     {
@@ -822,18 +822,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "2/7'",
-      "blocks": 27,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.412,
-      "basis_n": 1476,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Braşov - bl. D6, A11 • Str Valea Călugărească - bl.D5, Z3, Z2, Z1, D4, A6, Z4 • Ale Valea Călugărească - A10A, A10, • Prl Ghencea - bl.R3, R4 • Str Chilia Veche - bl. TD16, TD17, A8, A7, A9 • Str Valea lui Mihai - bl.6 • Str Valea Roşie - bl.Z9, Z8, Z7, Z6, Z5 • Ale Valea Roşie - bl. A5, MIIB8/5, MIIB8/4"
-    },
-    {
-      "sector": 6,
       "pt_name": "SC 6/2 - MODULE TERMICE",
       "blocks": 16,
       "service": "Deficienta ACC",
@@ -843,18 +831,6 @@
       "basis_n": 1476,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Bucşeneşti - bl.E8, E11, E12, Z8 • Str Braşov - bl.E9, E10, E13, E14, Z27 • Bld Timişoara - bl T7, CC6 • Ale Valea Florilor - bl. E7, Z7, Z9,Z10"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2/10",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.412,
-      "basis_n": 1476,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Vlădeasa - bl.C32,C33 • Bld 1 Mai - bl C11, C12, C13, C14, C15, C16, C17 • Str Constantin Titel Petrescu - bl.C20, C21, C22, C29, C30, C31"
     },
     {
       "sector": 6,
@@ -906,18 +882,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "4/7",
-      "blocks": 27,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.412,
-      "basis_n": 1476,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Paşcani - bl. D5, MIIB8/7, D6, 728B, D7, D8 MIIB8/10 • Ale Paşcani - bl. MIIB8/8, MIIB8/9 • Str Drumul Taberei - bl. R6, R5, R4, 727A, TD47, A6, TD48, TD46 • Str Târgu Neamţ - bl.R7, B31, D10 • Str Cetatea Histria - bl.MIIB8/13 • Str Delineşti - bl.B35, A5,TD45, MIIB8/11, MIIB8/12"
-    },
-    {
-      "sector": 6,
       "pt_name": "3/8",
       "blocks": 17,
       "service": "Deficienta ACC",
@@ -927,30 +891,6 @@
       "basis_n": 1476,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Obcina Mică - bl. Z31 • Bld 1 Mai - bl. 4S14, 6S14 • Ale Compozitorilor - bl. E21, G12, OD5, G10, 5S14, G9, G11, F17,10S14,Z38 • Str Sibiu - bl.E33, 813, Z32"
-    },
-    {
-      "sector": 6,
-      "pt_name": "6/8",
-      "blocks": 15,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.412,
-      "basis_n": 1476,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Bozieni - bl. 830, 830bis, 832, 833, 834 • Bld 1 Mai - bl.12 • Ale Compozitorilor - bl. 1, 2, 3, 4, F8 • Ale Valea Prahovei - bl. 831, 7S14(apa calda)"
-    },
-    {
-      "sector": 6,
-      "pt_name": "4/8",
-      "blocks": 20,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.412,
-      "basis_n": 1476,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Obcina Mare - bl.Z25, Z27, Z26 • Str Ţincani - bl. 823, Z23, 824, Z24, E32 • Ale Compozitorilor - bl. Z21, Z20, Z28, 821, Z45,F11, F14, OD15, E20, 822, Z22 • Ale Valea Prahovei - bl.9S14,8S14,7S14(incalzire)"
     },
     {
       "sector": 6,
@@ -975,18 +915,6 @@
       "basis_n": 1476,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Valea Călugărească - bl. E1, E3, E2 • Prl Ghencea - bl. A1, A2, R1, R2, D3, TS9, TS10 • Ale Ghencea - bl.A12 • Str Râul Doamnei - bl. TS8 • Str Valea lui Mihai - bl. A3, A4, D1, D2,TD14, TD13, TD12, TD11"
-    },
-    {
-      "sector": 6,
-      "pt_name": "6/2",
-      "blocks": 13,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.412,
-      "basis_n": 1476,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Dumbrăviţa - bl.MIIB8/4, 28,T8, P14, 229,ITN • Bld Timişoara - bl. P13, P15, 229Bis, T10, 33, 34, 35, 36"
     },
     {
       "sector": 6,
@@ -1251,6 +1179,30 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lujerului - bl. 22C, 100 • Bld Iuliu Maniu - bl. 17, 17A, 18P, 22A • Int Vagonetului - bl. 101 • Str Cupolei - bl. 105, 106"
+    },
+    {
+      "sector": 6,
+      "pt_name": "7 Virtuții",
+      "blocks": 4,
+      "service": "Deficienta ACC/INC",
+      "cause": "Oprire programată CTE VEST",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "8 Virtuții",
+      "blocks": 6,
+      "service": "Deficienta ACC/INC",
+      "cause": "Oprire programată CTE VEST",
+      "estimated_restore": "2026-11-25T23:00",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
     },
     {
       "sector": 6,
