@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T11:45:08",
+  "scraped_at": "2026-11-25T12:00:08",
   "status": "ok",
   "outages": [
     {
@@ -11,9 +11,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum si incalzire",
       "estimated_restore": "2026-11-25T12:00",
-      "on_time_probability": 0.378,
-      "basis_n": 2386,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Hrisovului - Vila A12"
     },
     {
@@ -267,18 +267,6 @@
       "basis_n": 34,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Liviu Rebreanu - Module bl.51. sc 3si 4"
-    },
-    {
-      "sector": 3,
-      "pt_name": "7 Vitan",
-      "blocks": 12,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie canal distanta bl V18 galerie comuna cu reteaua primara",
-      "estimated_restore": "2026-11-25T16:00",
-      "on_time_probability": 0.514,
-      "basis_n": 74,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vlad Judeţul - bl. V12, V13, V14A, V11 • Cal Vitan - bl. V14B, V16B, V16A, V15 • Str Agatha Bârsescu - bl. V19 • Str Brăiliţa - bl. V17, V10, V18"
     },
     {
       "sector": 3,
