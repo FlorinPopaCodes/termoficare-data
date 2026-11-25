@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T17:30:07",
+  "scraped_at": "2026-11-25T18:30:08",
   "status": "ok",
   "outages": [
     {
@@ -39,18 +39,6 @@
       "basis_n": 913,
       "basis_bucket": "cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "8 Doamna Ghica",
-      "blocks": 3,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere defectiune electrica in PT",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.372,
-      "basis_n": 1364,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Pâncota - bl.11 Nord, 12 Nord,13 Nord"
     },
     {
       "sector": 3,
@@ -315,6 +303,54 @@
       "basis_n": 905,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
+    },
+    {
+      "sector": 6,
+      "pt_name": "UM 0276 (0333)",
+      "blocks": 0,
+      "service": "Oprire ACC/INC",
+      "cause": "Depistare și remediere avarie rețea primară",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.556,
+      "basis_n": 27,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - Instituție"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 6 Placare",
+      "blocks": 8,
+      "service": "Oprire ACC/INC",
+      "cause": "Depistare și remediere avarie rețea primară",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.333,
+      "basis_n": 39,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - bl. D3, D4, D5, D6, R1, R2, 21P"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Ansamblul QUADRA PLACE I",
+      "blocks": 11,
+      "service": "Oprire ACC/INC",
+      "cause": "Depistare și remediere avarie rețea primară",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.586,
+      "basis_n": 99,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Fabricii - Ansamblu Rezidențial"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Liceul Teoretic \"Tudor Vladimirescu\"",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Depistare și remediere avarie rețea primară",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.261,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - Instituție"
     },
     {
       "sector": 6,
@@ -798,18 +834,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "J Giulești - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-25T18:30",
-      "on_time_probability": 0.379,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Constructorilor - bl. 27"
-    },
-    {
-      "sector": 6,
       "pt_name": "3/2",
       "blocks": 8,
       "service": "Oprire ACC/INC",
@@ -1151,9 +1175,9 @@
       "service": "Oprire INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire",
       "estimated_restore": "2026-11-25T18:30",
-      "on_time_probability": 0.207,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Moineşti - Grădinița Paradisul Piticilor, Școala Nr. 309"
     },
     {
@@ -1215,18 +1239,6 @@
       "basis_n": 27,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 1 Placare",
-      "blocks": 28,
-      "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie racord primar",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.574,
-      "basis_n": 68,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Oboga - bl. 155A, 160 • Bld Iuliu Maniu - bl. 1, 2A, 2B, 3 • Str Vistiernicul Stavrinos - bl. 51, 52A, 53, 53A, 54, 54A, 55A, 152, 153, 155 • Str Băbeşti - bl. 52 • Str Ierbei - bl. 158 • Str Iedului - bl. 149A, 149B • Str Bârsăneşti - bl. 50,150, 151, 154, 156, 157, 159"
     },
     {
       "sector": 6,
