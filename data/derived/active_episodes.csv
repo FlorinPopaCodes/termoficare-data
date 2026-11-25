@@ -1,17 +1,46 @@
 episode_id,sector,pt_name,utility,slip_count
 26efeb1d47a0,1,Ct Luterana,ACC,8
-108e108858d1,4,4 Nitu Vasile,INC,15
-5f0b868ec969,4,1 Bis Zona I,INC,10
-e6f25c7f499d,4,17 Dolhasca,INC,7
-a60bbe96ac87,4,1 Zona I,INC,7
-5722ef266002,4,2 Zona I,INC,6
-9d0914e7fb19,4,5 Zona I,INC,6
-f40f896b6ff8,6,MILITARI - 4 Placare - Partial,INC,1
-fd2c548066e5,6,NEFAMILISTI,ACC,0
-c0038772c7f7,6,NEFAMILISTI,INC,0
+108e108858d1,4,4 Nitu Vasile,INC,16
+5f0b868ec969,4,1 Bis Zona I,INC,11
+e6f25c7f499d,4,17 Dolhasca,INC,8
+a60bbe96ac87,4,1 Zona I,INC,8
+5722ef266002,4,2 Zona I,INC,7
+9d0914e7fb19,4,5 Zona I,INC,7
+f40f896b6ff8,6,MILITARI - 4 Placare - Partial,INC,2
 85b69be056b2,6,MILITARI - 1 Placare,ACC,0
 4d289a4e8e83,6,MILITARI - 1 Placare,INC,0
-63d02c2b3a9f,1,2 Bucurestii Noi,ACC,0
-817216843e69,1,2 Bucurestii Noi,INC,0
-7dbeba72cb61,1,MODUL TERMIC Vila 27,ACC,0
-89f607e41d81,1,MODUL TERMIC Vila 27,INC,0
+7dbeba72cb61,1,MODUL TERMIC Vila 27,ACC,4
+89f607e41d81,1,MODUL TERMIC Vila 27,INC,4
+299223527c28,6,1 Virtuții,ACC,0
+23b45c8ed015,6,1 Virtuții,INC,1
+08179c9e6a23,6,2 Virtuții,ACC,0
+8e8f2321d106,6,2 Virtuții,INC,1
+426f37a14333,6,3 Virtuții,ACC,0
+f7d2de5e3c6d,6,3 Virtuții,INC,1
+91d9715e2fdf,6,4 Virtuții,ACC,0
+80563d2dc028,6,4 Virtuții,INC,1
+f29322b7c5c0,6,5 Virtuții,ACC,0
+7b9831956e51,6,5 Virtuții,INC,0
+3d045c97170f,6,Ansamblul QUADRA PLACE II,ACC,0
+975d4e846d3a,6,Ansamblul QUADRA PLACE II,INC,0
+245f5545ec84,6,Depou Metrou Ciurel,ACC,0
+c8cdfb411426,6,Depou Metrou Ciurel,INC,0
+1509b8018a78,6,"Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",ACC,0
+e313cb0e0d8e,6,"Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",INC,0
+6feee3eac5fc,2,33 Muncii,INC,1
+33ca74c0d17b,6,11 Liniei,INC,1
+0746e40eb88f,6,MILITARI - 9 Placare,INC,1
+87711f599c21,2,11 Pantelimon,INC,1
+f75beb63ebc1,2,15 ABC,INC,1
+e613a77ed795,2,7 Pantelimon,INC,1
+2bf137d23c2d,2,Cosmos Extindere,INC,1
+de1868ef0f86,6,5/8 - Partial,INC,0
+3fe9f2348988,2,5 Pantelimon,INC,1
+1e9f6aa31ba6,2,3 Petricani,ACC,0
+92f3a046d4ad,2,3 Petricani,INC,0
+2f813fbf4aa8,2,7 Doamna Ghica,ACC,0
+e04264117daa,2,7 Doamna Ghica,INC,0
+e12417aaac23,2,Ilarie Chendi,INC,0
+debe7a9d986a,4,4 Tineretului,INC,0
+00970eae5ece,2,1 Carei,INC,0
+d0387e371a93,2,3 Iancului,INC,0
