@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T20:45:09",
+  "scraped_at": "2026-11-25T21:15:08",
   "status": "ok",
   "outages": [
     {
@@ -1023,18 +1023,6 @@
       "basis_n": 23,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Bld Iuliu Maniu - Instituție"
-    },
-    {
-      "sector": 6,
-      "pt_name": "Ct Desisului",
-      "blocks": 11,
-      "service": "Oprire ACC",
-      "cause": "Avarie Apa Nova - lipsă apă rece la centrala termică",
-      "estimated_restore": "2026-11-25T21:00",
-      "on_time_probability": 0.412,
-      "basis_n": 10850,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Cetatea de Baltă - Bl 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11"
     },
     {
       "sector": 6,
