@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T01:00:08",
+  "scraped_at": "2026-11-26T01:30:08",
   "status": "ok",
   "outages": [
     {
@@ -267,18 +267,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
-    },
-    {
-      "sector": 6,
-      "pt_name": "8 Virtuții",
-      "blocks": 6,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
     },
     {
       "sector": 6,
