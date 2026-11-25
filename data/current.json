@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-25T22:30:08",
+  "scraped_at": "2026-11-25T22:45:08",
   "status": "ok",
   "outages": [
     {
@@ -642,15 +642,39 @@
     },
     {
       "sector": 6,
-      "pt_name": "3 Dreptății",
-      "blocks": 10,
+      "pt_name": "4 Virtuții",
+      "blocks": 16,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CET VEST",
+      "estimated_restore": "2026-11-25T23:30",
+      "on_time_probability": 0.39,
+      "basis_n": 559,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Uverturii",
+      "blocks": 13,
       "service": "Deficienta INC",
       "cause": "Oprire programata CET VEST",
       "estimated_restore": "2026-11-25T23:30",
       "on_time_probability": 0.282,
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. O2, O3 • Bld Iuliu Maniu - bl. 18,19 • Str Roşia Montană - bl. 17, O1A, O1B, M20 • Str Dealul Ţugulea - bl. O1C, M18"
+      "zone_raw": "• Bld Iuliu Maniu - bl. M16, 13, 13A-A, 13A-B, 14 • Ale Cetăţuia - bl. M17, M18, M19, M22, M21, M24, M20,M23"
+    },
+    {
+      "sector": 6,
+      "pt_name": "13 Liniei",
+      "blocks": 8,
+      "service": "Deficienta INC",
+      "cause": "Oprire programata CET VEST",
+      "estimated_restore": "2026-11-25T23:30",
+      "on_time_probability": 0.282,
+      "basis_n": 1632,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Lujerului - bl. 1A • Ale Agigea - bl. 102A • Str Basmului - bl. 103 • Drm Timonierului - bl. 104, 104A • Str Cupolei - bl. 2A, 2B, 102"
     },
     {
       "sector": 6,
@@ -663,18 +687,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Lavandei - bl. P29, P30, P33, P34, P35, O12C • Str Partiturii - bl. 63 • Str Estacadei - bl. P40, P41 • Str Dezrobirii - Școala nr. 310 • Str Valea Cerbului - bl. N12 • Str Ghirlandei - bl. P36, P37, P39, N13 • Str Grinţieşului - bl. P31, P32, P38 • Str Cernişoara - bl. O11, O12"
-    },
-    {
-      "sector": 6,
-      "pt_name": "5 Desișului",
-      "blocks": 13,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. M22, M22A • Bld Iuliu Maniu - bl. 20, 21, 22 • Str Dezrobirii - bl. 23, 24, M25, 25, 26 • Str Cetatea de Baltă - bl. M23, M23A, M24"
     },
     {
       "sector": 6,
@@ -702,15 +714,15 @@
     },
     {
       "sector": 6,
-      "pt_name": "7 Lavandei",
-      "blocks": 14,
+      "pt_name": "2 Politehnicii",
+      "blocks": 15,
       "service": "Deficienta INC",
       "cause": "Oprire programata CET VEST",
       "estimated_restore": "2026-11-25T23:30",
       "on_time_probability": 0.282,
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lavandei - bl. P28 • Str Dobreni - bl. P22, P23 • Int Pitulicii - bl. P24, P25, P26, P27 • Str Dezrobirii - bl. P17, P19 • Bld Uverturii - bl. P16, P21 • Str Cernişoara - bl. P18, P20, O13"
+      "zone_raw": "• Ale Baia de Arieş - bl. 3 sc. 7+8, 7 • Str Baia de Arieş - bl. 5B, 10+10A, 11A+B, 12, 13 • Str Politehnicii - bl. 1, 8, 9, 6 • Ale Politehnicii - bl. 2, 3bis, 4, 5A, 3 sc. 1-6"
     },
     {
       "sector": 6,
@@ -747,18 +759,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Azurului - bl. 113B • Ale Poarta Albă - bl. 109A, 110, 110A • Str Basmului - bl. 108A • Drm Timonierului - bl. 1, 2, 109, 111, 111A, 111B, 113C, 113D • Str Centurii - bl. 112, 113, 113A • Str Cupolei - bl. 108"
-    },
-    {
-      "sector": 6,
-      "pt_name": "6 Roșia Montană",
-      "blocks": 17,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Dreptăţii - bl. P7, P8, P9, P12 • Str Dezrobirii - bl. P3, P4, P5, P6, P14 • Bld Uverturii - bl. O14, O14A, O15 • Str Cetatea de Baltă - bl. P10, P11, P13, P15"
     },
     {
       "sector": 6,
@@ -1038,18 +1038,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "4 Virtuții",
-      "blocks": 16,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.39,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. E1A, E5 A+B, E1B, E7 • Str Dreptăţii - bl. E2, E3, E4, E5, E6, F4 • Str Orşova - bl. F5, F2 • Str Dealul Ţugulea - bl. E1B, E1C, F1"
-    },
-    {
-      "sector": 6,
       "pt_name": "1 Uverturii",
       "blocks": 20,
       "service": "Deficienta ACC/INC",
@@ -1059,18 +1047,6 @@
       "basis_n": 1632,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Arinii Dornei - bl. M28, I8, I4, I7, I3, I9, M27, M29, I6, M30 • Str Arieşul Mare - bl. A32, I11, I12, I10, I5, A31, A33, A34 • Ale Politehnicii - bl. I1, I2"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Uverturii",
-      "blocks": 13,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. M16, 13, 13A-A, 13A-B, 14 • Ale Cetăţuia - bl. M17, M18, M19, M22, M21, M24, M20,M23"
     },
     {
       "sector": 6,
@@ -1086,18 +1062,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "13 Liniei",
-      "blocks": 8,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Lujerului - bl. 1A • Ale Agigea - bl. 102A • Str Basmului - bl. 103 • Drm Timonierului - bl. 104, 104A • Str Cupolei - bl. 2A, 2B, 102"
-    },
-    {
-      "sector": 6,
       "pt_name": "1 Virtuții",
       "blocks": 18,
       "service": "Deficienta ACC/INC",
@@ -1107,30 +1071,6 @@
       "basis_n": 559,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
-    },
-    {
-      "sector": 6,
-      "pt_name": "12 Maratonului",
-      "blocks": 20,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Maratonului - bl. N6 • Str Apusului - bl. 47, 48, 49, 69, 70, 71, 50 • Str Mărgelelor - bl. N2, N3 • Int Flotei - bl. N4 • Ale Ghirlandei - bl. N1, N5, N5A, 43, 44, 45, 46 • Str Castranova - Casa Ilie"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Politehnicii",
-      "blocks": 15,
-      "service": "Deficienta ACC/INC",
-      "cause": "Oprire programată CTE VEST",
-      "estimated_restore": "2026-11-25T23:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Baia de Arieş - bl. 3 sc. 7+8, 7 • Str Baia de Arieş - bl. 5B, 10+10A, 11A+B, 12, 13 • Str Politehnicii - bl. 1, 8, 9, 6 • Ale Politehnicii - bl. 2, 3bis, 4, 5A, 3 sc. 1-6"
     },
     {
       "sector": 6,
