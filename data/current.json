@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T15:45:08",
+  "scraped_at": "2026-11-26T16:45:07",
   "status": "ok",
   "outages": [
     {
@@ -159,18 +159,6 @@
       "basis_n": 2391,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC Vila 27",
-      "blocks": 1,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire .",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.175,
-      "basis_n": 4276,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Dridu - Vila 27"
     },
     {
       "sector": 1,
@@ -378,42 +366,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "7 Giulești",
-      "blocks": 9,
-      "service": "Deficienta ACC/INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Crivina",
-      "blocks": 14,
-      "service": "Deficienta ACC/INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str 9 Mai - bl. 20A, 23A, 22A, 10A, 11B • Cal Giuleşti - bl. 12A, 13A, 11A, 14A • Cal Crângaşi - bl. 19A, 18A, 16A, 17A, 15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "9 Crivina",
-      "blocks": 25,
-      "service": "Deficienta ACC/INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Nicolae Filimon - bl. 15 sc. 2, 16, 17, 18 • Str George Mihail Zamfirescu - bl. 19A, 22, 22A • Str Ceahlăul - bl. 14, 15 sc. 1, 18, 19 • Cal Crângaşi - bl. 1, 2, 3, 4, 5, 6, 7, 11, 11A, 11B, 12, 13, 20, 21"
-    },
-    {
-      "sector": 6,
       "pt_name": "11 Mărgelelor",
       "blocks": 21,
       "service": "Deficienta INC",
@@ -438,18 +390,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "11 Liniei",
-      "blocks": 10,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.377,
-      "basis_n": 159,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Moineşti - bl. 16, 20 • Str Mohorului - bl. 17 • Str Moineşti - bl. 14, 15, 18 • Str Vistiernicul Stavrinos - bl. 135A • Str Valea Lungă - bl. 19, 21, 22"
-    },
-    {
-      "sector": 6,
       "pt_name": "MILITARI - 9 Placare",
       "blocks": 19,
       "service": "Deficienta INC",
@@ -459,18 +399,6 @@
       "basis_n": 87,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 2 Placare",
-      "blocks": 18,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.302,
-      "basis_n": 172,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
     },
     {
       "sector": 6,
