@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T17:45:08",
+  "scraped_at": "2026-11-26T18:00:09",
   "status": "ok",
   "outages": [
     {
@@ -75,6 +75,18 @@
       "basis_n": 34,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. I"
+    },
+    {
+      "sector": 1,
+      "pt_name": "2 Prefabricate",
+      "blocks": 6,
+      "service": "Deficienta ACC/INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de pornire CET GRIVITA",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0,
+      "basis_n": 34,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
     },
     {
       "sector": 1,
@@ -426,18 +438,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "11 Mărgelelor",
-      "blocks": 21,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.373,
-      "basis_n": 110,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Lacul Zănoaga - bl. 1, 2, 3 • Str Apusului - bl. N27, N28, N29 • Str Mărgelelor - bl. N30, N31, N32, N34, N35, N36, N37 • Ale Petrăcheşti - bl. N33 • Str Ghirlandei - bl. 72,73, 74, 75, 76, 77"
-    },
-    {
-      "sector": 6,
       "pt_name": "2 Crivina",
       "blocks": 33,
       "service": "Deficienta INC",
@@ -447,18 +447,6 @@
       "basis_n": 116,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Lt. Gheorghe Saidac - bl. 24, 25, 35, 20, 26, 27, 34, 33, 36, 28, 23, 12 ICEM, 12A, 29, 30 • Str Nucşoara - bl. 31, 32, 38, 39, 40, 37 • Str Mehadiei - bl. 4 ICEM, 1 ICEM • Cal Crângaşi - bl. 13 ICEM, 11 ICEM, 10, 9 ICEM, 6-7 ICEM, 8 ICEM, 2 ICEM, 3 ICEM, 4A ICEM, 5 ICEM"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Îndesirii",
-      "blocks": 15,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.303,
-      "basis_n": 297,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Int Jarului - bl. 52, M27 • Str Apusului - bl. 42, M26 • Bld Iuliu Maniu - bl. 38, 39, 40, 41, H, I, J, K, G, G1, G2"
     },
     {
       "sector": 6,
@@ -495,18 +483,6 @@
       "basis_n": 179,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Crivina",
-      "blocks": 14,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.346,
-      "basis_n": 127,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str 9 Mai - bl. 20A, 23A, 22A, 10A, 11B • Cal Giuleşti - bl. 12A, 13A, 11A, 14A • Cal Crângaşi - bl. 19A, 18A, 16A, 17A, 15"
     },
     {
       "sector": 6,
