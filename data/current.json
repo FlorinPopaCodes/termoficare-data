@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T14:00:09",
+  "scraped_at": "2026-11-26T14:15:07",
   "status": "ok",
   "outages": [
     {
@@ -166,7 +166,7 @@
       "blocks": 1,
       "service": "Deficienta INC",
       "cause": "Lipsa parametri pentru livrare încălzire .",
-      "estimated_restore": "2026-11-26T15:30",
+      "estimated_restore": "2026-11-26T23:30",
       "on_time_probability": 0.175,
       "basis_n": 4276,
       "basis_bucket": "sector_cause_slip",
@@ -306,18 +306,6 @@
     },
     {
       "sector": 5,
-      "pt_name": "2 Drumul Sarii",
-      "blocks": 16,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-26T15:30",
-      "on_time_probability": 0.433,
-      "basis_n": 67,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Baltagului - bl. V75, V76A,V76, V67, V73A • Str Mihail Sebastian - bl. V73, V74 • Drm Sării - bl. V62, V63 • Str Lt. col. Constantin Marinescu - bl. V64, V65, V66, V68, V69, V70, V71"
-    },
-    {
-      "sector": 5,
       "pt_name": "3 Drumul Sării",
       "blocks": 19,
       "service": "Oprire ACC/INC",
@@ -399,6 +387,78 @@
       "basis_n": 905,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
+    },
+    {
+      "sector": 6,
+      "pt_name": "11 Mărgelelor",
+      "blocks": 21,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.373,
+      "basis_n": 110,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Lacul Zănoaga - bl. 1, 2, 3 • Str Apusului - bl. N27, N28, N29 • Str Mărgelelor - bl. N30, N31, N32, N34, N35, N36, N37 • Ale Petrăcheşti - bl. N33 • Str Ghirlandei - bl. 72,73, 74, 75, 76, 77"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Îndesirii",
+      "blocks": 15,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.303,
+      "basis_n": 297,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Jarului - bl. 52, M27 • Str Apusului - bl. 42, M26 • Bld Iuliu Maniu - bl. 38, 39, 40, 41, H, I, J, K, G, G1, G2"
+    },
+    {
+      "sector": 6,
+      "pt_name": "11 Liniei",
+      "blocks": 10,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.377,
+      "basis_n": 159,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Moineşti - bl. 16, 20 • Str Mohorului - bl. 17 • Str Moineşti - bl. 14, 15, 18 • Str Vistiernicul Stavrinos - bl. 135A • Str Valea Lungă - bl. 19, 21, 22"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 9 Placare",
+      "blocks": 19,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.115,
+      "basis_n": 87,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
+    },
+    {
+      "sector": 6,
+      "pt_name": "MILITARI - 2 Placare",
+      "blocks": 18,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.302,
+      "basis_n": 172,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Iuliu Maniu - bl. 4 • Str Vistiernicul Stavrinos - bl. 1, 2, 3 • Str Iedului - Grădinița Prichindel • Str Hanul Ancuţei - bl. 146, 147, 147A, 148, Școala Gimnazială Ion Dumitriu • Str Valea Lungă - bl. 148A, Z1, Z2, Z3, Z4, Z5, Z6"
+    },
+    {
+      "sector": 6,
+      "pt_name": "10 Aragonitului",
+      "blocks": 20,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.297,
+      "basis_n": 175,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
     },
     {
       "sector": 6,
@@ -498,18 +558,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "G3 Giulești",
-      "blocks": 17,
-      "service": "Deficienta INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Ruşeţu - bl. A1+A2, G11, G8, CFR • Int Craiovei - bl. A5 • Bld Constructorilor - bl. A3, A4, G4, G7, G2, G3, 4(G5), G6, G12, G1, G10, F2, 10"
-    },
-    {
-      "sector": 6,
       "pt_name": "2 Crivina",
       "blocks": 33,
       "service": "Deficienta INC",
@@ -522,18 +570,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "8 Crivina",
-      "blocks": 29,
-      "service": "Deficienta INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112,113 • Str Zboina Neagră - bl. 91-95, 116 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str George Mihail Zamfirescu - bl. 102 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
-    },
-    {
-      "sector": 6,
       "pt_name": "10 Giulești",
       "blocks": 9,
       "service": "Deficienta INC",
@@ -543,18 +579,6 @@
       "basis_n": 202,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Finta - bl. 1, Imobil Str. Finta nr. 4, Imobil Str. Finta nr. 5 • Str Porumbacu - Colegiul Tehnic Carol I • Str Tabla Butii - Imobil Str. Tabla Butii nr. 80 • Cal Giuleşti - bl. 6, 10, 11"
-    },
-    {
-      "sector": 6,
-      "pt_name": "Prunaru",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Giuleşti - bl. Z1, Z2, Z3, OD4 • Str Prunaru - bl. 6, 7, 9, OD5,8"
     },
     {
       "sector": 6,
@@ -579,66 +603,6 @@
       "basis_n": 202,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Olăneşti - bl. 76A, 83 • Str Pădureni - bl. 51, 52, 58D, 53A, 53B, 53C, 52 • Str Vintilă Mihăilescu - bl. 78, 54, 55, 56, 57, 58, 59, 77, 80, 79, 44 • Str Zboina Neagră - bl. 81, 74 • Str Ceahlăul - bl. 82, 75, 76 • Cal Crângaşi - bl. 46, 48, 49, 45, 50, 47"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Crivina",
-      "blocks": 13,
-      "service": "Deficienta INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Nucşoara - bl. 15A ICEM, 41, 42 • Str Mehadiei - bl. 21, 22 • Cal Crângaşi - bl. 15 ICEM, 16 • Bld Constructorilor - bl. 20, 17, 18, 19, 20A, 44"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Giulești",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Crivina",
-      "blocks": 14,
-      "service": "Deficienta INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str 9 Mai - bl. 20A, 23A, 22A, 10A, 11B • Cal Giuleşti - bl. 12A, 13A, 11A, 14A • Cal Crângaşi - bl. 19A, 18A, 16A, 17A, 15"
-    },
-    {
-      "sector": 6,
-      "pt_name": "9 Crivina",
-      "blocks": 25,
-      "service": "Deficienta INC",
-      "cause": "Manevre de pornire CT GRIVIȚA",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.327,
-      "basis_n": 202,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Nicolae Filimon - bl. 15 sc. 2, 16, 17, 18 • Str George Mihail Zamfirescu - bl. 19A, 22, 22A • Str Ceahlăul - bl. 14, 15 sc. 1, 18, 19 • Cal Crângaşi - bl. 1, 2, 3, 4, 5, 6, 7, 11, 11A, 11B, 12, 13, 20, 21"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3/7 - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Pascani.)",
-      "estimated_restore": "2026-11-26T13:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Paşcani - bl. TD49"
     },
     {
       "sector": 6,
