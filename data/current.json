@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T18:15:09",
+  "scraped_at": "2026-11-26T18:30:08",
   "status": "ok",
   "outages": [
     {
@@ -347,9 +347,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire canal-distanță , comun cu circuitul primar",
       "estimated_restore": "2026-11-26T18:30",
-      "on_time_probability": 0.683,
-      "basis_n": 60,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dealul Ţugulea - Bl.F7A(sc.1,2); Bl.F7B(sc.1,2,3)"
     },
     {
@@ -359,9 +359,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire canal-distanță , comun cu circuitul primar",
       "estimated_restore": "2026-11-26T18:30",
-      "on_time_probability": 0.282,
-      "basis_n": 39,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
     },
     {
@@ -371,9 +371,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire canal-distanță , comun cu circuitul primar",
       "estimated_restore": "2026-11-26T18:30",
-      "on_time_probability": 0.511,
-      "basis_n": 88,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
     },
     {
@@ -387,18 +387,6 @@
       "basis_n": 127,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Giuleşti - bl. 1, 5 • Str George Vâlsan - bl. 2"
-    },
-    {
-      "sector": 6,
-      "pt_name": "B Giulești",
-      "blocks": 14,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.397,
-      "basis_n": 78,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Giuleşti - bl. A, B20, B, B19, D2, E2, B21, D1, B3, C, B2, B1 • Str Plaviei - Imobil Str. Plaviei nr. 5"
     },
     {
       "sector": 6,
@@ -435,18 +423,6 @@
       "basis_n": 122,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Olăneşti - bl. 76A, 83 • Str Pădureni - bl. 51, 52, 58D, 53A, 53B, 53C, 52 • Str Vintilă Mihăilescu - bl. 78, 54, 55, 56, 57, 58, 59, 77, 80, 79, 44 • Str Zboina Neagră - bl. 81, 74 • Str Ceahlăul - bl. 82, 75, 76 • Cal Crângaşi - bl. 46, 48, 49, 45, 50, 47"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Giulești",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.341,
-      "basis_n": 179,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
     },
     {
       "sector": 6,
