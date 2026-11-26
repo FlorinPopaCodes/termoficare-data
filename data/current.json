@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T17:15:07",
+  "scraped_at": "2026-11-26T17:30:08",
   "status": "ok",
   "outages": [
     {
@@ -378,18 +378,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "1 Îndesirii - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-26T17:30",
-      "on_time_probability": 0.26,
-      "basis_n": 50,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. E"
-    },
-    {
-      "sector": 6,
       "pt_name": "Ansamblul F7",
       "blocks": 2,
       "service": "Oprire ACC/INC",
@@ -435,18 +423,6 @@
       "basis_n": 127,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Giuleşti - bl. 1, 5 • Str George Vâlsan - bl. 2"
-    },
-    {
-      "sector": 6,
-      "pt_name": "3 Crivina",
-      "blocks": 17,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.296,
-      "basis_n": 108,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vintilă Mihăilescu - bl. 60, 61, 72, 70, 62, 63, 63A, 64 • Str Zboina Neagră - bl. 69 • Str Stoian Popescu - Imobil Str. P. Stoian nr. 4 • Str George Vâlsan - bl. 65, 65A • Str Ceahlăul - bl. 66, 71, 67, 68, 73"
     },
     {
       "sector": 6,
@@ -498,18 +474,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "10 Giulești",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.378,
-      "basis_n": 98,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Finta - bl. 1, Imobil Str. Finta nr. 4, Imobil Str. Finta nr. 5 • Str Porumbacu - Colegiul Tehnic Carol I • Str Tabla Butii - Imobil Str. Tabla Butii nr. 80 • Cal Giuleşti - bl. 6, 10, 11"
-    },
-    {
-      "sector": 6,
       "pt_name": "J Giulești",
       "blocks": 15,
       "service": "Deficienta INC",
@@ -519,18 +483,6 @@
       "basis_n": 98,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Ruşeţu - bl. G15, G14, G13 • Bld Constructorilor - bl. G19+20, H3, J3, G17+18, G16, J1, I, H1, H2, 31, 29, 21, 23, 27, 33"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 9 Placare",
-      "blocks": 19,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.115,
-      "basis_n": 87,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
     },
     {
       "sector": 6,
