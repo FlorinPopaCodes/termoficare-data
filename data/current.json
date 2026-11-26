@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T22:30:08",
+  "scraped_at": "2026-11-26T23:30:07",
   "status": "ok",
   "outages": [
     {
@@ -18,83 +18,11 @@
     },
     {
       "sector": 1,
-      "pt_name": "MODUL TERMIC 4 Prefabricate Scara E",
-      "blocks": 2,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.343,
-      "basis_n": 5116,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Constantin Stere - Imobil nr. 10 • Cal Griviţei - bl. 4"
-    },
-    {
-      "sector": 1,
-      "pt_name": "J Grivita",
-      "blocks": 5,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.365,
-      "basis_n": 52,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. K, L2, L3, J, L1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC 7 Prefabricate",
-      "blocks": 1,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.343,
-      "basis_n": 5116,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl.7"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC 6 Prefabricate Scara B",
-      "blocks": 1,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.343,
-      "basis_n": 5116,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. 6"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC 5 Prefabricate",
-      "blocks": 2,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.343,
-      "basis_n": 5116,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl.5 • Str Lainici - imob.Nr.5"
-    },
-    {
-      "sector": 1,
-      "pt_name": "I Grivita",
-      "blocks": 1,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.333,
-      "basis_n": 51,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. I"
-    },
-    {
-      "sector": 1,
       "pt_name": "D3 Gara",
       "blocks": 4,
       "service": "Deficienta ACC/INC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
+      "estimated_restore": "2026-11-27T09:00",
       "on_time_probability": 0.391,
       "basis_n": 23,
       "basis_bucket": "pt_cause_slip",
@@ -106,59 +34,11 @@
       "blocks": 6,
       "service": "Deficienta ACC/INC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
+      "estimated_restore": "2026-11-27T09:00",
       "on_time_probability": 0.279,
       "basis_n": 61,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC 4 Prefabricate Scara B",
-      "blocks": 2,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.343,
-      "basis_n": 5116,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Constantin Stere - imobil nr.10 • Cal Griviţei - bl.4"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC 6 Prefabricate Scara E",
-      "blocks": 1,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.343,
-      "basis_n": 5116,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. 6"
-    },
-    {
-      "sector": 1,
-      "pt_name": "6 ACM",
-      "blocks": 7,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.16,
-      "basis_n": 25,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Constantin Stere - Imobil Nr.10 • Cal Griviţei - bl. 4, 5, 6, 7, imob.Nr. 7 • Str Lainici - Imobil Nr.5"
-    },
-    {
-      "sector": 1,
-      "pt_name": "MODUL TERMIC Vila 7 Bis",
-      "blocks": 1,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.343,
-      "basis_n": 5116,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - Vila 7 Bis"
     },
     {
       "sector": 1,
@@ -195,30 +75,6 @@
       "basis_n": 2391,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 3,
-      "pt_name": "2 Cornul Caprei",
-      "blocks": 3,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare si remediere avarie retea primara",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.413,
-      "basis_n": 92,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
-    },
-    {
-      "sector": 4,
-      "pt_name": "V.S.Sud",
-      "blocks": 11,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-27T10:00",
-      "on_time_probability": 0.204,
-      "basis_n": 49,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
     },
     {
       "sector": 4,
@@ -267,42 +123,6 @@
       "basis_n": 23,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Drumul Taberei - bl. 803"
-    },
-    {
-      "sector": 6,
-      "pt_name": "G3 Giulești",
-      "blocks": 17,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.261,
-      "basis_n": 138,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Ruşeţu - bl. A1+A2, G11, G8, CFR • Int Craiovei - bl. A5 • Bld Constructorilor - bl. A3, A4, G4, G7, G2, G3, 4(G5), G6, G12, G1, G10, F2, 10"
-    },
-    {
-      "sector": 6,
-      "pt_name": "8 Crivina",
-      "blocks": 29,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.255,
-      "basis_n": 192,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112,113 • Str Zboina Neagră - bl. 91-95, 116 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str George Mihail Zamfirescu - bl. 102 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Giulești",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.341,
-      "basis_n": 179,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
     },
     {
       "sector": 6,
