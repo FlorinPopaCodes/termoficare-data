@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T05:30:07",
+  "scraped_at": "2026-11-26T06:30:07",
   "status": "ok",
   "outages": [
     {
@@ -10,10 +10,10 @@
       "blocks": 1,
       "service": "Deficienta INC",
       "cause": "Lipsa parametri pentru livrare încălzire .",
-      "estimated_restore": "2026-11-25T23:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-26T08:30",
+      "on_time_probability": 0.175,
+      "basis_n": 4276,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Int Dridu - Vila 27"
     },
     {
