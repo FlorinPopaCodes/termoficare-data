@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T10:45:08",
+  "scraped_at": "2026-11-26T11:15:08",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "A Grant",
+      "blocks": 4,
+      "service": "Deficienta INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de pornire CET GRIVITA",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0,
+      "basis_n": 34,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Griviţei - bl. A, B, C"
+    },
     {
       "sector": 1,
       "pt_name": "MODUL TERMIC B13",
