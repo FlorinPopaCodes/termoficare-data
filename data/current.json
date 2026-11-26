@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T08:45:07",
+  "scraped_at": "2026-11-26T09:15:06",
   "status": "ok",
   "outages": [
     {
@@ -75,6 +75,18 @@
       "basis_n": 11796,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Maior Vasile Băcilă - bl. 18B • Str Poiana cu Aluni - bl. 18,18A • Str Radovanu - bl. 21"
+    },
+    {
+      "sector": 3,
+      "pt_name": "3 Papiu Ilarian",
+      "blocks": 6,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie retea primara.",
+      "estimated_restore": "2026-11-26T23:00",
+      "on_time_probability": 0.618,
+      "basis_n": 68,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Părului - bl. 59, 59bis • Str Complexului - bl. 60, 61 • Str Alexandru Papiu Ilarian - bl. 42, 43"
     },
     {
       "sector": 3,
@@ -171,6 +183,18 @@
       "basis_n": 905,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
+    },
+    {
+      "sector": 6,
+      "pt_name": "3/7 - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str.Pascani.)",
+      "estimated_restore": "2026-11-26T13:00",
+      "on_time_probability": 0.308,
+      "basis_n": 26,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Paşcani - bl. TD49"
     },
     {
       "sector": 6,
