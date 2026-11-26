@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T15:00:06",
+  "scraped_at": "2026-11-26T15:15:08",
   "status": "ok",
   "outages": [
     {
@@ -255,18 +255,6 @@
       "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
-    },
-    {
-      "sector": 4,
-      "pt_name": "3 Nitu Vasile - Partial",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-26T15:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Ale Donea Diana Alexandra - bl., 32, V18, 19B. N21 Policlinica"
     },
     {
       "sector": 4,
