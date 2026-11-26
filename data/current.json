@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T21:45:08",
+  "scraped_at": "2026-11-26T22:30:08",
   "status": "ok",
   "outages": [
     {
@@ -87,6 +87,18 @@
       "basis_n": 51,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. I"
+    },
+    {
+      "sector": 1,
+      "pt_name": "D3 Gara",
+      "blocks": 4,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.391,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Gării de Nord - bl. D3 • Cal Griviţei - bl. J1"
     },
     {
       "sector": 1,
@@ -183,18 +195,6 @@
       "basis_n": 2391,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 3,
-      "pt_name": "1 Matei Ambrozie - Partial",
-      "blocks": 7,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie conducta acc bl. 31B / Al. Suraia.",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.333,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Suraia - bl. 31B • Str Danubiu - bl. 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Ale Berevoieşti - bl. 54"
     },
     {
       "sector": 3,
