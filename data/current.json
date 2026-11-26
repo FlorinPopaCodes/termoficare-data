@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T12:00:08",
+  "scraped_at": "2026-11-26T12:45:07",
   "status": "ok",
   "outages": [
     {
@@ -75,18 +75,6 @@
       "basis_n": 34,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. I"
-    },
-    {
-      "sector": 1,
-      "pt_name": "A Grant",
-      "blocks": 4,
-      "service": "Deficienta ACC/INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de pornire CET GRIVITA",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0,
-      "basis_n": 34,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. A, B, C"
     },
     {
       "sector": 1,
@@ -255,18 +243,6 @@
       "basis_n": 11796,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Maior Vasile Băcilă - bl. 18B • Str Poiana cu Aluni - bl. 18,18A • Str Radovanu - bl. 21"
-    },
-    {
-      "sector": 3,
-      "pt_name": "SC.1Dudesti - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Lucrari acc modul 51 sc.1+2, str. Liviu Rebreanu.",
-      "estimated_restore": "2026-11-26T14:00",
-      "on_time_probability": 0.253,
-      "basis_n": 87,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Liviu Rebreanu - Module bl.51"
     },
     {
       "sector": 3,
