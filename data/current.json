@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T07:00:08",
+  "scraped_at": "2026-11-26T08:15:08",
   "status": "ok",
   "outages": [
     {
@@ -10,7 +10,7 @@
       "blocks": 1,
       "service": "Deficienta INC",
       "cause": "Lipsa parametri pentru livrare încălzire .",
-      "estimated_restore": "2026-11-26T08:30",
+      "estimated_restore": "2026-11-26T15:30",
       "on_time_probability": 0.175,
       "basis_n": 4276,
       "basis_bucket": "sector_cause_slip",
