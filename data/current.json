@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T19:15:07",
+  "scraped_at": "2026-11-26T19:30:07",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "Ct Luterana",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Lucrari in CentralaTermica, circuit apa calda de consum",
+      "estimated_restore": "2026-12-07T00:00",
+      "on_time_probability": 0.259,
+      "basis_n": 193,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
     {
       "sector": 1,
       "pt_name": "MODUL TERMIC 4 Prefabricate Scara E",
@@ -171,18 +183,6 @@
       "basis_n": 2391,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Ct Luterana",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Sistare furnizare gaze naturale /Centrala Termica Luterana.",
-      "estimated_restore": "2026-12-02T20:00",
-      "on_time_probability": 0.272,
-      "basis_n": 913,
-      "basis_bucket": "cause_slip",
-      "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
     },
     {
       "sector": 2,
@@ -414,18 +414,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "J Giulești",
-      "blocks": 15,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.439,
-      "basis_n": 98,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Ruşeţu - bl. G15, G14, G13 • Bld Constructorilor - bl. G19+20, H3, J3, G17+18, G16, J1, I, H1, H2, 31, 29, 21, 23, 27, 33"
-    },
-    {
-      "sector": 6,
       "pt_name": "4 Crivina",
       "blocks": 31,
       "service": "Deficienta INC",
@@ -447,18 +435,6 @@
       "basis_n": 179,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "10 Aragonitului",
-      "blocks": 20,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.297,
-      "basis_n": 175,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Aleşd - bl. N18, N20, N22, N23, N24 • Str Aragonitului - bl. N17 • Str Apusului - bl. N19, N21 • Str Partiturii - bl. 66 • Str Floare Roşie - bl. 65 • Str Estacadei - bl. 80, 81, 82, N14, N15, N25 • Ale Brădişului - bl. N16 • Str Ghirlandei - bl. 64, 78, 79"
     },
     {
       "sector": 6,
