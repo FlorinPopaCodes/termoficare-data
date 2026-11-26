@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T19:45:08",
+  "scraped_at": "2026-11-26T20:15:07",
   "status": "ok",
   "outages": [
     {
@@ -219,6 +219,18 @@
       "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
+    },
+    {
+      "sector": 4,
+      "pt_name": "V.S.Sud",
+      "blocks": 11,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2026-11-27T10:00",
+      "on_time_probability": 0.204,
+      "basis_n": 49,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str George Georgescu - Liceul Mihai Eminescu • Pţa Unirii - 5A, 5B, 5C, 6, 7A, 7B, 7C, 8A, 8B, 8C • Bld Regina Maria - 5D"
     },
     {
       "sector": 4,
