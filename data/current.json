@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T20:30:07",
+  "scraped_at": "2026-11-26T21:00:07",
   "status": "ok",
   "outages": [
     {
@@ -154,7 +154,7 @@
       "blocks": 12,
       "service": "Oprire ACC/INC",
       "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
-      "estimated_restore": "2026-11-26T23:30",
+      "estimated_restore": "2026-11-27T23:30",
       "on_time_probability": 0.379,
       "basis_n": 2391,
       "basis_bucket": "sector_cause_slip",
@@ -166,7 +166,7 @@
       "blocks": 1,
       "service": "Oprire ACC/INC",
       "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
-      "estimated_restore": "2026-11-26T23:30",
+      "estimated_restore": "2026-11-27T23:30",
       "on_time_probability": 0.379,
       "basis_n": 2391,
       "basis_bucket": "sector_cause_slip",
@@ -178,7 +178,7 @@
       "blocks": 0,
       "service": "Oprire ACC/INC",
       "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
-      "estimated_restore": "2026-11-26T23:30",
+      "estimated_restore": "2026-11-27T23:30",
       "on_time_probability": 0.379,
       "basis_n": 2391,
       "basis_bucket": "sector_cause_slip",
@@ -195,18 +195,6 @@
       "basis_n": 30,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Suraia - bl. 31B • Str Danubiu - bl. 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Ale Berevoieşti - bl. 54"
-    },
-    {
-      "sector": 3,
-      "pt_name": "3 Papiu Ilarian - Partial",
-      "blocks": 4,
-      "service": "Oprire INC",
-      "cause": "Inlocuire canal distanta incalzire bl.59 / Int. Parului.",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.291,
-      "basis_n": 1698,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Părului - bl. 59, 59bis • Str Complexului - bl. 60, 61"
     },
     {
       "sector": 3,
