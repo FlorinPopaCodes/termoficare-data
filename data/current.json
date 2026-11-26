@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T13:15:07",
+  "scraped_at": "2026-11-26T13:30:07",
   "status": "ok",
   "outages": [
     {
@@ -159,18 +159,6 @@
       "basis_n": 2391,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 P-ta Victoriei",
-      "blocks": 4,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum bl.A6",
-      "estimated_restore": "2026-11-26T15:00",
-      "on_time_probability": 0.358,
-      "basis_n": 95,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Nicolae Titulescu - bl. A7, A1 • Str Buzeşti - bl. A5, A6"
     },
     {
       "sector": 1,
@@ -635,9 +623,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-11-26T13:30",
-      "on_time_probability": 0.412,
-      "basis_n": 10867,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Porumbacu - bl. 86"
     },
     {
