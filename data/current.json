@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T18:45:08",
+  "scraped_at": "2026-11-26T19:15:07",
   "status": "ok",
   "outages": [
     {
@@ -318,27 +318,15 @@
     },
     {
       "sector": 6,
-      "pt_name": "G3 Giulești",
-      "blocks": 17,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.261,
-      "basis_n": 138,
+      "pt_name": "1/8 - Partial",
+      "blocks": 1,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire",
+      "estimated_restore": "2026-11-27T15:30",
+      "on_time_probability": 0.304,
+      "basis_n": 23,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Ruşeţu - bl. A1+A2, G11, G8, CFR • Int Craiovei - bl. A5 • Bld Constructorilor - bl. A3, A4, G4, G7, G2, G3, 4(G5), G6, G12, G1, G10, F2, 10"
-    },
-    {
-      "sector": 6,
-      "pt_name": "8 Crivina",
-      "blocks": 29,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.255,
-      "basis_n": 192,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112,113 • Str Zboina Neagră - bl. 91-95, 116 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str George Mihail Zamfirescu - bl. 102 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
+      "zone_raw": "• Str Drumul Taberei - bl. 803"
     },
     {
       "sector": 6,
@@ -390,6 +378,18 @@
     },
     {
       "sector": 6,
+      "pt_name": "G3 Giulești",
+      "blocks": 17,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:00",
+      "on_time_probability": 0.261,
+      "basis_n": 138,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Ruşeţu - bl. A1+A2, G11, G8, CFR • Int Craiovei - bl. A5 • Bld Constructorilor - bl. A3, A4, G4, G7, G2, G3, 4(G5), G6, G12, G1, G10, F2, 10"
+    },
+    {
+      "sector": 6,
       "pt_name": "2 Crivina",
       "blocks": 33,
       "service": "Deficienta INC",
@@ -399,6 +399,18 @@
       "basis_n": 116,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Lt. Gheorghe Saidac - bl. 24, 25, 35, 20, 26, 27, 34, 33, 36, 28, 23, 12 ICEM, 12A, 29, 30 • Str Nucşoara - bl. 31, 32, 38, 39, 40, 37 • Str Mehadiei - bl. 4 ICEM, 1 ICEM • Cal Crângaşi - bl. 13 ICEM, 11 ICEM, 10, 9 ICEM, 6-7 ICEM, 8 ICEM, 2 ICEM, 3 ICEM, 4A ICEM, 5 ICEM"
+    },
+    {
+      "sector": 6,
+      "pt_name": "8 Crivina",
+      "blocks": 29,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:00",
+      "on_time_probability": 0.255,
+      "basis_n": 192,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112,113 • Str Zboina Neagră - bl. 91-95, 116 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str George Mihail Zamfirescu - bl. 102 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
     },
     {
       "sector": 6,
@@ -423,6 +435,18 @@
       "basis_n": 122,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Olăneşti - bl. 76A, 83 • Str Pădureni - bl. 51, 52, 58D, 53A, 53B, 53C, 52 • Str Vintilă Mihăilescu - bl. 78, 54, 55, 56, 57, 58, 59, 77, 80, 79, 44 • Str Zboina Neagră - bl. 81, 74 • Str Ceahlăul - bl. 82, 75, 76 • Cal Crângaşi - bl. 46, 48, 49, 45, 50, 47"
+    },
+    {
+      "sector": 6,
+      "pt_name": "7 Giulești",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-26T23:00",
+      "on_time_probability": 0.341,
+      "basis_n": 179,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
     },
     {
       "sector": 6,
