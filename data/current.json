@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T14:30:08",
+  "scraped_at": "2026-11-26T14:45:07",
   "status": "ok",
   "outages": [
     {
@@ -198,18 +198,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "5 Pantelimon",
-      "blocks": 8,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-11-26T15:00",
-      "on_time_probability": 0.267,
-      "basis_n": 30,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Herţa - bl. 63; 64A; 64B • Str Pescăruşului - Imobil • Şos Pantelimon - bl.59-60, 55, 53, 55A"
-    },
-    {
-      "sector": 2,
       "pt_name": "24 Delfinului - Partial",
       "blocks": 7,
       "service": "Oprire ACC",
@@ -279,18 +267,6 @@
       "basis_n": 6073,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Donea Diana Alexandra - bl., 32, V18, 19B. N21 Policlinica"
-    },
-    {
-      "sector": 4,
-      "pt_name": "4 Tineretului - Partial",
-      "blocks": 5,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str .Vacaresti 276 bl.63",
-      "estimated_restore": "2026-11-26T14:00",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Cal Văcăreşti - bl. 62, 63, , 71, 72A, • Str Cărămidarii de Jos - bl. 74A,"
     },
     {
       "sector": 4,
