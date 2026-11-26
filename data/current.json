@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T10:15:07",
+  "scraped_at": "2026-11-26T10:30:07",
   "status": "ok",
   "outages": [
     {
@@ -207,6 +207,18 @@
       "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
+    },
+    {
+      "sector": 4,
+      "pt_name": "4 Tineretului - Partial",
+      "blocks": 5,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str .Vacaresti 276 bl.63",
+      "estimated_restore": "2026-11-26T14:00",
+      "on_time_probability": 0.465,
+      "basis_n": 6073,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Văcăreşti - bl. 62, 63, , 71, 72A, • Str Cărămidarii de Jos - bl. 74A,"
     },
     {
       "sector": 4,
