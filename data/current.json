@@ -1,9 +1,57 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T09:15:06",
+  "scraped_at": "2026-11-26T09:30:08",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "3 Titulescu",
+      "blocks": 12,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.379,
+      "basis_n": 2391,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Miron Costin - bl. 5A+5B • Şos Nicolae Titulescu - bl. 7, 10A, 9A+B, 8, 10, 6, 4, 2, 3 • Bld Alexandru Ioan Cuza - imob.Nr.80 • Str G-ral Alexandru Cernat - imob.Nr.24"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Iacob Negruzzi",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.379,
+      "basis_n": 2391,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Iacob Negruzzi - imob.Nr.45"
+    },
+    {
+      "sector": 1,
+      "pt_name": "Școala Gimnazială ,,Nicolae Titulescu”",
+      "blocks": 0,
+      "service": "Oprire ACC/INC",
+      "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
+      "estimated_restore": "2026-11-26T23:30",
+      "on_time_probability": 0.379,
+      "basis_n": 2391,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Şos Nicolae Titulescu -"
+    },
+    {
+      "sector": 1,
+      "pt_name": "5-1 Mai - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-26T12:00",
+      "on_time_probability": 0.471,
+      "basis_n": 9839,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Ion Mihalache - bl. 52"
+    },
     {
       "sector": 1,
       "pt_name": "2 P-ta Victoriei - Partial",
@@ -75,6 +123,30 @@
       "basis_n": 11796,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Maior Vasile Băcilă - bl. 18B • Str Poiana cu Aluni - bl. 18,18A • Str Radovanu - bl. 21"
+    },
+    {
+      "sector": 3,
+      "pt_name": "SC.1Dudesti - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Lucrari acc modul 51 sc.1+2, str. Liviu Rebreanu.",
+      "estimated_restore": "2026-11-26T14:00",
+      "on_time_probability": 0.253,
+      "basis_n": 87,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Liviu Rebreanu - Module bl.51"
+    },
+    {
+      "sector": 3,
+      "pt_name": "1 Matei Ambrozie",
+      "blocks": 30,
+      "service": "Oprire ACC/INC",
+      "cause": "Inlocuit conducta acc bl. 31B / Al. Suraia.",
+      "estimated_restore": "2026-11-26T15:30",
+      "on_time_probability": 0.291,
+      "basis_n": 1698,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Ţăndărei - bl. 52, 30B • Ale Suraia - bl. 21B, 21, 32, 30, 31B, 50 • Str Fizicienilor - bl. 21A, 11A, 51, 11, 20A, 30A • Str Istriei - bl. 41, 42 • Str Danubiu - bl. 52A, 31A, 31 • Str Sold. Iosif Ion - bl. 55, 56, 55A • Str Schitului - bl. 57, 20b, 43, 20, 11B, 40 • Ale Berevoieşti - bl. 53, 54"
     },
     {
       "sector": 3,
