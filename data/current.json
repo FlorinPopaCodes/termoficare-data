@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T01:30:08",
+  "scraped_at": "2026-11-26T05:30:07",
   "status": "ok",
   "outages": [
     {
@@ -39,30 +39,6 @@
       "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Bis Zona I",
-      "blocks": 19,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum -Lucrari POIM ,LOT 4, OBIECTIV 17",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.326,
-      "basis_n": 178,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Slt. p.m. Dragoş Mladinovici - bl. I15 • Ale Terasei - bl. R12A, R12B • Bld Alexandru Obregia - bl. I2A, I2B, I2C, I1, I4, M1, M2, M5, M6, M7, M8, R13A, R13B, R14, Scoala nr.194, Gradinita nr.29 • Str Emil Racoviţă - bl. R1, R18,U1"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Zona I",
-      "blocks": 17,
-      "service": "Deficienta ACC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum -Lucrari POIM ,LOT 4, OBIECTIV 17",
-      "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.297,
-      "basis_n": 118,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
     },
     {
       "sector": 4,
@@ -222,66 +198,6 @@
     },
     {
       "sector": 6,
-      "pt_name": "3 Virtuții",
-      "blocks": 15,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.39,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. D1A1-D1A2, D2B, D2A • Şos Virtuţii - bl. R5A, R5B • Str Veteranilor - bl. R5C • Str Orşova - bl. D3A, D4, D5, G1 • Str Dealul Ţugulea - bl. D2, D3, D6, G4, G5"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Virtuții",
-      "blocks": 18,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.39,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. C4A • Ale Arheologilor - bl. C5, C6, C7, C9 • Şos Virtuţii - bl. R2, R3, R4 • Str Veteranilor - bl. C4B, C4C, C8 • Bld Uverturii - bl. C1, C2, C3, R1, R2A, • Str Dealul Ţugulea - bl. 16"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 9 Placare",
-      "blocks": 19,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.39,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Mohorului - bl. 137, 138, 139, 141, 143, 145A • Int Crainicului - bl. Z7, Z8, Z9, Z10, Z11, Z12, Z13, Z14 • Str Cărăbuşului - bl. 145 • Str Valea Lungă - bl. 139A, 140, 142, 144"
-    },
-    {
-      "sector": 6,
-      "pt_name": "7 Virtuții",
-      "blocks": 4,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.282,
-      "basis_n": 1632,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Virtuții",
-      "blocks": 22,
-      "service": "Deficienta INC",
-      "cause": "Oprire programata CET VEST",
-      "estimated_restore": "2026-11-26T08:00",
-      "on_time_probability": 0.39,
-      "basis_n": 559,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Apeductului - bl. A1, A3A, B5A, B7, B4 A+B, A4B, A4A • Str Dreptăţii - bl. A6, A3B • Şos Virtuţii - bl. R4A • Str Veteranilor - bl. B3, B4, B6, B8 • Bld Uverturii - bl. B1, B2, A2 • Str Dealul Ţugulea - bl. A4, A5, B5B, B5C, B9"
-    },
-    {
-      "sector": 6,
       "pt_name": "UM 0276 (0333)",
       "blocks": 0,
       "service": "Oprire ACC/INC",
@@ -335,8 +251,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrare de modernizare si redimensionare retea primara",
       "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.368,
-      "basis_n": 2350,
+      "on_time_probability": 0.367,
+      "basis_n": 2354,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fabricii - Ansamblu Rezindențial"
     },
@@ -347,8 +263,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrare de modernizare si redimensionare retea primara",
       "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.368,
-      "basis_n": 2350,
+      "on_time_probability": 0.367,
+      "basis_n": 2354,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fabricii - Instituție"
     },
@@ -359,8 +275,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrare de modernizare si redimensionare retea primara",
       "estimated_restore": "2026-11-26T23:30",
-      "on_time_probability": 0.368,
-      "basis_n": 2350,
+      "on_time_probability": 0.367,
+      "basis_n": 2354,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fabricii - Instituție"
     },
