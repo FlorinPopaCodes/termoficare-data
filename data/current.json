@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T18:30:08",
+  "scraped_at": "2026-11-26T18:45:08",
   "status": "ok",
   "outages": [
     {
@@ -210,15 +210,15 @@
     },
     {
       "sector": 3,
-      "pt_name": "3 Papiu Ilarian",
-      "blocks": 6,
+      "pt_name": "3 Papiu Ilarian - Partial",
+      "blocks": 4,
       "service": "Oprire INC",
       "cause": "Inlocuire canal distanta incalzire bl.59 / Int. Parului.",
       "estimated_restore": "2026-11-26T23:00",
       "on_time_probability": 0.291,
       "basis_n": 1698,
       "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Int Părului - bl. 59, 59bis • Str Complexului - bl. 60, 61 • Str Alexandru Papiu Ilarian - bl. 42, 43"
+      "zone_raw": "• Int Părului - bl. 59, 59bis • Str Complexului - bl. 60, 61"
     },
     {
       "sector": 3,
@@ -346,10 +346,10 @@
       "blocks": 2,
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire canal-distanță , comun cu circuitul primar",
-      "estimated_restore": "2026-11-26T18:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-26T20:30",
+      "on_time_probability": 0.683,
+      "basis_n": 60,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Dealul Ţugulea - Bl.F7A(sc.1,2); Bl.F7B(sc.1,2,3)"
     },
     {
@@ -358,10 +358,10 @@
       "blocks": 4,
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire canal-distanță , comun cu circuitul primar",
-      "estimated_restore": "2026-11-26T18:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-26T20:30",
+      "on_time_probability": 0.282,
+      "basis_n": 39,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Virtuţii - bl. G3, R6A 3+4, R6A 1+2 • Str Dealul Ţugulea - bl. G2"
     },
     {
@@ -370,10 +370,10 @@
       "blocks": 6,
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie rețea secundară pe circuitul de încălzire canal-distanță , comun cu circuitul primar",
-      "estimated_restore": "2026-11-26T18:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
+      "estimated_restore": "2026-11-26T20:30",
+      "on_time_probability": 0.511,
+      "basis_n": 88,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Dreptăţii - bl. F6 1+2 • Str Orşova - bl. F3 • Str Dealului - bl. F6 3+4, F8, F9, F10"
     },
     {
