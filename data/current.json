@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T06:30:07",
+  "scraped_at": "2026-11-26T07:00:08",
   "status": "ok",
   "outages": [
     {
@@ -39,78 +39,6 @@
       "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
-    },
-    {
-      "sector": 4,
-      "pt_name": "4 Nitu Vasile",
-      "blocks": 16,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire - lucrari POIM , lotul 4 obiectivul 17.",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.241,
-      "basis_n": 1509,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Secuilor - bl. 24, 35, N24, N25 • Str Secuilor - bl. 34, 23 • Str Sg. Niţu Vasile - bl. 36 • Ale Mirea Mioara Luiza - bl. N7, N20, N22, N23, 20V, 33 • Ale Donea Diana Alexandra - bl. 19 • Ale Cricovul Dulce - bl. N21, 19V"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Bis Zona I",
-      "blocks": 19,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire - lucrari POIM , lotul 4 obiectivul 17.",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.241,
-      "basis_n": 1509,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Slt. p.m. Dragoş Mladinovici - bl. I15 • Ale Terasei - bl. R12A, R12B • Bld Alexandru Obregia - bl. I2A, I2B, I2C, I1, I4, M1, M2, M5, M6, M7, M8, R13A, R13B, R14, Scoala nr.194, Gradinita nr.29 • Str Emil Racoviţă - bl. R1, R18,U1"
-    },
-    {
-      "sector": 4,
-      "pt_name": "2 Zona I",
-      "blocks": 14,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire - lucrari POIM , lotul 4 obiectivul 17.",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.241,
-      "basis_n": 1509,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Străduinţei - bl. R4, R20 • Ale Niculiţel - bl. 1, 2, D4, E4, E5, E6, P1, P2 • Str Aliorului - bl. D5, D6 • Str Emil Racoviţă - bl. I11, R3, R21, U2"
-    },
-    {
-      "sector": 4,
-      "pt_name": "5 Zona I",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire - lucrari POIM , lotul 4 obiectivul 17.",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.241,
-      "basis_n": 1509,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Străduinţei - bl. O4 • Str Aliorului - bl. E11, Gradinita 101 Dalmatieni • Bld Alexandru Obregia - bl. O3 • Ale Ciceu - bl. 5B, E12, E13, E14, R10"
-    },
-    {
-      "sector": 4,
-      "pt_name": "17 Dolhasca",
-      "blocks": 11,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire - lucrari POIM , lotul 4 obiectivul 17.",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.171,
-      "basis_n": 35,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Sg. Gheorghe Tache - bl. 17 • Şos Olteniţei - bl. 1, 2, 3, 13, 14, 16, Parohie • Str Huşi - bl. PA1, PA2 • Str Dolhasca - Vila Serban"
-    },
-    {
-      "sector": 4,
-      "pt_name": "1 Zona I",
-      "blocks": 17,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametri pentru livrare încălzire - lucrari POIM , lotul 4 obiectivul 17.",
-      "estimated_restore": "2026-11-26T23:00",
-      "on_time_probability": 0.241,
-      "basis_n": 1509,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Străduinţei - bl. A3, A4, A5, D2, D3, PE1, R5 • Ale Terasei - bl. A1, A2, D1, E1, E2, E3, PE2, PE3, R2 • Str Emil Racoviţă - bl. I9, R19, U1"
     },
     {
       "sector": 5,
