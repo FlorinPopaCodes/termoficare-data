@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T17:30:08",
+  "scraped_at": "2026-11-26T17:45:08",
   "status": "ok",
   "outages": [
     {
@@ -255,18 +255,6 @@
       "basis_n": 97,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
-    },
-    {
-      "sector": 5,
-      "pt_name": "3 Drumul Sării",
-      "blocks": 19,
-      "service": "Oprire ACC/INC",
-      "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti LOT 5-Obiectiv 14, montaj vane DN 500,conducte aproximativ 340ml .Lucreaza ASOCIEREA ENERGOMONTAJ S-A",
-      "estimated_restore": "2026-11-27T20:00",
-      "on_time_probability": 0.377,
-      "basis_n": 905,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Baltagului - bl. V77, V78, V81 • Ale Botorani - bl. V28, V35, V36, V37, V42, V43, V80, V82, V83, V84 • Cal 13 Septembrie - bl. V38, V39, V40 • Str Mihail Sebastian - bl. V29, V30, V79"
     },
     {
       "sector": 5,
