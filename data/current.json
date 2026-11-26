@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T10:00:07",
+  "scraped_at": "2026-11-26T10:15:07",
   "status": "ok",
   "outages": [
     {
@@ -207,6 +207,18 @@
       "basis_n": 92,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Şcoala Ciocanu - Imobil • Bld Burebista - D13, D14"
+    },
+    {
+      "sector": 4,
+      "pt_name": "2 Vacaresti",
+      "blocks": 21,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie circuit primar -",
+      "estimated_restore": "2026-11-27T23:00",
+      "on_time_probability": 0.34,
+      "basis_n": 97,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
     },
     {
       "sector": 5,
