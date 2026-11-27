@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T21:15:07",
+  "scraped_at": "2026-11-27T21:30:05",
   "status": "ok",
   "outages": [
     {
@@ -114,15 +114,27 @@
     },
     {
       "sector": 2,
-      "pt_name": "1 Teiul Doamnei",
-      "blocks": 27,
+      "pt_name": "6 Doamna Ghica",
+      "blocks": 8,
       "service": "Deficienta INC",
       "cause": "Lipsă parametrii pentru livrare încălzire furnizat de CET SUD",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.433,
-      "basis_n": 150,
+      "on_time_probability": 0.503,
+      "basis_n": 161,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Nada Florilor - bl.14, 13, 5 • Str Petre Antonescu - bl.11, 12, 23, 24, 26, 25 • Str Braşoveni - bl.15, 17, 19, 16, 18, 20, 7, 4, 3 • Str Lăptari Tei - bl. 6 • Str Teiul Doamnei - bl.8, 9, 10, 21, 22, 1, 2"
+      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3, 3Bis, 4, 5, 6, 7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Colentina",
+      "blocks": 7,
+      "service": "Deficienta INC",
+      "cause": "Lipsă parametrii pentru livrare încălzire furnizat de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.378,
+      "basis_n": 143,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Elena - bl.OD7C; OD7B • Str Litovoi Voievod - bl. OD7A • Şos Colentina - bl.3, 5S; 6; 58"
     },
     {
       "sector": 2,
@@ -150,15 +162,15 @@
     },
     {
       "sector": 2,
-      "pt_name": "5 Colentina",
-      "blocks": 18,
+      "pt_name": "7 Doamna Ghica",
+      "blocks": 3,
       "service": "Deficienta INC",
       "cause": "Lipsă parametrii pentru livrare încălzire furnizat de CET SUD",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.372,
-      "basis_n": 43,
+      "on_time_probability": 0.465,
+      "basis_n": 114,
       "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Petre Antonescu - Bl. OD51 • Str Ion Berindei - bl.60, 3; OD18; OD21B, OD21A, OD17,OD16 ;OD21C, 20; • Şos Colentina - bl.59, OD44, OD18, R12, OD46, R14, R11, R13, OD45, 83"
+      "zone_raw": "• Str Sinaia - bl. 16 sc. A-B • Str Pâncota - bl.14, 16 sc. 3-4-5; 15"
     },
     {
       "sector": 4,
@@ -167,9 +179,9 @@
       "service": "Oprire INC",
       "cause": "Remediere avarie pe circuitul de încălzire BL. 15",
       "estimated_restore": "2026-11-27T21:30",
-      "on_time_probability": 0.465,
-      "basis_n": 6073,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Tomeşti - bl. 14, 15"
     },
     {
