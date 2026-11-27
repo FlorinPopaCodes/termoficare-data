@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T15:00:07",
+  "scraped_at": "2026-11-27T15:15:08",
   "status": "ok",
   "outages": [
     {
@@ -15,42 +15,6 @@
       "basis_n": 193,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 1,
-      "pt_name": "3 Titulescu",
-      "blocks": 12,
-      "service": "Oprire ACC/INC",
-      "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.291,
-      "basis_n": 757,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Miron Costin - bl. 5A+5B • Şos Nicolae Titulescu - bl. 7, 10A, 9A+B, 8, 10, 6, 4, 2, 3 • Bld Alexandru Ioan Cuza - imob.Nr.80 • Str G-ral Alexandru Cernat - imob.Nr.24"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Iacob Negruzzi",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.291,
-      "basis_n": 757,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Iacob Negruzzi - imob.Nr.45"
-    },
-    {
-      "sector": 1,
-      "pt_name": "Școala Gimnazială ,,Nicolae Titulescu”",
-      "blocks": 0,
-      "service": "Oprire ACC/INC",
-      "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.291,
-      "basis_n": 757,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Nicolae Titulescu -"
     },
     {
       "sector": 2,
@@ -723,18 +687,6 @@
       "basis_n": 22,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "12 Maratonului - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-27T15:30",
-      "on_time_probability": 0.317,
-      "basis_n": 63,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Ghirlandei - bl. N1"
     },
     {
       "sector": 6,
