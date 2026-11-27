@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T10:30:08",
+  "scraped_at": "2026-11-27T11:00:08",
   "status": "ok",
   "outages": [
     {
@@ -306,18 +306,6 @@
     },
     {
       "sector": 2,
-      "pt_name": "4 Colentina",
-      "blocks": 12,
-      "service": "Oprire ACC/INC",
-      "cause": "Înlocuire vană/robineți în punctul termic pe circuitul primar.",
-      "estimated_restore": "2026-11-27T11:00",
-      "on_time_probability": 0.373,
-      "basis_n": 1366,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Maşina de Pâine - bl.OD23 • Str Ion Berindei - bl.S22, OD19, OD47 • Str Oteşani - bl.OD53A, OD52-54 • Str Teiul Doamnei - bl. 10 • Şos Colentina - bl.R49, OD42, R15, OD43, R48"
-    },
-    {
-      "sector": 2,
       "pt_name": "Chiristigii",
       "blocks": 6,
       "service": "Oprire INC",
@@ -426,18 +414,6 @@
     },
     {
       "sector": 4,
-      "pt_name": "1 Stoian Militaru",
-      "blocks": 6,
-      "service": "Oprire ACC",
-      "cause": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
-      "estimated_restore": "2026-11-27T11:00",
-      "on_time_probability": 0.304,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Padeşu - bl. 1 • Str Pictor Ştefan Dimitrescu - bl. 2, 19 • Str Şura Mare - bl. 1A, 1B • Str Cornetului - bl. 20"
-    },
-    {
-      "sector": 4,
       "pt_name": "6 Berceni Oltenita - Partial",
       "blocks": 1,
       "service": "Oprire ACC",
@@ -483,6 +459,18 @@
       "basis_n": 915,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
+    },
+    {
+      "sector": 6,
+      "pt_name": "2 Roșu - Partial",
+      "blocks": 1,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+      "estimated_restore": "2026-11-27T13:30",
+      "on_time_probability": 0.411,
+      "basis_n": 10880,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Părăluţelor - bl. P35"
     },
     {
       "sector": 6,
