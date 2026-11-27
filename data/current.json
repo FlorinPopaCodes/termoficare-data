@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-26T23:30:07",
+  "scraped_at": "2026-11-27T06:15:09",
   "status": "ok",
   "outages": [
     {
@@ -23,22 +23,10 @@
       "service": "Deficienta ACC/INC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
       "estimated_restore": "2026-11-27T09:00",
-      "on_time_probability": 0.391,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.388,
+      "basis_n": 2957,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Gării de Nord - bl. D3 • Cal Griviţei - bl. J1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Prefabricate",
-      "blocks": 6,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-      "estimated_restore": "2026-11-27T09:00",
-      "on_time_probability": 0.279,
-      "basis_n": 61,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
     },
     {
       "sector": 1,
@@ -47,8 +35,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.379,
-      "basis_n": 2391,
+      "on_time_probability": 0.291,
+      "basis_n": 757,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Miron Costin - bl. 5A+5B • Şos Nicolae Titulescu - bl. 7, 10A, 9A+B, 8, 10, 6, 4, 2, 3 • Bld Alexandru Ioan Cuza - imob.Nr.80 • Str G-ral Alexandru Cernat - imob.Nr.24"
     },
@@ -59,8 +47,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.379,
-      "basis_n": 2391,
+      "on_time_probability": 0.291,
+      "basis_n": 757,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Iacob Negruzzi - imob.Nr.45"
     },
@@ -71,8 +59,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrari de modernizare Retea Termica Primara, lucrari programate in cadrul POIM, Lotul 2 obiectiv 9 executate de firma Elsaco",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.379,
-      "basis_n": 2391,
+      "on_time_probability": 0.291,
+      "basis_n": 757,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
     },
@@ -83,8 +71,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Remediere avarie circuit primar -",
       "estimated_restore": "2026-11-27T23:00",
-      "on_time_probability": 0.34,
-      "basis_n": 97,
+      "on_time_probability": 0.304,
+      "basis_n": 46,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
     },
@@ -107,8 +95,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Reabilitarea sistemului de termoficare al Municipiului Bucuresti LOT 5-Obiectiv 14, montaj vane DN 500,conducte aproximativ 340ml .Lucreaza ASOCIEREA ENERGOMONTAJ S-A",
       "estimated_restore": "2026-11-27T20:00",
-      "on_time_probability": 0.377,
-      "basis_n": 905,
+      "on_time_probability": 0.384,
+      "basis_n": 915,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
     },
@@ -131,9 +119,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Depistare și remediere avarie rețea primară",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.556,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.367,
+      "basis_n": 3663,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Iuliu Maniu - Instituție"
     },
     {
@@ -143,9 +131,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Depistare și remediere avarie rețea primară",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.333,
-      "basis_n": 39,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.367,
+      "basis_n": 3663,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Iuliu Maniu - bl. D3, D4, D5, D6, R1, R2, 21P"
     },
     {
@@ -155,8 +143,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Depistare și remediere avarie rețea primară",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.586,
-      "basis_n": 99,
+      "on_time_probability": 0.444,
+      "basis_n": 27,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Fabricii - Ansamblu Rezidențial"
     },
@@ -167,9 +155,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Depistare și remediere avarie rețea primară",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.261,
-      "basis_n": 23,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.367,
+      "basis_n": 3663,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Iuliu Maniu - Instituție"
     },
     {
@@ -179,8 +167,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrare de modernizare si redimensionare retea primara",
       "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.367,
-      "basis_n": 2354,
+      "on_time_probability": 0.495,
+      "basis_n": 553,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fabricii - Ansamblu Rezindențial"
     },
@@ -191,8 +179,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrare de modernizare si redimensionare retea primara",
       "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.367,
-      "basis_n": 2354,
+      "on_time_probability": 0.495,
+      "basis_n": 553,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fabricii - Instituție"
     },
@@ -203,8 +191,8 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrare de modernizare si redimensionare retea primara",
       "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.367,
-      "basis_n": 2354,
+      "on_time_probability": 0.495,
+      "basis_n": 553,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Fabricii - Instituție"
     },
@@ -215,9 +203,9 @@
       "service": "Oprire ACC/INC",
       "cause": "Lucrare de modernizare si redimensionare retea primara",
       "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.222,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0.495,
+      "basis_n": 553,
+      "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
     }
   ]
