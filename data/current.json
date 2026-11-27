@@ -1,9 +1,21 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T09:30:08",
+  "scraped_at": "2026-11-27T09:45:08",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "MODUL TERMIC Vila 27",
+      "blocks": 1,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie în Modulul termic pe circuitul primar",
+      "estimated_restore": "2026-11-27T12:30",
+      "on_time_probability": 0.611,
+      "basis_n": 54,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Dridu - Vila 27"
+    },
     {
       "sector": 1,
       "pt_name": "3 Dinicu Golescu",
@@ -75,6 +87,18 @@
       "basis_n": 757,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Teiul Doamnei",
+      "blocks": 18,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire livrat de CTE Sud.",
+      "estimated_restore": "2026-11-27T18:00",
+      "on_time_probability": 0.407,
+      "basis_n": 204,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Alexandru cel Bun - bl.35, 42 • Str Cristea Mateescu - bl.35, 34 • Str Petre Antonescu - bl.28; 29 • Str Grigore Ionescu - bl. 43; 44 • Bld Ghica Tei - bl.41,40 • Str Teiul Doamnei - bl.33,32,31,39,38,37,36,27 • Str Sânzieni - bl.30"
     },
     {
       "sector": 2,
