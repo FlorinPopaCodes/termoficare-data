@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T18:00:09",
+  "scraped_at": "2026-11-27T18:45:07",
   "status": "ok",
   "outages": [
     {
@@ -615,54 +615,6 @@
       "basis_n": 23,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Drumul Taberei - bl. 803"
-    },
-    {
-      "sector": 6,
-      "pt_name": "UM 0276 (0333)",
-      "blocks": 0,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare și remediere avarie rețea primară",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.367,
-      "basis_n": 3663,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - Instituție"
-    },
-    {
-      "sector": 6,
-      "pt_name": "MILITARI - 6 Placare",
-      "blocks": 8,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare și remediere avarie rețea primară",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.367,
-      "basis_n": 3663,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - bl. D3, D4, D5, D6, R1, R2, 21P"
-    },
-    {
-      "sector": 6,
-      "pt_name": "Ansamblul QUADRA PLACE I",
-      "blocks": 11,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare și remediere avarie rețea primară",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.444,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Fabricii - Ansamblu Rezidențial"
-    },
-    {
-      "sector": 6,
-      "pt_name": "Liceul Teoretic \"Tudor Vladimirescu\"",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Depistare și remediere avarie rețea primară",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.367,
-      "basis_n": 3663,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Bld Iuliu Maniu - Instituție"
     }
   ]
 }
