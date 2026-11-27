@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T15:30:07",
+  "scraped_at": "2026-11-27T16:00:08",
   "status": "ok",
   "outages": [
     {
@@ -15,42 +15,6 @@
       "basis_n": 193,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "P10 Foisor",
-      "blocks": 1,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
-      "estimated_restore": "2026-11-27T18:00",
-      "on_time_probability": 0.22,
-      "basis_n": 82,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Oborul Nou - P10"
-    },
-    {
-      "sector": 2,
-      "pt_name": "P7 Foisor",
-      "blocks": 1,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
-      "estimated_restore": "2026-11-27T18:00",
-      "on_time_probability": 0.286,
-      "basis_n": 42,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl. P7"
-    },
-    {
-      "sector": 2,
-      "pt_name": "P8 Foisor",
-      "blocks": 1,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
-      "estimated_restore": "2026-11-27T18:00",
-      "on_time_probability": 0.271,
-      "basis_n": 70,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - P8"
     },
     {
       "sector": 2,
