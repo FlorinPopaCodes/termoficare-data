@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T22:45:06",
+  "scraped_at": "2026-11-27T23:00:06",
   "status": "ok",
   "outages": [
     {
@@ -249,8 +249,8 @@
       "pt_name": "2 Vacaresti",
       "blocks": 21,
       "service": "Oprire ACC/INC",
-      "cause": "Remediere avarie circuit primar -",
-      "estimated_restore": "2026-11-27T23:00",
+      "cause": "La punere in functiune s-a depistat o noua avarie care este in curs de remediere",
+      "estimated_restore": "2026-11-28T18:00",
       "on_time_probability": 0.304,
       "basis_n": 46,
       "basis_bucket": "pt_cause_slip",
