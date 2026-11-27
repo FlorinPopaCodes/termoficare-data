@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T21:30:05",
+  "scraped_at": "2026-11-27T21:45:09",
   "status": "ok",
   "outages": [
     {
@@ -111,6 +111,18 @@
       "basis_n": 193,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "5 Colentina",
+      "blocks": 18,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsă parametrii pentru livrare apa caldă de consum si încălzire furnizați de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.372,
+      "basis_n": 43,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Petre Antonescu - Bl. OD51 • Str Ion Berindei - bl.60, 3; OD18; OD21B, OD21A, OD17,OD16 ;OD21C, 20; • Şos Colentina - bl.59, OD44, OD18, R12, OD46, R14, R11, R13, OD45, 83"
     },
     {
       "sector": 2,
