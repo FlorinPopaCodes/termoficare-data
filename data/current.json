@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T10:15:08",
+  "scraped_at": "2026-11-27T10:30:08",
   "status": "ok",
   "outages": [
     {
@@ -87,6 +87,18 @@
       "basis_n": 757,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Şos Nicolae Titulescu -"
+    },
+    {
+      "sector": 2,
+      "pt_name": "ALMO",
+      "blocks": 5,
+      "service": "Oprire ACC/INC",
+      "cause": "Înlocuire vană/robineți în punctul termic pe circuitul primar.",
+      "estimated_restore": "2026-11-27T14:00",
+      "on_time_probability": 0.373,
+      "basis_n": 1366,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Ale Câmpul Moşilor - bl.ALMO4; ALMO5 • Şos Mihai Bravu - bl.ALMO2; ALMO3 • Şos Colentina - bl.ALMO 1"
     },
     {
       "sector": 2,
@@ -339,6 +351,18 @@
       "basis_n": 10448,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Călăraşi - Bl. 56, 57, 55, 53, 53BIS, 54"
+    },
+    {
+      "sector": 4,
+      "pt_name": "Posta - Partial",
+      "blocks": 4,
+      "service": "Oprire ACC",
+      "cause": "Înlocuire conducta pe circuitul de apă caldă de consum bl. R3",
+      "estimated_restore": "2026-11-27T14:00",
+      "on_time_probability": 0.318,
+      "basis_n": 909,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Bld Alexandru Obregia - bl. , R3, R13, II/30, II/31"
     },
     {
       "sector": 4,
@@ -603,54 +627,6 @@
       "basis_n": 3663,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Bld Iuliu Maniu - Instituție"
-    },
-    {
-      "sector": 6,
-      "pt_name": "Ansamblul QUADRA PLACE II",
-      "blocks": 3,
-      "service": "Oprire ACC/INC",
-      "cause": "Lucrare de modernizare si redimensionare retea primara",
-      "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.495,
-      "basis_n": 553,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Fabricii - Ansamblu Rezindențial"
-    },
-    {
-      "sector": 6,
-      "pt_name": "Depou Metrou Ciurel",
-      "blocks": 1,
-      "service": "Oprire ACC/INC",
-      "cause": "Lucrare de modernizare si redimensionare retea primara",
-      "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.495,
-      "basis_n": 553,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Fabricii - Instituție"
-    },
-    {
-      "sector": 6,
-      "pt_name": "Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",
-      "blocks": 3,
-      "service": "Oprire ACC/INC",
-      "cause": "Lucrare de modernizare si redimensionare retea primara",
-      "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.495,
-      "basis_n": 553,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Fabricii - Instituție"
-    },
-    {
-      "sector": 6,
-      "pt_name": "5 Virtuții",
-      "blocks": 10,
-      "service": "Oprire ACC/INC",
-      "cause": "Lucrare de modernizare si redimensionare retea primara",
-      "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.495,
-      "basis_n": 553,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Şos Virtuţii - bl. R11A, R11B, R11C sc. 1, R11C sc. 2, R11D, R11E, R11F, R12, R12A, R13"
     }
   ]
 }
