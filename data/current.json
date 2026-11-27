@@ -1,40 +1,16 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T23:15:07",
+  "scraped_at": "2026-11-27T23:30:07",
   "status": "ok",
   "outages": [
-    {
-      "sector": 1,
-      "pt_name": "4 Turda",
-      "blocks": 12,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.1,
-      "basis_n": 20,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Turda - bl. 29B • Cal Griviţei - bl. F, N, M, Roşu, Pro Concordia • Str Barbu Lăutaru - bl. 23, 24, 21 • Str Radu Popescu - bl. 24A • Str Radu Greceanu - imob.Nr. 6, 14"
-    },
-    {
-      "sector": 1,
-      "pt_name": "3 Turda",
-      "blocks": 9,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.227,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Col Ştefan Stoika - bl. 17A, 17B, 19, 20 • Str Chişcani - bl. 18A • Str Iani Buzoianu - bl. 16A, 16, imob.Nr.5, 11-13"
-    },
     {
       "sector": 1,
       "pt_name": "R Grivita",
       "blocks": 34,
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
+      "estimated_restore": "2026-11-28T10:00",
       "on_time_probability": 0.267,
       "basis_n": 1665,
       "basis_bucket": "sector_cause_slip",
@@ -42,23 +18,11 @@
     },
     {
       "sector": 1,
-      "pt_name": "2 Prefabricate",
-      "blocks": 6,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.275,
-      "basis_n": 1056,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
-    },
-    {
-      "sector": 1,
       "pt_name": "2-1 Mai",
       "blocks": 9,
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
+      "estimated_restore": "2026-11-28T10:00",
       "on_time_probability": 0.381,
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
@@ -66,23 +30,11 @@
     },
     {
       "sector": 1,
-      "pt_name": "2 Turda",
-      "blocks": 6,
-      "service": "Deficienta INC",
-      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.267,
-      "basis_n": 1665,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Turda - bl. 33, 31, 32, 30A, 30B • Str Iordache Golescu - bl. 29"
-    },
-    {
-      "sector": 1,
       "pt_name": "K Grivita",
       "blocks": 4,
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
+      "estimated_restore": "2026-11-28T10:00",
       "on_time_probability": 0.267,
       "basis_n": 1665,
       "basis_bucket": "sector_cause_slip",
@@ -94,7 +46,7 @@
       "blocks": 9,
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
+      "estimated_restore": "2026-11-28T10:00",
       "on_time_probability": 0.267,
       "basis_n": 1665,
       "basis_bucket": "sector_cause_slip",
@@ -119,9 +71,9 @@
       "service": "Deficienta INC",
       "cause": "Lipsă parametrii pentru livrare încălzire furnizat de CET SUD",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.503,
-      "basis_n": 161,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3, 3Bis, 4, 5, 6, 7"
     },
     {
@@ -131,9 +83,9 @@
       "service": "Deficienta INC",
       "cause": "Lipsă parametrii pentru livrare încălzire furnizat de CET SUD",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.313,
-      "basis_n": 224,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
     },
     {
@@ -143,9 +95,9 @@
       "service": "Deficienta INC",
       "cause": "Lipsă parametrii pentru livrare încălzire furnizat de CET SUD",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.342,
-      "basis_n": 120,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
@@ -227,9 +179,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.31,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ruşeţu - bl. A1+A2, G11, G8, CFR • Int Craiovei - bl. A5 • Bld Constructorilor - bl. A3, A4, G4, G7, G2, G3, 4(G5), G6, G12, G1, G10, F2, 10"
     },
     {
@@ -239,9 +191,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.226,
-      "basis_n": 31,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112,113 • Str Zboina Neagră - bl. 91-95, 116 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str George Mihail Zamfirescu - bl. 102 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
     },
     {
@@ -251,9 +203,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.25,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Giuleşti - bl. Z1, Z2, Z3, OD4 • Str Prunaru - bl. 6, 7, 9, OD5,8"
     },
     {
@@ -263,9 +215,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.43,
-      "basis_n": 1523,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Olăneşti - bl. 76A, 83 • Str Pădureni - bl. 51, 52, 58D, 53A, 53B, 53C, 52 • Str Vintilă Mihăilescu - bl. 78, 54, 55, 56, 57, 58, 59, 77, 80, 79, 44 • Str Zboina Neagră - bl. 81, 74 • Str Ceahlăul - bl. 82, 75, 76 • Cal Crângaşi - bl. 46, 48, 49, 45, 50, 47"
     },
     {
@@ -275,9 +227,9 @@
       "service": "Deficienta ACC",
       "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.182,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
     },
     {
@@ -287,9 +239,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.364,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Giuleşti - bl. 1, 5 • Str George Vâlsan - bl. 2"
     },
     {
@@ -299,9 +251,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.296,
-      "basis_n": 27,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Vintilă Mihăilescu - bl. 60, 61, 72, 70, 62, 63, 63A, 64 • Str Zboina Neagră - bl. 69 • Str Stoian Popescu - Imobil Str. P. Stoian nr. 4 • Str George Vâlsan - bl. 65, 65A • Str Ceahlăul - bl. 66, 71, 67, 68, 73"
     },
     {
@@ -311,9 +263,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.167,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Giuleşti - bl. A, B20, B, B19, D2, E2, B21, D1, B3, C, B2, B1 • Str Plaviei - Imobil Str. Plaviei nr. 5"
     },
     {
@@ -323,9 +275,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.31,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ruşeţu - bl. A1+A2, G11, G8, CFR • Int Craiovei - bl. A5 • Bld Constructorilor - bl. A3, A4, G4, G7, G2, G3, 4(G5), G6, G12, G1, G10, F2, 10"
     },
     {
@@ -335,9 +287,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.231,
-      "basis_n": 26,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Lt. Gheorghe Saidac - bl. 24, 25, 35, 20, 26, 27, 34, 33, 36, 28, 23, 12 ICEM, 12A, 29, 30 • Str Nucşoara - bl. 31, 32, 38, 39, 40, 37 • Str Mehadiei - bl. 4 ICEM, 1 ICEM • Cal Crângaşi - bl. 13 ICEM, 11 ICEM, 10, 9 ICEM, 6-7 ICEM, 8 ICEM, 2 ICEM, 3 ICEM, 4A ICEM, 5 ICEM"
     },
     {
@@ -347,9 +299,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.226,
-      "basis_n": 31,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae Oncescu - bl. 104A, 100, 105, 101, 114, 110, 111, 112,113 • Str Zboina Neagră - bl. 91-95, 116 • Str Porumbacu - bl. 89 • Str Simion Mehedinţi - bl. 98, 99, 117, 90 • Str George Vâlsan - bl. 109, 107, 108 • Str George Mihail Zamfirescu - bl. 102 • Str Grigore Preoteasa - bl. 115A, 115, 97, 96, 118 • Str Ceahlăul - bl. 104, 103, 24, 106, 102A"
     },
     {
@@ -359,9 +311,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.43,
-      "basis_n": 1523,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Finta - bl. 1, Imobil Str. Finta nr. 4, Imobil Str. Finta nr. 5 • Str Porumbacu - Colegiul Tehnic Carol I • Str Tabla Butii - Imobil Str. Tabla Butii nr. 80 • Cal Giuleşti - bl. 6, 10, 11"
     },
     {
@@ -371,9 +323,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.25,
-      "basis_n": 28,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Cal Giuleşti - bl. Z1, Z2, Z3, OD4 • Str Prunaru - bl. 6, 7, 9, OD5,8"
     },
     {
@@ -383,9 +335,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.292,
-      "basis_n": 24,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Ruşeţu - bl. G15, G14, G13 • Bld Constructorilor - bl. G19+20, H3, J3, G17+18, G16, J1, I, H1, H2, 31, 29, 21, 23, 27, 33"
     },
     {
@@ -395,9 +347,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.43,
-      "basis_n": 1523,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Olăneşti - bl. 76A, 83 • Str Pădureni - bl. 51, 52, 58D, 53A, 53B, 53C, 52 • Str Vintilă Mihăilescu - bl. 78, 54, 55, 56, 57, 58, 59, 77, 80, 79, 44 • Str Zboina Neagră - bl. 81, 74 • Str Ceahlăul - bl. 82, 75, 76 • Cal Crângaşi - bl. 46, 48, 49, 45, 50, 47"
     },
     {
@@ -407,9 +359,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.31,
-      "basis_n": 29,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nucşoara - bl. 15A ICEM, 41, 42 • Str Mehadiei - bl. 21, 22 • Cal Crângaşi - bl. 15 ICEM, 16 • Bld Constructorilor - bl. 20, 17, 18, 19, 20A, 44"
     },
     {
@@ -419,9 +371,9 @@
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.182,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
     }
   ]
