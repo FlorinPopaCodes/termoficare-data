@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T21:45:09",
+  "scraped_at": "2026-11-27T22:45:06",
   "status": "ok",
   "outages": [
     {
@@ -183,18 +183,6 @@
       "basis_n": 114,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Sinaia - bl. 16 sc. A-B • Str Pâncota - bl.14, 16 sc. 3-4-5; 15"
-    },
-    {
-      "sector": 4,
-      "pt_name": "Dumitru Petrescu - Partial",
-      "blocks": 2,
-      "service": "Oprire INC",
-      "cause": "Remediere avarie pe circuitul de încălzire BL. 15",
-      "estimated_restore": "2026-11-27T21:30",
-      "on_time_probability": 0,
-      "basis_n": 0,
-      "basis_bucket": "overdue",
-      "zone_raw": "• Str Tomeşti - bl. 14, 15"
     },
     {
       "sector": 4,
