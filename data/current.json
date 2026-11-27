@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T11:00:08",
+  "scraped_at": "2026-11-27T11:30:08",
   "status": "ok",
   "outages": [
     {
@@ -90,15 +90,27 @@
     },
     {
       "sector": 2,
-      "pt_name": "ALMO",
-      "blocks": 5,
-      "service": "Oprire ACC/INC",
-      "cause": "Înlocuire vană/robineți în punctul termic pe circuitul primar.",
-      "estimated_restore": "2026-11-27T14:00",
-      "on_time_probability": 0.373,
-      "basis_n": 1366,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Ale Câmpul Moşilor - bl.ALMO4; ALMO5 • Şos Mihai Bravu - bl.ALMO2; ALMO3 • Şos Colentina - bl.ALMO 1"
+      "pt_name": "3 Petricani",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T18:00",
+      "on_time_probability": 0.313,
+      "basis_n": 224,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.2, 3, 3A SC.A • Str Ion Berindei - bl.1 SC.A,B,C; 1 SC.D • Str Luntrei - bl.7, 8A, 8B, 10 • Str Lăptari Tei - bl..4; 3A SC.B • Str Ripiceni - bl.11, 12, 6, 9, 5"
+    },
+    {
+      "sector": 2,
+      "pt_name": "17-18 Petricani",
+      "blocks": 15,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T18:00",
+      "on_time_probability": 0.342,
+      "basis_n": 120,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3 ,4 • Str Lăptari Tei - bl.26,25 • Bld Lacul Tei - bl.17-18 • Str Teiul Doamnei - bl.M14,15, 16, 24, 23, 22, 21, 20 • Int Teiul Doamnei - bl. 19"
     },
     {
       "sector": 2,
@@ -114,6 +126,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "D5 Mihai Bravu",
+      "blocks": 15,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.373,
+      "basis_n": 75,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Int Cap. Nicolae Cergă - BL.P4-5 • Şos Mihai Bravu - BL.D5 • Str Vitejiei - BL. 1 • Str Vatra Luminoasă - BL. D6, P7, P7A • Str Slt. Pompiliu Manoliu - BL. G2, P1 • Str Lt. Victor Manu - Vila H • Str Maior Ion Coravu - BL.C5, C6, P3A-P3B, C4,P2 • Str Ciurea - BL. P6A+B"
+    },
+    {
+      "sector": 2,
       "pt_name": "24 Delfinului",
       "blocks": 23,
       "service": "Deficienta INC",
@@ -123,6 +147,42 @@
       "basis_n": 152,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Delfinului - bl.D30, D21, D16, D20, D18, D19, D11, D17 • Ale Dobrina - bl. D10, D12 • Str Ciocârliei - bl.D25, D27, D26, D28, D13, D29, D15, D8, D14, D9, D24 • Şos Fundeni - bl.D22, D23"
+    },
+    {
+      "sector": 2,
+      "pt_name": "2 Voiniceni",
+      "blocks": 26,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.349,
+      "basis_n": 86,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Bld Chişinău - bl.M7; M8; M9 • Str Cernăuţi - bl. M10, B28, M10A; B27 • Str Herţa - bl.D2, B29, J2, X1, X2, X3, X4; • Str Pescăruşului - bl.B26, D6 ; J1; D5; B25; D4; B24 • Ale Codlea - bl.D3, D1, J3, D7"
+    },
+    {
+      "sector": 2,
+      "pt_name": "U2 Avrig",
+      "blocks": 1,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.453,
+      "basis_n": 117,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Avrig - bl.U2"
+    },
+    {
+      "sector": 2,
+      "pt_name": "U1 Avrig",
+      "blocks": 1,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.374,
+      "basis_n": 91,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Avrig - bl.U1"
     },
     {
       "sector": 2,
@@ -138,6 +198,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "C16 Mihai Bravu",
+      "blocks": 5,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.228,
+      "basis_n": 57,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Mihai Bravu - bl. C16, C17, C18, C, C19 • Str Avrig - bl. E2"
+    },
+    {
+      "sector": 2,
       "pt_name": "E2 Vatra Luminoasa",
       "blocks": 10,
       "service": "Deficienta INC",
@@ -150,6 +222,18 @@
     },
     {
       "sector": 2,
+      "pt_name": "19 Pantelimon",
+      "blocks": 18,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.306,
+      "basis_n": 121,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Slt. Gheorghe Stănescu - bl.219, 213, 212 • Str Slt. Dima Cristescu - bl.216, 215, 218, 217, 222, 221, 220, 214 • Şos Iancului - bl.104, 105A • Şos Pantelimon - bl.211, 209A, 210, 209, 210A"
+    },
+    {
+      "sector": 2,
       "pt_name": "9 Pantelimon",
       "blocks": 9,
       "service": "Deficienta INC",
@@ -159,6 +243,18 @@
       "basis_n": 99,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Pantelimon - bl.31, 32, 5, 6, 30, 5A, D2, D1,5F"
+    },
+    {
+      "sector": 2,
+      "pt_name": "3 Iancului",
+      "blocks": 31,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.421,
+      "basis_n": 133,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Măgura Vulturului - bl.116A; • Str Elev Ştefan Ştefănescu - bl.462, 463, 464, 465, imob.Nr.10Bis, 10B • Şos Iancului - bl.110A, 109B , 109A , 112C, 110B, 112A ,imob.Nr.7A, 23 • Str Lt. Sachelarie Visarion - bl.111B, 112B, 111A, 112A, 466,imob.Nr.11, 15, 39, 13A, 37, 17A; • Str Avrig - bl.460, 461 • Ale Zarandului - bl.467, 468, 469"
     },
     {
       "sector": 2,
@@ -234,6 +330,42 @@
     },
     {
       "sector": 2,
+      "pt_name": "3 Socului",
+      "blocks": 19,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametrii pentru livrare apa calda de consum si incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.391,
+      "basis_n": 64,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Ale Diham - bl.B14, B15, B16, B21, M5 • Bld Chişinău - BL. B22; M4, B18, M6, M4, M2, M1 • Ale Socului - BL.B12; B11; M4BIS • Str Herţa - bl.B13, B17 • Str Pescăruşului - bl.B19, B23, B20"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Muncii",
+      "blocks": 9,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametrii pentru livrare apa calda de consum si incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.177,
+      "basis_n": 62,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Carei - bl. A18Bis • Bld Basarabia - bl. A16A, A17, A16, A18, A20, A20A, A19, A18A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Carei",
+      "blocks": 16,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametrii pentru livrare apa calda de consum si incalzire furnizati de CET SUD",
+      "estimated_restore": "2026-11-27T23:30",
+      "on_time_probability": 0.315,
+      "basis_n": 89,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Carei - bl. A11, B30, A12, B32, B31 • Bld Chişinău - bl. A12Bis, A14, A13 • Str Cernăuţi - bl. A15, A15Bis, D8 • Bld Basarabia - bl. M28, M29A, M29, M27A, M27"
+    },
+    {
+      "sector": 2,
       "pt_name": "C16 Mihai Bravu",
       "blocks": 5,
       "service": "Deficienta ACC/INC",
@@ -291,6 +423,18 @@
       "basis_n": 143,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - bl.D17, D16, D3, D4, D1, D2, D5 • Int Sg. Ion Tancu - imob. Nr.6, 8, 1, 5, 3, 4, 8 • Int Serg. Ion Panţâru - imob.Nr.10, 3, 8"
+    },
+    {
+      "sector": 2,
+      "pt_name": "1 Teiul Doamnei",
+      "blocks": 27,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire livrat de CTE Sud.",
+      "estimated_restore": "2026-11-27T18:00",
+      "on_time_probability": 0.433,
+      "basis_n": 150,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Nada Florilor - bl.14, 13, 5 • Str Petre Antonescu - bl.11, 12, 23, 24, 26, 25 • Str Braşoveni - bl.15, 17, 19, 16, 18, 20, 7, 4, 3 • Str Lăptari Tei - bl. 6 • Str Teiul Doamnei - bl.8, 9, 10, 21, 22, 1, 2"
     },
     {
       "sector": 2,
