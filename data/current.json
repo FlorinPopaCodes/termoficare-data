@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T16:15:08",
+  "scraped_at": "2026-11-27T16:45:08",
   "status": "ok",
   "outages": [
     {
@@ -63,30 +63,6 @@
       "basis_n": 91,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Avrig - bl.U1"
-    },
-    {
-      "sector": 2,
-      "pt_name": "E2 Vatra Luminoasa",
-      "blocks": 10,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.282,
-      "basis_n": 78,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vatra Luminoasă - bl. 1 • Str Lt. Victor Manu - bl. C1, C2, E1 • Str Ciurea - bl. Y2, A1, A2, A3, Y1, E2"
-    },
-    {
-      "sector": 2,
-      "pt_name": "1 Dimitrov",
-      "blocks": 12,
-      "service": "Deficienta INC",
-      "cause": "Lipsa parametrii pentru livrare incalzire furnizati de CET SUD",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.384,
-      "basis_n": 177,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Bld Ferdinand I - bl.O11,O10, O13, O12, O14, imob.nr.118 • Str Avrig - bl.O18,O20,O15,O16,O19,O17"
     },
     {
       "sector": 2,
@@ -195,18 +171,6 @@
       "basis_n": 152,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Şos Mihai Bravu - bl.P16-P16A, P16Bis • Bld Ferdinand I - bl.P32, P31, P33, P17 • Str Avrig - bl.P33A • Str Ziduri Între Vii - imob.Nr.11"
-    },
-    {
-      "sector": 2,
-      "pt_name": "E2 Vatra Luminoasa",
-      "blocks": 10,
-      "service": "Deficienta ACC/INC",
-      "cause": "Lipsa parametrii pentru livrare apa calda de consum si incalzire furnizati de CET SUD",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.282,
-      "basis_n": 78,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Str Vatra Luminoasă - bl. 1 • Str Lt. Victor Manu - bl. C1, C2, E1 • Str Ciurea - bl. Y2, A1, A2, A3, Y1, E2"
     },
     {
       "sector": 3,
