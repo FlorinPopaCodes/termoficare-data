@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T20:45:06",
+  "scraped_at": "2026-11-27T21:00:07",
   "status": "ok",
   "outages": [
     {
@@ -159,18 +159,6 @@
       "basis_n": 193,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
-    },
-    {
-      "sector": 2,
-      "pt_name": "Ion Maiorescu",
-      "blocks": 4,
-      "service": "Deficienta INC",
-      "cause": "Lipsă parametrii pentru livrare încălzire furnizat de CET SUD",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.342,
-      "basis_n": 73,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Şos Mihai Bravu - bl.P21-21A, P22, P22A, P23-24"
     },
     {
       "sector": 2,
