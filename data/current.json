@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T08:30:07",
+  "scraped_at": "2026-11-27T09:00:08",
   "status": "ok",
   "outages": [
     {
@@ -23,9 +23,9 @@
       "service": "Deficienta ACC/INC",
       "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
       "estimated_restore": "2026-11-27T09:00",
-      "on_time_probability": 0.388,
-      "basis_n": 2957,
-      "basis_bucket": "sector_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Gării de Nord - bl. D3 • Cal Griviţei - bl. J1"
     },
     {
@@ -123,6 +123,18 @@
       "basis_n": 915,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
+    },
+    {
+      "sector": 6,
+      "pt_name": "10/4 - Partial",
+      "blocks": 2,
+      "service": "Oprire ACC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str. Drumul Taberei",
+      "estimated_restore": "2026-11-27T14:30",
+      "on_time_probability": 0.411,
+      "basis_n": 10880,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Drumul Taberei - bl. C16, 417C"
     },
     {
       "sector": 6,
