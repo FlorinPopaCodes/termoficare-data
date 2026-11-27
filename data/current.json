@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T21:00:07",
+  "scraped_at": "2026-11-27T21:15:07",
   "status": "ok",
   "outages": [
     {
@@ -94,54 +94,6 @@
       "blocks": 9,
       "service": "Deficienta INC",
       "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.267,
-      "basis_n": 1665,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Turda - bl. 1, 2, 3, 4, 5, 6 • Str Cluj - bl. 9, 8B, imob.Nr.77-79"
-    },
-    {
-      "sector": 1,
-      "pt_name": "R Grivita",
-      "blocks": 34,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.267,
-      "basis_n": 1665,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Stoica Ludescu - imobil 3 • Str Şoimăreştilor - imobil 8 • Str Lugoj - imobil 2, 46 • Str George Bariţiu - imobil 10, 13, 17, 20, 26, 30,31, 36, 38, 41 • Cal Griviţei - bl. O, P, R, S • Str Costache Marinescu - imobil 9-11, 37, 37A, 37B • Str Cpt. Octav Cocărăscu - imobil 3,5, 6,10,12, 26, 32, 34, 39, 41B, 42, 50"
-    },
-    {
-      "sector": 1,
-      "pt_name": "2 Prefabricate",
-      "blocks": 6,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.275,
-      "basis_n": 1056,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
-    },
-    {
-      "sector": 1,
-      "pt_name": "K Grivita",
-      "blocks": 4,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
-      "estimated_restore": "2026-11-27T23:30",
-      "on_time_probability": 0.267,
-      "basis_n": 1665,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Cal Griviţei - bl. I, J, K"
-    },
-    {
-      "sector": 1,
-      "pt_name": "1 Turda",
-      "blocks": 9,
-      "service": "Deficienta ACC",
-      "cause": "Funcționare deficitară a apei calde de consum din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
       "estimated_restore": "2026-11-27T23:30",
       "on_time_probability": 0.267,
       "basis_n": 1665,
