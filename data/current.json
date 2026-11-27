@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T13:00:08",
+  "scraped_at": "2026-11-27T13:30:08",
   "status": "ok",
   "outages": [
     {
@@ -119,9 +119,9 @@
       "service": "Oprire ACC",
       "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
       "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.6,
-      "basis_n": 100,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Deda - bl.48B • Şos Ştefan cel Mare - bl. 46, 45 ,44, 43 • Str Viitorului - bl.49 • Str Luncşoara - bl.48A, 52, 54 • Str Făinari - bl.50 , 51, 53, 55"
     },
     {
@@ -467,9 +467,9 @@
       "service": "Oprire INC",
       "cause": "Mentenanță instalație interioară în punctul termic pentru circuit incalzire",
       "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.5,
-      "basis_n": 22,
-      "basis_bucket": "pt_cause_slip",
+      "on_time_probability": 0,
+      "basis_n": 0,
+      "basis_bucket": "overdue",
       "zone_raw": "• Str Chiristigii - bl.P36A, P36B, P36, P36C • Şos Mihai Bravu - bl.P38, P37-P37A"
     },
     {
@@ -584,11 +584,11 @@
       "sector": 5,
       "pt_name": "4 Drumul Sarii",
       "blocks": 15,
-      "service": "Oprire ACC/INC",
-      "cause": "Finalizat încărcare, puncte tremice în curs de pornire",
-      "estimated_restore": "2026-11-27T20:00",
-      "on_time_probability": 0.476,
-      "basis_n": 21,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-27T23:00",
+      "on_time_probability": 0.326,
+      "basis_n": 43,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Lacul Plopului - bl. V7, P73 • Cal 13 Septembrie - bl. V1, V3, V4, V5, V6 • Str Şerbota - bl. P74, V8, V9, V19, V20, V21 • Str Sg. maj. Ion Nedeleanu - bl. V22, V23"
     },
@@ -596,12 +596,12 @@
       "sector": 5,
       "pt_name": "1 Drumul Sarii",
       "blocks": 14,
-      "service": "Oprire ACC/INC",
-      "cause": "Finalizat încărcare, puncte tremice în curs de pornire",
-      "estimated_restore": "2026-11-27T20:00",
-      "on_time_probability": 0.384,
-      "basis_n": 915,
-      "basis_bucket": "sector_cause_slip",
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-27T23:00",
+      "on_time_probability": 0.469,
+      "basis_n": 32,
+      "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Ale Botorani - bl. V44, V50, V57, V49, V51 • Cal 13 Septembrie - bl. V53, V54, V47, V46, V45 • Drm Sării - bl. V58, V60, V55 • Str Năbucului - bl. V59"
     },
     {
@@ -807,30 +807,6 @@
       "basis_n": 22,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Nicolae Oncescu - Imobil N. Oncescu nr. 50, Imobil N. Oncescu nr. 52 • Cal Giuleşti - bl. 3, 4+4ANEXA, 7, 8 • Str Măgura Odobeşti - Imobil M. Odobești nr. 6 • Str Haltei - Imobil Haltei nr. 25 • Str Prunaru - bl. 9"
-    },
-    {
-      "sector": 6,
-      "pt_name": "2 Roșu - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.411,
-      "basis_n": 10880,
-      "basis_bucket": "sector_cause_slip",
-      "zone_raw": "• Str Părăluţelor - bl. P35"
-    },
-    {
-      "sector": 6,
-      "pt_name": "1 Uverturii - Partial",
-      "blocks": 1,
-      "service": "Oprire ACC",
-      "cause": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-      "estimated_restore": "2026-11-27T13:30",
-      "on_time_probability": 0.222,
-      "basis_n": 45,
-      "basis_bucket": "pt_cause_slip",
-      "zone_raw": "• Ale Arinii Dornei - bl. I6"
     },
     {
       "sector": 6,
