@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-27T06:15:09",
+  "scraped_at": "2026-11-27T08:30:07",
   "status": "ok",
   "outages": [
     {
@@ -65,6 +65,18 @@
       "zone_raw": "• Şos Nicolae Titulescu -"
     },
     {
+      "sector": 3,
+      "pt_name": "3 Călăraşi - Partial",
+      "blocks": 13,
+      "service": "Oprire INC",
+      "cause": "Remediere avarie rețea secundară pe circuitul de încălzire",
+      "estimated_restore": "2026-11-27T15:30",
+      "on_time_probability": 0.475,
+      "basis_n": 10448,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Călăraşi - Bl. 56, 57, 55, 53, 53BIS, 54"
+    },
+    {
       "sector": 4,
       "pt_name": "2 Vacaresti",
       "blocks": 21,
@@ -75,6 +87,18 @@
       "basis_n": 46,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
+    },
+    {
+      "sector": 5,
+      "pt_name": "4 Chirigiu",
+      "blocks": 2,
+      "service": "Oprire ACC/INC",
+      "cause": "Remediere avarie în punctul termic pe circuitul primar",
+      "estimated_restore": "2026-11-27T15:30",
+      "on_time_probability": 0.683,
+      "basis_n": 41,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Năsăud - bl. 31, 32"
     },
     {
       "sector": 5,
