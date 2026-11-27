@@ -1,48 +1,35 @@
 episode_id,sector,pt_name,utility,slip_count
-26efeb1d47a0,1,Ct Luterana,ACC,8
-108e108858d1,4,4 Nitu Vasile,INC,18
-5f0b868ec969,4,1 Bis Zona I,INC,13
-e6f25c7f499d,4,17 Dolhasca,INC,10
-a60bbe96ac87,4,1 Zona I,INC,10
-5722ef266002,4,2 Zona I,INC,9
-9d0914e7fb19,4,5 Zona I,INC,9
-89f607e41d81,1,MODUL TERMIC Vila 27,INC,5
-23b45c8ed015,6,1 Virtuții,INC,3
-8e8f2321d106,6,2 Virtuții,INC,3
-f29322b7c5c0,6,5 Virtuții,ACC,0
-7b9831956e51,6,5 Virtuții,INC,0
-3d045c97170f,6,Ansamblul QUADRA PLACE II,ACC,0
-975d4e846d3a,6,Ansamblul QUADRA PLACE II,INC,0
-245f5545ec84,6,Depou Metrou Ciurel,ACC,0
-c8cdfb411426,6,Depou Metrou Ciurel,INC,0
-1509b8018a78,6,"Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",ACC,0
-e313cb0e0d8e,6,"Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",INC,0
-0746e40eb88f,6,MILITARI - 9 Placare,INC,3
+26efeb1d47a0,1,Ct Luterana,ACC,9
+f29322b7c5c0,6,5 Virtuții,ACC,1
+7b9831956e51,6,5 Virtuții,INC,1
+3d045c97170f,6,Ansamblul QUADRA PLACE II,ACC,1
+975d4e846d3a,6,Ansamblul QUADRA PLACE II,INC,1
+245f5545ec84,6,Depou Metrou Ciurel,ACC,1
+c8cdfb411426,6,Depou Metrou Ciurel,INC,1
+1509b8018a78,6,"Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",ACC,1
+e313cb0e0d8e,6,"Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",INC,1
 174d5a92d777,5,1 Drumul Sarii,ACC,0
 b7bf34a38e1a,5,1 Drumul Sarii,INC,0
-29248a03854f,5,2 Petre Ispirescu,ACC,0
-9cbbb5779c59,5,2 Petre Ispirescu,INC,0
-11d93e847dbd,5,3 Drumul Sării,ACC,0
-9cd8fa9c1823,5,3 Drumul Sării,INC,0
-e97b39a006cd,5,3 Petre Ispirescu,ACC,0
-655d5f2856ea,5,3 Petre Ispirescu,INC,0
 326303225316,5,4 Drumul Sarii,ACC,0
 919ed5d18a17,5,4 Drumul Sarii,INC,0
-dcf7b9ffccce,5,6 Petre Ispirescu,ACC,0
-2b8635504500,5,6 Petre Ispirescu,INC,0
-237f0e373f79,5,7 Petre Ispirescu,ACC,0
-6369cc59e3e5,5,7 Petre Ispirescu,INC,0
-a79090a54d43,3,2 Cornul Caprei,ACC,0
-b31977472124,3,2 Cornul Caprei,INC,0
-246f7aaadf9f,6,Ansamblul QUADRA PLACE I,ACC,0
-3cfb5ee6cfb9,6,Ansamblul QUADRA PLACE I,INC,0
-13a176367714,6,"Liceul Teoretic ""Tudor Vladimirescu""",ACC,0
-34c8e4ca4648,6,"Liceul Teoretic ""Tudor Vladimirescu""",INC,0
-6ca66e0cf0f9,6,MILITARI - 6 Placare,ACC,0
-f2bf1ab0a6d5,6,MILITARI - 6 Placare,INC,0
-bada02453538,6,UM 0276 (0333),ACC,0
-09b438838e62,6,UM 0276 (0333),INC,0
-d4e2ac6002d2,4,1 Bis Zona I,ACC,1
-9ce437d3d02b,4,1 Zona I,ACC,1
-a667b007d055,6,7 Virtuții,INC,1
-c923c27989e8,6,3 Virtuții,INC,1
+1a87287854d7,4,2 Vacaresti,ACC,1
+03654a4f2474,4,2 Vacaresti,INC,1
+246f7aaadf9f,6,Ansamblul QUADRA PLACE I,ACC,1
+3cfb5ee6cfb9,6,Ansamblul QUADRA PLACE I,INC,1
+13a176367714,6,"Liceul Teoretic ""Tudor Vladimirescu""",ACC,1
+34c8e4ca4648,6,"Liceul Teoretic ""Tudor Vladimirescu""",INC,1
+6ca66e0cf0f9,6,MILITARI - 6 Placare,ACC,1
+f2bf1ab0a6d5,6,MILITARI - 6 Placare,INC,1
+bada02453538,6,UM 0276 (0333),ACC,1
+09b438838e62,6,UM 0276 (0333),INC,1
+774e8485432e,1,3 Titulescu,ACC,1
+0fa1294141dc,1,3 Titulescu,INC,1
+e431959d0ab8,1,Iacob Negruzzi,ACC,1
+8b1f6c3f07b1,1,Iacob Negruzzi,INC,1
+ccc5438be738,1,"Școala Gimnazială ,,Nicolae Titulescu”",ACC,1
+33d009e18ea2,1,"Școala Gimnazială ,,Nicolae Titulescu”",INC,1
+376040d7b6b4,1,2 Prefabricate,ACC,1
+efbf7289004d,1,2 Prefabricate,INC,1
+fb1df2671be6,6,1/8 - Partial,INC,0
+6195ce45ff3c,1,D3 Gara,ACC,1
+a778015da0bf,1,D3 Gara,INC,1
