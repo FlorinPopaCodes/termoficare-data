@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-28T13:00:07",
+  "scraped_at": "2026-11-28T13:30:06",
   "status": "ok",
   "outages": [
     {
@@ -99,6 +99,30 @@
       "basis_n": 193,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "7 Colentina",
+      "blocks": 7,
+      "service": "Deficienta ACC/INC",
+      "cause": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+      "estimated_restore": "2026-11-28T23:30",
+      "on_time_probability": 0.382,
+      "basis_n": 144,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Elena - bl.OD7C; OD7B • Str Litovoi Voievod - bl. OD7A • Şos Colentina - bl.3, 5S; 6; 58"
+    },
+    {
+      "sector": 2,
+      "pt_name": "6 Doamna Ghica",
+      "blocks": 8,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-28T23:30",
+      "on_time_probability": 0.5,
+      "basis_n": 162,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Doamna Ghica - bl.1, 2, 3, 3Bis, 4, 5, 6, 7"
     },
     {
       "sector": 4,
