@@ -1,35 +1,20 @@
 episode_id,sector,pt_name,utility,slip_count
 26efeb1d47a0,1,Ct Luterana,ACC,9
-f29322b7c5c0,6,5 Virtuții,ACC,1
-7b9831956e51,6,5 Virtuții,INC,1
-3d045c97170f,6,Ansamblul QUADRA PLACE II,ACC,1
-975d4e846d3a,6,Ansamblul QUADRA PLACE II,INC,1
-245f5545ec84,6,Depou Metrou Ciurel,ACC,1
-c8cdfb411426,6,Depou Metrou Ciurel,INC,1
-1509b8018a78,6,"Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",ACC,1
-e313cb0e0d8e,6,"Grădinița nr. 197, Școala nr. 117, Grădinița nr. 46",INC,1
-174d5a92d777,5,1 Drumul Sarii,ACC,0
-b7bf34a38e1a,5,1 Drumul Sarii,INC,0
-326303225316,5,4 Drumul Sarii,ACC,0
-919ed5d18a17,5,4 Drumul Sarii,INC,0
-1a87287854d7,4,2 Vacaresti,ACC,1
-03654a4f2474,4,2 Vacaresti,INC,1
-246f7aaadf9f,6,Ansamblul QUADRA PLACE I,ACC,1
-3cfb5ee6cfb9,6,Ansamblul QUADRA PLACE I,INC,1
-13a176367714,6,"Liceul Teoretic ""Tudor Vladimirescu""",ACC,1
-34c8e4ca4648,6,"Liceul Teoretic ""Tudor Vladimirescu""",INC,1
-6ca66e0cf0f9,6,MILITARI - 6 Placare,ACC,1
-f2bf1ab0a6d5,6,MILITARI - 6 Placare,INC,1
-bada02453538,6,UM 0276 (0333),ACC,1
-09b438838e62,6,UM 0276 (0333),INC,1
-774e8485432e,1,3 Titulescu,ACC,1
-0fa1294141dc,1,3 Titulescu,INC,1
-e431959d0ab8,1,Iacob Negruzzi,ACC,1
-8b1f6c3f07b1,1,Iacob Negruzzi,INC,1
-ccc5438be738,1,"Școala Gimnazială ,,Nicolae Titulescu”",ACC,1
-33d009e18ea2,1,"Școala Gimnazială ,,Nicolae Titulescu”",INC,1
-376040d7b6b4,1,2 Prefabricate,ACC,1
-efbf7289004d,1,2 Prefabricate,INC,1
-fb1df2671be6,6,1/8 - Partial,INC,0
-6195ce45ff3c,1,D3 Gara,ACC,1
-a778015da0bf,1,D3 Gara,INC,1
+1a87287854d7,4,2 Vacaresti,ACC,2
+03654a4f2474,4,2 Vacaresti,INC,2
+8ff6f117f8af,6,1 Crivina,INC,1
+8bc32e8901b2,6,1 Giulești,INC,1
+82b8a30bff14,6,10 Giulești,INC,1
+4da772d9641f,6,2 Crivina,INC,1
+8612d78d8804,6,3 Crivina,INC,1
+4dab71e050fa,6,4 Crivina,INC,1
+6f48f21bf902,6,7 Giulești,INC,1
+48a59f51d305,6,8 Crivina,INC,1
+4401118c58e4,6,B Giulești,INC,1
+f8dec53c924f,6,G3 Giulești,INC,1
+9b6692d5f3c1,6,J Giulești,INC,1
+ac0a2a6f97d2,6,Prunaru,INC,1
+4cc10f2590ff,1,1 Turda,INC,1
+27a0f0644952,1,2-1 Mai,INC,1
+7aa6693a1be9,1,K Grivita,INC,1
+ee86c9fb8552,1,R Grivita,INC,1
