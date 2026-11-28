@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-28T10:15:06",
+  "scraped_at": "2026-11-28T10:30:05",
   "status": "ok",
   "outages": [
     {
@@ -75,6 +75,18 @@
       "basis_n": 1056,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Cal Griviţei - bl. I, J, K"
+    },
+    {
+      "sector": 1,
+      "pt_name": "1 Turda",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
+      "estimated_restore": "2026-11-28T23:30",
+      "on_time_probability": 0.275,
+      "basis_n": 1056,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Turda - bl. 1, 2, 3, 4, 5, 6 • Str Cluj - bl. 9, 8B, imob.Nr.77-79"
     },
     {
       "sector": 1,
