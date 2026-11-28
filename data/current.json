@@ -1,9 +1,33 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-28T05:45:08",
+  "scraped_at": "2026-11-28T09:30:07",
   "status": "ok",
   "outages": [
+    {
+      "sector": 1,
+      "pt_name": "4 Turda",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
+      "estimated_restore": "2026-11-28T10:00",
+      "on_time_probability": 0.095,
+      "basis_n": 21,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Turda - bl. 29B • Cal Griviţei - bl. F, N, M, Roşu, Pro Concordia • Str Barbu Lăutaru - bl. 23, 24, 21 • Str Radu Popescu - bl. 24A • Str Radu Greceanu - imob.Nr. 6, 14"
+    },
+    {
+      "sector": 1,
+      "pt_name": "3 Turda",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
+      "estimated_restore": "2026-11-28T10:00",
+      "on_time_probability": 0.217,
+      "basis_n": 23,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Col Ştefan Stoika - bl. 17A, 17B, 19, 20 • Str Chişcani - bl. 18A • Str Iani Buzoianu - bl. 16A, 16, imob.Nr.5, 11-13"
+    },
     {
       "sector": 1,
       "pt_name": "R Grivita",
@@ -15,6 +39,30 @@
       "basis_n": 1056,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Stoica Ludescu - imobil 3 • Str Şoimăreştilor - imobil 8 • Str Lugoj - imobil 2, 46 • Str George Bariţiu - imobil 10, 13, 17, 20, 26, 30,31, 36, 38, 41 • Cal Griviţei - bl. O, P, R, S • Str Costache Marinescu - imobil 9-11, 37, 37A, 37B • Str Cpt. Octav Cocărăscu - imobil 3,5, 6,10,12, 26, 32, 34, 39, 41B, 42, 50"
+    },
+    {
+      "sector": 1,
+      "pt_name": "2 Prefabricate",
+      "blocks": 6,
+      "service": "Deficienta INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
+      "estimated_restore": "2026-11-28T10:00",
+      "on_time_probability": 0.271,
+      "basis_n": 1680,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Cal Griviţei - bl. 1, 2, 3 • Str Rucăr - Nr.5 • Str Florilor - bl.1"
+    },
+    {
+      "sector": 1,
+      "pt_name": "2-1 Mai",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
+      "estimated_restore": "2026-11-28T10:00",
+      "on_time_probability": 0.275,
+      "basis_n": 1056,
+      "basis_bucket": "sector_cause_slip",
+      "zone_raw": "• Str Turda - bl.10A3 • Bld Ion Mihalache - bl.10A1,10A2,10,9,6,8 • Str Sfânta Maria - bl.10A4,9A"
     },
     {
       "sector": 1,
@@ -51,6 +99,18 @@
       "basis_n": 21,
       "basis_bucket": "pt_cause_slip",
       "zone_raw": "• Str Stamate Costache - bl. 8A, 8C • Str Pridvorului - bl. 11, 12, 13, 14, 18, 19, 20 • Cal Văcăreşti - bl. 8D, 8E, 9A, 9B, 9C, 10A, 10B, 10C, 10D, 15, 16, 17"
+    },
+    {
+      "sector": 6,
+      "pt_name": "Prunaru",
+      "blocks": 9,
+      "service": "Deficienta ACC",
+      "cause": "Funcționare deficitară a apei calde din cauza manevrelor de echilibrare hidraulică a rețelei termice pentru pornirea CET GRIVITA",
+      "estimated_restore": "2026-11-28T23:30",
+      "on_time_probability": 0.241,
+      "basis_n": 29,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Cal Giuleşti - bl. Z1, Z2, Z3, OD4 • Str Prunaru - bl. 6, 7, 9, OD5,8"
     },
     {
       "sector": 6,
