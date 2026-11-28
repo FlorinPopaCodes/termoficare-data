@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "source": "https://www.cmteb.ro/functionare_sistem_termoficare.php",
-  "scraped_at": "2026-11-28T13:30:06",
+  "scraped_at": "2026-11-28T14:00:06",
   "status": "ok",
   "outages": [
     {
@@ -99,6 +99,42 @@
       "basis_n": 193,
       "basis_bucket": "sector_cause_slip",
       "zone_raw": "• Str Ion Câmpineanu - Bl. 3, 6, 4, 5, 6A"
+    },
+    {
+      "sector": 2,
+      "pt_name": "24 Delfinului",
+      "blocks": 23,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-28T23:30",
+      "on_time_probability": 0.34,
+      "basis_n": 153,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Delfinului - bl.D30, D21, D16, D20, D18, D19, D11, D17 • Ale Dobrina - bl. D10, D12 • Str Ciocârliei - bl.D25, D27, D26, D28, D13, D29, D15, D8, D14, D9, D24 • Şos Fundeni - bl.D22, D23"
+    },
+    {
+      "sector": 2,
+      "pt_name": "9 Pantelimon",
+      "blocks": 9,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-28T23:30",
+      "on_time_probability": 0.33,
+      "basis_n": 100,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Şos Pantelimon - bl.31, 32, 5, 6, 30, 5A, D2, D1,5F"
+    },
+    {
+      "sector": 2,
+      "pt_name": "8 Pantelimon",
+      "blocks": 12,
+      "service": "Deficienta INC",
+      "cause": "Lipsa parametri pentru livrare încălzire",
+      "estimated_restore": "2026-11-28T23:30",
+      "on_time_probability": 0.316,
+      "basis_n": 98,
+      "basis_bucket": "pt_cause_slip",
+      "zone_raw": "• Str Biserica Mărcuţa - bl.34, 35Bis • Şos Fundeni - bl.11C, 11B, 11D; 11 sc.A+B • Şos Pantelimon - bl.11, 9, 10, 10A, 9A, 11A"
     },
     {
       "sector": 2,
